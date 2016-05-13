@@ -8,4 +8,4 @@ Pdf files can be accessed using the links below:
 - [**Talk list**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=talklist.tex)
 - [**Transcripts**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=transcript.tex)
 
-Latex compiler powered by OnlineLatex [latex.aslushnikov.com](http://latex.aslushnikov.com)
+Latex compiler powered by [OnlineLatex](http://latex.aslushnikov.com)
