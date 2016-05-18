@@ -14,40 +14,29 @@
 \usepackage{comment}
 
 
-\moderncvstyle{banking}    % casual' (default), 'classic', 'oldstyle' and 'banking'
-
-\moderncvcolor{blue}     % 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\moderncvstyle{banking}    % casual', 'classic', 'oldstyle', 'banking'
+\moderncvcolor{blue}     % 'blue', 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\renewcommand{\familydefault}{\sfdefault}    %  '\sfdefault', '\rmdefault' or any tex font name
 %\nopagenumbers{}
 \usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
-
 \setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
-%\setlength{\maketitlenamewidth}{10cm}     % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks.
+%\setlength{\maketitlenamewidth}{10cm}  % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks.
 %\usepackage{natbib}
 %\def\@biblabel{\arabic{enumiv}} 
 
-
-
-
-% customize the enumerate environments (i.e. enumerate, itemize, ...)
-\usepackage{enumitem}
+\usepackage{enumitem} % customize the enumerate environments (i.e. enumerate, itemize, ...)
 \setlist{nolistsep}
-
-
 
 \firstname{Davide}
 \familyname{Gerosa}
 \title{Curriculum Vitae}
-%\mobile{+39~3483538920  \\ +1~6263761421\\}
 \email{d.gerosa@damtp.cam.ac.uk $\;\;\bullet$ \today}
-\mobile{+44~7454009127 }% \\ +39~3483538920\\}
+\mobile{+44~7454009127 }
 
-%\phone{+39~039731286 }
-
-%\extrainfo{ Universit\`{a} degli Studi di Milano \newline{} Dipartimento di Fisica }
-%{ Via Celoria 16 20133 Milano Italy}                         % optional, remove the line if not wanted
-%\homepage{www.johndoe.com}       
-\photo[70pt][0.1pt]{myphoto}                  
+%\extrainfo{  }
+%{ }                         % optional, remove the line if not wanted
+%\homepage{davidegerosa.com}       
+%\photo[70pt][0.1pt]{myphoto}                  
 % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
 %\quote{\small {I am relativistic astrophysicist, studying the impact of Einstein's general relativity on the astrophysical world.
 %My research interests span from binary black-holes as gravitational-wave sources, to gas accretion onto black-holes, galaxy modelling and alternative theories of gravity.}}         
@@ -71,7 +60,7 @@
 %\begin{CJK*}{UTF8}{gbsn}         % to typeset your resume in Chinese using CJK
 \makecvtitle
 
-\cvitem{}{\emph{
+\cvitem{}{\emph{\vspace{-0.6cm}\\
 $\quad$ I am a relativistic astrophysicist, studying the impact of Einstein's general relativity on the astrophysical world.
 My research interests span from binary black holes as gravitational-wave sources, to gas accretion onto black holes, galaxy modeling and alternative theories of gravity.}         
 }
@@ -242,9 +231,9 @@ Centre for Mathematical Sciences, Wilberforce Road, Cambridge CB3 0WA, UK.}
 & &{\textbf{1} paper in conference proceedings}
 \end{tabular}
 }
-\textbf{Total number of citations:} 223 (using ADS and InSpire)
+\textbf{Total number of citations:} 245 (using ADS and InSpire)
 
-\textbf{h-index:} 8
+\textbf{h-index:} 9
 
 \textbf{Web links to list services:}
 \href{http://labs.adsabs.harvard.edu/adsabs/search/?q=author%3A%22Gerosa%2C+Davide%22&month_from=&year_from=&month_to=&year_to=&db_f=&nr=&article=1&bigquery=&re_sort_type=CITED&re_sort_dir=desc}{\textsc{ADS}}; 
@@ -595,7 +584,7 @@ $\;\;$ \textbf{$\bullet$} & &\textit{Spin alignment effects in stellar mass blac
 
 
 \section{Computer Skills}
-\cvitem{}{$\bullet$ Developer of open-source Python module \textsc{precession}: \href{https://github.com/dgerosa/precession}{github.com/dgerosa/precession}. The code performs post-Newtonian inspirals of spinning black-hole binaries using efficient precession tracking.}
+\cvitem{}{$\bullet$ Developer of open-source Python module \textsc{precession}: \href{https://github.com/dgerosa/precession}{github.com/dgerosa/precession}: complete toolbox to study the post-Newtonian dynamics of  spinning black-hole binaries (Gerosa \& Kesden 2015).}
 
 %\cvitem{Operating systems}{Mac OS, Linux, Windows.}
 \cvitem{Coding}{Python (advanced), Mathematica, C, Fortran, %(also with Root, RooFit and Numerical Recipes tools),\newline 
@@ -607,7 +596,7 @@ Bash.}
 \section{Outreach and Service}
 
 
-\cvitemwithcomment{}{Member of the Gravitational Physics committee of the UK Institute of Physics.}{2014-now}
+\cvitemwithcomment{}{Student Member of the Gravitational Physics committee of the UK Institute of Physics (IoP).}{2014-2016}
 \cvitemwithcomment{}{Organizing committee of the international conference "Einstein's Legacy", London Queen Mary.}{2015}
 
 \cvitemwithcomment{}{Actively involved in the Cambridge Science Festival, faculty of Mathematics.}{2015}
@@ -688,7 +677,7 @@ Bash.}
 %
 \section{Hobbies}
 \cvitem{}{Alpinism, rock climbing, alpine skiing and ski touring.}
-\cvitem{}{Jogging; soccer and tennis/squash playing.}
+\cvitem{}{Soccer player (FC Inter fan). Jogging, tennis and squash as well.}
 \cvitem{}{Rock music (great fan of Bruce Springsteen)}%{}{}{I reached the top of Monte Rosa (4554 meters, Italy) and Piz Palù (3882 meters, Switzerland)}{}
 %\cvitem{}{}
 %\cventry{}{Rock music}{}{}{}{}
