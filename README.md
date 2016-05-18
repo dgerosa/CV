@@ -1,11 +1,15 @@
 # Davide Gerosa, CV
 Here is where I keep my (hopefully updated) CV, publication list, talks, etc.
 
+For more information on my research, please visit my personale homepage: [davidegerosa.com](https://davidegerosa.com)
+
 Pdf files can be accessed using the links below:
 
 - [**CV**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=CV.tex)
 - [**Publication list**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=publist.tex)
 - [**Talk list**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=talklist.tex)
 - [**Transcripts**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=transcript.tex)
+
+Additionally, my citation count is available [here](https://docs.google.com/spreadsheets/d/1q5WTVyx7wdANPen5kji3WQ1S0Sm46kwzcf6wGmDFu3Q/pubhtml).
 
 Latex compiler powered by [OnlineLatex](http://latex.aslushnikov.com)
