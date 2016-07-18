@@ -10,6 +10,6 @@ Pdf files can be accessed using the links below:
 - [**Talk list**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=talklist.tex)
 - [**Transcripts**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=transcript.tex)
 
-Additionally, my citation count is available [here](https://docs.google.com/spreadsheets/d/1q5WTVyx7wdANPen5kji3WQ1S0Sm46kwzcf6wGmDFu3Q/pubhtml).
+Additionally, my citation count is available [here](https://davidegerosa.com/citations).
 
 Latex compiler powered by [OnlineLatex](http://latex.aslushnikov.com)
