@@ -6,6 +6,7 @@ For more information on my research, please visit my personale homepage: [davide
 Pdf files can be accessed using the links below:
 
 - [**CV**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=CV.tex)
+- [**CV (long)**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=CVlong.tex)
 - [**Publication list**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=publist.tex)
 - [**Talk list**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=talklist.tex)
 - [**Transcripts**](http://latex.aslushnikov.com/compile?git=https://github.com/dgerosa/CV&force=true&target=transcript.tex)
