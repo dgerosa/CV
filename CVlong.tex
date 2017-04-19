@@ -25,6 +25,19 @@
 %\usepackage{natbib}
 %\def\@biblabel{\arabic{enumiv}} 
 
+
+\long\def\suppress#1\endsuppress{%
+  \begingroup%
+    \tracinglostchars=0%
+    \let\selectfont=\nullfont
+    \nullfont #1\endgroup}
+
+\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
+\newcommand{\mnrasl}{Monthly Notices of the Royal Astronomical Society Letters}
+\newcommand{\prd}{Physical Review D}
+\newcommand{\prl}{Physical Review Letters}
+\newcommand{\cqg}{Classical and Quantum Gravity}
+
 \usepackage{enumitem} % customize the enumerate environments (i.e. enumerate, itemize, ...)
 \setlist{nolistsep}
 
@@ -47,18 +60,6 @@
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 \makeatother
 
-\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
-\newcommand{\mnrasl}{Monthly Notices of the Royal Astronomical Society Letters}
-\newcommand{\prd}{Physical Review D}
-\newcommand{\prl}{Physical Review Letters}
-\newcommand{\cqg}{Classical and Quantum Gravity}
-
-\long\def\suppress#1\endsuppress{%
-  \begingroup%
-    \tracinglostchars=0%
-    \let\selectfont=\nullfont
-    \nullfont #1\endgroup}
-
 
 
 \begin{document}
@@ -71,8 +72,7 @@
 %}
 
 \cvitem{}{\emph{\vspace{-1cm}\\
-$\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying the impact of Einstein's general relativity on the astrophysical world. Research interests include astrophysical inference with gravitational-wave sources, black-hole binary spin dynamics, black-hole recoils, accretion disks and alternative theories of gravity.}         
-}
+$\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying the impact of Einstein's general relativity on the astrophysical world. Research interests include astrophysical inference with gravitational-wave sources, black-hole binary spin dynamics, black-hole recoils, accretion disks and alternative theories of gravity.}}
 
 
 \section{Personal information}
@@ -90,31 +90,30 @@ $\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying 
 \newline{}
 \protect{$~\qquad\qquad\qquad\quad\;\;\;$}
 1200 E California Blvd, Pasadena, CA 91125, USA.}  
-\cvitem{Personal webpage}{\href{http://www.tapir.caltech.edu/~dgerosa}{www.tapir.caltech.edu/\textasciitilde dgerosa}}
+\cvitem{Personal webpage}{\href{http://www.tapir.caltech.edu/~dgerosa}{\texttt{www.tapir.caltech.edu/\textasciitilde dgerosa}}}
 \cvitem{Date of birth}{May 26, 1988.}
 \cvitem{Citizenship}{Italian, EU.}
 %\cvitem{Place of birth}{Sesto San Giovanni MI, Italy.}
-\cvitem{Languages}{English (fluent), Italian (native)}
 %\cvitemwithcomment{English}{Fluent}{TOEFL exam:  109/120, Oct.2012}
-
 
 \section{Research experience}
 
 \cventry{2016 - {current}}{NASA Einstein Fellow}{California Institute of Technology}{Pasadena CA, USA}{}{}
 \vspace{-0.1cm}
 \begin{tabular}{rcl}
-&\hspace{0.4cm} &$\circ\;\;${\textit{Support}}: Einstein postdoctoral prize fellowship, awarded by NASA.\\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Support}}: Einstein postdoctoral prize fellowship.  Part of the NASA prize fellowship program, Einstein\\
+&\hspace{0.4cm} &  \hspace{0.4cm}Fellowships are prestigious awards in theoretical astrophysics consisting of personal research grant at\\
+&\hspace{0.4cm} &  \hspace{0.4cm}selected US institution. See  \href{http://cxc.cfa.harvard.edu/fellows}{\texttt{cxc.cfa.harvard.edu/fellows}}\\
 \end{tabular}
-
 \vspace{0.3cm}
 
 
 \cventry{2013 - 2016}{Ph.D. candidate}{University of Cambridge}{Cambridge, UK}{}{}
 \vspace{-0.1cm}
 \begin{tabular}{rcl}
-&\hspace{0.4cm} &$\circ\;\;${\textit{Support}}: Isaac Newton Studentship and STFC Ph.D. Studentship.\\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Support}}: Isaac Newton Studentship of the University of Cambridge and STFC Ph.D. Studentship.\\
 &\hspace{0.4cm} &$\circ\;\;${\textit{Supervisor}}: Ulrich Sperhake.\\
-&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis}}:  Source modelling at the dawn of gravitational-wave astronomy.\\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis}}: Source modelling at the dawn of gravitational-wave astronomy. Resulted in 14 publications.\\
 %&\hspace{0.4cm} &$\circ\;\;${\textit{Teaching assistant}}: Introduction to General Relativity (Part II, 3rd year undergraduate class);\\
 %&\hspace{0.4cm} &\hspace{3.5cm} Advanced General Relativity (Part III, master class).\\
 %&\hspace{0.4cm} &$\circ\;\;${\textit{Undergraduate summer project mentoring}}: J.~Vosmera, University of Cambridge, 2015;\\
@@ -144,7 +143,7 @@ $\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying 
 \vspace{0.3cm}
 \textbf{\textcolor{black}{Extended research visits:}}\vspace{0.05cm}\\ 
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Institut Astrophysique de Paris. Paris, France}{Jul 2015} \vspace{-0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ University of Mississippi (Olemiss), Oxford MS, USA.}{Aug-Dec 2012} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ University of Mississippi, Oxford MS, USA.}{Aug-Dec 2012} \vspace{-0.1cm}
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Caltech, Pasadena CA, USA. LIGO Summer Undergraduate Research Fellow (SURF).}{Jun-Aug 2012}
 
 
@@ -155,7 +154,7 @@ $\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying 
 \begin{tabular}{rcl}
 &\hspace{0.4cm} &$\circ\;\;${\textit{Final degree grade}}: 110/110 with distinction (``cum laude''),\\
 &\hspace{0.4cm} &$\circ\;\;${\textit{Average class grade}}: 30/30 with 7/12 distinctions (``cum laude''). Top 1\% of my class.\\
-&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis advisors}}: Giuseppe Lodato, Emanuele Berti.\\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis advisors}}: Giuseppe Lodato, Emanuele Berti. Thesis resulted in 2 publications.\\
 %\cvitem{}{Master's thesis: \emph{Black hole spin alignment in astrophysical environments}.}
 \end{tabular}
  
@@ -169,7 +168,8 @@ $\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying 
 %&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis advisor}}:  Dietmar Klemm.\\
 %\cvitem{}{Bachelor's thesis: \emph{Physical applications of Finsler geometry}.}
 \end{tabular}
- 
+
+\pagebreak 
 \vspace{0.3cm}
 \cventry{2002 - 2007}{Scientific High School degree}{\newline Liceo Scientifico Statale Paolo Frisi}{Monza MB, Italy}{}{}  % 
 \vspace{-0.1cm}
@@ -179,46 +179,69 @@ $\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying 
 
 \section{Scholarships and awards}
 
-\cventry{2016 - {current}}{NASA \& Smithsonian Astrophysical Observatory (Harvard)}{Einstein Postdoctoral Prize Fellowship}{Pasadena CA, USA}{}{}
+\cvitemwithcomment{}{\textbf{Einstein Postdoctoral Prize Fellowship}, NASA \& Chandra X-ray center (Harvard)}{2016 - {current}} 
 
-\cventry{2013 - 2016}{DAMTP \& Institute of Astronomy}{Isaac Newton Ph.D. Studentship}{Cambridge, UK}{University of Cambridge}{}
+\cvitemwithcomment{}{\textbf{Isaac Newton Ph.D. Studentship}, DAMTP \& IoA, University of Cambridge}{2013 - 2016} 
 
-\vspace{0.05cm}
-\cventry{2013 - 2016}{UK Science \& Technology Facilities Council}{STFC Ph.D. Studentship}{Cambridge, UK}{}{}
+\cvitemwithcomment{}{\textbf{STFC Ph.D. Studentship}, UK Science \& Technology Facilities Council}{2013 - 2016} 
 
-\vspace{0.05cm}
-\cventry{2015}{Trinity College}{Rouse Ball Travelling Studentship in Mathematics}{Cambridge, UK}{University of Cambridge}{}
+\cvitemwithcomment{}{\textbf{Royal Astronomical Society Travel Grant}, Royal Astronomical Society}{2016} 
 
-\vspace{0.05cm}
-\cventry{2015}{Faculty of Mathematics}{Smith-Rayleigh-Knight Essay Prize}{Cambridge, UK}{University of Cambridge}{}
+\cvitemwithcomment{}{\textbf{Rouse Ball Travelling Studentship in Mathematics}, Trinity College, University of Cambridge}{2015} 
+
+\cvitemwithcomment{}{\textbf{Smith-Rayleigh-Knight Essay Prize}, Faculty of Mathematics, University of Cambridge}{2015} 
+
+\cvitemwithcomment{}{\textbf{LIGO Summer Undergraduate Research Fellowship}, California Institute of Technology}{2012} 
+
+\cvitemwithcomment{}{\textbf{Undergraduate Studentship}, Physics Department, University of Milan}{2007 - 2008} 
+
+
+%
+%\cventry{2016 - {current}}{NASA \& Smithsonian Astrophysical Observatory (Harvard)}{Einstein Postdoctoral Prize Fellowship}{Pasadena CA, USA}{}{}
+%
+%\cventry{2013 - 2016}{DAMTP \& Institute of Astronomy}{Isaac Newton Ph.D. Studentship}{Cambridge, UK}{University of Cambridge}{}
+%
+%\vspace{0.05cm}
+%\cventry{2013 - 2016}{UK Science \& Technology Facilities Council}{STFC Ph.D. Studentship}{Cambridge, UK}{}{}
+%
+%\vspace{0.05cm}
+%\cventry{2016}{Royal Astronomical Society}{Royal Astronomical Society Travel Grant}{London, UK}{}{}
+%
+%\vspace{0.05cm}
+%\cventry{2015}{Trinity College}{Rouse Ball Travelling Studentship in Mathematics}{Cambridge, UK}{University of Cambridge}{}
+%
+%\vspace{0.05cm}
+%\cventry{2015}{Faculty of Mathematics}{Smith-Rayleigh-Knight Essay Prize}{Cambridge, UK}{University of Cambridge}{}
 
 %\vspace{0.05cm}
 %\cventry{2014-2015}{Darwin College}{Travel fund}{Cambridge, UK}{University of Cambridge}{}
 %\vspace{0.05cm}
 %\cventry{2015}{Cambridge Philosophical Society}{Travel fund}{Cambridge, UK}{University of Cambridge}{}
-
-\vspace{0.05cm}
-\cventry{2012}{LIGO Collaboration}{LIGO Summer Undergraduate Research Fellowship}{Pasadena CA, USA}{California Institute of Technology}{}
-
-\vspace{0.05cm}
-\cventry{2007 - 2008}{Physics Department, University of Milan}{Undergraduate Studentship}{Milan, Italy}{}{}
-
+%
+%\vspace{0.05cm}
+%\cventry{2012}{LIGO Collaboration}{LIGO Summer Undergraduate Research Fellowship}{Pasadena CA, USA}{California Institute of Technology}{}
+%
+%\vspace{0.05cm}
+%\cventry{2007 - 2008}{Physics Department, University of Milan}{Undergraduate Studentship}{Milan, Italy}{}{}
+%
 %\cvitem{Nov 2011}{Award assigned by the cultural association "Famiglia Legnanese" to  best Italian College students, Legnano MI, Italy.}
 %\cvitem{Jul 2007}{Award assigned by the website \textit{matematicamente.it} to the best italian high-school research project, presenting my work  {"Do I Dare disturb the Universe?"} about  evidences for dark matter.}
+
 
 \section{Publications}
 %\vspace{0.2cm}
 
 \cvitem{}{
 \begin{tabular}{rcl}
-\textbf{Counts}: &\hspace{0.3cm} &{\textbf{15} papers published in peer-reviewed journals} {(out of which \textbf{10} first-authored)}
+\textbf{Counts}: &\hspace{0.3cm} &{\textbf{15} papers published in peer-reviewed journals} \\
+& &{(out of which \textbf{10} first-authored papers and \textbf{3} papers covered by press release)}
 %\\
 %& &{\textbf{1} submitted paper}
  \\
-& &{\textbf{1} paper in conference proceedings}, {\textbf{3} papers in submission stage}
+& &{\textbf{1} paper in conference proceedings}, {\textbf{2} papers in submission stage}
 \end{tabular}
 }
-\textbf{Total number of citations:} 383 (using ADS and InSpire)
+\textbf{Total number of citations:} 395 (using ADS and InSpire)
 
 \textbf{h-index:} 10
 
@@ -229,7 +252,7 @@ $\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying 
 \href{http://inspirehep.net/search?ln=en&ln=en&p=exactauthor%3AD.Gerosa.1&of=hb&action_search=Search&sf=&so=d&rm=citation&rg=25&sc=0}{\textsc{InSpire}}; 
 \href{http://arxiv.org/a/gerosa_d_1.html}{\textsc{arXiv}}.
 
-\textbf{Full list of publications available at:} \href{http://www.tapir.caltech.edu/~dgerosa/pub}{www.tapir.caltech.edu/\textasciitilde dgerosa/pub}
+\textbf{Full list of publications} available at \href{http://www.tapir.caltech.edu/~dgerosa/pub}{\texttt{www.tapir.caltech.edu/\textasciitilde dgerosa/pub}}
 
 
 
@@ -270,7 +293,7 @@ arXiv:1506.09116 [gr-qc].  %\textbf{PRL Editors' Suggestion}.
 %\textbf{D.~Gerosa}, A.~Sesana.
 %\newline{}
 %\mnras~446 (2015) 38-55. arXiv:1405.2072 [astro-ph.GA]
-\vspace{0.05cm}\\
+%\vspace{0.05cm}\\
 \end{longtable}
 }
 
@@ -289,7 +312,7 @@ arXiv:1506.09116 [gr-qc].  %\textbf{PRL Editors' Suggestion}.
 %\end{tabular}
 }
 
-\textbf{Full list of presentations available at:} \href{http://www.tapir.caltech.edu/~dgerosa/talks}{www.tapir.caltech.edu/\textasciitilde dgerosa/talks}
+\textbf{Full list of presentations} available at \href{http://www.tapir.caltech.edu/~dgerosa/talks}{\texttt{www.tapir.caltech.edu/\textasciitilde dgerosa/talks}}
 
 
 \vspace{+0.2cm}
@@ -306,7 +329,7 @@ arXiv:1506.09116 [gr-qc].  %\textbf{PRL Editors' Suggestion}.
 \vspace{0.05cm}\\
 \textbf{$\circ$} & & \textit{A new instability to black-hole spin precession}
 \newline{}28th Texas Symposium on Relativistic Astrophysics, Geneva, Switzerland, Dec 2015.
-\vspace{0.05cm}\\
+%\vspace{0.05cm}\\
 %\textbf{$\circ$} & & \textit{Analytic solutions to binary black-hole spin precession: recalling Kepler's two-body problem.}
 %\newline{}Compact Objects as Astrophysical and Gravitational Probes, Leiden, The Netherlands, Jan 2015.  \newline{} \textbf{Best young presentation award}
 %\vspace{0.05cm}\\
@@ -319,14 +342,23 @@ arXiv:1506.09116 [gr-qc].  %\textbf{PRL Editors' Suggestion}.
 
 \section{Teaching and Mentoring}
 
-\vspace{0.2cm}
-\textbf{\textcolor{black}{Undergraduate student mentoring:}}\vspace{0.05cm}\\ 
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ J.~Vosmera, University of Cambridge.}{Summer 2015} \vspace{-0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R.~Barbieri, University of Cambridge and University of Pavia.}{Summer 2016} \vspace{-0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ K.~Chamberlain, Caltech (SURF) and Montana State University.}{Summer 2017}
 
 \vspace{0.2cm}
-\textbf{\textcolor{black}{Teaching Assistant:}}\vspace{0.05cm}\\ 
+\textbf{\textcolor{black}{Undergraduate student mentoring:}}\vspace{0.05cm}\\ 
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ J.~Vosmera, University of Cambridge.}{Summer 2015}\vspace{-0.1cm}
+\hspace{0.71cm} \textit{On the equal-mass limit of precessing black-hole binaries}
+
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R.~Barbieri, University of Cambridge and University of Pavia.}
+{Summer 2016} \vspace{-0.1cm}
+\hspace{0.71cm} \textit{Measurability of black-hole kicks with gravitational-wave observations} 
+
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ K.~Chamberlain, Caltech and Montana State University.}{Summer 2017, awarded} \vspace{-0.1cm}
+\hspace{0.71cm} \textit{New frequency-domain gravitational-wave approximant to detect black hole recoils}
+
+
+%
+\vspace{0.2cm}
+\textbf{\textcolor{black}{Teaching assistant:}}\vspace{0.05cm}\\ 
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ University of Cambridge, Part III General Relativity (master class).}{2015-2016} \vspace{-0.1cm}
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  University of Cambridge, Part II General Relativity (3rd-year undergraduate class).}{2014-2016}
 
@@ -359,16 +391,20 @@ arXiv:1506.09116 [gr-qc].  %\textbf{PRL Editors' Suggestion}.
 
 
 
-\section{Computer Skills}
+\section{Skills}
 \cvitem{}{\textbf{Developer} of open-source Python module \textsc{precession} (see \href{https://github.com/dgerosa/precession}{github.com/dgerosa/precession}); toolbox to study the post-Newtonian dynamics of  spinning black-hole binaries.}
+\cvitem{Open source projects}{\textsc{filltex}, automatic queries to fill LaTex bibliography (see \href{https://github.com/dgerosa/filltex}{github.com/dgerosa/filltex}) }
 %\cvitem{Operating systems}{Mac OS, Linux, Windows.}
-\cvitem{Coding}{Python (advanced), Mathematica, C, Fortran, %(also with Root, RooFit and Numerical Recipes tools),\newline 
+\cvitem{Programming languages}{Python (advanced), Mathematica, C, Fortran, %(also with Root, RooFit and Numerical Recipes tools),\newline 
 Bash.}
 \cvitem{Other scientific tools}{LIGO lalsuite, LaTex, GIT, SVN, Gnuplot, SuperMongo.}
+\cvitem{Languages}{English (fluent), Italian (native)}
+
+\newpage{}
 
 \section{Outreach and Service}
 
-\textbf{\textcolor{black}{Referee}} for: The Astrophysical Journal, Monthly Notices of the Royal Astronomical Society, General Relativity and Gravitation, The European Physical Journal Plus
+\textbf{\textcolor{black}{Referee}} for The Astrophysical Journal, Monthly Notices of the Royal Astronomical Society, General Relativity and Gravitation, The European Physical Journal Plus
 
 \vspace{0.2cm}
 \textbf{\textcolor{black}{Organized conferences}}\vspace{0.05cm}\\ 
@@ -382,12 +418,20 @@ Bash.}
 \textbf{\textcolor{black}{Outreach activities}}\vspace{0.05cm}\\ 
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Actively involved in the Cambridge Science Festival, faculty of Mathematics.}{2015}\vspace{-0.1cm}
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Research coverage by the Caltech outreach journal: CURJ, Vol.15 No.1 (2014).}{2014}\vspace{-0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Scientific journalist for the Italian on-line newspaper \href{http://www.ilsussidiario.net}{\textit{ilsussidiario.net}}}{2013-now}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Scientific journalist for the Italian on-line newspaper \href{http://www.ilsussidiario.net}{\textit{ilsussidiario.net}}}{since 2013}\vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  Introductory astronomy and relativity lectures to high-school students}{since 2011}\vspace{-0.1cm}
+
 
 \vspace{0.2cm}
 \textbf{\textcolor{black}{Academic Service}}\vspace{0.05cm}\\ 
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  PhD Representative, Gravitational Physics committee of the UK Institute of Physics.}{2014-2016}\vspace{-0.1cm}
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  Undergraduate Student Representative, Science Faculty Council, University of Milan, Italy}{2008-2012}\vspace{-0.1cm}
+
+
+\vspace{0.2cm}
+\textbf{\textcolor{black}{Memberships}}: LISA Consortium, American Physical Society, Royal Astronomical Society
+
+
 
 %\cvitemwithcomment{}{Actively involved in the Cambridge Science Festival, faculty of Mathematics.}{2015}
 %\cvitemwithcomment{}{Research coverage by the Caltech outreach journal: CURJ, Vol.15 No.1 (2014).}{2014}
@@ -432,14 +476,6 @@ Bash.}
 \cvitem{}{Alpinism, rock climbing, alpine skiing and ski touring.}
 \cvitem{}{Soccer player (FC Inter fan). Jogging, tennis and squash as well.}
 \cvitem{}{Rock music (great fan of Bruce Springsteen).}%{}{}{I reached the top of Monte Rosa (4554 meters, Italy) and Piz Palù (3882 meters, Switzerland)}{}
-
-%
-%\section{References}
-%\cvitem{}{\textbf{Ulrich Sperhake}\newline{}Department of Applied Mathematics and Theoretical Physics, \newline{}University of Cambridge, \newline{}Wilberforce Road, Cambridge CB3 0WA, UK}  
-%\cvitem{}{\textbf{Emanuele Berti}\newline{}Department of Physics and Astronomy, \newline{}The University of Mississippi, \newline{}University, MS 38677, USA}  
-%\cvitem{}{\textbf{Giuseppe Lodato}\newline{}Dipartimento di Fisica, \newline{}Universit\`{a} degli studi di Milano, \newline{}Via Celoria 16, Milano, 20133, Italy}  
-%
-
 
 
  \pagebreak
