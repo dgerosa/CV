@@ -1,3 +1,4 @@
+import sys
 
 mark='%CV_long'
 
@@ -13,8 +14,10 @@ file = open('talklist.tex', 'r')
 talklist = file.read()
 file.close()
 
-CV.replace("\textbf{Full list of publications} available at", "\textbf{Full list of publications} available below and at")
-CV.replace("\textbf{Full list of presentations} available at", "\textbf{Full list of presentations} available below and at")
+
+CV = CV.replace("textbf{Full list of publications} available at", "textbf{Full list of publications} available below and at")
+CV=CV.replace("textbf{Full list of presentations} available at", "textbf{Full list of presentations} available below and at")
+
 
 file = open('CVlong.tex', 'w')
 file.write(CV.split(mark)[0])
