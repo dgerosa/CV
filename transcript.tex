@@ -1,78 +1,106 @@
-\documentclass[a4paper,10pt,notitlepage]{paper}
+\documentclass[11pt,letterpaper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
-\usepackage{amsmath,amssymb,amscd,amsfonts}
-%\usepackage[italian]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage{graphicx,hyperref,verbatim,url,fancyhdr, wrapfig}
+\usepackage{graphicx} 
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{units}
+\usepackage{lineno}
 \usepackage{rotating}
-\usepackage{chngpage,color}
-\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[a4paper,top=2cm,bottom=2cm,left=2.7cm,right=2.7cm]{geometry}
-\pagestyle{empty}
-\fancyhead{ }
-\fancyfoot{ }
-\usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
 
-\renewcommand{\baselinestretch}{1.0} 
 
-\graphicspath{{pics/}}
-\renewcommand*\familydefault{\sfdefault}
+\moderncvstyle{banking}    % casual' (default), 'classic', 'oldstyle' and 'banking'
 
-\def\Tiny{\fontsize{6pt}{6pt}\selectfont}
-\def\HUGE{\fontsize{38pt}{38pt}\selectfont}
+\moderncvcolor{orange}     % 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\definecolor{color1}{rgb}{1.0, 0.25, 0.25}
 
-\newcommand{\de}{\text{d}}
-\renewcommand{\phi}{\varphi}
-\newcommand{\figref}{Fig.\ref}
-\newcommand{\col}[1]{{\textcolor{Orange}{#1}}}
+
+\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}
+\usepackage[top=1.9cm,bottom=1.6cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
+
+\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\setlength{\maketitlenamewidth}{10cm}     % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks.
+%\usepackage{natbib}
+%\def\@biblabel{\arabic{enumiv}} 
+
+
+
+
+% customize the enumerate environments (i.e. enumerate, itemize, ...)
+\usepackage{enumitem}
+\setlist{nolistsep}
+
+
+
+\firstname{Davide}
+\familyname{Gerosa}
+\title{Transcripts}
+%\email{dgerosa@caltech $\;\;\circ$ \today}
+\phone{+1~626-395-6829}
+\email{dgerosa@caltech  $\;\;\bullet\;\;$ \today}
+
+
+\photo[70pt][0.1pt]{myphoto}                  
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
+\newcommand{\mnrasl}{Monthly Notices of the Royal Astronomical Society Letters}
+\newcommand{\prd}{Physical Review D}
+\newcommand{\prl}{\textbf{Physical Review Letters}} % Stress PRL with bf
+\newcommand{\cqg}{Classical and Quantum Gravity}
+\newcommand{\aap}{Astronomy \& Astrophysics}
+
+
+\long\def\suppress#1\endsuppress{%
+  \begingroup%
+    \tracinglostchars=0%
+    \let\selectfont=\nullfont
+    \nullfont #1\endgroup}
+
 
 
 \begin{document}
-\begin{center}
-\begin{huge}
-\textbf{\col{Davide Gerosa - Transcripts}} 
-\end{huge}
-\end{center}
-\vspace{0.3cm}
+\thispagestyle{empty}
+\maketitle
+%\textcolor{color1}{\begin{center}{\huge  \textbf{Davide Gerosa - Publication list}}\end{center}}
+
+\vspace{-1.5cm}
+
 %At the end of this document I enclose the unofficial transcript printed from the web-service of the University of Milan. Since it is available only in Italian, here below I have translated the contents of each course.
 %  \vspace{0.1cm}\\
 %Official transcripts are attached below.
 
-
-{\setstretch{0.9} \small \noindent {\it  Note on the Italian grading system}. Students are graded after each class  on a scale ranging from 0 to 30 with 18 as passing mark. Weights (CFU) are assigned to such individual grades to compute the average class grade. Degrees are awarded after successfully defending a research thesis. Final degree grades range from 0 to 110 with 66 as passing mark. {``Cum laude"} mentions may be added to the highest grades as special distinctions.
-
-}
-
-\section*{\col{Laurea Magistrale (Master's Degree): Astrophysics}}
-Università degli Studi di Milano (Milan, Italy). October 2010 - April 2013\\
-Average class grade: \textbf{30/30} with 7/12 ``cum laude'' mentions. \\
-Final grade: \textbf{110/110 cum laude} \\
-Thesis: {\it Black hole spin alignment in astrophysical environments}. \\
-Advisors: G.~Lodato, E.~Berti\\
-
-%\rotatebox{90}{
-{\centering \footnotesize
-%\begin{tabular}{llll}
-%\bf Course (Italian official name) & \bf Contents &\bf Professor(s) & \bf Final Score \\
-%\hline \hline
-%Elettrodinamica Classica  					&  Classical Electrodynamics	&   Pozzoli & 30/30 cum laude \\	
-%Metodologie di Analisi Dati				&  Statistical Data Analysis	&   Palombo &  30/30 \\	
-%Laboratorio di Ottica 1					&  Physics Laboratory: Astronomical Optics	&   Potenza & 30/30 \\	
-%Astronomia 1 							&  Astronomy 1 &  Bersanelli &  30/30\\	
-%Astronomia 2							&  Astronomy 2 &   Bersanelli &30/30  \\	
-%Fisica Cosmica	1						&  Accretion Disks and Star Formation &   Lodato & 30/30 cum laude \\	
-%Cosmologia  							&  Cosmology &  Lombardi - Maino & 30/30 \\	
-%Gravità e Superstringhe 1 					&  Advanced General Relativity &   Caldarelli - Santambrogio & 30/30 cum laude \\	
-%Astrofisica Nucleare Relativistica 1			&  Stellar Structure and Evolution &  Pizzochero & 30/30 cum laude\\	
-%Astrofisica Nucleare Relativistica 2			&  Compact Stars&  Pizzochero  & 30/30 cum laude\\
-%Astrofisica Teorica 1						&  Dynamics of Spiral Galaxies &   Bertin & 30/30 cum laude\\	
-%Astrofisica Teorica 2						&  Dynamics of Elliptical Galaxies &  Bertin & 30/30 cum laude \\
-%\end{tabular}
+%
+\cventry{}{}{}{}{}{}{\small \textit{Note on the Italian grading system}.  Students are graded after each class  on a scale ranging from 0 to 30 with 18 as passing mark. 
+%Weights (CFU) are assigned to such individual grades to compute the average class grade. 
+Degrees are awarded after successfully defending a research thesis. Final degree grades range from 0 to 110 with 66 as passing mark. {``Cum laude"} mentions may be added to the highest grades as special distinctions.}
+%
 %}
 
-\begin{tabular*}{\linewidth}{l@{\hspace{0.65cm}}l@{\hspace{0.7cm}}l@{\hspace{0.7cm}}l@{\extracolsep{\fill}}}
-%\begin{tabular*}{\linewidth}{lll@{\hspace{0.7cm}}l@{\extracolsep{\fill}}}
-\bf Course (Italian official name) & \bf Contents  & \bf Final Score &\bf Weight (CFU)\\
+\vspace{0.3cm}
+\textcolor{color1}{\large \textbf{Laurea Magistrale (Master's Degree): Astrophysics}}
+\vspace{0.1cm}
+
+Università degli Studi di Milano (Milan, Italy). October 2010 - April 2013\\
+Average class grade: \textbf{30/30} with 7/12 ``cum laude'' mentions. Final grade: \textbf{110/110 cum laude} \\
+Thesis: \textit{Black hole spin alignment in astrophysical environments}. \\
+Advisors: G.~Lodato, E.~Berti\\
+%
+%%\rotatebox{90}{
+
+\vspace{-0.1cm}
+{ \scriptsize
+%\begin{tabular*}{\linewidth}{l	@{\hspace{0.65cm}}l@{\hspace{0.7cm}}l@{\hspace{0.7cm}}l}
+\begin{tabular*}{\linewidth}{l	@{\hspace{1.2cm}}l@{\hspace{1.2cm}}l@{\hspace{1.2cm}}l}
+\textbf{Course (Italian official name)} &  \textbf{Contents}  &  \textbf{Final Score} & \textbf{Weight (CFU)}\\
 \hline \hline
 Elettrodinamica Classica  					&  Classical Electrodynamics	 & 30/30 cum laude &   6 \\	
 Metodologie di Analisi Dati				&  Statistical Data Analysis	&  30/30 &   6 \\
@@ -89,61 +117,25 @@ Astrofisica Teorica 2						&  Dynamics of Elliptical Galaxies & 30/30 cum laude 
 Final thesis						& Research  & Approved &  48\\
 \end{tabular*}
 }
-
-
-
-
-\section*{\col{Laurea Triennale (Bachelor's Degree): Physics}}
-Università degli Studi di Milano (Milan, Italy). October 2007 - December 2010\\
-Average class grade: \textbf{29.84/30} with 18/26  ``cum laude'' mentions.\\
-Final grade: \textbf{110/110 cum laude} \\
-{Thesis}: {\it Applicazioni Fisiche della Geometria di Finsler} (Physical Applications of Finsler Geometry).\\
-Advisors: D.~Klemm,  A.~Santambrogio\\
-
-%\rotatebox{90}{
-
-%{\centering \scriptsize
-%\begin{tabular}{llll}
-%\bf Course (Italian official name) & \bf Contents &\bf Professor(s) & \bf Final Score \\
-%\hline \hline
-%Analisi Matematica 1  					&  Mathematical Analysis 1	&   Paganoni& 30/30 cum laude \\	
-%Analisi Matematica 2  					&  Mathematical Analysis 2	&   Maderna&  30/30 cum laude\\	
-%Analisi Matematica 3  					&  Mathematical Analysis 3	&   Vesely& 30/30 cum laude \\	
-%Fisica 1  								&  Mechanics&  Mandelli &  30/30\\	
-%Fisica 2  								&  Electrostatics and Magnetostatics &   Bellomo&30/30  \\	
-%Fisica 3  								&  Waves, Oscillations and Optics&   Vailati& 30/30 cum laude \\	
-%Fisica 4  								&  Electromagnetism &  Bellomo & 30/30 \\	
-%Fisica 5  								&  Thermodynamics &   Acerbi&  30/30 cum laude\\	
-%Geometria	 1							&  Linear Algebra &   Colombo&  30/30 cum laude\\	
-%Laboratorio di Fisica 1					&  Physics Laboratory: Mechanics &  \\
-%& \quad and Errors Analysis&  Boscolo & 30/30 \\
-%Laboratorio di Fisica 2					&  Physics Laboratory: Wave and Oscillations&  Boscolo &30/30   cum laude\\	
-%Laboratorio di Fisica 3					&  Physics Laboratory: Electromagnetism&  Sorbi & 30/30 cum laude \\	
-%Laboratorio di Fisica 4					&  Physics Laboratory: Optics&   Sorbi& 30/30 \\	
-%Laboratorio di Calcolo 1					&  Numerical Computation 1 (C/C++)&  Spoletini & 30/30  cum laude\\	
-%Laboratorio di Calcolo 2					&  Numerical Computation 2 (C/C++)&   Andreazza&  30/30 cum laude\\	
-%Chimica 1								& Chemistry &  Rossi &  28/30\\	
-%Fisica Moderna 						&  Quantum Mechanics& Lanz  & 30/30  cum laude\\	
-%Meccanica Quantistica 1					&  Quantum Mechanics&  Lanz & 30/30  cum laude\\	
-%Metodi Matematici della Fisica 1			&  Complex Analysis and Fourier Transform &  Valz Gris &  30/30 cum laude\\	
-%Struttura della Materia 1					&  Structure of Matter&  Onida &30/30 cum laude  \\	
-%Istituzioni di Fisica Nucleare e Subnucleare	&  Introduction to Nuclear and Particle Physics& Ragusa  & 28/30 \\	
-%Meccanica Razionale 1					&  Lagrangian/Hamiltonian Mechanics &\\
-%& \quad and Special Relativity&  Galgani & 30/30  cum laude\\	
-%Meccanica Celeste						&  Celestial Mechanics&  Giorgilli - Carpino& 30/30  cum laude\\	
-%Introduzione alla Relatività Generale			&  Introduction to General Relativity& Klemm  & 30/30 cum laude \\	
-%Introduzione all'Astrofisica					&  Introduction to Astrophysics&  Bertin - Mennella - &\\
-%&& \quad Caggianiga& 30/30 \\	
-%Laboratorio di Ottica						&  Physics Laboratory: Fourier Optics& Potenza  & 30/30  cum laude\\	
-%Inglese 1								&  English 1 & --  &Approved  \\	
-%Inglese 2								&  English 2 & -- & Approved\\	
-%\end{tabular}
-%}
+%
+%
 %
 
-{\centering \footnotesize
-\begin{tabular*}{\linewidth}{lll@{\hspace{0.7cm}}l@{\extracolsep{\fill}}}
-\bf Course (Italian official name) & \bf Contents  & \bf Final Score &\bf Weight (CFU) \\
+\vspace{0.3cm}
+\textcolor{color1}{\large \textbf{Laurea Triennale (Bachelor's Degree): Physics}}
+\vspace{0.1cm}
+
+Università degli Studi di Milano (Milan, Italy). October 2007 - December 2010\\
+Average class grade: \textbf{29.84/30} with 18/26  ``cum laude'' mentions.
+Final grade: \textbf{110/110 cum laude} \\
+{Thesis}: \textit{Applicazioni Fisiche della Geometria di Finsler} (Physical Applications of Finsler Geometry).\\
+Advisors: D.~Klemm,  A.~Santambrogio\\
+
+\vspace{-0.1cm}
+{ \scriptsize
+%\begin{tabular*}{\linewidth}{lll@{\hspace{0.7cm}}l@{\extracolsep{\fill}}} 
+\begin{tabular*}{\linewidth}{l	@{\hspace{1.2cm}}l@{\hspace{1.2cm}}l@{\hspace{1.2cm}}l}
+\textbf{Course (Italian official name)} &  \textbf{Contents}  &  \textbf{Final Score} & \textbf{Weight (CFU)}\\
 \hline \hline
 Analisi Matematica 1  					&  Mathematical Analysis	& 30/30 cum laude &8\\	
 Analisi Matematica 2  					&  Mathematical Analysis	&  30/30 cum laude &7\\	
@@ -174,5 +166,5 @@ Laboratorio di Ottica						&  Physics Lab: Fourier Optics&  30/30  cum laude&6\\
 Inglese 1								&  English & Approved  &2\\	
 Inglese 2								&  English & Approved &2\\	
 Final thesis						& Research  & Approved &  9\\
-\end{tabular*}}
+\end{tabular*}}\vspace{-1cm}
 \end{document}
