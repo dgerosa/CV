@@ -56,8 +56,14 @@
     \let\selectfont=\nullfont
     \nullfont #1\endgroup}
 
+\fancypagestyle{headonly}{
+\fancyfoot{}
+\fancyfoot[r]{\textcolor{color2}{\thepage}}
+\fancyhead{}
+}
 
 \begin{document}
+\pagestyle{headonly}
 
 \makecvtitle
 
@@ -67,7 +73,7 @@
 %}
 
 \cvitem{}{\emph{\vspace{-1cm}\\
-$\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying the impact of Einstein's general relativity on the astrophysical world. Research interests include astrophysical inference with gravitational-wave sources, black-hole binary spin dynamics, black-hole recoils, accretion disks and alternative theories of gravity.}}
+$\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying the impact of Einstein's general relativity on the astrophysical world. Research interests include astrophysical inference with gravitational-wave sources, black-hole binary spin dynamics, black-hole recoils, accretion disks and tests of general relativity.}}
 
 
 \section{Personal information}
@@ -85,24 +91,28 @@ $\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying 
 \newline{}
 \protect{$~\qquad\qquad\qquad\quad\;\;\;$}
 1200 E California Blvd, Pasadena, CA 91125, USA.}
+\cvitem{Citizenship}{Italy, EU.}
 \cvitem{Personal webpage}{\href{http://www.tapir.caltech.edu/~dgerosa}{\texttt{www.tapir.caltech.edu/\textasciitilde dgerosa}}}
 %\cvitem{Date of birth}{May 26, 1988.}
-%\cvitem{Citizenship}{Italian, EU.}
 %\cvitem{Place of birth}{Sesto San Giovanni MI, Italy.}
 %\cvitemwithcomment{English}{Fluent}{TOEFL exam:  109/120, Oct.2012}
 
 %\section{References}
+%\vspace{-0.3cm}
 %\begin{longtable}{lp{0.3cm}p{16cm}}
-%\textbf{Ulrich Sperhake} && Lecturer; University of Cambridge, Cambridge, UK.  \\
-% && Visiting Associate; Caltech, Pasadena CA, USA.  \\
+%\textbf{Ulrich Sperhake} && Reader; University of Cambridge, Cambridge, UK.  \\
+%% && Visiting Associate; California Institute of Technology, Pasadena CA, USA.  \\
 % && \texttt{u.sperhake@damtp.cam.ac.uk}
-%  \vspace{0.2cm} \\
+%  \vspace{0.1cm} \\
 %\textbf{Emanuele Berti} && Associate Professor; University of Mississippi, Oxford MS, USA.  \\
-% && Research Professor; Instituto Superior Tecnico, Lisbon, Portugal.  \\
+%% && Research Professor; Instituto Superior Tecnico, Lisbon, Portugal.  \\
 % && \texttt{eberti@olemiss.edu}
-% \vspace{0.2cm} \\
+% \vspace{0.1cm} \\
 %\textbf{Michael Kesden} && Assistant Professor; University of Texas at Dallas, Richardson TX, USA. \\
 % && \texttt{kesden@utdallas.edu}
+% \vspace{0.1cm} \\
+%\textbf{Yanbei Chen} && Professor; California Institute of Technology, Pasadena CA, USA. \\
+% && \texttt{yanbei@caltech.edu}
 %\end{longtable}
 
 \section{Research experience}
@@ -180,6 +190,7 @@ most prestigious prize PhD scholarship in astronomy of the University of Cambrid
 %\cvitem{}{Bachelor's thesis: \emph{Physical applications of Finsler geometry}.}
 \end{tabular}
 
+\newpage{}
 \vspace{0.3cm}
 \cventry{2002 - 2007}{Scientific High School degree}{\newline Liceo Scientifico Statale Paolo Frisi}{Monza MB, Italy}{}{}  %
 \vspace{-0.1cm}
@@ -252,7 +263,7 @@ most prestigious prize PhD scholarship in astronomy of the University of Cambrid
 & &{(out of which \textbf{13} first-authored papers and \textbf{3} papers covered by press releases).}
 \end{tabular}
 }
-\textbf{Total number of citations:} 502 (using ADS and InSpire).
+\textbf{Total number of citations:} 529 (using ADS and InSpire).
 
 \textbf{h-index:} 11
 
@@ -352,15 +363,14 @@ arXiv:1506.09116 [gr-qc].  %\textbf{PRL Editors' Suggestion}.
 \end{longtable}
 }
 
-\newpage{}
+%\newpage{}
 
 \section{Teaching and Mentoring}
 
-%\vspace{0.2cm}
 %\textbf{\textcolor{black}{Ph.D. student projects:}}\vspace{0.05cm}\\
 %\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R. Tso, Caltech.}{2017} \vspace{-0.1cm}
-%\hspace{0.71cm} \textit{Improving black-hole spectroscopy with active interferometer techniques.}
-
+%\hspace{0.71cm} \textit{Black-hole spectroscopy with active interferometer techniques.}
+%
 %\vspace{0.2cm}
 \textbf{\textcolor{black}{Undergraduate student mentoring:}}\vspace{0.05cm}\\
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ J.~Vosmera, University of Cambridge.}{Summer 2015}\vspace{-0.1cm}
@@ -417,21 +427,21 @@ arXiv:1506.09116 [gr-qc].  %\textbf{PRL Editors' Suggestion}.
 \vspace{0.2cm}
 \textbf{\textcolor{black}{Code and data sharing}}\vspace{0.05cm}\\
 \begin{tabular}{rcl}
-&\hspace{0.4cm} &$\circ\;\;${\textit{Developer}} of open-source Python module \textsc{precession} (see \href{https://github.com/dgerosa/precession}{\texttt{github.com/dgerosa/precession}}).
+&\hspace{0.4cm} &$\circ\;\;${\textit{Developer}} of open-source Python module \textsc{precession}, \href{https://github.com/dgerosa/precession}{\texttt{github.com/dgerosa/precession}}.
 \\ &\hspace{0.4cm} &  \hspace{0.4cm}Toolbox to study the post-Newtonian dynamics of  spinning black-hole binaries; used in 10+  publications. \\
-&\hspace{0.4cm} &$\circ\;\;${\textit{Open source project}}: \textsc{filltex}, automatic LaTex bibliography (see \href{https://github.com/dgerosa/filltex}{\texttt{github.com/dgerosa/filltex}}).\\
-&\hspace{0.4cm} &$\circ\;\;${\textit{Research outputs}}: public catalog of numerical-relativity waveform in scalar-tensor theory of gravity.\\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Developer}} of open-source Python module \textsc{gwdet}, \href{https://github.com/dgerosa/gwdet}{\texttt{github.com/dgerosa/gwdet}}.
+\\ &\hspace{0.4cm} &  \hspace{0.4cm}Detectability of gravitational-wave signals from compact binaries. \\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Open source project}}: \textsc{filltex}, automatic LaTex bibliography, \href{https://github.com/dgerosa/filltex}{\texttt{github.com/dgerosa/filltex}}.\\
+&\hspace{0.4cm} &$\circ\;\;$\textit{Research outputs}: public catalog of numerical-relativity waveform in scalar-tensor theory of gravity.\\
 \end{tabular}
 
 \vspace{0.2cm}
 
 \textbf{\textcolor{black}{Organized conferences}}\vspace{0.05cm}\\
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{The disc migration issue: from protoplanets to supermassive  black holes.}}{2017} \vspace{-0.1cm}
-\cvitemwithcomment{}{\protect{$~\quad\;\;\;$}KAVLI Institute, University of Cambridge (SOC \& LOC).}{} \vspace{-0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{Einstein's Legacy: Celebrating 100 yrs of General Relativity.}}{2015} \vspace{-0.1cm}
-\cvitemwithcomment{}{\protect{$~\quad\;\;\;$}Queen Mary University of London (SOC).}{} \vspace{-0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{APS Pacific Coast Gravity Meeting.}}{2018, planned} \vspace{-0.1cm}
-%\cvitemwithcomment{}{\protect{$~\quad\;\;\;$}California Institute of Technology (SOC \& LOC).}{} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{The disc migration issue: from planets to black holes}, University of Cambridge}{2017} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{Einstein's Legacy: Celebrating 100 yrs of General Relativity}, Queen Mary University of London}{2015} \vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{APS Pacific Coast Gravity Meeting}, Caltech}{2018 (planned)} \vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{Numerical Relativity beyond General Relativity}, Benasque Science Center, Spain.}{2018 (planned)} \vspace{-0.1cm}
 
 \vspace{0.2cm}
 \textbf{\textcolor{black}{Outreach activities}}\vspace{0.05cm}\\
@@ -502,11 +512,11 @@ arXiv:1506.09116 [gr-qc].  %\textbf{PRL Editors' Suggestion}.
 \cvitem{Other scientific tools}{LIGO lalsuite, LaTex, GIT, SVN, Gnuplot, SuperMongo. Supercomputer jobs.}
 \cvitem{Languages}{English (fluent), Italian (native).}
 
-\newpage{}
+%\newpage{}
 \section{Hobbies}
-\cvitem{}{Alpinism, rock climbing, alpine skiing and ski touring.}
-\cvitem{}{Soccer player (FC Inter fan). Jogging, tennis and squash as well.}
-\cvitem{}{Rock music (great fan of Bruce Springsteen).}%{}{}{I reached the top of Monte Rosa (4554 meters, Italy) and Piz Palù (3882 meters, Switzerland)}{}
+\cvitem{}{Alpinism, rock climbing, skiing. Climbed to the top of Monte Rosa, 2nd highest mountain in the Alps.}
+\cvitem{}{Avid soccer player (and FC Inter fan). Jogging, tennis and squash player.}
+\cvitem{}{Rock music, great fan of Bruce Springsteen.}%{}{}{I reached the top of Monte Rosa (4554 meters, Italy) and Piz Palù (3882 meters, Switzerland)}{}
 
 
 %CV_long

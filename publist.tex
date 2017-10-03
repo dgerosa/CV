@@ -66,8 +66,15 @@
     \nullfont #1\endgroup}
 
 
+\fancypagestyle{headonly}{
+\fancyfoot{}
+\fancyfoot[r]{\textcolor{color2}{\thepage}}
+\fancyhead{}
+}
 
 \begin{document}
+\pagestyle{headonly}
+
 
 \maketitle
 %\textcolor{color1}{\begin{center}{\huge  \textbf{Davide Gerosa - Publication list}}\end{center}}
