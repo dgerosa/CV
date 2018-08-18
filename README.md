@@ -13,6 +13,4 @@ Pdf files can be accessed using the links below:
 
 Additionally, my citation count is available [here](https://davidegerosa.com/citations).
 
-
-
-Latex compiler powered by [OnlineLatex](http://latex.aslushnikov.com)
+Latex compiler powered by [OnlineLatex](http://latex.aslushnikov.com).
