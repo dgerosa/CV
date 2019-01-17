@@ -1,4 +1,4 @@
-import sys
+import sys,os
 
 mark='%CV_long'
 
@@ -30,3 +30,5 @@ file.write("\n \\section{Full presentation list}\\vspace{0.2cm} \n ")
 file.write(talklist.split(mark)[1])
 file.write("\n \\end{document}")
 file.close()
+
+os.system('pdflatex CVlong')
