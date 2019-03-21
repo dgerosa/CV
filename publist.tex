@@ -13,25 +13,17 @@
 \usepackage{longtable}
 
 
-\moderncvstyle{banking}    % casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{banking}
 
-\moderncvcolor{blue}     % 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{blue}
 \definecolor{color1}{rgb}{1.0, 0.25, 0.25}
+\definecolor{mark_color}{rgb}{1.0, 0.25, 0.25}
 
-
-\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}
+\renewcommand{\familydefault}{\sfdefault} 
 \usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
 
-\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
-%\setlength{\maketitlenamewidth}{10cm}     % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks.
-%\usepackage{natbib}
-%\def\@biblabel{\arabic{enumiv}} 
+\setlength{\hintscolumnwidth}{3cm} 
 
-
-
-
-% customize the enumerate environments (i.e. enumerate, itemize, ...)
 \usepackage{enumitem}
 \setlist{nolistsep}
 
@@ -40,12 +32,9 @@
 \firstname{Davide}
 \familyname{Gerosa}
 \title{Publication list}
-%\email{dgerosa@caltech $\;\;\circ$ \today}
-\phone{+1~626-395-6829}
-\email{dgerosa@caltech.edu $\;\;\bullet\;\;$ \today}
-
-
-\photo[70pt][0.1pt]{myphoto}                  
+%mark_intro
+\email{dgerosa@star.sr.bham.ac.uk $\;\;\bullet\;\;$ \today}
+%mark_intro
 
 \makeatletter
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
@@ -77,50 +66,52 @@
 
 
 \maketitle
-%\textcolor{color1}{\begin{center}{\huge  \textbf{Davide Gerosa - Publication list}}\end{center}}
 
-%\vspace{-0.5cm}
-
+%mark_pubnumbers
 \cvitem{}{
 \begin{tabular}{rcl}
-\textbf{\textcolor{color1}{Counts:}} &\hspace{0.3cm} &{\textbf{29} papers published in major peer-reviewed journals}, {\textbf{4} papers in submission stage,} \\
-& &{\textbf{4} other papers  published in conference proceedings, software journals, etc.}
+\textcolor{mark_color}{\textbf{Counts}}: &\hspace{0.3cm} &{\textbf{28} papers published in major peer-reviewed journals}, {\textbf{5} papers in submission stage,}
+\\
+& &{\textbf{4} other papers published in conference proceedings, software journals, etc,}
 \\
 & &{(out of which \textbf{18} first-authored papers and \textbf{4} papers covered by press releases).}
 \end{tabular}
 }
-\textcolor{color1}{\textbf{Total number of citations:}} \textbf{>1000} (using ADS and InSpire).
+\textcolor{mark_color}{\textbf{Total number of citations}}:  {>1000}  (using ADS and InSpire).
 
-\textcolor{color1}{\textbf{h-index:}} \textbf{17}
+\textcolor{mark_color}{\textbf{h-index}}: 17
 
-%\textbf{Citations:} 342 citations in total (using ADS and InSpire); h-index 10
-
-\textcolor{color1}{\textbf{Web links to list services:}}
-\href{http://labs.adsabs.harvard.edu/adsabs/search/?q=author%3A%22Gerosa%2C+Davide%22&month_from=&year_from=&month_to=&year_to=&db_f=&nr=&article=1&bigquery=&re_sort_type=CITED&re_sort_dir=desc}{\textsc{ADS}}; 
-\href{http://inspirehep.net/search?ln=en&ln=en&p=exactauthor%3AD.Gerosa.1&of=hb&action_search=Search&sf=&so=d&rm=citation&rg=25&sc=0}{\textsc{InSpire}}; 
+\textcolor{mark_color}{\textbf{Web links to list services}}:
+\href{http://labs.adsabs.harvard.edu/adsabs/search/?q=author%3A%22Gerosa%2C+Davide%22&month_from=&year_from=&month_to=&year_to=&db_f=&nr=&article=1&bigquery=&re_sort_type=CITED&re_sort_dir=desc}{\textsc{ADS}};
+\href{http://inspirehep.net/search?ln=en&ln=en&p=exactauthor%3AD.Gerosa.1&of=hb&action_search=Search&sf=&so=d&rm=citation&rg=25&sc=0}{\textsc{InSpire}};
 \href{http://arxiv.org/a/gerosa_d_1.html}{\textsc{arXiv}}.
+%mark_pubnumbers
+
 
 \vspace{0.7cm}
 
 
-
-%CV_long
-
-
-
-
+%mark_publist
 \textcolor{color1}{\textbf{Submitted papers:}}
 \vspace{-0.5cm}
 
 \cvitem{}{\small
 \hspace{-2cm}\begin{longtable}{rp{0.3cm}p{15.8cm}}
 %
-\textbf{4.} & & \textit{Multiband gravitational-wave event rates and stellar physics.} 
+\textbf{5.} & & \textit{Multiband gravitational-wave event rates and stellar physics.} 
 \newline{}
 \textbf{D. Gerosa}, S. Ma, K. W. K. Wong, E. Berti, R. O'Shaughnessy, Y. Chen, K. Belczynski.
 \newline{}
 \href{https://arxiv.org/abs/1902.00021}{arXiv:1902.00021 [astro-ph.HE]}.
 \suppress \cite{2019arXiv190200021G} \endsuppress
+\vspace{0.09cm}\\
+%
+\textbf{4.} & & \textit{The binary black hole explorer: on-the-fly visualizations of precessing binary black holes.} 
+\newline{}
+V. Varma, L. C. Stein, \textbf{D. Gerosa}.
+\newline{}
+\href{https://arxiv.org/abs/1811.06552}{arXiv:1811.06552 [astro-ph.HE]}.
+\suppress \cite{2018arXiv181106552V} \endsuppress
 \vspace{0.09cm}\\
 %
 \textbf{3.} & & \textit{Wide precession: binary black-hole spins repeatedly oscillating from full alignment to full anti-alignment.} 
@@ -151,23 +142,11 @@ K. Belczynski, J. Klencki, G. Meynet, C. L. Fryer, D. A. Brown, M. Chruslinska, 
 }
 
 
-
-
-
-
 \textcolor{color1}{\textbf{Papers in major peer-reviewed journals:}}
 \vspace{-0.5cm}
 
 \cvitem{}{\small
 \hspace{-1cm}\begin{longtable}{rp{0.3cm}p{15.8cm}}
-%
-\textbf{29.} & & \textit{The binary black hole explorer: on-the-fly visualizations of precessing binary black holes.} 
-\newline{}
-V. Varma, L. C. Stein, \textbf{D. Gerosa}.
-\newline{}
-\cqg, in press. \href{https://arxiv.org/abs/1811.06552}{arXiv:1811.06552 [astro-ph.HE]}.
-\suppress \cite{2018arXiv181106552V} \endsuppress
-\vspace{0.09cm}\\
 %
 \textbf{28.} & & \textit{Black holes, gravitational waves and fundamental physics: a roadmap.} 
 \newline{}
@@ -441,7 +420,7 @@ G.~Lodato, \textbf{D.~Gerosa}.
 }
 \vspace{-0.1cm}
 
-%\newpage{}
+
 \textcolor{color1}{\textbf{Conference proceedings, software papers, etc.:}}
 \vspace{-0.5cm}
 
@@ -488,7 +467,7 @@ $\;\;$ \textbf{1.} & & \textit{Rival families: waveforms from resonant black-hol
 %
 \end{longtable}
 }
-%CV_long
+%mark_publist
 
 
 % Do not print bibliography

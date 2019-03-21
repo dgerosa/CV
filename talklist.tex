@@ -13,24 +13,16 @@
 \usepackage{longtable}
 
 
-\moderncvstyle{banking}    % casual' (default), 'classic', 'oldstyle' and 'banking'
-
-\moderncvcolor{blue}     % 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvstyle{banking} 
+\moderncvcolor{blue}
 \definecolor{color1}{rgb}{1.0, 0.25, 0.25}
+\definecolor{mark_color}{rgb}{1.0, 0.25, 0.25}
 
-\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\renewcommand{\familydefault}{\sfdefault} 
 %\nopagenumbers{}
 \usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
 
-\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
-%\setlength{\maketitlenamewidth}{10cm}     % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks.
-%\usepackage{natbib}
-%\def\@biblabel{\arabic{enumiv}} 
-
-
-
-
-% customize the enumerate environments (i.e. enumerate, itemize, ...)
+\setlength{\hintscolumnwidth}{3cm}      
 \usepackage{enumitem}
 \setlist{nolistsep}
 
@@ -39,9 +31,9 @@
 \firstname{Davide}
 \familyname{Gerosa}
 \title{Presentations}
-%\email{dgerosa@caltech $\;\;\circ$ \today}
-\phone{+1~626-395-6829}
-\email{dgerosa@caltech.edu  $\;\;\bullet\;\;$ \today}
+%mark_intro
+\email{dgerosa@star.sr.bham.ac.uk $\;\;\bullet\;\;$ \today}
+%mark_intro
 
 
 %\phone{+39~039731286 }
@@ -59,11 +51,6 @@
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 \makeatother
 
-\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
-\newcommand{\prd}{Physical Review D}
-\newcommand{\prl}{Physical Review Letters}
-\newcommand{\cqg}{Classical and Quantum Gravity}
-
 
 \fancypagestyle{headonly}{
 \fancyfoot{}
@@ -76,28 +63,18 @@
 
 \maketitle
 
-%\textcolor{color1}{\begin{center}{\huge  \textbf{Davide Gerosa - Presentations}}\end{center}}
-%\vspace{-0.5cm}
 
-%\begin{center}\textcolor{gray}{ --- Updated on \textbf{\today} ---}\end{center}
-%\vspace{0,5cm}
-
-%\begin{tabular}{rcl}
-%\textcolor{color1}{\textbf{Presentation counts}}: &\hspace{0.3cm} 
-%&{\textbf{11} talks at conferences} 
-%\\
-%& &{\textbf{11} talks at department seminars}
-% \\
-%& &{\textbf{7} posters at conferences}
-%\end{tabular}
-
+%mark_talknumbers
 \begin{tabular}{rcl}
-\textbf{Counts}: &\hspace{0.3cm} &{\textbf{29} talks at conferences}, {\textbf{27} talks at department seminars}, {\textbf{7} posters at conferences,} \\
+\textcolor{mark_color}{\textbf{Counts}}: &\hspace{0.3cm} &{\textbf{29} talks at conferences}, {\textbf{27} talks at department seminars}, {\textbf{7} posters at conferences,} \\
 & &{(out of which \textbf{39} invited presentations).}
 \end{tabular}
+%mark_talknumbers
+
 
 \vspace{0.5cm}
-%CV_long
+
+%mark_talklist 
 Invited talks marked with *.
 \vspace{0.2cm}
 
@@ -234,7 +211,7 @@ BritGrav 14, Cambridge, UK, Mar 2014.
 \vspace{0.05cm}\\
 \end{longtable}
 }
-%\newpage{}
+\newpage{}
 
 \textcolor{color1}{\textbf{Talks at department seminars:}}
 \vspace{-0.5cm}
@@ -426,6 +403,6 @@ DPG Physics School “General Relativity @99”, Bad Honnef, Germany, Sep 2014.
 %
 \end{longtable}
 }
-%CV_long
+%mark_talklist 
 
 \end{document}

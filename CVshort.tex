@@ -1,0 +1,534 @@
+%\documentclass[11pt,letterpaper,sans]{moderncv}
+\documentclass[a4paper]{moderncv}
+
+
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{units}
+\usepackage{lineno}
+\usepackage{rotating}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{comment}
+\usepackage{xcolor}
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\definecolor{color1}{rgb}{0.0, 0.45, 0.81}
+\definecolor{mark_color}{rgb}{0, 0, 0}
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+\usepackage{enumitem}
+\setlist{nolistsep}
+
+\firstname{Davide}
+\familyname{Gerosa}
+\title{Curriculum Vitae}
+%mark_intro
+\email{dgerosa@star.sr.bham.ac.uk $\;\;\bullet\;\;$ \today}
+%mark_intro
+
+%\extrainfo{\today}
+%{ }
+%\homepage{www.tapir.caltech.edu/\textasciitilde dgerosa}
+%\photo[70pt][0.1pt]{myphoto}
+% '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{\small {I am relativistic astrophysicist, studying the impact of Einstein's general relativity on the astrophysical world.
+%My research interests span from binary black-holes as gravitational-wave sources, to gas accretion onto black-holes, galaxy modelling and alternative theories of gravity.}}
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
+\newcommand{\mnrasl}{Monthly Notices of the Royal Astronomical Society Letters}
+\newcommand{\prd}{Physical Review D}
+\newcommand{\prl}{\textbf{Physical Review Letters}}
+\newcommand{\prlplain}{{Physical Review Letters}}
+\newcommand{\cqg}{Classical and Quantum Gravity}
+\newcommand{\aap}{Astronomy \& Astrophysics}
+
+
+\long\def\suppress#1\endsuppress{%
+  \begingroup%
+    \tracinglostchars=0%
+    \let\selectfont=\nullfont
+    \nullfont #1\endgroup}
+
+\fancypagestyle{headonly}{
+\fancyfoot{}
+\fancyfoot[r]{\textcolor{color2}{\thepage}}
+\fancyhead{}
+}
+
+\begin{document}
+\pagestyle{headonly}
+
+\makecvtitle
+
+\cvitem{}{\emph{\vspace{-1cm}\\
+$\quad$ Relativistic astrophysicist and gravitational-wave astronomer, studying the impact of Einstein's general relativity on the astrophysical world. Research interests include astrophysical inference with gravitational-wave sources, black-hole binary spin dynamics, black-hole recoils, accretion disks and tests of general relativity.}}
+
+
+\section{Personal information}
+
+\cvitem{Present position}{Lecturer in Gravitational-Wave Astronomy.
+\newline{}
+\protect{$~\qquad\qquad\qquad\quad\;\;\;$}
+School of Physics and Astronomy, University of Birmingham,
+\newline{}
+\protect{$~\qquad\qquad\qquad\quad\;\;\;$}
+Edgbaston, Birmingham, B15 2TT, UK.}
+\cvitem{Citizenship}{Italy, EU.}
+\cvitem{Personal webpage}{\href{http://www.davidegerosa.com}{\texttt{www.davidegerosa.com}}}
+
+\section{Research experience}
+
+\cventry{2019-}{Lecturer, Institute for Gravitational Wave Astronomy}{University of Birmingham}{Birmingham, UK}{}{}
+\vspace{-0.1cm}
+\begin{tabular}{rcl}
+&\hspace{0.4cm} &$\circ\;\;${\textit{Responsibilities}}: Research in gravitational-wave astronomy, teaching graduate and undergraduate \\&\hspace{0.4cm} &  
+\hspace{0.4cm}
+classes, mentoring students. UK Lecturer rank is roughly equivalent to Assistant Professor is the US.\\
+\end{tabular}
+\vspace{0.2cm}
+
+\cventry{2016-2019}{NASA Einstein Fellow}{California Institute of Technology}{Pasadena CA, USA}{}{}
+\vspace{-0.1cm}
+\begin{tabular}{rcl}
+&\hspace{0.4cm} &$\circ\;\;${\textit{Support}}: Einstein postdoctoral prize fellowship.  Part of the NASA prize fellowship program, Einstein\\
+&\hspace{0.4cm} &  \hspace{0.4cm}Fellowships are prestigious awards in theoretical astrophysics consisting of personal research grant at\\
+&\hspace{0.4cm} &  \hspace{0.4cm}selected US institution. See  \href{http://cxc.cfa.harvard.edu/fellows}{\texttt{cxc.cfa.harvard.edu/fellows}}.\\
+\end{tabular}
+
+\vspace{0.2cm}
+\cventry{2013-2016}{Ph.D. candidate, Department of Applied Mathematics and Theoretical Physics}{University of Cambridge}{Cambridge, UK}{}{}
+\vspace{-0.1cm}
+\begin{tabular}{rcl}
+&\hspace{0.4cm} &$\circ\;\;${\textit{Support}}: Isaac Newton Studentship; STFC Ph.D. Studentship. The
+Isaac Newton Studentship is the \\&\hspace{0.4cm} &  
+\hspace{0.4cm}only astronomy-specific Ph.D. scholarship of the University of Cambridge.\\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Supervisor}}: Ulrich Sperhake.\\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis}}: Source modelling at the dawn of gravitational-wave astronomy. Resulted in 14 publications.\\
+%&\hspace{0.4cm} &$\circ\;\;${\textit{Examiners}}: Harvey Reall (Cambridge), Carlos  Sopuerta (Barcelona)\\
+\end{tabular}
+
+
+%\vspace{0.3cm}
+%\cventry{Jun-Aug 2012}{LIGO Summer Undergraduate Research Fellow}{California Institute of Technology}{Pasadena CA, USA}{}{}
+%%\cvitem{}{Scientific research within the LIGO SURF (Summer Undergraduate Research Fellowship) program. %Project developed as part of the LIGO Scientific Collaboration.}
+%%\cvitem{}{Project title: Spin Alignment Effects in Black Hole Binaries.}
+%%\cvitem{}{Advisor: Emanuele Berti.}
+%\vspace{-0.1cm}
+%\begin{tabular}{rcl}
+%&\hspace{0.4cm} &$\circ\;\;${\textit{Advisor}}:  Emanuele Berti.\\
+%\end{tabular}
+
+
+\vspace{0.2cm}
+\textbf{\textcolor{black}{Extended research visits:}}\vspace{0.05cm}\\
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Institut Astrophysique de Paris. Paris, France.}{Jul 2015} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ University of Mississippi, Oxford MS, USA.}{Aug-Dec 2012} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Caltech, Pasadena CA, USA. LIGO Summer Undergraduate Research Fellow (SURF).}{Jun-Aug 2012}
+
+
+\section{Education}
+
+\cventry{2010-2013}{Master's degree in Astrophysics}{\newline Universit\`{a} degli Studi di Milano}{Milan, Italy}{}{}
+\vspace{-0.1cm}
+\begin{tabular}{rcl}
+&\hspace{0.4cm} &$\circ\;\;${\textit{Final degree grade}}: 110/110 with distinction (``cum laude'').\\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Average class grade}}: 30/30 with 7/12 distinctions (``cum laude''). Top 1\% of my class.\\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis advisors}}: Giuseppe Lodato, Emanuele Berti. Thesis resulted in 2 publications.\\
+%\cvitem{}{Master's thesis: \emph{Black hole spin alignment in astrophysical environments}.}
+\end{tabular}
+
+\vspace{0.2cm}
+\cventry{2007-2010}{Bachelor's degree in Physics}{Universit\`{a} degli Studi di Milano}{Milan, Italy}{}{}
+\vspace{-0.1cm}
+\begin{tabular}{rcl}
+&\hspace{0.4cm} &$\circ\;\;${\textit{Final degree grade}}: 110/110 with distinction (``cum laude'').\\
+&\hspace{0.4cm} &$\circ\;\;${\textit{Average class grade}}: 29.84/30 with 18/26 distinctions (``cum laude''). Top 1\% of my class.\\
+%&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis advisor}}:  Dietmar Klemm.\\
+%\cvitem{}{Bachelor's thesis: \emph{Physical applications of Finsler geometry}.}
+\end{tabular}
+
+\vspace{0.2cm}
+\cventry{2002-2007}{Scientific High School degree}{\newline Liceo Scientifico Statale Paolo Frisi}{Monza MB, Italy}{}{}  %
+\vspace{-0.1cm}
+\begin{tabular}{rcl}
+&\hspace{0.4cm} &$\circ\;\;${\textit{Final grade}}:  100/100.\\
+\end{tabular}
+
+\section{Grants, scholarships and awards}
+
+\cvitemwithcomment{}{\textbf{NSF Grant PHY-1759835}, US National Science Foundation}{2018}
+\cvitemwithcomment{}{\hspace{0.9cm}Co-PI, 10kUSD, \textit{``Numerical Relativity beyond General Relativity''}}{}
+
+
+\cvitemwithcomment{}{\textbf{Einstein Postdoctoral Prize Fellowship}, NASA.}{2016-2019}
+\cvitemwithcomment{}{\textbf{Giulio Rampa Ph.D Thesis Prize}, Italian Society for General Relativity and Gravitation.}{2018}
+\cvitemwithcomment{}{\textbf{Stefano Braccini Ph.D Thesis Prize}, Gravitational Wave International Committee.}{2017}
+\cvitemwithcomment{}{\textbf{Isaac Newton Ph.D. Studentship}, DAMTP \& IoA, University of Cambridge.}{2013-2016}
+\cvitemwithcomment{}{\textbf{STFC Ph.D. Studentship}, UK Science \& Technology Facilities Council.}{2013-2016}
+\cvitemwithcomment{}{\textbf{Royal Astronomical Society Travel Grant}, Royal Astronomical Society.}{2016}
+\cvitemwithcomment{}{\textbf{Rouse Ball Studentship in Mathematics}, Trinity College, University of Cambridge.}{2015}
+\cvitemwithcomment{}{\textbf{Smith-Rayleigh-Knight Essay Prize}, Faculty of Mathematics, University of Cambridge.}{2015}
+\cvitemwithcomment{}{\textbf{LIGO Summer Undergraduate Research Fellowship}, California Institute of Technology.}{2012}
+\cvitemwithcomment{}{\textbf{Undergraduate Studentship}, Physics Department, University of Milan.}{2007-2008}
+
+
+%\cventry{2014-2015}{Darwin College}{Travel fund}{Cambridge, UK}{University of Cambridge}{}
+%\cventry{2015}{Cambridge Philosophical Society}{Travel fund}{Cambridge, UK}{University of Cambridge}{}
+%\cvitem{Nov 2011}{Award assigned by the cultural association "Famiglia Legnanese" to  best Italian College students, Legnano MI, Italy.}
+%\cvitem{Jul 2007}{Award assigned by the website \textit{matematicamente.it} to the best italian high-school research project, presenting my work  {"Do I Dare disturb the Universe?"} about  evidences for dark matter.}
+
+
+\section{Publications}
+
+%mark_pubnumbers
+\cvitem{}{
+\begin{tabular}{rcl}
+\textcolor{mark_color}{\textbf{Counts}}: &\hspace{0.3cm} &{\textbf{28} papers published in major peer-reviewed journals}, {\textbf{5} papers in submission stage,}
+\\
+& &{\textbf{4} other papers published in conference proceedings, software journals, etc,}
+\\
+& &{(out of which \textbf{18} first-authored papers and \textbf{4} papers covered by press releases).}
+\end{tabular}
+}
+\textcolor{mark_color}{\textbf{Total number of citations}}:  {>1000}  (using ADS and InSpire).
+
+\textcolor{mark_color}{\textbf{h-index}}: 17
+
+\textcolor{mark_color}{\textbf{Web links to list services}}:
+\href{http://labs.adsabs.harvard.edu/adsabs/search/?q=author%3A%22Gerosa%2C+Davide%22&month_from=&year_from=&month_to=&year_to=&db_f=&nr=&article=1&bigquery=&re_sort_type=CITED&re_sort_dir=desc}{\textsc{ADS}};
+\href{http://inspirehep.net/search?ln=en&ln=en&p=exactauthor%3AD.Gerosa.1&of=hb&action_search=Search&sf=&so=d&rm=citation&rg=25&sc=0}{\textsc{InSpire}};
+\href{http://arxiv.org/a/gerosa_d_1.html}{\textsc{arXiv}}.
+%mark_pubnumbers
+
+\textbf{Full list of publications} available below and at \href{http://www.davidegerosa.com/pub}{\texttt{www.davidegerosa.com/pub}}.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+%
+%\vspace{+0.2cm}
+%\cvitem{\textcolor{color1}{Selected publications}}{}
+%\vspace{-0.7cm}
+%
+%\cvitem{}{\small
+%\hspace{-1cm}\begin{longtable}{rp{0.3cm}p{17cm}}
+%%
+%%\textbf{$\circ$} & & \textit{Multi-timescale analysis of phase transitions in precessing black-hole binaries.} 
+%%\newline{}
+%%{D.~Gerosa}, M.~Kesden, U.~Sperhake, E.~Berti, R.~O’Shaughnessy.
+%%\newline{}
+%%\href{http://dx.doi.org/10.1103/PhysRevD.92.064016}{\prd~92 (2015) 064016.} 
+%%\href{https://arxiv.org/abs/1506.03492}{arXiv:1506.03492 [gr-qc]}.
+%%\vspace{0.05cm}\\
+%%
+%\textbf{$\circ$} & & \textit{Precessional instability in binary black holes with aligned spins.} 
+%\newline{}
+%{D.~Gerosa}, M.~Kesden, R.~O’Shaughnessy, A.~Klein, E.~Berti, U.~Sperhake, D.~Trifir\`o.
+%\newline{}
+%\href{http://dx.doi.org/10.1103/PhysRevLett.115.141102}{\prlplain~115 (2015) 141102.} 
+%\href{https://arxiv.org/abs/1506.09116}{arXiv:1506.09116 [gr-qc]}. PRL Editors' Suggestion.
+%\vspace{0.05cm}\\
+%%
+%\textbf{$\circ$} & & \textit{Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation.}
+%\newline{}
+%{D.~Gerosa}, M.~Kesden, E.~Berti, R.~O'Shaughnessy, U.~Sperhake. 
+%\newline{}
+%\href{http://dx.doi.org/10.1103/PhysRevD.87.104028}{\prd~87 (2013) 10, 104028.} 
+%\href{https://arxiv.org/abs/1302.4442}{arXiv:1302.4442 [gr-qc]}.
+%\vspace{0.05cm}\\
+%%
+%\textbf{$\circ$} & & \textit{Black-hole kicks as new gravitational-wave observables.} 
+%\newline{}
+%{D.~Gerosa}, C.~Moore.
+%\newline{}
+%\href{http://dx.doi.org/10.1103/PhysRevLett.117.011101}{\prlplain~117 (2016) 011101.} 
+%\href{https://arxiv.org/abs/1606.04226}{arXiv:1606.04226 [gr-qc]}. PRL Editors' Suggestion.
+%\vspace{0.05cm}\\
+%%
+%%\textbf{$\circ$} & & \textit{Numerical simulations of stellar collapse in scalar-tensor theories of gravity.} 
+%%\newline{}
+%%{D.~Gerosa}, U.~Sperhake, C.~D.~Ott.
+%%\newline{}
+%%\href{http://dx.doi.org/10.1088/0264-9381/33/13/135002}{\cqg~33 (2016) 13, 135002.} 
+%%\href{https://arxiv.org/abs/1602.06952}{arXiv:1602.06952 [gr-qc]}.
+%%%
+%\end{longtable}
+%}
+
+\section{Presentations}
+
+\cvitem{}{
+%mark_talknumbers
+\begin{tabular}{rcl}
+\textcolor{mark_color}{\textbf{Counts}}: &\hspace{0.3cm} &{\textbf{29} talks at conferences}, {\textbf{27} talks at department seminars}, {\textbf{7} posters at conferences,} \\
+& &{(out of which \textbf{39} invited presentations).}
+\end{tabular}
+%mark_talknumbers
+}
+
+\textbf{Full list of presentations} available below and at \href{http://www.davidegerosa.com/talks}{\texttt{www.davidegerosa.com/talks}}.
+
+
+%\vspace{+0.2cm}
+%\cvitem{\textcolor{color1}{Selected presentations}}{}
+%\vspace{-0.7cm}
+%
+%\cvitem{}{\small
+%\hspace{-1cm}\begin{longtable}{rp{0.3cm}p{17cm}}
+%\textbf{$\circ$} & & \textit{What do LIGO's black holes remember?}
+%\newline{} April APS Meeting, Columbus OH, USA, Apr 2018. Invited talk.
+%\vspace{0.05cm}\\
+%\textbf{$\circ$} & & \textit{Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers.}
+%\newline{}12th Edoardo Amaldi Conference, Pasadena CA, USA, Jul 2017. Plenary talk.
+%\vspace{0.05cm}\\
+%\textbf{$\circ$} & & \textit{The kick is in the waveform: detection of black-hole recoils.}
+%\newline{}The Dawning Era of Gravitational-Wave Astrophysics, Aspen CO, USA, Feb 2017.
+%\vspace{0.05cm}\\
+%%\textbf{$\circ$} & & \textit{Averaging the average: multi-timescale analysis of precessing black-hole binaries.}
+%%\newline{}21st International Conference on General Relativity and Gravitation (GR21), New York NY, USA, Jul 2016.
+%%\vspace{0.05cm}\\
+%%\textbf{$\circ$} & & \textit{A new instability to black-hole spin precession.}
+%%\newline{}28th Texas Symposium on Relativistic Astrophysics, Geneva, Switzerland, Dec 2015.
+%%\vspace{0.05cm}\\
+%%\textbf{$\circ$} & & \textit{Analytic solutions to binary black-hole spin precession: recalling Kepler's two-body problem.}
+%%\newline{}Compact Objects as Astrophysical and Gravitational Probes, Leiden, The Netherlands, Jan 2015.  \newline{} \textbf{Best young presentation award}
+%%\vspace{0.05cm}\\
+%%\textbf{$\circ$} & & \textit{Rival families: waveforms from resonant BH binaries as probes of their astrophysical formation history.}
+%%\newline{}3rd Session of the Sant Cugat Forum on Astrophysics, San Cugat, Spain, Apr 2014.
+%\end{longtable}
+%}
+
+%\newpage{}
+\section{Teaching and Mentoring}
+%
+%\textbf{\textcolor{black}{Ph.D. student projects:}}\vspace{0.05cm}\\
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R. Tso, Caltech.}{2018} \vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ V. Varma, Caltech.}{2018} \vspace{-0.1cm}
+%
+%\vspace{0.2cm}
+%\textbf{\textcolor{black}{Undergraduate student mentoring:}}\vspace{0.05cm}\\
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ J.~Vosmera, University of Cambridge. Summer project.}{2015}\vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ B.~Veronesi, University of Milan. Bachelor's thesis.}{2015}\vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R.~Barbieri, University of Cambridge (visiting from University of Pavia). Summer project.}{2016} \vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ K.~Chamberlain, Caltech (visiting from Montana State University). Summer project.}{2017} \vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R.~Barbieri, Caltech (visiting from University of Pavia). Master's thesis.}{2018} \vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ L.~Reali, University of Milan. Bachelor's thesis.}{2018} \vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ A.~Lima, Caltech (visiting from Bowdoin College). Summer project.}{2018} \vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ L.~Reali, University of Birmingham. Summer project.}{2019 (awarded)} \vspace{-0.1cm}
+
+
+\textbf{\textcolor{black}{Ph.D. student projects:}}\vspace{0.05cm}\\
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R. Tso, Caltech.}{2018} \vspace{-0.1cm}
+%\hspace{0.71cm} \textit{Black-hole spectroscopy with active interferometer techniques.} \\
+\vspace{-0.0cm}
+\hspace{0.8cm}Co-supervised with Y. Chen. 
+\vspace{0.1cm}
+
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ V. Varma, Caltech.}{2018} \vspace{-0.1cm}
+%\hspace{0.71cm} \textit{Black-hole spectroscopy with active interferometer techniques.} \\
+\vspace{-0.0cm}
+\hspace{0.8cm}Co-supervised with Y. Chen. Publication: PRL 122 (2019) 011101.
+\vspace{0.2cm}
+
+\newpage{}
+
+%\vspace{0.2cm}
+\textbf{\textcolor{black}{Undergraduate student mentoring:}}\vspace{0.1cm}
+\\
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ J.~Vosmera, University of Cambridge.}{2015}\vspace{-0.1cm}
+%\hspace{0.71cm} \textit{On the equal-mass limit of precessing black-hole binaries.} \\
+\vspace{-0.0cm}
+\hspace{0.8cm}Summer project (CMS program). Main supervisor. Publication: CQG 34 (2017) 6, 064004.
+
+
+\vspace{0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ B.~Veronesi, University of Milan.}{2015}\vspace{-0.1cm}
+%\hspace{0.71cm} \textit{Spin alignment and differential accretion in merging black hole binaries.} \\
+\vspace{-0.0cm}
+\hspace{0.8cm}Bachelor's thesis. Co-supervised with G. Lodato. Publication: MNRAS 451 (2015) 3941-3954. 
+
+\vspace{0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R.~Barbieri, University of Cambridge (visiting from University of Pavia).}{2016}\vspace{-0.1cm}
+%\hspace{0.71cm} \textit{Measuring black-hole kicks with gravitational-wave observations.} \\
+\vspace{-0.0cm}
+\hspace{0.8cm}Summer project (St.~John's College exchange program). Main supervisor.
+\vspace{-0.0cm}
+
+\vspace{0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ K.~Chamberlain, Caltech (visiting from Montana State University).}{2017}\vspace{-0.1cm}
+%\hspace{0.71cm} \textit{New frequency-domain gravitational-wave approximant to detect black hole recoils.}\\
+\vspace{-0.0cm}
+\hspace{0.8cm}Summer project (LIGO SURF program). Main supervisor. Publication: PRD 99 (2019) 024025.
+\vspace{-0.0cm}
+
+\vspace{0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  R.~Barbieri, Caltech (visiting from University of Pavia).}{2018}\vspace{-0.1cm}
+%\hspace{0.71cm} \textit{Interactions of supermassive black-hole binaries and their accretion disks.} \\
+\vspace{-0.0cm}
+\hspace{0.8cm}Master's thesis (APS funded). Main supervisor.
+\vspace{-0.0cm}
+
+\vspace{0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ L.~Reali, University of Milan.}{2018}\vspace{-0.1cm}
+%\hspace{0.71cm} \textit{Visualizing 2PN black-hole binary spin precession.}\\
+\vspace{-0.0cm}
+\hspace{0.8cm}Bachelor's thesis. Main supervisor.
+\vspace{-0.0cm}
+
+\vspace{0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ A.~Lima, Caltech (visiting from Bowdoin College).}{2018}\vspace{-0.1cm}
+%\hspace{0.71cm} \textit{Visualizing 2PN black-hole binary spin precession.}\\
+\vspace{-0.0cm}
+\hspace{0.8cm}Summer project (LIGO SURF program). Main supervisor.
+\vspace{-0.0cm}
+
+\vspace{0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ L.~Reali, University of Birmingham (visiting from University of Milan).}{2019 (awarded)}\vspace{-0.1cm}
+%\hspace{0.71cm} \textit{Visualizing 2PN black-hole binary spin precession.}\\
+\vspace{-0.0cm}
+\hspace{0.8cm}Summer project (HPC-Europa3 award). Main supervisor.
+\vspace{-0.0cm}
+
+
+%
+\vspace{0.2cm}
+\textbf{\textcolor{black}{Teaching assistant:}}\vspace{0.05cm}\\
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ University of Cambridge, Part III General Relativity (master class).}{2015-2016} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  University of Cambridge, Part II General Relativity (3rd-year undergraduate class).}{2014-2016}
+
+
+\section{Outreach and Service}
+
+\textbf{\textcolor{black}{Referee}}\vspace{0.1cm}\\
+\begin{tabular}{@{\hskip 0.4cm}l@{\hskip 0.4in}l}
+$\circ\;$ Physical Review Letters & $\circ\;$ Monthly Notices of the Royal Astronomical Society \\
+$\circ\;$ Physical Review D & $\circ\;$ General Relativity and Gravitation \\
+$\circ\;$ Science Advances & $\circ\;$ Europhysics Letters \\
+$\circ\;$ The Astrophysical Journal &  $\circ\;$ European Physical Journal Plus
+\end{tabular}
+\vspace{+0.15cm}
+% Also Universe, Galaxies, Symmetry
+ 
+ \textbf{\textcolor{black}{Grant proposal reviewer and panelist}}\vspace{0.1cm}\\
+\begin{tabular}{@{\hskip 0.4cm}l}
+$\circ\;$ NASA Astrophysics Theory Program (ATP), USA; \\
+$\circ\;$ NASA Graduate Fellowship Program (NESSF/FINESST), USA; \\
+$\circ\;$ NSF, Physics Division, USA; \\
+$\circ\;$ STFC DiRAC HPC allocation proposals; UK.
+\end{tabular}
+\vspace{+0.15cm}
+
+ \textbf{\textcolor{black}{Editor}}\vspace{0.1cm}\\
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Classical and Quantum Gravity, Focus Issue \textit{``Numerical Relativity Beyond General Relativity".}}{2019} \vspace{-0.1cm}
+\vspace{+0.15cm}
+
+
+
+\textbf{\textcolor{black}{Organized conferences}}\vspace{0.05cm}\\
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{Numerical Relativity beyond General Relativity}, Benasque Science Center, Spain.}{2018} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{APS 34$^\textrm{th}$ Pacific Coast Gravity Meeting}, Caltech.}{2018} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{The disc migration issue: from planets to black holes}, University of Cambridge.}{2017} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{Einstein's Legacy: Celebrating 100 yrs of General Relativity}, Queen Mary University of London.$\!\!\!\!$}{2015} \vspace{-0.1cm}
+
+
+
+%\newpage{}
+
+%
+%\vspace{0.2cm}
+%\textbf{\textcolor{black}{Outreach activities}}\vspace{0.05cm}\\
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ TV Interview on gravitational waves and black-hole kicks aired on Cambridge TV.}{2016}\vspace{-0.1cm}
+%\cvitem{}{\hspace{0.8cm}(see \href{http://www.cambridge-tv.co.uk/davide-gerosa-black-holes/)}{\textit{cambridge-tv.co.uk/davide-gerosa-black-holes}}).\vspace{-0.1cm}}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Actively involved in the Cambridge Science Festival, faculty of Mathematics.}{2015}\vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Research coverage by the Caltech outreach journal: CURJ, Vol.15 No.1 (2014).}{2014}\vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Scientific journalist for the Italian on-line newspaper \href{http://www.ilsussidiario.net}{\textit{ilsussidiario.net}.}}{since 2013}\vspace{-0.1cm}
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  Astronomy and relativity lectures to high-school students.}{since 2011}\vspace{-0.1cm}
+
+%\vspace{0.2cm}
+%\textbf{\textcolor{black}{Professional recognition}}\vspace{0.05cm}\\
+%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  Italian Habilitation  to Associate Professorship in Theoretical Physics}{2018-2024}\vspace{-0.1cm}
+%\cvitem{}{\hspace{0.8cm}(Abilitazione Scientifica Nazionale, Settore 02/A2).}\vspace{-0.1cm}
+
+\newpage{}
+
+%\vspace{0.2cm}
+\textbf{\textcolor{black}{Professional recognition and service}}\vspace{0.05cm}\\
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  Italian Habilitation  to Associate Professorship in Theoretical Physics (ASN 02/A2)}{2018-2024}\vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  Seminar organizer, TAPIR seminar series, Caltech.}{2018-2019}\vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  Observer member in management committee of European COST Action grant ``GWverse''.}{2017-now}\vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  PhD representative, Gravitational Physics committee of the UK Institute of Physics.}{2014-2016}\vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  Undergraduate student representative, Science Faculty Council, University of Milan.}{2008-2012}\vspace{-0.1cm}
+
+\vspace{0.2cm}
+\textbf{\textcolor{black}{Memberships}}\vspace{0.1cm}\\
+\begin{tabular}{@{\hskip 0.4cm}l@{\hskip 0.2in}l}
+$\circ\;$ LISA Consortium (associate member) & $\circ\;$ GWIC 3G Science case subcommittee \\
+$\circ\;$ American Physical Society& $\circ\;$ Royal Astronomical Society\\
+$\circ\;$ International Society on General Relativity and Gravitation&\\
+
+\end{tabular}
+
+
+%\cvitemwithcomment{}{Actively involved in the Cambridge Science Festival, faculty of Mathematics.}{2015}
+%\cvitemwithcomment{}{Research coverage by the Caltech outreach journal: CURJ, Vol.15 No.1 (2014).}{2014}
+%\cvitemwithcomment{}{Scientific journalist for the Italian on-line newspaper \href{http://www.ilsussidiario.net}{\textit{ilsussidiario.net}}}{2013-now}
+
+%\cvitemwithcomment{}{Author in an undergraduate lecture-notes textbook on "Waves and Oscillations" (edited by CUSL press)}{2008}
+
+%
+%\cventry{2008-2012}{Elected undergraduate student representative}{Science Faculty Council and Physics Coordination Committee}{Milan, Italy}{University of Milan}{}
+%
+%\cventry{2004-2006}{High-school student representative, elected in public elections}{Regional High School Student Assembly}{Milan, Italy}{Milan city council, Italy}{}
+%
+%
+%\section{Work Experiences}
+%\cventry{2013}{Liceo Don Gnocchi}{High-school maths teacher}{Carate Brianza MB, Italy}{}{}
+%\cventry{2013}{CEUR foundation}{Maths and physics tutoring for undergraduate students.}{Milan, Italy.}{}{}
+%
+%\cventry{2007-2012}{CUSL press}{Physical sciences publications manager.}{Milan, Italy.}{}{}{}
+%
+%\cvitemwithcomment{}{Introductory \emph{Astronomy} lectures to high-school classes}{{2011-2012}}%Liceo Linguistico M.Candia, Seregno MB, Italy; Collegio della Guastalla, Monza MB, Italy.}
+%%\cvitem{2010}{IT Laboratory keeper; Department of Physics, Universit\`{a} degli Studi di Milano, Milan, Italy.}
+%%\cvitem{2007 - 2013}{Long lasting experience in private tutoring sessions for high-school students (maths and physics).}
+%\cvitemwithcomment{}{Private tutoring sessions for high-school students (maths and physics).}{2007-2013}
+%
+%%\cvitem{2007 - 2012}{Shop assistant and book orders, responsible for the publications in the Physics branch; CUSL press and bookstore, Milan, Italy.}
+%
+%\newpage{}
+
+\section{Skills}
+%\cvitem{Operating systems}{Mac OS, Linux, Windows.}
+\cvitem{Programming languages}{Python (advanced), Bash, Mathematica, C, Fortran. %(also with Root, RooFit and Numerical Recipes tools),\newline
+}
+\cvitem{Other scientific tools}{LIGO lalsuite, LaTex, GIT, SVN, SLURM, Condor, Gnuplot, SuperMongo.}
+\cvitem{Languages}{English (fluent), Italian (native).}
+
+
+%\newpage{}
+\section{Hobbies}
+Alpinism, rock climbing, skiing. Climbed to the top of Monte Rosa, 2nd highest mountain in the Alps.
+\newline{}
+Avid soccer player (and FC Inter fan). Some tennis and squash as well. In love with the US National Parks.
+\newline{}
+Rock music, great fan of Bruce Springsteen. Some photography.%{}{}{I reached the top of Monte Rosa (4554 meters, Italy) and Piz Palù (3882 meters, Switzerland)}{}
+
+
+%mark_short
+
+ \end{document}
