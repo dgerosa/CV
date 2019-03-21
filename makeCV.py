@@ -89,18 +89,7 @@ file.close()
 os.system('pdflatex transcript >/dev/null')
 ##########
 
+print("Cleaning...")
 os.system('rm *aux *bbl *blg *out *log *synctex.gz')
 
-
-##########
-#
-#
-# filltex publist
-#
-# sed -ie 's/\\mnras/Monthly Notices of the Royal Astronomical Society/g' publist.bib
-# sed -ie 's/\\mnrasl/Monthly Notices of the Royal Astronomical Society Letters/g' publist.bib
-# sed -ie 's/\\mnrasl/Monthly Notices of the Royal Astronomical Society Letters/g' publist.bib
-# sed -ie 's/\\prd/Physical Review D/g' publist.bib
-# sed -ie 's/\\prl/Physical Review Letters/g' publist.bib
-# sed -ie 's/\\cqg/Classical and Quantum Gravity/g' publist.bib
-#
+print("Done!")
