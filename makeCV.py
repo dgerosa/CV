@@ -90,6 +90,6 @@ os.system('pdflatex transcript >/dev/null')
 ##########
 
 print("Cleaning...")
-os.system('rm *aux *bbl *blg *out *log *synctex.gz')
+os.system('rm -rf *aux *bbl *blg *out *log *synctex.gz')
 
 print("Done!")
