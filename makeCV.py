@@ -56,6 +56,8 @@ biblio = biblio.replace('\mnrasl', 'Monthly Notices of the Royal Astronomical So
 biblio = biblio.replace('\prd', 'Physical Review D')
 biblio = biblio.replace('\prl', 'Physical Review Letters')
 biblio = biblio.replace('\cqg', 'Classical and Quantum Gravity')
+biblio = biblio.replace('\\aap', 'Astronomy and Astrophysics')
+
 
 file = open('publist.bib', 'w')
 file.write(biblio)
