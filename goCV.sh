@@ -17,11 +17,15 @@ export GITHUB_TOKEN=$(security find-generic-password -w -a $LOGNAME -s githubcvt
 
 DATE=$(date +"%Y-%m-%d-%H-%M")
 
+cp CV.pdf DavideGerosa_fullCV.pdf
+cp CVshort.pdf DavideGerosa_shortCV.pdf
+cp publist.pdf DavideGerosa_publist.pdf
+cp publist.bib DavideGerosa_publist.bib
+cp talklist.pdf DavideGerosa_talklist.pdf
+cp transcript.pdf DavideGerosa_transcript.pdf
+
 githubrelease release dgerosa/CV create $DATE --prerelease
-githubrelease asset dgerosa/CV upload $DATE "CV.pdf"
-githubrelease asset dgerosa/CV upload $DATE "CVshort.pdf"
-githubrelease asset dgerosa/CV upload $DATE "publist.pdf"
-githubrelease asset dgerosa/CV upload $DATE "publist.bib"
-githubrelease asset dgerosa/CV upload $DATE "talklist.pdf"
-githubrelease asset dgerosa/CV upload $DATE "transcript.pdf"
+githubrelease asset dgerosa/CV upload $DATE "DavideGerosa_*"
 githubrelease release dgerosa/CV publish $DATE
+
+rm DavideGerosa_*
