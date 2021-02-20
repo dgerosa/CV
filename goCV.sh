@@ -3,19 +3,23 @@ if [ $# -lt 1 ]; then
     exit 1
 fi
 
-COMMIT_MESSAGE=$1
+echo "Assemble pieces"
 
-echo $COMMIT_MESSAGE
 python makeCV.py
 
+COMMIT_MESSAGE=$1
+echo "Push to repo"
+echo $COMMIT_MESSAGE
 git add -u
 git commit -m $COMMIT_MESSAGE
 git push
 
-
-export GITHUB_TOKEN=$(security find-generic-password -w -a $LOGNAME -s githubcvtoken)
-
 DATE=$(date +"%Y-%m-%d-%H-%M")
+echo "Publish release"
+echo $DATE
+
+# Read github token from mac keychain
+export GITHUB_TOKEN=$(security find-generic-password -w -a $LOGNAME -s githubcvtoken)
 
 cp CV.pdf DavideGerosa_fullCV.pdf
 cp CVshort.pdf DavideGerosa_shortCV.pdf
