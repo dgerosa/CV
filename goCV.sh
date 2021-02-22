@@ -11,7 +11,7 @@ COMMIT_MESSAGE=$1
 echo "Push to repo"
 echo $COMMIT_MESSAGE
 git add -u
-git commit -m $COMMIT_MESSAGE
+git commit -m "$COMMIT_MESSAGE"
 git push
 
 DATE=$(date +"%Y-%m-%d-%H-%M")
