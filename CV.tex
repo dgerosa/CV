@@ -22,13 +22,20 @@
 \definecolor{color1}{rgb}{0.0, 0.45, 0.81}
 \definecolor{mark_color}{rgb}{0, 0, 0}
 
-\renewcommand{\familydefault}{\sfdefault}
+%\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[sfdefault,lf]{carlito}
+%% The 'lf' option for lining figures
+%% The 'sfdefault' option to make the base font sans serif
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{\carlitoOsF #1}
+
 \usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
 \setlength{\hintscolumnwidth}{3cm}
 \usepackage{enumitem}
 \setlist{nolistsep}
 
-\firstname{Davide}
+\firstname{\textsf{Davide}}
 \familyname{Gerosa}
 \title{Curriculum Vitae}
 %mark_intro
@@ -88,10 +95,7 @@ $\quad$ Relativistic astrophysicist, studying the impact of Einstein's general r
 %Lecturer in Gravitational-Wave Astronomy.
 %\newline{}
 %\protect{$~\qquad\qquad\qquad\quad\;\;\;$}
-School of Physics and Astronomy, University of Birmingham,
-\newline{}
-\protect{$~\qquad\qquad\qquad\quad\;\;\;\,$}
-Edgbaston, Birmingham, B15 2TT, UK.}
+School of Physics and Astronomy, University of Birmingham, Birmingham, B15 2TT, UK.}
 \cvitem{Citizenship}{Italy, EU.}
 \cvitem{Personal webpage}{\href{http://www.davidegerosa.com}{\texttt{www.davidegerosa.com}}}
 
@@ -925,9 +929,7 @@ C. J. Moore, \textbf{D.~Gerosa}, A. Klein.
 \href{https://doi.org/10.1093/mnrasl/slz104}{\mnrasl~488 (2019) L94-L98.}%$\!$ 
 \href{https://arxiv.org/abs/1905.11998}{arXiv:1905.11998 [astro-ph.HE]}.
 \suppress \cite{2019MNRAS.488L..94M}\endsuppress
-%\vspace{-\parskip}
-\vspace{-0.31cm}
-\\
+\vspace{0.09cm}\\
 %
 \textbf{30.} & & \textit{Optimizing LIGO with LISA forewarnings to improve black-hole spectroscopy.} 
 \newline{}
@@ -1504,7 +1506,7 @@ BritGrav 14, Cambridge, UK, Mar 2014.
 %
 \textbf{36.} & *& \textit{Entering the data-driven regime of gravitational-wave astronomy.}
 \newline{} 
-Department seminars, Università degli Studi di Milano-Bicocca, Milan, Italy (online), Oct 2020.
+Physics Department seminars, Università degli Studi di Milano-Bicocca, Milan, Italy (online), Oct 2020.
 \vspace{0.05cm}\\
 %
 \textbf{35.} & *& \textit{Waiting for the next black-hole surprise, from the upper mass gap to GW190412.}
@@ -1715,7 +1717,7 @@ Eurostrings 2015, Cambridge, UK, Mar 2015.
 \newline{} 
 Compact Objects as Astrophysical and Gravitational Probes, Leiden, The Netherlands, Jan 2015.
 \newline{} 
-\textbf{Best young presentation award.}
+\textcolor{color1}{$\bullet$} \textbf{Best  presentation award.}
 \vspace{0.05cm}\\
 %
 \textbf{2.} & & \textit{Efficient precession-averaged evolution of spinning black-hole binaries.}
@@ -1737,7 +1739,7 @@ DPG Physics School “General Relativity @99”, Bad Honnef, Germany, Sep 2014.
 \vspace{-0.5cm}
 \cvitem{}{\small
 \hspace{-1cm}\begin{longtable}{rp{0.4cm}p{15.8cm}}
-\textbf{9.} & *& \textit{Esplorare l'Universo con le onde gravitazionali}
+\textbf{9.} & *& \textit{Esplorare l'Universo con le onde gravitazionali.}
 \newline{} 
 Settimana dell'Astronomia, Fondazione Lombardia per l'Ambiente (online), Apr 2021.
 \vspace{0.05cm}\\

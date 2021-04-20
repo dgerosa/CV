@@ -22,7 +22,13 @@
 \definecolor{color1}{rgb}{1.0, 0.25, 0.25}
 \definecolor{mark_color}{rgb}{1.0, 0.25, 0.25}
 
-\renewcommand{\familydefault}{\sfdefault} 
+%\renewcommand{\familydefault}{\sfdefault} 
+\usepackage[sfdefault,lf]{carlito}
+%% The 'lf' option for lining figures
+%% The 'sfdefault' option to make the base font sans serif
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{\carlitoOsF #1}
+
 \usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
 
 \setlength{\hintscolumnwidth}{3cm} 
@@ -352,9 +358,7 @@ C. J. Moore, \textbf{D.~Gerosa}, A. Klein.
 \href{https://doi.org/10.1093/mnrasl/slz104}{\mnrasl~488 (2019) L94-L98.}%$\!$ 
 \href{https://arxiv.org/abs/1905.11998}{arXiv:1905.11998 [astro-ph.HE]}.
 \suppress \cite{2019MNRAS.488L..94M}\endsuppress
-%\vspace{-\parskip}
-\vspace{-0.31cm}
-\\
+\vspace{0.09cm}\\
 %
 \textbf{30.} & & \textit{Optimizing LIGO with LISA forewarnings to improve black-hole spectroscopy.} 
 \newline{}

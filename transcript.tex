@@ -19,8 +19,15 @@
 %\definecolor{color1}{rgb}{1.0, 0.25, 0.25}
 
 
-\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}
+
+\usepackage[sfdefault,lf]{carlito}
+%% The 'lf' option for lining figures
+%% The 'sfdefault' option to make the base font sans serif
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{\carlitoOsF #1}
+
 \usepackage[top=1.9cm,bottom=1.6cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
 
 \setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates

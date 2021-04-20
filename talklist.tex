@@ -18,7 +18,13 @@
 \definecolor{color1}{rgb}{1.0, 0.25, 0.25}
 \definecolor{mark_color}{rgb}{1.0, 0.25, 0.25}
 
-\renewcommand{\familydefault}{\sfdefault} 
+%\renewcommand{\familydefault}{\sfdefault} 
+\usepackage[sfdefault,lf]{carlito}
+%% The 'lf' option for lining figures
+%% The 'sfdefault' option to make the base font sans serif
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{\carlitoOsF #1}
+
 %\nopagenumbers{}
 \usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
 
@@ -271,7 +277,7 @@ BritGrav 14, Cambridge, UK, Mar 2014.
 %
 \textbf{36.} & *& \textit{Entering the data-driven regime of gravitational-wave astronomy.}
 \newline{} 
-Department seminars, Università degli Studi di Milano-Bicocca, Milan, Italy (online), Oct 2020.
+Physics Department seminars, Università degli Studi di Milano-Bicocca, Milan, Italy (online), Oct 2020.
 \vspace{0.05cm}\\
 %
 \textbf{35.} & *& \textit{Waiting for the next black-hole surprise, from the upper mass gap to GW190412.}
@@ -482,7 +488,7 @@ Eurostrings 2015, Cambridge, UK, Mar 2015.
 \newline{} 
 Compact Objects as Astrophysical and Gravitational Probes, Leiden, The Netherlands, Jan 2015.
 \newline{} 
-\textbf{Best young presentation award.}
+\textcolor{color1}{$\bullet$} \textbf{Best  presentation award.}
 \vspace{0.05cm}\\
 %
 \textbf{2.} & & \textit{Efficient precession-averaged evolution of spinning black-hole binaries.}
@@ -504,7 +510,7 @@ DPG Physics School “General Relativity @99”, Bad Honnef, Germany, Sep 2014.
 \vspace{-0.5cm}
 \cvitem{}{\small
 \hspace{-1cm}\begin{longtable}{rp{0.4cm}p{15.8cm}}
-\textbf{9.} & *& \textit{Esplorare l'Universo con le onde gravitazionali}
+\textbf{9.} & *& \textit{Esplorare l'Universo con le onde gravitazionali.}
 \newline{} 
 Settimana dell'Astronomia, Fondazione Lombardia per l'Ambiente (online), Apr 2021.
 \vspace{0.05cm}\\
