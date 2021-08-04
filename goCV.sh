@@ -5,7 +5,8 @@ fi
 
 echo "Assemble pieces"
 
-python makeCV.py
+python3 makeCV.py
+
 
 COMMIT_MESSAGE=$1
 echo "Push to repo"
