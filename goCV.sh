@@ -3,13 +3,13 @@ if [ $# -lt 1 ]; then
     exit 1
 fi
 
-echo "Assemble pieces"
-
 python3 makeCV.py
 
 COMMIT_MESSAGE=$1
 echo "Push to repo"
 echo $COMMIT_MESSAGE
+
+
 git add -u
 git commit -m "$COMMIT_MESSAGE"
 git push
