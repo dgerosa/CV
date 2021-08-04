@@ -7,7 +7,6 @@ echo "Assemble pieces"
 
 python3 makeCV.py
 
-
 COMMIT_MESSAGE=$1
 echo "Push to repo"
 echo $COMMIT_MESSAGE
