@@ -12,7 +12,7 @@ import os
 
 
 # Set to false when testing to avoid API limit
-refresh=False
+refresh=True
 
 #########################################
 print('Read citations from CV')

@@ -5,11 +5,12 @@ fi
 
 python3 makeCV.py
 
+echo " "
+echo " "
+
 COMMIT_MESSAGE=$1
 echo "Push to repo"
 echo $COMMIT_MESSAGE
-
-
 git add -u
 git commit -m "$COMMIT_MESSAGE"
 git push
