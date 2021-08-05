@@ -252,7 +252,7 @@ with open('CV.tex', 'w') as f:
     f.write(CV)
 
 with open('publist.bib','w') as f:
-    f.read(bib)
+    f.write(bib)
 
 
 
