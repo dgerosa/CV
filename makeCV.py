@@ -232,6 +232,9 @@ print("\th-index: ", hindex)
 with open('CV.tex', 'r') as f:
     CV = f.read()
 
+with open('publist.bib','r') as f:
+    bib = f.read()
+
 CV = "%mark_hindex".join([CV.split("%mark_hindex")[0],"\n"+str(hindex)+" ",CV.split("%mark_hindex")[2]])
 
 CV = "%mark_totalnumber".join([CV.split("%mark_totalnumber")[0],"\n"+str(round(totalnumber,-2))+" ",CV.split("%mark_totalnumber")[2]])
@@ -239,10 +242,19 @@ CV = "%mark_totalnumber".join([CV.split("%mark_totalnumber")[0],"\n"+str(round(t
 for have,found in zip(ADSbibs,retrievedbibcodes):
     if have!=found:
         print("\tReplacing ADS key:", have,"-->", found)
+        # Update in CV file
         CV = "".join([CV.split(have)[0],found,CV.split(have)[1]])
+        # Remove outdated entery from bib file
+        bib = "@".join([b for b in bib.split("@") if have not in b])
+
 
 with open('CV.tex', 'w') as f:
     f.write(CV)
+
+with open('publist.bib','w') as f:
+    f.read(bib)
+
+
 
 with open('CV.tex', 'r') as f:
     CV = f.read()
@@ -281,25 +293,24 @@ with open('publist.tex', 'w') as f:
 
 os.system('filltex publist >/dev/null') # Note filltex to get the bibliography right
 
-# #########################################
-# print("Bibbase bibliography")
-# #########################################
-#
-# file= open('publist.bib', 'r')
-# biblio = file.read()
-#
-# # Conversion from ADS to whatever I want in bibbase
-# biblio = biblio.replace('\mnras', 'Monthly Notices of the Royal Astronomical Society')
-# biblio = biblio.replace('\mnrasl', 'Monthly Notices of the Royal Astronomical Society Letters')
-# biblio = biblio.replace('\prd', 'Physical Review D')
-# biblio = biblio.replace('\prl', 'Physical Review Letters')
-# biblio = biblio.replace('\cqg', 'Classical and Quantum Gravity')
-# biblio = biblio.replace('\\aap', 'Astronomy and Astrophysics')
-#
-#
-# file = open('publist.bib', 'w')
-# file.write(biblio)
-# file.close()
+#########################################
+print("Bibbase bibliography")
+#########################################
+
+with open('publist.bib', 'r') as f:
+    biblio = f.read()
+
+# Conversion from ADS to whatever I want in bibbase
+biblio = biblio.replace('\mnras', 'Monthly Notices of the Royal Astronomical Society')
+biblio = biblio.replace('\mnrasl', 'Monthly Notices of the Royal Astronomical Society Letters')
+biblio = biblio.replace('\prd', 'Physical Review D')
+biblio = biblio.replace('\prl', 'Physical Review Letters')
+biblio = biblio.replace('\cqg', 'Classical and Quantum Gravity')
+biblio = biblio.replace('\\aap', 'Astronomy and Astrophysics')
+
+
+with open('publist.bib', 'w') as f:
+    f.write(biblio)
 
 #########################################
 print("Update shortCV")
