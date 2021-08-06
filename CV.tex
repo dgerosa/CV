@@ -1,105 +1,27 @@
-%\documentclass[11pt,letterpaper,sans]{moderncv}
-\documentclass[a4paper]{moderncv}
+\input{preamble}
 
-
-\usepackage{graphicx}
-\usepackage{longtable}
-\usepackage{multirow}
-\usepackage{textcomp}
-\usepackage{units}
-\usepackage{lineno}
-\usepackage{rotating}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage[utf8]{inputenc}
-\usepackage{longtable}
-\usepackage{comment}
-\usepackage{xcolor}
-\newcommand{\rsquo}{{\tt\char'023}}
-
-\moderncvstyle{banking}
-\moderncvcolor{blue}
+\mytitle{Curriculum Vitae}
 \definecolor{color1}{rgb}{0.0, 0.45, 0.81}
 \definecolor{mark_color}{rgb}{0, 0, 0}
-
-%\renewcommand{\familydefault}{\sfdefault}
-
-
-\usepackage[sfdefault,lf]{carlito}
-%% The 'lf' option for lining figures
-%% The 'sfdefault' option to make the base font sans serif
-\usepackage[T1]{fontenc}
-\renewcommand*\oldstylenums[1]{\carlitoOsF #1}
-
-\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
-\setlength{\hintscolumnwidth}{3cm}
-\usepackage{enumitem}
-\setlist{nolistsep}
-
-\firstname{\textsf{Davide}}
-\familyname{Gerosa}
-\title{Curriculum Vitae\vspace{0.15cm}}
-%mark_intro
-\extrainfo{\normalsize d.gerosa@bham.ac.uk $\;\;\bullet\;\;$ \href{http://www.davidegerosa.com}	{www.davidegerosa.com}  $\;\;\bullet\;\;$ \today}
-%mark_intro
-
-%\extrainfo{\today}
-%{ }
-%\homepage{www.tapir.caltech.edu/\textasciitilde dgerosa}
-%\photo[70pt][0.1pt]{myphoto}
-% '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
-%\quote{\small {I am relativistic astrophysicist, studying the impact of Einstein's general relativity on the astrophysical world.
-%My research interests span from binary black-holes as gravitational-wave sources, to gas accretion onto black-holes, galaxy modelling and alternative theories of gravity.}}
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-\makeatletter
-\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-\makeatother
-
-\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
-\newcommand{\mnrasl}{Monthly Notices of the Royal Astronomical Society Letters}
-\newcommand{\prd}{Physical Review D}
-\newcommand{\prdrc}{Physical Review D Rapid Communications}
-\newcommand{\prl}{\textbf{Physical Review Letters}}
-\newcommand{\prlplain}{{Physical Review Letters}}
-\newcommand{\cqg}{Classical and Quantum Gravity}
-\newcommand{\aap}{Astronomy \& Astrophysics}
-\newcommand{\prr}{Physical Review Research}
-\newcommand{\apj}{Astrophysical Journal}
-\newcommand{\apjl}{Astrophysical Journal Letters}
-\newcommand{\grg}{General Relativity and Gravitation}
-\newcommand{\natastro}{Nature Astronomy}
-
-
-\long\def\suppress#1\endsuppress{%
-  \begingroup%
-    \tracinglostchars=0%
-    \let\selectfont=\nullfont
-    \nullfont #1\endgroup}
-
-\fancypagestyle{headonly}{
-\fancyfoot{}
-\fancyfoot[r]{\textcolor{color2}{\thepage}}
-\fancyhead{}
-}
 
 \begin{document}
 \pagestyle{headonly}
 
 \makecvtitle
 
+%mark_CV
 \cvitem{}{\emph{\vspace{-1cm}\\
 $\quad$ Relativistic astrophysicist, studying the impact of Einstein's general relativity on the astrophysical world. Research interests include gravitational-wave physics, black-hole binary dynamics, black-hole recoils, accretion disks, tests of general relativity, and Bayesian inference with machine learning.}}
 
+\section{Contact details}
 
-\section{Personal information}
-
-\cvitem{Present address}{
-%Lecturer in Gravitational-Wave Astronomy.
-%\newline{}
-%\protect{$~\qquad\qquad\qquad\quad\;\;\;$}
+\cvitem{Addess}{
 School of Physics and Astronomy, University of Birmingham, Birmingham, B15 2TT, UK.}
-\cvitem{Citizenship}{Italy, EU.}
-%\cvitem{Personal webpage}{\href{http://www.davidegerosa.com}{\texttt{www.davidegerosa.com}}}
+\cvitem{Phone}{+44 121 414 4656}
+\cvitem{Email}{\href{mailto:d.gerosa@bham.ac.uk}{d.gerosa@bham.ac.uk}}
+\cvitem{Website}{\href{https://www.davidegerosa.com/}{www.davidegerosa.com}}
+
+%\cvitem{Citizenship}{Italy, EU.}
 
 %\section{Current academic positions}
 \section{Academic positions}
@@ -121,7 +43,7 @@ PhD, MSc and BSc thesis advisor; postdoc line manager.
 \begin{tabular}{rcl}
 &\hspace{0.4cm} &$\circ\;\;${\textit{Responsibilities}}: Research-focused appointment; graduate and undergraduate teaching; \\&\hspace{0.4cm} &  
 \hspace{0.4cm}
-MSc and PhD student mentoring; postdoc line manager; BSc student tutoring.\\% UK Lecturer rank is equivalent to Assistant Professor in the US.\\
+MSc and PhD student mentoring; postdoc line manager; BSc student tutoring.\\
 \end{tabular}
 \vspace{0.2cm}
 
@@ -132,19 +54,6 @@ MSc and PhD student mentoring; postdoc line manager; BSc student tutoring.\\% UK
 &\hspace{0.4cm} &  \hspace{0.4cm}Fellowships are prestigious awards in theoretical astrophysics consisting of personal research grant at\\
 &\hspace{0.4cm} &  \hspace{0.4cm}selected US institution. See  \href{http://cxc.cfa.harvard.edu/fellows}{\texttt{cxc.cfa.harvard.edu/fellows}}.\\
 \end{tabular}
-
-
-%\vspace{0.3cm}
-%\cventry{Jun-Aug 2012}{LIGO Summer Undergraduate Research Fellow}{California Institute of Technology}{Pasadena CA, USA}{}{}
-%%\cvitem{}{Scientific research within the LIGO SURF (Summer Undergraduate Research Fellowship) program. %Project developed as part of the LIGO Scientific Collaboration.}
-%%\cvitem{}{Project title: Spin Alignment Effects in Black Hole Binaries.}
-%%\cvitem{}{Advisor: Emanuele Berti.}
-%\vspace{-0.1cm}
-%\begin{tabular}{rcl}
-%&\hspace{0.4cm} &$\circ\;\;${\textit{Advisor}}:  Emanuele Berti.\\
-%\end{tabular}
-
-
 
 
 \section{Education}
@@ -159,8 +68,6 @@ Isaac Newton Studentship is the \\&\hspace{0.4cm} &
 \suppress \cite{2016PhDT.......177G} \endsuppress %ADSkey
 %\suppress \cite{Gerosa:2016joa} \endsuppress %INSPIREkey
 \\
-%&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis}}: Source modelling at the dawn of gravitational-wave astronomy. Resulted in 14 publications.\\
-%&\hspace{0.4cm} &$\circ\;\;${\textit{Examiners}}: Harvey Reall (Cambridge), Carlos  Sopuerta (Barcelona)\\
 \end{tabular}
 
 \vspace{0.2cm}
@@ -169,13 +76,8 @@ Isaac Newton Studentship is the \\&\hspace{0.4cm} &
 \begin{tabular}{rcl}
 &\hspace{0.4cm} &$\circ\;\;${\textit{Final degree grade}}: 110/110 with distinction (``cum laude'').\\
 &\hspace{0.4cm} &$\circ\;\;${\textit{Average class grade}}: 30/30 with 7/12 distinctions (``cum laude'').\\
-% Top 1\% of my class.\\
-%&\hspace{0.4cm} &$\circ\;\;${\textit{Intership}}: Caltech, Pasadena CA, USA; Jun-Aug 2012\\
-%&\hspace{0.4cm} &$\circ\;\;${\textit{Intership}}: Caltech, University of Mississippi, Oxford MS, USA; Aug-Dec 2012\\
 &\hspace{0.4cm} &$\circ\;\;${\textit{Thesis advisors}}: E. Berti, G. Lodato. Thesis resulted in 2 publications.\\
 
-
-%\cvitem{}{Master's thesis: \emph{Black hole spin alignment in astrophysical environments}.}
 \end{tabular}
 
 \vspace{0.2cm}
@@ -184,16 +86,11 @@ Isaac Newton Studentship is the \\&\hspace{0.4cm} &
 \begin{tabular}{rcl}
 &\hspace{0.4cm} &$\circ\;\;${\textit{Final degree grade}}: 110/110 with distinction (``cum laude'').\\
 &\hspace{0.4cm} &$\circ\;\;${\textit{Average class grade}}: 29.84/30 with 18/26 distinctions (``cum laude'').\\
-%Top 1\% of my class.\\
-%&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis advisor}}:  Dietmar Klemm.\\
-%\cvitem{}{Bachelor's thesis: \emph{Physical applications of Finsler geometry}.}
+%&\hspace{0.4cm} &$\circ\;\;${\textit{Thesis advisor}}:  D. Klemm.\\
 \end{tabular}
 
 
-
-
 \vspace{0.2cm}
-%\pagebreak
 \cventry{2002-2007}{Scientific High School degree}{\newline Liceo Scientifico Statale Paolo Frisi}{Monza, Italy}{}{}  %
 \vspace{-0.1cm}
 \begin{tabular}{rcl}
@@ -220,13 +117,7 @@ Isaac Newton Studentship is the \\&\hspace{0.4cm} &
 \cvitemwithcomment{}{\hspace{0.6cm}\textit{``The supermassive black-hole binary puzzle: putting the pieces together''}}{}
 
 
-
-%\cvitemwithcomment{}{\hspace{0.9cm}Co-PI, 10kUSD, \textit{``Numerical Relativity beyond General Relativity''}}{}
-
-
-
 \section{Awards}
-
 
 \textbf{\textcolor{black}{Career prizes:}}
 \vspace{0.1cm}
@@ -246,13 +137,10 @@ Research Prize of the Italian Minister of Cultural Heritage, Lincei National Aca
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ 
 {Stefano Braccini PhD Thesis Prize}, Gravitational Wave International Committee (GWIC).}{2017}
 \vspace{-0.1cm}
-%%%%%%%
-
 
 \vspace{0.2cm}
 \textbf{\textcolor{black}{Scholarships:}}
 \vspace{0.1cm}
-
 
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ 
 {Einstein Postdoctoral Prize Fellowship}, NASA.}{2016-2019}
@@ -308,117 +196,25 @@ Research Prize of the Italian Minister of Cultural Heritage, Lincei National Aca
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$
 {Smith-Rayleigh-Knight Essay Prize}, Faculty of Mathematics, University of Cambridge.}{2015}
 
-
-
-
-
 %\cventry{2014-2015}{Darwin College}{Travel fund}{Cambridge, UK}{University of Cambridge}{}
 %\cventry{2015}{Cambridge Philosophical Society}{Travel fund}{Cambridge, UK}{University of Cambridge}{}
 %\cvitem{Nov 2011}{Award assigned by the cultural association "Famiglia Legnanese" to  best Italian College students, Legnano MI, Italy.}
 %\cvitem{Jul 2007}{Award assigned by the website \textit{matematicamente.it} to the best italian high-school research project, presenting my work  {"Do I Dare disturb the Universe?"} about  evidences for dark matter.}
 
-
 \section{Metrics}
 
-%mark_pubnumbers
-\cvitem{}{
-\begin{tabular}{rcl}
-\textcolor{mark_color}{\textbf{Publications}}: &\hspace{0.3cm} &{\textbf{59} papers published in major peer-reviewed journals}, {\textbf{2} paper in submission stage,}
-\\
-& &{\textbf{8} other publications (white papers, long-authorlist reviews, proceedings, software, etc)}
-\\
-& &{(out of which \textbf{27} first-authored papers and \textbf{7} papers covered by press releases).}
-\end{tabular}
-}
-\textcolor{mark_color}{\textbf{Total number of citations}}: >%mark_totalnumber
-3300 %mark_totalnumber
-. \textcolor{mark_color}{\textbf{h-index}}: %mark_hindex
-31 %mark_hindex
- (using ADS and InSpire).
-
-\textcolor{mark_color}{\textbf{Web links to list services}}:
-\href{https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(doctype%3A%22misc%22%20OR%20doctype%3A%22inproceedings%22%20OR%20doctype%3A%22article%22%20OR%20doctype%3A%22eprint%22)&q=%20author%3A%22Gerosa%2C%20Davide%22&sort=citation_count%20desc%2C%20bibcode%20desc&p_=0}{\textsc{ADS}};
-\href{http://inspirehep.net/search?ln=en&ln=en&p=exactauthor%3AD.Gerosa.1&of=hb&action_search=Search&sf=&so=d&rm=citation&rg=25&sc=0}{\textsc{InSpire}};
-\href{http://arxiv.org/a/gerosa_d_1.html}{\textsc{arXiv}}.
-%mark_pubnumbers
+\input{metricspapers.tex}
 
 \textbf{Full list of publications} available below and at \href{http://www.davidegerosa.com/pub}{\texttt{www.davidegerosa.com/pub}}.
+
 \vspace{0.2cm}
 
-\cvitem{}{
-%mark_talknumbers
-\begin{tabular}{rcl}
-\textcolor{mark_color}{\textbf{Presentations}}: &\hspace{0.3cm} &{\textbf{49} talks at conferences}, {\textbf{36} talks at department seminars}, {\textbf{7} posters at conferences,} \\
-& &{(out of which \textbf{54} invited presentations).}
-\end{tabular}
-%mark_talknumbers
-}
+\input{metricstalks.tex}
 
 \textbf{Full list of presentations} available below and at \href{http://www.davidegerosa.com/talks}{\texttt{www.davidegerosa.com/talks}}.
 
-
-%\vspace{+0.2cm}
-%\cvitem{\textcolor{color1}{Selected presentations}}{}
-%\vspace{-0.7cm}
-%
-%\cvitem{}{\small
-%\hspace{-1cm}\begin{longtable}{rp{0.3cm}p{17cm}}
-%\textbf{$\circ$} & & \textit{What do LIGO's black holes remember?}
-%\newline{} April APS Meeting, Columbus OH, USA, Apr 2018. Invited talk.
-%\vspace{0.05cm}\\
-%\textbf{$\circ$} & & \textit{Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers.}
-%\newline{}12th Edoardo Amaldi Conference, Pasadena CA, USA, Jul 2017. Plenary talk.
-%\vspace{0.05cm}\\
-%\textbf{$\circ$} & & \textit{The kick is in the waveform: detection of black-hole recoils.}
-%\newline{}The Dawning Era of Gravitational-Wave Astrophysics, Aspen CO, USA, Feb 2017.
-%\vspace{0.05cm}\\
-%%\textbf{$\circ$} & & \textit{Averaging the average: multi-timescale analysis of precessing black-hole binaries.}
-%%\newline{}21st International Conference on General Relativity and Gravitation (GR21), New York NY, USA, Jul 2016.
-%%\vspace{0.05cm}\\
-%%\textbf{$\circ$} & & \textit{A new instability to black-hole spin precession.}
-%%\newline{}28th Texas Symposium on Relativistic Astrophysics, Geneva, Switzerland, Dec 2015.
-%%\vspace{0.05cm}\\
-%%\textbf{$\circ$} & & \textit{Analytic solutions to binary black-hole spin precession: recalling Kepler's two-body problem.}
-%%\newline{}Compact Objects as Astrophysical and Gravitational Probes, Leiden, The Netherlands, Jan 2015.  \newline{} \textbf{Best young presentation award}
-%%\vspace{0.05cm}\\
-%%\textbf{$\circ$} & & \textit{Rival families: waveforms from resonant BH binaries as probes of their astrophysical formation history.}
-%%\newline{}3rd Session of the Sant Cugat Forum on Astrophysics, San Cugat, Spain, Apr 2014.
-%\end{longtable}
-%}
-
 \newpage{}
 \section{Teaching and Mentoring}
-%
-%\textbf{\textcolor{black}{Ph.D. student projects:}}\vspace{0.05cm}\\
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R. Tso, Caltech.}{2018} \vspace{-0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ V. Varma, Caltech.}{2018} \vspace{-0.1cm}
-%
-%\vspace{0.2cm}
-%\textbf{\textcolor{black}{Undergraduate student mentoring:}}\vspace{0.05cm}\\
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ J.~Vosmera, University of Cambridge. Summer project.}{2015}\vspace{-0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ B.~Veronesi, University of Milan. Bachelor's thesis.}{2015}\vspace{-0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R.~Barbieri, University of Cambridge (visiting from University of Pavia). Summer project.}{2016} \vspace{-0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ K.~Chamberlain, Caltech (visiting from Montana State University). Summer project.}{2017} \vspace{-0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R.~Barbieri, Caltech (visiting from University of Pavia). Master's thesis.}{2018} \vspace{-0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ L.~Reali, University of Milan. Bachelor's thesis.}{2018} \vspace{-0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ A.~Lima, Caltech (visiting from Bowdoin College). Summer project.}{2018} \vspace{-0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ L.~Reali, University of Birmingham. Summer project.}{2019 (awarded)} \vspace{-0.1cm}
-
-%
-%\textbf{\textcolor{black}{Ph.D. student projects:}}\vspace{0.05cm}\\
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R. Tso, Caltech.}{2018} \vspace{-0.1cm}
-%%\hspace{0.71cm} \textit{Black-hole spectroscopy with active interferometer techniques.} \\
-%\vspace{-0.0cm}
-%\hspace{0.8cm}Co-supervised with Y. Chen. 
-%\vspace{0.1cm}
-%
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ V. Varma, Caltech.}{2018} \vspace{-0.1cm}
-%%\hspace{0.71cm} \textit{Black-hole spectroscopy with active interferometer techniques.} \\
-%\vspace{-0.0cm}
-%\hspace{0.8cm}Co-supervised with Y. Chen. Publication: PRL 122 (2019) 011101.
-%\vspace{0.2cm}
-
-%\newpage{}
 
 Current group members marked with *. 
 %Projects resulted in one of more publications marked with $\star$.
@@ -429,133 +225,82 @@ Current group members marked with *.
 \textbf{\textcolor{black}{Postdoc advisor:}}
 \vspace{0.1cm}
 \\
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ N.~Giacobbo, University of Birmingham.*}{2020-2023}%\vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ N.~Steinle, University of Birmingham.*}{2021-2023}
+\vspace{-0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ N.~Giacobbo, University of Birmingham.}{2020-2021}
 
 \vspace{0.2cm}
 \textbf{\textcolor{black}{Ph.D. student mentoring:}}
 \vspace{0.1cm}
 \\
-%\vspace{0.1cm}
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ D.~Gangardt, University of Birmingham.*}{2020-2023}
 \vspace{-0.1cm}
-
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ M.~Mould, University of Birmingham.*}{2019-2022}%\vspace{-0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ M.~Mould, University of Birmingham.*}{2019-2022}
 
 \vspace{0.2cm}
 \textbf{\textcolor{black}{Undergraduate student mentoring:}}\vspace{0.1cm}
 \\
-%\vspace{0.1cm}
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ M.~Vogel, University of Birmingham and Missouri State, IREU summer project.*}{2020-2021}
 \vspace{-0.1cm}
-
+%
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ M.~Dabrowny, University of Birmingham, Year 4 project.}{2020-2021}
 \vspace{-0.1cm}
-
+%
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ B.~Basset, University of Birmingham and University of Lyon, Master's thesis.}{2020}
 \vspace{-0.1cm}
-
+%
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ J.~Chan, University of Birmingham, Year 4 project.}{2019-2020}
 \vspace{-0.1cm}
-
-
+%
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ A.~Aziz, University of Birmingham, Year 4 project.}{2019-2020}
 \vspace{-0.1cm}
-
+%
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ D.~Gangardt, University of Birmingham, summer project.}{2019}
 \vspace{-0.1cm}
-
-%\vspace{0.1cm}
+%
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ L.~Reali, University of Birmingham and University of Milan, summer project.}{2019}
 \vspace{-0.1cm}
-%\hspace{0.71cm} \textit{Visualizing 2PN black-hole binary spin precession.}\\
-%\vspace{-0.0cm}
-%\hspace{0.8cm}Summer project (HPC-Europa3 award). Main supervisor.
-%\vspace{-0.0cm}
-
-
-%\vspace{0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ A.~Lima, Caltech and Bowdoin College, SURF summer project.}{2018} \vspace{-0.1cm}
-%\hspace{0.71cm} \textit{Visualizing 2PN black-hole binary spin precession.}\\
-%\vspace{-0.0cm}
-%\hspace{0.8cm}Summer project (LIGO SURF program). Main supervisor.
-%\vspace{-0.0cm}
-
-
-
-%\vspace{0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ L.~Reali, University of Milan, Bachelor's thesis.}{2018}\vspace{-0.1cm}
-%\hspace{0.71cm} \textit{Visualizing 2PN black-hole binary spin precession.}\\
-%\vspace{-0.0cm}
-%\hspace{0.8cm}Bachelor's thesis. Main supervisor.
-%\vspace{-0.0cm}
-
-
-
-%\vspace{0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ A.~Lima, Caltech and Bowdoin College, SURF summer project.}{2018} 
+\vspace{-0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ L.~Reali, University of Milan, Bachelor's thesis.}{2018}
+\vspace{-0.1cm}
+%
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  R.~Barbieri, Caltech and University of Pavia, Master's thesis.}{2018}
 \vspace{-0.1cm}
-%\hspace{0.71cm} \textit{Interactions of supermassive black-hole binaries and their accretion disks.} \\
-%\vspace{-0.0cm}
-%\hspace{0.8cm}Master's thesis (APS funded). Main supervisor.
-%\vspace{-0.0cm}
-
-
-%\vspace{0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ K.~Chamberlain, Caltech and Montana State, SURF summer project.}{2017}\vspace{-0.1cm}
-%\hspace{0.71cm} \textit{New frequency-domain gravitational-wave approximant to detect black hole recoils.}\\
-%\vspace{-0.0cm}
-%\hspace{0.8cm}Summer project (LIGO SURF program). Main supervisor. Publication: PRD 99 (2019) 024025.
-%\vspace{-0.0cm}
-
-
-%\vspace{0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R.~Barbieri, University of Cambridge and University of Pavia, summer project.}{2016}\vspace{-0.1cm}
-%\hspace{0.71cm} \textit{Measuring black-hole kicks with gravitational-wave observations.} \\
-%\vspace{-0.0cm}
-%\hspace{0.8cm}Summer project (St.~John's College exchange program). Main supervisor.
-%\vspace{-0.0cm}
-
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ J.~Vosmera, University of Cambridge, summer project.}{2015}\vspace{-0.1cm}
-%\hspace{0.71cm} \textit{On the equal-mass limit of precessing black-hole binaries.} \\
-%\vspace{-0.0cm}
-%\hspace{0.8cm}Summer project (CMS program). Main supervisor. Publication: CQG 34 (2017) 6, 064004.
-
-
-%\vspace{0.1cm}
-%\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ B.~Veronesi, University of Milan (Bachelor's thesis).}{2015}\vspace{-0.1cm}
-%\hspace{0.71cm} \textit{Spin alignment and differential accretion in merging black hole binaries.} \\
-%\vspace{-0.0cm}
-%\hspace{0.8cm}Bachelor's thesis. Co-supervised with G. Lodato. Publication: MNRAS 451 (2015) 3941-3954. 
-
-
-
-%\newpage{}
-
-
-
-
-
-
-
 %
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ K.~Chamberlain, Caltech and Montana State, SURF summer project.}{2017}
+\vspace{-0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ R.~Barbieri, University of Cambridge and University of Pavia, summer project.}{2016}
+\vspace{-0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ J.~Vosmera, University of Cambridge, summer project.}{2015}
+\vspace{-0.1cm}
+
+
 \vspace{0.2cm}
 \textbf{\textcolor{black}{Taught classes:}}\vspace{0.05cm}\\
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ University of Birmingham, Astronomy Laboratory.}{2020-2021} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ University of Birmingham, Astronomy Laboratory.}{2020-2021} 
+\vspace{-0.1cm}
+%
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ University of Birmingham, Black holes and gravitational waves.}{2019-2020} \vspace{-0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ University of Cambridge, Part III General Relativity (teaching assistant).}{2015-2016} 
+\vspace{-0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  University of Cambridge, Part II General Relativity (teaching assistant).}{2014-2016}
+
+
 
 \vspace{0.2cm}
 \textbf{\textcolor{black}{Teaching qualifications:}}\vspace{0.05cm}\\
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ UK Postgraduate Certificate in Higher Education (PGCHE). Graduated with distinction.}{2019-2021} 
 
 
-%\newpage{}
-\vspace{0.2cm}
-\textbf{\textcolor{black}{Teaching assistant:}}\vspace{0.05cm}\\
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ University of Cambridge, Part III General Relativity.}{2015-2016} \vspace{-0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$  University of Cambridge, Part II General Relativity.}{2014-2016}
-
-
-%\section{Outreach and Service}
 \section{Service}
 
  \textbf{\textcolor{black}{Grant proposal reviewer and panelist}}\vspace{0.1cm}\\
@@ -591,27 +336,25 @@ $\circ\;$ The Astrophysical Journal,  &  $\circ\;$ Taylor and Francis Press (tex
 \end{tabular}
 \vspace{0.2cm}
 % Also Universe, Galaxies, Symmetry
- 
-
-% \textbf{\textcolor{black}{Textbook reviewer}}\vspace{0.1cm}\\
-%\begin{tabular}{@{\hskip 0.4cm}l}
-%$\circ\;$ CRC Press, Taylor and Francis Group.
-%\end{tabular}
-%\vspace{0.2cm}
-
 
  \textbf{\textcolor{black}{Editor}}\vspace{0.1cm}\\
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ Classical and Quantum Gravity, Focus Issue \textit{``Numerical Relativity Beyond General Relativity".}}{2019} \vspace{-0.1cm}
 \vspace{0.2cm}
 
 
-
 \textbf{\textcolor{black}{Organized conferences}}\vspace{0.05cm}\\
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{GrEAT (Gravitational-wave Excellence Alliance Training) PhD school}, Birmingham, UK.}{2019} \vspace{-0.1cm}
-
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{Numerical Relativity beyond General Relativity}, Benasque Science Center, Spain.}{2018} \vspace{-0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{APS 34$^\textsf{th}$ Pacific Coast Gravity Meeting}, Caltech.}{2018} \vspace{-0.1cm}
-\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{The disc migration issue: from planets to black holes}, University of Cambridge.}{2017} \vspace{-0.1cm}
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{GrEAT (Gravitational-wave Excellence Alliance Training) PhD school}, Birmingham, UK.}{2019} 
+\vspace{-0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{Numerical Relativity beyond General Relativity}, Benasque Science Center, Spain.}{2018} 
+\vspace{-0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{APS 34$^\textsf{th}$ Pacific Coast Gravity Meeting}, Caltech.}{2018} 
+\vspace{-0.1cm}
+%
+\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{The disc migration issue: from planets to black holes}, University of Cambridge.}{2017} 
+\vspace{-0.1cm}
+%
 \cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ \textit{Einstein's Legacy: Celebrating 100 $\!$yrs of General Relativity}, Queen Mary University of London.$\!\!\!\!$}{2015} \vspace{-0.1cm}
 
 
@@ -656,1317 +399,27 @@ $\circ\;$ International Society on General Relativity and Gravitation.&\\
 \end{tabular}
 
 
-%\cvitemwithcomment{}{Actively involved in the Cambridge Science Festival, faculty of Mathematics.}{2015}
-%\cvitemwithcomment{}{Research coverage by the Caltech outreach journal: CURJ, Vol.15 No.1 (2014).}{2014}
-%\cvitemwithcomment{}{Scientific journalist for the Italian on-line newspaper \href{http://www.ilsussidiario.net}{\textit{ilsussidiario.net}}}{2013-now}
-
-%\cvitemwithcomment{}{Author in an undergraduate lecture-notes textbook on "Waves and Oscillations" (edited by CUSL press)}{2008}
-
-%
-%\cventry{2008-2012}{Elected undergraduate student representative}{Science Faculty Council and Physics Coordination Committee}{Milan, Italy}{University of Milan}{}
-%
-%\cventry{2004-2006}{High-school student representative, elected in public elections}{Regional High School Student Assembly}{Milan, Italy}{Milan city council, Italy}{}
-%
-%
-%\section{Work Experiences}
-%\cventry{2013}{Liceo Don Gnocchi}{High-school maths teacher}{Carate Brianza MB, Italy}{}{}
-%\cventry{2013}{CEUR foundation}{Maths and physics tutoring for undergraduate students.}{Milan, Italy.}{}{}
-%
-%\cventry{2007-2012}{CUSL press}{Physical sciences publications manager.}{Milan, Italy.}{}{}{}
-%
-%\cvitemwithcomment{}{Introductory \emph{Astronomy} lectures to high-school classes}{{2011-2012}}%Liceo Linguistico M.Candia, Seregno MB, Italy; Collegio della Guastalla, Monza MB, Italy.}
-%%\cvitem{2010}{IT Laboratory keeper; Department of Physics, Universit\`{a} degli Studi di Milano, Milan, Italy.}
-%%\cvitem{2007 - 2013}{Long lasting experience in private tutoring sessions for high-school students (maths and physics).}
-%\cvitemwithcomment{}{Private tutoring sessions for high-school students (maths and physics).}{2007-2013}
-%
-%%\cvitem{2007 - 2012}{Shop assistant and book orders, responsible for the publications in the Physics branch; CUSL press and bookstore, Milan, Italy.}
-%
-%\newpage{}
-
 \section{Skills}
-%\cvitem{Operating systems}{Mac OS, Linux, Windows.}
-\cvitem{Programming languages}{Python (advanced), Bash, Mathematica, C, Fortran. %(also with Root, RooFit and Numerical Recipes tools),\newline
+\cvitem{Programming languages}{Python (advanced), Bash, Mathematica, C, Fortran. 
 }
 \cvitem{Other scientific tools}{TensorFlow, LIGO lalsuite, LaTex, git, slurm, website development.}
 \cvitem{Languages}{English (fluent), Italian (native).}
 
 
-%\newpage{}
 \section{Hobbies}
 Bruce Springsteen fanatic. In love with the US National Parks.
 Alpinism, rock climbing, skiing.  Climbed to the top of Monte Rosa, 2nd highest mountain in the Alps. Lots of fantasy books and Tex Willer comics.  Avid soccer player and FC Inter fan. Some tennis and squash as well. 
- Attempts at photography.%{}{}{I reached the top of Monte Rosa (4554 meters, Italy) and Piz Palù (3882 meters, Switzerland)}{}
-
+Attempts at photography.
 
 %mark_short
-
 \pagebreak
 \section{Full publication list}\vspace{0.2cm} 
 
+\input{parsepapers.tex}
 
-%mark_publist
-\textcolor{color1}{\textbf{Submitted papers:}}
-\vspace{-0.5cm}
+\section{Full presentation list}\vspace{0.2cm} 
 
-
-\cvitem{}{\small
-\hspace{-2cm}\begin{longtable}{rp{0.3cm}p{15.8cm}}
-%
-\textbf{2.} & & \textit{Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness.} 
-\newline{}
-M. Dabrowny, N. Giacobbo, \textbf{D. Gerosa}.
-\newline{}
-\href{https://arxiv.org/abs/2106.12541}{arXiv:2106.12541 [astro-ph.HE]}.
-\suppress \cite{2021arXiv210612541D} \endsuppress %ADSkey
-%\suppress \cite{Dabrowny:2021yag} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{1.} & & \textit{Looking for the parents of LIGO's black holes.} 
-\newline{}
-V. Baibhav, E. Berti, \textbf{D. Gerosa}, M. Mould, K. W. K. Wong.
-\newline{}
-\href{https://arxiv.org/abs/2105.12140}{arXiv:2105.12140 [gr-qc]}.
-\suppress \cite{2021arXiv210512140B} \endsuppress %ADSkey
-%\suppress \cite{Baibhav:2021qzw} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\end{longtable}
-}
-
-
-\textcolor{color1}{\textbf{Papers in major peer-reviewed journals:}}
-\vspace{-0.5cm}
-
-\cvitem{}{\small
-\hspace{-1cm}\begin{longtable}{rp{0.3cm}p{15.8cm}}
-%
-\textbf{59.} & & \textit{Inferring the properties of a population of compact binaries in presence of selection effects.} 
-\newline{}
-S. Vitale, \textbf{D. Gerosa}, W. M. Farr, S. R. Taylor.
-\newline{}
-Chapter in ``Handbook of Gravitational Wave Astronomy'', Springer, in press.
-\href{https://arxiv.org/abs/2007.05579}{arXiv:2007.05579 [astro-ph.IM]}.
-\suppress \cite{2020arXiv200705579V} \endsuppress  %ADSkey
-%\suppress \cite{Vitale:2020aaz} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{58.} & & \textit{Bayesian parameter estimation of stellar-mass black-hole binaries with LISA.} 
-\newline{}
-R. Buscicchio, A. Klein, E. Roebber, C. J. Moore, \textbf{D. Gerosa}, E. Finch, A. Vecchio.
-\newline{}
-\prd, in press.
-\href{https://arxiv.org/abs/2106.05259}{arXiv:2106.05259 [astro-ph.HE]}.
-\suppress \cite{2021arXiv210605259B} \endsuppress %ADSkey
-%\suppress \cite{Buscicchio:2021dph} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{57.} & & \textit{Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures.} 
-\newline{}
-\textbf{D. Gerosa}, M. Fishbach.
-\newline{}
-\natastro, in press. 
-\href{https://arxiv.org/abs/2105.03439}{arXiv:2105.03439 [gr-qc]}.
-\newline{}
-\textcolor{color1}{$\bullet$} Review article. Covered by press release. 
-\suppress \cite{2021arXiv210503439G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2021mno} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{56.} & & \textit{High mass but low spin: an exclusion region to rule out hierarchical
-  black-hole mergers as a mechanism to populate the pair-instability mass gap.} 
-\newline{}
-\textbf{D. Gerosa}, N. Giacobbo, A. Vecchio.
-\newline{}
-\href{https://iopscience.iop.org/article/10.3847/1538-4357/ac00bb}{\apj~915 (2021) 56.} \href{https://arxiv.org/abs/2104.11247}{arXiv:2104.11247   [astro-ph.HE]}.
-\suppress \cite{2021ApJ...915...56G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2021hsc} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{55.} & & \textit{Testing general relativity with gravitational-wave catalogs: the insidious nature of waveform systematics.} 
-\newline{}
-C. J. Moore, E. Finch, R. Buscicchio, \textbf{D. Gerosa}.
-\newline{}
-\href{https://www.sciencedirect.com/science/article/pii/S2589004221005459?via\%3Dihub}{iScience 24 (2021) 102577.}
-\href{https://arxiv.org/abs/2103.16486}{arXiv:2103.16486   [gr-qc]}.
-\suppress \cite{2021iSci...24j2577M} \endsuppress %ADSkey
-%\suppress \cite{Moore:2021eok} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{54.} & & \textit{A taxonomy of black-hole binary spin precession and nutation.} 
-\newline{}
-D. Gangardt, N. Steinle, M. Kesden, \textbf{D. Gerosa}, E. Stoikos.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.124026}{\prd~103 (2021) 124026.}
-\href{https://arxiv.org/abs/2103.03894}{arXiv:2103.03894 [gr-qc]}.
-\suppress \cite{2021PhRvD.103l4026G} \endsuppress %ADSkey
-%\suppress \cite{Gangardt:2021lic} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{53.} & & \textit{A generalized precession parameter $\chi_\mathrm{p}$ to interpret gravitational-wave data.}  
-\newline{}
-\textbf{D. Gerosa}, M. Mould, D. Gangardt, P. Schmidt, G. Pratten, L. M. Thomas.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.064067}{\prd~103 (2021) 064067.}
-\href{https://arxiv.org/abs/2011.11948}{arXiv:2011.11948 [gr-qc]}.
-\newline{}
-\textcolor{color1}{$\bullet$} Open source code.
-\suppress \cite{2021PhRvD.103f4067G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2020aiw} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{52.} & & \textit{Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case.}  
-\newline{}
-T. Islam, V. Varma, J. Lodman, S. E. Field, G. Khanna, M. A. Scheel, H. P. Pfeiffer,  \textbf{D. Gerosa}, L. E. Kidder\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.064022}{\prd~103 (2021) 064022.}
-\href{https://arxiv.org/abs/2101.11798}{arXiv:2101.11798 [gr-qc]}.
-\suppress \cite{2021PhRvD.103f4022I} \endsuppress %ADSkey
-%\suppress \cite{Islam:2021mha} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{51.} & & \textit{Up-down instability of binary black holes in numerical relativity.}  
-\newline{}
-V. Varma, M. Mould, \textbf{D. Gerosa}, M. A. Scheel, L. E. Kidder, H. P. Pfeiffer.\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.064003}{\prd~103 (2021) 064003.}
-\href{https://arxiv.org/abs/2012.07147}{arXiv:2012.07147 [gr-qc]}.
-\suppress \cite{2021PhRvD.103f4003V} \endsuppress %ADSkey
-%\suppress \cite{Varma:2020bon} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{50.} & & \textit{Massive black hole binary inspiral and spin evolution in a cosmological framework.} 
-\newline{}
-M. Sayeb, L. Blecha, L. Z. Kelley, \textbf{D. Gerosa}, M Kesden.
-\newline{}
-\href{https://doi.org/10.1093/mnras/staa3826}{\mnras~501 (2021) 2531-2546.}
-\href{https://arxiv.org/abs/2006.06647}{arXiv:2006.06647 [astro-ph.GA]}.
-\suppress \cite{2021MNRAS.501.2531S} \endsuppress %ADSkey
-%\suppress \cite{Sayeb:2020ryl} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{49.} & & \textit{Gravitational-wave selection effects using neural-network classifiers.} 
-\newline{}
-\textbf{D. Gerosa}, G. Pratten, A. Vecchio.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.103020}{\prd~102 (2020) 103020}. 
-\href{https://arxiv.org/abs/2007.06585}{arXiv:2007.06585 [astro-ph.HE]}.
-\newline{}
-\textcolor{color1}{$\bullet$} Open source code.
-\suppress \cite{2020PhRvD.102j3020G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2020pgy} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{48.} & & \textit{Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants.} 
-\newline{}
-L. Reali, M. Mould, \textbf{D. Gerosa}, V. Varma.
-\newline{}
-\href{https://iopscience.iop.org/article/10.1088/1361-6382/abb639/meta}{\cqg~37 (2020) 22, 225005}.
-\href{https://arxiv.org/abs/2005.01747}{arXiv:2005.01747 [gr-qc]}.
-\suppress \cite{2020CQGra..37v5005R} \endsuppress %ADSkey
-%\suppress \cite{Reali:2020vkf} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{47.} & & \textit{Astrophysical implications of GW190412 as a remnant of a previous black-hole merger.} 
-\newline{}
-\textbf{D. Gerosa}, S. Vitale, E. Berti.
-\newline{}
-\href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.101103}{\prl~125 (2020) 101103.} 
-\href{https://arxiv.org/abs/2005.04243}{arXiv:2005.04243 [astro-ph.HE]}.
-\newline{}
-\textcolor{color1}{$\bullet$} Covered by press release. 
-\suppress \cite{2020PhRvL.125j1103G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2020bjb} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{46.} & & \textit{Structure of neutron stars in massive scalar-tensor gravity.} 
-\newline{}
-R. Rosca-Mead, C. J. Moore, U. Sperhake, M. Agathos, \textbf{D. Gerosa}.
-\newline{}
-\href{https://www.mdpi.com/2073-8994/12/9/1384}{Symmetry 12 (2020) 1384.}
-\href{https://arxiv.org/abs/2007.14429}{arXiv:2007.14429 [gr-qc]}.
-\suppress \cite{2020Symm...12.1384R} \endsuppress %ADSkey
-%\suppress \cite{Rosca-Mead:2020bzt} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{45.} & & \textit{Core collapse in massive scalar-tensor gravity.} 
-\newline{}
-R. Rosca-Mead, U. Sperhake, C. J. Moore, M. Agathos, \textbf{D. Gerosa}, C. D. Ott.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.044010}{\prd~102 (2020) 044010}. 
-\href{https://arxiv.org/abs/2005.09728}{arXiv:2005.09728 [gr-qc]}.
-\suppress \cite{2020PhRvD.102d4010R} \endsuppress %ADSkey
-%\suppress \cite{Rosca-Mead:2020ehn} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{44.} & & \textit{The mass gap, the spin gap, and the origin of merging binary black holes.} 
-\newline{}
-V. Baibhav, \textbf{D. Gerosa}, E. Berti, K. W. K. Wong, T. Helfer, M. Mould.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.043002}{\prd~102 (2020) 043002}. 
-\href{https://arxiv.org/abs/2004.00650}{arXiv:2004.00650 [gr-qc]}.
-\suppress \cite{2020PhRvD.102d3002B} \endsuppress %ADSkey
-%\suppress \cite{Baibhav:2020xdf} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{43.} & & \textit{The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach.} 
-\newline{}
-\textbf{D. Gerosa}, G. Rosotti, R. Barbieri.
-\newline{}
-\href{https://doi.org/10.1093/mnras/staa1693}{\mnras~496 (2020) 3060-3075.}
-\href{https://arxiv.org/abs/2004.02894}{arXiv:2004.02894 [astro-ph.GA]}.
-\suppress \cite{2020MNRAS.496.3060G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2020xly} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{42.} & & \textit{Populations of double white dwarfs in Milky Way satellites and their detectability with LISA.} 
-\newline{}
-V. Korol, S. Toonen, A. Klein, V. Belokurov, F. Vincenzo, R. Buscicchio, \textbf{D. Gerosa}, C. J. Moore, E. Roebber, E. M. Rossi, A. Vecchio.
-\newline{}
-\href{https://www.aanda.org/articles/aa/abs/2020/06/aa37764-20/aa37764-20.html}{\aap~638 (2020) A153.}
-\href{https://arxiv.org/abs/2002.10462}{arXiv:2002.10462 [astro-ph.GA]}.
-\suppress \cite{2020A&A...638A.153K} \endsuppress %ADSkey
-%\suppress \cite{Korol:2020lpq} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{41.} & & \textit{Endpoint of the up-down instability in precessing binary black holes.} 
-\newline{}
-M. Mould, \textbf{D. Gerosa}.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.124037}{\prd~101 (2020) 124037}. 
-\href{https://arxiv.org/abs/2003.02281}{arXiv:2003.02281 [gr-qc]}.
-\suppress \cite{2020PhRvD.101l4037M} \endsuppress %ADSkey
-%\suppress \cite{Mould:2020cgc} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{40.} & & \textit{Black holes in the low mass gap: Implications for gravitational wave observations.} 
-\newline{}
-A. Gupta, \textbf{D. Gerosa}, K. G. Arun, E. Berti, W. Farr, B. S. Sathyaprakash.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.103036}{\prd~101 (2020) 103036}. 
-\href{https://arxiv.org/abs/1909.05804}{arXiv:1909.05804 [gr-qc]}.
-\suppress \cite{2020PhRvD.101j3036G} \endsuppress %ADSkey
-%\suppress \cite{Gupta:2019nwj} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{39.} & & \textit{Milky Way satellites shining bright in gravitational waves.} 
-\newline{}
-E. Roebber, R. Buscicchio, A. Vecchio, C. J. Moore, A. Klein, V. Korol, S. Toonen, \textbf{D. Gerosa}, J. Goldstein, S. M. Gaebel, T. E. Woods.
-\newline{}
-\href{https://iopscience.iop.org/article/10.3847/2041-8213/ab8ac9}{\apjl~894 (2020) L15.}
-\href{https://arxiv.org/abs/2002.10465}{arXiv:2002.10465 [astro-ph.GA]}.
-\suppress \cite{2020ApJ...894L..15R} \endsuppress %ADSkey
-%\suppress \cite{Roebber:2020hso} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{38.} & & \textit{Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes.} 
-\newline{}
-K. Belczynski, J. Klencki, C. E. Fields, A. Olejak, E. Berti, G. Meynet, C. L. Fryer, D. E. Holz, R. O'Shaughnessy, D. A. Brown, T. Bulik, S. C. Leung,  K. Nomoto, P. Madau, R, Hirschi, E. Kaiser, S. Jones, S. Mondal, M. Chruslinska, P. Drozda, \textbf{D. Gerosa}, Z. Doctor, M. Giersz, S. Ekstr\:om, C. Georgy, A. Askar, V. Baibhav, D. Wysocki, T. Natan, W. M. Farr, G. Wiktorowicz, M. C. Miller, B. Farr, J.-P. Lasota.
- \newline{}
-\href{https://www.aanda.org/articles/aa/full_html/2020/04/aa36528-19/aa36528-19.html}{\aap~636 (2020) A104.}
-\href{https://arxiv.org/abs/1706.07053}{arXiv:1706.07053 [astro-ph.HE]}.
-\suppress \cite{2020A&A...636A.104B} \endsuppress %ADSkey
-%\suppress \cite{Belczynski:2017gds} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{37.} & & \textit{Amplification of superkicks in black-hole binaries through orbital eccentricity.} 
-\newline{}
-U. Sperhake, R. Rosca-Mead, \textbf{D. Gerosa}, E. Berti.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.024044}{\prd~101 (2020) 024044}. 
-\href{https://arxiv.org/abs/1910.01598}{arXiv:1910.01598 [gr-qc]}.
-\suppress \cite{2020PhRvD.101b4044S} \endsuppress %ADSkey
-%\suppress \cite{Sperhake:2019wwo} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{36.} & & \textit{Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data.} 
-\newline{}
-Y. Bouffanais, M. Mapelli, \textbf{D.~Gerosa}, U. N. Di Carlo, N. Giacobbo, E. Berti, V. Baibhav.
-\newline{}
-\href{https://iopscience.iop.org/article/10.3847/1538-4357/ab4a79}{\apj~886 (2019) 25.} \href{https://arxiv.org/abs/1905.11054}{arXiv:1905.11054 [astro-ph.HE]}.
-\suppress \cite{2019ApJ...886...25B} \endsuppress %ADSkey
-%\suppress \cite{Bouffanais:2019nrw} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{35.} & & \textit{Machine-learning interpolation of population-synthesis simulations to interpret gravitational-wave observations: a case study.
-} 
-\newline{}
-K. W. K. Wong, \textbf{D. Gerosa}.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.100.083015}{\prd~100 (2019) 083015}. 
-\href{https://arxiv.org/abs/1909.06373}{arXiv:1909.06373 [astro-ph.HE]}.
-\suppress \cite{2019PhRvD.100h3015W} \endsuppress %ADSkey
-%\suppress \cite{Wong:2019uni} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{34.} & & \textit{Surrogate models for precessing binary black hole simulations with unequal masses.} 
-\newline{}
-V. Varma, S. E. Field, M. A. Scheel, J. Blackman, \textbf{D.~Gerosa}, L. C. Stein, L. E. Kidder, H. P. Pfeiffer.
-\newline{}
-\href{https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033015}{\prr~1 (2019) 033015}. 
-\href{https://arxiv.org/abs/1905.09300}{arXiv:1905.09300 [gr-qc]}.
-\suppress \cite{2019PhRvR...1c3015V} \endsuppress %ADSkey
-%\suppress \cite{Varma:2019csw} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{33.} & & \textit{Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond.} 
-\newline{}
-V. Baibhav, E. Berti, \textbf{D.~Gerosa}, M. Mapelli, N. Giacobbo, Y. Bouffanais, U. N. Di Carlo.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.100.064060}{\prd~100 (2019) 064060}. 
-\href{https://arxiv.org/abs/1906.04197}{arXiv:1906.04197 [gr-qc]}.
-\suppress \cite{2019PhRvD.100f4060B} \endsuppress %ADSkey
-%\suppress \cite{Baibhav:2019gxm} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{32.} & & \textit{Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap.} 
-\newline{}
-\textbf{D.~Gerosa}, E. Berti.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.100.041301}{\prdrc~100 (2019) 041301R}. 
-\href{https://arxiv.org/abs/1906.05295}{arXiv:1906.05295 [astro-ph.HE]}.
-\newline{}
-\textcolor{color1}{$\bullet$} Covered by press release. 
-\suppress \cite{2019PhRvD.100d1301G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2019zmo} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{31.} & & \textit{Are stellar-mass black-hole binaries too quiet for LISA?} 
-\newline{}
-C. J. Moore, \textbf{D.~Gerosa}, A. Klein.
-\newline{}
-\href{https://doi.org/10.1093/mnrasl/slz104}{\mnrasl~488 (2019) L94-L98.}%$\!$ 
-\href{https://arxiv.org/abs/1905.11998}{arXiv:1905.11998 [astro-ph.HE]}.
-\suppress \cite{2019MNRAS.488L..94M} \endsuppress %ADSkey
-%\suppress \cite{Moore:2019pke} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{30.} & & \textit{Optimizing LIGO with LISA forewarnings to improve black-hole spectroscopy.} 
-\newline{}
-R. Tso, \textbf{D.~Gerosa}, Y. Chen.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.124043}{\prd~99 (2019) 124043}.
-\href{https://arxiv.org/abs/1807.00075}{arXiv:1807.00075 [gr-qc]}.
-\suppress \cite{2019PhRvD..99l4043T} \endsuppress %ADSkey
-%\suppress \cite{Tso:2018pdv} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{29.} & & \textit{Multiband gravitational-wave event rates and stellar physics.} 
-\newline{}
-\textbf{D. Gerosa}, S. Ma, K. W. K. Wong, E. Berti, R. O'Shaughnessy, Y. Chen, K. Belczynski.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.103004}{\prd~99 (2019) 103004}.
-\href{https://arxiv.org/abs/1902.00021}{arXiv:1902.00021 [astro-ph.HE]}.
-\suppress \cite{2019PhRvD..99j3004G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2019dbe} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{28.} & & \textit{Wide nutation: binary black-hole spins repeatedly oscillating from full alignment to full anti-alignment.} 
-\newline{}
-\textbf{D. Gerosa}, A. Lima, E. Berti, U. Sperhake, M. Kesden, R. O'Shaughnessy.
-\newline{}
-\href{https://iopscience.iop.org/article/10.1088/1361-6382/ab14ae/meta}{\cqg~36 (2019) 10, 105003}.
-\href{https://arxiv.org/abs/1811.05979}{arXiv:1811.05979 [gr-qc]}.
-\suppress \cite{2019CQGra..36j5003G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2018mwg} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{27.} & & \textit{The binary black hole explorer: on-the-fly visualizations of precessing binary black holes.} 
-\newline{}
-V. Varma, L. C. Stein, \textbf{D. Gerosa}.
-\newline{}
-\href{https://iopscience.iop.org/article/10.1088/1361-6382/ab0ee9/meta}{\cqg~36 (2019) 9, 095007}.
-\href{https://arxiv.org/abs/1811.06552}{arXiv:1811.06552 [astro-ph.HE]}.
-\suppress \cite{2019CQGra..36i5007V} \endsuppress %ADSkey
-%\suppress \cite{Varma:2018rcg} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{26.} & & \textit{Frequency-domain waveform approximants capturing Doppler shifts.} 
-\newline{}
-K. Chamberlain, C. J. Moore, \textbf{D. Gerosa}, N. Yunes.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.024025}{\prd~99 (2019) 024025}.
-\href{https://arxiv.org/abs/1809.04799}{arXiv:1809.04799 [gr-qc]}.
-\suppress \cite{2019PhRvD..99b4025C} \endsuppress %ADSkey
-%\suppress \cite{Chamberlain:2018snj} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{25.} & & \textit{High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants.} 
-\newline{}
-V. Varma, \textbf{D. Gerosa}, L. C. Stein, F. H\'ebert, H. Zhang.
-\newline{}
-\href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.011101}{\prl~122 (2019) 011101.} 
-\href{https://arxiv.org/abs/1809.09125}{arXiv:1809.091259 [gr-qc]}.
-\newline{}
-\textcolor{color1}{$\bullet$} Covered by press release. 
-\suppress \cite{2019PhRvL.122a1101V} \endsuppress %ADSkey
-%\suppress \cite{Varma:2018aht} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{24.} & & \textit{Spin orientations of merging black holes formed from the evolution of stellar binaries.} 
-\newline{}
-\textbf{D.~Gerosa}, E. Berti, R. O'Shaughnessy, K. Belczynski, M. Kesden, D. Wysocki, W. Gladysz.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.98.084036}{\prd~98 (2018) 084036.} 
-\href{https://arxiv.org/abs/1808.02491}{arXiv:1808.02491 [astro-ph.HE]}.
-\suppress \cite{2018PhRvD..98h4036G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2018wbw} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{23.} & & \textit{Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework.} 
-\newline{}
-S. R. Taylor, \textbf{D.~Gerosa}.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.98.083017}{\prd~98 (2018) 083017.} 
-\href{https://arxiv.org/abs/1806.08365}{arXiv:1806.08365 [astro-ph.HE]}.
-\suppress \cite{2018PhRvD..98h3017T} \endsuppress %ADSkey
-%\suppress \cite{Taylor:2018iat} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{22.} & & \textit{Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases.} 
-\newline{}
-K. K. Y. Ng, S. Vitale, A. Zimmerman, K. Chatziioannou, \textbf{D.~Gerosa}, C.-J. Haster.
-\newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.98.083007}{\prd~98 (2018) 083007.} 
-\href{https://arxiv.org/abs/1805.03046}{arXiv:1805.03046 [gr-qc]}.
-\suppress \cite{2018PhRvD..98h3007N} \endsuppress %ADSkey
-%\suppress \cite{Ng:2018neg} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{21.} & & \textit{Black-hole kicks from numerical-relativity surrogate models.} 
-\newline{}
-\textbf{D. Gerosa}, F. H\'ebert, L. C. Stein
- \newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.104049}{\prd~97 (2018) 104049.} 
-\href{https://arxiv.org/abs/1802.04276}{arXiv:1802.04276 [gr-qc]}.
-\newline{}
-\textcolor{color1}{$\bullet$} Open source code.
-\suppress \cite{2018PhRvD..97j4049G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2018qay} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{20.} & & \textit{Explaining LIGO's observations via isolated binary evolution with natal kicks.} 
-\newline{}
-D. Wysocki, \textbf{D.~Gerosa}, R. O'Shaughnessy, K. Belczynski, W. Gladysz, E. Berti, M. Kesden, D. Holz
- \newline{}
-\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.043014}{\prd~97 (2018) 043014.} 
-\href{https://arxiv.org/abs/1709.01943}{arXiv:1709.01943 [astro-ph.HE]}
-\suppress \cite{2018PhRvD..97d3014W} \endsuppress %ADSkey
-%\suppress \cite{Wysocki:2017isg} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{19.} & & \textit{Impact of Bayesian priors on the characterization of binary black hole coalescences.} 
-\newline{}
-S. Vitale, \textbf{D.~Gerosa}, C.-J. Haster, K. Chatziioannou, A. Zimmerman.
- \newline{}
-\href{http://dx.doi.org/10.1103/PhysRevLett.119.251103}{\prl~119 (2017) 251103.} 
-\href{https://arxiv.org/abs/1707.04637}{arXiv:1707.04637 [gr-qc]}.
-\suppress \cite{2017PhRvL.119y1103V} \endsuppress %ADSkey
-%\suppress \cite{Vitale:2017cfs} \endsuppress %INSPIREkey 
-\vspace{0.09cm}\\
-%
-\textbf{18.} & & \textit{Long-lived inverse chirp signals from core collapse in massive scalar-tensor gravity.} 
-\newline{}
-U. Sperhake, C. J. Moore, R. Rosca, M. Agathos,  \textbf{D.~Gerosa}, C. D. Ott.
- \newline{}
-\href{http://dx.doi.org/10.1103/PhysRevLett.119.201103}{\prl~119 (2017) 201103.} 
-\href{https://arxiv.org/abs/1708.f03651}{arXiv:1708.03651 [gr-qc]}.
-\suppress \cite{2017PhRvL.119t1103S} \endsuppress %ADSkey
-%\suppress \cite{Sperhake:2017itk} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{17.} & & \textit{Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems.} 
-\newline{}
-X. Zhao, M. Kesden, \textbf{D.~Gerosa}.
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevD.96.024007}{\prd~96 (2017) 024007.} 
-\href{https://arxiv.org/abs/1705.02369}{arXiv:1705.02369 [gr-qc]}.
-\suppress \cite{2017PhRvD..96b4007Z} \endsuppress %ADSkey
-%\suppress \cite{Zhao:2017tro} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{16.} & & \textit{Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks.} 
-\newline{}
-R. O'Shaughnessy, \textbf{D.~Gerosa}, D. Wysocki.
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevLett.119.011101}{\prl~119 (2017) 011101.} 
-\href{https://arxiv.org/abs/1704.03879}{arXiv:1704.03879 [gr-qc]}.
-\newline{}
-\textcolor{color1}{$\bullet$} APS Editor's choice (physics.aps.org). Covered by press release. 
-\suppress \cite{2017PhRvL.119a1101O} \endsuppress %ADSkey
-%\suppress \cite{OShaughnessy:2017eks} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{15.} & & \textit{Are merging black holes born from stellar collapse or previous mergers?} 
-\newline{}
-\textbf{D.~Gerosa}, E.~Berti.
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevD.95.124046}{\prd~95 (2017) 124046.} 
-\href{https://arxiv.org/abs/1703.06223}{arXiv:1703.06223 [gr-qc]}.
-\newline{}
-\textcolor{color1}{$\bullet$} PRD Editors' Suggestion.
-\suppress \cite{2017PhRvD..95l4046G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2017kvu} \endsuppress %INSPIREkey
-%
-\vspace{0.09cm}\\
-\textbf{14.} & & \textit{On the equal-mass limit of precessing black-hole binaries.} 
-\newline{}
-\textbf{D.~Gerosa}, U. Sperhake, J. Vo\v{s}mera.
-\newline{}
-\href{http://dx.doi.org/10.1088/1361-6382/aa5e58}{\cqg~34 (2017) 6, 064004.} 
-\href{https://arxiv.org/abs/1612.05263}{arXiv:1612.05263 [gr-qc]}.
-\suppress \cite{2017CQGra..34f4004G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2016aus} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{13.} & & \textit{Black-hole kicks as new gravitational-wave observables.} 
-\newline{}
-\textbf{D.~Gerosa}, C. J. Moore.
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevLett.117.011101}{\prl~117 (2016) 011101.} 
-\href{https://arxiv.org/abs/1606.04226}{arXiv:1606.04226 [gr-qc]}.
-\newline{}
-\textcolor{color1}{$\bullet$} PRL Editors' Suggestion. Covered by press release.
-\suppress \cite{2016PhRvL.117a1101G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2016vip} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{12.} & & \textit{PRECESSION: Dynamics of spinning black-hole binaries with python.} 
-\newline{}
-\textbf{D.~Gerosa}, M.~Kesden.
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevD.93.124066}{\prd~93 (2016) 124066.} 
-\href{https://arxiv.org/abs/1605.01067}{arXiv:1605.01067 [astro-ph.HE]}.
-\newline{}
-\textcolor{color1}{$\bullet$} Open source code.
-\suppress \cite{2016PhRvD..93l4066G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2016sys} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{11.} & & \textit{Numerical simulations of stellar collapse in scalar-tensor theories of gravity.} 
-\newline{}
-\textbf{D.~Gerosa}, U.~Sperhake, C.~D.~Ott.
-\newline{}
-\href{http://dx.doi.org/10.1088/0264-9381/33/13/135002}{\cqg~33 (2016) 13, 135002.} 
-\href{https://arxiv.org/abs/1602.06952}{arXiv:1602.06952 [gr-qc]}.
-\suppress \cite{2016CQGra..33m5002G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2016fri} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{10.} & & \textit{Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation.} 
-\newline{}
-D.~Trifirò, R.~O'Shaughnessy, \textbf{D.~Gerosa}, E.~Berti, M.~Kesden, T.~Littenberg, U.~Sperhake.
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevD.93.044071}{\prd~93 (2016) 044071.} 
-\href{https://arxiv.org/abs/1507.05587}{arXiv:1507.05587 [gr-qc]}.
-\suppress \cite{2016PhRvD..93d4071T} \endsuppress %ADSkey
-%\suppress \cite{Trifiro:2015zda} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{9.} & & \textit{Precessional instability in binary black holes with aligned spins.} 
-\newline{}
-\textbf{D.~Gerosa}, M.~Kesden, R.~O’Shaughnessy, A.~Klein, E.~Berti, U.~Sperhake, D.~Trifir\`o.
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevLett.115.141102}{\prl~115 (2015) 141102.} 
-\href{https://arxiv.org/abs/1506.09116}{arXiv:1506.09116 [gr-qc]}.
-\newline{}
-\textcolor{color1}{$\bullet$} PRL Editors' Suggestion.
-\suppress \cite{2015PhRvL.115n1102G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2015hba} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{8.} & & \textit{Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition.} 
-\newline{}
-M.~Horbatsch, H.~O.~Silva, \textbf{D.~Gerosa}, P.~Pani,  E.~Berti, L.~Gualtieri, U.~Sperhake.
-\newline{}
-\href{http://dx.doi.org/10.1088/0264-9381/32/20/204001}{\cqg~32 (2015) 20, 204001.} 
-\href{https://arxiv.org/abs/1505.07462}{arXiv:1505.07462 [gr-qc]}.
-\newline{}
-\textcolor{color1}{$\bullet$} IoP Editor's choice (CQG+, IOPselect).
-\suppress \cite{2015CQGra..32t4001H} \endsuppress %ADSkey
-%\suppress \cite{Horbatsch:2015bua} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{7.} & & \textit{Multi-timescale analysis of phase transitions in precessing black-hole binaries.} 
-\newline{}
-\textbf{D.~Gerosa}, M.~Kesden, U.~Sperhake, E.~Berti, R.~O’Shaughnessy.
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevD.92.064016}{\prd~92 (2015) 064016.} 
-\href{https://arxiv.org/abs/1506.03492}{arXiv:1506.03492 [gr-qc]}.
-\suppress \cite{2015PhRvD..92f4016G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2015tea} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{6.} & & \textit{Spin alignment and differential accretion in merging black hole binaries.}
-\newline{}
-\textbf{D.~Gerosa}, B.~Veronesi, G.~Lodato, G.~Rosotti. 
-\newline{}
-\href{http://dx.doi.org/10.1093/mnras/stv1214}{\mnras~451 (2015) 3941-3954.}
-\href{https://arxiv.org/abs/1503.06807}{arXiv:1503.06807 [astro-ph.GA]}.
-\suppress \cite{2015MNRAS.451.3941G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2015xya} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{5.} & & \textit{Effective potentials and morphological transitions for binary black-hole spin precession.}
-\newline{}
-M.~Kesden, \textbf{D.~Gerosa}, R.~O'Shaughnessy, E.~Berti, U.~Sperhake.
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevLett.114.081103}{\prl~114 (2015) 081103.} 
-\href{https://arxiv.org/abs/1411.0674}{arXiv:1411.0674 [gr-qc]}.
-\newline{}
-\textcolor{color1}{$\bullet$} Covered by press release. 
-\suppress \cite{2015PhRvL.114h1103K} \endsuppress %ADSkey
-%\suppress \cite{Kesden:2014sla} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{4.} & & \textit{Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature.}
-\newline{}
-\textbf{D.~Gerosa}, A.~Sesana.
-\newline{}
-\href{http://dx.doi.org/10.1093/mnras/stu2049}{\mnras~446 (2015) 38-55.} 
-\href{https://arxiv.org/abs/1405.2072}{arXiv:1405.2072 [astro-ph.GA]}.
-\suppress \cite{2015MNRAS.446...38G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2014gja} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{3.} & & \textit{Distinguishing black-hole spin-orbit resonances by their gravitational-wave signatures.}
-\newline{}
-\textbf{D.~Gerosa}, R.~O'Shaughnessy, M.~Kesden, E.~Berti, U.~Sperhake. 
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevD.89.124025}{\prd~89 (2014) 124025.} 
-\href{https://arxiv.org/abs/1403.7147}{arXiv:1403.7147 [gr-qc]}.
-\suppress \cite{2014PhRvD..89l4025G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2014kta} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{2.} & & \textit{Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation.}
-\newline{}
-\textbf{D.~Gerosa}, M.~Kesden, E.~Berti, R.~O'Shaughnessy, U.~Sperhake. 
-\newline{}
-\href{http://dx.doi.org/10.1103/PhysRevD.87.104028}{\prd~87 (2013) 10, 104028.} 
-\href{https://arxiv.org/abs/1302.4442}{arXiv:1302.4442 [gr-qc]}.
-\suppress \cite{2013PhRvD..87j4028G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2013laa} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-$\;\;$ \textbf{1.} & & \textit{Black hole mergers: do gas discs lead to spin alignment?} 
-\newline{}
-G.~Lodato, \textbf{D.~Gerosa}.
-\newline{}
-\href{http://dx.doi.org/10.1093/mnrasl/sls018}{\mnrasl~429 (2013) L30-L34.} 
-\href{https://arxiv.org/abs/1211.0284}{arXiv:1211.0284 [astro-ph.CO]}.
-\suppress \cite{2013MNRAS.429L..30L} \endsuppress %ADSkey
-%\suppress \cite{Lodato:2012yr} \endsuppress %INSPIREkey
-%
-\end{longtable}
-}
-\vspace{-0.1cm}
-
-
-\textcolor{color1}{\textbf{White papers, long-authorlist reviews, conference proceedings, software papers, etc.:}}
-\vspace{-0.5cm}
-
-\cvitem{}{\small
-\hspace{-1cm}\begin{longtable}{rp{0.3cm}p{15.8cm}}
-%
-\textbf{8.} & & \textit{Prospects for fundamental physics with LISA.} 
-\newline{}
-E.~Barausse, et al. (320 authors incl. \textbf{D.~Gerosa}).
-\newline{}
-\href{https://doi.org/10.1007/s10714-020-02691-1}{\grg~52 (2020) 8, 81}
-\href{https://arxiv.org/abs/12001.09793}{arXiv:2001.09793 [gr-qc]}.
-\suppress \cite{2020GReGr..52...81B} \endsuppress %ADSkey
-%\suppress \cite{Barausse:2020rsu} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{7.} & & \textit{Black holes, gravitational waves and fundamental physics: a roadmap.} 
-\newline{}
-L.~Barack, et al. (199 authors incl. \textbf{D.~Gerosa}).
-\newline{}
-\href{https://iopscience.iop.org/article/10.1088/1361-6382/ab0587}{\cqg~36 (2019) 14, 143001}.
-\href{https://arxiv.org/abs/1806.05195}{arXiv:1806.05195 [gr-qc]}.
-\suppress \cite{2019CQGra..36n3001B} \endsuppress %ADSkey
-%\suppress \cite{Barack:2018yly} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{6.} & & \textit{Reanalysis of LIGO black-hole coalescences with alternative prior assumptions.} 
-\newline{}
-\textbf{D.~Gerosa}, S. Vitale, C.-J. Haster, K. Chatziioannou, A. Zimmerman.
-%  \newline{} 
-  \newline{}
-\href{https://doi.org/10.1017/S1743921318003587}{Proceedings of the International Astronomical Union 338 (2018) 22-28.}
-% \newline{}
-\href{https://arxiv.org/abs/1712.06635}{arXiv:1712.06635 [astro-ph.HE]}. $\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!$
-\suppress \cite{2018IAUS..338...22G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2017mwk} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{5.} & & \textit{Surprises from the spins: astrophysics and relativity
-with detections of spinning black-hole mergers.} 
-\newline{}
-\textbf{D.~Gerosa}
-  \newline{} 
-\href{http://dx.doi.org/10.1088/1742-6596/957/1/012014}{Journal of Physics: Conference Series 957 (2018) 1, 012014.} 
-\href{https://arxiv.org/abs/1711.10038}{arXiv:1711.10038 [astro-ph.HE]}.
-\suppress \cite{2018JPhCS.957a2014G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2017xik} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{4.} & & \textit{filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography.} 
-\newline{}
-\textbf{D.~Gerosa}, M.~Vallisneri.
-  \newline{} 
-\href{http://dx.doi.org/10.21105/joss.00222}{The Journal of Open Source Software 2 (2017) 13.} 
-\newline{}
-\textcolor{color1}{$\bullet$} Open source code.
-\suppress \cite{2017JOSS....2..222G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2017xrm} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-\textbf{3.} & & \textit{Testing general relativity with present and future astrophysical observations.}
-\newline{} 
-E.~Berti, et al. (53 authors incl. \textbf{D.~Gerosa}).
-\newline{}
-\href{http://dx.doi.org/10.1088/0264-9381/32/24/243001}{\cqg~32 (2015) 24, 243001.} 
-\href{https://arxiv.org/abs/1501.07274}{arXiv:1501.07274 [gr-qc]}.
-{Topical Review.}
-\suppress \cite{2015CQGra..32x3001B} \endsuppress %ADSkey
-%\suppress \cite{Berti:2015itd} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-$\;\;$ \textbf{2.} & & \textit{Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history.} 
-\newline{}
-\textbf{D.~Gerosa}.
-\newline{}
-\href{http://dx.doi.org/10.1007/978-3-319-10488-1_12}{Astrophysics and Space Science Proceedings 40 (2015) 137-145.} 
-\suppress \cite{2015ASSP...40..137G} \endsuppress %ADSkey
-%\suppress \cite{Gerosa:2015nmy} \endsuppress %INSPIREkey
-\vspace{0.09cm}\\
-%
-$\;\;$ \textbf{1.} & & \textit{Spin alignment effects in black hole binaries..} 
-\newline{}
-\textbf{D.~Gerosa}.
-\newline{}
-\href{https://caltechcampuspubs.library.caltech.edu/2800/}{Caltech Undergraduate Research Journal (CURJ) 15:1 (2014) 17-26.} 
-\suppress \cite{2015CURJ...15...17G} \endsuppress %ADSkey
-%\suppress \cite{} \endsuppress %INSPIREkey
-%
-\end{longtable}
-}
-%mark_publist
-
-
- \section{Full presentation list}\vspace{0.2cm} 
-
-%mark_talklist 
-Invited talks marked with *.
-\vspace{0.2cm}
-
-\textcolor{color1}{\textbf{Talks at conferences:}}
-\vspace{-0.5cm}
-
-\cvitem{}{\small
-\hspace{-1cm}\begin{longtable}{rp{0.4cm}p{15.8cm}}
-\textbf{49.} & & \textit{Two precessing spins and how to find them.}
-\newline{}14th Edoardo Amaldi Conference, Melbourne, Australia, (online), Jul 2021.
-\vspace{0.05cm}\\
-%
-\textbf{48.} & & \textit{Waveform systematics and gravitational-wave catalogs.}
-\newline{}2nd European Physical Society Conference on Gravitation: measuring gravity, London, UK, (online), Jul 2021.
-\vspace{0.05cm}\\
-%
-\textbf{47.} & & \textit{Probing warped accretion disks with gravitational-wave observations of supermassive black-hole mergers.}
-\newline{}European Astronomical Society Annual Meeting (EAS2021), Leiden, The Netherlands, (online), Jun 2021.
-\vspace{0.05cm}\\
-%
-\textbf{46.} & * & \textit{Hierarchical black-hole mergers in the LIGO/Virgo band.}
-\newline{}Gravitational Wave Astrophysics Conference 2021, Hefei, China, (online), Jun 2021.
-\vspace{0.05cm}\\
-%
-\textbf{45.} & & \textit{Testing GR? Keep calm and mind the waveform. }
-\newline{}24rd Capra Meeting on Radiation Reaction in General Relativity, Waterloo, Canada, (online), Jun 2021.
-\vspace{0.05cm}\\
-%
-\textbf{44.} & & \textit{Warped accretion disks with LISA.}
-\newline{}Distorted astrophysical discs: new insights and future directions, Cambridge, UK (online), May 2021.
-\vspace{0.05cm}\\
-%
-\textbf{43.} & & \textit{Detectability of gravitational-wave signals with neural-network classifiers.}
-\newline{}RAS Specialist Meeting -- Machine learning and artificial intelligence applied to astronomy 2, (online), May 2021.
-\vspace{0.05cm}\\
-%
-\textbf{42.} & * & \textit{Transitioning to research independence in gravitational-wave astronomy (my own view on postdoc and grant applications).}
-\newline{}Gravitational Wave Astrophysics for Early Career Scientists, Leiden, The Netherlands, (online), May 2021.
-\vspace{0.05cm}\\
-%
-\textbf{41.} & & \textit{Can a computer learn if LIGO and Virgo will observe gravitational waves?}
-\newline{} April APS Meeting, (online), Apr 2021.
-\vspace{0.05cm}\\
-%
-\textbf{40.} & & \textit{A self-consistent treatment of warped accretion disks surrounding spinning supermassive black holes.}
-\newline{}Science at the Horizon: the Next-Generation EHT, (online), Feb 2021.
-\vspace{0.05cm}\\
-%
-\textbf{39.} & * & \textit{Astrophysical black-hole binaries: the elephant in the room.}
-\newline{}Primordial black holes confront gravitational-wave data, Rome, Italy, (online), Feb 2021.
-\vspace{0.05cm}\\
-%
-\textbf{38.} & * & \textit{Black holes, gravitational waves, and the BEARs.}
-\newline{}10th Birmingham Environment for Academic Research (BEAR) Conference, Birmingham, UK, (online), Sep 2020.
-\vspace{0.05cm}\\
-%
-\textbf{37.} & & \textit{Warped accretion discs, black-hole spins, and LISA.}
-\newline{}13th LISA Symposium, (online), Sep 2020.
-\vspace{0.05cm}\\
-%
-\textbf{36.} & & \textit{Multi-timescale post-Newtonian dynamics of spinning black-hole binaries: a status update.}
-\newline{}23rd Capra Meeting on Radiation Reaction in General Relativity, Austin TX, USA, (online), Jun 2020.
-\vspace{0.05cm}\\
-%
-\textbf{35.} & * & \textit{An attempt to navigate the astro job market.}
-\newline{}LISA Early Career Scientists (LECS) training workshop (online), Jun 2020.
-\vspace{0.05cm}\\
-%
-\textbf{34.} & & \textit{Second-generation black holes, the pair-instability mass gap, and the 
-escape speed of stellar clusters.}
-\newline{}30th Texas Symposium on Relativistic Astrophysics, Portsmouth, UK, Dec 2019.
-\vspace{0.05cm}\\
-%
-\textbf{33.} & & \textit{Testing the no-hair theorem with multiband black-hole binaries.}
-\newline{}30th Texas Symposium on Relativistic Astrophysics, Portsmouth, UK, Dec 2019.
-\vspace{0.05cm}\\
-%
-\textbf{32.} & & \textit{Multiband gravitational-wave (astro)physics.}
-\newline{} Gravitational-wave Excellence through Alliance Training (GrEAT) PhD school, Birmingham, UK, Nov 2019.
-\vspace{0.05cm}\\
-%
-\textbf{31.} & & \textit{Pick the right one: Bayesian model selection on catalogs of gravitational-wave events.}
-\newline{} 22nd International Conference on General Relativity and Gravitation (GR22)  and 13th Edoardo Amaldi Conference, Valencia, Spain, Jul 2019.
-\vspace{0.05cm}\\
-%
-\textbf{30.} & & \textit{Space-ground multiband detections. How many?}
-\newline{} 22nd International Conference on General Relativity and Gravitation (GR22)  and 13th Edoardo Amaldi Conference, Valencia, Spain, Jul 2019.
-\vspace{0.05cm}\\
-%
-\textbf{29.} & * & \textit{Black-hole kicks: how and where.}
-\newline{} Taipei Gravitational Wave Group (TGWG) Conference, Taipei, Taiwan, Oct 2018.
-\vspace{0.05cm}\\
-%
-\textbf{28.} & * & \textit{Forming binary black holes out of stars.}
-\newline{} Taipei Gravitational Wave Group (TGWG) Conference, Taipei, Taiwan, Oct 2018.
-\vspace{0.05cm}\\
-%
-\textbf{27.} & * & \textit{Getting ready: exploit LISA to improve LIGO's tests of General Relativity.}
-\newline{} Einstein Fellows Symposium 2018, Cambridge MA, USA, Oct 2018.
-\vspace{0.05cm}\\
-%
-\textbf{26.} & & \textit{Runaways: recoiling black holes and their gravitational-wave signatures.}
-\newline{} COSPAR 2018 42nd assembly, Pasadena CA, USA, July 2018.
-\vspace{0.05cm}\\
-%
-\textbf{25.} & & \textit{An unprecedented opportunity: black-hole spectroscopy with LISA forewarnings and LIGO optimizations.}
-\newline{} 12th LISA Symposium, Chicago IL, USA, July 2018.
-\vspace{0.05cm}\\
-%
-\textbf{24.} & * & \textit{What do LIGO's black holes remember?}
-\newline{} April APS Meeting, Columbus OH, USA, Apr 2018.
-\vspace{0.05cm}\\
-%
-\textbf{23.} & & \textit{Modeling black hole kicks with waveform approximants.}
-\newline{} 34rd Pacific Coast Gravity Meeting, Pasadena CA, USA, Mar 2018.
-\vspace{0.05cm}\\
-%
-\textbf{22.} & & \textit{Black holes from other black holes?}
-\newline{} Gravity@Malta2018, Valletta, Malta, Jan 2018.
-\vspace{0.05cm}\\
-%
-\textbf{21.} & * & \textit{The gravitational-wave astronomy revolution.}
-\newline{} 2nd Milan Christmas Workshop, Milan, Italy, Dec 2017.
-\vspace{0.05cm}\\
-%
-\textbf{20.} &  & \textit{Reanalysis of LIGO black-hole coalescences with alternative prior assumptions.}
-\newline{} IAU Symposium 338, Baton Rouge LA, USA, Oct 2017.
-\newline{}Proceedings published by Cambridge University Press (2018).
-\vspace{0.05cm}\\
-%
-\textbf{19.} & * & \textit{Careful with the priors: a reanalysis of LIGO black-hole coalescences.}
-\newline{} Einstein Fellows Symposium 2017, Cambridge MA, USA, Oct 2017.
-\vspace{0.05cm}\\
-%
-\textbf{18.} & & \textit{Empty galaxies to constrain black-hole superkicks.}
-\newline{} 3rd Swinburne-Caltech Galaxy Workshop, Pasadena CA, USA, Sept 2017.
-\vspace{0.05cm}\\
-%
-\textbf{17.} & * & \textit{Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers.}
-\newline{}12th Edoardo Amaldi Conference, Pasadena CA, USA, Jul 2017 (plenary talk).
-\newline{}Proceedings published by IoP (2018).
-\vspace{0.05cm}\\
-%
-\textbf{16.} & & \textit{Core collapse and compact-object formation to test General Relativity.}
-\newline{}LIGO Core Collapse Supernova Workshop, Pasadena CA, USA, Mar 2017.
-\vspace{0.05cm}\\
-%
-\textbf{15.} & & \textit{The curious and simple limit of equal-mass precessing black-hole binaries.}
-\newline{}33rd Pacific Coast Gravity Meeting, Santa Barbara CA, USA, Mar 2017.
-\vspace{0.05cm}\\
-%
-\textbf{14.} & * & \textit{Spins remember: spin signatures of astrophysical black hole formation mechanisms.}
-\newline{}Strong Gravity and Binary Dynamics with Gravitational Wave Observations, Oxford MS, USA, Feb 2017.
-\vspace{0.05cm}\\
-%
-\textbf{13.} & & \textit{The kick is in the waveform: detection of black-hole recoils.}
-\newline{}The Dawning Era of Gravitational-Wave Astrophysics, Aspen CO, USA, Feb 2017.
-\vspace{0.05cm}\\
-%
-\textbf{12.} & & \textit{Kicked waveforms: prospects for direct detection of black hole recoils.}
-\newline{}``April'' APS Meeting, Washington DC, USA, Jan 2017.
-\vspace{0.05cm}\\
-%
-\textbf{11.} & * & \textit{Getting the most out of gravitational-wave observations: kicks and spin precession.}
-\newline{}Einstein Fellow Symposium 2016, Cambridge MA, USA, Oct 2016.
-\vspace{0.05cm}\\
-%
-\textbf{10.} & & \textit{Averaging the average: multi-timescale analysis of precessing black-hole binaries.}
-\newline{}21st International Conference on General Relativity and Gravitation (GR21), New York NY, USA, Jul 2016.
-\vspace{0.05cm}\\
-%
-\textbf{9.} & & \textit{Differential accretion means differential alignment.}
-\newline{}BritGrav 16, Nottingham, UK, Apr 2016.
-\vspace{0.05cm}\\
-%
-\textbf{8.} & & \textit{A new instability to black-hole spin precession.}
-\newline{}28th Texas Symposium on Relativistic Astrophysics, Geneva, Switzerland, Dec 2015.
-\vspace{0.05cm}\\
-%
-\textbf{7.} & & \textit{Binary black-hole spin precession: a tale of three timescales.}
-\newline{} 
-One Hundred Years of Strong Gravity, Lisbon, Portugal, Jun 2015.
-\vspace{0.05cm}\\
-%
-\textbf{6.} & & \textit{Giant and empty: black-hole occupation fraction in brightest cluster galaxies.}
-\newline{} 
-BritGrav 15, Birmingham, UK, Apr 2015.
-\vspace{0.05cm}\\
-%
-\textbf{5.} & * & \textit{Not so fast: gas-driven spin alignment in merging black-hole binaries.}
-\newline{} 
-Milan Christmas Workshop, Milan, Italy, Dec 2014.
-\vspace{0.05cm}\\
-%
-\textbf{4.} & & \textit{Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks.}
-\newline{} 
-99 years of Black Holes, Potsdam, Germany, May 2014.
-\vspace{0.05cm}\\
-%
-\textbf{3.} & & \textit{Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history.}
-\newline{} 
-3rd Session of the Sant Cugat Forum on Astrophysics, Sant Cugat, Spain, Apr 2014.
-\newline{} 
-Proceedings published by Springer (2015).
-\vspace{0.05cm}\\
-%
-\textbf{2.} & & \textit{Gravitational-wave signals from stellar-mass black-hole binaries in resonant configurations.}
-\newline{} 
-BritGrav 14, Cambridge, UK, Mar 2014.
-\vspace{0.05cm}\\
-%
-\textbf{1.} & & \textit{Spin alignment effects in stellar mass black hole binaries.}
-\newline{} 
-22nd Midwest Relativity Meeting, Chicago IL, USA, Sep 2012.
-\vspace{0.05cm}\\
-\end{longtable}
-}
-%\newpage{}
-
-\textcolor{color1}{\textbf{Talks at department seminars:}}
-\vspace{-0.5cm}
-
-\cvitem{}{\small
-\hspace{-1cm}\begin{longtable}{rp{0.4cm}p{15.8cm}}
-%
-\textbf{36.} & *& \textit{Entering the data-driven regime of gravitational-wave astronomy.}
-\newline{} 
-Physics Department seminars, Università degli Studi di Milano-Bicocca, Milan, Italy (online), Oct 2020.
-\vspace{0.05cm}\\
-%
-\textbf{35.} & *& \textit{Waiting for the next black-hole surprise, from the upper mass gap to GW190412.}
-\newline{} 
-Gravity seminars, University of Mississippi, Oxford MS, USA (online), Jun 2020.
-\vspace{0.05cm}\\
-%
-\textbf{34.} & *& \textit{Keep the black holes merging: cluster escape speed and the curious case of GW190412.}
-\newline{} 
-Astronomy seminars, Cardiff University, Cardiff, UK (online), May 2020.
-\vspace{0.05cm}\\
-%
-\textbf{33.} & *& \textit{Growing up: the next generation of black holes moves out of the cluster.}
-\newline{} 
-Black Hole Initiative Colloquium, Harvard University, Cambridge MA, USA (online), Mar 2020.
-\vspace{0.05cm}\\
-%
-\textbf{32.} & *& \textit{Multiple generations of black-hole mergers to pinpoint their astrophysical origin.}
-\newline{} 
-Gravity seminars, University of Southampton, Southampton, UK, Feb 2020.
-\vspace{0.05cm}\\
-%
-\textbf{31.} & *& \textit{Assembling multiple generations of black-hole mergers in the LIGO/Virgo band.}
-\newline{} 
-Theoretical Astrophysics seminars, University of Leicester, Leicester, UK, Feb 2020.
-\vspace{0.05cm}\\
-%
-\textbf{30.} & *& \textit{Predicting LIGO's black holes with LISA.}
-\newline{} 
-AstroParticle seminars, Institute for Fundamental Physics of the Universe, Trieste, Italy, Nov 2019.
-\vspace{0.05cm}\\
-\textbf{29.} & *& \textit{Multiband gravitational waves: event rates, detectability, and tests of gravity.}
-\newline{} 
-%
-Particle Cosmology seminars, University of Nottingham, Nottingham, UK, Nov 2019.
-\vspace{0.05cm}\\
-\textbf{28.} & *& \textit{Understanding birth and growth of binary black holes with gravitational waves.}
-\newline{} 
-Physics Colloquium, California State University Los Angeles, Los Angeles CA, USA, Feb 2019.
-\vspace{0.05cm}\\
-%
-\textbf{27.} & *& \textit{The (astro)physics of black-hole mergers and their gravitational-wave emission.}
-\newline{} 
-Physics and Astronomy Colloquium, California State University Northridge, Los Angeles CA, USA, Jan 2019.
-\vspace{0.05cm}\\
-%
-\textbf{26.} & *& \textit{Model selection for large catalogs of gravitational-wave events.}
-\newline{} 
-Cosmology seminars, Johns Hopkins University, Baltimore MD, USA, Nov 2018.
-\vspace{0.05cm}\\
-%
-\textbf{25.} & *& \textit{How to kick black holes out of their galaxies.}
-\newline{} 
-Strong Gravity Seminars, Perimeter Institute for Theoretical Physics, Waterloo, Canada, Sep 2018.
-\vspace{0.05cm}\\
-%
-\textbf{24.} & *& \textit{(Astro)physical consequences of black-hole recoils.}
-\newline{} 
-CITA Seminars, Canadian Institute for Theoretical Astrophysics, Toronto, Canada, Sep 2018.
-\vspace{0.05cm}\\
-%
-\textbf{23.} & *& \textit{Black-hole spins and the astrophysics of LIGO's sources.}
-\newline{} 
-AEI seminars, Albert Einstein Institute, Hannover, Germany, Apr 2018.
-\vspace{0.05cm}\\
-%
-\textbf{22.} & *& \textit{Dynamics of spinning black-hole binaries as a tool to uncover their formation pathway.}
-\newline{} 
-AEI seminars, Albert Einstein Institute, Potsdam, Germany, Mar 2018.
-\vspace{0.05cm}\\
-%
-\textbf{21.} & *& \textit{Runaways: phenomenology and detectability of black-hole recoils.}
-\newline{} 
-Theoretical Astrophysics seminars, University of Florida, Gainsville FL, USA, Mar 2018.
-\vspace{0.05cm}\\
-%
-\textbf{20.} & *& \textit{Testing relativity with past and future supernova explosions.}
-\newline{} 
-Physics colloquia, Montana State University, Bozeman MT, USA, Feb 2018.
-\vspace{0.05cm}\\
-%
-\textbf{19.} & *& \textit{More astrophysics out of the first gravitational wave detections.}
-\newline{} 
-GSSI seminars, Gran Sasso Science Institute, L'Aquila, Italy, Jan 2018.
-\vspace{0.05cm}\\
-%
-\textbf{18.} & *& \textit{Where do binary black holes come from? How do we find out?}
-\newline{} 
-Theory seminars, Sapienza Universit\`a di Roma, Rome, Italy, Jan 2018.
-\vspace{0.05cm}\\
-%
-\textbf{17.} & *& \textit{Monopole radiation, hyper scalarization and inverse chirps: the promise of testing gravity with stellar collapse.}
-\newline{} 
-Steward Observatory lunch seminars, University of Arizona, Tucson AZ, USA, Nov 2017.
-\vspace{0.05cm}\\
-%
-\textbf{16.} & *& \textit{Black-hole binary spin precession: from relativity to astronomy.}
-\newline{} 
-GRITTS seminars, Massachusetts Institute of Technology LIGO Lab, Cambridge MA, USA, Oct 2017.
-\vspace{0.05cm}\\
-%
-\textbf{15.} & *& \textit{Constraining the astrophysics behind the first LIGO detections.}
-\newline{} 
-Physics colloquia, University of Texas at Dallas, Richardson TX, USA, Sep 2017.
-\vspace{0.05cm}\\
-%
-\textbf{14.} & *& \textit{Binary black hole astrophysics with the first gravitational-wave events.}
-\newline{} 
-Theory group seminars, Universitat de Barcelona, Barcelona, Spain, May 2017.
-\vspace{0.05cm}\\
-%
-\textbf{13.} & *& \textit{Astrophysics with the first gravitational-wave events: from supernova asymmetries to multiple black-hole generations.}
-\newline{} 
-GR seminars, Department of Applied Mathematics and Theoretical Physics, Cambridge, UK, May 2017.
-\vspace{0.05cm}\\
-%
-\textbf{12.} & *& \textit{Black-hole binaries on the road to merger.}
-\newline{} 
-Oskar Klein Center colloquia, Stockholms Universitet, Stockholm, Sweden, Jan 2017.
-\vspace{0.05cm}\\
-%
-\textbf{11.} & *& \textit{A tale of astronomy and relativity: formation and evolution of black-hole binaries.}
-\newline{} 
-Department seminars, Università degli Studi di Milano, Milan, Italy, Apr 2016.
-\vspace{0.05cm}\\
-%
-\textbf{10.} & *& \textit{A new paradigm for black-hole spin precession.}
-\newline{} 
-Astrophysics seminars, University of Birmingham, Birmingham, UK, Feb 2016.
-\vspace{0.05cm}\\
-%
-\textbf{9.} & *& \textit{New insights on binary black-hole spin precession.}
-\newline{} 
-Relativity division seminars, Albert Einstein Institute, Potsdam, Germany, Feb 2016.
-\vspace{0.05cm}\\
-%
-\textbf{8.} & *& \textit{Spontaneous scalarization: a promising avenue for gravitational-wave astronomy.}
-\newline{} 
-GReCO seminars, Institut d'Astrophysique de Paris, Paris, France, Jan 2016.
-\vspace{0.05cm}\\
-%
-\textbf{7.} & *& \textit{Innovative multi-timescale approach to binary black holes.}
-\newline{} 
-Theoretical Astrophysics seminars, Università degli Studi di Milano, Milan, Italy, Dec 2015.
-\vspace{0.05cm}\\
-%
-\textbf{6.} & *& \textit{Stellar collapse in scalar-tensor theories of gravity: prospects for gravitational-wave astronomy.}
-\newline{} 
-Gravity and Particles seminar, University of Nottingham, Nottingham, UK, Dec 2015
-\vspace{0.05cm}\\
-%
-\textbf{5.} & *& \textit{Core collapse and relativistic stars in scalar-tensor theories of gravity.}
-\newline{} 
-Gravity seminars, STAG Research Center, Southampton, UK, Oct 2015.
-\vspace{0.05cm}\\
-%
-\textbf{4.} & *& \textit{Binary black-hole spin alignment: gas-driven and relativistic inspiral.}
-\newline{} 
-Wednesday seminars, Institute of Astronomy, Cambridge, UK, Jun 2015.\vspace{0.05cm}\\
-%
-\textbf{3.} & *& \textit{Spin-orbit resonances: unveiling black-hole binary dynamics on both stellar-mass and supermassive scale.}
-\newline{} 
-Gravitational Physics seminars, Cardiff University, Cardiff, UK, May 2014.
-\vspace{0.05cm}\\
-%
-\textbf{2.} & *& \textit{Spin-orbit resonances: unveiling black-hole binary dynamics on both stellar-mass and supermassive scale.}
-\newline{} 
-GR seminars, Department Applied Mathematics and Theoretical Physics, Cambridge, UK, May 2014.
-\vspace{0.05cm}\\
-%
-\textbf{1.} & *& \textit{Spin alignment and resonant plane in stellar mass black hole binaries.}
-\newline{} 
-Lunch talks, Leiden Observatory, Leiden, The Netherlands, Jan 2012.
-\vspace{0.05cm}\\
-%
-\end{longtable}
-}
-
-
-%\newpage{}
-\textcolor{color1}{\textbf{Posters at conferences:}}
-
-\vspace{-0.5cm}
-\cvitem{}{\small
-\hspace{-1cm}\begin{longtable}{rp{0.4cm}p{15.8cm}}
-%
-\textbf{7.} & & \textit{PRECESSION: efficient black-hole binary evolution with python.}
-\newline{} 
-Mathematics and Big Data Showcase, Cambridge, UK, Apr 2016.
-\vspace{0.05cm}\\
-%
-\textbf{6.} & *& \textit{Numerical relativity group at University of Cambridge.}
-\newline{} 
-Einstein’s Legacy: celebrating 100 years of general relativity, London, UK, Nov 2015.
-\vspace{0.05cm}\\
-%
-\textbf{5.} & *& \textit{Formation and evolution of compact objects in relativity and modified gravity.}
-\newline{} 
-5th DiRAC Science Day, Cambridge, UK, Sep 2015.
-\vspace{0.05cm}\\
-%
-\textbf{4.} & & \textit{New analytic solutions to binary black-hole dynamics: from spin precession to inspiral.}
-\newline{} 
-Eurostrings 2015, Cambridge, UK, Mar 2015.
-\vspace{0.05cm}\\
-%
-\textbf{3.} & *& \textit{Analytic solutions to binary black-hole spin precession: recalling Kepler’s two-body problem.}
-\newline{} 
-Compact Objects as Astrophysical and Gravitational Probes, Leiden, The Netherlands, Jan 2015.
-\newline{} 
-\textcolor{color1}{$\bullet$} \textbf{Best  presentation award.}
-\vspace{0.05cm}\\
-%
-\textbf{2.} & & \textit{Efficient precession-averaged evolution of spinning black-hole binaries.}
-\newline{} 
-RAS Specialist Meeting -- Towards gravitational-wave astronomy: data analysis techniques and challenges, London, UK, Dec 2014.
-\vspace{0.05cm}\\
-%
-\textbf{1.} & & \textit{Morphologies and binary transfer: a new approach to the post-newtonian dynamics of precessing black-holes binaries.}
-\newline{} 
-DPG Physics School “General Relativity @99”, Bad Honnef, Germany, Sep 2014.
-\vspace{0.05cm}\\
-%
-\end{longtable}
-}
-
-
-\textcolor{color1}{\textbf{Outreach talks:}}
-
-\vspace{-0.5cm}
-\cvitem{}{\small
-\hspace{-1cm}\begin{longtable}{rp{0.4cm}p{15.8cm}}
-%
-\textbf{9.} & *& \textit{Hearing the Universe with gravitational waves.}
-\newline{} 
-Bromsgrove Astronomical Society, Bromsgrove, UK, (online), Jun 2021.
-\vspace{0.05cm}\\
-%
-\textbf{8.} & *& \textit{Esplorare l'Universo con le onde gravitazionali.}
-\newline{} 
-Settimana dell'Astronomia, Fondazione Lombardia per l'Ambiente (online), Apr 2021.
-\vspace{0.05cm}\\
-%
-\textbf{7.} & *& \textit{Can black-hole binaries really make it?}
-\newline{} 
-University of Birmingham Astronomical Student Society,  Birmingham, UK, (online), Mar 2021.
-\vspace{0.05cm}\\
-%
-\textbf{6.} & *& \textit{The (gravitational) sound of the Universe.}
-\newline{} 
-Institute of Physics (IoP) Lecture Series, (online), Dec 2020.
-\vspace{0.05cm}\\
-%
-\textbf{5.} & *& \textit{Looking at the Universe with gravity.}
-\newline{} 
-Marling School visit, Birmingham, UK, Feb 2020.
-\vspace{0.05cm}\\
-%
-\textbf{4.} & *& \textit{Somewhere in between astronomy and relativity.}
-\newline{} 
-Astronomy in the City, Birmingham, UK, Jan 2020.
-\vspace{0.05cm}\\
-%
-\textbf{3.} & *& \textit{Gravitational waves: somewhere between astronomy and relativity.}
-\newline{} 
-Malvern Physics Olympics, Great Malvern, UK, Oct 2019.
-\vspace{0.05cm}\\
-%
-\textbf{2.} & *& \textit{Ride the wave (with gravity).}
-\newline{} 
-Physics Day Experience, Birmingham, UK, Jun 2019.
-\vspace{0.05cm}\\
-%
-\textbf{1.} & *& \textit{Onde gravitazionali: ascoltare l'Universo (anzich\'e solo vederlo?).}
-\newline{} 
-Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
-\vspace{0.05cm}\\
-%
-\end{longtable}
-}
-
-%mark_talklist
-
+\input{parsetalks.tex}
 %mark_short
 
- \end{document}
+\end{document}

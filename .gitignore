@@ -1,3 +1,6 @@
+#Jupyter
+.ipynb_checkpoints/
+
 # MAC OSX files
 /.DS_Store
 
@@ -23,6 +26,7 @@
 *.blg
 *.brf
 *.synctex.gz
+*.synctex(busy)
 *Notes.bib
 _minted*
 *converted-to.pdf

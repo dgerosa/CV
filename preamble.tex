@@ -1,0 +1,60 @@
+\documentclass[a4paper]{moderncv}
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{xspace}
+\newcommand{\rsquo}{{\tt\char'023}}
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\usepackage[sfdefault,lf]{carlito}
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{\carlitoOsF #1}
+
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+\usepackage{enumitem}
+\setlist{nolistsep}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society\xspace}
+\newcommand{\mnrasl}{Monthly Notices of the Royal Astronomical Society Letters\xspace}
+\newcommand{\prd}{Physical Review D\xspace}
+\newcommand{\prdrc}{Physical Review D Rapid Communications\xspace}
+\newcommand{\prl}{\textbf{Physical Review Letters\xspace}}
+\newcommand{\prlplain}{{Physical Review Letters\xspace}}
+\newcommand{\cqg}{Classical and Quantum Gravity\xspace}
+\newcommand{\aap}{Astronomy \& Astrophysics\xspace}
+\newcommand{\prr}{Physical Review Research\xspace}
+\newcommand{\apj}{Astrophysical Journal\xspace}
+\newcommand{\apjl}{Astrophysical Journal Letters\xspace}
+\newcommand{\grg}{General Relativity and Gravitation\xspace}
+\newcommand{\natastro}{Nature Astronomy\xspace}
+
+\long\def\suppress#1\endsuppress{%
+  \begingroup%
+    \tracinglostchars=0%
+    \let\selectfont=\nullfont
+    \nullfont #1\endgroup}
+
+\fancypagestyle{headonly}{
+\fancyfoot{}
+\fancyfoot[r]{\textcolor{color2}{\thepage}}
+\fancyhead{}
+}
+
+\newcommand{\mytitle}[1]{\title{#1\vspace{0.15cm}}}
+
+
+\firstname{Davide}
+\familyname{Gerosa}
+
+\extrainfo{\normalsize d.gerosa@bham.ac.uk $\;\;\bullet\;\;$ \href{http://www.davidegerosa.com}	{www.davidegerosa.com}  $\;\;\bullet\;\;$ \today}
