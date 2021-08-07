@@ -9,17 +9,31 @@ import copy
 import sys
 import time
 import os
-
+import requests
+import urllib.request as urllib
+import html
 from database import papers, talks
 
 # Set to true when testing to avoid API limit
-testing=True
 
 def hindex(citations):
     return sum(x >= i + 1 for i, x in enumerate(sorted(  list(citations), reverse=True)))
 
+def pdflatex(filename):
+    os.system('pdflatex '+filename+' >/dev/null')
 
-def ads_citations(papers):
+def checkinternet():
+    url = "http://www.google.com"
+    timeout = 5
+    connected = True
+    try:
+	    requests.get(url, timeout=timeout)
+    except (requests.ConnectionError, requests.Timeout) as exception:
+	    connected = False
+    return connected
+
+
+def ads_citations(papers,testing=False):
 
     print('Get citations from ADS')
 
@@ -46,7 +60,7 @@ def ads_citations(papers):
     return papers
 
 
-def inspire_citations(papers):
+def inspire_citations(papers,testing=False):
 
     print('Get citations from INSPIRE')
 
@@ -62,7 +76,6 @@ def inspire_citations(papers):
                             req = urllib.request.urlopen("https://inspirehep.net/api/literature?q=texkey:"+p['inspire'])
                         except urllib.error.HTTPError as e:
                             if e.code == 429:
-                                print('here')
                                 retry_time = req.getheaders()["retry-in"]
                                 print('INSPIRE API error: retry-in', retry_time)
                                 sleep(retry_time)
@@ -192,8 +205,13 @@ def metricspapers(papers,filename="metricspapers.tex"):
     inspire_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in papers])
     max_citations = np.maximum(ads_citations,inspire_citations)
 
-    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}}: >"+str(round(np.sum(max_citations),-2))+".")
-    out.append("\\textcolor{mark_color}{\\textbf{h-index}}: "+str(hindex(max_citations))+" (using ADS and InSpire).")
+    totalnumber = np.sum(max_citations)
+    print("\tTotal number of citations:", totalnumber)
+    hind = hindex(max_citations)
+    print("\th-index:", hind)
+
+    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}}: >"+str(round(totalnumber,-2))+".")
+    out.append("\\textcolor{mark_color}{\\textbf{h-index}}: "+str(hind)+" (using ADS and InSpire).")
     out.append("\\\\")
     out.append("\\textcolor{mark_color}{\\textbf{Web links to list services}}:")
     out.append("\href{https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(doctype%3A%22misc%22%20OR%20doctype%3A%22inproceedings%22%20OR%20doctype%3A%22article%22%20OR%20doctype%3A%22eprint%22)&q=%20author%3A%22Gerosa%2C%20Davide%22&sort=citation_count%20desc%2C%20bibcode%20desc&p_=0}{\\textsc{ADS}};")
@@ -229,14 +247,6 @@ def metricstalks(talks,filename="metricstalks.tex"):
     with open(filename,"w") as f: f.write("\n".join(out))
 
 
-papers = ads_citations(papers)
-papers = inspire_citations(papers)
-parsepapers(papers)
-parsetalks(talks)
-metricspapers(papers)
-metricstalks(talks)
-
-
 def convertjournal(j):
     journalconversion={}
     journalconversion['\prd']=["Physical Review D", "PRD"]
@@ -257,6 +267,8 @@ def convertjournal(j):
     journalconversion['Astrophysics and Space Science Proceedings']=["Astrophysics and Space Science Proceedings","AaSSP"]
     journalconversion['Caltech Undergraduate Research Journal']=["Caltech Undergraduate Research Journal","CURJ"]
     journalconversion["Chapter in ``Handbook of Gravitational Wave Astronomy'', Springer"]=["Springer book chapter","Springer"]
+    journalconversion["arXiv e-prints"]=["arXiv","arXiv"]
+
 
     if j in journalconversion:
         return journalconversion[j]
@@ -327,9 +339,7 @@ def citationspreadsheet(papers):
     worksheet.update("H2",str(np.sum(spreaddata['max_citations'])))
     worksheet.update("I2",str(hindex(spreaddata['max_citations'])))
 
-
     print('Write Google Spreadsheet: Year')
-
 
     singleyear=np.array(list(set(spreaddata['year'])))
     journalcount = np.array([np.sum(spreaddata['year']==s) for s in singleyear])
@@ -390,10 +400,110 @@ def citationspreadsheet(papers):
     worksheet.update("B2",np.expand_dims(np.array(journalcount),1).tolist())
 
 
-citationspreadsheet(papers)
+def builddocs():
+
+    print("Update CV")
+    pdflatex("CV")
+
+    print("Update publist")
+    pdflatex("publist")
+
+    print("Update talklist")
+    pdflatex("talklist")
+
+    print("Update CVshort")
+    with open('CV.tex', 'r') as f:
+        CV = f.read()
+    CVshort = "%".join(CV.split("%mark_CVshort")[::2])
+    with open('CVshort.tex', 'w') as f:
+        f.write(CVshort)
+    pdflatex("CVshort")
+
+
+def buildbib():
+
+    print("Build bib file from ADS")
+
+    with open('publist.bib', 'r') as f:
+        publist = f.read()
+
+    stored = []
+    for p in publist.split('@'):
+        if "BibDesk" not in p:
+            stored.append(p.split("{")[1].split(",")[0])
+
+    for k in tqdm(papers):
+        for p in tqdm(papers[k]['data']):
+
+            if p['ads_found'] not in stored:
+                with urllib.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation") as f:
+                    bib = f.read()
+                bib=bib.decode()
+                bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
+                bib=html.unescape(bib)
+
+                if "journal =" in bib:
+                    j  = bib.split("journal =")[1].split("}")[0].split("{")[1]
+                    bib = bib.replace(j,convertjournal(j)[0])
+
+                with open('publist.bib', 'a') as f:
+                    f.write(bib)
+
+def replacekeys():
+
+    print("Replacing ADS keys")
+
+    with open('database.py', 'r') as f:
+        database = f.read()
+
+    with open('publist.bib', 'r') as f:
+        publist = f.read()
+
+    for k in (papers):
+        for p in (papers[k]['data']):
+
+            #if p['ads']== "2021ApJ...915...56G":
+            #    p['ads'] = "2021arXiv210411247G"
+
+            if p['ads'] != p['ads_found']:
+
+                print("\t", p['ads'],"-->", p['ads_found'])
+
+                # Update in database
+                database = database.replace(p['ads'],p['ads_found'])
+                # Remove from bib file
+                publist = "@".join([b for b in publist.split("@") if p['ads'] not in b])
+
+
+    with open('database.py', 'w') as f:
+        f.write(database)
+
+    with open('publist.bib', 'w') as f:
+        f.write(publist)
+
+
+
+#####################################
+
+
+
+if checkinternet():
+    papers = ads_citations(papers,testing=False)
+    papers = inspire_citations(papers,testing=False)
+    citationspreadsheet(papers)
+    parsepapers(papers)
+    parsetalks(talks)
+    metricspapers(papers)
+    metricstalks(talks)
+    buildbib()
+
+replacekeys()
+builddocs()
+
+
 
 sys.exit()
-
+'''
 - TAKE CARE OF  UPDADING THE ADS KEY
 - BUILD CVSHORT, PUBLIST AND TALKLIST
 
@@ -436,38 +546,6 @@ with open('CV.tex', 'r') as f:
     CV = f.read()
 
 os.system('pdflatex CV >/dev/null')
-
-#########################################
-print("Update talklist")
-#########################################
-
-with open('talklist.tex', 'r') as f:
-    talklist = f.read()
-
-talklist = "%mark_intro".join([talklist.split("%mark_intro")[0],CV.split("%mark_intro")[1],talklist.split("%mark_intro")[2]])
-talklist = "%mark_talknumbers".join([talklist.split("%mark_talknumbers")[0],CV.split("%mark_talknumbers")[1],talklist.split("%mark_talknumbers")[2]])
-talklist = "%mark_talklist".join([talklist.split("%mark_talklist")[0],CV.split("%mark_talklist")[1],talklist.split("%mark_talklist")[2]])
-
-with open('talklist.tex', 'w') as f:
-    f.write(talklist)
-
-os.system('pdflatex talklist >/dev/null')
-
-#########################################
-print("Update publist")
-#########################################
-
-with open('publist.tex', 'r') as f:
-    publist = f.read()
-
-publist = "%mark_intro".join([publist.split("%mark_intro")[0],CV.split("%mark_intro")[1],publist.split("%mark_intro")[2]])
-publist = "%mark_pubnumbers".join([publist.split("%mark_pubnumbers")[0],CV.split("%mark_pubnumbers")[1],publist.split("%mark_pubnumbers")[2]])
-publist = "%mark_publist".join([publist.split("%mark_publist")[0],CV.split("%mark_publist")[1],publist.split("%mark_publist")[2]])
-
-with open('publist.tex', 'w') as f:
-    f.write(publist)
-
-os.system('filltex publist >/dev/null') # Note filltex to get the bibliography right
 
 #########################################
 print("Bibbase bibliography")
@@ -522,3 +600,4 @@ os.system('rm -rf *aux *bbl *blg *out *log *synctex.gz')
 #########################################
 print("Done!")
 #########################################
+'''
