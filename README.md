@@ -38,3 +38,14 @@ The magic happes in `makeCV.py`. In particular:
 - Build a standalone presentation list (`talklist.tex`).
 - Push all of this to this [git](https://github.com/dgerosa/CV) repository.
 - Publish [releases](https://github.com/dgerosa/CV/releases) to get permanent URLs.
+
+
+
+Add the end of the day: you change something and then type
+
+```shell
+python makeCV.py "commit messsage"
+```
+
+
+
