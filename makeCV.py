@@ -14,7 +14,6 @@ import urllib.request as urllib
 import html
 from database import papers, talks
 
-# Set to true when testing to avoid API limit
 
 def hindex(citations):
     return sum(x >= i + 1 for i, x in enumerate(sorted(  list(citations), reverse=True)))
@@ -32,7 +31,6 @@ def checkinternet():
 	    connected = False
     return connected
 
-
 def ads_citations(papers,testing=False):
 
     print('Get citations from ADS')
@@ -40,22 +38,25 @@ def ads_citations(papers,testing=False):
     with open('/Users/dgerosa/reps/dotfiles/adstoken.txt') as f:
         ads.config.token = f.read()
 
-    for k in tqdm(papers):
-        for p in tqdm(papers[k]['data']):
-            if p['ads']:
-                if testing:
-                    p['ads_citations'] = np.random.randint(0, 100)
-                    p['ads_found'] = p['ads']
+    tot = len(np.concatenate([papers[k]['data'] for k in papers]))
+    with tqdm(total=tot) as pbar:
+        for k in papers:
+            for p in papers[k]['data']:
+                if p['ads']:
+                    if testing:
+                        p['ads_citations'] = np.random.randint(0, 100)
+                        p['ads_found'] = p['ads']
+                    else:
+                        q = list(ads.SearchQuery(q=p['ads'],fl=['citation_count','bibcode']))
+                        if len(q)!=1:
+                            raise ValueError("ADS error in "+b)
+                        q=q[0]
+                        p['ads_citations'] = q.citation_count
+                        p['ads_found'] = q.bibcode
                 else:
-                    q = list(ads.SearchQuery(q=p['ads'],fl=['citation_count','bibcode']))
-                    if len(q)!=1:
-                        raise ValueError("ADS error in "+b)
-                    q=q[0]
-                    p['ads_citations'] = q.citation_count
-                    p['ads_found'] = q.bibcode
-            else:
-                p['ads_citations'] = 0
-                p['ads_found'] = ""
+                    p['ads_citations'] = 0
+                    p['ads_found'] = ""
+                pbar.update(1)
 
     return papers
 
@@ -64,36 +65,39 @@ def inspire_citations(papers,testing=False):
 
     print('Get citations from INSPIRE')
 
-    for k in tqdm(papers):
-        for p in tqdm(papers[k]['data']):
-            if p['inspire']:
-                if testing:
-                    p['inspire_citations'] = np.random.randint(0, 100)
-                else:
-                    n_retries=0
-                    while n_retries<10:
-                        try:
-                            req = urllib.request.urlopen("https://inspirehep.net/api/literature?q=texkey:"+p['inspire'])
-                        except urllib.error.HTTPError as e:
-                            if e.code == 429:
-                                retry_time = req.getheaders()["retry-in"]
-                                print('INSPIRE API error: retry-in', retry_time)
-                                sleep(retry_time)
-                                n_retries = n_retries + 1
-                                continue
+    tot = len(np.concatenate([papers[k]['data'] for k in papers]))
+    with tqdm(total=tot) as pbar:
+        for k in papers:
+            for p in papers[k]['data']:
+                if p['inspire']:
+                    if testing:
+                        p['inspire_citations'] = np.random.randint(0, 100)
+                    else:
+                        n_retries=0
+                        while n_retries<10:
+                            try:
+                                req = urllib.urlopen("https://inspirehep.net/api/literature?q=texkey:"+p['inspire'])
+                            except urllib.error.HTTPError as e:
+                                if e.code == 429:
+                                    retry_time = req.getheaders()["retry-in"]
+                                    print('INSPIRE API error: retry-in', retry_time)
+                                    sleep(retry_time)
+                                    n_retries = n_retries + 1
+                                    continue
+                                else:
+                                    raise ValueError("INSPIRE error in "+p['inspire'])
                             else:
-                                raise ValueError("INSPIRE error in "+p['inspire'])
-                        else:
 
-                            q = json.loads(req.read().decode("utf-8"))
-                            n = len(q['hits']['hits'])
-                            if n!=1:
-                                raise ValueError("INSPIRE error in "+b)
-                            p['inspire_citations']=q['hits']['hits'][0]['metadata']['citation_count']
-                            break
+                                q = json.loads(req.read().decode("utf-8"))
+                                n = len(q['hits']['hits'])
+                                if n!=1:
+                                    raise ValueError("INSPIRE error in "+b)
+                                p['inspire_citations']=q['hits']['hits'][0]['metadata']['citation_count']
+                                break
 
-            else:
-                p['inspire_citations'] = 0
+                else:
+                    p['inspire_citations'] = 0
+                pbar.update(1)
 
     return papers
 
@@ -432,26 +436,29 @@ def buildbib():
         if "BibDesk" not in p:
             stored.append(p.split("{")[1].split(",")[0])
 
-    for k in tqdm(papers):
-        for p in tqdm(papers[k]['data']):
+    tot = len(np.concatenate([papers[k]['data'] for k in papers]))
+    with tqdm(total=tot) as pbar:
+        for k in papers:
+            for p in papers[k]['data']:
 
-            if p['ads_found'] not in stored:
-                with urllib.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation") as f:
-                    bib = f.read()
-                bib=bib.decode()
-                bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
-                bib=html.unescape(bib)
+                if p['ads_found'] not in stored:
+                    with urllib.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation") as f:
+                        bib = f.read()
+                    bib=bib.decode()
+                    bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
+                    bib=html.unescape(bib)
 
-                if "journal =" in bib:
-                    j  = bib.split("journal =")[1].split("}")[0].split("{")[1]
-                    bib = bib.replace(j,convertjournal(j)[0])
+                    if "journal =" in bib:
+                        j  = bib.split("journal =")[1].split("}")[0].split("{")[1]
+                        bib = bib.replace(j,convertjournal(j)[0])
 
-                with open('publist.bib', 'a') as f:
-                    f.write(bib)
+                    with open('publist.bib', 'a') as f:
+                        f.write(bib)
+                pbar.update(1)
 
 def replacekeys():
 
-    print("Replacing ADS keys")
+    print("Checking ADS keys")
 
     with open('database.py', 'r') as f:
         database = f.read()
@@ -467,7 +474,7 @@ def replacekeys():
 
             if p['ads'] != p['ads_found']:
 
-                print("\t", p['ads'],"-->", p['ads_found'])
+                print("\tReplace:", p['ads'],"-->", p['ads_found'])
 
                 # Update in database
                 database = database.replace(p['ads'],p['ads_found'])
@@ -482,122 +489,25 @@ def replacekeys():
         f.write(publist)
 
 
-
 #####################################
 
 
+if __name__ == "__main__":
 
-if checkinternet():
-    papers = ads_citations(papers,testing=False)
-    papers = inspire_citations(papers,testing=False)
-    citationspreadsheet(papers)
-    parsepapers(papers)
-    parsetalks(talks)
-    metricspapers(papers)
-    metricstalks(talks)
-    buildbib()
+    if checkinternet():
+        # Set testing=True to avoid API limit
+        papers = ads_citations(papers,testing=False)
+        papers = inspire_citations(papers,testing=False)
+        parsepapers(papers)
+        parsetalks(talks)
+        metricspapers(papers)
+        metricstalks(talks)
+        buildbib()
+        citationspreadsheet(papers)
 
-replacekeys()
-builddocs()
+    replacekeys()
+    builddocs()
 
-
+    # TODO: publish on github and upload realease. Take these from goCV.sh
 
 sys.exit()
-'''
-- TAKE CARE OF  UPDADING THE ADS KEY
-- BUILD CVSHORT, PUBLIST AND TALKLIST
-
-
-#########################################
-print("Update CV")
-#########################################
-
-print("\tTotal number of citations: ", totalnumber)
-print("\th-index: ", hindex)
-
-with open('CV.tex', 'r') as f:
-    CV = f.read()
-
-with open('publist.bib','r') as f:
-    bib = f.read()
-
-CV = "%mark_hindex".join([CV.split("%mark_hindex")[0],"\n"+str(hindex)+" ",CV.split("%mark_hindex")[2]])
-
-CV = "%mark_totalnumber".join([CV.split("%mark_totalnumber")[0],"\n"+str(round(totalnumber,-2))+" ",CV.split("%mark_totalnumber")[2]])
-
-for have,found in zip(ADSbibs,retrievedbibcodes):
-    if have!=found:
-        print("\tReplacing ADS key:", have,"-->", found)
-        # Update in CV file
-        CV = "".join([CV.split(have)[0],found,CV.split(have)[1]])
-        # Remove outdated entery from bib file
-        bib = "@".join([b for b in bib.split("@") if have not in b])
-
-
-with open('CV.tex', 'w') as f:
-    f.write(CV)
-
-with open('publist.bib','w') as f:
-    f.write(bib)
-
-
-
-with open('CV.tex', 'r') as f:
-    CV = f.read()
-
-os.system('pdflatex CV >/dev/null')
-
-#########################################
-print("Bibbase bibliography")
-#########################################
-
-with open('publist.bib', 'r') as f:
-    biblio = f.read()
-
-# Conversion from ADS to whatever I want in bibbase
-biblio = biblio.replace('\mnras', 'Monthly Notices of the Royal Astronomical Society')
-biblio = biblio.replace('\mnrasl', 'Monthly Notices of the Royal Astronomical Society Letters')
-biblio = biblio.replace('\prd', 'Physical Review D')
-biblio = biblio.replace('\prl', 'Physical Review Letters')
-biblio = biblio.replace('\cqg', 'Classical and Quantum Gravity')
-biblio = biblio.replace('\\aap', 'Astronomy and Astrophysics')
-
-
-with open('publist.bib', 'w') as f:
-    f.write(biblio)
-
-#########################################
-print("Update shortCV")
-#########################################
-
-CVshort = "%mark_short".join([CV.split("%mark_short")[0],CV.split("%mark_short")[2]])
-
-with open('CVshort.tex', 'w') as f:
-    f.write(CVshort)
-
-os.system('pdflatex CVshort >/dev/null')
-
-
-#########################################
-print("Update transcript")
-#########################################
-
-with open('transcript.tex', 'r') as f:
-    transcript = f.read()
-
-transcript = "%mark_intro".join([transcript.split("%mark_intro")[0],CV.split("%mark_intro")[1],transcript.split("%mark_intro")[2]])
-
-with open('transcript.tex', 'w') as f:
-    f.write(transcript)
-
-os.system('pdflatex transcript >/dev/null')
-
-#########################################
-print("Cleaning...")
-#########################################
-os.system('rm -rf *aux *bbl *blg *out *log *synctex.gz')
-
-#########################################
-print("Done!")
-#########################################
-'''
