@@ -514,17 +514,14 @@ if __name__ == "__main__":
         comment = sys.argv[1]
     except:
         comment = "Generic update"
-    date = datetime.now().strftime("%Y-%m-%d-%H-%M"))
+    date = datetime.now().strftime("%Y-%m-%d-%H-%M")
 
     print("Push to git:", comment)
 
-    os.system()
-# =$1
-# echo "Push to repo"
-# echo $COMMIT_MESSAGE
-# git add -u
-# git commit -m "$COMMIT_MESSAGE"
-# git push
+    os.system("git add -u")
+    os.system("git commit -m '"+comment+"'")
+    os.system("git push")
+
 #
 # DATE=$(date +"%Y-%m-%d-%H-%M")
 # echo "Publish release"
