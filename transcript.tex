@@ -1,84 +1,13 @@
-\documentclass[11pt,letterpaper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\input{preamble}
 
-\usepackage{graphicx} 
-\usepackage{longtable}
-\usepackage{multirow}
-\usepackage{textcomp}
-\usepackage{units}
-\usepackage{lineno}
-\usepackage{rotating}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage[utf8]{inputenc}
-\usepackage{longtable}
-
-
-\moderncvstyle{banking}    % casual' (default), 'classic', 'oldstyle' and 'banking'
-
-\moderncvcolor{orange}     % 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\definecolor{color1}{rgb}{1.0, 0.25, 0.25}
-
-
-%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}
-
-\usepackage[sfdefault,lf]{carlito}
-%% The 'lf' option for lining figures
-%% The 'sfdefault' option to make the base font sans serif
-\usepackage[T1]{fontenc}
-\renewcommand*\oldstylenums[1]{\carlitoOsF #1}
-
-\usepackage[top=1.9cm,bottom=1.6cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
-
-\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
-%\setlength{\maketitlenamewidth}{10cm}     % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks.
-%\usepackage{natbib}
-%\def\@biblabel{\arabic{enumiv}} 
-
-
-
-
-% customize the enumerate environments (i.e. enumerate, itemize, ...)
-\usepackage{enumitem}
-\setlist{nolistsep}
-
-
-
-\firstname{Davide}
-\familyname{Gerosa}
-\title{Transcripts\vspace{0.15cm}}
-%mark_intro
-\extrainfo{\normalsize d.gerosa@bham.ac.uk $\;\;\bullet\;\;$ \href{http://www.davidegerosa.com}	{www.davidegerosa.com}  $\;\;\bullet\;\;$ \today}
-%mark_intro
-
-
-\photo[70pt][0.1pt]{myphoto}                  
-
-\makeatletter
-\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-\makeatother
-
-\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
-\newcommand{\mnrasl}{Monthly Notices of the Royal Astronomical Society Letters}
-\newcommand{\prd}{Physical Review D}
-\newcommand{\prl}{\textbf{Physical Review Letters}} % Stress PRL with bf
-\newcommand{\cqg}{Classical and Quantum Gravity}
-\newcommand{\aap}{Astronomy \& Astrophysics}
-
-
-\long\def\suppress#1\endsuppress{%
-  \begingroup%
-    \tracinglostchars=0%
-    \let\selectfont=\nullfont
-    \nullfont #1\endgroup}
-
+\mytitle{Transcripts}
+\definecolor{color1}{rgb}{0.93, 0.46, 0.0}
+\definecolor{mark_color}{rgb}{0.93, 0.46, 0.0}
 
 
 \begin{document}
-\thispagestyle{empty}
-\maketitle
-%\textcolor{color1}{\begin{center}{\huge  \textbf{Davide Gerosa - Publication list}}\end{center}}
-
+\pagestyle{headonly}
+\makecvtitle
 \vspace{-1.5cm}
 
 %At the end of this document I enclose the unofficial transcript printed from the web-service of the University of Milan. Since it is available only in Italian, here below I have translated the contents of each course.
@@ -105,8 +34,7 @@ Advisors: G.~Lodato, E.~Berti\\
 
 \vspace{-0.1cm}
 { \scriptsize
-%\begin{tabular*}{\linewidth}{l	@{\hspace{0.65cm}}l@{\hspace{0.7cm}}l@{\hspace{0.7cm}}l}
-\begin{tabular*}{\linewidth}{l	@{\hspace{1.2cm}}l@{\hspace{1.2cm}}l@{\hspace{1.2cm}}l}
+\begin{tabular*}{\linewidth}{l	@{\hspace{1.5cm}}l@{\hspace{1.5cm}}l@{\hspace{1.5cm}}l}
 \textbf{Course (Italian official name)} &  \textbf{Contents}  &  \textbf{Final Score} & \textbf{Weight (CFU)}\\
 \hline \hline
 Elettrodinamica Classica  					&  Classical Electrodynamics	 & 30/30 cum laude &   6 \\	
@@ -141,7 +69,7 @@ Advisors: D.~Klemm,  A.~Santambrogio\\
 \vspace{-0.1cm}
 { \scriptsize
 %\begin{tabular*}{\linewidth}{lll@{\hspace{0.7cm}}l@{\extracolsep{\fill}}} 
-\begin{tabular*}{\linewidth}{l	@{\hspace{1.2cm}}l@{\hspace{1.2cm}}l@{\hspace{1.2cm}}l}
+\begin{tabular*}{\linewidth}{l	@{\hspace{1.5cm}}l@{\hspace{1.5cm}}l@{\hspace{1.5cm}}l}
 \textbf{Course (Italian official name)} &  \textbf{Contents}  &  \textbf{Final Score} & \textbf{Weight (CFU)}\\
 \hline \hline
 Analisi Matematica 1  					&  Mathematical Analysis	& 30/30 cum laude &8\\	
