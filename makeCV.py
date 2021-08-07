@@ -14,6 +14,8 @@ import urllib.request as urllib
 import html
 from database import papers, talks
 from datetime import datetime
+import shutil
+
 
 def hindex(citations):
     return sum(x >= i + 1 for i, x in enumerate(sorted(  list(citations), reverse=True)))
@@ -489,56 +491,55 @@ def replacekeys():
         f.write(publist)
 
 
+def pushtogit():
+    try:
+        comment = sys.argv[1]
+    except:
+        comment = "Generic update"
+
+    print("Push to git:", comment)
+    print(" ")
+    os.system("git add -u")
+    os.system("git commit -m '"+comment+"'")
+
+
+def publishgithub():
+    date = datetime.now().strftime("%Y-%m-%d-%H-%M")
+    print("Publish github release:", date)
+
+    auth = "export GITHUB_TOKEN=$(security find-generic-password -w -a $LOGNAME -s githubcvtoken)"
+    shutil.copy2("CV.pdf", "DavideGerosa_fullCV.pdf")
+    shutil.copy2("CVshort.pdf", "DavideGerosa_shortCV.pdf")
+    shutil.copy2("publist.pdf", "DavideGerosa_publist.pdf")
+    shutil.copy2("publist.bib", "DavideGerosa_publist.bib")
+    shutil.copy2("talklist.pdf", "DavideGerosa_talklist.pdf")
+    #copy("transcript.pdf", "transcript.pdf")
+
+    os.system(auth+"; githubrelease release dgerosa/CV create "+date+" --prerelease")
+    os.system(auth+"; githubrelease asset dgerosa/CV upload "+date+" 'DavideGerosa_*'")
+    os.system(auth+"; githubrelease release dgerosa/CV publish "+date)
+
+
 #####################################
 
 
 if __name__ == "__main__":
 
-    # if checkinternet():
-    #     # Set testing=True to avoid API limit
-    #     papers = ads_citations(papers,testing=False)
-    #     papers = inspire_citations(papers,testing=False)
-    #     parsepapers(papers)
-    #     parsetalks(talks)
-    #     metricspapers(papers)
-    #     metricstalks(talks)
-    #     buildbib()
-    #     citationspreadsheet(papers)
-    #
-    # replacekeys()
-    # builddocs()
+    connected= True
+    if connected:
+        # Set testing=True to avoid API limit
+        papers = ads_citations(papers,testing=False)
+        papers = inspire_citations(papers,testing=False)
+        parsepapers(papers)
+        parsetalks(talks)
+        metricspapers(papers)
+        metricstalks(talks)
+        buildbib()
+        citationspreadsheet(papers)
 
-    # TODO: publish on github and upload realease. Take these from goCV.sh
+    replacekeys()
+    builddocs()
 
-    try:
-        comment = sys.argv[1]
-    except:
-        comment = "Generic update"
-    date = datetime.now().strftime("%Y-%m-%d-%H-%M")
-
-    print("Push to git:", comment)
-
-    os.system("git add -u")
-    os.system("git commit -m '"+comment+"'")
-    os.system("git push")
-
-#
-# DATE=$(date +"%Y-%m-%d-%H-%M")
-# echo "Publish release"
-# echo $DATE
-#
-# # Read github token from mac keychain
-# export GITHUB_TOKEN=$(security find-generic-password -w -a $LOGNAME -s githubcvtoken)
-#
-# cp CV.pdf DavideGerosa_fullCV.pdf
-# cp CVshort.pdf DavideGerosa_shortCV.pdf
-# cp publist.pdf DavideGerosa_publist.pdf
-# cp publist.bib DavideGerosa_publist.bib
-# cp talklist.pdf DavideGerosa_talklist.pdf
-# #cp transcript.pdf DavideGerosa_transcript.pdf
-#
-# githubrelease release dgerosa/CV create $DATE --prerelease
-# githubrelease asset dgerosa/CV upload $DATE "DavideGerosa_*"
-# githubrelease release dgerosa/CV publish $DATE
-#
-# rm DavideGerosa_*
+    if connected:
+        pushtogit()
+        publishgithub()
