@@ -13,7 +13,7 @@ import requests
 import urllib.request as urllib
 import html
 from database import papers, talks
-
+from datetime import datetime
 
 def hindex(citations):
     return sum(x >= i + 1 for i, x in enumerate(sorted(  list(citations), reverse=True)))
@@ -494,20 +494,54 @@ def replacekeys():
 
 if __name__ == "__main__":
 
-    if checkinternet():
-        # Set testing=True to avoid API limit
-        papers = ads_citations(papers,testing=False)
-        papers = inspire_citations(papers,testing=False)
-        parsepapers(papers)
-        parsetalks(talks)
-        metricspapers(papers)
-        metricstalks(talks)
-        buildbib()
-        citationspreadsheet(papers)
-
-    replacekeys()
-    builddocs()
+    # if checkinternet():
+    #     # Set testing=True to avoid API limit
+    #     papers = ads_citations(papers,testing=False)
+    #     papers = inspire_citations(papers,testing=False)
+    #     parsepapers(papers)
+    #     parsetalks(talks)
+    #     metricspapers(papers)
+    #     metricstalks(talks)
+    #     buildbib()
+    #     citationspreadsheet(papers)
+    #
+    # replacekeys()
+    # builddocs()
 
     # TODO: publish on github and upload realease. Take these from goCV.sh
 
-sys.exit()
+    try:
+        comment = sys.argv[1]
+    except:
+        comment = "Generic update"
+    date = datetime.now().strftime("%Y-%m-%d-%H-%M"))
+
+    print("Push to git:", comment)
+
+    os.system()
+# =$1
+# echo "Push to repo"
+# echo $COMMIT_MESSAGE
+# git add -u
+# git commit -m "$COMMIT_MESSAGE"
+# git push
+#
+# DATE=$(date +"%Y-%m-%d-%H-%M")
+# echo "Publish release"
+# echo $DATE
+#
+# # Read github token from mac keychain
+# export GITHUB_TOKEN=$(security find-generic-password -w -a $LOGNAME -s githubcvtoken)
+#
+# cp CV.pdf DavideGerosa_fullCV.pdf
+# cp CVshort.pdf DavideGerosa_shortCV.pdf
+# cp publist.pdf DavideGerosa_publist.pdf
+# cp publist.bib DavideGerosa_publist.bib
+# cp talklist.pdf DavideGerosa_talklist.pdf
+# #cp transcript.pdf DavideGerosa_transcript.pdf
+#
+# githubrelease release dgerosa/CV create $DATE --prerelease
+# githubrelease asset dgerosa/CV upload $DATE "DavideGerosa_*"
+# githubrelease release dgerosa/CV publish $DATE
+#
+# rm DavideGerosa_*
