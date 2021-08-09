@@ -208,7 +208,7 @@ def metricspapers(papers,filename="metricspapers.tex"):
     out.append("\end{tabular} }")
 
     ads_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in papers])
-    inspire_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in papers])
+    inspire_citations = np.concatenate([[p['inspire_citations'] for p in papers[k]['data']] for k in papers])
     max_citations = np.maximum(ads_citations,inspire_citations)
 
     totalnumber = np.sum(max_citations)
@@ -540,6 +540,6 @@ if __name__ == "__main__":
     replacekeys()
     builddocs()
 
-    if connected:
-        pushtogit()
-        publishgithub()
+    #if connected:
+    #    pushtogit()
+    #    publishgithub()
