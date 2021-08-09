@@ -540,6 +540,6 @@ if __name__ == "__main__":
     replacekeys()
     builddocs()
 
-    #if connected:
-    #    pushtogit()
-    #    publishgithub()
+    if connected:
+       pushtogit()
+       publishgithub()
