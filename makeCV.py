@@ -185,9 +185,9 @@ def metricspapers(papers,filename="metricspapers.tex"):
     out.append("\cvitem{}{\\begin{tabular}{rcl}")
     out.append("\\textcolor{mark_color}{\\textbf{Publications}}: &\hspace{0.3cm} &")
     out.append("\\textbf{"+str(len(papers['published']['data']))+"} papers published in major peer-reviewed journals,")
-    if len(papers['submitted']['data']>1:
+    if len(papers['submitted']['data'])>1:
         out.append("\\textbf{"+str(len(papers['submitted']['data']))+"} papers in submission stage,")
-    elif len(papers['submitted']['data']==1:
+    elif len(papers['submitted']['data'])==1:
         out.append("\\textbf{"+str(len(papers['submitted']['data']))+"} paper in submission stage,")
 
     out.append("\\\\ & &")
