@@ -32,10 +32,16 @@ if submitted:
         "more":     ""
         })
 
-    papers['submitted']['data'].append({
+
+if published:
+    papers['published'] = {}
+    papers['published']['label'] = 'Papers in major peer-reviewed journals'
+    papers['published']['data'] = []
+
+    papers['published']['data'].append({
         "title":    "Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness",
         "author":   "M. Dabrowny, N. Giacobbo, D. Gerosa",
-        "journal":  "",
+        "journal":  "Rendiconti Lincei, in press",
         "link":     "",
         "arxiv":    "arXiv:2106.12541 [astro-ph.HE]",
         "ads":      "2021arXiv210612541D",
@@ -43,22 +49,16 @@ if submitted:
         "more":     ""
         })
 
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
         "title":    "Looking for the parents of LIGO's black holes",
         "author":   "V. Baibhav, E. Berti, D. Gerosa, M. Mould, K. W. K. Wong",
-        "journal":  "",
+        "journal":  "\prd, in press.",
         "link":     "",
         "arxiv":    "arXiv:2105.12140 [gr-qc]",
         "ads":      "2021arXiv210512140B",
         "inspire":  "Baibhav:2021qzw",
         "more":     ""
         })
-
-
-if published:
-    papers['published'] = {}
-    papers['published']['label'] = 'Papers in major peer-reviewed journals'
-    papers['published']['data'] = []
 
     papers['published']['data'].append({
         "title":    "Inferring the properties of a population of compact binaries in presence of selection effects",
