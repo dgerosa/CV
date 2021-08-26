@@ -52,7 +52,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Looking for the parents of LIGO's black holes",
         "author":   "V. Baibhav, E. Berti, D. Gerosa, M. Mould, K. W. K. Wong",
-        "journal":  "\prd, in press.",
+        "journal":  "\prd, in press",
         "link":     "",
         "arxiv":    "arXiv:2105.12140 [gr-qc]",
         "ads":      "2021arXiv210512140B",
@@ -85,8 +85,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures",
         "author":   "D. Gerosa, M. Fishbach",
-        "journal":  "\\natastro, in press.",
-        "link":     "",
+        "journal":  "\\natastro 5 (2021) 749-760",
+        "link":     "https://www.nature.com/articles/s41550-021-01398-w",
         "arxiv":    "arXiv:2105.03439 [gr-qc]",
         "ads":      "2021NatAs...5..749G",
         "inspire":  "Gerosa:2021mno",
