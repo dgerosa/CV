@@ -88,7 +88,7 @@ if published:
         "journal":  "\\natastro, in press.",
         "link":     "",
         "arxiv":    "arXiv:2105.03439 [gr-qc]",
-        "ads":      "2021NatAs.tmp..136G",
+        "ads":      "2021NatAs...5..749G",
         "inspire":  "Gerosa:2021mno",
         "more":     "Review article. Covered by press release.",
         })
