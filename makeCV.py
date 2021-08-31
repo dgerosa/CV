@@ -220,7 +220,9 @@ def metricspapers(papers,filename="metricspapers.tex"):
     hind = hindex(max_citations)
     print("\th-index:", hind)
 
-    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}}: >"+str(round(totalnumber,-2))+".")
+    rounded = int(totalnumber/100)*100
+
+    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}}: >"+str(rounded)+".")
     out.append("\\textcolor{mark_color}{\\textbf{h-index}}: "+str(hind)+" (using ADS and InSpire).")
     out.append("\\\\")
     out.append("\\textcolor{mark_color}{\\textbf{Web links to list services}}:")
