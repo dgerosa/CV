@@ -1225,7 +1225,7 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Entering the data-driven regime of gravitational-wave astronomy",
-        "where":    "Physics Department seminars, UniversitÃ  degli Studi di Milano-Bicocca, Milan, Italy (online)",
+        "where":    "Physics Department seminars, Universit\`{a}  degli Studi di Milano-Bicocca, Milan, Italy (online)",
         "when":     "Oct 2020",
         "invited":  True,
         "more":     ""
@@ -1426,7 +1426,7 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "A tale of astronomy and relativity: formation and evolution of black-hole binaries",
-        "where":    "Department seminars, UniversitÃ  degli Studi di Milano, Milan, Italy",
+        "where":    "Department seminars, Universit\`{a}  degli Studi di Milano, Milan, Italy",
         "when":     "Apr 2016",
         "invited":  True,
         "more":     ""
@@ -1458,7 +1458,7 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Innovative multi-timescale approach to binary black holes",
-        "where":    "Theoretical Astrophysics seminars, UniversitÃ  degli Studi di Milano, Milan, Italy",
+        "where":    "Theoretical Astrophysics seminars, Universit\`{a}  degli Studi di Milano, Milan, Italy",
         "when":     "Dec 2015",
         "invited":  True,
         "more":     ""
@@ -1590,7 +1590,7 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Esplorare l'Universo con le onde gravitazionali",
-        "where":    "Settimana dell'Astronomia, Fondazione Lombardia per l'Ambiente (online)",
+        "where":    "Settimana dell'Astronomia, Fondazione Lombardia per l'Ambiente, Italy, (online)",
         "when":     "Apr 2021",
         "invited":  True,
         "more":     ""
@@ -1606,7 +1606,7 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "The (gravitational) sound of the Universe",
-        "where":    "Institute of Physics (IoP) Lecture Series, (online)",
+        "where":    "Institute of Physics (IoP) Lecture Series, UK, (online)",
         "when":     "Dec 2020",
         "invited":  True,
         "more":     ""
