@@ -42,7 +42,7 @@ if published:
         "title":    "Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness",
         "author":   "M. Dabrowny, N. Giacobbo, D. Gerosa",
         "journal":  "Rendiconti Lincei, in press",
-        "link":     "",
+        "link":     "https://link.springer.com/article/10.1007/s12210-021-01019-8",
         "arxiv":    "arXiv:2106.12541 [astro-ph.HE]",
         "ads":      "2021arXiv210612541D",
         "inspire":  "Dabrowny:2021yag",
@@ -77,7 +77,7 @@ if published:
         "journal":  "\prd, in press.",
         "link":     "",
         "arxiv":    "arXiv:2106.05259 [astro-ph.HE]",
-        "ads":      "2021arXiv210605259B",
+        "ads":      "2021PhRvD.104d4065B",
         "inspire":  "Buscicchio:2021dph",
         "more":     ""
         })
