@@ -826,6 +826,14 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Inspiral, merge, repeat: hierarchical black-hole mergers and their gravitational-wave signatures",
+        "where":    "XXIV SIGRAV Conference 2021, Urbino, Italy",
+        "when":     "Sep 2021",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "Two precessing spins and how to find them",
         "where":    "14th Edoardo Amaldi Conference, Melbourne, Australia, (online)",
         "when":     "Jul 2021",
