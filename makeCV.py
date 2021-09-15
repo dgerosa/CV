@@ -110,13 +110,16 @@ def parsepapers(papers,filename="parsepapers.tex"):
 
     out=[]
     for k in ['submitted','published','proceedings']:
-        out.append("\\textcolor{color1}{\\textbf{"+papers[k]['label']+":}}")
+        i = len(papers[k]['data'])
+
+
+        if i>=1:
+            out.append("\\textcolor{color1}{\\textbf{"+papers[k]['label']+":}}")
         out.append("\\vspace{-0.5cm}")
         out.append("")
         out.append("\cvitem{}{\small\hspace{-1cm}\\begin{longtable}{rp{0.3cm}p{15.8cm}}")
         out.append("%")
 
-        i = len(papers[k]['data'])
         for p in papers[k]['data']:
             out.append("\\textbf{"+str(i)+".} & & \\textit{"+p['title'].strip(".")+".}")
             out.append("\\newline{}")

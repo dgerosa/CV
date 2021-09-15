@@ -21,22 +21,22 @@ if submitted:
     papers['submitted']['label'] = 'Submitted papers'
     papers['submitted']['data'] = []
 
-    papers['submitted']['data'].append({
+
+if published:
+    papers['published'] = {}
+    papers['published']['label'] = 'Papers in major peer-reviewed journals'
+    papers['published']['data'] = []
+
+    papers['published']['data'].append({
         "title":    "Population-informed priors in gravitational-wave astronomy",
         "author":   "C. J. Moore, D. Gerosa",
-        "journal":  "",
+        "journal":  "\prd, in press",
         "link":     "",
         "arxiv":    "arXiv:2108.02462 [gr-qc]",
         "ads":      "2021arXiv210802462M",
         "inspire":  "Moore:2021xhn",
         "more":     ""
         })
-
-
-if published:
-    papers['published'] = {}
-    papers['published']['label'] = 'Papers in major peer-reviewed journals'
-    papers['published']['data'] = []
 
     papers['published']['data'].append({
         "title":    "Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness",
