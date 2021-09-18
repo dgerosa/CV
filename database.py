@@ -44,7 +44,7 @@ if published:
         "journal":  "Rendiconti Lincei, in press",
         "link":     "https://link.springer.com/article/10.1007/s12210-021-01019-8",
         "arxiv":    "arXiv:2106.12541 [astro-ph.HE]",
-        "ads":      "2021arXiv210612541D",
+        "ads":      "2021RLSFN.tmp...12D",
         "inspire":  "Dabrowny:2021yag",
         "more":     ""
         })
@@ -74,8 +74,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Bayesian parameter estimation of stellar-mass black-hole binaries with LISA",
         "author":   "R. Buscicchio, A. Klein, E. Roebber, C. J. Moore, D. Gerosa, E. Finch, A. Vecchio",
-        "journal":  "\prd, in press.",
-        "link":     "",
+        "journal":  "\prd 104 (2021) 044065",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.044065",
         "arxiv":    "arXiv:2106.05259 [astro-ph.HE]",
         "ads":      "2021PhRvD.104d4065B",
         "inspire":  "Buscicchio:2021dph",
