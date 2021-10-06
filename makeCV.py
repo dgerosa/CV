@@ -510,6 +510,7 @@ def pushtogit():
     print(" ")
     os.system("git add -u")
     os.system("git commit -m '"+comment+"'")
+    os.system("git push")
 
 
 def publishgithub():
