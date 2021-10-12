@@ -55,7 +55,7 @@ if published:
         "journal":  "\prd, in press",
         "link":     "",
         "arxiv":    "arXiv:2105.12140 [gr-qc]",
-        "ads":      "2021arXiv210512140B",
+        "ads":      "2021PhRvD.104h4002B",
         "inspire":  "Baibhav:2021qzw",
         "more":     ""
         })
