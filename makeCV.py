@@ -53,7 +53,11 @@ def ads_citations(papers,testing=False):
                         if len(q)!=1:
                             raise ValueError("ADS error in "+b)
                         q=q[0]
-                        p['ads_citations'] = q.citation_count
+                        if q.citation_count is not None:
+                            p['ads_citations'] = q.citation_count
+                        else:
+                            print("Warning: citation count is None.", p['ads'])
+                            p['ads_citations'] = 0
                         p['ads_found'] = q.bibcode
                 else:
                     p['ads_citations'] = 0
@@ -216,7 +220,9 @@ def metricspapers(papers,filename="metricspapers.tex"):
 
     ads_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in papers])
     inspire_citations = np.concatenate([[p['inspire_citations'] for p in papers[k]['data']] for k in papers])
+
     max_citations = np.maximum(ads_citations,inspire_citations)
+
 
     totalnumber = np.sum(max_citations)
     print("\tTotal number of citations:", totalnumber)

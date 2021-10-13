@@ -21,6 +21,16 @@ if submitted:
     papers['submitted']['label'] = 'Submitted papers'
     papers['submitted']['data'] = []
 
+    papers['submitted']['data'].append({
+        "title":    "Back to the future: gravitational-wave population inference at past time infinity",
+        "author":   "M. Mould, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2110.05507 [astro-ph.HE]",
+        "ads":      "2021arXiv211005507M",
+        "inspire":  "Mould:2021xst",
+        "more":     ""
+        })
 
 if published:
     papers['published'] = {}
@@ -30,8 +40,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Population-informed priors in gravitational-wave astronomy",
         "author":   "C. J. Moore, D. Gerosa",
-        "journal":  "\prd, in press",
-        "link":     "",
+        "journal":  "\prd 104 (2021) 083008",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.083008",
         "arxiv":    "arXiv:2108.02462 [gr-qc]",
         "ads":      "2021arXiv210802462M",
         "inspire":  "Moore:2021xhn",
@@ -39,24 +49,24 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness",
-        "author":   "M. Dabrowny, N. Giacobbo, D. Gerosa",
-        "journal":  "Rendiconti Lincei, in press",
-        "link":     "https://link.springer.com/article/10.1007/s12210-021-01019-8",
-        "arxiv":    "arXiv:2106.12541 [astro-ph.HE]",
-        "ads":      "2021RLSFN.tmp...12D",
-        "inspire":  "Dabrowny:2021yag",
+        "title":    "Looking for the parents of LIGO's black holes",
+        "author":   "V. Baibhav, E. Berti, D. Gerosa, M. Mould, K. W. K. Wong",
+        "journal":  "\prd 104 (2021) 084002",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.084002",
+        "arxiv":    "arXiv:2105.12140 [gr-qc]",
+        "ads":      "2021PhRvD.104h4002B",
+        "inspire":  "Baibhav:2021qzw",
         "more":     ""
         })
 
     papers['published']['data'].append({
-        "title":    "Looking for the parents of LIGO's black holes",
-        "author":   "V. Baibhav, E. Berti, D. Gerosa, M. Mould, K. W. K. Wong",
-        "journal":  "\prd, in press",
-        "link":     "",
-        "arxiv":    "arXiv:2105.12140 [gr-qc]",
-        "ads":      "2021PhRvD.104h4002B",
-        "inspire":  "Baibhav:2021qzw",
+        "title":    "Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness",
+        "author":   "M. Dabrowny, N. Giacobbo, D. Gerosa",
+        "journal":  "Rendiconti Lincei (2021)",
+        "link":     "https://link.springer.com/article/10.1007/s12210-021-01019-8",
+        "arxiv":    "arXiv:2106.12541 [astro-ph.HE]",
+        "ads":      "2021RLSFN.tmp...12D",
+        "inspire":  "Dabrowny:2021yag",
         "more":     ""
         })
 
