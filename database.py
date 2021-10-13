@@ -1663,7 +1663,7 @@ if outreach:
         })
 
     talks['outreach']['data'].append({
-        "title":    "Onde gravitazionali: ascoltare l'Universo (anzich\'e solo vederlo?)",
+        "title":    "Onde gravitazionali: ascoltare l'Universo (anzich\\'e solo vederlo?)",
         "where":    "Liceo Candia and Liceo Frassati, Seregno, Italy",
         "when":     "Jan 2018",
         "invited":  True,
