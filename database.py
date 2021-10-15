@@ -22,6 +22,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity",
+        "author":   "R. Nealon, E. Ragusa, D. Gerosa, G. Rosotti, R. Barbieri",
+        "journal":  "(2021)",
+        "link":     "",
+        "arxiv":    "",
+        "ads":      "",
+        "inspire":  "",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Back to the future: gravitational-wave population inference at past time infinity",
         "author":   "M. Mould, D. Gerosa",
         "journal":  "",
@@ -43,7 +54,7 @@ if published:
         "journal":  "\prd 104 (2021) 083008",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.083008",
         "arxiv":    "arXiv:2108.02462 [gr-qc]",
-        "ads":      "2021arXiv210802462M",
+        "ads":      "2021PhRvD.104h3008M",
         "inspire":  "Moore:2021xhn",
         "more":     ""
         })

@@ -458,7 +458,7 @@ def buildbib():
         for k in papers:
             for p in papers[k]['data']:
 
-                if p['ads_found'] not in stored:
+                if  p['ads_found'] and p['ads_found'] not in stored:
                     with urllib.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation") as f:
                         bib = f.read()
                     bib=bib.decode()
@@ -557,5 +557,5 @@ if __name__ == "__main__":
     builddocs()
 
     if connected:
-      pushtogit()
-      publishgithub()
+        pushtogit()
+        publishgithub()
