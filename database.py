@@ -1261,6 +1261,14 @@ if seminars:
     talks['seminars']['data'] = []
 
     talks['seminars']['data'].append({
+        "title":    "Some of the LIGO events might have merged a few times already",
+        "where":    "Gr@v seminars, Universidade de Aveiro, Aveiro, Portugal (online)",
+        "when":     "Nov 2021",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['seminars']['data'].append({
         "title":    "Entering the data-driven regime of gravitational-wave astronomy",
         "where":    "Physics Department seminars, Universit\`{a}  degli Studi di Milano-Bicocca, Milan, Italy (online)",
         "when":     "Oct 2020",
