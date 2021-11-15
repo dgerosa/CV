@@ -24,7 +24,7 @@ if submitted:
     papers['submitted']['data'].append({
         "title":    "The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity",
         "author":   "R. Nealon, E. Ragusa, D. Gerosa, G. Rosotti, R. Barbieri",
-        "journal":  "(2021)",
+        "journal":  "/mnras, in press (2021)",
         "link":     "",
         "arxiv":    "",
         "ads":      "",
