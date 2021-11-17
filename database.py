@@ -22,17 +22,6 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
-        "title":    "The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity",
-        "author":   "R. Nealon, E. Ragusa, D. Gerosa, G. Rosotti, R. Barbieri",
-        "journal":  "/mnras, in press (2021)",
-        "link":     "",
-        "arxiv":    "",
-        "ads":      "",
-        "inspire":  "",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Back to the future: gravitational-wave population inference at past time infinity",
         "author":   "M. Mould, D. Gerosa",
         "journal":  "",
@@ -47,6 +36,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity",
+        "author":   "R. Nealon, E. Ragusa, D. Gerosa, G. Rosotti, R. Barbieri",
+        "journal":  "/mnras, in press (2021)",
+        "link":     "",
+        "arxiv":    "arXiv:2111.08065 [astro-ph.HE]",
+        "ads":      "",
+        "inspire":  "",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Population-informed priors in gravitational-wave astronomy",
