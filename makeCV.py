@@ -15,6 +15,7 @@ import html
 from database import papers, talks
 from datetime import datetime
 import shutil
+from github_release import gh_release_create
 
 
 def hindex(citations):
@@ -523,21 +524,18 @@ def publishgithub():
     date = datetime.now().strftime("%Y-%m-%d-%H-%M")
     print("Publish github release:", date)
 
-    # Create a github token, see:
-    # https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-    # Make sure a GITHUB_TOKEN variable is part of the environment variables
-    auth = "export GITHUB_TOKEN="+os.environ['GITHUB_TOKEN']
-
     shutil.copy2("CV.pdf", "DavideGerosa_fullCV.pdf")
     shutil.copy2("CVshort.pdf", "DavideGerosa_shortCV.pdf")
     shutil.copy2("publist.pdf", "DavideGerosa_publist.pdf")
     shutil.copy2("publist.bib", "DavideGerosa_publist.bib")
     shutil.copy2("talklist.pdf", "DavideGerosa_talklist.pdf")
-    #copy("transcript.pdf", "transcript.pdf")
 
-    os.system(auth+"; githubrelease release dgerosa/CV create "+date+" --prerelease")
-    os.system(auth+"; githubrelease asset dgerosa/CV upload "+date+" 'DavideGerosa_*'")
-    os.system(auth+"; githubrelease release dgerosa/CV publish "+date)
+    # Create a github token, see:
+    # https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+    # Make sure a GITHUB_TOKEN variable is part of the environment variables
+
+    gh_release_create("dgerosa/CV", date, publish=True, name=date, asset_pattern="DavideGerosa_*")
+
 
 
 #####################################
