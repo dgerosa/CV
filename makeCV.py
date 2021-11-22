@@ -523,7 +523,11 @@ def publishgithub():
     date = datetime.now().strftime("%Y-%m-%d-%H-%M")
     print("Publish github release:", date)
 
-    auth = "export GITHUB_TOKEN=$(security find-generic-password -w -a $LOGNAME -s githubcvtoken)"
+    # Create a github token, see:
+    # https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+    # Make sure a GITHUB_TOKEN variable is part of the environment variables
+    auth = "export GITHUB_TOKEN="+os.environ['GITHUB_TOKEN']
+
     shutil.copy2("CV.pdf", "DavideGerosa_fullCV.pdf")
     shutil.copy2("CVshort.pdf", "DavideGerosa_shortCV.pdf")
     shutil.copy2("publist.pdf", "DavideGerosa_publist.pdf")
@@ -543,7 +547,7 @@ if __name__ == "__main__":
 
     connected= True
     if connected:
-        # Set testing=True to avoid API limit
+        Set testing=True to avoid API limit
         papers = ads_citations(papers,testing=False)
         papers = inspire_citations(papers,testing=False)
         parsepapers(papers)
