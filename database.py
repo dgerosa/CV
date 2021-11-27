@@ -76,7 +76,7 @@ if published:
         "journal":  "Rendiconti Lincei (2021)",
         "link":     "https://link.springer.com/article/10.1007/s12210-021-01019-8",
         "arxiv":    "arXiv:2106.12541 [astro-ph.HE]",
-        "ads":      "2021RLSFN.tmp...12D",
+        "ads":      "2021RLSFN..32..665D",
         "inspire":  "Dabrowny:2021yag",
         "more":     ""
         })
