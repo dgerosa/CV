@@ -1,7 +1,6 @@
 import gspread
 import numpy as np
 import json
-import urllib
 import skywalker
 import ads
 from tqdm import tqdm
@@ -10,7 +9,8 @@ import sys
 import time
 import os
 import requests
-import urllib.request as urllib
+import urllib.request
+import urllib.error
 import html
 from database import papers, talks
 from datetime import datetime
@@ -77,18 +77,19 @@ def inspire_citations(papers,testing=False):
         for k in papers:
             for p in papers[k]['data']:
                 if p['inspire']:
+                    print(p['inspire'])
                     if testing:
                         p['inspire_citations'] = np.random.randint(0, 100)
                     else:
                         n_retries=0
                         while n_retries<10:
                             try:
-                                req = urllib.urlopen("https://inspirehep.net/api/literature?q=texkey:"+p['inspire'])
+                                req = urllib.request.urlopen("https://inspirehep.net/api/literature?q=texkey:"+p['inspire'])
                             except urllib.error.HTTPError as e:
                                 if e.code == 429:
-                                    retry_time = req.getheaders()["retry-in"]
-                                    print('INSPIRE API error: retry-in', retry_time)
-                                    sleep(retry_time)
+                                    retry_time = 10 #req.getheaders()["retry-in"]
+                                    print('INSPIRE API error: retry in', retry_time, 's.')
+                                    time.sleep(retry_time)
                                     n_retries = n_retries + 1
                                     continue
                                 else:
@@ -460,7 +461,7 @@ def buildbib():
             for p in papers[k]['data']:
 
                 if  p['ads_found'] and p['ads_found'] not in stored:
-                    with urllib.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation") as f:
+                    with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation") as f:
                         bib = f.read()
                     bib=bib.decode()
                     bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
