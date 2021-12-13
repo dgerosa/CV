@@ -77,7 +77,6 @@ def inspire_citations(papers,testing=False):
         for k in papers:
             for p in papers[k]['data']:
                 if p['inspire']:
-                    print(p['inspire'])
                     if testing:
                         p['inspire_citations'] = np.random.randint(0, 100)
                     else:
