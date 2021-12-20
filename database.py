@@ -73,7 +73,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness",
         "author":   "M. Dabrowny, N. Giacobbo, D. Gerosa",
-        "journal":  "Rendiconti Lincei (2021)",
+        "journal":  "Rendiconti Lincei. Scienze Fisiche e Naturali 32 (2021) 665–673",
         "link":     "https://link.springer.com/article/10.1007/s12210-021-01019-8",
         "arxiv":    "arXiv:2106.12541 [astro-ph.HE]",
         "ads":      "2021RLSFN..32..665D",
@@ -845,6 +845,14 @@ if conferences:
     talks['conferences'] = {}
     talks['conferences']['label'] = 'Talks at conferences'
     talks['conferences']['data'] = []
+
+    talks['conferences']['data'].append({
+        "title":    "I've seen a deviation from General Relativity: do you believe me?",
+        "where":    "4th Milan Christmas Workshop, Milan, Italy, Dec 2021.",
+        "when":     "Dec 2021",
+        "invited":  True,
+        "more":     ""
+        })
 
     talks['conferences']['data'].append({
         "title":    "Filling the gap with hierarchical black-hole mergers",
