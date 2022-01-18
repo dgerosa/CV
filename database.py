@@ -42,11 +42,11 @@ if published:
     papers['published']['data'].append({
         "title":    "The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity",
         "author":   "R. Nealon, E. Ragusa, D. Gerosa, G. Rosotti, R. Barbieri",
-        "journal":  "\mnras, in press (2021)",
-        "link":     "",
+        "journal":  "\mnras 509 (2022) 5608–5621",
+        "link":     "https://doi.org/10.1093/mnras/stab3328",
         "arxiv":    "arXiv:2111.08065 [astro-ph.HE]",
-        "ads":      "",
-        "inspire":  "",
+        "ads":      "2022MNRAS.509.5608N",
+        "inspire":  "Nealon:2021akj",
         "more":     ""
         })
 
@@ -184,7 +184,7 @@ if published:
 
     papers['published']['data'].append({
         "title":    "Massive black hole binary inspiral and spin evolution in a cosmological framework",
-        "author":   "M. Sayeb, L. Blecha, L. Z. Kelley, D. Gerosa, M Kesden",
+        "author":   "M. Sayeb, L. Blecha, L. Z. Kelley, D. Gerosa, M. Kesden, J. Thomas",
         "journal":  "\mnras 501 (2021) 2531-2546",
         "link":     "https://doi.org/10.1093/mnras/staa3826",
         "arxiv":    "arXiv:2006.06647 [astro-ph.GA]",
