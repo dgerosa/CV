@@ -21,21 +21,23 @@ if submitted:
     papers['submitted']['label'] = 'Submitted papers'
     papers['submitted']['data'] = []
 
-    papers['submitted']['data'].append({
-        "title":    "Back to the future: gravitational-wave population inference at past time infinity",
+
+
+if published:
+    papers['published'] = {}
+    papers['published']['label'] = 'Papers in major peer-reviewed journals'
+    papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Gravitational-wave population inference at past time infinity",
         "author":   "M. Mould, D. Gerosa",
-        "journal":  "",
+        "journal":  "\prd, in press",
         "link":     "",
         "arxiv":    "arXiv:2110.05507 [astro-ph.HE]",
         "ads":      "2021arXiv211005507M",
         "inspire":  "Mould:2021xst",
         "more":     ""
         })
-
-if published:
-    papers['published'] = {}
-    papers['published']['label'] = 'Papers in major peer-reviewed journals'
-    papers['published']['data'] = []
 
     papers['published']['data'].append({
         "title":    "The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity",
