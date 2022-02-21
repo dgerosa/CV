@@ -21,7 +21,16 @@ if submitted:
     papers['submitted']['label'] = 'Submitted papers'
     papers['submitted']['data'] = []
 
-
+    papers['submitted']['data'].append({
+        "title":    "The irreducible mass of LIGO's black holes",
+        "author":   "D. Gerosa, C. M. Fabbri, U. Sperhake",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2202.08848 [[gr-qc]",
+        "ads":      "2022arXiv220208848G",
+        "inspire":  "Gerosa:2022fbk",
+        "more":     ""
+        })
 
 if published:
     papers['published'] = {}
