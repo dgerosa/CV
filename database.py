@@ -859,7 +859,7 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "I've seen a deviation from General Relativity: do you believe me?",
-        "where":    "4th Milan Christmas Workshop, Milan, Italy, Dec 2021.",
+        "where":    "4th Milan Christmas Workshop, Milan, Italy.",
         "when":     "Dec 2021",
         "invited":  True,
         "more":     ""
