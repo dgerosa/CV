@@ -26,7 +26,7 @@ if submitted:
         "author":   "D. Gerosa, C. M. Fabbri, U. Sperhake",
         "journal":  "",
         "link":     "",
-        "arxiv":    "arXiv:2202.08848 [[gr-qc]",
+        "arxiv":    "arXiv:2202.08848 [gr-qc]",
         "ads":      "2022arXiv220208848G",
         "inspire":  "Gerosa:2022fbk",
         "more":     ""
