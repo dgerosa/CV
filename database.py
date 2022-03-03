@@ -38,6 +38,17 @@ if published:
     papers['published']['data'] = []
 
     papers['published']['data'].append({
+        "title":    "Inferring the properties of a population of compact binaries in presence of selection effects",
+        "author":   "S. Vitale, D. Gerosa, W. M. Farr, S. R. Taylor",
+        "journal":  "Chapter in ``Handbook of Gravitational Wave Astronomy'', Springer, Singapore.",
+        "link":     "https://doi.org/10.1007/978-981-15-4702-7_45-1",
+        "arxiv":    "arXiv:2007.05579 [astro-ph.IM]",
+        "ads":      "2020arXiv200705579V",
+        "inspire":  "Vitale:2020aaz",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
         "title":    "Gravitational-wave population inference at past time infinity",
         "author":   "M. Mould, D. Gerosa",
         "journal":  "\prd 105 (2022) 024076.",
@@ -89,17 +100,6 @@ if published:
         "arxiv":    "arXiv:2106.12541 [astro-ph.HE]",
         "ads":      "2021RLSFN..32..665D",
         "inspire":  "Dabrowny:2021yag",
-        "more":     ""
-        })
-
-    papers['published']['data'].append({
-        "title":    "Inferring the properties of a population of compact binaries in presence of selection effects",
-        "author":   "S. Vitale, D. Gerosa, W. M. Farr, S. R. Taylor",
-        "journal":  "Chapter in ``Handbook of Gravitational Wave Astronomy'', Springer, in press.",
-        "link":     "",
-        "arxiv":    "arXiv:2007.05579 [astro-ph.IM]",
-        "ads":      "2020arXiv200705579V",
-        "inspire":  "Vitale:2020aaz",
         "more":     ""
         })
 
