@@ -559,5 +559,5 @@ if __name__ == "__main__":
     builddocs()
 
     if connected:
-        pushtogit()
+        #pushtogit()
         publishgithub()
