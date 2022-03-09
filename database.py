@@ -22,6 +22,18 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers",
+        "author":   "M. Mould, D. Gerosa, S. R. Taylor",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2203.03651 [astro-ph.HE]",
+        "ads":      "2022arXiv220303651M",
+        "inspire":  "Mould:2022ccw",
+        "more":     ""
+        })
+
+
+    papers['submitted']['data'].append({
         "title":    "The irreducible mass of LIGO's black holes",
         "author":   "D. Gerosa, C. M. Fabbri, U. Sperhake",
         "journal":  "",
