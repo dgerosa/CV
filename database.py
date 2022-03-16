@@ -761,6 +761,17 @@ if proceedings:
 
     papers['proceedings']['data'].append({
         "title":    "Prospects for fundamental physics with LISA",
+        "author":   "P. Amaro-Seoane, et al. (155 authors incl. D. Gerosa)",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2203.06016 [gr-qc]",
+        "ads":      "2022arXiv220306016A",
+        "inspire":  "Amaro-Seoane:2022rxf",
+        "more":     ""
+        })
+
+    papers['proceedings']['data'].append({
+        "title":    "Prospects for fundamental physics with LISA",
         "author":   "E. Barausse, et al. (320 authors incl. D. Gerosa)",
         "journal":  "\grg 52 (2020) 8, 81",
         "link":     "https://doi.org/10.1007/s10714-020-02691-1",
