@@ -1668,6 +1668,15 @@ if outreach:
     talks['outreach']['data'] = []
 
     talks['outreach']['data'].append({
+        "title":    "Quando la gravit\`a viaggia",
+        "where":    "Astronomiamo Association, Italy, (online)",
+        "when":     "Mar 2022",
+        "invited":  True,
+        "more":     ""
+        })
+
+
+    talks['outreach']['data'].append({
         "title":    "Hearing the Universe with gravitational waves",
         "where":    "Bromsgrove Astronomical Society, Bromsgrove, UK, (online)",
         "when":     "Jun 2021",
