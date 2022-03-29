@@ -760,7 +760,7 @@ if proceedings:
     papers['proceedings']['data'] = []
 
     papers['proceedings']['data'].append({
-        "title":    "Prospects for fundamental physics with LISA",
+        "title":    "Astrophysics with the Laser Interferometer Space Antenna",
         "author":   "P. Amaro-Seoane, et al. (155 authors incl. D. Gerosa)",
         "journal":  "",
         "link":     "",
