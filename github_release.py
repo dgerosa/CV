@@ -322,7 +322,7 @@ def get_releases(repo_name, verbose=False):
 
 
 def get_release(repo_name, tag_name):
-    time.sleep(1)
+    time.sleep(5)
     releases = get_releases(repo_name)
 
     try:
