@@ -22,6 +22,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Constraining black-hole binary spin precession and nutation with sequential prior conditioning",
+        "author":   "D. Gangardt, D. Gerosa, M. Kesden, V. De Renzis, N. Steinle",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2204.00026 [gr-qc]",
+        "ads":      "2022arXiv220400026G",
+        "inspire":  "Gangardt:2022ltd",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers",
         "author":   "M. Mould, D. Gerosa, S. R. Taylor",
         "journal":  "",
