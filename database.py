@@ -22,6 +22,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
+        "author":   "A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, D. Gerosa, S. McGee, M. Nicholl, A. Vecchio",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2204.03423 [gr-qc]",
+        "ads":      "2022arXiv220403423K",
+        "inspire":  "Klein:2022rbf",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Constraining black-hole binary spin precession and nutation with sequential prior conditioning",
         "author":   "D. Gangardt, D. Gerosa, M. Kesden, V. De Renzis, N. Steinle",
         "journal":  "",
