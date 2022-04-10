@@ -903,8 +903,16 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Gravitational-wave populations and black-hole spin time travel",
+        "where":    "April APS Meeting, New York NY, USA Apr 2022",
+        "when":     "Apr 2022",
+        "invited":  False,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "I've seen a deviation from General Relativity: do you believe me?",
-        "where":    "4th Milan Christmas Workshop, Milan, Italy.",
+        "where":    "4th Milan Christmas Workshop, Milan, Italy",
         "when":     "Dec 2021",
         "invited":  True,
         "more":     ""
