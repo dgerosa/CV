@@ -782,6 +782,17 @@ if proceedings:
     papers['proceedings']['data'] = []
 
     papers['proceedings']['data'].append({
+        "title":    "New horizons for fundamental physics with LISA",
+        "author":   "K. G. Arun, et al. (141 authors incl. D. Gerosa)",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2205.01597 [gr-qc]",
+        "ads":      "2022arXiv220501597A",
+        "inspire":  "Arun:2022vqj",
+        "more":     ""
+        })
+
+    papers['proceedings']['data'].append({
         "title":    "Astrophysics with the Laser Interferometer Space Antenna",
         "author":   "P. Amaro-Seoane, et al. (155 authors incl. D. Gerosa)",
         "journal":  "",
