@@ -926,7 +926,7 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "A deep-learning solution to the gravitational-wave population problem",
-        "where":    "NBIA Workshop on black-hole dynamics: from gaseous environments to empty space, Copenhagen, Denmark ",
+        "where":    "NBIA Workshop on black-hole dynamics: from gaseous environments to empty space, Copenhagen, Denmark",
         "when":     "Jun 2022",
         "invited":  True,
         "more":     ""
