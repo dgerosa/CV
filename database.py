@@ -926,6 +926,14 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Gravitational-wave populations and black-hole spin time travel",
+        "where":    "NBIA Workshop on black-hole dynamics: from gaseous environments to empty space, Copenhagen, Denmark ",
+        "when":     "Jun 2022",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
+        "title":    "Gravitational-wave populations and black-hole spin time travel",
         "where":    "April APS Meeting, New York NY, USA Apr 2022",
         "when":     "Apr 2022",
         "invited":  False,
