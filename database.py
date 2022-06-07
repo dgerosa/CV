@@ -925,6 +925,15 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Black-hole binary spin precession: new theoretical predictions and current observational evidence",
+        "where":    "9th KAGRA international workshop, Beijing, China, (online)",
+        "when":     "Jun 2022",
+        "invited":  True,
+        "more":     ""
+        })
+
+
+    talks['conferences']['data'].append({
         "title":    "A deep-learning solution to the gravitational-wave population problem",
         "where":    "NBIA Workshop on black-hole dynamics: from gaseous environments to empty space, Copenhagen, Denmark",
         "when":     "Jun 2022",
