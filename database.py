@@ -22,6 +22,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Characterization of merging black holes with two precessing spins",
+        "author":   "V. De Renzis, D. Gerosa, G. Pratten, P. Schmidt, M. Mould",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2207.00030 [gr-qc]",
+        "ads":      "2022arXiv220700030D",
+        "inspire":  "DeRenzis:2022vsj",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data",
         "author":   "M. Mould, D. Gerosa, F. S. Broekgaarden, N. Steinle",
         "journal":  "",
