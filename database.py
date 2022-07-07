@@ -818,7 +818,7 @@ if proceedings:
         "title":    "New horizons for fundamental physics with LISA",
         "author":   "K. G. Arun, et al. (141 authors incl. D. Gerosa)",
         "journal":  "\lrr 25 (2022) 4",
-        "link":     "",
+        "link":     "https://doi.org/10.1007/s41114-022-00036-9",
         "arxiv":    "arXiv:2205.01597 [gr-qc]",
         "ads":      "2022arXiv220501597A",
         "inspire":  "Arun:2022vqj",
