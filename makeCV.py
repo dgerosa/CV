@@ -292,7 +292,7 @@ def convertjournal(j):
     journalconversion['Journal of Open Source Software']=["Journal of Open Source Software","JOSS"]
     journalconversion['Astrophysics and Space Science Proceedings']=["Astrophysics and Space Science Proceedings","AaSSP"]
     journalconversion['Caltech Undergraduate Research Journal']=["Caltech Undergraduate Research Journal","CURJ"]
-    journalconversion["Chapter in ``Handbook of Gravitational Wave Astronomy'', Springer, Singapore"]=["Springer book chapter","Springer"]
+    journalconversion["Book contribution"]=["Book"]
     journalconversion["arXiv e-prints"]=["arXiv","arXiv"]
 
 
