@@ -1703,7 +1703,7 @@ if lectures:
 
     talks['lectures']['data'].append({
         "title":    "Introduction to gravitational waves (theory background)",
-        "where":    "VIPER Summer School on PTA GW Astrophysics, Nashville TN, USA (online)",
+        "where":    "VIPER summer school on pulsar-timing-array gravitational-wave astrophysics, Nashville TN, USA (online)",
         "when":     "Nov 2021",
         "invited":  True,
         "more":     ""
