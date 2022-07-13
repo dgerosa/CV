@@ -292,9 +292,8 @@ def convertjournal(j):
     journalconversion['Journal of Open Source Software']=["Journal of Open Source Software","JOSS"]
     journalconversion['Astrophysics and Space Science Proceedings']=["Astrophysics and Space Science Proceedings","AaSSP"]
     journalconversion['Caltech Undergraduate Research Journal']=["Caltech Undergraduate Research Journal","CURJ"]
-    journalconversion["Book contribution"]=["Book"]
+    journalconversion['Chapter in: Handbook of Gravitational Wave Astronomy, Springer, Singapore']=['Book contribution','book']
     journalconversion["arXiv e-prints"]=["arXiv","arXiv"]
-
 
     if j in journalconversion:
         return journalconversion[j]
@@ -380,7 +379,6 @@ def citationspreadsheet(papers):
     print('Write Google Spreadsheet: Journals')
 
     shortpub = [convertjournal(j)[1] for j in spreaddata['journal']]
-
     singlepub = np.array([convertjournal(j)[1] for j in list(set(shortpub))])
     journalcount = np.array([np.sum(np.array([convertjournal(j)[1] for j in shortpub])==s) for s in singlepub])
 
@@ -547,8 +545,8 @@ def publishgithub():
 
 if __name__ == "__main__":
 
-    connected= True
-    testing=False
+    connected = True
+    testing = False
     if connected:
         # Set testing=True to avoid API limit
         papers = ads_citations(papers,testing=testing)
@@ -563,6 +561,6 @@ if __name__ == "__main__":
     replacekeys()
     builddocs()
 
-    if connected:
+    if connected and not testing:
         pushtogit()
         publishgithub()

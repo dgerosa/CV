@@ -97,7 +97,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Inferring the properties of a population of compact binaries in presence of selection effects",
         "author":   "S. Vitale, D. Gerosa, W. M. Farr, S. R. Taylor",
-        "journal":  "Chapter in ``Handbook of Gravitational Wave Astronomy'', Springer, Singapore.",
+        "journal":  "Chapter in: Handbook of Gravitational Wave Astronomy, Springer, Singapore",
         "link":     "https://doi.org/10.1007/978-981-15-4702-7_45-1",
         "arxiv":    "arXiv:2007.05579 [astro-ph.IM]",
         "ads":      "2022hgwa.bookE..45V",
