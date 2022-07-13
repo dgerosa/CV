@@ -12,6 +12,7 @@ others = True
 talks  = {}
 conferences= True
 seminars = True
+lectures = True
 posters = True
 outreach = True
 
@@ -99,7 +100,7 @@ if published:
         "journal":  "Chapter in ``Handbook of Gravitational Wave Astronomy'', Springer, Singapore.",
         "link":     "https://doi.org/10.1007/978-981-15-4702-7_45-1",
         "arxiv":    "arXiv:2007.05579 [astro-ph.IM]",
-        "ads":      "2020arXiv200705579V",
+        "ads":      "2022hgwa.bookE..45V",
         "inspire":  "Vitale:2020aaz",
         "more":     ""
         })
@@ -820,7 +821,7 @@ if proceedings:
         "journal":  "\lrr 25 (2022) 4",
         "link":     "https://doi.org/10.1007/s41114-022-00036-9",
         "arxiv":    "arXiv:2205.01597 [gr-qc]",
-        "ads":      "2022arXiv220501597A",
+        "ads":      "2022LRR....25....4A",
         "inspire":  "Arun:2022vqj",
         "more":     ""
         })
@@ -1695,6 +1696,18 @@ if seminars:
         "more":     ""
         })
 
+if lectures:
+    talks['lectures'] = {}
+    talks['lectures']['label'] = 'Lectures at PhD schools'
+    talks['lectures']['data'] = []
+
+    talks['lectures']['data'].append({
+        "title":    "Introduction to gravitational waves (theory background)",
+        "where":    "VIPER Summer School on PTA GW Astrophysics, Nashville TN, USA (online)",
+        "when":     "Nov 2021",
+        "invited":  True,
+        "more":     ""
+        })
 
 if posters:
     talks['posters'] = {}

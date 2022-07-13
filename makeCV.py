@@ -158,7 +158,7 @@ def parsetalks(talks,filename="parsetalks.tex"):
     out.append("\\vspace{0.2cm}")
     out.append("")
 
-    for k in ['conferences','seminars','posters','outreach']:
+    for k in ['conferences','seminars','lectures','posters','outreach']:
         out.append("\\textcolor{color1}{\\textbf{"+talks[k]['label']+":}}")
         out.append("\\vspace{-0.5cm}")
         out.append("")
@@ -261,7 +261,10 @@ def metricstalks(talks,filename="metricstalks.tex"):
         for p in talks[k]['data']:
             invited.append(p['invited'])
 
+    plural = "s" if len(talks['lectures']['data'])>1 else ""
+
     out.append("(out of which \\textbf{"+str(np.sum(invited))+"} invited presentations),")
+    out.append("\\textbf{"+str(len(talks['lectures']['data']))+"} lecture"+plural+" at PhD schools,")
     out.append("\\textbf{"+str(len(talks['outreach']['data']))+"} outreach talks.")
 
     out.append("\end{tabular} }")
@@ -544,10 +547,11 @@ def publishgithub():
 if __name__ == "__main__":
 
     connected= True
+    testing=False
     if connected:
         # Set testing=True to avoid API limit
-        papers = ads_citations(papers,testing=False)
-        papers = inspire_citations(papers,testing=False)
+        papers = ads_citations(papers,testing=testing)
+        papers = inspire_citations(papers,testing=testing)
         parsepapers(papers)
         parsetalks(talks)
         metricspapers(papers)
