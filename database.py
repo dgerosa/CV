@@ -86,8 +86,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Constraining black-hole binary spin precession and nutation with sequential prior conditioning",
         "author":   "D. Gangardt, D. Gerosa, M. Kesden, V. De Renzis, N. Steinle",
-        "journal":  "\prd, in press",
-        "link":     "",
+        "journal":  "\prd 106 (2022) 024019",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.024019",
         "arxiv":    "arXiv:2204.00026 [gr-qc]",
         "ads":      "2022arXiv220400026G",
         "inspire":  "Gangardt:2022ltd",
@@ -108,7 +108,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Gravitational-wave population inference at past time infinity",
         "author":   "M. Mould, D. Gerosa",
-        "journal":  "\prd 105 (2022) 024076.",
+        "journal":  "\prd 105 (2022) 024076",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.083008",
         "arxiv":    "arXiv:2110.05507 [astro-ph.HE]",
         "ads":      "2022PhRvD.105b4076M",
