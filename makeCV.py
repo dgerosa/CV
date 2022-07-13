@@ -285,13 +285,14 @@ def convertjournal(j):
     journalconversion['\\apj']=["Astrophysical Journal","APJ"]
     journalconversion['\\apjl']=["Astrophysical Journal","APJ"]
     journalconversion['\grg']=["General Relativity and Gravitation","GRG"]
+    journalconversion['\lrr']=["Living Reviews in Relativity","LRR"]
     journalconversion['\\natastro']=["Nature Astronomy","NatAstro"]
     journalconversion['Proceedings of the International Astronomical Union']=["IAU Proceedigs","IAU"]
     journalconversion['Journal of Physics: Conference Series']=["Journal of Physics: Conference Series","JoPCS"]
     journalconversion['Journal of Open Source Software']=["Journal of Open Source Software","JOSS"]
     journalconversion['Astrophysics and Space Science Proceedings']=["Astrophysics and Space Science Proceedings","AaSSP"]
     journalconversion['Caltech Undergraduate Research Journal']=["Caltech Undergraduate Research Journal","CURJ"]
-    journalconversion["Chapter in ``Handbook of Gravitational Wave Astronomy'', Springer"]=["Springer book chapter","Springer"]
+    journalconversion["Chapter in ``Handbook of Gravitational Wave Astronomy'', Springer, Singapore"]=["Springer book chapter","Springer"]
     journalconversion["arXiv e-prints"]=["arXiv","arXiv"]
 
 
