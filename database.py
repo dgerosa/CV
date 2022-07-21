@@ -67,21 +67,21 @@ if submitted:
         })
 
 
-    papers['submitted']['data'].append({
-        "title":    "The irreducible mass of LIGO's black holes",
+if published:
+    papers['published'] = {}
+    papers['published']['label'] = 'Papers in major peer-reviewed journals'
+    papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "The irreducible mass and the horizon area of LIGO's black holes",
         "author":   "D. Gerosa, C. M. Fabbri, U. Sperhake",
-        "journal":  "",
+        "journal":  "\cqg, in press",
         "link":     "",
         "arxiv":    "arXiv:2202.08848 [gr-qc]",
         "ads":      "2022arXiv220208848G",
         "inspire":  "Gerosa:2022fbk",
         "more":     ""
         })
-
-if published:
-    papers['published'] = {}
-    papers['published']['label'] = 'Papers in major peer-reviewed journals'
-    papers['published']['data'] = []
 
     papers['published']['data'].append({
         "title":    "Constraining black-hole binary spin precession and nutation with sequential prior conditioning",
