@@ -89,7 +89,7 @@ if published:
         "journal":  "\prd 106 (2022) 024019",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.024019",
         "arxiv":    "arXiv:2204.00026 [gr-qc]",
-        "ads":      "2022arXiv220400026G",
+        "ads":      "2022PhRvD.106b4019G",
         "inspire":  "Gangardt:2022ltd",
         "more":     ""
         })
