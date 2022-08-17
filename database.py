@@ -75,8 +75,8 @@ if published:
     papers['published']['data'].append({
         "title":    "The irreducible mass and the horizon area of LIGO's black holes",
         "author":   "D. Gerosa, C. M. Fabbri, U. Sperhake",
-        "journal":  "\cqg, in press",
-        "link":     "",
+        "journal":  "\cqg 39 (2020) 175008",
+        "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ac8332",
         "arxiv":    "arXiv:2202.08848 [gr-qc]",
         "ads":      "2022arXiv220208848G",
         "inspire":  "Gerosa:2022fbk",
@@ -273,7 +273,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants",
         "author":   "L. Reali, M. Mould, D. Gerosa, V. Varma",
-        "journal":  "\cqg 37 (2020) 22, 225005",
+        "journal":  "\cqg 37 (2020) 225005",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/abb639/meta",
         "arxiv":    "arXiv:2005.01747 [gr-qc]",
         "ads":      "2020CQGra..37v5005R",
@@ -493,7 +493,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Wide nutation: binary black-hole spins repeatedly oscillating from full alignment to full anti-alignment",
         "author":   "D. Gerosa, A. Lima, E. Berti, U. Sperhake, M. Kesden, R. O'Shaughnessy",
-        "journal":  "\cqg 36 (2019) 10, 105003",
+        "journal":  "\cqg 36 (2019) 105003",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ab14ae/meta",
         "arxiv":    "arXiv:1811.05979 [gr-qc]",
         "ads":      "2019CQGra..36j5003G",
@@ -504,7 +504,7 @@ if published:
     papers['published']['data'].append({
         "title":    "The binary black hole explorer: on-the-fly visualizations of precessing binary black holes",
         "author":   "V. Varma, L. C. Stein, D. Gerosa",
-        "journal":  "\cqg 36 (2019) 9, 095007",
+        "journal":  "\cqg 36 (2019) 095007",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ab0ee9/meta",
         "arxiv":    "arXiv:1811.06552 [astro-ph.HE]",
         "ads":      "2019CQGra..36i5007V",
@@ -647,7 +647,7 @@ if published:
     papers['published']['data'].append({
         "title":    "On the equal-mass limit of precessing black-hole binaries.",
         "author":   "D. Gerosa, U. Sperhake, J. Vo\\v{s}mera",
-        "journal":  "\cqg 34 (2017) 6, 064004",
+        "journal":  "\cqg 34 (2017) 064004",
         "link":     "http://dx.doi.org/10.1088/1361-6382/aa5e58",
         "arxiv":    "arXiv:1612.05263 [gr-qc]",
         "ads":      "2017CQGra..34f4004G",
@@ -680,7 +680,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Numerical simulations of stellar collapse in scalar-tensor theories of gravity",
         "author":   "D. Gerosa, U. Sperhake, C. D. Ott",
-        "journal":  "\cqg 33 (2016) 13, 135002",
+        "journal":  "\cqg 33 (2016) 135002",
         "link":     "http://dx.doi.org/10.1088/0264-9381/33/13/135002",
         "arxiv":    "arXiv:1602.06952 [gr-qc]",
         "ads":      "2016CQGra..33m5002G",
@@ -713,7 +713,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition",
         "author":   "M. Horbatsch, H. O. Silva, D. Gerosa, P. Pani,  E. Berti, L. Gualtieri, U. Sperhake",
-        "journal":  "\cqg 32 (2015) 20, 204001",
+        "journal":  "\cqg 32 (2015) 204001",
         "link":     "http://dx.doi.org/10.1088/0264-9381/32/20/204001",
         "arxiv":    "arXiv:1505.07462 [gr-qc]",
         "ads":      "2015CQGra..32t4001H",
@@ -840,7 +840,7 @@ if proceedings:
     papers['proceedings']['data'].append({
         "title":    "Black holes, gravitational waves and fundamental physics: a roadmap",
         "author":   "L. Barack, et al. (199 authors incl. D. Gerosa).",
-        "journal":  "\cqg 36 (2019) 14, 143001",
+        "journal":  "\cqg 36 (2019) 143001",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ab0587",
         "arxiv":    "arXiv:1806.05195 [gr-qc]",
         "ads":      "2019CQGra..36n3001B",
@@ -884,7 +884,7 @@ if proceedings:
     papers['proceedings']['data'].append({
         "title":    "Testing general relativity with present and future astrophysical observations",
         "author":   "E. Berti, et al. (53 authors incl. D. Gerosa).",
-        "journal":  "\cqg 32 (2015) 24, 243001. Topical Review",
+        "journal":  "\cqg 32 (2015) 243001. Topical Review",
         "link":     "http://dx.doi.org/10.1088/0264-9381/32/24/243001",
         "arxiv":    "arXiv:1501.07274 [gr-qc]",
         "ads":      "2015CQGra..32x3001B",
