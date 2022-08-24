@@ -78,7 +78,7 @@ if published:
         "journal":  "\cqg 39 (2020) 175008",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ac8332",
         "arxiv":    "arXiv:2202.08848 [gr-qc]",
-        "ads":      "2022arXiv220208848G",
+        "ads":      "2022CQGra..39q5008G",
         "inspire":  "Gerosa:2022fbk",
         "more":     ""
         })
