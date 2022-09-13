@@ -937,6 +937,14 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Machine learning and the origin of LIGO's black holes",
+        "where":    "31th Texas Symposium on Relativistic Astrophysics, Prague, Czechia",
+        "when":     "Sep 2022",
+        "invited":  False,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "Gravitational-wave populations with a pinch of deep learning",
         "where":    "23nd International Conference on General Relativity and Gravitation (GR23), Beijing, China, (online)",
         "when":     "Jul 2022",
