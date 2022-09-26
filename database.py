@@ -1785,6 +1785,15 @@ if outreach:
     talks['outreach']['data'] = []
 
     talks['outreach']['data'].append({
+        "title":    "Onde gravitazionali, buchi neri e dove trovarli",
+        "where":    "Fondazione Sacro Cuore, Milan, Italy",
+        "when":     "Sep 2022",
+        "invited":  True,
+        "more":     ""
+        })
+
+
+    talks['outreach']['data'].append({
         "title":    "Quando la gravit\`a viaggia",
         "where":    "Astronomiamo Association, Italy, (online)",
         "when":     "Mar 2022",
