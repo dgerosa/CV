@@ -937,6 +937,14 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Characterization of LIGO/Virgo selection effects with neural networks",
+        "where":    "Machine learning in GW search: g2net next challenges, Pisa, Italy",
+        "when":     "Sep 2022",
+        "invited":  False,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "Machine learning and the origin of LIGO's black holes",
         "where":    "31th Texas Symposium on Relativistic Astrophysics, Prague, Czechia",
         "when":     "Sep 2022",
