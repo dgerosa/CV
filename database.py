@@ -53,7 +53,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers",
         "author":   "M. Mould, D. Gerosa, S. R. Taylor",
-        "journal":  "\prd, in press",,
+        "journal":  "\prd, in press",
         "link":     "",
         "arxiv":    "arXiv:2203.03651 [astro-ph.HE]",
         "ads":      "2022arXiv220303651M",
