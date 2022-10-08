@@ -23,17 +23,6 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
-        "title":    "Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data",
-        "author":   "M. Mould, D. Gerosa, F. S. Broekgaarden, N. Steinle",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2205.12329 [astro-ph.HE]",
-        "ads":      "2022arXiv220512329M",
-        "inspire":  "Mould:2022xeu",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
         "author":   "A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, D. Gerosa, S. McGee, M. Nicholl, A. Vecchio",
         "journal":  "",
@@ -44,22 +33,33 @@ if submitted:
         "more":     ""
         })
 
-    papers['submitted']['data'].append({
+
+if published:
+    papers['published'] = {}
+    papers['published']['label'] = 'Papers in major peer-reviewed journals'
+    papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data",
+        "author":   "M. Mould, D. Gerosa, F. S. Broekgaarden, N. Steinle",
+        "journal":  "\mnras, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2205.12329 [astro-ph.HE]",
+        "ads":      "2022arXiv220512329M",
+        "inspire":  "Mould:2022xeu",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
         "title":    "Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers",
         "author":   "M. Mould, D. Gerosa, S. R. Taylor",
-        "journal":  "",
+        "journal":  "\prd, in press",,
         "link":     "",
         "arxiv":    "arXiv:2203.03651 [astro-ph.HE]",
         "ads":      "2022arXiv220303651M",
         "inspire":  "Mould:2022ccw",
         "more":     ""
         })
-
-
-if published:
-    papers['published'] = {}
-    papers['published']['label'] = 'Papers in major peer-reviewed journals'
-    papers['published']['data'] = []
 
     papers['published']['data'].append({
         "title":    "Characterization of merging black holes with two precessing spins",
