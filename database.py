@@ -40,17 +40,6 @@ if published:
     papers['published']['data'] = []
 
     papers['published']['data'].append({
-        "title":    "Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data",
-        "author":   "M. Mould, D. Gerosa, F. S. Broekgaarden, N. Steinle",
-        "journal":  "\mnras, in press",
-        "link":     "",
-        "arxiv":    "arXiv:2205.12329 [astro-ph.HE]",
-        "ads":      "2022arXiv220512329M",
-        "inspire":  "Mould:2022xeu",
-        "more":     ""
-        })
-
-    papers['published']['data'].append({
         "title":    "Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers",
         "author":   "M. Mould, D. Gerosa, S. R. Taylor",
         "journal":  "\prd, in press",
@@ -69,6 +58,17 @@ if published:
         "arxiv":    "arXiv:2207.00030 [gr-qc]",
         "ads":      "2022arXiv220700030D",
         "inspire":  "DeRenzis:2022vsj",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
+        "title":    "Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data",
+        "author":   "M. Mould, D. Gerosa, F. S. Broekgaarden, N. Steinle",
+        "journal":  "\mnras 517 (2022) 2738–2745",
+        "link":     "https://doi.org/10.1093/mnras/stac2859",
+        "arxiv":    "arXiv:2205.12329 [astro-ph.HE]",
+        "ads":      "2022MNRAS.tmp.2656M",
+        "inspire":  "Mould:2022xeu",
         "more":     ""
         })
 
