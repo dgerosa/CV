@@ -53,10 +53,10 @@ if published:
     papers['published']['data'].append({
         "title":    "Characterization of merging black holes with two precessing spins",
         "author":   "V. De Renzis, D. Gerosa, G. Pratten, P. Schmidt, M. Mould",
-        "journal":  "\prd, in press",
-        "link":     "",
+        "journal":  "\prd 106 (2022) 084040",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.084040",
         "arxiv":    "arXiv:2207.00030 [gr-qc]",
-        "ads":      "2022arXiv220700030D",
+        "ads":      "2022tsra.confE..31D",
         "inspire":  "DeRenzis:2022vsj",
         "more":     ""
         })
@@ -67,7 +67,7 @@ if published:
         "journal":  "\mnras 517 (2022) 2738–2745",
         "link":     "https://doi.org/10.1093/mnras/stac2859",
         "arxiv":    "arXiv:2205.12329 [astro-ph.HE]",
-        "ads":      "2022MNRAS.tmp.2656M",
+        "ads":      "2022MNRAS.517.2738M",
         "inspire":  "Mould:2022xeu",
         "more":     ""
         })
