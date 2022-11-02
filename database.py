@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries",
+        "author":   "N. Steinle, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2211.00044 [astro-ph.HE]",
+        "ads":      "2022arXiv221100044S",
+        "inspire":  "Steinle:2022jmc",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
         "author":   "A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, D. Gerosa, S. McGee, M. Nicholl, A. Vecchio",
         "journal":  "",
@@ -56,7 +67,7 @@ if published:
         "journal":  "\prd 106 (2022) 084040",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.084040",
         "arxiv":    "arXiv:2207.00030 [gr-qc]",
-        "ads":      "2022tsra.confE..31D",
+        "ads":      "2022PhRvD.106h4040D",
         "inspire":  "DeRenzis:2022vsj",
         "more":     ""
         })
