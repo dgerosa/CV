@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data",
+        "author":   "I. Romero-Shaw, D. Gerosa, N. Loutrel",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2211.07528 [astro-ph.HE]",
+        "ads":      "2022arXiv221107528R",
+        "inspire":  "Romero-Shaw:2022fbf",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries",
         "author":   "N. Steinle, D. Gerosa",
         "journal":  "",
