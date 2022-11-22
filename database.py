@@ -67,7 +67,7 @@ if published:
         "journal":  "\prd 106 (2022) 103013",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.103013",
         "arxiv":    "arXiv:2203.03651 [astro-ph.HE]",
-        "ads":      "2022arXiv220303651M",
+        "ads":      "2022PhRvD.106j3013M",
         "inspire":  "Mould:2022ccw",
         "more":     ""
         })
