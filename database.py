@@ -959,6 +959,14 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "You’ll never merge alone",
+        "where":    "Unsolved problems in astrophysics and cosmology, Jerusalem, Israel",
+        "when":     "Dec 2022",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "Characterization of LIGO/Virgo selection effects with neural networks",
         "where":    "Machine learning in GW search: g2net next challenges, Pisa, Italy",
         "when":     "Sep 2022",
