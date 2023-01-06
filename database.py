@@ -23,17 +23,6 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
-        "title":    "Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data",
-        "author":   "I. Romero-Shaw, D. Gerosa, N. Loutrel",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2211.07528 [astro-ph.HE]",
-        "ads":      "2022arXiv221107528R",
-        "inspire":  "Romero-Shaw:2022fbf",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
         "author":   "A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, D. Gerosa, S. McGee, M. Nicholl, A. Vecchio",
         "journal":  "",
@@ -49,6 +38,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data",
+        "author":   "I. Romero-Shaw, D. Gerosa, N. Loutrel",
+        "journal":  "\mnras, in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2211.07528 [astro-ph.HE]",
+        "ads":      "2022arXiv221107528R",
+        "inspire":  "Romero-Shaw:2022fbf",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries",
