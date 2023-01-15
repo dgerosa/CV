@@ -56,7 +56,7 @@ if published:
         "journal":  "\mnras, in press.",
         "link":     "",
         "arxiv":    "arXiv:2211.00044 [astro-ph.HE]",
-        "ads":      "2022arXiv221100044S",
+        "ads":      "2023MNRAS.tmp...17S",
         "inspire":  "Steinle:2022jmc",
         "more":     ""
         })
