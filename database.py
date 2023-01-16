@@ -1463,7 +1463,7 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Entering the data-driven regime of gravitational-wave astronomy",
-        "where":    "Physics Department seminars, Universit\`{a}  degli Studi di Milano-Bicocca, Milan, Italy (online)",
+        "where":    "Physics Department colloquium, Universit\`{a}  degli Studi di Milano-Bicocca, Milan, Italy (online)",
         "when":     "Oct 2020",
         "invited":  True,
         "more":     ""
