@@ -45,7 +45,7 @@ if published:
         "journal":  "\mnras, in press.",
         "link":     "",
         "arxiv":    "arXiv:2211.07528 [astro-ph.HE]",
-        "ads":      "2022arXiv221107528R",
+        "ads":      "2023MNRAS.tmp..102R",
         "inspire":  "Romero-Shaw:2022fbf",
         "more":     ""
         })
@@ -1444,6 +1444,14 @@ if seminars:
     talks['seminars'] = {}
     talks['seminars']['label'] = 'Talks at department seminars'
     talks['seminars']['data'] = []
+
+    talks['seminars']['data'].append({
+        "title":    "Gravitational-wave data exploitation with deep learning",
+        "where":    "Astrophysics seminars, Universit\`{a}  degli Studi di Milano, Milan, Italy",
+        "when":     "Jan 2023",
+        "invited":  True,
+        "more":     ""
+        })
 
     talks['seminars']['data'].append({
         "title":    "Some of the LIGO events might have merged a few times already",
