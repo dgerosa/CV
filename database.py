@@ -42,10 +42,10 @@ if published:
     papers['published']['data'].append({
         "title":    "Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data",
         "author":   "I. Romero-Shaw, D. Gerosa, N. Loutrel",
-        "journal":  "\mnras, in press.",
-        "link":     "",
+        "journal":  "\mnras 519 (2023) 5352–5357",
+        "link":     "https://doi.org/10.1093/mnras/stad031",
         "arxiv":    "arXiv:2211.07528 [astro-ph.HE]",
-        "ads":      "2023MNRAS.tmp..102R",
+        "ads":      "2023MNRAS.519.5352R",
         "inspire":  "Romero-Shaw:2022fbf",
         "more":     ""
         })
@@ -53,10 +53,10 @@ if published:
     papers['published']['data'].append({
         "title":    "The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries",
         "author":   "N. Steinle, D. Gerosa",
-        "journal":  "\mnras, in press.",
-        "link":     "",
+        "journal":  "\mnras 519 (2023) 5031–5042",
+        "link":     "https://doi.org/10.1093/mnras/stac3821",
         "arxiv":    "arXiv:2211.00044 [astro-ph.HE]",
-        "ads":      "2023MNRAS.tmp...17S",
+        "ads":      "2023MNRAS.519.5031S",
         "inspire":  "Steinle:2022jmc",
         "more":     ""
         })
