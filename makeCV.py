@@ -2,7 +2,7 @@ import gspread
 import numpy as np
 import json
 import skywalker
-import ads
+#import ads
 from tqdm import tqdm
 import copy
 import sys
@@ -16,6 +16,11 @@ from database import papers, talks
 from datetime import datetime
 import shutil
 from github_release import gh_release_create
+import warnings
+
+
+#import ssl
+#ssl._create_default_https_context = ssl._create_unverified_context
 
 
 def hindex(citations):
@@ -39,7 +44,8 @@ def ads_citations(papers,testing=False):
     print('Get citations from ADS')
 
     with open('/Users/dgerosa/reps/dotfiles/adstoken.txt') as f:
-        ads.config.token = f.read()
+        #ads.config.token = f.read()
+        token = f.read()
 
     tot = len(np.concatenate([papers[k]['data'] for k in papers]))
     with tqdm(total=tot) as pbar:
@@ -50,16 +56,22 @@ def ads_citations(papers,testing=False):
                         p['ads_citations'] = np.random.randint(0, 100)
                         p['ads_found'] = p['ads']
                     else:
-                        q = list(ads.SearchQuery(q=p['ads'],fl=['citation_count','bibcode']))
+                        #q = list(ads.SearchQuery(q=p['ads'],fl=['citation_count','bibcode']))
+                        
+                        with warnings.catch_warnings():
+                            warnings.filterwarnings("ignore", message="Unverified HTTPS request is being made to host")
+                            r = requests.get("https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads']+"&fl=citation_count,bibcode",headers={'Authorization': 'Bearer ' + token},verify=False)
+                        q= r.json()['response']['docs']
+                            
                         if len(q)!=1:
                             raise ValueError("ADS error in "+b)
                         q=q[0]
-                        if q.citation_count is not None:
-                            p['ads_citations'] = q.citation_count
+                        if q['citation_count'] is not None:
+                            p['ads_citations'] = q['citation_count']
                         else:
                             print("Warning: citation count is None.", p['ads'])
                             p['ads_citations'] = 0
-                        p['ads_found'] = q.bibcode
+                        p['ads_found'] = q['bibcode']
                 else:
                     p['ads_citations'] = 0
                     p['ads_found'] = ""
