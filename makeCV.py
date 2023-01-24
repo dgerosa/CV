@@ -60,9 +60,9 @@ def ads_citations(papers,testing=False):
                         
                         with warnings.catch_warnings():
                             warnings.filterwarnings("ignore", message="Unverified HTTPS request is being made to host")
-                            r = requests.get("https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads']+"&fl=citation_count,bibcode",headers={'Authorization': 'Bearer ' + token},verify=False)
+                            r = requests.get("https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads'].replace("&","%26")+"&fl=citation_count,bibcode",headers={'Authorization': 'Bearer ' + token},verify=False)
                         q= r.json()['response']['docs']
-                            
+                        #print(p['ads'], q)
                         if len(q)!=1:
                             raise ValueError("ADS error in "+b)
                         q=q[0]
