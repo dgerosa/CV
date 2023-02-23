@@ -1446,6 +1446,14 @@ if seminars:
     talks['seminars']['data'] = []
 
     talks['seminars']['data'].append({
+        "title":    "Deep-learning emulators for gravitational-wave population fits",
+        "where":    "Theoretical Astrophysics seminars, University of Zurich, Zurich, Switzerland",
+        "when":     "Feb 2023",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['seminars']['data'].append({
         "title":    "Comparing gravitational-wave data and stellar-physics predictions with deep learning",
         "where":    "Theoretical Physics colloquium, University of Cambridge, Cambridge, UK",
         "when":     "Feb 2023",
