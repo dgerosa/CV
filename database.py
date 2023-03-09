@@ -1847,13 +1847,20 @@ if outreach:
     talks['outreach']['data'] = []
 
     talks['outreach']['data'].append({
+        "title":    "Gravity explorers",
+        "where":    "Istituto Svizzero, Milan, Italy",
+        "when":     "Mar 2023",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['outreach']['data'].append({
         "title":    "Onde gravitazionali, buchi neri e dove trovarli",
         "where":    "Fondazione Sacro Cuore, Milan, Italy",
         "when":     "Sep 2022",
         "invited":  True,
         "more":     ""
         })
-
 
     talks['outreach']['data'].append({
         "title":    "Quando la gravit\`a viaggia",
