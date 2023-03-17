@@ -56,22 +56,37 @@ def ads_citations(papers,testing=False):
                         p['ads_citations'] = np.random.randint(0, 100)
                         p['ads_found'] = p['ads']
                     else:
-                        #q = list(ads.SearchQuery(q=p['ads'],fl=['citation_count','bibcode']))
-                        
-                        with warnings.catch_warnings():
-                            warnings.filterwarnings("ignore", message="Unverified HTTPS request is being made to host")
-                            r = requests.get("https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads'].replace("&","%26")+"&fl=citation_count,bibcode",headers={'Authorization': 'Bearer ' + token},verify=False)
-                        q= r.json()['response']['docs']
-                        #print(p['ads'], q)
-                        if len(q)!=1:
-                            raise ValueError("ADS error in "+b)
-                        q=q[0]
-                        if q['citation_count'] is not None:
-                            p['ads_citations'] = q['citation_count']
-                        else:
-                            print("Warning: citation count is None.", p['ads'])
-                            p['ads_citations'] = 0
-                        p['ads_found'] = q['bibcode']
+                        n_retries=0
+                        #print(p)
+                        while n_retries<10:
+                            try:
+                                with warnings.catch_warnings():
+                                    warnings.filterwarnings("ignore", message="Unverified HTTPS request is being made to host")
+                                    r = requests.get("https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads'].replace("&","%26")+"&fl=citation_count,bibcode",headers={'Authorization': 'Bearer ' + token},verify=False)
+                                q= r.json()['response']['docs']
+                                #print(p['ads'], q)
+                                if len(q)!=1:
+                                    raise ValueError("ADS error in "+b)
+                                q=q[0]
+                                if q['citation_count'] is not None:
+                                    p['ads_citations'] = q['citation_count']
+                                else:
+                                    print("Warning: citation count is None.", p['ads'])
+                                    p['ads_citations'] = 0
+                                p['ads_found'] = q['bibcode']
+
+                            except:
+                                retry_time = 10 #req.getheaders()["retry-in"]
+                                print('ADS API error: retry in', retry_time, 's.')
+                                time.sleep(retry_time)
+                                n_retries = n_retries + 1
+                            
+                                if n_retries==11:
+                                    raise ValueError("ADS error in "+p['inspire'])
+                                continue
+                            else:
+                                break
+
                 else:
                     p['ads_citations'] = 0
                     p['ads_found'] = ""
