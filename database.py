@@ -832,7 +832,7 @@ if proceedings:
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2203.06016 [gr-qc]",
-        "ads":      "2022arXiv220306016A",
+        "ads":      "2023LRR....26....2A",
         "inspire":  "Amaro-Seoane:2022rxf",
         "more":     ""
         })
@@ -957,6 +957,14 @@ if conferences:
     talks['conferences'] = {}
     talks['conferences']['label'] = 'Talks at conferences'
     talks['conferences']['data'] = []
+
+    talks['conferences']['data'].append({
+        "title":    "The black-hole binary formation-channel problem in gravitational-wave astronomy",
+        "where":    "57th Rencontres de Moriond - Gravitation, La Thuile, Italy",
+        "when":     "Mar 2023",
+        "invited":  True,
+        "more":     ""
+        })
 
     talks['conferences']['data'].append({
         "title":    "You’ll never merge alone",
