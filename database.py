@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors",
+        "author":   "M. Mancarella, F. Iacovelli, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2303.16323 [gr-qc]",
+        "ads":      "2023arXiv230316323M",
+        "inspire":  "Mancarella:2023ehn",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
         "author":   "A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, D. Gerosa, S. McGee, M. Nicholl, A. Vecchio",
         "journal":  "",
