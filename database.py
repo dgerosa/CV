@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Efficient multi-timescale dynamics of precessing black-hole binaries",
+        "author":   "D. Gerosa, G. Fumagalli, M. Mould, G. Cavallotto, D. Padilla Monroy, D. Gangardt, V. De Renzis",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2304.04801 [gr-qc]",
+        "ads":      "2023arXiv230404801G",
+        "inspire":  "Gerosa:2023xsx",
+        "more":     "Open source code"
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors",
         "author":   "M. Mancarella, F. Iacovelli, D. Gerosa",
         "journal":  "",

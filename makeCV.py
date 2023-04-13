@@ -77,12 +77,12 @@ def ads_citations(papers,testing=False):
 
                             except:
                                 retry_time = 10 #req.getheaders()["retry-in"]
-                                print('ADS API error: retry in', retry_time, 's.')
+                                print('ADS API error: retry in', retry_time, 's. -- '+p['ads'])
                                 time.sleep(retry_time)
                                 n_retries = n_retries + 1
                             
                                 if n_retries==11:
-                                    raise ValueError("ADS error in "+p['inspire'])
+                                    raise ValueError("ADS error in "+p['ads'])
                                 continue
                             else:
                                 break
@@ -114,7 +114,7 @@ def inspire_citations(papers,testing=False):
                             except urllib.error.HTTPError as e:
                                 if e.code == 429:
                                     retry_time = 10 #req.getheaders()["retry-in"]
-                                    print('INSPIRE API error: retry in', retry_time, 's.')
+                                    print('INSPIRE API error: retry in', retry_time, 's. -- '+p['inspire'])
                                     time.sleep(retry_time)
                                     n_retries = n_retries + 1
                                     continue
