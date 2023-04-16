@@ -981,6 +981,14 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "When orbital eccentricity and spin precession are kind of the same",
+        "where":    "April APS Meeting, Minneapolis MN, USA",
+        "when":     "Apr 2023",
+        "invited":  False,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "The black-hole binary formation-channel problem in gravitational-wave astronomy",
         "where":    "57th Rencontres de Moriond - Gravitation, La Thuile, Italy",
         "when":     "Mar 2023",
@@ -1047,7 +1055,7 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Gravitational-wave populations and black-hole spin time travel",
-        "where":    "April APS Meeting, New York NY, USA Apr 2022",
+        "where":    "April APS Meeting, New York NY, USA",
         "when":     "Apr 2022",
         "invited":  False,
         "more":     ""
