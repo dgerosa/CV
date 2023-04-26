@@ -1484,6 +1484,14 @@ if seminars:
     talks['seminars']['data'] = []
 
     talks['seminars']['data'].append({
+        "title":    "Deep learning and Bayesian stats to uncover the origin of merging black holes",
+        "where":    "INAF/OAPD seminar, Università degli Studi di Padova, Padua, Italy",
+        "when":     "Apr 2023",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['seminars']['data'].append({
         "title":    "Deep-learning emulators for gravitational-wave population fits",
         "where":    "Theoretical Astrophysics seminars, University of Zurich, Zurich, Switzerland",
         "when":     "Feb 2023",
