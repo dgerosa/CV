@@ -23,6 +23,18 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Parameter estimation of binary black holes in the endpoint of the up-down instability",
+        "author":   "V. De Renzis, D. Gerosa, M. Mould, R. Buscicchio, L. Zanga",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2304.13063 [gr-qc]",
+        "ads":      "2023arXiv230413063D",
+        "inspire":  "DeRenzis:2023lwa",
+        "more":     ""
+        })
+
+
+    papers['submitted']['data'].append({
         "title":    "Efficient multi-timescale dynamics of precessing black-hole binaries",
         "author":   "D. Gerosa, G. Fumagalli, M. Mould, G. Cavallotto, D. Padilla Monroy, D. Gangardt, V. De Renzis",
         "journal":  "",
@@ -119,7 +131,7 @@ if published:
     papers['published']['data'].append({
         "title":    "The irreducible mass and the horizon area of LIGO's black holes",
         "author":   "D. Gerosa, C. M. Fabbri, U. Sperhake",
-        "journal":  "\cqg 39 (2020) 175008",
+        "journal":  "\cqg 39 (2022) 175008",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ac8332",
         "arxiv":    "arXiv:2202.08848 [gr-qc]",
         "ads":      "2022CQGra..39q5008G",
