@@ -861,10 +861,21 @@ if proceedings:
     papers['proceedings']['data'] = []
 
     papers['proceedings']['data'].append({
-        "title":    "Astrophysics with the Laser Interferometer Space Antenna",
-        "author":   "P. Amaro-Seoane, et al. (155 authors incl. D. Gerosa)",
+        "title":    "QLUSTER: quick clusters of merging binary black holes",
+        "author":   "D. Gerosa, M. Mould",
         "journal":  "",
         "link":     "",
+        "arxiv":    "arXiv:2305.04987 [astro-ph.HE]",
+        "ads":      "2023arXiv230504987G",
+        "inspire":  "",
+        "more":     "Open source code"
+        })
+
+    papers['proceedings']['data'].append({
+        "title":    "Astrophysics with the Laser Interferometer Space Antenna",
+        "author":   "P. Amaro-Seoane, et al. (155 authors incl. D. Gerosa)",
+        "journal":  "\lrr 26 (2022) 2",
+        "link":     "https://link.springer.com/article/10.1007/s41114-022-00041-y",
         "arxiv":    "arXiv:2203.06016 [gr-qc]",
         "ads":      "2023LRR....26....2A",
         "inspire":  "Amaro-Seoane:2022rxf",
