@@ -17,7 +17,7 @@ Additionally, my citation count is available [here](https://davidegerosa.com/cit
 
 ### My CV workflow
 
-This is how I hadle it. 
+This is how I handle it. 
 
 The only files one needs to change are `database.py` and `CV.tex`. Everything else is machine-generated.
 
@@ -32,7 +32,7 @@ The magic happes in `makeCV.py`. In particular:
 - Fetch bibtex record from  [ADS](https://ui.adsabs.harvard.edu/search/filter_bibstem_facet_fq_bibstem_facet=NOT&filter_bibstem_facet_fq_bibstem_facet=*%3A*&filter_bibstem_facet_fq_bibstem_facet=bibstem_facet%3A%22cosp%22&fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq=%7B!type%3Daqp%20v%3D%24fq_bibstem_facet%7D&fq_bibstem_facet=(*%3A*%20NOT%20bibstem_facet%3A%22cosp%22)&fq_doctype=(doctype%3A%22misc%22%20OR%20doctype%3A%22inproceedings%22%20OR%20doctype%3A%22article%22%20OR%20doctype%3A%22eprint%22)&p_=0&q=%20author%3A%22Gerosa%2C%20Davide%22&sort=citation_count%20desc%2C%20bibcode%20desc) (`publist.bib `). This is useful for services like [bibbase](https://davidegerosa.com/bibbase).
 - Publish citations on a [google spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vSB5rGIunr0_lqB_0n9dCNvOplIOR4r6L5Vxm9oK4akFJXTTLT0_zaZka-JMggU9oDfRRbHdyaL1nQD/pubhtml).
 - Sanitize the database if the ADS key changed.
-- Build the full CV with publiation and presentation lists (`CV.tex`).
+- Build the full CV with publication and presentation lists (`CV.tex`).
 - Build a shorter CV without lists (`CVshort.tex`). This is done using the tags `%mark_CVshort`  in `CV.tex`.
 - Build a standalone publication list (`publist.tex`).
 - Build a standalone presentation list (`talklist.tex`).
