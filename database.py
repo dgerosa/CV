@@ -1916,6 +1916,14 @@ if outreach:
     talks['outreach']['data'] = []
 
     talks['outreach']['data'].append({
+        "title":    "Hands-on astrophysics. Il ruolo del ricercatore",
+        "where":    "Italian Association of Physics Students (AISF), Milan, Italy",
+        "when":     "May 2023",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['outreach']['data'].append({
         "title":    "Gravity explorers",
         "where":    "Istituto Svizzero, Milan, Italy",
         "when":     "Mar 2023",
