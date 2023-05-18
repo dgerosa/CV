@@ -63,7 +63,7 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
 
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
         "title":    "Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors",
         "author":   "M. Mancarella, F. Iacovelli, D. Gerosa",
         "journal":  "\prdl 107 (2022) L101302",
@@ -506,7 +506,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap",
         "author":   "D. Gerosa, E. Berti",
-        "journal":  "\prdl 100 (2019) 041301R",
+        "journal":  "\prdrc 100 (2019) 041301R",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.100.041301",
         "arxiv":    "arXiv:1906.05295 [astro-ph.HE]",
         "ads":      "2019PhRvD.100d1301G",
