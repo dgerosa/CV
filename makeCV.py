@@ -303,6 +303,7 @@ def convertjournal(j):
     journalconversion={}
     journalconversion['\prd']=["Physical Review D", "PRD"]
     journalconversion['\prdrc']=["Physical Review D", "PRD"]
+    journalconversion['\prdl']=["Physical Review D", "PRD"]
     journalconversion['\prl']=["Physical Review Letters","PRL"]
     journalconversion['\prr']=["Physical Review Research","PRR"]
     journalconversion['\mnras']=["Monthly Notices of the Royal Astronomical Society","MNRAS"]

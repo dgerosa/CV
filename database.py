@@ -45,16 +45,6 @@ if submitted:
         "more":     "Open source code"
         })
 
-    papers['submitted']['data'].append({
-        "title":    "Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors",
-        "author":   "M. Mancarella, F. Iacovelli, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2303.16323 [gr-qc]",
-        "ads":      "2023arXiv230316323M",
-        "inspire":  "Mancarella:2023ehn",
-        "more":     ""
-        })
 
     papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
@@ -72,6 +62,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['submitted']['data'].append({
+        "title":    "Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors",
+        "author":   "M. Mancarella, F. Iacovelli, D. Gerosa",
+        "journal":  "\prdl 107 (2022) L101302",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.107.L101302",
+        "arxiv":    "arXiv:2303.16323 [gr-qc]",
+        "ads":      "2023arXiv230316323M",
+        "inspire":  "Mancarella:2023ehn",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data",
@@ -505,7 +506,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap",
         "author":   "D. Gerosa, E. Berti",
-        "journal":  "\prdrc 100 (2019) 041301R",
+        "journal":  "\prdl 100 (2019) 041301R",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.100.041301",
         "arxiv":    "arXiv:1906.05295 [astro-ph.HE]",
         "ads":      "2019PhRvD.100d1301G",
