@@ -27,8 +27,8 @@ if submitted:
         "author":   "M. Mould, D. Gerosa, M. Dall'Amico, M. Mapelli",
         "journal":  "",
         "link":     "",
-        "arxiv":    "arXiv:2304.13063 [astro-ph.HE]",
-        "ads":      "2023arXiv230413063M",
+        "arxiv":    "arXiv:2305.18539 [astro-ph.HE]",
+        "ads":      "2023arXiv230518539M",
         "inspire":  "Mould:2023ift",
         "more":     ""
         })
