@@ -23,6 +23,18 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "One to many: comparing single gravitational-wave events to astrophysical populations",
+        "author":   "M. Mould, D. Gerosa, M. Dall'Amico, M. Mapelli",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2304.13063 [astro-ph.HE]",
+        "ads":      "2023arXiv230413063M",
+        "inspire":  "Mould:2023ift",
+        "more":     ""
+        })
+
+
+    papers['submitted']['data'].append({
         "title":    "Parameter estimation of binary black holes in the endpoint of the up-down instability",
         "author":   "V. De Renzis, D. Gerosa, M. Mould, R. Buscicchio, L. Zanga",
         "journal":  "",
