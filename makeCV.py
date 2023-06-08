@@ -57,7 +57,10 @@ def ads_citations(papers,testing=False):
                         p['ads_found'] = p['ads']
                     else:
                         n_retries=0
-                        #print(p)
+                        
+                        p['ads_citations'] = 0
+                        p['ads_found'] = ""
+                        
                         while n_retries<10:
                             try:
                                 with warnings.catch_warnings():
@@ -82,7 +85,9 @@ def ads_citations(papers,testing=False):
                                 n_retries = n_retries + 1
                             
                                 if n_retries==11:
-                                    raise ValueError("ADS error in "+p['ads'])
+                                    print('ADS API error: giving up -- '+p['ads'])
+
+                                    #raise ValueError("ADS error in "+p['ads'])
                                 continue
                             else:
                                 break
@@ -265,7 +270,8 @@ def metricspapers(papers,filename="metricspapers.tex"):
     out.append("\\textcolor{mark_color}{\\textbf{Web links to list services}}:")
     out.append("\href{https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(doctype%3A%22misc%22%20OR%20doctype%3A%22inproceedings%22%20OR%20doctype%3A%22article%22%20OR%20doctype%3A%22eprint%22)&q=%20author%3A%22Gerosa%2C%20Davide%22&sort=citation_count%20desc%2C%20bibcode%20desc&p_=0}{\\textsc{ADS}};")
     out.append("\href{http://inspirehep.net/search?ln=en&ln=en&p=exactauthor%3AD.Gerosa.1&of=hb&action_search=Search&sf=&so=d&rm=citation&rg=25&sc=0}{\\textsc{InSpire}};")
-    out.append("\href{http://arxiv.org/a/gerosa_d_1.html}{\\textsc{arXiv}}.")
+    out.append("\href{http://arxiv.org/a/gerosa_d_1.html}{\\textsc{arXiv}};")
+    out.append("\href{https://orcid.org/0000-0002-0933-3579}{\\textsc{orcid}}.")
 
     with open(filename,"w") as f: f.write("\n".join(out))
 

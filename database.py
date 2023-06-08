@@ -23,6 +23,18 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Glitch systematics on the observation of massive black-hole binaries with LISA",
+        "author":   "A. Spadaro, R. Buscicchio, D. Vetrugno, A. Klein, D. Gerosa, S. Vitale, R. Dolesi, W. J. Weber, M. Colpi",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2306.03923 [gr-qc]",
+        "ads":      "",
+        "inspire":  "Spadaro:2023muy",
+        "more":     ""
+        })
+
+
+    papers['submitted']['data'].append({
         "title":    "One to many: comparing single gravitational-wave events to astrophysical populations",
         "author":   "M. Mould, D. Gerosa, M. Dall'Amico, M. Mapelli",
         "journal":  "",
@@ -30,18 +42,6 @@ if submitted:
         "arxiv":    "arXiv:2305.18539 [astro-ph.HE]",
         "ads":      "2023arXiv230518539M",
         "inspire":  "Mould:2023ift",
-        "more":     ""
-        })
-
-
-    papers['submitted']['data'].append({
-        "title":    "Parameter estimation of binary black holes in the endpoint of the up-down instability",
-        "author":   "V. De Renzis, D. Gerosa, M. Mould, R. Buscicchio, L. Zanga",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2304.13063 [gr-qc]",
-        "ads":      "2023arXiv230413063D",
-        "inspire":  "DeRenzis:2023lwa",
         "more":     ""
         })
 
@@ -61,6 +61,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Parameter estimation of binary black holes in the endpoint of the up-down instability",
+        "author":   "V. De Renzis, D. Gerosa, M. Mould, R. Buscicchio, L. Zanga",
+        "journal":  "\prd, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2304.13063 [gr-qc]",
+        "ads":      "2023arXiv230413063D",
+        "inspire":  "DeRenzis:2023lwa",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Efficient multi-timescale dynamics of precessing black-hole binaries",
