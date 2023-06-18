@@ -167,6 +167,11 @@ def parsepapers(papers,filename="parsepapers.tex"):
                 line +="\href{"+p['link']+"}"
             if p['journal']:
                 line+="{"+p['journal'].strip(".")+"}. "
+            if 'erratum' in p.keys():
+                if p['errlink']:
+                    line +="\href{"+p['errlink']+"}"
+                if p['erratum']:
+                    line+="{Erratum: "+p['erratum'].strip(".")+"}. "
             if p['arxiv']:
                 line+="\href{https://arxiv.org/abs/"+p['arxiv'].split(":")[1].split(" ")[0]+"}{"+p['arxiv'].strip(".")+".}"
             out.append(line)

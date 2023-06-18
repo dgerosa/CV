@@ -166,10 +166,12 @@ if published:
         "author":   "D. Gangardt, D. Gerosa, M. Kesden, V. De Renzis, N. Steinle",
         "journal":  "\prd 106 (2022) 024019",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.024019",
+        "erratum":  "107 (2023) 109901",
+        "errlink":  "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.107.109901",
         "arxiv":    "arXiv:2204.00026 [gr-qc]",
         "ads":      "2022PhRvD.106b4019G",
         "inspire":  "Gangardt:2022ltd",
-        "more":     "Erratum: 107 (2023) 109901"
+        "more":     ""
         })
 
     papers['published']['data'].append({
