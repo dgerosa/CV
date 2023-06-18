@@ -169,7 +169,7 @@ if published:
         "arxiv":    "arXiv:2204.00026 [gr-qc]",
         "ads":      "2022PhRvD.106b4019G",
         "inspire":  "Gangardt:2022ltd",
-        "more":     ""
+        "more":     "Erratum: 107 (2023) 109901"
         })
 
     papers['published']['data'].append({
