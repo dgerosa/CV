@@ -23,12 +23,23 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Extending black-hole remnant surrogate models to extreme mass ratios",
+        "author":   "M. Boschini, D. Gerosa, V. Varma, C. Armaza, M. Boyle, M. S. Bonilla, A. Ceja, Y. Chen, N. Deppe, M. Giesler, L. E. Kidder, G. Lara, O. Long, S. Ma, K. Mitman, P. J. Nee, H. P. Pfeiffer, A. Ramos-Buades, M. A. Scheel, N. L. Vu, J. Yoo",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2307.03435 [gr-qc]",
+        "ads":      "",
+        "inspire":  "Boschini:2023ryi",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Glitch systematics on the observation of massive black-hole binaries with LISA",
         "author":   "A. Spadaro, R. Buscicchio, D. Vetrugno, A. Klein, D. Gerosa, S. Vitale, R. Dolesi, W. J. Weber, M. Colpi",
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2306.03923 [gr-qc]",
-        "ads":      "",
+        "ads":      "2023arXiv230603923S",
         "inspire":  "Spadaro:2023muy",
         "more":     ""
         })
