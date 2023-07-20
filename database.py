@@ -28,7 +28,7 @@ if submitted:
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2307.03435 [gr-qc]",
-        "ads":      "",
+        "ads":      "2023arXiv230703435B",
         "inspire":  "Boschini:2023ryi",
         "more":     ""
         })
@@ -87,8 +87,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Efficient multi-timescale dynamics of precessing black-hole binaries",
         "author":   "D. Gerosa, G. Fumagalli, M. Mould, G. Cavallotto, D. Padilla Monroy, D. Gangardt, V. De Renzis",
-        "journal":  "\prd, in press",
-        "link":     "",
+        "journal":  "\prd 108 (2023) 024042",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.024042",
         "arxiv":    "arXiv:2304.04801 [gr-qc]",
         "ads":      "2023arXiv230404801G",
         "inspire":  "Gerosa:2023xsx",
@@ -98,7 +98,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors",
         "author":   "M. Mancarella, F. Iacovelli, D. Gerosa",
-        "journal":  "\prdl 107 (2022) L101302",
+        "journal":  "\prdl 107 (2023) L101302",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.107.L101302",
         "arxiv":    "arXiv:2303.16323 [gr-qc]",
         "ads":      "2023PhRvD.107j1302M",
