@@ -1039,6 +1039,14 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Eccentricity, spin precession, and gravitational-wave signals that are too short",
+        "where":    "15th Edoardo Amaldi Conference, (online)",
+        "when":     "Jul 2023",
+        "invited":  False,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "When orbital eccentricity and spin precession are kind of the same",
         "where":    "April APS Meeting, Minneapolis MN, USA",
         "when":     "Apr 2023",
