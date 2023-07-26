@@ -79,7 +79,7 @@ if published:
         "journal":  "\prd, in press",
         "link":     "",
         "arxiv":    "arXiv:2304.13063 [gr-qc]",
-        "ads":      "2023arXiv230413063D",
+        "ads":      "2023PhRvD.108b4024D",
         "inspire":  "DeRenzis:2023lwa",
         "more":     ""
         })
