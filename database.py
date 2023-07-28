@@ -90,7 +90,7 @@ if published:
         "journal":  "\prd 108 (2023) 024042",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.024042",
         "arxiv":    "arXiv:2304.04801 [gr-qc]",
-        "ads":      "2023arXiv230404801G",
+        "ads":      "2023PhRvD.108b4042G",
         "inspire":  "Gerosa:2023xsx",
         "more":     "Open source code"
         })
