@@ -74,17 +74,6 @@ if published:
     papers['published']['data'] = []
 
     papers['published']['data'].append({
-        "title":    "Parameter estimation of binary black holes in the endpoint of the up-down instability",
-        "author":   "V. De Renzis, D. Gerosa, M. Mould, R. Buscicchio, L. Zanga",
-        "journal":  "\prd, in press",
-        "link":     "",
-        "arxiv":    "arXiv:2304.13063 [gr-qc]",
-        "ads":      "2023PhRvD.108b4024D",
-        "inspire":  "DeRenzis:2023lwa",
-        "more":     ""
-        })
-
-    papers['published']['data'].append({
         "title":    "Efficient multi-timescale dynamics of precessing black-hole binaries",
         "author":   "D. Gerosa, G. Fumagalli, M. Mould, G. Cavallotto, D. Padilla Monroy, D. Gangardt, V. De Renzis",
         "journal":  "\prd 108 (2023) 024042",
@@ -94,6 +83,18 @@ if published:
         "inspire":  "Gerosa:2023xsx",
         "more":     "Open source code"
         })
+
+    papers['published']['data'].append({
+        "title":    "Parameter estimation of binary black holes in the endpoint of the up-down instability",
+        "author":   "V. De Renzis, D. Gerosa, M. Mould, R. Buscicchio, L. Zanga",
+        "journal":  "\prd 108 (2023) 024024",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.024024",
+        "arxiv":    "arXiv:2304.13063 [gr-qc]",
+        "ads":      "2023PhRvD.108b4024D",
+        "inspire":  "DeRenzis:2023lwa",
+        "more":     ""
+        })
+
 
     papers['published']['data'].append({
         "title":    "Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors",
