@@ -95,7 +95,6 @@ if published:
         "more":     ""
         })
 
-
     papers['published']['data'].append({
         "title":    "Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors",
         "author":   "M. Mancarella, F. Iacovelli, D. Gerosa",
