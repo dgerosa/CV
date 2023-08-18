@@ -44,18 +44,6 @@ if submitted:
         "more":     ""
         })
 
-
-    papers['submitted']['data'].append({
-        "title":    "One to many: comparing single gravitational-wave events to astrophysical populations",
-        "author":   "M. Mould, D. Gerosa, M. Dall'Amico, M. Mapelli",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2305.18539 [astro-ph.HE]",
-        "ads":      "2023arXiv230518539M",
-        "inspire":  "Mould:2023ift",
-        "more":     ""
-        })
-
     papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
         "author":   "A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, D. Gerosa, S. McGee, M. Nicholl, A. Vecchio",
@@ -72,6 +60,18 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+
+    papers['submitted']['data'].append({
+        "title":    "One to many: comparing single gravitational-wave events to astrophysical populations",
+        "author":   "M. Mould, D. Gerosa, M. Dall'Amico, M. Mapelli",
+        "journal":  "\mnras, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2305.18539 [astro-ph.HE]",
+        "ads":      "2023arXiv230518539M",
+        "inspire":  "Mould:2023ift",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Efficient multi-timescale dynamics of precessing black-hole binaries",
