@@ -277,10 +277,11 @@ def metricspapers(papers,filename="metricspapers.tex"):
 
     print("\tTotal number of citations:", totalnumber_including, totalnumber_excluding)
     print("\th-index:", hind_including, hind_excluding)
-
-    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}} excluding [including] long-authorlist papers: \\textbf{"+str(roundto100(totalnumber_including))+"} [\\textbf{"+str(roundto100(totalnumber_including))+"}].")
+    out.append("Summary metrics reported using ADS and InSpire excluding [including] long-authorlist papers:")
     out.append("\\\\")
-    out.append("\\textcolor{mark_color}{\\textbf{h-index}} excluding [including] long-authorlist papers: \\textbf{"+str(hind_excluding)+"} [\\textbf{"+str(hind_including)+"}] (using ADS and InSpire).")
+    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}}: >"+str(roundto100(totalnumber_including))+" [>"+str(roundto100(totalnumber_including))+"]")
+    out.append(" --- ")
+    out.append("\\textcolor{mark_color}{\\textbf{h-index}}: "+str(hind_excluding)+" ["+str(hind_including)+"].")
     out.append("\\\\")
     out.append("\\textcolor{mark_color}{\\textbf{Web links to list services}}:")
     out.append("\href{https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(doctype%3A%22misc%22%20OR%20doctype%3A%22inproceedings%22%20OR%20doctype%3A%22article%22%20OR%20doctype%3A%22eprint%22)&q=%20author%3A%22Gerosa%2C%20Davide%22&sort=citation_count%20desc%2C%20bibcode%20desc&p_=0}{\\textsc{ADS}};")
