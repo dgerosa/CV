@@ -560,7 +560,6 @@ def pushtogit():
     os.system("git commit -m '"+comment+"'")
     os.system("git push")
 
-
 def publishgithub():
     date = datetime.now().strftime("%Y-%m-%d-%H-%M")
     print("Publish github release:", date)
@@ -577,6 +576,7 @@ def publishgithub():
 
     gh_release_create("dgerosa/CV", date, publish=True, name=date, asset_pattern="DavideGerosa_*")
 
+    os.system("git pull") # This is to get new tags from github
 
 
 #####################################
