@@ -279,7 +279,7 @@ def metricspapers(papers,filename="metricspapers.tex"):
     print("\th-index:", hind_including, hind_excluding)
     out.append("Summary metrics reported using ADS and InSpire excluding [including] long-authorlist papers:")
     out.append("\\\\")
-    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}}: >"+str(roundto100(totalnumber_including))+" [>"+str(roundto100(totalnumber_including))+"]")
+    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}}: >"+str(roundto100(totalnumber_excluding))+" [>"+str(roundto100(totalnumber_including))+"]")
     out.append(" --- ")
     out.append("\\textcolor{mark_color}{\\textbf{h-index}}: "+str(hind_excluding)+" ["+str(hind_including)+"].")
     out.append("\\\\")
