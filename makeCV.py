@@ -26,6 +26,9 @@ import warnings
 def hindex(citations):
     return sum(x >= i + 1 for i, x in enumerate(sorted(  list(citations), reverse=True)))
 
+def roundto100(N):
+    return int(N/100)*100
+
 def pdflatex(filename):
     os.system('pdflatex '+filename+' >/dev/null')
 
@@ -256,27 +259,34 @@ def metricspapers(papers,filename="metricspapers.tex"):
     out.append("\\textbf{"+str(np.sum(press_release))+"} papers covered by press releases).")
     out.append("\end{tabular} }")
 
+    print([k for k in papers])
+
+    # including long-authorlist
     ads_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in papers])
     inspire_citations = np.concatenate([[p['inspire_citations'] for p in papers[k]['data']] for k in papers])
+    max_citations_including = np.maximum(ads_citations,inspire_citations)
+    totalnumber_including = np.sum(max_citations_including)
+    hind_including = hindex(max_citations_including)
 
-    max_citations = np.maximum(ads_citations,inspire_citations)
+    # excluding long-authorlist
+    ads_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in ['submitted','published']])
+    inspire_citations = np.concatenate([[p['inspire_citations'] for p in papers[k]['data']] for k in ['submitted','published']])
+    max_citations_excluding = np.maximum(ads_citations,inspire_citations)
+    totalnumber_excluding = np.sum(max_citations_excluding)
+    hind_excluding = hindex(max_citations_excluding)
 
+    print("\tTotal number of citations:", totalnumber_including, totalnumber_excluding)
+    print("\th-index:", hind_including, hind_excluding)
 
-    totalnumber = np.sum(max_citations)
-    print("\tTotal number of citations:", totalnumber)
-    hind = hindex(max_citations)
-    print("\th-index:", hind)
-
-    rounded = int(totalnumber/100)*100
-
-    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}}: >"+str(rounded)+".")
-    out.append("\\textcolor{mark_color}{\\textbf{h-index}}: "+str(hind)+" (using ADS and InSpire).")
+    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}} excluding [including] long-authorlist papers: \\textbf{"+str(roundto100(totalnumber_including))+"} [\\textbf{"+str(roundto100(totalnumber_including))+"}].")
+    out.append("\\\\")
+    out.append("\\textcolor{mark_color}{\\textbf{h-index}} excluding [including] long-authorlist papers: \\textbf{"+str(hind_excluding)+"} [\\textbf{"+str(hind_including)+"}] (using ADS and InSpire).")
     out.append("\\\\")
     out.append("\\textcolor{mark_color}{\\textbf{Web links to list services}}:")
     out.append("\href{https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(doctype%3A%22misc%22%20OR%20doctype%3A%22inproceedings%22%20OR%20doctype%3A%22article%22%20OR%20doctype%3A%22eprint%22)&q=%20author%3A%22Gerosa%2C%20Davide%22&sort=citation_count%20desc%2C%20bibcode%20desc&p_=0}{\\textsc{ADS}};")
     out.append("\href{http://inspirehep.net/search?ln=en&ln=en&p=exactauthor%3AD.Gerosa.1&of=hb&action_search=Search&sf=&so=d&rm=citation&rg=25&sc=0}{\\textsc{InSpire}};")
     out.append("\href{http://arxiv.org/a/gerosa_d_1.html}{\\textsc{arXiv}};")
-    out.append("\href{https://orcid.org/0000-0002-0933-3579}{\\textsc{orcid}}.")
+    out.append("\href{https://orcid.org/0000-0002-0933-3579}{\\textsc{ORCID}}.")
 
     with open(filename,"w") as f: f.write("\n".join(out))
 
