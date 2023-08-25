@@ -9,7 +9,6 @@ Pdf files can be accessed using the links below:
 - [**Short CV**](https://github.com/dgerosa/CV/releases/latest/download/DavideGerosa_shortCV.pdf)
 - [**Publication list**](https://github.com/dgerosa/CV/releases/latest/download/DavideGerosa_publist.pdf)
 - [**Talk list**](https://github.com/dgerosa/CV/releases/latest/download/DavideGerosa_talklist.pdf)
-- [**Transcripts**](https://github.com/dgerosa/CV/releases/latest/download/DavideGerosa_transcript.pdf)
 
 Additionally, my citation count is available [here](https://davidegerosa.com/citations).
 
