@@ -40,7 +40,7 @@ The magic happes in `makeCV.py`. In particular:
 
 
 
-Add the end of the day: you change something and then type
+At the end of the day: you change something and then type
 
 ```shell
 python makeCV.py "commit messsage"
