@@ -23,7 +23,7 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
-        "title":    "Black-hole mergers in disk-like environments could explain the observed $q--\chi_\mathrm{eff}$ correlation",
+        "title":    "Black-hole mergers in disk-like environments could explain the observed $q-\chi_\mathrm{eff}$ correlation",
         "author":   "A. Santini, D. Gerosa, R. Cotesta, E. Berti",
         "journal":  "",
         "link":     "",
