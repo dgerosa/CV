@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Black-hole mergers in disk-like environments could explain the observed $q--\chi_\mathrm{eff}$ correlation",
+        "author":   "A. Santini, D. Gerosa, R. Cotesta, E. Berti",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2308.12998 [astro-ph.HE]",
+        "ads":      "2023arXiv230812998S",
+        "inspire":  "Santini:2023ukl",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Extending black-hole remnant surrogate models to extreme mass ratios",
         "author":   "M. Boschini, D. Gerosa, V. Varma, C. Armaza, M. Boyle, M. S. Bonilla, A. Ceja, Y. Chen, N. Deppe, M. Giesler, L. E. Kidder, G. Lara, O. Long, S. Ma, K. Mitman, P. J. Nee, H. P. Pfeiffer, A. Ramos-Buades, M. A. Scheel, N. L. Vu, J. Yoo",
         "journal":  "",
@@ -68,7 +79,7 @@ if published:
         "journal":  "\mnras, in press",
         "link":     "",
         "arxiv":    "arXiv:2305.18539 [astro-ph.HE]",
-        "ads":      "2023arXiv230518539M",
+        "ads":      "2023MNRAS.tmp.2393M",
         "inspire":  "Mould:2023ift",
         "more":     ""
         })
