@@ -34,17 +34,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Extending black-hole remnant surrogate models to extreme mass ratios",
-        "author":   "M. Boschini, D. Gerosa, V. Varma, C. Armaza, M. Boyle, M. S. Bonilla, A. Ceja, Y. Chen, N. Deppe, M. Giesler, L. E. Kidder, G. Lara, O. Long, S. Ma, K. Mitman, P. J. Nee, H. P. Pfeiffer, A. Ramos-Buades, M. A. Scheel, N. L. Vu, J. Yoo",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2307.03435 [gr-qc]",
-        "ads":      "2023arXiv230703435B",
-        "inspire":  "Boschini:2023ryi",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Glitch systematics on the observation of massive black-hole binaries with LISA",
         "author":   "A. Spadaro, R. Buscicchio, D. Vetrugno, A. Klein, D. Gerosa, S. Vitale, R. Dolesi, W. J. Weber, M. Colpi",
         "journal":  "",
@@ -72,12 +61,22 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
 
-
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
+        "title":    "Extending black-hole remnant surrogate models to extreme mass ratios",
+        "author":   "M. Boschini, D. Gerosa, V. Varma, C. Armaza, M. Boyle, M. S. Bonilla, A. Ceja, Y. Chen, N. Deppe, M. Giesler, L. E. Kidder, G. Lara, O. Long, S. Ma, K. Mitman, P. J. Nee, H. P. Pfeiffer, A. Ramos-Buades, M. A. Scheel, N. L. Vu, J. Yoo",
+        "journal":  "\prd, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2307.03435 [gr-qc]",
+        "ads":      "2023arXiv230703435B",
+        "inspire":  "Boschini:2023ryi",
+        "more":     ""
+        })
+    
+    papers['published']['data'].append({
         "title":    "One to many: comparing single gravitational-wave events to astrophysical populations",
         "author":   "M. Mould, D. Gerosa, M. Dall'Amico, M. Mapelli",
-        "journal":  "\mnras, in press",
-        "link":     "",
+        "journal":  "\mnras 525 (2023) 3986–3997",
+        "link":     "https://doi.org/10.1093/mnras/stad2502",
         "arxiv":    "arXiv:2305.18539 [astro-ph.HE]",
         "ads":      "2023MNRAS.tmp.2393M",
         "inspire":  "Mould:2023ift",
