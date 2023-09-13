@@ -78,7 +78,7 @@ if published:
         "journal":  "\mnras 525 (2023) 3986–3997",
         "link":     "https://doi.org/10.1093/mnras/stad2502",
         "arxiv":    "arXiv:2305.18539 [astro-ph.HE]",
-        "ads":      "2023MNRAS.tmp.2393M",
+        "ads":      "2023MNRAS.525.3986M",
         "inspire":  "Mould:2023ift",
         "more":     ""
         })
