@@ -1047,6 +1047,14 @@ if conferences:
     talks['conferences'] = {}
     talks['conferences']['label'] = 'Talks at conferences'
     talks['conferences']['data'] = []
+    
+    talks['conferences']['data'].append({
+        "title":    "A lonely gravitational wave",
+        "where":    "LISA Astrophysics Working Group Meeting, Milan, Italy",
+        "when":     "Sep 2023",
+        "invited":  False,
+        "more":     ""
+        })
 
     talks['conferences']['data'].append({
         "title":    "Eccentricity, spin precession, and gravitational-wave signals that are too short",
