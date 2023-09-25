@@ -1902,6 +1902,22 @@ if lectures:
     talks['lectures']['data'] = []
 
     talks['lectures']['data'].append({
+        "title":    "Stellar-mass black-hole binary formation channels",
+        "where":    "Kavli-Villum Summer School on Gravitational Wave, Corfu, Greece",
+        "when":     "Sep 2023",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['lectures']['data'].append({
+        "title":    "Gravitational waves: principles of emission",
+        "where":    "Kavli-Villum Summer School on Gravitational Wave, Corfu, Greece",
+        "when":     "Sep 2023",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['lectures']['data'].append({
         "title":    "Introduction to gravitational waves (theory background)",
         "where":    "VIPER summer school on PTA GW astrophysics, Nashville TN, USA (online)",
         "when":     "Jul 2022",
