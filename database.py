@@ -22,27 +22,7 @@ if submitted:
     papers['submitted']['label'] = 'Submitted papers'
     papers['submitted']['data'] = []
 
-    papers['submitted']['data'].append({
-        "title":    "Black-hole mergers in disk-like environments could explain the observed $q-\chi_\mathrm{eff}$ correlation",
-        "author":   "A. Santini, D. Gerosa, R. Cotesta, E. Berti",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2308.12998 [astro-ph.HE]",
-        "ads":      "2023arXiv230812998S",
-        "inspire":  "Santini:2023ukl",
-        "more":     ""
-        })
 
-    papers['submitted']['data'].append({
-        "title":    "Glitch systematics on the observation of massive black-hole binaries with LISA",
-        "author":   "A. Spadaro, R. Buscicchio, D. Vetrugno, A. Klein, D. Gerosa, S. Vitale, R. Dolesi, W. J. Weber, M. Colpi",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2306.03923 [gr-qc]",
-        "ads":      "2023arXiv230603923S",
-        "inspire":  "Spadaro:2023muy",
-        "more":     ""
-        })
 
     papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
@@ -60,6 +40,28 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['submitted']['data'].append({
+        "title":    "Black-hole mergers in disk-like environments could explain the observed $q-\chi_\mathrm{eff}$ correlation",
+        "author":   "A. Santini, D. Gerosa, R. Cotesta, E. Berti",
+        "journal":  "\prd, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2308.12998 [astro-ph.HE]",
+        "ads":      "2023arXiv230812998S",
+        "inspire":  "Santini:2023ukl",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
+        "title":    "Glitch systematics on the observation of massive black-hole binaries with LISA",
+        "author":   "A. Spadaro, R. Buscicchio, D. Vetrugno, A. Klein, D. Gerosa, S. Vitale, R. Dolesi, W. J. Weber, M. Colpi",
+        "journal":  "\prd, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2306.03923 [gr-qc]",
+        "ads":      "2023arXiv230603923S",
+        "inspire":  "Spadaro:2023muy",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Extending black-hole remnant surrogate models to extreme mass ratios",
