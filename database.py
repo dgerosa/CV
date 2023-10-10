@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
 
+    papers['submitted']['data'].append({
+        "title":    "The cosmic variance of testing general relativity with gravitational-wave catalogs",
+        "author":   "C. Pacilio, D. Gerosa, S. Bhagwat.",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2310.03811 [gr-qc]",
+        "ads":      "",
+        "inspire":  "",
+        "more":     ""
+        })
+
 
     papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
@@ -41,7 +52,7 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
 
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
         "title":    "Black-hole mergers in disk-like environments could explain the observed $q-\chi_\mathrm{eff}$ correlation",
         "author":   "A. Santini, D. Gerosa, R. Cotesta, E. Berti",
         "journal":  "\prd, in press",
@@ -52,7 +63,7 @@ if published:
         "more":     ""
         })
 
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
         "title":    "Glitch systematics on the observation of massive black-hole binaries with LISA",
         "author":   "A. Spadaro, R. Buscicchio, D. Vetrugno, A. Klein, D. Gerosa, S. Vitale, R. Dolesi, W. J. Weber, M. Colpi",
         "journal":  "\prd, in press",
@@ -66,8 +77,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Extending black-hole remnant surrogate models to extreme mass ratios",
         "author":   "M. Boschini, D. Gerosa, V. Varma, C. Armaza, M. Boyle, M. S. Bonilla, A. Ceja, Y. Chen, N. Deppe, M. Giesler, L. E. Kidder, G. Lara, O. Long, S. Ma, K. Mitman, P. J. Nee, H. P. Pfeiffer, A. Ramos-Buades, M. A. Scheel, N. L. Vu, J. Yoo",
-        "journal":  "\prd, in press",
-        "link":     "",
+        "journal":  "\prd 108 (2023) 084015",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.084015",
         "arxiv":    "arXiv:2307.03435 [gr-qc]",
         "ads":      "2023arXiv230703435B",
         "inspire":  "Boschini:2023ryi",
