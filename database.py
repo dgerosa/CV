@@ -80,7 +80,7 @@ if published:
         "journal":  "\prd 108 (2023) 084015",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.084015",
         "arxiv":    "arXiv:2307.03435 [gr-qc]",
-        "ads":      "2023arXiv230703435B",
+        "ads":      "2023PhRvD.108h4015B",
         "inspire":  "Boschini:2023ryi",
         "more":     ""
         })
