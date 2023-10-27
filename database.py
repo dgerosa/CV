@@ -22,10 +22,20 @@ if submitted:
     papers['submitted']['label'] = 'Submitted papers'
     papers['submitted']['data'] = []
 
+    papers['submitted']['data'].append({
+        "title":    "Spin-eccentricity interplay in merging binary black holes",
+        "author":   "G. Fumagalli, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2310.16893 [gr-qc]",
+        "ads":      "",
+        "inspire":  "Fumagalli:2023hde",
+        "more":     ""
+        })
 
     papers['submitted']['data'].append({
         "title":    "The cosmic variance of testing general relativity with gravitational-wave catalogs",
-        "author":   "C. Pacilio, D. Gerosa, S. Bhagwat.",
+        "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2310.03811 [gr-qc]",
@@ -33,7 +43,6 @@ if submitted:
         "inspire":  "Pacilio:2023uef",
         "more":     ""
         })
-
 
     papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
