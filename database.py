@@ -67,7 +67,7 @@ if published:
         "journal":  "\prd, in press",
         "link":     "",
         "arxiv":    "arXiv:2308.12998 [astro-ph.HE]",
-        "ads":      "2023arXiv230812998S",
+        "ads":      "2023PhRvD.108h3033S",
         "inspire":  "Santini:2023ukl",
         "more":     ""
         })
