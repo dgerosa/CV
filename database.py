@@ -2015,6 +2015,14 @@ if outreach:
     talks['outreach']['data'] = []
 
     talks['outreach']['data'].append({
+        "title":    "Gravity with some data science in the blender",
+        "where":    "Datrix Tech Dissemination, Milan, Italy, (online).",
+        "when":     "Oct 2023",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['outreach']['data'].append({
         "title":    "Hands-on astrophysics. Il ruolo del ricercatore",
         "where":    "Italian Association of Physics Students (AISF), Milan, Italy",
         "when":     "May 2023",
