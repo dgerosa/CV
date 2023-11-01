@@ -62,17 +62,6 @@ if published:
     papers['published']['data'] = []
 
     papers['published']['data'].append({
-        "title":    "Black-hole mergers in disk-like environments could explain the observed $q-\chi_\mathrm{eff}$ correlation",
-        "author":   "A. Santini, D. Gerosa, R. Cotesta, E. Berti",
-        "journal":  "\prd, in press",
-        "link":     "",
-        "arxiv":    "arXiv:2308.12998 [astro-ph.HE]",
-        "ads":      "2023PhRvD.108h3033S",
-        "inspire":  "Santini:2023ukl",
-        "more":     ""
-        })
-
-    papers['published']['data'].append({
         "title":    "Glitch systematics on the observation of massive black-hole binaries with LISA",
         "author":   "A. Spadaro, R. Buscicchio, D. Vetrugno, A. Klein, D. Gerosa, S. Vitale, R. Dolesi, W. J. Weber, M. Colpi",
         "journal":  "\prd, in press",
@@ -80,6 +69,17 @@ if published:
         "arxiv":    "arXiv:2306.03923 [gr-qc]",
         "ads":      "2023arXiv230603923S",
         "inspire":  "Spadaro:2023muy",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
+        "title":    "Black-hole mergers in disk-like environments could explain the observed $q-\chi_\mathrm{eff}$ correlation",
+        "author":   "A. Santini, D. Gerosa, R. Cotesta, E. Berti",
+        "journal":  "\prd 108 (2023) 083033",
+        "link":     "",
+        "arxiv":    "arXiv:2308.12998 [astro-ph.HE]",
+        "ads":      "2023PhRvD.108h3033S",
+        "inspire":  "Santini:2023ukl",
         "more":     ""
         })
 
