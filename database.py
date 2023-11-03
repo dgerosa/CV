@@ -928,6 +928,18 @@ if proceedings:
     papers['proceedings']['data'] = []
 
     papers['proceedings']['data'].append({
+        "title":    "Waveform modelling for the Laser Interferometer Space Antenna",
+        "author":   "N. Afshordi, et al. (105 authors incl. D. Gerosa)",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2311.01300 [gr-qc]",
+        "ads":      "2023arXiv231101300L",
+        "inspire":  "LISAConsortiumWaveformWorkingGroup:2023arg",
+        "more":     ""
+        })
+
+
+    papers['proceedings']['data'].append({
         "title":    "QLUSTER: quick clusters of merging binary black holes",
         "author":   "D. Gerosa, M. Mould",
         "journal":  "",
