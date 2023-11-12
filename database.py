@@ -1083,6 +1083,15 @@ if conferences:
     talks['conferences']['data'] = []
     
     talks['conferences']['data'].append({
+        "title":    "Gravitational waves: figuring out what’s missing",
+        "where":    "6th World Laureates Forum, Shanghai, China",
+        "when":     "Nov 2023",
+        "invited":  True,
+        "more":     ""
+        })
+
+
+    talks['conferences']['data'].append({
         "title":    "A lonely gravitational wave",
         "where":    "LISA Astrophysics Working Group Meeting, Milan, Italy",
         "when":     "Sep 2023",
