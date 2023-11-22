@@ -23,12 +23,23 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs",
+        "author":   "M. Mould, C. J. Moore, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2311.12117 [gr-qc]",
+        "ads":      "",
+        "inspire":  "Mould:2023eca",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Spin-eccentricity interplay in merging binary black holes",
         "author":   "G. Fumagalli, D. Gerosa",
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2310.16893 [gr-qc]",
-        "ads":      "",
+        "ads":      "2023arXiv231016893F",
         "inspire":  "Fumagalli:2023hde",
         "more":     ""
         })
@@ -76,7 +87,7 @@ if published:
         "title":    "Black-hole mergers in disk-like environments could explain the observed $q-\chi_\mathrm{eff}$ correlation",
         "author":   "A. Santini, D. Gerosa, R. Cotesta, E. Berti",
         "journal":  "\prd 108 (2023) 083033",
-        "link":     "",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.083033",
         "arxiv":    "arXiv:2308.12998 [astro-ph.HE]",
         "ads":      "2023PhRvD.108h3033S",
         "inspire":  "Santini:2023ukl",
