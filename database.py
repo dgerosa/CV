@@ -953,8 +953,8 @@ if proceedings:
     papers['proceedings']['data'].append({
         "title":    "QLUSTER: quick clusters of merging binary black holes",
         "author":   "D. Gerosa, M. Mould",
-        "journal":  "",
-        "link":     "",
+        "journal":  "Proceedings of the 57th Rencontres de Moriond",
+        "link":     "https://doi.org/10.58027/bsnq-2422",
         "arxiv":    "arXiv:2305.04987 [astro-ph.HE]",
         "ads":      "2023arXiv230504987G",
         "inspire":  "",
