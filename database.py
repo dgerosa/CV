@@ -1092,7 +1092,15 @@ if conferences:
     talks['conferences'] = {}
     talks['conferences']['label'] = 'Talks at conferences'
     talks['conferences']['data'] = []
-    
+
+    talks['conferences']['data'].append({
+        "title":    "The masses and spins of LIGO's black holes are correlated… here is a disk explanation",
+        "where":    "RESCEU-NBIA workshop on gravitational-wave sources, Tokyo, Japan",
+        "when":     "Dec 2023",
+        "invited":  True,
+        "more":     ""
+        })
+
     talks['conferences']['data'].append({
         "title":    "Gravitational waves: figuring out what’s missing",
         "where":    "6th World Laureates Forum, Shanghai, China",
