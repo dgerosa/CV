@@ -1094,6 +1094,14 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Black-hole generations in AGN disks",
+        "where":    "TEONGRAV meeting, Naples, Italy",
+        "when":     "Dec 2023",
+        "invited":  False,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "Correlated black holes from AGN disks",
         "where":    "5th Milan Christmas Workshop, Milan, Italy",
         "when":     "Dec 2023",
