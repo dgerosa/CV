@@ -61,7 +61,7 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
 
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
         "title":    "Spin-eccentricity interplay in merging binary black holes",
         "author":   "G. Fumagalli, D. Gerosa",
         "journal":  "\prd 108 (2023) 124055",
