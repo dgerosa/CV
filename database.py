@@ -34,17 +34,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Spin-eccentricity interplay in merging binary black holes",
-        "author":   "G. Fumagalli, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2310.16893 [gr-qc]",
-        "ads":      "2023arXiv231016893F",
-        "inspire":  "Fumagalli:2023hde",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "The cosmic variance of testing general relativity with gravitational-wave catalogs",
         "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
         "journal":  "",
@@ -72,13 +61,24 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
 
+    papers['submitted']['data'].append({
+        "title":    "Spin-eccentricity interplay in merging binary black holes",
+        "author":   "G. Fumagalli, D. Gerosa",
+        "journal":  "\prd 108 (2023) 124055",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.124055",
+        "arxiv":    "arXiv:2310.16893 [gr-qc]",
+        "ads":      "2023arXiv231016893F",
+        "inspire":  "Fumagalli:2023hde",
+        "more":     ""
+        })
+
     papers['published']['data'].append({
         "title":    "Glitch systematics on the observation of massive black-hole binaries with LISA",
         "author":   "A. Spadaro, R. Buscicchio, D. Vetrugno, A. Klein, D. Gerosa, S. Vitale, R. Dolesi, W. J. Weber, M. Colpi",
-        "journal":  "\prd, in press",
-        "link":     "",
+        "journal":  "\prd 108 (2023) 123029",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.123029",
         "arxiv":    "arXiv:2306.03923 [gr-qc]",
-        "ads":      "2023arXiv230603923S",
+        "ads":      "2023PhRvD.108l3029S",
         "inspire":  "Spadaro:2023muy",
         "more":     ""
         })
