@@ -46,6 +46,6 @@ At the end of the day: you change something and then type
 python makeCV.py "commit messsage"
 ```
 
-
+**TODO**: turn this in to a github action...
 
 ​	
