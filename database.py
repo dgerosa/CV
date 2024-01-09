@@ -67,7 +67,7 @@ if published:
         "journal":  "\prd 108 (2023) 124055",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.124055",
         "arxiv":    "arXiv:2310.16893 [gr-qc]",
-        "ads":      "2023arXiv231016893F",
+        "ads":      "",
         "inspire":  "Fumagalli:2023hde",
         "more":     ""
         })
