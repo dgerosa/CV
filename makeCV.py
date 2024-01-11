@@ -590,7 +590,7 @@ def publishgithub():
     os.system("git pull") # This is to get new tags from github
 
 
-def clean()
+def clean():
     os.system("rm *.aux *.log *.out")
 
 
