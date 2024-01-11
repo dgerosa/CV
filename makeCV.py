@@ -590,6 +590,10 @@ def publishgithub():
     os.system("git pull") # This is to get new tags from github
 
 
+def clean()
+    os.system("rm *.aux *.log *.out")
+
+
 #####################################
 
 
@@ -614,3 +618,5 @@ if __name__ == "__main__":
     if connected and not testing:
         pushtogit()
         publishgithub()
+
+    clean()
