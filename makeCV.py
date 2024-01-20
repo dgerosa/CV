@@ -343,6 +343,8 @@ def convertjournal(j):
     journalconversion['Astrophysics and Space Science Proceedings']=["Astrophysics and Space Science Proceedings","AaSSP"]
     journalconversion['Caltech Undergraduate Research Journal']=["Caltech Undergraduate Research Journal","CURJ"]
     journalconversion['Chapter in: Handbook of Gravitational Wave Astronomy, Springer, Singapore']=['Book contribution','book']
+    journalconversion['Rendiconti Lincei. Scienze Fisiche e Naturali']=['Rendiconti Lincei','Lincei']
+    journalconversion['Proceedings of the 57th Rencontres de Moriond']=['Moriond proceedings','Moriond']
     journalconversion["arXiv e-prints"]=["arXiv","arXiv"]
 
     if j in journalconversion:
