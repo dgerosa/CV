@@ -2072,7 +2072,15 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Gravity with some data science in the blender",
-        "where":    "Datrix Tech Dissemination, Milan, Italy, (online).",
+        "where":    "Cambridge University Astronomical Society, Cambridge, UK",
+        "when":     "Jan 2024",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['outreach']['data'].append({
+        "title":    "Gravity with some data science in the blender",
+        "where":    "Datrix Tech Dissemination, Milan, Italy, (online)",
         "when":     "Oct 2023",
         "invited":  True,
         "more":     ""
