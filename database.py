@@ -243,7 +243,7 @@ if published:
         "title":    "Gravitational-wave population inference at past time infinity",
         "author":   "M. Mould, D. Gerosa",
         "journal":  "\prd 105 (2022) 024076",
-        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.083008",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.024076",
         "arxiv":    "arXiv:2110.05507 [astro-ph.HE]",
         "ads":      "2022PhRvD.105b4076M",
         "inspire":  "Mould:2021xst",
