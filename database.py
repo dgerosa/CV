@@ -419,7 +419,7 @@ if published:
         "title":    "Astrophysical implications of GW190412 as a remnant of a previous black-hole merger",
         "author":   "D. Gerosa, S. Vitale, E. Berti",
         "journal":  "\prl 125 (2020) 101103",
-        "link":     "",
+        "link":     "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.101103",
         "arxiv":    "arXiv:2005.04243 [astro-ph.HE]",
         "ads":      "2020PhRvL.125j1103G",
         "inspire":  "Gerosa:2020bjb",
@@ -1639,7 +1639,6 @@ if conferences:
         "more":     ""
         })
 
-
 if seminars:
     talks['seminars'] = {}
     talks['seminars']['label'] = 'Talks at department seminars'
@@ -2073,7 +2072,7 @@ if outreach:
     talks['outreach']['data'].append({
         "title":    "Gravity with some data science in the blender",
         "where":    "Cambridge University Astronomical Society, Cambridge, UK",
-        "when":     "Jan 2024",
+        "when":     "Feb 2024",
         "invited":  True,
         "more":     ""
         })
