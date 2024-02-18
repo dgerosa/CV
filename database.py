@@ -2081,7 +2081,7 @@ if outreach:
     talks['outreach']['data'] = []
 
     talks['outreach']['data'].append({
-        "title":    "Gravity with some data science in the blender",
+        "title":    "Black holes on the way to merger",
         "where":    "Cambridge University Astronomical Society, Cambridge, UK",
         "when":     "Feb 2024",
         "invited":  True,
