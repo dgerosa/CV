@@ -34,17 +34,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs",
-        "author":   "M. Mould, C. J. Moore, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2311.12117 [gr-qc]",
-        "ads":      "2023arXiv231112117M",
-        "inspire":  "Mould:2023eca",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "The cosmic variance of testing general relativity with gravitational-wave catalogs",
         "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
         "journal":  "",
@@ -72,6 +61,17 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
 
+    papers['submitted']['data'].append({
+        "title":    "Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs",
+        "author":   "M. Mould, C. J. Moore, D. Gerosa",
+        "journal":  "\prd in press",
+        "link":     "",
+        "arxiv":    "arXiv:2311.12117 [gr-qc]",
+        "ads":      "2023arXiv231112117M",
+        "inspire":  "Mould:2023eca",
+        "more":     ""
+        })
+    
     papers['published']['data'].append({
         "title":    "Spin-eccentricity interplay in merging binary black holes",
         "author":   "G. Fumagalli, D. Gerosa",
