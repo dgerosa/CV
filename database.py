@@ -23,12 +23,34 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "pAGN: the one-stop solution for AGN disc modeling",
+        "author":   "D. Gangardt, A. A. Trani, C. Bonnerot, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2403.00060 [astro-ph.HE]",
+        "ads":      "",
+        "inspire":  "Gangardt:2024bic",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
+        "title":    "Probing AGN jet precession with LISA",
+        "author":   "N. Steinle, D. Gerosa, M. G. H. Krause",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2403.00066 [astro-ph.HE]",
+        "ads":      "",
+        "inspire":  "Steinle:2024kea",
+        "more":     ""
+        })
+    
+    papers['submitted']['data'].append({
         "title":    "Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186",
         "author":   "M. Boschini, D. Gerosa, O. S. Salafia, M. Dotti",
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2402.08740 [astro-ph.GA]",
-        "ads":      "",
+        "ads":      "2024arXiv240208740B",
         "inspire":  "Boschini:2024tls",
         "more":     ""
         })
