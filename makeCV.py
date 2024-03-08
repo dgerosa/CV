@@ -259,8 +259,6 @@ def metricspapers(papers,filename="metricspapers.tex"):
     out.append("\\textbf{"+str(np.sum(press_release))+"} papers covered by press releases).")
     out.append("\end{tabular} }")
 
-    print([k for k in papers])
-
     # including long-authorlist
     ads_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in papers])
     inspire_citations = np.concatenate([[p['inspire_citations'] for p in papers[k]['data']] for k in papers])
