@@ -28,7 +28,7 @@ if submitted:
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2403.00060 [astro-ph.HE]",
-        "ads":      "",
+        "ads":      "2024arXiv240300060G",
         "inspire":  "Gangardt:2024bic",
         "more":     ""
         })
@@ -39,7 +39,7 @@ if submitted:
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2403.00066 [astro-ph.HE]",
-        "ads":      "",
+        "ads":      "2024arXiv240300066S",
         "inspire":  "Steinle:2024kea",
         "more":     ""
         })
@@ -86,8 +86,8 @@ if published:
     papers['submitted']['data'].append({
         "title":    "Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs",
         "author":   "M. Mould, C. J. Moore, D. Gerosa",
-        "journal":  "\prd in press",
-        "link":     "",
+        "journal":  "\prd 109 (2023) 063013",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.063013",
         "arxiv":    "arXiv:2311.12117 [gr-qc]",
         "ads":      "2023arXiv231112117M",
         "inspire":  "Mould:2023eca",
