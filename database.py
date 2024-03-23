@@ -89,7 +89,7 @@ if published:
         "journal":  "\prd 109 (2023) 063013",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.063013",
         "arxiv":    "arXiv:2311.12117 [gr-qc]",
-        "ads":      "2023arXiv231112117M",
+        "ads":      "2024PhRvD.109f3013M",
         "inspire":  "Mould:2023eca",
         "more":     ""
         })
