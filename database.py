@@ -86,7 +86,7 @@ if published:
     papers['submitted']['data'].append({
         "title":    "Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs",
         "author":   "M. Mould, C. J. Moore, D. Gerosa",
-        "journal":  "\prd 109 (2023) 063013",
+        "journal":  "\prd 109 (2024) 063013",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.063013",
         "arxiv":    "arXiv:2311.12117 [gr-qc]",
         "ads":      "2024PhRvD.109f3013M",
