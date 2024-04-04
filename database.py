@@ -45,17 +45,6 @@ if submitted:
         })
     
     papers['submitted']['data'].append({
-        "title":    "Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186",
-        "author":   "M. Boschini, D. Gerosa, O. S. Salafia, M. Dotti",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2402.08740 [astro-ph.GA]",
-        "ads":      "2024arXiv240208740B",
-        "inspire":  "Boschini:2024tls",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "The cosmic variance of testing general relativity with gravitational-wave catalogs",
         "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
         "journal":  "",
@@ -82,6 +71,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['submitted']['data'].append({
+        "title":    "Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186",
+        "author":   "M. Boschini, D. Gerosa, O. S. Salafia, M. Dotti",
+        "journal":  "\\aap, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2402.08740 [astro-ph.GA]",
+        "ads":      "2024arXiv240208740B",
+        "inspire":  "Boschini:2024tls",
+        "more":     ""
+        })
 
     papers['submitted']['data'].append({
         "title":    "Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs",
