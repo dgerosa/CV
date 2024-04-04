@@ -1127,6 +1127,14 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Quasar 3C186 as a recoiling massive black hole: still possible but unlikely",
+        "where":    "April APS Meeting, Sacramento CA, USA",
+        "when":     "Apr 2024",
+        "invited":  False,
+        "more":     ""
+        })
+    
+    talks['conferences']['data'].append({
         "title":    "Black-hole generations in AGN disks",
         "where":    "TEONGRAV meeting, Naples, Italy",
         "when":     "Dec 2023",
