@@ -45,17 +45,6 @@ if submitted:
         })
     
     papers['submitted']['data'].append({
-        "title":    "The cosmic variance of testing general relativity with gravitational-wave catalogs",
-        "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2310.03811 [gr-qc]",
-        "ads":      "2023arXiv231003811P",
-        "inspire":  "Pacilio:2023uef",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
         "author":   "A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, D. Gerosa, S. McGee, M. Nicholl, A. Vecchio",
         "journal":  "",
@@ -71,8 +60,19 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
-
-    papers['submitted']['data'].append({
+    
+    papers['published']['data'].append({
+        "title":    "The catalog variance of testing general relativity with gravitational-wave data",
+        "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
+        "journal":  "\\prd, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2310.03811 [gr-qc]",
+        "ads":      "2023arXiv231003811P",
+        "inspire":  "Pacilio:2023uef",
+        "more":     ""
+        })
+    
+    papers['published']['data'].append({
         "title":    "Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186",
         "author":   "M. Boschini, D. Gerosa, O. S. Salafia, M. Dotti",
         "journal":  "\\aap, in press",
@@ -83,7 +83,7 @@ if published:
         "more":     ""
         })
 
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
         "title":    "Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs",
         "author":   "M. Mould, C. J. Moore, D. Gerosa",
         "journal":  "\prd 109 (2024) 063013",
