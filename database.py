@@ -2111,6 +2111,14 @@ if outreach:
     talks['outreach']['data'] = []
 
     talks['outreach']['data'].append({
+        "title":    "Al confine fra astronomia e relativit\`a",
+        "where":    "Finals of the Italian Physics Olympiad, Senigallia, Italy",
+        "when":     "Apr 2024",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['outreach']['data'].append({
         "title":    "Black holes on the way to merger",
         "where":    "Cambridge University Astronomical Society, Cambridge, UK",
         "when":     "Feb 2024",
