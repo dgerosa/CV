@@ -1127,6 +1127,14 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Gravitational-wave selection effects, the easy way",
+        "where":    "Linking Advances in our Understanding of Theoretical Astrophysics and Relativity to Observations (LAUTARO), Milan, Italy",
+        "when":     "Apr 2024",
+        "invited":  False,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "Quasar 3C186 as a recoiling massive black hole: still possible but unlikely",
         "where":    "April APS Meeting, Sacramento CA, USA",
         "when":     "Apr 2024",
