@@ -62,7 +62,7 @@ if published:
     papers['published']['data'] = []
     
     papers['published']['data'].append({
-        "title":    "The catalog variance of testing general relativity with gravitational-wave data",
+        "title":    "Catalog variance of testing general relativity with gravitational-wave data",
         "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
         "journal":  "\\prd, in press",
         "link":     "",
