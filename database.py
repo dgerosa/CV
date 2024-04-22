@@ -34,17 +34,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "pAGN: the one-stop solution for AGN disc modeling",
-        "author":   "D. Gangardt, A. A. Trani, C. Bonnerot, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2403.00060 [astro-ph.HE]",
-        "ads":      "2024arXiv240300060G",
-        "inspire":  "Gangardt:2024bic",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Probing AGN jet precession with LISA",
         "author":   "N. Steinle, D. Gerosa, M. G. H. Krause",
         "journal":  "",
@@ -72,6 +61,17 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
     
+    papers['published']['data'].append({
+        "title":    "pAGN: the one-stop solution for AGN disc modeling",
+        "author":   "D. Gangardt, A. A. Trani, C. Bonnerot, D. Gerosa",
+        "journal":  "\\mnras, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2403.00060 [astro-ph.HE]",
+        "ads":      "2024arXiv240300060G",
+        "inspire":  "Gangardt:2024bic",
+        "more":     ""
+        })
+
     papers['published']['data'].append({
         "title":    "Catalog variance of testing general relativity with gravitational-wave data",
         "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
