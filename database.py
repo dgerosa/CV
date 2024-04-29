@@ -60,7 +60,18 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
-    
+
+    papers['published']['data'].append({
+        "title":    "Quick recipes for gravitational-wave selection effects",
+        "author":   "D. Gerosa, M. Bellotti",
+        "journal":  "\\cqg, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2404.16930 [astro-ph.HE]",
+        "ads":      "",
+        "inspire":  "Gerosa:2024isl",
+        "more":     ""
+        })
+
     papers['published']['data'].append({
         "title":    "pAGN: the one-stop solution for AGN disc modeling",
         "author":   "D. Gangardt, A. A. Trani, C. Bonnerot, D. Gerosa",
