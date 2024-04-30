@@ -64,7 +64,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Quick recipes for gravitational-wave selection effects",
         "author":   "D. Gerosa, M. Bellotti",
-        "journal":  "\\cqg, in press",
+        "journal":  "\cqg, in press",
         "link":     "",
         "arxiv":    "arXiv:2404.16930 [astro-ph.HE]",
         "ads":      "",
@@ -75,22 +75,11 @@ if published:
     papers['published']['data'].append({
         "title":    "pAGN: the one-stop solution for AGN disc modeling",
         "author":   "D. Gangardt, A. A. Trani, C. Bonnerot, D. Gerosa",
-        "journal":  "\\mnras, in press",
+        "journal":  "\mnras, in press",
         "link":     "",
         "arxiv":    "arXiv:2403.00060 [astro-ph.HE]",
         "ads":      "2024arXiv240300060G",
         "inspire":  "Gangardt:2024bic",
-        "more":     ""
-        })
-
-    papers['published']['data'].append({
-        "title":    "Catalog variance of testing general relativity with gravitational-wave data",
-        "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
-        "journal":  "\\prd, in press",
-        "link":     "",
-        "arxiv":    "arXiv:2310.03811 [gr-qc]",
-        "ads":      "2023arXiv231003811P",
-        "inspire":  "Pacilio:2023uef",
         "more":     ""
         })
     
@@ -102,6 +91,17 @@ if published:
         "arxiv":    "arXiv:2402.08740 [astro-ph.GA]",
         "ads":      "2024arXiv240208740B",
         "inspire":  "Boschini:2024tls",
+        "more":     ""
+        })
+    
+    papers['published']['data'].append({
+        "title":    "Catalog variance of testing general relativity with gravitational-wave data",
+        "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
+        "journal":  "\prdl 109 (2023) L081302",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.L081302",
+        "arxiv":    "arXiv:2310.03811 [gr-qc]",
+        "ads":      "2023arXiv231003811P",
+        "inspire":  "Pacilio:2023uef",
         "more":     ""
         })
 
