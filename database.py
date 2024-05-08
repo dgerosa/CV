@@ -78,7 +78,7 @@ if published:
         "journal":  "\mnras, in press",
         "link":     "",
         "arxiv":    "arXiv:2403.00060 [astro-ph.HE]",
-        "ads":      "2024arXiv240300060G",
+        "ads":      "2024MNRAS.tmp.1139G",
         "inspire":  "Gangardt:2024bic",
         "more":     ""
         })
