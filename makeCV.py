@@ -282,7 +282,7 @@ def metricspapers(papers,filename="metricspapers.tex"):
     out.append("\\textcolor{mark_color}{\\textbf{h-index}}: "+str(hind_excluding)+" ["+str(hind_including)+"].")
     out.append("\\\\")
     out.append("\\textcolor{mark_color}{\\textbf{Web links to list services}}:")
-    out.append("\href{https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(doctype%3A%22misc%22%20OR%20doctype%3A%22inproceedings%22%20OR%20doctype%3A%22article%22%20OR%20doctype%3A%22eprint%22)&q=%20author%3A%22Gerosa%2C%20Davide%22&sort=citation_count%20desc%2C%20bibcode%20desc&p_=0}{\\textsc{ADS}};")
+    out.append("\href{https://ui.adsabs.harvard.edu/search/filter_bibstem_facet_fq_bibstem_facet=NOT&filter_bibstem_facet_fq_bibstem_facet=(*%3A*%20NOT%20bibstem_facet%3A%22cosp%22)&filter_bibstem_facet_fq_bibstem_facet=bibstem_facet%3A%22tsra.conf%22&fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq=%7B!type%3Daqp%20v%3D%24fq_bibstem_facet%7D&fq_bibstem_facet=((*%3A*%20NOT%20bibstem_facet%3A%22cosp%22)%20NOT%20bibstem_facet%3A%22tsra.conf%22)&fq_doctype=(doctype%3A%22misc%22%20OR%20doctype%3A%22inproceedings%22%20OR%20doctype%3A%22article%22%20OR%20doctype%3A%22eprint%22)&p_=0&q=%20author%3A%22Gerosa%2C%20Davide%22&sort=citation_count%20desc%2C%20bibcode%20desc}{\\textsc{ADS}};")
     out.append("\href{http://inspirehep.net/search?ln=en&ln=en&p=exactauthor%3AD.Gerosa.1&of=hb&action_search=Search&sf=&so=d&rm=citation&rg=25&sc=0}{\\textsc{InSpire}};")
     out.append("\href{http://arxiv.org/a/gerosa_d_1.html}{\\textsc{arXiv}};")
     out.append("\href{https://orcid.org/0000-0002-0933-3579}{\\textsc{ORCID}}.")
