@@ -67,7 +67,7 @@ if published:
         "journal":  "\cqg, in press",
         "link":     "",
         "arxiv":    "arXiv:2404.16930 [astro-ph.HE]",
-        "ads":      "",
+        "ads":      "2024arXiv240416930G",
         "inspire":  "Gerosa:2024isl",
         "more":     ""
         })
@@ -97,7 +97,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Catalog variance of testing general relativity with gravitational-wave data",
         "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
-        "journal":  "\prdl 109 (2023) L081302",
+        "journal":  "\prdl 109 (2024) L081302",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.L081302",
         "arxiv":    "arXiv:2310.03811 [gr-qc]",
         "ads":      "2024PhRvD.109h1302P",
