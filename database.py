@@ -73,17 +73,6 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "pAGN: the one-stop solution for AGN disc modeling",
-        "author":   "D. Gangardt, A. A. Trani, C. Bonnerot, D. Gerosa",
-        "journal":  "\mnras, in press",
-        "link":     "",
-        "arxiv":    "arXiv:2403.00060 [astro-ph.HE]",
-        "ads":      "2024MNRAS.tmp.1139G",
-        "inspire":  "Gangardt:2024bic",
-        "more":     ""
-        })
-    
-    papers['published']['data'].append({
         "title":    "Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186",
         "author":   "M. Boschini, D. Gerosa, O. S. Salafia, M. Dotti",
         "journal":  "\\aap, in press",
@@ -95,12 +84,23 @@ if published:
         })
     
     papers['published']['data'].append({
+        "title":    "pAGN: the one-stop solution for AGN disc modeling",
+        "author":   "D. Gangardt, A. A. Trani, C. Bonnerot, D. Gerosa",
+        "journal":  "\mnras 530 (2024) 3986–3997",
+        "link":     "https://doi.org/10.1093/mnras/stae1117",
+        "arxiv":    "arXiv:2403.00060 [astro-ph.HE]",
+        "ads":      "2024MNRAS.530.3689G",
+        "inspire":  "Gangardt:2024bic",
+        "more":     ""
+        })
+    
+    papers['published']['data'].append({
         "title":    "Catalog variance of testing general relativity with gravitational-wave data",
         "author":   "C. Pacilio, D. Gerosa, S. Bhagwat",
         "journal":  "\prdl 109 (2023) L081302",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.L081302",
         "arxiv":    "arXiv:2310.03811 [gr-qc]",
-        "ads":      "2023arXiv231003811P",
+        "ads":      "2024PhRvD.109h1302P",
         "inspire":  "Pacilio:2023uef",
         "more":     ""
         })
