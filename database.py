@@ -62,17 +62,6 @@ if published:
     papers['published']['data'] = []
 
     papers['published']['data'].append({
-        "title":    "Quick recipes for gravitational-wave selection effects",
-        "author":   "D. Gerosa, M. Bellotti",
-        "journal":  "\cqg, in press",
-        "link":     "",
-        "arxiv":    "arXiv:2404.16930 [astro-ph.HE]",
-        "ads":      "2024arXiv240416930G",
-        "inspire":  "Gerosa:2024isl",
-        "more":     ""
-        })
-
-    papers['published']['data'].append({
         "title":    "Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186",
         "author":   "M. Boschini, D. Gerosa, O. S. Salafia, M. Dotti",
         "journal":  "\\aap, in press",
@@ -80,6 +69,17 @@ if published:
         "arxiv":    "arXiv:2402.08740 [astro-ph.GA]",
         "ads":      "2024arXiv240208740B",
         "inspire":  "Boschini:2024tls",
+        "more":     ""
+        })
+    
+    papers['published']['data'].append({
+        "title":    "Quick recipes for gravitational-wave selection effects",
+        "author":   "D. Gerosa, M. Bellotti",
+        "journal":  "\cqg 41 (2024) 125002",
+        "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ad4509",
+        "arxiv":    "arXiv:2404.16930 [astro-ph.HE]",
+        "ads":      "2024arXiv240416930G",
+        "inspire":  "Gerosa:2024isl",
         "more":     ""
         })
     
