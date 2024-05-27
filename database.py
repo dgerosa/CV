@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes",
+        "author":   "G. Fumagalli, I. Romero-Shaw, D. Gerosa, V. De Renzis, K. Kritos, A. Olejak",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2405.14945 [astro-ph.HE]",
+        "ads":      "",
+        "inspire":  "Fumagalli:2024gko",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach",
         "author":   "F. Santoliquido, U. Dupletsa, J. Tissino, M. Branchesi, F. Iacovelli, G. Iorio, M. Mapelli, D. Gerosa, J. Harms, M. Pasquato",
         "journal":  "",
@@ -78,7 +89,7 @@ if published:
         "journal":  "\cqg 41 (2024) 125002",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ad4509",
         "arxiv":    "arXiv:2404.16930 [astro-ph.HE]",
-        "ads":      "2024arXiv240416930G",
+        "ads":      "2024CQGra..41l5002G",
         "inspire":  "Gerosa:2024isl",
         "more":     ""
         })
