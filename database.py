@@ -2160,6 +2160,14 @@ if outreach:
     talks['outreach']['data'] = []
 
     talks['outreach']['data'].append({
+        "title":    "Buchi neri ed onde gravitazionali (aka: ``Cosa racconto alla vostra prof. dopo una giornata di lavoro'')",
+        "where":    "Collegio San Carlo, Milan, Italy",
+        "when":     "Jun 2024",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['outreach']['data'].append({
         "title":    "Al confine fra astronomia e relativit\`a",
         "where":    "Finals of the Italian Physics Olympiad, Senigallia, Italy",
         "when":     "Apr 2024",
