@@ -75,8 +75,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186",
         "author":   "M. Boschini, D. Gerosa, O. S. Salafia, M. Dotti",
-        "journal":  "\\aap, in press",
-        "link":     "",
+        "journal":  "\\aap 686 (2024) A245",
+        "link":     "https://doi.org/10.1051/0004-6361/202449596",
         "arxiv":    "arXiv:2402.08740 [astro-ph.GA]",
         "ads":      "2024arXiv240208740B",
         "inspire":  "Boschini:2024tls",
