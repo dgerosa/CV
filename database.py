@@ -2069,6 +2069,14 @@ if lectures:
     talks['lectures']['data'] = []
 
     talks['lectures']['data'].append({
+        "title":    "My thoughts on the academic job market",
+        "where":    "IPTA Student Week 2024, Milan, Italy",
+        "when":     "Jun 2024",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['lectures']['data'].append({
         "title":    "Stellar-mass black-hole binary formation channels",
         "where":    "Kavli-Villum Summer School on Gravitational Wave, Corfu, Greece",
         "when":     "Sep 2023",
