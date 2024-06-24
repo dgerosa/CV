@@ -1159,6 +1159,14 @@ if conferences:
     talks['conferences']['label'] = 'Talks at conferences'
     talks['conferences']['data'] = []
 
+    talks['conferences']['data'].append({    
+        "title":    "One population fit to rule them all",
+        "where":    "Emerging methods in gravitational-wave population inference, Trieste, Italy",
+        "when":     "Jun 2024",
+        "invited":  True,
+        "more":     ""
+        })
+
     talks['conferences']['data'].append({
         "title":    "Gravitational-wave selection effects, the easy way",
         "where":    "Linking Advances in our Understanding of Theoretical Astrophysics and Relativity to Observations (LAUTARO), Milan, Italy",
