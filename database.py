@@ -78,7 +78,7 @@ if published:
         "journal":  "\\aap 686 (2024) A245",
         "link":     "https://doi.org/10.1051/0004-6361/202449596",
         "arxiv":    "arXiv:2402.08740 [astro-ph.GA]",
-        "ads":      "2024arXiv240208740B",
+        "ads":      "2024A&A...686A.245B",
         "inspire":  "Boschini:2024tls",
         "more":     ""
         })
