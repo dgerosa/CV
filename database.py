@@ -1735,6 +1735,14 @@ if seminars:
     talks['seminars']['data'] = []
 
     talks['seminars']['data'].append({
+        "title":    "The case of quasar 3C 186 as kicked black hole",
+        "where":    "Astronomy seminars, Cardiff University, Cardiff, UK",
+        "when":     "Jul 2024",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['seminars']['data'].append({
         "title":    "Black-hole binaries, formation channels, and repeated mergers",
         "where":    "Gravitational-wave seminars, Università di Pisa, Pisa, Italy",
         "when":     "May 2024",
@@ -1801,7 +1809,7 @@ if seminars:
     talks['seminars']['data'].append({
         "title":    "Keep the black holes merging: cluster escape speed and the curious case of GW190412",
         "where":    "Astronomy seminars, Cardiff University, Cardiff, UK (online)",
-        "when":     "May 2020",
+        "when":     "Jul 2020",
         "invited":  True,
         "more":     ""
         })
