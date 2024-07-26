@@ -1158,6 +1158,14 @@ if conferences:
     talks['conferences'] = {}
     talks['conferences']['label'] = 'Talks at conferences'
     talks['conferences']['data'] = []
+    
+    talks['conferences']['data'].append({  
+        "title":    "Merge many times",
+        "where":    "Spanish and Portuguese Relativity Meeting (EREP 2024), Coimbra, Portugal",
+        "when":     "Jul 2024",
+        "invited":  True,
+        "more":     ""
+        })
 
     talks['conferences']['data'].append({    
         "title":    "One population fit to rule them all",
