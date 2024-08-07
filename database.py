@@ -23,28 +23,6 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
-        "title":    "Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes",
-        "author":   "G. Fumagalli, I. Romero-Shaw, D. Gerosa, V. De Renzis, K. Kritos, A. Olejak",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2405.14945 [astro-ph.HE]",
-        "ads":      "",
-        "inspire":  "Fumagalli:2024gko",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
-        "title":    "Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach",
-        "author":   "F. Santoliquido, U. Dupletsa, J. Tissino, M. Branchesi, F. Iacovelli, G. Iorio, M. Mapelli, D. Gerosa, J. Harms, M. Pasquato",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2404.10048 [astro-ph.HE]",
-        "ads":      "2024arXiv240410048S",
-        "inspire":  "Santoliquido:2024oqs",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Probing AGN jet precession with LISA",
         "author":   "N. Steinle, D. Gerosa, M. G. H. Krause",
         "journal":  "",
@@ -71,6 +49,28 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach",
+        "author":   "F. Santoliquido, U. Dupletsa, J. Tissino, M. Branchesi, F. Iacovelli, G. Iorio, M. Mapelli, D. Gerosa, J. Harms, M. Pasquato",
+        "journal":  "\\aap, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2404.10048 [astro-ph.HE]",
+        "ads":      "2024arXiv240410048S",
+        "inspire":  "Santoliquido:2024oqs",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
+        "title":    "Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes",
+        "author":   "G. Fumagalli, I. Romero-Shaw, D. Gerosa, V. De Renzis, K. Kritos, A. Olejak",
+        "journal":  "\prd, in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2405.14945 [astro-ph.HE]",
+        "ads":      "",
+        "inspire":  "Fumagalli:2024gko",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186",
