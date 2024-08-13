@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "POSTMERGER: A flexible mapping of ringdown amplitudes for non-precessing binary black holes",
+        "author":   "C. Pacilio, S. Bhagwat, F. Nobili, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2408.05276 [gr-qc]",
+        "ads":      "",
+        "inspire":  "Pacilio:2024tdl",
+        "more":     ""
+        })
+    
+    papers['submitted']['data'].append({
         "title":    "Probing AGN jet precession with LISA",
         "author":   "N. Steinle, D. Gerosa, M. G. H. Krause",
         "journal":  "",
