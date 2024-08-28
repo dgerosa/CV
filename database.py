@@ -28,7 +28,7 @@ if submitted:
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2408.05276 [gr-qc]",
-        "ads":      "",
+        "ads":      "2024arXiv240805276P",
         "inspire":  "Pacilio:2024tdl",
         "more":     ""
         })
