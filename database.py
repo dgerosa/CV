@@ -23,7 +23,7 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
-        "title":    "Which is which? Identification of the two compact objects in gravitational-wave binaries.",
+        "title":    "Which is which? Identification of the two compact objects in gravitational-wave binaries",
         "author":   "D. Gerosa, V. De Renzis, F. Tettoni, M. Mould, A. Vecchio, C. Pacilio",
         "journal":  "",
         "link":     "",
