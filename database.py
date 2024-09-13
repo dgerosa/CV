@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Which is which? Identification of the two compact objects in gravitational-wave binaries.",
+        "author":   "D. Gerosa, V. De Renzis, F. Tettoni, M. Mould, A. Vecchio, C. Pacilio",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2409.07519 [gr-qc]",
+        "ads":      "",
+        "inspire":  "Gerosa:2024ojv",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "POSTMERGER: A flexible mapping of ringdown amplitudes for non-precessing binary black holes",
         "author":   "C. Pacilio, S. Bhagwat, F. Nobili, D. Gerosa",
         "journal":  "",
@@ -75,10 +86,10 @@ if published:
     papers['published']['data'].append({
         "title":    "Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes",
         "author":   "G. Fumagalli, I. Romero-Shaw, D. Gerosa, V. De Renzis, K. Kritos, A. Olejak",
-        "journal":  "\prd, in press.",
-        "link":     "",
+        "journal":  "\prd 110 (2024) 063012",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.063012",
         "arxiv":    "arXiv:2405.14945 [astro-ph.HE]",
-        "ads":      "",
+        "ads":      "2024arXiv240514945F",
         "inspire":  "Fumagalli:2024gko",
         "more":     ""
         })
