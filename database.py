@@ -28,7 +28,7 @@ if submitted:
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2409.07519 [gr-qc]",
-        "ads":      "",
+        "ads":      "2024arXiv240907519G",
         "inspire":  "Gerosa:2024ojv",
         "more":     ""
         })
@@ -89,7 +89,7 @@ if published:
         "journal":  "\prd 110 (2024) 063012",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.063012",
         "arxiv":    "arXiv:2405.14945 [astro-ph.HE]",
-        "ads":      "2024arXiv240514945F",
+        "ads":      "2024PhRvD.110f3012F",
         "inspire":  "Fumagalli:2024gko",
         "more":     ""
         })
