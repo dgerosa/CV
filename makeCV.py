@@ -542,7 +542,7 @@ def replacekeys():
             #if p['ads']== "2021ApJ...915...56G":
             #    p['ads'] = "2021arXiv210411247G"
 
-            if p['ads'] != p['ads_found']:
+            if p['ads'] != p['ads_found'] and p['ads_found'] not in ["","None"]:
 
                 print("\tReplace:", p['ads'],"-->", p['ads_found'])
 
