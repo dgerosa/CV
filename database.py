@@ -23,13 +23,35 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters",
+        "author":   "K. Kritos, L. Reali, D. Gerosa, E. Berti",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2409.15439 [astro-ph.HE]",
+        "ads":      "2024arXiv240915439K",
+        "inspire":  "Kritos:2024kpn",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA",
-        "author":   "A. Spadaro, R. Buscicchio, D. Izquierdo-Villalba, D. Gerosa, A. Klein, G. Pratten.",
+        "author":   "A. Spadaro, R. Buscicchio, D. Izquierdo-Villalba, D. Gerosa, A. Klein, G. Pratten",
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2409.13011 [astro-ph.HE]",
         "ads":      "2024arXiv240913011S",
         "inspire":  "Spadaro:2024tve",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
+        "title":    "Which is which? Identification of the two compact objects in gravitational-wave binaries",
+        "author":   "D. Gerosa, V. De Renzis, F. Tettoni, M. Mould, A. Vecchio, C. Pacilio.",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2409.07519 [astro-ph.HE]",
+        "ads":      "2024arXiv240907519G",
+        "inspire":  "Gerosa:2024ojv",
         "more":     ""
         })
 
