@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries.",
+        "author":   "R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, D. Gerosa, A. Carzaniga",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2410.08263 [astro-ph.HE]",
+        "ads":      "2024arXiv241008263B",
+        "inspire":  "Buscicchio:2024wwm",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters",
         "author":   "K. Kritos, L. Reali, D. Gerosa, E. Berti",
         "journal":  "",
