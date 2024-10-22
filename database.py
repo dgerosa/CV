@@ -109,7 +109,7 @@ if published:
         "title":    "Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach",
         "author":   "F. Santoliquido, U. Dupletsa, J. Tissino, M. Branchesi, F. Iacovelli, G. Iorio, M. Mapelli, D. Gerosa, J. Harms, M. Pasquato",
         "journal":  "\\aap 690 (2024) A362",
-        "link":     "",
+        "link":     "https://doi.org/10.1051/0004-6361/202450381",
         "arxiv":    "arXiv:2404.10048 [astro-ph.HE]",
         "ads":      "2024arXiv240410048S",
         "inspire":  "Santoliquido:2024oqs",
