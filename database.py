@@ -108,7 +108,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach",
         "author":   "F. Santoliquido, U. Dupletsa, J. Tissino, M. Branchesi, F. Iacovelli, G. Iorio, M. Mapelli, D. Gerosa, J. Harms, M. Pasquato",
-        "journal":  "\\aap, in press",
+        "journal":  "\\aap 690 (2024) A362",
         "link":     "",
         "arxiv":    "arXiv:2404.10048 [astro-ph.HE]",
         "ads":      "2024arXiv240410048S",
