@@ -78,17 +78,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "POSTMERGER: A flexible mapping of ringdown amplitudes for non-precessing binary black holes",
-        "author":   "C. Pacilio, S. Bhagwat, F. Nobili, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2408.05276 [gr-qc]",
-        "ads":      "2024arXiv240805276P",
-        "inspire":  "Pacilio:2024tdl",
-        "more":     ""
-        })
-    
-    papers['submitted']['data'].append({
         "title":    "Probing AGN jet precession with LISA",
         "author":   "N. Steinle, D. Gerosa, M. G. H. Krause",
         "journal":  "",
@@ -116,6 +105,17 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
 
+    papers['published']['data'].append({
+        "title":    "POSTMERGER: A flexible mapping of ringdown amplitudes for non-precessing binary black holes",
+        "author":   "C. Pacilio, S. Bhagwat, F. Nobili, D. Gerosa",
+        "journal":  "\prd in press",
+        "link":     "",
+        "arxiv":    "arXiv:2408.05276 [gr-qc]",
+        "ads":      "2024arXiv240805276P",
+        "inspire":  "Pacilio:2024tdl",
+        "more":     ""
+        })
+    
     papers['published']['data'].append({
         "title":    "Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach",
         "author":   "F. Santoliquido, U. Dupletsa, J. Tissino, M. Branchesi, F. Iacovelli, G. Iorio, M. Mapelli, D. Gerosa, J. Harms, M. Pasquato",
