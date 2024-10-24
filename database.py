@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Forecasting the population properties of merging black holes",
+        "author":   "V. De Renzis, F. Iacovelli, D. Gerosa, M. Mancarella, C. Pacilio.",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2410.17325 [astro-ph.HE]",
+        "ads":      "2024arXiv241017325D",
+        "inspire":  "DeRenzis:2024dvx",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries.",
         "author":   "R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, D. Gerosa, A. Carzaniga",
         "journal":  "",
