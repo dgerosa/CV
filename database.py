@@ -122,7 +122,7 @@ if published:
         "journal":  "\\aap 690 (2024) A362",
         "link":     "https://doi.org/10.1051/0004-6361/202450381",
         "arxiv":    "arXiv:2404.10048 [astro-ph.HE]",
-        "ads":      "2024arXiv240410048S",
+        "ads":      "2024A&A...690A.362S",
         "inspire":  "Santoliquido:2024oqs",
         "more":     ""
         })
