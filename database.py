@@ -2209,7 +2209,7 @@ if posters:
     talks['posters']['data'].append({
         "title":    "Exploitation of gravitational-wave data",
         "where":    "Milano-Bicocca Physics Department 25th anniversary, Milan, Italy",
-        "when":     "Apr 2016",
+        "when":     "Sep 2024",
         "invited":  False,
         "more":     ""
         })
