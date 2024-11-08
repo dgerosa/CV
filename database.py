@@ -2207,8 +2207,16 @@ if posters:
     talks['posters']['data'] = []
 
     talks['posters']['data'].append({
+        "title":    "Exploitation of gravitational-wave data",
+        "where":    "Milano-Bicocca Physics Department 25th anniversary, Milan, Italy",
+        "when":     "Apr 2016",
+        "invited":  False,
+        "more":     ""
+        })
+
+    talks['posters']['data'].append({
         "title":    "PRECESSION: efficient black-hole binary evolution with python",
-        "where":    "Mathematics and Big Data Showcase, Cambridge, UK",
+        "where":    "Mathematics and Big Data showcase, Cambridge, UK",
         "when":     "Apr 2016",
         "invited":  False,
         "more":     ""
