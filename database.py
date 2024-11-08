@@ -2210,7 +2210,7 @@ if posters:
         "title":    "Exploitation of gravitational-wave data",
         "where":    "Milano-Bicocca Physics Department 25th anniversary, Milan, Italy",
         "when":     "Sep 2024",
-        "invited":  False,
+        "invited":  True,
         "more":     ""
         })
 
