@@ -56,17 +56,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters",
-        "author":   "K. Kritos, L. Reali, D. Gerosa, E. Berti",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2409.15439 [astro-ph.HE]",
-        "ads":      "2024arXiv240915439K",
-        "inspire":  "Kritos:2024kpn",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA",
         "author":   "A. Spadaro, R. Buscicchio, D. Izquierdo-Villalba, D. Gerosa, A. Klein, G. Pratten",
         "journal":  "",
@@ -115,6 +104,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters",
+        "author":   "K. Kritos, L. Reali, D. Gerosa, E. Berti",
+        "journal":  "\prd in press",
+        "link":     "",
+        "arxiv":    "arXiv:2409.15439 [astro-ph.HE]",
+        "ads":      "2024arXiv240915439K",
+        "inspire":  "Kritos:2024kpn",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "POSTMERGER: A flexible mapping of ringdown amplitudes for non-precessing binary black holes",
