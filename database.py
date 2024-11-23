@@ -23,17 +23,6 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
-        "title":    "Orbital eccentricity in general relativity from catastrophe theory",
-        "author":   "M. Boschini, N. Loutrel, D. Gerosa, G. Fumagalli",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2411.00098 [gr-qc]",
-        "ads":      "2024arXiv241100098B",
-        "inspire":  "Boschini:2024scu",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Forecasting the population properties of merging black holes",
         "author":   "V. De Renzis, F. Iacovelli, D. Gerosa, M. Mancarella, C. Pacilio",
         "journal":  "",
@@ -104,6 +93,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Orbital eccentricity in general relativity from catastrophe theory",
+        "author":   "M. Boschini, N. Loutrel, D. Gerosa, G. Fumagalli",
+        "journal":  "\prd in press",
+        "link":     "",
+        "arxiv":    "arXiv:2411.00098 [gr-qc]",
+        "ads":      "2024arXiv241100098B",
+        "inspire":  "Boschini:2024scu",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters",
