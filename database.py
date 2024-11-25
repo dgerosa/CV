@@ -67,17 +67,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Probing AGN jet precession with LISA",
-        "author":   "N. Steinle, D. Gerosa, M. G. H. Krause",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2403.00066 [astro-ph.HE]",
-        "ads":      "2024arXiv240300066S",
-        "inspire":  "Steinle:2024kea",
-        "more":     ""
-        })
-    
-    papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
         "author":   "A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, D. Gerosa, S. McGee, M. Nicholl, A. Vecchio",
         "journal":  "",
@@ -94,6 +83,17 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
 
+    papers['published']['data'].append({
+        "title":    "Probing AGN jet precession with LISA",
+        "author":   "N. Steinle, D. Gerosa, M. G. H. Krause",
+        "journal":  "\prd in press",
+        "link":     "",
+        "arxiv":    "arXiv:2403.00066 [astro-ph.HE]",
+        "ads":      "2024arXiv240300066S",
+        "inspire":  "Steinle:2024kea",
+        "more":     ""
+        })
+    
     papers['published']['data'].append({
         "title":    "Orbital eccentricity in general relativity from catastrophe theory",
         "author":   "M. Boschini, N. Loutrel, D. Gerosa, G. Fumagalli",
@@ -117,7 +117,7 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "POSTMERGER: A flexible mapping of ringdown amplitudes for non-precessing binary black holes",
+        "title":    "A flexible mapping of ringdown amplitudes for non-precessing binary black holes",
         "author":   "C. Pacilio, S. Bhagwat, F. Nobili, D. Gerosa",
         "journal":  "\prd in press",
         "link":     "",
