@@ -117,10 +117,10 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "A flexible mapping of ringdown amplitudes for non-precessing binary black holes",
+        "title":    "Flexible mapping of ringdown amplitudes for nonprecessing binary black holes",
         "author":   "C. Pacilio, S. Bhagwat, F. Nobili, D. Gerosa",
-        "journal":  "\prd in press",
-        "link":     "",
+        "journal":  "\prd 110 (2024) 103037",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.103037",
         "arxiv":    "arXiv:2408.05276 [gr-qc]",
         "ads":      "2024arXiv240805276P",
         "inspire":  "Pacilio:2024tdl",
