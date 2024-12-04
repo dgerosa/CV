@@ -45,17 +45,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA",
-        "author":   "A. Spadaro, R. Buscicchio, D. Izquierdo-Villalba, D. Gerosa, A. Klein, G. Pratten",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2409.13011 [astro-ph.HE]",
-        "ads":      "2024arXiv240913011S",
-        "inspire":  "Spadaro:2024tve",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Which is which? Identification of the two compact objects in gravitational-wave binaries",
         "author":   "D. Gerosa, V. De Renzis, F. Tettoni, M. Mould, A. Vecchio, C. Pacilio.",
         "journal":  "",
@@ -82,6 +71,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+    
+    papers['published']['data'].append({
+        "title":    "Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA",
+        "author":   "A. Spadaro, R. Buscicchio, D. Izquierdo-Villalba, D. Gerosa, A. Klein, G. Pratten",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2409.13011 [astro-ph.HE]",
+        "ads":      "2024arXiv240913011S",
+        "inspire":  "Spadaro:2024tve",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Probing AGN jet precession with LISA",
@@ -122,7 +122,7 @@ if published:
         "journal":  "\prd 110 (2024) 103037",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.103037",
         "arxiv":    "arXiv:2408.05276 [gr-qc]",
-        "ads":      "2024arXiv240805276P",
+        "ads":      "2024PhRvD.110j3037P",
         "inspire":  "Pacilio:2024tdl",
         "more":     ""
         })
