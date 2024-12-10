@@ -108,8 +108,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters",
         "author":   "K. Kritos, L. Reali, D. Gerosa, E. Berti",
-        "journal":  "\prd in press",
-        "link":     "",
+        "journal":  "\prd 110 (2024) 123017",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.123017",
         "arxiv":    "arXiv:2409.15439 [astro-ph.HE]",
         "ads":      "2024arXiv240915439K",
         "inspire":  "Kritos:2024kpn",
