@@ -75,7 +75,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA",
         "author":   "A. Spadaro, R. Buscicchio, D. Izquierdo-Villalba, D. Gerosa, A. Klein, G. Pratten",
-        "journal":  "",
+        "journal":  "\prd in press",
         "link":     "",
         "arxiv":    "arXiv:2409.13011 [astro-ph.HE]",
         "ads":      "2024arXiv240913011S",
