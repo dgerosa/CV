@@ -1236,6 +1236,14 @@ if conferences:
     talks['conferences']['label'] = 'Talks at conferences'
     talks['conferences']['data'] = []
     
+    talks['conferences']['data'].append({
+        "title":    "36 186: the kick strikes back",
+        "where":    "6th Milan Christmas Workshop, Milan, Italy",
+        "when":     "Dec 2024",
+        "invited":  True,
+        "more":     ""
+        })
+
     talks['conferences']['data'].append({  
         "title":    "Merge many times",
         "where":    "Spanish and Portuguese Relativity Meeting (EREP 2024), Coimbra, Portugal",
