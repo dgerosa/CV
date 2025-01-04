@@ -100,7 +100,7 @@ if published:
         "journal":  "\prd 110 (2024) 123034",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.123034",
         "arxiv":    "arXiv:2403.00066 [astro-ph.HE]",
-        "ads":      "2024arXiv240300066S",
+        "ads":      "2024PhRvD.110l3034S",
         "inspire":  "Steinle:2024kea",
         "more":     ""
         })
