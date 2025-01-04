@@ -73,10 +73,21 @@ if published:
     papers['published']['data'] = []
     
     papers['published']['data'].append({
+        "title":    "Orbital eccentricity in general relativity from catastrophe theory",
+        "author":   "M. Boschini, N. Loutrel, D. Gerosa, G. Fumagalli",
+        "journal":  "\prd 111 (2025) 024008",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.024008",
+        "arxiv":    "arXiv:2411.00098 [gr-qc]",
+        "ads":      "2024arXiv241100098B",
+        "inspire":  "Boschini:2024scu",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
         "title":    "Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA",
         "author":   "A. Spadaro, R. Buscicchio, D. Izquierdo-Villalba, D. Gerosa, A. Klein, G. Pratten",
-        "journal":  "\prd in press",
-        "link":     "",
+        "journal":  "\prd 111 (2025) 023004 ",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.023004",
         "arxiv":    "arXiv:2409.13011 [astro-ph.HE]",
         "ads":      "2024arXiv240913011S",
         "inspire":  "Spadaro:2024tve",
@@ -86,22 +97,11 @@ if published:
     papers['published']['data'].append({
         "title":    "Probing AGN jet precession with LISA",
         "author":   "N. Steinle, D. Gerosa, M. G. H. Krause",
-        "journal":  "\prd in press",
-        "link":     "",
+        "journal":  "\prd 110 (2024) 123034",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.123034",
         "arxiv":    "arXiv:2403.00066 [astro-ph.HE]",
         "ads":      "2024arXiv240300066S",
         "inspire":  "Steinle:2024kea",
-        "more":     ""
-        })
-    
-    papers['published']['data'].append({
-        "title":    "Orbital eccentricity in general relativity from catastrophe theory",
-        "author":   "M. Boschini, N. Loutrel, D. Gerosa, G. Fumagalli",
-        "journal":  "\prd in press",
-        "link":     "",
-        "arxiv":    "arXiv:2411.00098 [gr-qc]",
-        "ads":      "2024arXiv241100098B",
-        "inspire":  "Boschini:2024scu",
         "more":     ""
         })
 
@@ -111,7 +111,7 @@ if published:
         "journal":  "\prd 110 (2024) 123017",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.123017",
         "arxiv":    "arXiv:2409.15439 [astro-ph.HE]",
-        "ads":      "2024arXiv240915439K",
+        "ads":      "2024PhRvD.110l3017K",
         "inspire":  "Kritos:2024kpn",
         "more":     ""
         })
