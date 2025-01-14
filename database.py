@@ -78,7 +78,7 @@ if published:
         "journal":  "\prd 111 (2025) 024008",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.024008",
         "arxiv":    "arXiv:2411.00098 [gr-qc]",
-        "ads":      "2024arXiv241100098B",
+        "ads":      "2025PhRvD.111b4008B",
         "inspire":  "Boschini:2024scu",
         "more":     ""
         })
@@ -89,7 +89,7 @@ if published:
         "journal":  "\prd 111 (2025) 023004 ",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.023004",
         "arxiv":    "arXiv:2409.13011 [astro-ph.HE]",
-        "ads":      "2024arXiv240913011S",
+        "ads":      "2025PhRvD.111b3004S",
         "inspire":  "Spadaro:2024tve",
         "more":     ""
         })
