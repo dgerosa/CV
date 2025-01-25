@@ -2188,7 +2188,7 @@ if lectures:
 
     talks['lectures']['data'].append({
         "title":    "Tips on academic job applications for early career scientists",
-        "where":    "Gravitational-wave early-career scientits (GWECS) online talks, (online)",
+        "where":    "Gravitational-wave early-career scientists (GWECS) online talks, (online)",
         "when":     "Nov 2024",
         "invited":  True,
         "more":     ""
