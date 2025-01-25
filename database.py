@@ -1078,7 +1078,7 @@ if published:
 
 if proceedings:
     papers['proceedings'] = {}
-    papers['proceedings']['label'] = 'White papers, long-authorlist reviews, conference proceedings, software papers, etc.'
+    papers['proceedings']['label'] = 'White papers, long-authorlist reviews, g proceedings, software papers, etc.'
     papers['proceedings']['data'] = []
 
     papers['proceedings']['data'].append({
@@ -1235,7 +1235,16 @@ if conferences:
     talks['conferences'] = {}
     talks['conferences']['label'] = 'Talks at conferences'
     talks['conferences']['data'] = []
-    
+
+    talks['conferences']['data'].append({
+        "title":    "It’s not at all trivial to say which is BH1 and which is BH2",
+        "where":    "Gravitational-wave snowballs, populations, and models, Sexten, Italy",
+        "when":     "Jan 2025",
+        "invited":  False,
+        "more":     ""
+        })
+
+
     talks['conferences']['data'].append({
         "title":    "36 186: the kick strikes back",
         "where":    "6th Milan Christmas Workshop, Milan, Italy",
@@ -2176,6 +2185,14 @@ if lectures:
     talks['lectures'] = {}
     talks['lectures']['label'] = 'Lectures at PhD schools'
     talks['lectures']['data'] = []
+
+    talks['lectures']['data'].append({
+        "title":    "Tips on academic job applications for early career scientists",
+        "where":    "Gravitational-wave early-career scientits (GWECS) online talks, (online)",
+        "when":     "Nov 2024",
+        "invited":  True,
+        "more":     ""
+        })
 
     talks['lectures']['data'].append({
         "title":    "My thoughts on the academic job market",
