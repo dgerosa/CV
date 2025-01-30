@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data.",
+        "author":   "C. M. Fabbri, D. Gerosa, A. Santini, M. Mould, A. Toubiana, J. Gair",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2501.17233 [astro-ph.HE]",
+        "ads":      "2025arXiv250117233F",
+        "inspire":  "Fabbri:2025faf",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries.",
         "author":   "R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, D. Gerosa, A. Carzaniga",
         "journal":  "",
