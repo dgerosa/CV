@@ -22,6 +22,27 @@ if submitted:
     papers['submitted']['label'] = 'Submitted papers'
     papers['submitted']['data'] = []
 
+    papers['submitted']['data'].append({
+        "title":    "Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy",
+        "author":   "M. Mancarella, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2502.12156 [gr-qc]",
+        "ads":      "2025arXiv250212156M",
+        "inspire":  "",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
+        "title":    "SFTs: a scalable data-analysis framework for long-duration gravitational-wave signals",
+        "author":   "R. Tenorio, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2502.11823 [gr-qc]",
+        "ads":      "2025arXiv250211823T",
+        "inspire":  "Tenorio:2025yca",
+        "more":     ""
+        })
 
     papers['submitted']['data'].append({
         "title":    "Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory",
