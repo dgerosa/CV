@@ -29,7 +29,7 @@ if submitted:
         "link":     "",
         "arxiv":    "arXiv:2502.12156 [gr-qc]",
         "ads":      "2025arXiv250212156M",
-        "inspire":  "",
+        "inspire":  "Mancarella:2025uat",
         "more":     ""
         })
 
