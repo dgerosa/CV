@@ -119,8 +119,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Forecasting the population properties of merging black holes",
         "author":   "V. De Renzis, F. Iacovelli, D. Gerosa, M. Mancarella, C. Pacilio",
-        "journal":  "\prd, in press.",
-        "link":     "",
+        "journal":  "\prd 111 (2025) 044048.",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.044048",
         "arxiv":    "arXiv:2410.17325 [astro-ph.HE]",
         "ads":      "2024arXiv241017325D",
         "inspire":  "DeRenzis:2024dvx",
