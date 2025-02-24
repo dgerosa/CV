@@ -89,17 +89,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Which is which? Identification of the two compact objects in gravitational-wave binaries",
-        "author":   "D. Gerosa, V. De Renzis, F. Tettoni, M. Mould, A. Vecchio, C. Pacilio.",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2409.07519 [astro-ph.HE]",
-        "ads":      "2024arXiv240907519G",
-        "inspire":  "Gerosa:2024ojv",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
         "author":   "A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, D. Gerosa, S. McGee, M. Nicholl, A. Vecchio",
         "journal":  "",
@@ -116,6 +105,18 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
     
+    papers['published']['data'].append({
+        "title":    "Which is which? Identification of the two compact objects in gravitational-wave binaries",
+        "author":   "D. Gerosa, V. De Renzis, F. Tettoni, M. Mould, A. Vecchio, C. Pacilio.",
+        "journal":  "\prl, in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2409.07519 [astro-ph.HE]",
+        "ads":      "2024arXiv240907519G",
+        "inspire":  "Gerosa:2024ojv",
+        "more":     ""
+        })
+
+
     papers['published']['data'].append({
         "title":    "Forecasting the population properties of merging black holes",
         "author":   "V. De Renzis, F. Iacovelli, D. Gerosa, M. Mancarella, C. Pacilio",
