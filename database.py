@@ -123,7 +123,7 @@ if published:
         "journal":  "\prd 111 (2025) 044048.",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.044048",
         "arxiv":    "arXiv:2410.17325 [astro-ph.HE]",
-        "ads":      "2024arXiv241017325D",
+        "ads":      "2025PhRvD.111d4048D",
         "inspire":  "DeRenzis:2024dvx",
         "more":     ""
         })
