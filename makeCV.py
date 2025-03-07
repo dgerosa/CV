@@ -176,8 +176,7 @@ def parsepapers(papers,filename="parsepapers.tex"):
                 if p['erratum']:
                     line+="{Erratum: "+p['erratum'].strip(".")+"}. "
             if p['arxiv']:
-                line+="\href{https://arxiv.org/abs/"+p['arxiv'].split(":")[1].split(" ")[0]+"}{"+p['arxiv'].strip(".")+".}"
-                print(line)
+                line+="\href{https://arxiv.org/abs/"+p['arxiv'].split(":")[1].split(" ")[0].split(" ")[0]+"}{"+p['arxiv'].strip(".")+".}"
             out.append(line)
             if p['more']:
                 out.append("\\newline{}")
@@ -601,7 +600,7 @@ def clean():
 if __name__ == "__main__":
 
     connected = True
-    testing = True
+    testing = False
     if connected:
         # Set testing=True to avoid API limit
         papers = ads_citations(papers,testing=testing)
