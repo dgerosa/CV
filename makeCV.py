@@ -1,7 +1,6 @@
 import gspread
 import numpy as np
 import json
-import skywalker
 #import ads
 from tqdm import tqdm
 import copy
