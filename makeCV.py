@@ -282,9 +282,9 @@ def metricspapers(papers,filename="metricspapers.tex"):
     out.append("\\\\")  
     out.append("\\textcolor{mark_color}{\\textbf{Web links to list services}}:")
     out.append("\href{https://davidegerosa.com/myads}{\\textsc{ADS}};")
-    out.append("\href{http://inspirehep.net/search?ln=en&ln=en&p=exactauthor%3AD.Gerosa.1&of=hb&action_search=Search&sf=&so=d&rm=citation&rg=25&sc=0}{\\textsc{InSpire}};")
-    out.append("\href{http://arxiv.org/a/gerosa_d_1.html}{\\textsc{arXiv}};")
-    out.append("\href{https://orcid.org/0000-0002-0933-3579}{\\textsc{ORCID}}.")
+    out.append("\href{https://davidegerosa.com/myinspire}{\\textsc{InSpire}};")
+    out.append("\href{http://davidegerosa.com/myarxiv}{\\textsc{arXiv}};")
+    out.append("\href{https://davidegerosa.com/myorcid}{\\textsc{ORCID}}.")
 
     with open(filename,"w") as f: f.write("\n".join(out))
 
