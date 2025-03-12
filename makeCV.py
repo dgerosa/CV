@@ -281,7 +281,7 @@ def metricspapers(papers,filename="metricspapers.tex"):
     out.append("\\textcolor{mark_color}{\\textbf{h-index}}: "+str(hind_excluding)+" ["+str(hind_including)+"].")
     out.append("\\\\")  
     out.append("\\textcolor{mark_color}{\\textbf{Web links to list services}}:")
-    out.append("\href{https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(*%3A*%20NOT%20doctype_facet_hier%3A%221%2FNon-Article%2FAbstract%22%20NOT%20doctype_facet_hier%3A%221%2FNon-Article%2FSoftware%22)&p_=0&q=%20author%3A%22Gerosa%2C%20Davide%22%20&sort=date%20desc%2C%20bibcode%20desc}{\\textsc{ADS}};")
+    out.append("\href{https://davidegerosa.com/myads}{\\textsc{ADS}};")
     out.append("\href{http://inspirehep.net/search?ln=en&ln=en&p=exactauthor%3AD.Gerosa.1&of=hb&action_search=Search&sf=&so=d&rm=citation&rg=25&sc=0}{\\textsc{InSpire}};")
     out.append("\href{http://arxiv.org/a/gerosa_d_1.html}{\\textsc{arXiv}};")
     out.append("\href{https://orcid.org/0000-0002-0933-3579}{\\textsc{ORCID}}.")
