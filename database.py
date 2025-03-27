@@ -1293,13 +1293,20 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
-        "title":    "It’s not at all trivial to say which is BH1 and which is BH2",
+        "title":    "Spin the black circle.",
+        "where":    "Stellar black hole formation and detection, Kyoto, Japan",
+        "when":     "Mar 2025",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
+        "title":    "It’s not at all trivial to say which is BH1 and which is BH2.",
         "where":    "Gravitational-wave snowballs, populations, and models, Sexten, Italy",
         "when":     "Jan 2025",
         "invited":  False,
         "more":     ""
         })
-
 
     talks['conferences']['data'].append({
         "title":    "36 186: the kick strikes back",
