@@ -108,14 +108,13 @@ if published:
     papers['published']['data'].append({
         "title":    "Which is which? Identification of the two compact objects in gravitational-wave binaries",
         "author":   "D. Gerosa, V. De Renzis, F. Tettoni, M. Mould, A. Vecchio, C. Pacilio.",
-        "journal":  "\prl, in press.",
-        "link":     "",
+        "journal":  "\prl 134 (2025) 121402",
+        "link":     "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.121402",
         "arxiv":    "arXiv:2409.07519 [astro-ph.HE]",
         "ads":      "2024arXiv240907519G",
         "inspire":  "Gerosa:2024ojv",
-        "more":     ""
+        "more":     "PRL Editors' Suggestion. Covered by press release"
         })
-
 
     papers['published']['data'].append({
         "title":    "Forecasting the population properties of merging black holes",
