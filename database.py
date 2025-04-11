@@ -23,17 +23,6 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
-        "title":    "Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy",
-        "author":   "M. Mancarella, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2502.12156 [gr-qc]",
-        "ads":      "2025arXiv250212156M",
-        "inspire":  "Mancarella:2025uat",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "SFTs: a scalable data-analysis framework for long-duration gravitational-wave signals",
         "author":   "R. Tenorio, D. Gerosa",
         "journal":  "",
@@ -105,6 +94,17 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
     
+    papers['published']['data'].append({
+        "title":    "Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy",
+        "author":   "M. Mancarella, D. Gerosa",
+        "journal":  "\prd in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2502.12156 [gr-qc]",
+        "ads":      "2025arXiv250212156M",
+        "inspire":  "Mancarella:2025uat",
+        "more":     ""
+        })
+
     papers['published']['data'].append({
         "title":    "Which is which? Identification of the two compact objects in gravitational-wave binaries",
         "author":   "D. Gerosa, V. De Renzis, F. Tettoni, M. Mould, A. Vecchio, C. Pacilio.",
