@@ -23,6 +23,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
+        "author":   "A. Pedrotti, M. Mancarella, J. Bel, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2504.10482 [astro-ph.CO]",
+        "ads":      "2025arXiv250410482P",
+        "inspire":  "Pedrotti:2025tfg",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "SFTs: a scalable data-analysis framework for long-duration gravitational-wave signals",
         "author":   "R. Tenorio, D. Gerosa",
         "journal":  "",
@@ -111,7 +122,7 @@ if published:
         "journal":  "\prl 134 (2025) 121402",
         "link":     "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.121402",
         "arxiv":    "arXiv:2409.07519 [astro-ph.HE]",
-        "ads":      "2024arXiv240907519G",
+        "ads":      "2025PhRvL.134l1402G",
         "inspire":  "Gerosa:2024ojv",
         "more":     "PRL Editors' Suggestion. Covered by press release"
         })
