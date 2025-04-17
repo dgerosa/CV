@@ -1165,7 +1165,7 @@ if proceedings:
         "journal":  "Proceedings of the 57th Rencontres de Moriond",
         "link":     "https://doi.org/10.58027/bsnq-2422",
         "arxiv":    "arXiv:2305.04987 [astro-ph.HE]",
-        "ads":      "2023arXiv230504987G",
+        "ads":      "2023grav.conf...49G",
         "inspire":  "",
         "more":     "Open source code"
         })
