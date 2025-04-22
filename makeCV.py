@@ -11,7 +11,7 @@ import requests
 import urllib.request
 import urllib.error
 import html
-from database import papers, talks
+from database import papers, talks, group
 from datetime import datetime
 import shutil
 from github_release import gh_release_create
@@ -318,6 +318,66 @@ def metricstalks(talks,filename="metricstalks.tex"):
     with open(filename,"w") as f: f.write("\n".join(out))
 
 
+def parsegroup(group,filename="parsegroup.tex"):
+
+    print('Parse group from database')
+
+    out=[]
+
+    out.append("\cvitem{}{\\begin{tabular}{l@{\hspace{10pt}}c@{\hspace{4pt}}l@{\hspace{4pt}}c@{\hspace{3pt}}l}")
+
+    for k in ['fellowships','postdocs','phd','msc','bsc']:
+        overall = len(group[k]['data'])
+        current = np.sum([x['current'] for x in group[k]['data']])
+        #if current>0:
+        #    currentlabel = "(of which \\textbf{"+str(current)+"} &currently in my group)"
+        #else:
+        #    currentlabel = "&"
+        if current>0:
+            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far (of which &\\textbf{"+str(current)+"}& currently in my group). \\\\")
+        if current==0:
+            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far. \\\\")
+    out.append("\end{tabular} }")
+    
+    out.append("\\vspace{0.2cm}")
+    out.append("")
+    out.append("Current group members marked with *.  More information at \href{http://www.davidegerosa.com/group}{\\texttt{www.davidegerosa.com/group}}")
+
+    def current(x):
+        if x['current']:
+            return "*"
+        else:
+            return ""
+    def name(x):
+        return "\\textit{"+x['name'].replace(" ","~")+"}"
+
+    for k in ['fellowships','postdocs','phd','msc','bsc']:
+        out.append("")
+        out.append("\\vspace{0.2cm}")
+        out.append("\\textbf{"+group[k]['labellong']+":}")
+        out.append("")
+
+        if k=="fellowships":
+            for x in group[k]['data']:
+                out.append("\\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ "+name(x)+" ("+x['where']+", "+x['fellowship']+")."+current(x)+"}{"+x['start']+"-"+x['end']+"}")    
+                out.append("\\vspace{-0.1cm}")
+                
+        elif k in ["postdocs","phd"]:
+            for x in group[k]['data']:
+                out.append("\\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ "+name(x)+" ("+x['where']+")."+current(x)+"}{"+x['start']+"-"+x['end']+"}")    
+                out.append("\\vspace{-0.1cm}")
+        elif k in ["msc","bsc"]:
+            for x in group[k]['data']:
+                line = "\\textit{"+name(x)+"} ("+x['where']+", "+x['what']+", "+str(x['year'])+")"+current(x)
+                if x==group[k]['data'][-1]:
+                    line+='.'
+                else:
+                    line+=' --- '
+                out.append(line)           
+
+    with open(filename,"w") as f: f.write("\n".join(out))
+
+
 def convertjournal(j):
     journalconversion={}
     journalconversion['\prd']=["Physical Review D", "PRD"]
@@ -599,7 +659,7 @@ def clean():
 if __name__ == "__main__":
 
     connected = True
-    testing = False
+    testing = True
     if connected:
         # Set testing=True to avoid API limit
         papers = ads_citations(papers,testing=testing)
@@ -608,6 +668,7 @@ if __name__ == "__main__":
         parsetalks(talks)
         metricspapers(papers)
         metricstalks(talks)
+        parsegroup(group)
         buildbib()
         citationspreadsheet(papers)
 
