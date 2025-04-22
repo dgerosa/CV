@@ -659,7 +659,7 @@ def clean():
 if __name__ == "__main__":
 
     connected = True
-    testing = True
+    testing = False
     if connected:
         # Set testing=True to avoid API limit
         papers = ads_citations(papers,testing=testing)
