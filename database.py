@@ -3117,7 +3117,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":    "R. Bosoni De Martini",
+        "name":    "M. Bellotti",
         "where":   "Milano-Bicocca",
         "what":    "BSc thesis",
         "year":  "2023",
@@ -3125,7 +3125,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":    "M. Bellotti",
+        "name":    "R. Bosoni De Martini",
         "where":   "Milano-Bicocca",
         "what":    "BSc thesis",
         "year":  "2023",
