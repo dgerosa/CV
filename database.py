@@ -31,6 +31,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Ringdown mode amplitudes of precessing binary black holes",
+        "author":   "F. Nobili, S. Bhagwat, C. Pacilio, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2504.17021 [gr-qc]",
+        "ads":      "2025arXiv250417021N",
+        "inspire":  "Nobili:2025ydt",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
         "author":   "A. Pedrotti, M. Mancarella, J. Bel, D. Gerosa",
         "journal":  "",
