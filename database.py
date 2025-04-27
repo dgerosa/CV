@@ -1,6 +1,5 @@
 import numpy as np
 import sys,os
-
 import json
 
 papers = {}
@@ -2533,30 +2532,30 @@ if fellowships:
     group['fellowships']['data'] = []
 
     group['fellowships']['data'].append({
-        "name":    "Zacharias~Roupas",
-        "where":   "Milano-Bicocca",
-        "fellowship": "ERC Marie Skłodowska-Curie Fellow",
-        "start":  "2024",
-        "end":    "current",
-        "current": True
+        "name":         "Zacharias~Roupas",
+        "where":        "Milano-Bicocca",
+        "fellowship":   "ERC Marie Skłodowska-Curie Fellow",
+        "start":        "2024",
+        "end":          "current",
+        "current":      True
         })    
     
     group['fellowships']['data'].append({
-        "name":    "Arianna~Renzini",
-        "where":   "Milano-Bicocca",
-        "fellowship": "ERC Marie Skłodowska-Curie Fellow",
-        "start":  "2023",
-        "end":    "current",
-        "current": True
+        "name":        "Arianna~Renzini",
+        "where":       "Milano-Bicocca",
+        "fellowship":  "ERC Marie Skłodowska-Curie Fellow",
+        "start":       "2023",
+        "end":          "current",
+        "current":      True
         })
     
     group['fellowships']['data'].append({
-        "name":    "Swetha~Baghwat",
-        "where":   "Birmingham",
-        "fellowship": "UKRI Stephen Hawking Fellow",
-        "start":  "2022",
-        "end":    "2025",
-        "current": False
+        "name":         "Swetha~Baghwat",
+        "where":        "Birmingham",
+        "fellowship":   "UKRI Stephen Hawking Fellow",
+        "start":        "2022",
+        "end":          "2025",
+        "current":      False
         })
     
 if postdocs:
@@ -2566,35 +2565,35 @@ if postdocs:
     group['postdocs']['data'] = []
 
     group['postdocs']['data'].append({
-        "name":    "Tristan Bruel",
-        "where":   "Milano-Bicocca",
-        "start":  "2024",
-        "end":    "current",
-        "current": True
+        "name":     "Tristan Bruel",
+        "where":    "Milano-Bicocca",
+        "start":    "2024",
+        "end":      "current",
+        "current":  True
         })
     
     group['postdocs']['data'].append({
-        "name":    "Alexandre Toubiana",
-        "where":   "Milano-Bicocca",
-        "start":  "2024",
-        "end":    "current",
-        "current": True
+        "name":     "Alexandre Toubiana",
+        "where":    "Milano-Bicocca",
+        "start":    "2024",
+        "end":      "current",
+        "current":  True
         }) 
     
     group['postdocs']['data'].append({
-        "name":    "Rodrigo Tenorio",
-        "where":   "Milano-Bicocca",
-        "start":  "2024",
-        "end":    "current",
-        "current": True
+        "name":     "Rodrigo Tenorio",
+        "where":    "Milano-Bicocca",
+        "start":    "2024",
+        "end":      "current",
+        "current":  True
         })
     
     group['postdocs']['data'].append({
-        "name":    "Caroline Owen",
-        "where":   "Milano-Bicocca",
-        "start":  "2024",
-        "end":    "current",
-        "current": True
+        "name":     "Caroline Owen",
+        "where":    "Milano-Bicocca",
+        "start":    "2024",
+        "end":      "current",
+        "current":  True
         })
     
     group['postdocs']['data'].append({
@@ -2638,19 +2637,19 @@ if postdocs:
         })
     
     group['postdocs']['data'].append({
-        "name":    "Nathan Steinle",
-        "where":   "Birmingham",
-        "start":  "2021",
-        "end":    "2023",
-        "current": False
+        "name":     "Nathan Steinle",
+        "where":    "Birmingham",
+        "start":    "2021",
+        "end":      "2023",
+        "current":  False
         })
     
     group['postdocs']['data'].append({
-        "name":    "Nicola Giacobbo",
-        "where":   "Birmingham",
-        "start":  "2020",
-        "end":    "2021",
-        "current": False
+        "name":     "Nicola Giacobbo",
+        "where":    "Birmingham",
+        "start":    "2020",
+        "end":      "2021",
+        "current":  False
         })
 
 if phd:
@@ -2660,67 +2659,67 @@ if phd:
     group['phd']['data'] = []
 
     group['phd']['data'].append({
-        "name":    "Chiara Anselmo",
-        "where":   "Milano-Bicocca",
-        "start":  "2024",
-        "end":    "current",
-        "current": True
+        "name":     "Chiara Anselmo",
+        "where":    "Milano-Bicocca",
+        "start":    "2024",
+        "end":      "current",
+        "current":  True
         })
     
     group['phd']['data'].append({
-        "name":    "Federico De Santi",
-        "where":   "Milano-Bicocca",
-        "start":  "2024",
-        "end":    "current",
-        "current": True
+        "name":     "Federico De Santi",
+        "where":    "Milano-Bicocca",
+        "start":    "2024",
+        "end":      "current",
+        "current":  True
         })
     
     group['phd']['data'].append({
-        "name":    "Matteo Boschini",
-        "where":   "Milano-Bicocca",
-        "start":  "2023",
-        "end":    "current",
-        "current": True
+        "name":     "Matteo Boschini",
+        "where":    "Milano-Bicocca",
+        "start":    "2023",
+        "end":      "current",
+        "current":  True
         })
     
     group['phd']['data'].append({
-        "name":    "Alice Spadaro",
-        "where":   "Milano-Bicocca",
-        "start":  "2022",
-        "end":    "current",
-        "current": True
+        "name":     "Alice Spadaro",
+        "where":    "Milano-Bicocca",
+        "start":    "2022",
+        "end":      "current",
+        "current":  True
         })
     
     group['phd']['data'].append({
-        "name":    "Giulia Fumagalli",
-        "where":   "Milano-Bicocca",
-        "start":  "2022",
-        "end":    "current",
-        "current": True
+        "name":     "Giulia Fumagalli",
+        "where":    "Milano-Bicocca",
+        "start":    "2022",
+        "end":      "current",
+        "current":  True
         })
     
     group['phd']['data'].append({
-        "name":    "Viola De Renzis",
-        "where":   "Milano-Bicocca",
-        "start":  "2021",
-        "end":    "2024",
-        "current": False
+        "name":     "Viola De Renzis",
+        "where":    "Milano-Bicocca",
+        "start":    "2021",
+        "end":      "2024",
+        "current":  False
         })
     
     group['phd']['data'].append({
-        "name":    "Daria Gangardt",
-        "where":   "Birmingham",
-        "start":  "2020",
-        "end":    "2024",
-        "current": False
+        "name":     "Daria Gangardt",
+        "where":    "Birmingham",
+        "start":    "2020",
+        "end":      "2024",
+        "current":  False
         })
     
     group['phd']['data'].append({
-        "name":    "Matthew Mould",
-        "where":   "Birmingham",
-        "start":  "2019",
-        "end":    "2023",
-        "current": False
+        "name":     "Matthew Mould",
+        "where":    "Birmingham",
+        "start":    "2019",
+        "end":      "2023",
+        "current":  False
         })
 
 if msc:
@@ -2730,235 +2729,235 @@ if msc:
     group['msc']['data'] = []
 
     group['msc']['data'].append({
-        "name":    "A. Corelli",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "A. Corelli",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['msc']['data'].append({
-        "name":    "F. Leto di Priolo",
-        "where":   "Milano-Bicocca and ESO Garching",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "F. Leto di Priolo",
+        "where":    "Milano-Bicocca and ESO Garching",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['msc']['data'].append({
-        "name":    "G. Monti",
-        "where":   "Milano-Bicocca and GSSI L'Aquila",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "G. Monti",
+        "where":    "Milano-Bicocca and GSSI L'Aquila",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['msc']['data'].append({
-        "name":    "O. Rossi",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "O. Rossi",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['msc']['data'].append({
-        "name":    "M. Gerini",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "M. Gerini",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['msc']['data'].append({
-        "name":    "G. Conti",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "G. Conti",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['msc']['data'].append({
-        "name":    "E. Sottocorno",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "E. Sottocorno",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['msc']['data'].append({
-        "name":    "S. Caslini",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "S. Caslini",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['msc']['data'].append({
-        "name":    "S. Restuccia",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "S. Restuccia",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['msc']['data'].append({
-        "name":    "L. Toti",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "L. Toti",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['msc']['data'].append({
-        "name":    "O. Pietrosanti",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": False
+        "name":     "O. Pietrosanti",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "N. Grillo",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": False
+        "name":     "N. Grillo",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "G. Giarda",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2025",
-        "current": False
+        "name":     "G. Giarda",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "F. Tettoni",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "F. Tettoni",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "C. Fabbri",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "C. Fabbri",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "A. Pedrotti",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "A. Pedrotti",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "F. Nobili",
-        "where":   "Milano-Bicocca and Birmingham",
-        "what":    "MSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "F. Nobili",
+        "where":    "Milano-Bicocca and Birmingham",
+        "what":     "MSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "A. Santini",
-        "where":   "Milano-Bicocca and Johns Hopkins",
-        "what":    "MSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "A. Santini",
+        "where":    "Milano-Bicocca and Johns Hopkins",
+        "what":     "MSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "S. Piscitelli",
-        "where":   "Milano-Bicocca and Milano-Statale",
-        "what":    "MSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "S. Piscitelli",
+        "where":    "Milano-Bicocca and Milano-Statale",
+        "what":     "MSc thesis",
+        "year":     "2023",
+        "current":  False
         })
 
     group['msc']['data'].append({
-        "name":    "M. Boschini",
-        "where":   "Milano-Bicocca and Max Planck AEI",
-        "what":    "MSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "M. Boschini",
+        "where":    "Milano-Bicocca and Max Planck AEI",
+        "what":     "MSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "G. Cavallotto",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2022",
-        "current": False
+        "name":     "G. Cavallotto",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2022",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "A. Spadaro",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2022",
-        "current": False
+        "name":     "A. Spadaro",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2022",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "A. Carzaniga",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2022",
-        "current": False
+        "name":     "A. Carzaniga",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2022",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "A. Geminardi",
-        "where":   "Milano-Bicocca",
-        "what":    "MSc thesis",
-        "year":  "2022",
-        "current": False
+        "name":     "A. Geminardi",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2022",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "M. Dabrowny",
-        "where":   "Birmingham",
-        "what":    "Year 4 project",
-        "year":  "2021",
-        "current": False
+        "name":     "M. Dabrowny",
+        "where":    "Birmingham",
+        "what":     "Year 4 project",
+        "year":     "2021",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "B. Basset",
-        "where":   "Birmingham and Lyon",
-        "what":    "MSc thesis",
-        "year":  "2020",
-        "current": False
+        "name":     "B. Basset",
+        "where":    "Birmingham and Lyon",
+        "what":     "MSc thesis",
+        "year":     "2020",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "J. Chan",
-        "where":   "Birmingham",
-        "what":    "Year 4 project",
-        "year":  "2020",
-        "current": False
+        "name":     "J. Chan",
+        "where":    "Birmingham",
+        "what":     "Year 4 project",
+        "year":     "2020",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "A. Aziz",
-        "where":   "Birmingham",
-        "what":    "Year 4 project",
-        "year":  "2020",
-        "current": False
+        "name":     "A. Aziz",
+        "where":    "Birmingham",
+        "what":     "Year 4 project",
+        "year":     "2020",
+        "current":  False
         })
     
     group['msc']['data'].append({
-        "name":    "R. Barbieri",
-        "where":   "Caltech and Pavia",
-        "what":    "MSc thesis",
-        "year":  "2018",
-        "current": False
+        "name":     "R. Barbieri",
+        "where":    "Caltech and Pavia",
+        "what":     "MSc thesis",
+        "year":     "2018",
+        "current":  False
         })
 
 if bsc:
@@ -2968,337 +2967,337 @@ if bsc:
     group['bsc']['data'] = []
 
     group['bsc']['data'].append({
-        "name":    "A. Pedone",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2025",
-        "current": True
+        "name":     "A. Pedone",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2025",
+        "current":  True
         })
     
     group['bsc']['data'].append({
-        "name":    "A. Malfasi",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2025",
-        "current": False
+        "name":     "A. Malfasi",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2025",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "R. Giugni",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "R. Giugni",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "G. Foroni",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "G. Foroni",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "M. Vergani",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "M. Vergani",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "L. Tassoni",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "L. Tassoni",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "F. Rattegni",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "F. Rattegni",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "M. Pagani",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "M. Pagani",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "W. Toscani",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "W. Toscani",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "A. Bailey",
-        "where":   "Milano-Bicocca and Duke",
-        "what":    "IREU summer project",
-        "year":  "2024",
-        "current": False
+        "name":     "A. Bailey",
+        "where":    "Milano-Bicocca and Duke",
+        "what":     "IREU summer project",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "A. Crespi",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "A. Crespi",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "A. Amigoni",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "A. Amigoni",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "A. Palladino",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "A. Palladino",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "L. Merlo",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2024",
-        "current": False
+        "name":     "L. Merlo",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2024",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "S. Caslini",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "S. Caslini",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "M. Falcone",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "M. Falcone",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "M. Bianchi",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "M. Bianchi",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "M. Gerini",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "M. Gerini",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "F. Ravelli",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "F. Ravelli",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "S. Sferlazzo",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "S. Sferlazzo",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "M. Bellotti",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "M. Bellotti",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "R. Bosoni De Martini",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "R. Bosoni De Martini",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "L. Carbone",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "L. Carbone",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "H. Blake",
-        "where":   "Milano-Bicocca and Ohio State",
-        "what":    "IREU summer project",
-        "year":  "2023",
-        "current": False
+        "name":     "H. Blake",
+        "where":    "Milano-Bicocca and Ohio State",
+        "what":     "IREU summer project",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "L. Toti",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "L. Toti",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "S. Restuccia",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "S. Restuccia",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "D. Chirico",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2023",
-        "current": False
+        "name":     "D. Chirico",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2023",
+        "current":  False
         })
 
     group['bsc']['data'].append({
-        "name":    "M. Muriano",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2022",
-        "current": False
+        "name":     "M. Muriano",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2022",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "L. Zanga",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2022",
-        "current": False
+        "name":     "L. Zanga",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2022",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "O. Rossi",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2022",
-        "current": False
+        "name":     "O. Rossi",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2022",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "S. Neogi",
-        "where":   "Birmingham and IISER Pune",
-        "what":    "summer project",
-        "year":  "2022",
-        "current": False
+        "name":     "S. Neogi",
+        "where":    "Birmingham and IISER Pune",
+        "what":     "summer project",
+        "year":     "2022",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "D. Padilla Monroy",
-        "where":   "Milano-Bicocca and Florida International",
-        "what":    "IREU summer project",
-        "year":  "2022",
-        "current": False
+        "name":     "D. Padilla Monroy",
+        "where":    "Milano-Bicocca and Florida International",
+        "what":     "IREU summer project",
+        "year":     "2022",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "S. Al Humaikani",
-        "where":   "Birmingham and ENSTA Paris",
-        "what":    "summer project",
-        "year":  "2022",
-        "current": False
+        "name":     "S. Al Humaikani",
+        "where":    "Birmingham and ENSTA Paris",
+        "what":     "summer project",
+        "year":     "2022",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "N. D. Sivrioglu",
-        "where":   "Milano-Bicocca and Grinell College",
-        "what":    "summer project",
-        "year":  "2022",
-        "current": False
+        "name":     "N. D. Sivrioglu",
+        "where":    "Milano-Bicocca and Grinell College",
+        "what":     "summer project",
+        "year":     "2022",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "C. M. Fabbri",
-        "where":   "Milano-Bicocca",
-        "what":    "BSc thesis",
-        "year":  "2022",
-        "current": False
+        "name":     "C. M. Fabbri",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2022",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "M. Vogel",
-        "where":   "Birmingham and Missouri State",
-        "what":    "IREU summer project",
-        "year":  "2021",
-        "current": False
+        "name":     "M. Vogel",
+        "where":    "Birmingham and Missouri State",
+        "what":     "IREU summer project",
+        "year":     "2021",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "D. Gangardt",
-        "where":   "Birmingham",
-        "what":    "summer project",
-        "year":  "2019",
-        "current": False
+        "name":     "D. Gangardt",
+        "where":    "Birmingham",
+        "what":     "summer project",
+        "year":     "2019",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "L. Reali",
-        "where":   "Birmingham and Milano-Statale",
-        "what":    "BSc thesis",
-        "year":  "2019",
-        "current": False
+        "name":     "L. Reali",
+        "where":    "Birmingham and Milano-Statale",
+        "what":     "BSc thesis",
+        "year":     "2019",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "A. Lima",
-        "where":   "Caltech and Bowdoin College",
-        "what":    "SURF summer project",
-        "year":  "2018",
-        "current": False
+        "name":     "A. Lima",
+        "where":    "Caltech and Bowdoin College",
+        "what":     "SURF summer project",
+        "year":     "2018",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "K. Chamberlain",
-        "where":   "Caltech and Montana State",
-        "what":    "SURF summer project",
-        "year":  "2017",
-        "current": False
+        "name":     "K. Chamberlain",
+        "where":    "Caltech and Montana State",
+        "what":     "SURF summer project",
+        "year":     "2017",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "R. Barbieri",
-        "where":   "Cambridge and Pavia",
-        "what":    "summer project",
-        "year":  "2016",
-        "current": False
+        "name":     "R. Barbieri",
+        "where":    "Cambridge and Pavia",
+        "what":     "summer project",
+        "year":     "2016",
+        "current":  False
         })
     
     group['bsc']['data'].append({
-        "name":    "J. Vosmera",
-        "where":   "Cambridge",
-        "what":    "summer project",
-        "year":  "2015",
-        "current": False
+        "name":     "J. Vosmera",
+        "where":    "Cambridge",
+        "what":     "summer project",
+        "year":     "2015",
+        "current":  False
         })
