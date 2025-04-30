@@ -262,7 +262,7 @@ if published:
         "arxiv":    "arXiv:2403.00060 [astro-ph.HE]",
         "ads":      "2024MNRAS.530.3689G",
         "inspire":  "Gangardt:2024bic",
-        "more":     ""
+        "more":     "Open source code"
         })
     
     papers['published']['data'].append({
@@ -583,7 +583,7 @@ if published:
         "arxiv":    "arXiv:2011.11948 [gr-qc]",
         "ads":      "2021PhRvD.103f4067G",
         "inspire":  "Gerosa:2020aiw",
-        "more":     "Open source code"
+        "more":     ""
         })
 
     papers['published']['data'].append({
@@ -627,7 +627,7 @@ if published:
         "arxiv":    "arXiv:2007.06585 [astro-ph.HE]",
         "ads":      "2020PhRvD.102j3020G",
         "inspire":  "Gerosa:2020pgy",
-        "more":     "Open source code"
+        "more":     ""
         })
 
     papers['published']['data'].append({
@@ -935,7 +935,7 @@ if published:
         "arxiv":    "arXiv:1802.04276 [gr-qc]",
         "ads":      "2018PhRvD..97j4049G",
         "inspire":  "Gerosa:2018qay",
-        "more":     "Open source code"
+        "more":     ""
         })
 
     papers['published']['data'].append({
