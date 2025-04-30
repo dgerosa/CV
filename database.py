@@ -111,7 +111,7 @@ if published:
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
     
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
         "title":    "Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data.",
         "author":   "C. M. Fabbri, D. Gerosa, A. Santini, M. Mould, A. Toubiana, J. Gair",
         "journal":  "\prd in press.",
