@@ -52,17 +52,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "SFTs: a scalable data-analysis framework for long-duration gravitational-wave signals",
-        "author":   "R. Tenorio, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2502.11823 [gr-qc]",
-        "ads":      "2025arXiv250211823T",
-        "inspire":  "Tenorio:2025yca",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory",
         "author":   "G. Fumagalli, N. Loutrel, D. Gerosa, M. Boschini",
         "journal":  "",
@@ -110,6 +99,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms.",
+        "author":   "R. Tenorio, D. Gerosa",
+        "journal":  "\prd in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2502.11823 [gr-qc]",
+        "ads":      "2025arXiv250211823T",
+        "inspire":  "Tenorio:2025yca",
+        "more":     ""
+        })
     
     papers['published']['data'].append({
         "title":    "Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data.",
