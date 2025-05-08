@@ -1318,7 +1318,15 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
-        "title":    "Spin the black circle.",
+        "title":    "We observe compact binaries but are interested in single objects, this is hard",
+        "where":    "Theoretical Horizons in Unraveling Relativity, Astrophysics, and Mergers (THURAM), L'Aquila, Italy",
+        "when":     "May 2025",
+        "invited":  False,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
+        "title":    "Spin the black circle",
         "where":    "Stellar black hole formation and detection, Kyoto, Japan",
         "when":     "Mar 2025",
         "invited":  True,
