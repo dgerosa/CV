@@ -101,17 +101,6 @@ if published:
     papers['published']['data'] = []
 
     papers['published']['data'].append({
-        "title":    "Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms.",
-        "author":   "R. Tenorio, D. Gerosa",
-        "journal":  "\prd in press.",
-        "link":     "",
-        "arxiv":    "arXiv:2502.11823 [gr-qc]",
-        "ads":      "2025arXiv250211823T",
-        "inspire":  "Tenorio:2025yca",
-        "more":     ""
-        })
-    
-    papers['published']['data'].append({
         "title":    "Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data.",
         "author":   "C. M. Fabbri, D. Gerosa, A. Santini, M. Mould, A. Toubiana, J. Gair",
         "journal":  "\prd in press.",
@@ -123,10 +112,21 @@ if published:
         })
 
     papers['published']['data'].append({
+        "title":    "Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms.",
+        "author":   "R. Tenorio, D. Gerosa",
+        "journal":  "\prd 111 (2025) 104044.",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.104044",
+        "arxiv":    "arXiv:2502.11823 [gr-qc]",
+        "ads":      "2025arXiv250211823T",
+        "inspire":  "Tenorio:2025yca",
+        "more":     ""
+        })
+    
+    papers['published']['data'].append({
         "title":    "Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy",
         "author":   "M. Mancarella, D. Gerosa",
-        "journal":  "\prd in press.",
-        "link":     "",
+        "journal":  "\prd 111 (2025) 103012.",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.103012",
         "arxiv":    "arXiv:2502.12156 [gr-qc]",
         "ads":      "2025arXiv250212156M",
         "inspire":  "Mancarella:2025uat",
