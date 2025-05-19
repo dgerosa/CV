@@ -103,8 +103,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data.",
         "author":   "C. M. Fabbri, D. Gerosa, A. Santini, M. Mould, A. Toubiana, J. Gair",
-        "journal":  "\prd in press.",
-        "link":     "",
+        "journal":  "\prd 111 (2025) 104053.",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.104053",
         "arxiv":    "arXiv:2501.17233 [astro-ph.HE]",
         "ads":      "2025arXiv250117233F",
         "inspire":  "Fabbri:2025faf",
