@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements",
+        "author":   "J. Stegmann, D. Gerosa, I. Romero-Shaw, G. Fumagalli, H. Tagawa, L. Zwick",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2505.13589 [astro-ph.HE]",
+        "ads":      "2025arXiv250513589S",
+        "inspire":  "Stegmann:2025shr",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Ringdown mode amplitudes of precessing binary black holes",
         "author":   "F. Nobili, S. Bhagwat, C. Pacilio, D. Gerosa",
         "journal":  "",
