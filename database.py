@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Sequential simulation-based inference for extreme mass ratio inspirals",
+        "author":   "P. S. Cole, J. Alvey, L. Speri, C. Weniger, U. Bhardwaj, D. Gerosa, G. Bertone",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2505.16795 [gr-qc]",
+        "ads":      "2025arXiv250516795C",
+        "inspire":  "Cole:2025sqo",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements",
         "author":   "J. Stegmann, D. Gerosa, I. Romero-Shaw, G. Fumagalli, H. Tagawa, L. Zwick",
         "journal":  "",
@@ -139,7 +150,7 @@ if published:
         "journal":  "\prd 111 (2025) 103012.",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.103012",
         "arxiv":    "arXiv:2502.12156 [gr-qc]",
-        "ads":      "2025arXiv250212156M",
+        "ads":      "2025PhRvD.111j3012M",
         "inspire":  "Mancarella:2025uat",
         "more":     ""
         })
