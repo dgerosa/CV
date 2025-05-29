@@ -128,7 +128,7 @@ if published:
         "journal":  "\prd 111 (2025) 104053.",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.104053",
         "arxiv":    "arXiv:2501.17233 [astro-ph.HE]",
-        "ads":      "2025arXiv250117233F",
+        "ads":      "2025PhRvD.111j4053F",
         "inspire":  "Fabbri:2025faf",
         "more":     ""
         })
@@ -139,7 +139,7 @@ if published:
         "journal":  "\prd 111 (2025) 104044.",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.104044",
         "arxiv":    "arXiv:2502.11823 [gr-qc]",
-        "ads":      "2025arXiv250211823T",
+        "ads":      "2025PhRvD.111j4044T",
         "inspire":  "Tenorio:2025yca",
         "more":     ""
         })
@@ -1338,6 +1338,14 @@ if conferences:
     talks['conferences'] = {}
     talks['conferences']['label'] = 'Talks at conferences'
     talks['conferences']['data'] = []
+
+    talks['conferences']['data'].append({
+        "title":    "Black holes and gravitational waves are discovered (also) with Python!",
+        "where":    "PyCon Italia 2025, Bologna, Italy",
+        "when":     "May 2025",
+        "invited":  False,
+        "more":     ""
+        })
 
     talks['conferences']['data'].append({
         "title":    "We observe compact binaries but are interested in single objects, this is hard",
@@ -2757,6 +2765,14 @@ if msc:
     group['msc']['labelshort'] = 'MSc students'
     group['msc']['labellong'] = 'MSc student mentoring'
     group['msc']['data'] = []
+
+    group['msc']['data'].append({
+        "name":     "P. Zeduri",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "current":  True
+        })
 
     group['msc']['data'].append({
         "name":     "A. Corelli",
