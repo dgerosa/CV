@@ -1340,6 +1340,14 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Machine learning in gravitational-wave population inference",
+        "where":    "Scientific Machine Learning for Gravitational Wave Astronomy, Providence RI, USA",
+        "when":     "Jun 2025",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "Black holes and gravitational waves are discovered (also) with Python!",
         "where":    "PyCon Italia 2025, Bologna, Italy",
         "when":     "May 2025",
