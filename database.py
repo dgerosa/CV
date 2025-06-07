@@ -119,7 +119,7 @@ if submitted:
 
 if published:
     papers['published'] = {}
-    papers['published']['label'] = 'Papers in major peer-reviewed journals'
+    papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
 
     papers['published']['data'].append({
@@ -1182,7 +1182,7 @@ if published:
 
 if proceedings:
     papers['proceedings'] = {}
-    papers['proceedings']['label'] = 'White papers, long-authorlist reviews, g proceedings, software papers, etc.'
+    papers['proceedings']['label'] = 'Other publications (white papers, proceedings, etc.)'
     papers['proceedings']['data'] = []
 
     papers['proceedings']['data'].append({

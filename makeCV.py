@@ -16,7 +16,8 @@ from datetime import datetime
 import shutil
 from github_release import gh_release_create
 import warnings
-
+import re
+import unicodedata
 
 #import ssl
 #ssl._create_default_https_context = ssl._create_unverified_context
@@ -40,6 +41,20 @@ def checkinternet():
     except (requests.ConnectionError, requests.Timeout) as exception:
 	    connected = False
     return connected
+
+def slugify(text):
+    # Normalize unicode characters to closest ASCII equivalent
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
+    # Convert to lowercase
+    text = text.lower()
+    # Remove all characters except alphanumerics, spaces, and hyphens
+    text = re.sub(r'[^\w\s-]', '', text)
+    # Replace spaces and underscores with hyphens
+    text = re.sub(r'[\s_]+', '-', text)
+    # Collapse multiple hyphens
+    text = re.sub(r'-+', '-', text)
+    # Strip leading/trailing hyphens
+    return text.strip('-')
 
 def ads_citations(papers,testing=False):
 
@@ -188,6 +203,76 @@ def parsepapers(papers,filename="parsepapers.tex"):
     with open(filename,"w") as f: f.write("\n".join(out))
 
 
+def markdownpapers(papers,filename="_publications.md"):
+
+    print('Markdown paper list for website')
+
+    out=[]
+
+    papertype= ['submitted','published','proceedings']
+
+
+    out.append("## Summary")
+
+    for k in papertype:
+        i = len(papers[k]['data'])
+        out.append("**"+str(i)+"** ["+papers[k]['label']+"](#"+slugify(papers[k]['label'])+")")
+        if k!=papertype[-1]:
+            out[-1]+=("\\")
+        else: 
+            out.append("")
+
+    for k in papertype:
+        print(k)
+        i = len(papers[k]['data'])
+
+        if i>=1:
+            out.append("## "+papers[k]['label'])
+        out.append("")
+
+        for p in papers[k]['data']:
+            out.append("**"+str(i)+".**")
+            out.append("*"+p['title'].strip(".")+"*,\\")
+            out.append(p['author'].replace("D. Gerosa","**D. Gerosa**").strip(".")+".\\")
+            line=""
+            if p['link']:
+                line+='['
+            if p['journal']:
+                line+=p['journal'].strip(".")
+            if p['link']:
+                line+="]("+p['link']+")"
+            if p['journal']:
+                line+=". "
+            if 'erratum' in p.keys():
+                line+=" Erratum: "
+                if p['errlink']:
+                    line+='['
+                if p['erratum']:
+                    line+=p['erratum'].strip(".")
+                if p['errlink']:
+                    line+="]("+p['errlink']+")"
+                line+='. '
+
+            if p['arxiv']:
+                line+="["+p['arxiv'].strip(".")+"](https://arxiv.org/abs/"+p['arxiv'].split(":")[1].split(" ")[0].split(" ")[0]+")."
+            out.append(line)
+            if p['more']:
+                out[-1]+="\\"
+                out.append(p['more'].strip(".")+".")
+            i=i-1
+
+            out.append(" ")
+            #break
+        #continue
+        out.append("")
+        
+    out = apply_journal_conversion(out)
+    print(out)
+
+    with open(filename,"w") as f: f.write("\n".join(out))
+
+
+
 def parsetalks(talks,filename="parsetalks.tex"):
 
     print('Parse talks from database')
@@ -224,6 +309,61 @@ def parsetalks(talks,filename="parsetalks.tex"):
     with open(filename,"w") as f: f.write("\n".join(out))
 
 
+
+def markdowntalks(talks, filename="_talks.md"):
+
+    print('Markdown talk list for website')
+
+    out = []
+    out.append("Invited talks marked with ✦.")
+    out.append("")
+    out.append("## Summary")
+
+    categories = ['conferences', 'seminars', 'lectures', 'posters', 'outreach']
+
+    for k in categories:
+        total = len(talks[k]['data'])
+        invited = sum(1 for p in talks[k]['data'] if p.get("invited", False))
+        label = "["+talks[k]['label']+"](#"+slugify(talks[k]['label'])+")"
+        
+        # Format like: 78 (34✦) Conferences
+        summary_line = f"**{total}**"
+        if invited > 0:
+            summary_line += f" (**{invited}**✦)"
+        summary_line += f" {label}"
+        # Add continuation backslash except last category
+        if k != categories[-1]:
+            summary_line += " \\"
+        out.append(summary_line)
+
+    out.append("")
+
+    for k in categories:
+        i = len(talks[k]['data'])
+
+        if i >= 1:
+            out.append(f"## {talks[k]['label']}")
+            out.append("")
+
+        for p in talks[k]['data']:
+            mark = "✦ " if p.get("invited", False) else ""
+            out.append(f"**{i}.** {mark}*{p['title'].strip('.')}*  \\\\")
+            out.append(f"{p['where'].strip('.')}, {p['when'].strip('.')}.")
+            if p['more']:
+                out[-1] += "  \\\\"
+                more = re.sub(r'\\textbf{(.*?)}', r'\1', p['more'].strip("."))
+                out.append(more + ".")
+
+            out.append("")
+            i -= 1
+
+
+    with open(filename, "w") as f:
+        f.write("\n".join(out))
+
+
+
+
 def metricspapers(papers,filename="metricspapers.tex"):
 
     print('Compute papers metrics')
@@ -238,7 +378,7 @@ def metricspapers(papers,filename="metricspapers.tex"):
         out.append("\\textbf{"+str(len(papers['submitted']['data']))+"} paper in submission stage,")
 
     out.append("\\\\ & &")
-    out.append("\\textbf{"+str(len(papers['proceedings']['data']))+"} other publications (white papers, long-authorlist reviews, proceedings, software, etc)")
+    out.append("\\textbf{"+str(len(papers['proceedings']['data']))+"} other publications (white papers, proceedings, etc.)")
     out.append("\\\\ & &")
 
     first_author = []
@@ -378,37 +518,47 @@ def parsegroup(group,filename="parsegroup.tex"):
     with open(filename,"w") as f: f.write("\n".join(out))
 
 
-def convertjournal(j):
-    journalconversion={}
-    journalconversion['\prd']=["Physical Review D", "PRD"]
-    journalconversion['\prdrc']=["Physical Review D", "PRD"]
-    journalconversion['\prdl']=["Physical Review D", "PRD"]
-    journalconversion['\prl']=["Physical Review Letters","PRL"]
-    journalconversion['\prr']=["Physical Review Research","PRR"]
-    journalconversion['\mnras']=["Monthly Notices of the Royal Astronomical Society","MNRAS"]
-    journalconversion['\mnrasl']=["Monthly Notices of the Royal Astronomical Society","MNRAS"]
-    journalconversion['\cqg']=["Classical and Quantum Gravity","CQG"]
-    journalconversion['\\aap']=["Astronomy & Astrophysics","A&A"]
-    journalconversion['\\apj']=["Astrophysical Journal","APJ"]
-    journalconversion['\\apjl']=["Astrophysical Journal","APJ"]
-    journalconversion['\grg']=["General Relativity and Gravitation","GRG"]
-    journalconversion['\lrr']=["Living Reviews in Relativity","LRR"]
-    journalconversion['\\natastro']=["Nature Astronomy","NatAstro"]
-    journalconversion['Proceedings of the International Astronomical Union']=["IAU Proceedigs","IAU"]
-    journalconversion['Journal of Physics: Conference Series']=["Journal of Physics: Conference Series","JoPCS"]
-    journalconversion['Journal of Open Source Software']=["Journal of Open Source Software","JOSS"]
-    journalconversion['Astrophysics and Space Science Proceedings']=["Astrophysics and Space Science Proceedings","AaSSP"]
-    journalconversion['Caltech Undergraduate Research Journal']=["Caltech Undergraduate Research Journal","CURJ"]
-    journalconversion['Chapter in: Handbook of Gravitational Wave Astronomy, Springer, Singapore']=['Book contribution','book']
-    journalconversion['Rendiconti Lincei. Scienze Fisiche e Naturali']=['Rendiconti Lincei','Lincei']
-    journalconversion['Proceedings of the 57th Rencontres de Moriond']=['Moriond proceedings','Moriond']
-    journalconversion["arXiv e-prints"]=["arXiv","arXiv"]
+# Declare the dictionary outside
+journalconversion = {}
+journalconversion['\prd'] = ["Physical Review D", "PRD"]
+journalconversion['\prdrc'] = ["Physical Review D", "PRD"]
+journalconversion['\prdl'] = ["Physical Review D", "PRD"]
+journalconversion['\prl'] = ["Physical Review Letters", "PRL"]
+journalconversion['\prr'] = ["Physical Review Research", "PRR"]
+journalconversion['\mnras'] = ["Monthly Notices of the Royal Astronomical Society", "MNRAS"]
+journalconversion['\mnrasl'] = ["Monthly Notices of the Royal Astronomical Society", "MNRAS"]
+journalconversion['\cqg'] = ["Classical and Quantum Gravity", "CQG"]
+journalconversion['\\aap'] = ["Astronomy & Astrophysics", "A&A"]
+journalconversion['\\apj'] = ["Astrophysical Journal", "APJ"]
+journalconversion['\\apjl'] = ["Astrophysical Journal", "APJ"]
+journalconversion['\grg'] = ["General Relativity and Gravitation", "GRG"]
+journalconversion['\lrr'] = ["Living Reviews in Relativity", "LRR"]
+journalconversion['\\natastro'] = ["Nature Astronomy", "NatAstro"]
+journalconversion['Proceedings of the International Astronomical Union'] = ["IAU Proceedigs", "IAU"]
+journalconversion['Journal of Physics: Conference Series'] = ["Journal of Physics: Conference Series", "JoPCS"]
+journalconversion['Journal of Open Source Software'] = ["Journal of Open Source Software", "JOSS"]
+journalconversion['Astrophysics and Space Science Proceedings'] = ["Astrophysics and Space Science Proceedings", "AaSSP"]
+journalconversion['Caltech Undergraduate Research Journal'] = ["Caltech Undergraduate Research Journal", "CURJ"]
+journalconversion['Chapter in: Handbook of Gravitational Wave Astronomy, Springer, Singapore'] = ['Book contribution', 'book']
+journalconversion['Rendiconti Lincei. Scienze Fisiche e Naturali'] = ['Rendiconti Lincei', 'Lincei']
+journalconversion['Proceedings of the 57th Rencontres de Moriond'] = ['Moriond proceedings', 'Moriond']
+journalconversion["arXiv e-prints"] = ["arXiv", "arXiv"]
 
+def convertjournal(j):
     if j in journalconversion:
         return journalconversion[j]
     else:
-        return [j,j]
+        return [j, j]
 
+def apply_journal_conversion(lines):
+    converted = []
+    for line in lines:
+        new_line = line
+        for tag in journalconversion.keys():
+            if tag in new_line:
+                new_line = new_line.replace(tag, convertjournal(tag)[0])  # full name
+        converted.append(new_line)
+    return converted
 
 def citationspreadsheet(papers):
 
@@ -630,6 +780,15 @@ def pushtogit():
     os.system("git commit -m '"+comment+"'")
     os.system("git push")
 
+def pushtowebsite():
+    relativepathwebsiterepo = "../dgerosa.github.io"
+    comment='updated from dgerosa/cv'
+    os.system("cp _*.md "+relativepathwebsiterepo+"/_pages/")
+    os.system("git -C "+relativepathwebsiterepo+" add -u")
+    os.system("git -C "+relativepathwebsiterepo+" commit -m '"+comment+"'")
+    os.system("git -C "+relativepathwebsiterepo+" push")
+
+
 def publishgithub():
     date = datetime.now().strftime("%Y-%m-%d-%H-%M")
     print("Publish github release:", date)
@@ -657,6 +816,10 @@ def clean():
 
 
 if __name__ == "__main__":
+    markdownpapers(papers)
+    markdowntalks(talks)
+    pushtowebsite()
+    sys.exit()
 
     connected = True
     testing = False
@@ -671,6 +834,13 @@ if __name__ == "__main__":
         parsegroup(group)
         buildbib()
         citationspreadsheet(papers)
+
+        #For website
+        markdownpapers(papers)
+        markdowntalks(talks)
+
+
+
 
     replacekeys()
     builddocs()
