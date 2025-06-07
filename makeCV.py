@@ -816,11 +816,7 @@ def clean():
 
 
 if __name__ == "__main__":
-    markdownpapers(papers)
-    markdowntalks(talks)
-    pushtowebsite()
-    sys.exit()
-
+ 
     connected = True
     testing = False
     if connected:
@@ -848,5 +844,6 @@ if __name__ == "__main__":
     if connected and not testing:
         pushtogit()
         publishgithub()
+        pushtowebsite()
 
     clean()
