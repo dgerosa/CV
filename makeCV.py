@@ -222,8 +222,11 @@ def markdownpapers(papers,filename="_publications.md"):
         else: 
             out.append("")
 
+    out.append("")
+    out.append("---")
+    out.append("")
+
     for k in papertype:
-        print(k)
         i = len(papers[k]['data'])
 
         if i>=1:
@@ -232,7 +235,7 @@ def markdownpapers(papers,filename="_publications.md"):
 
         for p in papers[k]['data']:
             out.append("**"+str(i)+".**")
-            out.append("*"+p['title'].strip(".")+"*.\\")
+            out.append("*"+p['title'].strip(".").replace("$", "$$")+"*.\\")
             out.append(p['author'].replace("D. Gerosa","**D. Gerosa**").strip(".")+".\\")
             line=""
             # if p['link']:
@@ -283,9 +286,10 @@ def markdownpapers(papers,filename="_publications.md"):
             #break
         #continue
         out.append("")
+        out.append("---")
+        out.append("")
         
     out = apply_journal_conversion(out)
-    print(out)
 
     with open(filename,"w") as f: f.write("\n".join(out))
 
@@ -355,6 +359,9 @@ def markdowntalks(talks, filename="_talks.md"):
         out.append(summary_line)
 
     out.append("")
+    out.append("---")
+    out.append("")
+
 
     for k in categories:
         i = len(talks[k]['data'])
@@ -375,6 +382,9 @@ def markdowntalks(talks, filename="_talks.md"):
             out.append("")
             i -= 1
 
+        out.append("")
+        out.append("---")
+        out.append("")
 
     with open(filename, "w") as f:
         f.write("\n".join(out))
