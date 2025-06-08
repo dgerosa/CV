@@ -235,26 +235,44 @@ def markdownpapers(papers,filename="_publications.md"):
             out.append("*"+p['title'].strip(".")+"*,\\")
             out.append(p['author'].replace("D. Gerosa","**D. Gerosa**").strip(".")+".\\")
             line=""
+            # if p['link']:
+            #     line+='['
+            # if p['journal']:
+            #     line+=p['journal'].strip(".")
+            # if p['link']:
+            #     line+="]("+p['link']+")"
+            # if p['journal']:
+            #     line+=". "
+            # if 'erratum' in p.keys():
+            #     line+=" Erratum: "
+            #     if p['errlink']:
+            #         line+='['
+            #     if p['erratum']:
+            #         line+=p['erratum'].strip(".")
+            #     if p['errlink']:
+            #         line+="]("+p['errlink']+")"
+            #     line+='. '
             if p['link']:
-                line+='['
+                line += '<a href="' + p['link'] + '" style="color: inherit; text-decoration: none;">'
             if p['journal']:
-                line+=p['journal'].strip(".")
+                line += p['journal'].strip(".")
             if p['link']:
-                line+="]("+p['link']+")"
+                line += '</a>'
             if p['journal']:
-                line+=". "
-            if 'erratum' in p.keys():
-                line+=" Erratum: "
-                if p['errlink']:
-                    line+='['
-                if p['erratum']:
-                    line+=p['erratum'].strip(".")
-                if p['errlink']:
-                    line+="]("+p['errlink']+")"
-                line+='. '
+                line += '. '
 
+            if 'erratum' in p:
+                line += ' Erratum: '
+                if p['errlink']:
+                    line += '<a href="' + p['errlink'] + '" style="color: inherit; text-decoration: none;">'
+                if p['erratum']:
+                    line += p['erratum'].strip(".")
+                if p['errlink']:
+                    line += '</a>'
+                line += '. '
             if p['arxiv']:
-                line+="["+p['arxiv'].strip(".")+"](https://arxiv.org/abs/"+p['arxiv'].split(":")[1].split(" ")[0].split(" ")[0]+")."
+                line += '<a href="https://arxiv.org/abs/' + p['arxiv'].split(":")[1].split()[0] + '" style="color: inherit; text-decoration: none;">' + p['arxiv'].strip(".") + '</a>.'
+                #line+="["+p['arxiv'].strip(".")+"](https://arxiv.org/abs/"+p['arxiv'].split(":")[1].split(" ")[0].split(" ")[0]+")."
             out.append(line)
             if p['more']:
                 out[-1]+="\\"
@@ -817,6 +835,9 @@ def clean():
 
 if __name__ == "__main__":
  
+    markdownpapers(papers)
+    sys.exit()
+
     connected = True
     testing = False
     if connected:
