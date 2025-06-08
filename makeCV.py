@@ -834,9 +834,6 @@ def clean():
 
 
 if __name__ == "__main__":
- 
-    markdownpapers(papers)
-    sys.exit()
 
     connected = True
     testing = False
@@ -855,9 +852,6 @@ if __name__ == "__main__":
         #For website
         markdownpapers(papers)
         markdowntalks(talks)
-
-
-
 
     replacekeys()
     builddocs()
