@@ -232,7 +232,7 @@ def markdownpapers(papers,filename="_publications.md"):
 
         for p in papers[k]['data']:
             out.append("**"+str(i)+".**")
-            out.append("*"+p['title'].strip(".")+"*,\\")
+            out.append("*"+p['title'].strip(".")+"*.\\")
             out.append(p['author'].replace("D. Gerosa","**D. Gerosa**").strip(".")+".\\")
             line=""
             # if p['link']:
