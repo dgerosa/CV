@@ -572,9 +572,11 @@ def apply_journal_conversion(lines):
     converted = []
     for line in lines:
         new_line = line
-        for tag in journalconversion.keys():
+        for tag, (full_name, short_name) in journalconversion.items():
+            if short_name == "book":
+                continue  # Skip conversion for 'book'
             if tag in new_line:
-                new_line = new_line.replace(tag, convertjournal(tag)[0])  # full name
+                new_line = new_line.replace(tag, full_name)
         converted.append(new_line)
     return converted
 
