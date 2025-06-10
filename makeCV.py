@@ -397,6 +397,8 @@ def markdowntalks(talks, filename="_talks.md"):
 
 import re
 
+import re
+
 def markdowngroup(group, filename="_group.md"):
     print('Markdown group list for website')
 
@@ -469,32 +471,34 @@ def markdowngroup(group, filename="_group.md"):
     out.append("")
 
     # FORMER MEMBERS
-
     out.append("# Former group members")
     out.append("")
     out.append("...and here are those who passed through our group at some stage. Thank you all!")
     out.append("")
-
-    def format_then(then_str):
-        if not then_str:
-            return ""
-        return re.sub(
-            r'arXiv:(\d{4}\.\d{5})',
-            r'[arXiv:\1](https://arxiv.org/abs/\1)',
-            then_str
-        )
 
     def former_section(title, entries):
         if entries:
             out.append(f"## {title}")
             out.append("")
             for x in entries:
-                line = f"- **{x['name']}**. {x['where']} {x['years']}"
+                line = f"- **{x['name']}**. {x['where']} {x['years']}."
                 then_fmt = format_then(x.get("note", ""))
                 if then_fmt:
-                    line += f". {then_fmt}"
+                    line += f" {then_fmt}"
                 out.append(line)
             out.append("")
+
+    def format_then(then_str):
+        if not then_str:
+            return ""
+        then_str = re.sub(
+            r'arXiv:(\d{4}\.\d{5})',
+            r'[arXiv:\1](https://arxiv.org/abs/\1)',
+            then_str.strip()
+        )
+        if then_str and not then_str.endswith('.'):
+            then_str += '.'
+        return then_str
 
     def extract_former_longterm(data):
         entries = []
@@ -538,7 +542,6 @@ def markdowngroup(group, filename="_group.md"):
     out.append("")
     out.append("---")
     out.append("")
-
 
     with open(filename, "w") as f:
         f.write("\n".join(out))
