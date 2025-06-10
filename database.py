@@ -2583,6 +2583,7 @@ if fellowships:
         "fellowship":   "ERC Marie Skłodowska-Curie Fellow",
         "start":        "2024",
         "end":          "current",
+        "bio":          None,
         "current":      True
         })    
     
@@ -2592,6 +2593,7 @@ if fellowships:
         "fellowship":  "ERC Marie Skłodowska-Curie Fellow",
         "start":       "2023",
         "end":          "current",
+        "bio":         "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
         "current":      True
         })
     
@@ -2601,6 +2603,7 @@ if fellowships:
         "fellowship":   "UKRI Stephen Hawking Fellow",
         "start":        "2022",
         "end":          "2025",
+        
         "current":      False
         })
     
@@ -2615,6 +2618,7 @@ if postdocs:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
+        "bio":      "Binary black holes enjoyer, population synthesizer, star cluster simulator. Dream of identifying the host galaxies of black hole mergers. Addicted to endurance sports and eager to bring a French touch to local Italian rugby.",
         "current":  True
         })
     
@@ -2623,6 +2627,7 @@ if postdocs:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
+        "bio":      "Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.",
         "current":  True
         }) 
     
@@ -2631,6 +2636,7 @@ if postdocs:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
+        "bio":      "Long-signal searcher, stats geek, thinks that everything is a sinusoid if you look close enough. He enjoys crunching numbers on a GPU, playing bagpipes, and using Bayesian probability to climb up walls efficiently. Also, Fëanor did nothing wrong.",
         "current":  True
         })
     
@@ -2639,6 +2645,7 @@ if postdocs:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
+        "bio":      "Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.",
         "current":  True
         })
     
@@ -2647,6 +2654,7 @@ if postdocs:
         "where":   "Milano-Bicocca",
         "start":  "2023",
         "end":    "current",
+        "bio":    "Dark matter hunter, gravitational wave decipherer, primordial black hole dreamer. Looking for signatures of dark matter in gravitational wave signals. Enjoys food-centric trips around the world and dancing to Beyonce.",
         "current": True
         })
     
@@ -2655,6 +2663,7 @@ if postdocs:
         "where":   "Milano-Bicocca",
         "start":  "2023",
         "end":    "current",
+        "bio":    "Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.",
         "current": True
         })
     
@@ -2662,6 +2671,7 @@ if postdocs:
         "name":    "Nicholas Loutrel",
         "where":   "Milano-Bicocca",
         "start":  "2023",
+        "bio":    "Stationary phaser, burst calculator, catastrophe theorizer. Perhaps a secret agent. Still can’t understand why we talk probabilities while he lives in a deterministic world.",
         "end":    "current",
         "current": True
         })
@@ -2671,6 +2681,7 @@ if postdocs:
         "where":   "Milano-Bicocca",
         "start":  "2022",
         "end":    "current",
+        "bio":    "Black-hole spectroscoper, simulation-based inferer, pizza purist, coffee obsessed. Using black holes and neutron stars to understand our Universe. Reading comic books to explore parallel worlds. Listening to Bob Dylan to refresh my emotions.",
         "current": True
         })
     
@@ -2679,6 +2690,7 @@ if postdocs:
         "where":   "Milano-Bicocca",
         "start":  "2022",
         "end":    "2024",
+        "bio":    "Cosmologist, cosmo-everything, Fisher matrixer. Uses stats, machine learning, and theory to challenge Einstein’s gravity. Curses in front of a python script, trains in a muay thai gym, cooks risotto.",
         "current": False
         })
     
@@ -2687,6 +2699,7 @@ if postdocs:
         "where":    "Birmingham",
         "start":    "2021",
         "end":      "2023",
+        "bio":      "Metric perturber, GR tester, ringdown magician. Travels across understanding gravity, oil painting, writing poetry, and fantasy books.",
         "current":  False
         })
     
@@ -2695,6 +2708,7 @@ if postdocs:
         "where":    "Birmingham",
         "start":    "2020",
         "end":      "2021",
+        "bio":      "Stellar blower, common-envelope master, metallicity architect, astro walker, bike rider. He thinks directly in Fortran; it’s just easier.",
         "current":  False
         })
 
@@ -2709,6 +2723,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
+        "bio":      "Black hole enthusiast, curious about gravitational waves. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.",
         "current":  True
         })
     
@@ -2717,6 +2732,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
+        "bio":      "Machine learning keeps him busy, Gravitational waves keep him curious. Astrophotographer, always in awe of the night sky. When not dealing with the universe he’s lost in movies, games, or the keys of a piano.",
         "current":  True
         })
     
@@ -2725,6 +2741,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2023",
         "end":      "current",
+        "bio":      "Gaussian Processor, black-hole surrogator, Tolkien addict. Likes discovering new places, whether in the real world or in fantasy books. Often bothers friends with “simple” board games. Probably knows even how to build a nuclear reactor.",
         "current":  True
         })
     
@@ -2733,6 +2750,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2022",
         "end":      "current",
+        "bio":      "Glitch hunter, LISA responser, gravitational-wave lover. Cares for nature, addicted to adventure sports (surf!). Likes building fun stuff with Lego bricks and gets charged up with rock music. Curious to learn something new and explore the universe.",
         "current":  True
         })
     
@@ -2741,6 +2759,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2022",
         "end":      "current",
+        "bio":      "Eccentricity calculator, outlier nightmare, PN analyzer. Likes gravitational waves, black holes, and cats. Specialized in cakes, cookies, and any sweet treats (by far the best chocolate brownie in town!). A marathon every now and then just to let off steam.",
         "current":  True
         })
     
@@ -2749,6 +2768,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2021",
         "end":      "2024",
+        "bio":      "Signal injecter, code parallelizer, Bayesian grandmaster, music addicted, guitar player (or at least she tries), ice-cream lover, manga reader. Intrigued by all questions we cannot answer.",
         "current":  False
         })
     
@@ -2757,6 +2777,7 @@ if phd:
         "where":    "Birmingham",
         "start":    "2020",
         "end":      "2024",
+        "bio":      "Post-Newtonian wizard, rider of (gravitational) waves, AGN disker, orbit integrator, fencing fanatic, binge-watcher extraordinaire. Has a degree in finding good restaurants on google maps. Fan of trying new things and exploring new places.",
         "current":  False
         })
     
@@ -2765,6 +2786,7 @@ if phd:
         "where":    "Birmingham",
         "start":    "2019",
         "end":      "2023",
+        "bio":      "Machine learner, python sorcerer, gig-goer. When not thinking about astrophysics, can be found noodling on a guitar, on a (very) long run, or with the head buried in a book. Or wishing there was a guitar around.",
         "current":  False
         })
 
@@ -2775,7 +2797,7 @@ if msc:
     group['msc']['data'] = []
 
     group['msc']['data'].append({
-        "name":     "P. Zeduri",
+        "name":     "Pietro Zeduri",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2783,7 +2805,7 @@ if msc:
         })
 
     group['msc']['data'].append({
-        "name":     "A. Corelli",
+        "name":     "Alessia Corelli",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2791,7 +2813,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "F. Leto di Priolo",
+        "name":     "Federico Leto di Priolo",
         "where":    "Milano-Bicocca and ESO Garching",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2799,7 +2821,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "G. Monti",
+        "name":     "Giorgio Monti",
         "where":    "Milano-Bicocca and GSSI L'Aquila",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2807,7 +2829,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "O. Rossi",
+        "name":     "Oliver Rossi",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2815,7 +2837,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "M. Gerini",
+        "name":     "Martin Gerini",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2823,7 +2845,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "G. Conti",
+        "name":     "Giulia Conti",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2831,7 +2853,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "E. Sottocorno",
+        "name":     "Erika Sottocorno",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2839,7 +2861,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "S. Caslini",
+        "name":     "Serena Caslini",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2847,7 +2869,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "S. Restuccia",
+        "name":     "Simone Restuccia",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2855,7 +2877,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "L. Toti",
+        "name":     "Leonardo Toti",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2863,7 +2885,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "O. Pietrosanti",
+        "name":     "Olga Pietrosanti",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2871,7 +2893,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "N. Grillo",
+        "name":     "Nicole Grillo",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2879,7 +2901,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "G. Giarda",
+        "name":     "Giovanni Giarda",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
@@ -2887,7 +2909,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "F. Tettoni",
+        "name":     "Federica Tettoni",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2024",
@@ -2895,7 +2917,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "C. Fabbri",
+        "name":     "Cecilia Fabbri",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2024",
@@ -2903,7 +2925,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "A. Pedrotti",
+        "name":     "Alessandro Pedrotti",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2024",
@@ -2911,7 +2933,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "F. Nobili",
+        "name":     "Francesco Nobili",
         "where":    "Milano-Bicocca and Birmingham",
         "what":     "MSc thesis",
         "year":     "2023",
@@ -2919,7 +2941,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "A. Santini",
+        "name":     "Alessandro Santini",
         "where":    "Milano-Bicocca and Johns Hopkins",
         "what":     "MSc thesis",
         "year":     "2023",
@@ -2927,7 +2949,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "S. Piscitelli",
+        "name":     "Simone Piscitelli",
         "where":    "Milano-Bicocca and Milano-Statale",
         "what":     "MSc thesis",
         "year":     "2023",
@@ -2935,7 +2957,7 @@ if msc:
         })
 
     group['msc']['data'].append({
-        "name":     "M. Boschini",
+        "name":     "Matteo Boschini",
         "where":    "Milano-Bicocca and Max Planck AEI",
         "what":     "MSc thesis",
         "year":     "2023",
@@ -2943,7 +2965,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "G. Cavallotto",
+        "name":     "Giovanni Cavallotto",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2022",
@@ -2951,7 +2973,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "A. Spadaro",
+        "name":     "Alice Spadaro",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2022",
@@ -2959,7 +2981,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "A. Carzaniga",
+        "name":     "Alessandro Carzaniga",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2022",
@@ -2967,7 +2989,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "A. Geminardi",
+        "name":     "Andrea Geminardi",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2022",
@@ -2975,7 +2997,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "M. Dabrowny",
+        "name":     "Maciej Dabrowny",
         "where":    "Birmingham",
         "what":     "Year 4 project",
         "year":     "2021",
@@ -2983,7 +3005,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "B. Basset",
+        "name":     "Beatrice Basset",
         "where":    "Birmingham and Lyon",
         "what":     "MSc thesis",
         "year":     "2020",
@@ -2991,7 +3013,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "J. Chan",
+        "name":     "Julian Chan",
         "where":    "Birmingham",
         "what":     "Year 4 project",
         "year":     "2020",
@@ -2999,7 +3021,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "A. Aziz",
+        "name":     "Abdullah Aziz",
         "where":    "Birmingham",
         "what":     "Year 4 project",
         "year":     "2020",
@@ -3007,7 +3029,7 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "R. Barbieri",
+        "name":     "Riccardo Barbieri",
         "where":    "Caltech and Pavia",
         "what":     "MSc thesis",
         "year":     "2018",
@@ -3021,7 +3043,7 @@ if bsc:
     group['bsc']['data'] = []
 
     group['bsc']['data'].append({
-        "name":     "A. Pedone",
+        "name":     "Arianna Pedone",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2025",
@@ -3029,7 +3051,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "A. Malfasi",
+        "name":     "Alessandro Malfasi",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2025",
@@ -3037,7 +3059,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "R. Giugni",
+        "name":     "Rocco Giugni",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3045,7 +3067,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "G. Foroni",
+        "name":     "Giulia Foroni",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3053,7 +3075,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "M. Vergani",
+        "name":     "Matilde Vergani",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3061,7 +3083,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "L. Tassoni",
+        "name":     "Laura Tassoni",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3069,7 +3091,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "F. Rattegni",
+        "name":     "Francesca Rattegni",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3077,7 +3099,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "M. Pagani",
+        "name":     "Matteo Pagani",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3085,7 +3107,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "W. Toscani",
+        "name":     "William Toscani",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3093,7 +3115,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "A. Bailey",
+        "name":     "Ava Bailey",
         "where":    "Milano-Bicocca and Duke",
         "what":     "IREU summer project",
         "year":     "2024",
@@ -3101,7 +3123,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "A. Crespi",
+        "name":     "Alessandro Crespi",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3109,7 +3131,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "A. Amigoni",
+        "name":     "Annalisa Amigoni",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3117,7 +3139,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "A. Palladino",
+        "name":     "Alice Palladino",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3125,7 +3147,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "L. Merlo",
+        "name":     "Lisa Merlo",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
@@ -3133,7 +3155,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "S. Caslini",
+        "name":     "Serena Caslini",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3141,7 +3163,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "M. Falcone",
+        "name":     "Matteo Falcone",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3149,7 +3171,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "M. Bianchi",
+        "name":     "Marco Bianchi",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3157,7 +3179,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "M. Gerini",
+        "name":     "Martin Gerini",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3165,7 +3187,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "F. Ravelli",
+        "name":     "Federico Ravelli",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3173,7 +3195,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "S. Sferlazzo",
+        "name":     "Simone Sferlazzo",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3181,7 +3203,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "M. Bellotti",
+        "name":     "Malvina Bellotti",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3189,7 +3211,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "R. Bosoni De Martini",
+        "name":     "Riccardo Bosoni De Martini",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3197,7 +3219,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "L. Carbone",
+        "name":     "Ludovica Carbone",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3205,7 +3227,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "H. Blake",
+        "name":     "Harrison Blake",
         "where":    "Milano-Bicocca and Ohio State",
         "what":     "IREU summer project",
         "year":     "2023",
@@ -3213,7 +3235,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "L. Toti",
+        "name":     "Leonardo Toti",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3221,7 +3243,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "S. Restuccia",
+        "name":     "Simone Restuccia",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3229,7 +3251,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "D. Chirico",
+        "name":     "Daniele Chirico",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
@@ -3237,7 +3259,7 @@ if bsc:
         })
 
     group['bsc']['data'].append({
-        "name":     "M. Muriano",
+        "name":     "Matteo Muriano",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2022",
@@ -3245,7 +3267,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "L. Zanga",
+        "name":     "Lorenzo Zanga",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2022",
@@ -3253,7 +3275,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "O. Rossi",
+        "name":     "Oliver Rossi",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2022",
@@ -3261,7 +3283,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "S. Neogi",
+        "name":     "Sayan Neogi",
         "where":    "Birmingham and IISER Pune",
         "what":     "summer project",
         "year":     "2022",
@@ -3269,7 +3291,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "D. Padilla Monroy",
+        "name":     "Diego Padilla Monroy",
         "where":    "Milano-Bicocca and Florida International",
         "what":     "IREU summer project",
         "year":     "2022",
@@ -3277,7 +3299,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "S. Al Humaikani",
+        "name":     "Sarah Al Humaikani",
         "where":    "Birmingham and ENSTA Paris",
         "what":     "summer project",
         "year":     "2022",
@@ -3285,7 +3307,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "N. D. Sivrioglu",
+        "name":     "Nesibe Sivrioglu",
         "where":    "Milano-Bicocca and Grinell College",
         "what":     "summer project",
         "year":     "2022",
@@ -3293,7 +3315,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "C. M. Fabbri",
+        "name":     "Cecilia Fabbri",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2022",
@@ -3301,7 +3323,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "M. Vogel",
+        "name":     "Meredith Vogel",
         "where":    "Birmingham and Missouri State",
         "what":     "IREU summer project",
         "year":     "2021",
@@ -3309,7 +3331,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "D. Gangardt",
+        "name":     "Daria Gangardt",
         "where":    "Birmingham",
         "what":     "summer project",
         "year":     "2019",
@@ -3317,7 +3339,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "L. Reali",
+        "name":     "Luca Reali",
         "where":    "Birmingham and Milano-Statale",
         "what":     "BSc thesis",
         "year":     "2019",
@@ -3325,7 +3347,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "A. Lima",
+        "name":     "Alica Lima",
         "where":    "Caltech and Bowdoin College",
         "what":     "SURF summer project",
         "year":     "2018",
@@ -3333,7 +3355,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "K. Chamberlain",
+        "name":     "Katie Chamberlain",
         "where":    "Caltech and Montana State",
         "what":     "SURF summer project",
         "year":     "2017",
@@ -3341,7 +3363,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "R. Barbieri",
+        "name":     "Riccardo Barbieri",
         "where":    "Cambridge and Pavia",
         "what":     "summer project",
         "year":     "2016",
@@ -3349,7 +3371,7 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "J. Vosmera",
+        "name":     "Jakub Vosmera",
         "where":    "Cambridge",
         "what":     "summer project",
         "year":     "2015",

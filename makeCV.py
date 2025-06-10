@@ -56,6 +56,11 @@ def slugify(text):
     # Strip leading/trailing hyphens
     return text.strip('-')
 
+
+def nameinitial(name):
+    parts = name.split()
+    return f"{parts[0][0]}. {' '.join(parts[1:])}"
+
 def ads_citations(papers,testing=False):
 
     print('Get citations from ADS')
@@ -536,7 +541,7 @@ def parsegroup(group,filename="parsegroup.tex"):
                 out.append("\\vspace{-0.1cm}")
         elif k in ["msc","bsc"]:
             for x in group[k]['data']:
-                line = "\\textit{"+name(x)+"} ("+x['where']+", "+x['what']+", "+str(x['year'])+")"+current(x)
+                line = "\\textit{"+nameinitial(name(x))+"} ("+x['where']+", "+x['what']+", "+str(x['year'])+")"+current(x)
                 if x==group[k]['data'][-1]:
                     line+='.'
                 else:
