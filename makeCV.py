@@ -541,7 +541,7 @@ def parsegroup(group,filename="parsegroup.tex"):
                 out.append("\\vspace{-0.1cm}")
         elif k in ["msc","bsc"]:
             for x in group[k]['data']:
-                line = "\\textit{"+nameinitial(name(x))+"} ("+x['where']+", "+x['what']+", "+str(x['year'])+")"+current(x)
+                line = "\\textit{"+nameinitial(x['name'])+"} ("+x['where']+", "+x['what']+", "+str(x['year'])+")"+current(x)
                 if x==group[k]['data'][-1]:
                     line+='.'
                 else:
