@@ -997,8 +997,8 @@ def clean():
 
 if __name__ == "__main__":
 
-    markdowngroup(group)
-    sys.exit()
+    #markdowngroup(group)
+    #sys.exit()
 
     connected = True
     testing = False
