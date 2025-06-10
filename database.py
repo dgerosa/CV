@@ -2584,7 +2584,8 @@ if fellowships:
         "start":        "2024",
         "end":          "current",
         "bio":          None,
-        "current":      True
+        "email":        "zacharias.roupas@unimib.it",
+        "current":      True,
         })    
     
     group['fellowships']['data'].append({
@@ -2594,6 +2595,7 @@ if fellowships:
         "start":       "2023",
         "end":          "current",
         "bio":         "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
+        "email":       "arianna.renzini@unimib.it",
         "current":      True
         })
     
@@ -2603,7 +2605,7 @@ if fellowships:
         "fellowship":   "UKRI Stephen Hawking Fellow",
         "start":        "2022",
         "end":          "2025",
-        
+        "email":        "sbhagwat@star.sr.bham.ac.uk",
         "current":      False
         })
     
@@ -2619,6 +2621,7 @@ if postdocs:
         "start":    "2024",
         "end":      "current",
         "bio":      "Binary black holes enjoyer, population synthesizer, star cluster simulator. Dream of identifying the host galaxies of black hole mergers. Addicted to endurance sports and eager to bring a French touch to local Italian rugby.",
+        "email":    "tristan.bruel@unimib.it",
         "current":  True
         })
     
@@ -2628,6 +2631,7 @@ if postdocs:
         "start":    "2024",
         "end":      "current",
         "bio":      "Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.",
+        "email":    "alexandre.toubiana@unimib.it",
         "current":  True
         }) 
     
@@ -2637,6 +2641,7 @@ if postdocs:
         "start":    "2024",
         "end":      "current",
         "bio":      "Long-signal searcher, stats geek, thinks that everything is a sinusoid if you look close enough. He enjoys crunching numbers on a GPU, playing bagpipes, and using Bayesian probability to climb up walls efficiently. Also, Fëanor did nothing wrong.",
+        "email":    "rodrigo.tenorio@unimib.it",
         "current":  True
         })
     
@@ -2646,52 +2651,58 @@ if postdocs:
         "start":    "2024",
         "end":      "current",
         "bio":      "Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.",
+        "email":    "caroline.owen@unimib.it",
         "current":  True
         })
     
     group['postdocs']['data'].append({
-        "name":    "Philippa Cole",
-        "where":   "Milano-Bicocca",
-        "start":  "2023",
-        "end":    "current",
-        "bio":    "Dark matter hunter, gravitational wave decipherer, primordial black hole dreamer. Looking for signatures of dark matter in gravitational wave signals. Enjoys food-centric trips around the world and dancing to Beyonce.",
-        "current": True
+        "name":     "Philippa Cole",
+        "where":    "Milano-Bicocca",
+        "start":    "2023",
+        "end":      "current",
+        "bio":      "Dark matter hunter, gravitational wave decipherer, primordial black hole dreamer. Looking for signatures of dark matter in gravitational wave signals. Enjoys food-centric trips around the world and dancing to Beyonce.",
+        "email":    "philippa.cole@unimib.it",
+        "current":  True
         })
     
     group['postdocs']['data'].append({
-        "name":    "Ssohrab Borhanian",
-        "where":   "Milano-Bicocca",
-        "start":  "2023",
-        "end":    "current",
-        "bio":    "Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.",
-        "current": True
+        "name":     "Ssohrab Borhanian",
+        "where":    "Milano-Bicocca",
+        "start":    "2023",
+        "end":      "current",
+        "bio":      "Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.",
+        "email":    "ssohrab.borhanian@unimib.it",
+        "current":  True
         })
     
     group['postdocs']['data'].append({
-        "name":    "Nicholas Loutrel",
-        "where":   "Milano-Bicocca",
-        "start":  "2023",
-        "bio":    "Stationary phaser, burst calculator, catastrophe theorizer. Perhaps a secret agent. Still can’t understand why we talk probabilities while he lives in a deterministic world.",
-        "end":    "current",
-        "current": True
+        "name":     "Nicholas Loutrel",
+        "where":    "Milano-Bicocca",
+        "start":    "2023",
+        "bio":      "Stationary phaser, burst calculator, catastrophe theorizer. Perhaps a secret agent. Still can’t understand why we talk probabilities while he lives in a deterministic world.",
+        "end":      "current",
+        "email":    "nicholas.loutrel@unimib.it",
+        "current":  True
         })
     
     group['postdocs']['data'].append({
-        "name":    "Costantino Pacilio",
-        "where":   "Milano-Bicocca",
-        "start":  "2022",
-        "end":    "current",
-        "bio":    "Black-hole spectroscoper, simulation-based inferer, pizza purist, coffee obsessed. Using black holes and neutron stars to understand our Universe. Reading comic books to explore parallel worlds. Listening to Bob Dylan to refresh my emotions.",
-        "current": True
+        "name":     "Costantino Pacilio",
+        "where":    "Milano-Bicocca",
+        "start":    "2022",
+        "end":      "current",
+        "bio":      "Black-hole spectroscoper, simulation-based inferer, pizza purist, coffee obsessed. Using black holes and neutron stars to understand our Universe. Reading comic books to explore parallel worlds. Listening to Bob Dylan to refresh my emotions.",
+        "email":    "costantino.pacilio@unimib.it",
+        "current":  True
         })
     
     group['postdocs']['data'].append({
-        "name":    "Michele Mancarella",
-        "where":   "Milano-Bicocca",
-        "start":  "2022",
-        "end":    "2024",
-        "bio":    "Cosmologist, cosmo-everything, Fisher matrixer. Uses stats, machine learning, and theory to challenge Einstein’s gravity. Curses in front of a python script, trains in a muay thai gym, cooks risotto.",
-        "current": False
+        "name":     "Michele Mancarella",
+        "where":    "Milano-Bicocca",
+        "start":    "2022",
+        "end":      "2024",
+        "bio":      "Cosmologist, cosmo-everything, Fisher matrixer. Uses stats, machine learning, and theory to challenge Einstein’s gravity. Curses in front of a python script, trains in a muay thai gym, cooks risotto.",
+        "email":    "michele.mancarella@unimib.it",
+        "current":  False
         })
     
     group['postdocs']['data'].append({
@@ -2700,6 +2711,7 @@ if postdocs:
         "start":    "2021",
         "end":      "2023",
         "bio":      "Metric perturber, GR tester, ringdown magician. Travels across understanding gravity, oil painting, writing poetry, and fantasy books.",
+        "email":    "nsteinle@star.sr.bham.ac.uk",
         "current":  False
         })
     
@@ -2709,6 +2721,7 @@ if postdocs:
         "start":    "2020",
         "end":      "2021",
         "bio":      "Stellar blower, common-envelope master, metallicity architect, astro walker, bike rider. He thinks directly in Fortran; it’s just easier.",
+        "email":    "ngiacobbo@star.sr.bham.ac.uk",
         "current":  False
         })
 
@@ -2724,6 +2737,7 @@ if phd:
         "start":    "2024",
         "end":      "current",
         "bio":      "Black hole enthusiast, curious about gravitational waves. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.",
+        "email":    "c.anselmo@campus.unimib.it",
         "current":  True
         })
     
@@ -2733,6 +2747,7 @@ if phd:
         "start":    "2024",
         "end":      "current",
         "bio":      "Machine learning keeps him busy, Gravitational waves keep him curious. Astrophotographer, always in awe of the night sky. When not dealing with the universe he’s lost in movies, games, or the keys of a piano.",
+        "email":    "f.desanti@campus.unimib.it",
         "current":  True
         })
     
@@ -2742,6 +2757,7 @@ if phd:
         "start":    "2023",
         "end":      "current",
         "bio":      "Gaussian Processor, black-hole surrogator, Tolkien addict. Likes discovering new places, whether in the real world or in fantasy books. Often bothers friends with “simple” board games. Probably knows even how to build a nuclear reactor.",
+        "email":    "m.boschini1@campus.unimib.it",
         "current":  True
         })
     
@@ -2751,6 +2767,7 @@ if phd:
         "start":    "2022",
         "end":      "current",
         "bio":      "Glitch hunter, LISA responser, gravitational-wave lover. Cares for nature, addicted to adventure sports (surf!). Likes building fun stuff with Lego bricks and gets charged up with rock music. Curious to learn something new and explore the universe.",
+        "email":    "a.spadaro3@campus.unimib.it",
         "current":  True
         })
     
@@ -2760,6 +2777,7 @@ if phd:
         "start":    "2022",
         "end":      "current",
         "bio":      "Eccentricity calculator, outlier nightmare, PN analyzer. Likes gravitational waves, black holes, and cats. Specialized in cakes, cookies, and any sweet treats (by far the best chocolate brownie in town!). A marathon every now and then just to let off steam.",
+        "email":    "g.fumagalli47@campus.unimib.it",
         "current":  True
         })
     
@@ -2769,6 +2787,7 @@ if phd:
         "start":    "2021",
         "end":      "2024",
         "bio":      "Signal injecter, code parallelizer, Bayesian grandmaster, music addicted, guitar player (or at least she tries), ice-cream lover, manga reader. Intrigued by all questions we cannot answer.",
+        "email":    "v.derenzis@campus.unimib.it",
         "current":  False
         })
     
@@ -2778,6 +2797,7 @@ if phd:
         "start":    "2020",
         "end":      "2024",
         "bio":      "Post-Newtonian wizard, rider of (gravitational) waves, AGN disker, orbit integrator, fencing fanatic, binge-watcher extraordinaire. Has a degree in finding good restaurants on google maps. Fan of trying new things and exploring new places.",
+        "email":    "ddg672@star.sr.bham.ac.uk",
         "current":  False
         })
     
@@ -2787,6 +2807,7 @@ if phd:
         "start":    "2019",
         "end":      "2023",
         "bio":      "Machine learner, python sorcerer, gig-goer. When not thinking about astrophysics, can be found noodling on a guitar, on a (very) long run, or with the head buried in a book. Or wishing there was a guitar around.",
+        "email":    "mmould@star.sr.bham.ac.uk",
         "current":  False
         })
 
