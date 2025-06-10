@@ -462,8 +462,10 @@ def markdowngroup(group, filename="_group.md"):
             out.append(f"- **{x['name'].replace('~', ' ')}**, BSc thesis, {x['where']}, {x['year']}.")
         out.append("")
 
+    out.append("<br>")
+    out.append("")
     out.append("---")
-    out.append("<br>")  # Forces a visible line break in Markdown
+    out.append("<br>")
     out.append("")
 
     # FORMER MEMBERS
@@ -532,8 +534,11 @@ def markdowngroup(group, filename="_group.md"):
     former_section("Former MSc students", former_mscs)
     former_section("Former BSc students", former_bscs)
 
+    out.append("<br>")
+    out.append("")
     out.append("---")
     out.append("")
+
 
     with open(filename, "w") as f:
         f.write("\n".join(out))
