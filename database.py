@@ -2934,7 +2934,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
-        "then":     "Then PhD student at ETH Zurich (Switzerland).", 
+        "note":     "Then PhD student at ETH Zurich (Switzerland).", 
         "current":  False
         })
     
