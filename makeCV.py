@@ -395,6 +395,149 @@ def markdowntalks(talks, filename="_talks.md"):
         f.write("\n".join(out))
 
 
+import re
+
+def markdowngroup(group, filename="_group.md"):
+    print('Markdown group list for website')
+
+    out = []
+
+    # Intro
+    out.append("Here are the amazing people in my group. Come visit and chat science with us!")
+    out.append("")
+
+    # CURRENT MEMBERS
+    merged_current = []
+
+    for x in group['fellowships']['data']:
+        if x.get("current", False) and x.get("bio"):
+            merged_current.append({
+                "name": x["name"].replace("~", " "),
+                "role": x["fellowship"],
+                "email": x.get("email", ""),
+                "bio": x.get("bio", ""),
+                "order": 0
+            })
+    for x in group['postdocs']['data']:
+        if x.get("current", False) and x.get("bio"):
+            merged_current.append({
+                "name": x["name"].replace("~", " "),
+                "role": "Postdoc",
+                "email": x.get("email", ""),
+                "bio": x.get("bio", ""),
+                "order": 0
+            })
+    for x in group['phd']['data']:
+        if x.get("current", False):
+            merged_current.append({
+                "name": x["name"].replace("~", " "),
+                "role": "PhD student",
+                "email": x.get("email", ""),
+                "bio": x.get("bio", ""),
+                "order": 1
+            })
+
+    merged_current = sorted(merged_current, key=lambda x: x["order"])
+
+    for x in merged_current:
+        out.append(f"**{x['name']}**  ")
+        out.append(f"*{x['role']}*;  ")
+        if x['email']:
+            out[-1] += f"[{x['email']}](mailto:{x['email']})  "
+        if x['bio']:
+            out.append(f"{x['bio']}")
+        out.append("")
+
+    # MSc and BSc current
+    msc_current = [x for x in group['msc']['data'] if x.get("current", False)]
+    bsc_current = [x for x in group['bsc']['data'] if x.get("current", False)]
+
+    if msc_current or bsc_current:
+        out.append("## Current MSc and Bsc students")
+        out.append("Here are the amazing students who are currently completing research projects with us in the group… Taking the first fun steps into the perilous world of black holes!")
+        out.append("")
+        for x in msc_current:
+            out.append(f"- **{x['name'].replace('~', ' ')}**, MSc thesis, {x['where']}, {x['year']}.")
+        for x in bsc_current:
+            out.append(f"- **{x['name'].replace('~', ' ')}**, BSc thesis, {x['where']}, {x['year']}.")
+        out.append("")
+
+    out.append("---")
+    out.append("<br>")  # Forces a visible line break in Markdown
+    out.append("")
+
+    # FORMER MEMBERS
+
+    out.append("# Former group members")
+    out.append("")
+    out.append("...and here are those who passed through our group at some stage. Thank you all!")
+    out.append("")
+
+    def format_then(then_str):
+        if not then_str:
+            return ""
+        return re.sub(
+            r'arXiv:(\d{4}\.\d{5})',
+            r'[arXiv:\1](https://arxiv.org/abs/\1)',
+            then_str
+        )
+
+    def former_section(title, entries):
+        if entries:
+            out.append(f"## {title}")
+            out.append("")
+            for x in entries:
+                line = f"- **{x['name']}**. {x['where']} {x['years']}"
+                then_fmt = format_then(x.get("note", ""))
+                if then_fmt:
+                    line += f". {then_fmt}"
+                out.append(line)
+            out.append("")
+
+    def extract_former_longterm(data):
+        entries = []
+        for x in data:
+            if not x.get("current", False):
+                start = str(x.get("start", ""))
+                end = str(x.get("end", ""))
+                years = f"{start}–{end}" if start and end else start or end
+                entries.append({
+                    "name": x["name"].replace("~", " "),
+                    "where": x["where"],
+                    "years": years,
+                    "note": x.get("note", "")
+                })
+        return entries
+
+    def extract_former_shortterm(data):
+        entries = []
+        for x in data:
+            if not x.get("current", False):
+                entries.append({
+                    "name": x["name"].replace("~", " "),
+                    "where": x["where"],
+                    "years": str(x["year"]),
+                    "note": x.get("note", "")
+                })
+        return entries
+
+    former_fellowships = extract_former_longterm(group['fellowships']['data'])
+    former_postdocs = extract_former_longterm(group['postdocs']['data'])
+    former_phds = extract_former_longterm(group['phd']['data'])
+    former_mscs = extract_former_shortterm(group['msc']['data'])
+    former_bscs = extract_former_shortterm(group['bsc']['data'])
+
+    former_section("Former postdocs", former_fellowships + former_postdocs)
+    former_section("Former PhD students", former_phds)
+    former_section("Former MSc students", former_mscs)
+    former_section("Former BSc students", former_bscs)
+
+    out.append("---")
+    out.append("")
+
+    with open(filename, "w") as f:
+        f.write("\n".join(out))
+
 
 
 def metricspapers(papers,filename="metricspapers.tex"):
@@ -550,99 +693,7 @@ def parsegroup(group,filename="parsegroup.tex"):
 
     with open(filename,"w") as f: f.write("\n".join(out))
 
-def markdowngroup(group, filename="_group.md"):
-    print('Markdown group list for website')
-
-    out = []
-
-    # out.append("## Summary")
-
-    # categories = ['fellowships', 'postdocs', 'phd', 'msc', 'bsc']
-
-    # for k in categories:
-    #     total = len(group[k]['data'])
-    #     current = sum(1 for x in group[k]['data'] if x.get("current", False))
-    #     label = "["+group[k]['labelshort']+"](#"+slugify(group[k]['labelshort'])+")"
-    #     summary_line = f"**{total}**"
-    #     if current > 0:
-    #         summary_line += f" (**{current}***)"
-    #     summary_line += f" {label}"
-    #     if k != categories[-1]:
-    #         summary_line += " \\"
-    #     out.append(summary_line)
-
-    # out.append("")
-    # out.append("---")
-    # out.append("")
-
-    # CURRENT MEMBERS
-    out.append("## Current group members")
-    out.append("")
-
-    # --- Merge Postdocs (fellowships+postdocs) and PhD students ---
-    merged_current = []
-
-    # Add current postdocs (fellowships and postdocs), only if bio is present
-    for x in group['fellowships']['data']:
-        if x.get("current", False) and x.get("bio"):
-            merged_current.append({
-                "name": x["name"].replace("~", " "),
-                "role": x["fellowship"],
-                "email": x.get("email", ""),
-                "bio": x.get("bio", ""),
-                "order": 0  # postdoc
-            })
-    for x in group['postdocs']['data']:
-        if x.get("current", False) and x.get("bio"):
-            merged_current.append({
-                "name": x["name"],
-                "role": "Postdoc",
-                "email": x.get("email", ""),
-                "bio": x.get("bio", ""),
-                "order": 0  # postdoc
-            })
-    # Add current PhD students
-    for x in group['phd']['data']:
-        if x.get("current", False):
-            merged_current.append({
-                "name": x["name"],
-                "role": "PhD student",
-                "email": x.get("email", ""),
-                "bio": x.get("bio", ""),
-                "order": 1  # phd
-            })
-
-    # Sort so postdocs come first, then PhD students
-    merged_current = sorted(merged_current, key=lambda x: x["order"])
-
-    # Print postdocs and PhD students in the requested format
-    for x in merged_current:
-        out.append(f"**{x['name']}**  ")
-        out.append(f"*{x['role']}*  ")
-        if x['email']:
-            out.append(f"[{x['email']}](mailto:{x['email']})  ")
-        if x['bio']:
-            out.append(f"{x['bio']}")
-        out.append("")
-
-    # --- MSc and BSc students (current only), as a single bullet list ---
-    msc_current = [x for x in group['msc']['data'] if x.get("current", False)]
-    bsc_current = [x for x in group['bsc']['data'] if x.get("current", False)]
-
-    if msc_current or bsc_current:
-        out.append("## Current MSc and Bsc students")
-        out.append("")
-        for x in msc_current:
-            out.append(f"- **{x['name']}**, MSc thesis, {x['where']}, {x['year']}.")
-        for x in bsc_current:
-            out.append(f"- **{x['name']}**, BSc thesis, {x['where']}, {x['year']}.")
-        out.append("")
-
-    out.append("---")
-    out.append("")
-
-    with open(filename, "w") as f:
-        f.write("\n".join(out))
+import re
 
 
 # Declare the dictionary outside
@@ -946,8 +997,8 @@ def clean():
 
 if __name__ == "__main__":
 
-    #markdowngroup(group)
-    #sys.exit()
+    markdowngroup(group)
+    sys.exit()
 
     connected = True
     testing = False

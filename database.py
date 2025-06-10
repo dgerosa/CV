@@ -2606,6 +2606,8 @@ if fellowships:
         "start":        "2022",
         "end":          "2025",
         "email":        "sbhagwat@star.sr.bham.ac.uk",
+        "bio":          "Gravitational-wave data analyst, astrophysical modeler, and machine learning enthusiast. Loves to explore the world through food, travel, and music.",
+        "note":         "Stephen Hawking Fellow.",
         "current":      False
         })
     
@@ -2702,6 +2704,7 @@ if postdocs:
         "end":      "2024",
         "bio":      "Cosmologist, cosmo-everything, Fisher matrixer. Uses stats, machine learning, and theory to challenge Einstein’s gravity. Curses in front of a python script, trains in a muay thai gym, cooks risotto.",
         "email":    "michele.mancarella@unimib.it",
+        "note":     "Supported by the ERC. Then faculty at the University of Aix-Marseille, France.",
         "current":  False
         })
     
@@ -2712,6 +2715,7 @@ if postdocs:
         "end":      "2023",
         "bio":      "Metric perturber, GR tester, ringdown magician. Travels across understanding gravity, oil painting, writing poetry, and fantasy books.",
         "email":    "nsteinle@star.sr.bham.ac.uk",
+        "note":     "Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).",
         "current":  False
         })
     
@@ -2722,6 +2726,7 @@ if postdocs:
         "end":      "2021",
         "bio":      "Stellar blower, common-envelope master, metallicity architect, astro walker, bike rider. He thinks directly in Fortran; it’s just easier.",
         "email":    "ngiacobbo@star.sr.bham.ac.uk",
+        "note":     "Supported by the Leverhulme Trust. Then software developer at IRS Srl (Italy).",        
         "current":  False
         })
 
@@ -2788,6 +2793,7 @@ if phd:
         "end":      "2024",
         "bio":      "Signal injecter, code parallelizer, Bayesian grandmaster, music addicted, guitar player (or at least she tries), ice-cream lover, manga reader. Intrigued by all questions we cannot answer.",
         "email":    "v.derenzis@campus.unimib.it",
+        "note":     "Supported by the ERC. Then postdoc at the University of Aix-Marseille, France.",
         "current":  False
         })
     
@@ -2798,6 +2804,7 @@ if phd:
         "end":      "2024",
         "bio":      "Post-Newtonian wizard, rider of (gravitational) waves, AGN disker, orbit integrator, fencing fanatic, binge-watcher extraordinaire. Has a degree in finding good restaurants on google maps. Fan of trying new things and exploring new places.",
         "email":    "ddg672@star.sr.bham.ac.uk",
+        "note":     "Supported by STFC. Then Research Associate at the UK Centre for Ecology & Hydrology (UKCEH).",
         "current":  False
         })
     
@@ -2808,6 +2815,7 @@ if phd:
         "end":      "2023",
         "bio":      "Machine learner, python sorcerer, gig-goer. When not thinking about astrophysics, can be found noodling on a guitar, on a (very) long run, or with the head buried in a book. Or wishing there was a guitar around.",
         "email":    "mmould@star.sr.bham.ac.uk",
+        "note":     "Supported by STFC. Then postdoc at the Massachusetts Institute of Technology (MIT), Boston MA (USA).",
         "current":  False
         })
 
@@ -2926,6 +2934,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "then":     "Then PhD student at ETH Zurich (Switzerland).", 
         "current":  False
         })
     
@@ -2934,6 +2943,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2024",
+        "note":     "Resulting publication: arXiv:2409.07519.",
         "current":  False
         })
     
@@ -2942,6 +2952,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2024",
+        "note":     "Then PhD student at the University of Nottingham (UK). Resulting publication: arXiv:2501.17233.",
         "current":  False
         })
     
@@ -2950,6 +2961,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2024",
+        "note":     "Then PhD student at the University of Aix-Marseille (France). Resulting publication: arXiv:2504.10482.",
         "current":  False
         })
     
@@ -2958,6 +2970,7 @@ if msc:
         "where":    "Milano-Bicocca and Birmingham",
         "what":     "MSc thesis",
         "year":     "2023",
+        "note":     "Then PhD student at the University of Insubria (Como, Italy). Resulting publication: arXiv:2504.17021.",
         "current":  False
         })
     
@@ -2966,6 +2979,7 @@ if msc:
         "where":    "Milano-Bicocca and Johns Hopkins",
         "what":     "MSc thesis",
         "year":     "2023",
+        "note":     "Then PhD student at Max Planck Institute for Gravitational Physics (Potsdam, Germany). Resulting publication: arXiv:2308.12998.",
         "current":  False
         })
     
@@ -2974,6 +2988,7 @@ if msc:
         "where":    "Milano-Bicocca and Milano-Statale",
         "what":     "MSc thesis",
         "year":     "2023",
+        "note":     "Then PhD student at INAF – Merate (Italy).",
         "current":  False
         })
 
@@ -2982,6 +2997,7 @@ if msc:
         "where":    "Milano-Bicocca and Max Planck AEI",
         "what":     "MSc thesis",
         "year":     "2023",
+        "note":     "Then PhD student in my group. Resulting publication: arXiv:2307.03435.",
         "current":  False
         })
     
@@ -2990,6 +3006,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2022",
+        "note":     "Then technologist in Space Weather at Milano-Bicocca. Resulting publication: arXiv:2304.04801.",
         "current":  False
         })
     
@@ -2998,6 +3015,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2022",
+        "note":     "Then PhD student in my group. Resulting publication: arXiv:2306.03923.",
         "current":  False
         })
     
@@ -3006,6 +3024,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2022",
+        "note":     "Resulting publication: arXiv:2410.08263.",
         "current":  False
         })
     
@@ -3014,6 +3033,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2022",
+        "note":     "Then PhD student at Istituto Universitario di Studi Superiori (IUSS) Pavia, Italy.",
         "current":  False
         })
     
@@ -3022,14 +3042,16 @@ if msc:
         "where":    "Birmingham",
         "what":     "Year 4 project",
         "year":     "2021",
+        "note":     "Then machine-learning engineer at Kubrick Group. Resulting publication: arXiv:2106.12541.",
         "current":  False
         })
     
     group['msc']['data'].append({
         "name":     "Beatrice Basset",
         "where":    "Birmingham and Lyon",
-        "what":     "MSc thesis",
+        "what":     "Final-year internship",
         "year":     "2020",
+        "note":     "Then high-school teacher.",
         "current":  False
         })
     
@@ -3038,6 +3060,7 @@ if msc:
         "where":    "Birmingham",
         "what":     "Year 4 project",
         "year":     "2020",
+        "note":     "Then PhD at the University of Surrey (UK).",
         "current":  False
         })
     
@@ -3046,6 +3069,7 @@ if msc:
         "where":    "Birmingham",
         "what":     "Year 4 project",
         "year":     "2020",
+        "note":     "Then software engineer at Menlo Security Inc (UK).",
         "current":  False
         })
     
@@ -3054,6 +3078,7 @@ if msc:
         "where":    "Caltech and Pavia",
         "what":     "MSc thesis",
         "year":     "2018",
+        "note":     "Then PhD at the Max Planck Institute for Gravitational Physics (Potsdam, Germany). Resulting publication: arXiv:2004.02894.",
         "current":  False
         })
 
@@ -3064,13 +3089,13 @@ if bsc:
     group['bsc']['data'] = []
 
     group['bsc']['data'].append({
-        "name":     "Arianna Pedone",
+        "name":     "Federico Quattrini",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2025",
         "current":  True
         })
-    
+
     group['bsc']['data'].append({
         "name":     "Alessandro Malfasi",
         "where":    "Milano-Bicocca",
@@ -3228,6 +3253,7 @@ if bsc:
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
+        "note":     "Resulting publication: arXiv:2404.16930.",
         "current":  False
         })
     
@@ -3292,6 +3318,7 @@ if bsc:
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2022",
+        "note":     "Resulting publication: arXiv:2304.13063.",
         "current":  False
         })
     
@@ -3306,7 +3333,7 @@ if bsc:
     group['bsc']['data'].append({
         "name":     "Sayan Neogi",
         "where":    "Birmingham and IISER Pune",
-        "what":     "summer project",
+        "what":     "Summer project",
         "year":     "2022",
         "current":  False
         })
@@ -3316,6 +3343,7 @@ if bsc:
         "where":    "Milano-Bicocca and Florida International",
         "what":     "IREU summer project",
         "year":     "2022",
+        "note":     "Resulting publication: arXiv:2304.04801.",
         "current":  False
         })
     
@@ -3330,7 +3358,7 @@ if bsc:
     group['bsc']['data'].append({
         "name":     "Nesibe Sivrioglu",
         "where":    "Milano-Bicocca and Grinell College",
-        "what":     "summer project",
+        "what":     "Summer project",
         "year":     "2022",
         "current":  False
         })
@@ -3340,6 +3368,7 @@ if bsc:
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2022",
+        "note":     "Resulting publication: arXiv:2202.08848.",
         "current":  False
         })
     
@@ -3354,8 +3383,9 @@ if bsc:
     group['bsc']['data'].append({
         "name":     "Daria Gangardt",
         "where":    "Birmingham",
-        "what":     "summer project",
+        "what":     "Summer project",
         "year":     "2019",
+        "note":     "Resulting publication: arXiv:2103.03894.",
         "current":  False
         })
     
@@ -3364,6 +3394,7 @@ if bsc:
         "where":    "Birmingham and Milano-Statale",
         "what":     "BSc thesis",
         "year":     "2019",
+        "note":     "Resulting publication: arXiv:2005.01747.",
         "current":  False
         })
     
@@ -3372,6 +3403,7 @@ if bsc:
         "where":    "Caltech and Bowdoin College",
         "what":     "SURF summer project",
         "year":     "2018",
+        "note":     "Resulting publication: arXiv:1811.05979.",
         "current":  False
         })
     
@@ -3380,13 +3412,14 @@ if bsc:
         "where":    "Caltech and Montana State",
         "what":     "SURF summer project",
         "year":     "2017",
+        "note":     "Resulting publication: arXiv:1809.04799.",
         "current":  False
         })
     
     group['bsc']['data'].append({
         "name":     "Riccardo Barbieri",
         "where":    "Cambridge and Pavia",
-        "what":     "summer project",
+        "what":     "Summer project",
         "year":     "2016",
         "current":  False
         })
@@ -3394,7 +3427,8 @@ if bsc:
     group['bsc']['data'].append({
         "name":     "Jakub Vosmera",
         "where":    "Cambridge",
-        "what":     "summer project",
+        "what":     "Summer project",
         "year":     "2015",
+        "note":     "Resulting publication: arXiv:1612.05263.",
         "current":  False
         })
