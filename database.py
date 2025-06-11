@@ -1072,7 +1072,7 @@ if published:
 
     papers['published']['data'].append({
         "title":    "Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation",
-        "author":   "D. Trifir\`o, R. O'Shaughnessy, D. Gerosa, E. Berti, M. Kesden, T. Littenberg, U. Sperhake",
+        "author":   "D. s, R. O'Shaughnessy, D. Gerosa, E. Berti, M. Kesden, T. Littenberg, U. Sperhake",
         "journal":  "\prd 93 (2016) 044071",
         "link":     "http://dx.doi.org/10.1103/PhysRevD.93.044071",
         "arxiv":    "arXiv:1507.05587 [gr-qc]",
@@ -3090,6 +3090,14 @@ if bsc:
     group['bsc']['labelshort'] = 'BSc students'
     group['bsc']['labellong'] = 'BSc student projects'
     group['bsc']['data'] = []
+
+    group['bsc']['data'].append({
+        "name":     "Arianna Pedone",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2025",
+        "current":  True
+        })
 
     group['bsc']['data'].append({
         "name":     "Federico Quattrini",
