@@ -481,7 +481,7 @@ def markdowngroup(group, filename="_group.md"):
             out.append(f"## {title}")
             out.append("")
             for x in entries:
-                line = f"- **{x['name']}**. {x['where']} {x['years']}."
+                line = f"- **{x['name']}**. {x['where']}, {x['years']}."
                 then_fmt = format_then(x.get("note", ""))
                 if then_fmt:
                     line += f" {then_fmt}"
