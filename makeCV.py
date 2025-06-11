@@ -794,7 +794,10 @@ def citationspreadsheet(papers):
     for x in spreaddata:
         assert(len(spreaddata[x]) == tot)
 
-    ind = np.argsort(spreaddata['max_citations'])[::-1]
+    years = np.array([int(y) for y in spreaddata['year']])
+    max_cits = np.array(spreaddata['max_citations'])
+    # lexsort sorts by last key first, so we pass (years, max_cits)
+    ind = np.lexsort(( -years, -max_cits ))
     for x in spreaddata:
         spreaddata[x]=np.array(spreaddata[x])[ind]
 
@@ -875,7 +878,7 @@ def citationspreadsheet(papers):
 
 import numpy as np
 
-def citations_markdown(papers, output_file="_citations.md"):
+def markdowncitations(papers, output_file="_citations.md"):
     spreaddata = {
         'first_author': [],
         'ads_citations': [],
@@ -943,7 +946,8 @@ def citations_markdown(papers, output_file="_citations.md"):
         f.write("| # | Author | Year | Title | ADS | INSPIRE | MAX |\n")
         f.write("|---|--------|------|-------|-----|---------|-----|\n")
         for i in range(len(spreaddata['title'])):
-            f.write(f"| {i+1} | {spreaddata['first_author'][i]} | {spreaddata['year'][i]} | {spreaddata['title'][i]} | "
+            title = spreaddata['title'][i].replace("$", "$$")
+            f.write(f"| **{i+1}** | {spreaddata['first_author'][i]} | {spreaddata['year'][i]} | {title} | "
                     f"{spreaddata['ads_citations'][i]} | {spreaddata['inspire_citations'][i]} | {spreaddata['max_citations'][i]} |\n")
 
         # === Table: Year stats ===
@@ -1136,7 +1140,6 @@ if __name__ == "__main__":
         papers = ads_citations(papers,testing=testing)
         papers = inspire_citations(papers,testing=testing)
    
-        citations_markdown(papers)   
         parsepapers(papers)
         parsetalks(talks)
         metricspapers(papers)
@@ -1144,11 +1147,14 @@ if __name__ == "__main__":
         parsegroup(group)
         buildbib()
         
-        citationspreadsheet(papers)
 
         #For website
         markdownpapers(papers)
         markdowntalks(talks)
+        markdowncitations(papers)   
+
+        citationspreadsheet(papers)
+
 
     replacekeys()
     builddocs()
