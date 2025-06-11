@@ -2886,6 +2886,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "Then PhD student at SISSA (Trieste, Italy).", 
         "current":  True
         })
     
@@ -2910,6 +2911,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "Then PhD student at IFAE Barcelona (Spain).", 
         "current":  True
         })
     
@@ -2918,6 +2920,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "Then PhD student at SISSA (Trieste, Italy).", 
         "current":  False
         })
     
