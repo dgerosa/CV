@@ -871,6 +871,128 @@ def citationspreadsheet(papers):
     worksheet.update("B2",np.expand_dims(np.array(journalcount),1).tolist())
 
 
+
+
+import numpy as np
+
+def citations_markdown(papers, output_file="_citations.md"):
+    spreaddata = {
+        'first_author': [],
+        'ads_citations': [],
+        'inspire_citations': [],
+        'max_citations': [],
+        'title': [],
+        'journal': [],
+        'year': [],
+        'arxiv': [],
+    }
+
+    for k in papers:
+        for p in papers[k]['data']:
+            spreaddata['first_author'].append(p['author'].split(",")[0].split(".")[-1].strip().replace("`", ""))
+            spreaddata['ads_citations'].append(p['ads_citations'])
+            spreaddata['inspire_citations'].append(p['inspire_citations'])
+            spreaddata['max_citations'].append(max(p['ads_citations'], p['inspire_citations']))
+            spreaddata['title'].append(p['title'])
+
+            if p['journal']:
+                spreaddata['journal'].append(p['journal'].split("(")[0].replace("in press", "").rstrip(" 0123456789.,"))
+            elif p['arxiv']:
+                spreaddata['journal'].append('arXiv')
+            else:
+                spreaddata['journal'].append("")
+
+            if p['journal'] == "PhD thesis":
+                spreaddata['year'].append("2016")
+            elif p['journal'] and "(" in p['journal'] and ")" in p['journal']:
+                spreaddata['year'].append(p['journal'].split("(")[-1].split(")")[0])
+            elif p['arxiv']:
+                spreaddata['year'].append("20" + p['arxiv'].split(':')[1][:2])
+            else:
+                spreaddata['year'].append("")
+
+            if p['arxiv']:
+                spreaddata['arxiv'].append(p['arxiv'])  # Keep full for now
+            else:
+                spreaddata['arxiv'].append("")
+
+    # Sort by max citations
+    ind = np.argsort(spreaddata['max_citations'])[::-1]
+    for x in spreaddata:
+        spreaddata[x] = np.array(spreaddata[x])[ind]
+
+    def hindex(citations):
+        citations = np.sort(citations)[::-1]
+        return max([i + 1 for i in range(len(citations)) if citations[i] >= i + 1] + [0])
+
+    total_ads = np.sum(spreaddata['ads_citations'])
+    total_inspire = np.sum(spreaddata['inspire_citations'])
+    total_max = np.sum(spreaddata['max_citations'])
+    h_idx = hindex(spreaddata['max_citations'])
+
+    with open(output_file, "w") as f:
+        # === Summary ===
+        f.write("## Citation Summary\n\n")
+        f.write(f"- **Total ADS citations**: {total_ads}\n")
+        f.write(f"- **Total INSPIRE citations**: {total_inspire}\n")
+        f.write(f"- **Total MAX citations**: {total_max}\n")
+        f.write(f"- **h-index**: {h_idx}\n\n")
+
+        # === Table: List ===
+        f.write("## Paper List Sorted by Citation Count\n\n")
+        f.write("| # | Author | Year | Title | ADS | INSPIRE | MAX |\n")
+        f.write("|---|--------|------|-------|-----|---------|-----|\n")
+        for i in range(len(spreaddata['title'])):
+            f.write(f"| {i+1} | {spreaddata['first_author'][i]} | {spreaddata['year'][i]} | {spreaddata['title'][i]} | "
+                    f"{spreaddata['ads_citations'][i]} | {spreaddata['inspire_citations'][i]} | {spreaddata['max_citations'][i]} |\n")
+
+        # === Table: Year stats ===
+        f.write("\n## Citations per Year\n\n")
+        singleyear = sorted(set(spreaddata['year']))
+        yearcount = [np.sum(spreaddata['year'] == y) for y in singleyear]
+
+        f.write("| Year | Paper Count |\n")
+        f.write("|------|--------------|\n")
+        for y, c in zip(singleyear, yearcount):
+            f.write(f"| {y} | {c} |\n")
+
+        # === Table: Journals ===
+        f.write("\n## Journals\n\n")
+        shortpub = [convertjournal(j)[1] for j in spreaddata['journal']]
+        singlepub = sorted(set(shortpub), key=lambda s: -shortpub.count(s))
+
+        f.write("| Journal | Paper Count |\n")
+        f.write("|---------|--------------|\n")
+        for s in singlepub:
+            count = shortpub.count(s)
+            f.write(f"| {s} | {count} |\n")
+
+        # === Table: arXiv categories ===
+        f.write("\n## arXiv Categories\n\n")
+        arxiv = spreaddata['arxiv']
+        arxiv = arxiv[arxiv != ""]
+
+        def extract_category(arx):
+            if '/' in arx:  # old format: gr-qc/0410123
+                return arx.split('/')[0]
+            elif ':' in arx:  # new format: arXiv:1901.00001 [astro-ph.HE]
+                if '[' in arx:
+                    return arx.split('[')[1].split(']')[0]
+                else:
+                    return "unknown"
+            else:
+                return "unknown"
+
+        categories = np.array([extract_category(a) for a in arxiv])
+        unique_cats = sorted(set(categories), key=lambda c: -np.sum(categories == c))
+
+        f.write("| Category | Paper Count |\n")
+        f.write("|----------|--------------|\n")
+        for cat in unique_cats:
+            f.write(f"| {cat} | {np.sum(categories == cat)} |\n")
+
+    print(f"Markdown file written to: {output_file}")
+
 def builddocs():
 
     print("Update CV")
@@ -1005,8 +1127,7 @@ def clean():
 
 if __name__ == "__main__":
 
-    #markdowngroup(group)
-    #sys.exit()
+
 
     connected = True
     testing = False
@@ -1014,12 +1135,15 @@ if __name__ == "__main__":
         # Set testing=True to avoid API limit
         papers = ads_citations(papers,testing=testing)
         papers = inspire_citations(papers,testing=testing)
+   
+        citations_markdown(papers)   
         parsepapers(papers)
         parsetalks(talks)
         metricspapers(papers)
         metricstalks(talks)
         parsegroup(group)
         buildbib()
+        
         citationspreadsheet(papers)
 
         #For website
