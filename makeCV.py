@@ -875,9 +875,6 @@ def citationspreadsheet(papers):
 
 
 
-
-import numpy as np
-
 def markdowncitations(papers, output_file="_citations.md"):
     spreaddata = {
         'first_author': [],
@@ -922,9 +919,12 @@ def markdowncitations(papers, output_file="_citations.md"):
                 spreaddata['arxiv'].append("")
 
     # Sort by max citations
-    ind = np.argsort(spreaddata['max_citations'])[::-1]
+    years = np.array([int(y) for y in spreaddata['year']])
+    max_cits = np.array(spreaddata['max_citations'])
+    # lexsort sorts by last key first, so we pass (years, max_cits)
+    ind = np.lexsort(( -years, -max_cits ))
     for x in spreaddata:
-        spreaddata[x] = np.array(spreaddata[x])[ind]
+        spreaddata[x]=np.array(spreaddata[x])[ind]
 
     def hindex(citations):
         citations = np.sort(citations)[::-1]
@@ -1125,7 +1125,7 @@ def publishgithub():
 
 
 def clean():
-    os.system("rm *.aux *.log *.out")
+    os.system("rm -f .aux *.log *.out")
 
 
 #####################################
@@ -1134,34 +1134,30 @@ def clean():
 if __name__ == "__main__":
 
 
+    # Set testing=True to avoid API limit
+    testing = True
 
-    connected = True
-    testing = False
-    if connected:
-        # Set testing=True to avoid API limit
-        papers = ads_citations(papers,testing=testing)
-        papers = inspire_citations(papers,testing=testing)
-   
-        parsepapers(papers)
-        parsetalks(talks)
-        metricspapers(papers)
-        metricstalks(talks)
-        parsegroup(group)
-        buildbib()
-        
+    papers = ads_citations(papers,testing=testing)
+    papers = inspire_citations(papers,testing=testing)
 
-        #For website
-        markdownpapers(papers)
-        markdowntalks(talks)
-        markdowncitations(papers)   
+    parsepapers(papers)
+    parsetalks(talks)
+    metricspapers(papers)
+    metricstalks(talks)
+    parsegroup(group)
+    buildbib()
     
-        #citationspreadsheet(papers)
 
+    #For website
+    markdownpapers(papers)
+    markdowntalks(talks)
+    markdowncitations(papers)   
 
-    replacekeys()
-    builddocs()
+    #citationspreadsheet(papers)
 
-    if connected and not testing:
+    if not testing:
+        replacekeys()
+        builddocs()
         pushtogit()
         publishgithub()
         pushtowebsite()
