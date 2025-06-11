@@ -892,7 +892,9 @@ def markdowncitations(papers, output_file="_citations.md"):
 
     for k in papers:
         for p in papers[k]['data']:
-            spreaddata['first_author'].append(p['author'].split(",")[0].split(".")[-1].strip().replace("`", ""))
+            name = p['author'].split(",")[0].split(".")[-1].strip()
+            name = name.replace("\\`o", "o'")
+            spreaddata['first_author'].append(name)
             spreaddata['ads_citations'].append(p['ads_citations'])
             spreaddata['inspire_citations'].append(p['inspire_citations'])
             spreaddata['max_citations'].append(max(p['ads_citations'], p['inspire_citations']))
@@ -1152,8 +1154,8 @@ if __name__ == "__main__":
         markdownpapers(papers)
         markdowntalks(talks)
         markdowncitations(papers)   
-
-        citationspreadsheet(papers)
+    
+        #citationspreadsheet(papers)
 
 
     replacekeys()
