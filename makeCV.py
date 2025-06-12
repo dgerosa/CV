@@ -1097,7 +1097,7 @@ def pushtogit():
     os.system("git push")
 
 def pushtowebsite():
-    relativepathwebsiterepo = "../dgerosa.github.io"
+    relativepathwebsiterepo = "../website"
     comment='updated from dgerosa/cv'
     os.system("cp _*.md "+relativepathwebsiterepo+"/_pages/")
     os.system("git -C "+relativepathwebsiterepo+" add -u")
