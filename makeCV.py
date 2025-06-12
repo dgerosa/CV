@@ -738,9 +738,13 @@ def convertjournal(j):
 
 def apply_journal_conversion(lines):
     converted = []
+    # Sort tags by length descending
+    sorted_tags = sorted(journalconversion.keys(), key=len, reverse=True)
+
     for line in lines:
         new_line = line
-        for tag, (full_name, short_name) in journalconversion.items():
+        for tag in sorted_tags:
+            full_name, short_name = journalconversion[tag]
             if short_name == "book":
                 continue  # Skip conversion for 'book'
             if tag in new_line:
