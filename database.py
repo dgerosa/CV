@@ -85,17 +85,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory",
-        "author":   "G. Fumagalli, N. Loutrel, D. Gerosa, M. Boschini",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2502.06952 [gr-qc]",
-        "ads":      "2025arXiv250206952F",
-        "inspire":  "Fumagalli:2025rhc",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "A confirmed recoiling supermassive black hole in a powerful quasar",
         "author":   "M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, D. Gerosa, M. Konishi, S. Koyama, K. Kushibiki, E. Lambrides, E. T. Meyer, K. Motohara, M. Stiavelli, H. Takahashi, G. R. Tremblay, C. Norman",
         "journal":  "",
@@ -132,6 +121,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory",
+        "author":   "G. Fumagalli, N. Loutrel, D. Gerosa, M. Boschini",
+        "journal":  "\prd in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2502.06952 [gr-qc]",
+        "ads":      "2025arXiv250206952F",
+        "inspire":  "Fumagalli:2025rhc",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data.",
