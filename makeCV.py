@@ -957,7 +957,7 @@ def markdowncitations(papers, output_file="_citations.md"):
                     f"{spreaddata['ads_citations'][i]} | {spreaddata['inspire_citations'][i]} | {spreaddata['max_citations'][i]} |\n")
 
         # === Table: Year stats ===
-        f.write("\n## Citations per Year\n\n")
+        f.write("\n## Papers per year\n\n")
         singleyear = sorted(set(spreaddata['year']))
         yearcount = [np.sum(spreaddata['year'] == y) for y in singleyear]
 
@@ -967,7 +967,7 @@ def markdowncitations(papers, output_file="_citations.md"):
             f.write(f"| {y} | {c} |\n")
 
         # === Table: Journals ===
-        f.write("\n## Journals\n\n")
+        f.write("\n## Papers per journal\n\n")
         shortpub = [convertjournal(j)[1] for j in spreaddata['journal']]
         singlepub = sorted(set(shortpub), key=lambda s: -shortpub.count(s))
 
@@ -978,7 +978,7 @@ def markdowncitations(papers, output_file="_citations.md"):
             f.write(f"| {s} | {count} |\n")
 
         # === Table: arXiv categories ===
-        f.write("\n## arXiv Categories\n\n")
+        f.write("\n## Papers per arXiv category\n\n")
         arxiv = spreaddata['arxiv']
         arxiv = arxiv[arxiv != ""]
 
