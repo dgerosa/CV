@@ -2841,6 +2841,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "",
         "current":  True
         })
 
@@ -2849,6 +2850,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "",
         "current":  True
         })
     
@@ -2857,6 +2859,7 @@ if msc:
         "where":    "Milano-Bicocca and ESO Garching",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "",
         "current":  True
         })
     
@@ -2865,6 +2868,7 @@ if msc:
         "where":    "Milano-Bicocca and GSSI L'Aquila",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "",
         "current":  True
         })
     
@@ -2873,6 +2877,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "",
         "current":  True
         })
     
@@ -2881,6 +2886,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "",
         "current":  True
         })
     
@@ -2889,6 +2895,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "",
         "current":  True
         })
     
@@ -2906,6 +2913,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "",
         "current":  True
         })
     
@@ -2914,6 +2922,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "",
         "current":  True
         })
     
@@ -2940,6 +2949,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
+        "note":     "",
         "current":  False
         })
     

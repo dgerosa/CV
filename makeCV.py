@@ -1156,7 +1156,7 @@ if __name__ == "__main__":
     markdownpapers(papers)
     markdowntalks(talks)
     markdowncitations(papers)   
-
+    markdowngroup(group)
     #citationspreadsheet(papers)
 
     if not testing:
