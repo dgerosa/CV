@@ -2582,7 +2582,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Buchi neri ed onde gravitazionali (aka: ``Cosa racconto alla vostra prof. dopo una giornata di lavoro'')",
-        "where":    "Collegio San Carlo, Milan, Italy",
+        "what":     "Collegio San Carlo",
+        "where":    "Milan, Italy",
         "when":     "Jun 2024",
         "invited":  True,
         "more":     ""
@@ -2590,7 +2591,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Al confine fra astronomia e relativit\`a",
-        "where":    "Finals of the Italian Physics Olympiad, Senigallia, Italy",
+        "what":     "Finals of the Italian Physics Olympiad",
+        "where":    "Senigallia, Italy",
         "when":     "Apr 2024",
         "invited":  True,
         "more":     ""
@@ -2598,7 +2600,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Black holes on the way to merger",
-        "where":    "Cambridge University Astronomical Society, Cambridge, UK",
+        "what":     "Cambridge University Astronomical Society",
+        "where":    "Cambridge, UK",
         "when":     "Feb 2024",
         "invited":  True,
         "more":     ""
@@ -2606,7 +2609,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Gravity with some data science in the blender",
-        "where":    "Datrix Tech Dissemination, Milan, Italy, (online)",
+        "what":     "Datrix Tech Dissemination",
+        "where":    "Milan, Italy, (online)",
         "when":     "Oct 2023",
         "invited":  True,
         "more":     ""
@@ -2614,7 +2618,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Hands-on astrophysics. Il ruolo del ricercatore",
-        "where":    "Italian Association of Physics Students (AISF), Milan, Italy",
+        "what":     "Italian Association of Physics Students (AISF)",
+        "where":    "Milan, Italy",
         "when":     "May 2023",
         "invited":  True,
         "more":     ""
@@ -2622,7 +2627,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Gravity explorers",
-        "where":    "Istituto Svizzero, Milan, Italy",
+        "what":     "Istituto Svizzero",
+        "where":    "Milan, Italy",
         "when":     "Mar 2023",
         "invited":  True,
         "more":     ""
@@ -2630,7 +2636,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Onde gravitazionali, buchi neri e dove trovarli",
-        "where":    "Fondazione Sacro Cuore, Milan, Italy",
+        "what":     "Fondazione Sacro Cuore",
+        "where":    "Milan, Italy",
         "when":     "Sep 2022",
         "invited":  True,
         "more":     ""
@@ -2638,7 +2645,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Quando la gravit\`a viaggia",
-        "where":    "Astronomiamo Association, Italy, (online)",
+        "what":     "Astronomiamo Association, Italy",
+        "where":    "(online)",
         "when":     "Mar 2022",
         "invited":  True,
         "more":     ""
@@ -2647,7 +2655,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Hearing the Universe with gravitational waves",
-        "where":    "Bromsgrove Astronomical Society, Bromsgrove, UK, (online)",
+        "what":     "Bromsgrove Astronomical Society",
+        "where":    "Bromsgrove, UK, (online)",
         "when":     "Jun 2021",
         "invited":  True,
         "more":     ""
@@ -2655,7 +2664,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Esplorare l'Universo con le onde gravitazionali",
-        "where":    "Settimana dell'Astronomia, Fondazione Lombardia per l'Ambiente, Italy, (online)",
+        "what":     "Settimana dell'Astronomia, Fondazione Lombardia per l'Ambiente",
+        "where":    "Italy, (online)",
         "when":     "Apr 2021",
         "invited":  True,
         "more":     ""
@@ -2663,7 +2673,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Can black-hole binaries really make it?",
-        "where":    "University of Birmingham Astronomical Student Society,  Birmingham, UK, (online)",
+        "what":     "University of Birmingham Astronomical Student Society",
+        "where":    "Birmingham, UK, (online)",
         "when":     "Mar 2021",
         "invited":  True,
         "more":     ""
@@ -2671,7 +2682,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "The (gravitational) sound of the Universe",
-        "where":    "Institute of Physics (IoP) Lecture Series, UK, (online)",
+        "what":     "Institute of Physics (IoP) Lecture Series",
+        "where":    "UK, (online)",
         "when":     "Dec 2020",
         "invited":  True,
         "more":     ""
@@ -2679,7 +2691,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Looking at the Universe with gravity",
-        "where":    "Marling School visit, Birmingham, UK",
+        "what":     "Marling School visit",
+        "where":    "Birmingham, UK",
         "when":     "Feb 2020",
         "invited":  True,
         "more":     ""
@@ -2687,7 +2700,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Somewhere in between astronomy and relativity",
-        "where":    "Astronomy in the City, Birmingham, UK",
+        "what":     "Astronomy in the City",
+        "where":    "Birmingham, UK",
         "when":     "Jan 2020",
         "invited":  True,
         "more":     ""
@@ -2695,7 +2709,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Gravitational waves: somewhere between astronomy and relativity",
-        "where":    "Malvern Physics Olympics, Great Malvern, UK",
+        "what":     "Malvern Physics Olympics",
+        "where":    "Great Malvern, UK",
         "when":     "Oct 2019",
         "invited":  True,
         "more":     ""
@@ -2703,7 +2718,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Ride the wave (with gravity)",
-        "where":    "Physics Day Experience, Birmingham, UK",
+        "what":     "Physics Day Experience",
+        "where":    "Birmingham, UK",
         "when":     "Jun 2019",
         "invited":  True,
         "more":     ""
@@ -2711,7 +2727,8 @@ if outreach:
 
     talks['outreach']['data'].append({
         "title":    "Onde gravitazionali: ascoltare l'Universo (anzich\\'e solo vederlo?)",
-        "where":    "Liceo Candia and Liceo Frassati, Seregno, Italy",
+        "what":     "Liceo Candia and Liceo Frassati",
+        "where":    "Seregno, Italy",
         "when":     "Jan 2018",
         "invited":  True,
         "more":     ""
