@@ -2505,7 +2505,8 @@ if posters:
 
     talks['posters']['data'].append({
         "title":    "Exploitation of gravitational-wave data",
-        "where":    "Milano-Bicocca Physics Department 25th anniversary, Milan, Italy",
+        "where":    "Milano-Bicocca Physics Department 25th anniversary",
+        "where":    "Milan, Italy",
         "when":     "Sep 2024",
         "invited":  True,
         "more":     ""
@@ -2513,7 +2514,8 @@ if posters:
 
     talks['posters']['data'].append({
         "title":    "PRECESSION: efficient black-hole binary evolution with python",
-        "where":    "Mathematics and Big Data showcase, Cambridge, UK",
+        "what":     "Mathematics and Big Data showcase, University of Cambridge",
+        "where":    "Cambridge, UK",
         "when":     "Apr 2016",
         "invited":  False,
         "more":     ""
@@ -2521,7 +2523,8 @@ if posters:
 
     talks['posters']['data'].append({
         "title":    "Numerical relativity group at University of Cambridge",
-        "where":    "Einstein's Legacy: celebrating 100 years of general relativity, London, UK",
+        "what":     "Einstein's Legacy: celebrating 100 years of general relativity",
+        "where":    "London, UK",
         "when":     "Nov 2015",
         "invited":  True,
         "more":     ""
@@ -2529,7 +2532,8 @@ if posters:
 
     talks['posters']['data'].append({
         "title":    "Formation and evolution of compact objects in relativity and modified gravity",
-        "where":    "5th DiRAC Science Day, Cambridge, UK",
+        "what":     "5th DiRAC Science Day",
+        "where":    "Cambridge, UK",
         "when":     "Sep 2015",
         "invited":  True,
         "more":     ""
@@ -2537,7 +2541,8 @@ if posters:
 
     talks['posters']['data'].append({
         "title":    "New analytic solutions to binary black-hole dynamics: from spin precession to inspiral",
-        "where":    "Eurostrings 2015, Cambridge, UK",
+        "what":     "Eurostrings 2015",
+        "where":    "Cambridge, UK",
         "when":     "Mar 2015",
         "invited":  False,
         "more":     ""
@@ -2545,15 +2550,17 @@ if posters:
 
     talks['posters']['data'].append({
         "title":    "Analytic solutions to binary black-hole spin precession: recalling Kepler's two-body problem",
-        "where":    "Compact objects as astrophysical and gravitational probes, Leiden, The Netherlands",
-        "when":    "Jan 2015",
+        "what":     "Compact objects as astrophysical and gravitational probes",
+        "where":    "Leiden, The Netherlands",
+        "when":     "Jan 2015",
         "invited":  True,
         "more":     "\\textbf{Best  presentation award}"
         })
 
     talks['posters']['data'].append({
         "title":    "Efficient precession-averaged evolution of spinning black-hole binaries",
-        "where":    "RAS Specialist Meeting -- Towards gravitational-wave astronomy: data analysis techniques and challenges, London, UK",
+        "what":     "RAS Specialist Meeting -- Towards gravitational-wave astronomy: data analysis techniques and challenges",
+        "where":    "London, UK",
         "when":     "Dec 2014",
         "invited":  False,
         "more":     ""
@@ -2561,7 +2568,8 @@ if posters:
 
     talks['posters']['data'].append({
         "title":    "Morphologies and binary transfer: a new approach to the post-newtonian dynamics of precessing black-holes binaries",
-        "where":    "DPG Physics School ``General Relativity @99'', Bad Honnef, Germany",
+        "what":     "DPG Physics School ``General Relativity @99''",
+        "where":    "Bad Honnef, Germany",
         "when":     "Sep 2014",
         "invited":  False,
         "more":     ""
