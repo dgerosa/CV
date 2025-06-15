@@ -2422,7 +2422,7 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Spin-orbit resonances: unveiling black-hole binary dynamics on both stellar-mass and supermassive scale",
-        "where":    "GR seminars, Department Applied Mathematics and Theoretical Physics, University of Cambridge",
+        "what":    "GR seminars, Department Applied Mathematics and Theoretical Physics, University of Cambridge",
         "where":    "Cambridge, UK",
         "when":     "May 2014",
         "invited":  True,
@@ -2431,7 +2431,7 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Spin alignment and resonant plane in stellar mass black hole binaries",
-        "what":     "Lunch talks, Leiden Observatory"
+        "what":     "Lunch talks, Leiden Observatory",
         "where":    "Leiden, The Netherlands",
         "when":     "Jan 2012",
         "invited":  True,
@@ -2445,7 +2445,7 @@ if lectures:
 
     talks['lectures']['data'].append({
         "title":    "Tips on academic job applications for early career scientists",
-        "what":     "Gravitational-wave early-career scientists (GWECS) online talks"
+        "what":     "Gravitational-wave early-career scientists (GWECS) online talks",
         "where":    "(online)",
         "when":     "Nov 2024",
         "invited":  True,
@@ -2455,7 +2455,7 @@ if lectures:
     talks['lectures']['data'].append({
         "title":    "My thoughts on the academic job market",
         "what":     "IPTA Student Week 2024",
-        "whre":     "Milan, Italy",
+        "where":     "Milan, Italy",
         "when":     "Jun 2024",
         "invited":  True,
         "more":     ""
@@ -2505,7 +2505,7 @@ if posters:
 
     talks['posters']['data'].append({
         "title":    "Exploitation of gravitational-wave data",
-        "where":    "Milano-Bicocca Physics Department 25th anniversary",
+        "what":    "Milano-Bicocca Physics Department 25th anniversary",
         "where":    "Milan, Italy",
         "when":     "Sep 2024",
         "invited":  True,
@@ -2756,7 +2756,7 @@ if fellowships:
         "where":       "Milano-Bicocca",
         "fellowship":  "ERC Marie Skłodowska-Curie Fellow",
         "start":       "2023",
-        "end":          "current",
+        "end":         "current",
         "bio":         "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
         "email":       "arianna.renzini@unimib.it",
         "current":      True

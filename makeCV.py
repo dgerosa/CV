@@ -324,6 +324,7 @@ def parsetalks(talks,filename="parsetalks.tex"):
                 mark=""
             out.append("\\textbf{"+str(i)+".} & "+mark+" & \\textit{"+p['title'].strip(".")+".}")
             out.append("\\newline{}")
+            print(p['title'])
             out.append(p['what'].strip(".")+", "+p['where'].strip(".")+", "+p['when'].strip(".")+".")
             if p['more']:
                 out.append("\\newline{}")
@@ -1158,7 +1159,7 @@ if __name__ == "__main__":
 
 
     # Set testing=True to avoid API limit
-    testing = True
+    testing = False
 
     papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)
