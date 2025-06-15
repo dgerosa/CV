@@ -405,8 +405,11 @@ def markdowngroup(group, filename="_group.md"):
     out = []
 
     # Intro
-    out.append("Here are the amazing people in my group. Come visit and chat science with us!")
+    out.append("Here are the amazing people in my group. Come visit and chat science with us! If you're interested in joining, please check out the [jobs](/jobs) page.")
     out.append("")
+    #out.append("<br>")
+    #out.append("")
+    out.append("## Current group members")
 
     # CURRENT MEMBERS
     merged_current = []
@@ -441,14 +444,32 @@ def markdowngroup(group, filename="_group.md"):
 
     merged_current = sorted(merged_current, key=lambda x: x["order"])
 
+ #   for x in merged_current:
+ #       out.append(f"**{x['name']}**  ")
+ #       out.append(f"*{x['role']}*;  ")
+ #       if x['email']:
+ #           out[-1] += f"[{x['email']}](mailto:{x['email']})  "
+ #       if x['bio']:
+ #           out.append(f"{x['bio']}")
+ #       out.append("")
+
+    out.append("<div class=\"people-list\">")
     for x in merged_current:
-        out.append(f"**{x['name']}**  ")
-        out.append(f"*{x['role']}*;  ")
-        if x['email']:
-            out[-1] += f"[{x['email']}](mailto:{x['email']})  "
+        out.append(f"<div class=\"person\">")
+        out.append(f"  <img src=\"{{{{ '/images/{slugify(x['name'])}.jpg' | relative_url }}}}\" alt=\"{x['name']}\" class=\"person-photo\">")
+        out.append(f"  <div class=\"person-text\">")
+        out.append(f"    <strong>{x['name']}</strong><br>")
+        out.append(f"    {x['role']}<br>")
+        if x['email']:        
+            #out[-1] += f"[{x['email']}](mailto:{x['email']})  "
+            #Link in html format
+            out.append(f"<a href=\"mailto:{x['email']}\">{x['email']}</a><br>")
         if x['bio']:
-            out.append(f"{x['bio']}")
-        out.append("")
+            out.append(f"    <em>{x['bio']}</em>")
+        out.append(f"  </div>") 
+        out.append(f"</div>")
+    out.append("</div>")
+
 
     # MSc and BSc current
     msc_current = [x for x in group['msc']['data'] if x.get("current", False)]
@@ -467,7 +488,7 @@ def markdowngroup(group, filename="_group.md"):
     out.append("<br>")
     out.append("")
     out.append("---")
-    out.append("<br>")
+    #out.append("<br>")
     out.append("")
 
     # FORMER MEMBERS
@@ -700,8 +721,6 @@ def parsegroup(group,filename="parsegroup.tex"):
                 out.append(line)           
 
     with open(filename,"w") as f: f.write("\n".join(out))
-
-import re
 
 
 # Declare the dictionary outside
@@ -1001,7 +1020,7 @@ def markdowncitations(papers, output_file="_citations.md"):
         for cat in unique_cats:
             f.write(f"| {cat} | {np.sum(categories == cat)} |\n")
 
-    print(f"Markdown file written to: {output_file}")
+    print(f"Markdown citation list for website")
 
 def builddocs():
 
