@@ -324,7 +324,7 @@ def parsetalks(talks,filename="parsetalks.tex"):
                 mark=""
             out.append("\\textbf{"+str(i)+".} & "+mark+" & \\textit{"+p['title'].strip(".")+".}")
             out.append("\\newline{}")
-            out.append(p['where'].strip(".")+", "+p['when'].strip(".")+".")
+            out.append(p['what'].strip(".")+", "+p['where'].strip(".")+", "+p['when'].strip(".")+".")
             if p['more']:
                 out.append("\\newline{}")
                 out.append("\\textcolor{color1}{$\\bullet$} "+p['more'].strip(".")+".")
@@ -378,7 +378,7 @@ def markdowntalks(talks, filename="_talks.md"):
         for p in talks[k]['data']:
             mark = "✦ " if p.get("invited", False) else ""
             out.append(f"**{i}.** {mark}*{p['title'].strip('.')}*  \\\\")
-            out.append(f"{p['where'].strip('.')}, {p['when'].strip('.')}.")
+            out.append(f"{p['what'].strip('.')}, {p['where'].strip('.')}, {p['when'].strip('.')}.")
             if p['more']:
                 out[-1] += "  \\\\"
                 more = re.sub(r'\\textbf{(.*?)}', r'\1', p['more'].strip("."))
@@ -1158,7 +1158,7 @@ if __name__ == "__main__":
 
 
     # Set testing=True to avoid API limit
-    testing = False
+    testing = True
 
     papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)

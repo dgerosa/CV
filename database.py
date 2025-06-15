@@ -1352,7 +1352,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Machine learning in gravitational-wave population inference",
-        "where":    "Scientific Machine Learning for Gravitational Wave Astronomy, Providence RI, USA",
+        "what":     "Scientific Machine Learning for Gravitational Wave Astronomy",
+        "where":    "Providence RI, USA",
         "when":     "Jun 2025",
         "invited":  True,
         "more":     ""
@@ -1360,7 +1361,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Black holes and gravitational waves are discovered (also) with Python!",
-        "where":    "PyCon Italia 2025, Bologna, Italy",
+        "what":     "PyCon Italia 2025",
+        "where":    "Bologna, Italy",
         "when":     "May 2025",
         "invited":  False,
         "more":     ""
@@ -1368,7 +1370,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "We observe compact binaries but are interested in single objects, this is hard",
-        "where":    "Theoretical Horizons in Unraveling Relativity, Astrophysics, and Mergers (THURAM), L'Aquila, Italy",
+        "what":     "Theoretical Horizons in Unraveling Relativity, Astrophysics, and Mergers (THURAM)",
+        "where":    "L'Aquila, Italy",
         "when":     "May 2025",
         "invited":  False,
         "more":     ""
@@ -1376,7 +1379,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Spin the black circle",
-        "where":    "Stellar black hole formation and detection, Kyoto, Japan",
+        "what":     "Stellar black hole formation and detection",
+        "where":    "Kyoto, Japan",
         "when":     "Mar 2025",
         "invited":  True,
         "more":     ""
@@ -1384,7 +1388,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "It’s not at all trivial to say which is BH1 and which is BH2.",
-        "where":    "Gravitational-wave snowballs, populations, and models, Sexten, Italy",
+        "what":     "Gravitational-wave snowballs, populations, and models",
+        "where":    "Sexten, Italy",
         "when":     "Jan 2025",
         "invited":  False,
         "more":     ""
@@ -1392,7 +1397,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "36 186: the kick strikes back",
-        "where":    "6th Milan Christmas Workshop, Milan, Italy",
+        "what":    "6th Milan Christmas Workshop",
+        "where":    "Milan, Italy",
         "when":     "Dec 2024",
         "invited":  True,
         "more":     ""
@@ -1400,7 +1406,8 @@ if conferences:
 
     talks['conferences']['data'].append({  
         "title":    "Merge many times",
-        "where":    "Spanish and Portuguese Relativity Meeting (EREP 2024), Coimbra, Portugal",
+        "what":     "Spanish and Portuguese Relativity Meeting (EREP 2024)",
+        "where":    "Coimbra, Portugal",
         "when":     "Jul 2024",
         "invited":  True,
         "more":     ""
@@ -1408,7 +1415,8 @@ if conferences:
 
     talks['conferences']['data'].append({    
         "title":    "One population fit to rule them all",
-        "where":    "Emerging methods in gravitational-wave population inference, Trieste, Italy",
+        "what":     "Emerging methods in gravitational-wave population inference",
+        "where":    "Trieste, Italy",
         "when":     "Jun 2024",
         "invited":  True,
         "more":     ""
@@ -1416,7 +1424,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Gravitational-wave selection effects, the easy way",
-        "where":    "Linking Advances in our Understanding of Theoretical Astrophysics and Relativity to Observations (LAUTARO), Milan, Italy",
+        "what":     "Linking Advances in our Understanding of Theoretical Astrophysics and Relativity to Observations (LAUTARO)",
+        "where":    "Milan, Italy",
         "when":     "Apr 2024",
         "invited":  False,
         "more":     ""
@@ -1424,7 +1433,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Quasar 3C186 as a recoiling massive black hole: still possible but unlikely",
-        "where":    "April APS Meeting, Sacramento CA, USA",
+        "what":     "April APS Meeting",
+        "where":    "Sacramento CA, USA",
         "when":     "Apr 2024",
         "invited":  False,
         "more":     ""
@@ -1432,7 +1442,8 @@ if conferences:
     
     talks['conferences']['data'].append({
         "title":    "Black-hole generations in AGN disks",
-        "where":    "TEONGRAV meeting, Naples, Italy",
+        "what":     "TEONGRAV meeting",
+        "where":    "Naples, Italy",
         "when":     "Dec 2023",
         "invited":  False,
         "more":     ""
@@ -1440,7 +1451,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Correlated black holes from AGN disks",
-        "where":    "5th Milan Christmas Workshop, Milan, Italy",
+        "what":     "5th Milan Christmas Workshop",
+        "where":    "Milan, Italy",
         "when":     "Dec 2023",
         "invited":  True,
         "more":     ""
@@ -1448,7 +1460,8 @@ if conferences:
     
     talks['conferences']['data'].append({
         "title":    "The masses and spins of LIGO's black holes are correlated… here is a disk explanation",
-        "where":    "RESCEU-NBIA workshop on gravitational-wave sources, Tokyo, Japan",
+        "what":     "RESCEU-NBIA workshop on gravitational-wave sources",
+        "where":    "Tokyo, Japan",
         "when":     "Dec 2023",
         "invited":  True,
         "more":     ""
@@ -1456,7 +1469,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Gravitational waves: figuring out what’s missing",
-        "where":    "6th World Laureates Forum, Shanghai, China",
+        "what":     "6th World Laureates Forum",
+        "where":    "Shanghai, China",
         "when":     "Nov 2023",
         "invited":  True,
         "more":     ""
@@ -1465,7 +1479,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "A lonely gravitational wave",
-        "where":    "LISA Astrophysics Working Group Meeting, Milan, Italy",
+        "what":     "LISA Astrophysics Working Group Meeting",
+        "where":    "Milan, Italy",
         "when":     "Sep 2023",
         "invited":  False,
         "more":     ""
@@ -1473,7 +1488,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Eccentricity, spin precession, and gravitational-wave signals that are too short",
-        "where":    "15th Edoardo Amaldi Conference, (online)",
+        "what":     "15th Edoardo Amaldi Conference",
+        "where":    "(online)",
         "when":     "Jul 2023",
         "invited":  False,
         "more":     ""
@@ -1481,7 +1497,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "When orbital eccentricity and spin precession are kind of the same",
-        "where":    "April APS Meeting, Minneapolis MN, USA",
+        "what":     "April APS Meeting",
+        "where":    "Minneapolis MN, USA",
         "when":     "Apr 2023",
         "invited":  False,
         "more":     ""
@@ -1489,7 +1506,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "The black-hole binary formation-channel problem in gravitational-wave astronomy",
-        "where":    "57th Rencontres de Moriond - Gravitation, La Thuile, Italy",
+        "what":     "57th Rencontres de Moriond - Gravitation",
+        "where":    "La Thuile, Italy",
         "when":     "Mar 2023",
         "invited":  True,
         "more":     ""
@@ -1497,7 +1515,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "You’ll never merge alone",
-        "where":    "Unsolved problems in astrophysics and cosmology, Jerusalem, Israel",
+        "what":     "Unsolved problems in astrophysics and cosmology",
+        "where":    "Jerusalem, Israel",
         "when":     "Dec 2022",
         "invited":  True,
         "more":     ""
@@ -1505,7 +1524,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Characterization of LIGO/Virgo selection effects with neural networks",
-        "where":    "Machine learning in GW search: g2net next challenges, Pisa, Italy",
+        "what":     "Machine learning in GW search: g2net next challenges",
+        "where":    "Pisa, Italy",
         "when":     "Sep 2022",
         "invited":  False,
         "more":     ""
@@ -1513,7 +1533,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Machine learning and the origin of LIGO's black holes",
-        "where":    "31th Texas Symposium on Relativistic Astrophysics, Prague, Czechia",
+        "what":     "31th Texas Symposium on Relativistic Astrophysics",
+        "where":    "Prague, Czechia",
         "when":     "Sep 2022",
         "invited":  False,
         "more":     ""
@@ -1521,7 +1542,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Gravitational-wave populations with a pinch of deep learning",
-        "where":    "23nd International Conference on General Relativity and Gravitation (GR23), Beijing, China, (online)",
+        "what":     "23nd International Conference on General Relativity and Gravitation (GR23)",
+        "where":    "Beijing, China, (online)",
         "when":     "Jul 2022",
         "invited":  True,
         "more":     ""
@@ -1529,7 +1551,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Accretion disks around supermassive black-hole binaries can break",
-        "where":    "EuCAPT workshop: Gravitational-wave probes of black hole environments, Rome, Italy",
+        "what":     "EuCAPT workshop: Gravitational-wave probes of black hole environments",
+        "where":    "Rome, Italy",
         "when":     "Jun 2022",
         "invited":  False,
         "more":     ""
@@ -1537,7 +1560,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Black-hole binary spin precession: new theoretical predictions and current observational evidence",
-        "where":    "9th KAGRA international workshop, Beijing, China, (online)",
+        "what":     "9th KAGRA international workshop",
+        "where":    "Beijing, China, (online)",
         "when":     "Jun 2022",
         "invited":  True,
         "more":     ""
@@ -1546,7 +1570,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "A deep-learning solution to the gravitational-wave population problem",
-        "where":    "NBIA Workshop on black-hole dynamics: from gaseous environments to empty space, Copenhagen, Denmark",
+        "what":     "NBIA Workshop on black-hole dynamics: from gaseous environments to empty space",
+        "where":    "Copenhagen, Denmark",
         "when":     "Jun 2022",
         "invited":  True,
         "more":     ""
@@ -1554,7 +1579,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Gravitational-wave populations and black-hole spin time travel",
-        "where":    "April APS Meeting, New York NY, USA",
+        "what":     "April APS Meeting",
+        "where":    "New York NY, USA",
         "when":     "Apr 2022",
         "invited":  False,
         "more":     ""
@@ -1562,7 +1588,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "I've seen a deviation from General Relativity: do you believe me?",
-        "where":    "4th Milan Christmas Workshop, Milan, Italy",
+        "what":     "4th Milan Christmas Workshop",
+        "where":    "Milan, Italy",
         "when":     "Dec 2021",
         "invited":  True,
         "more":     ""
@@ -1570,7 +1597,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Filling the gap with hierarchical black-hole mergers",
-        "where":    "4th World Laureates Forum, Shanghai, China, (online)",
+        "what":     "4th World Laureates Forum",
+        "where":    "Shanghai, China, (online)",
         "when":     "Nov 2021",
         "invited":  True,
         "more":     ""
@@ -1578,7 +1606,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Inspiral, merge, repeat: hierarchical black-hole mergers and their gravitational-wave signatures",
-        "where":    "XXIV SIGRAV Conference 2021, Urbino, Italy",
+        "what":     "XXIV SIGRAV Conference 2021",
+        "where":    "Urbino, Italy",
         "when":     "Sep 2021",
         "invited":  True,
         "more":     ""
@@ -1586,7 +1615,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Two precessing spins and how to find them",
-        "where":    "14th Edoardo Amaldi Conference, Melbourne, Australia, (online)",
+        "what":     "14th Edoardo Amaldi Conference",
+        "where":    "Melbourne, Australia, (online)",
         "when":     "Jul 2021",
         "invited":  False,
         "more":     ""
@@ -1594,7 +1624,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Waveform systematics and gravitational-wave catalogs",
-        "where":    "2nd European Physical Society Conference on Gravitation: measuring gravity, London, UK, (online)",
+        "what":     "2nd European Physical Society Conference on Gravitation: measuring gravity",
+        "where":    "London, UK, (online)",
         "when":     "Jul 2021",
         "invited":  False,
         "more":     ""
@@ -1602,7 +1633,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Probing warped accretion disks with gravitational-wave observations of supermassive black-hole mergers",
-        "where":    "European Astronomical Society Annual Meeting (EAS2021), Leiden, The Netherlands, (online)",
+        "what":     "European Astronomical Society Annual Meeting (EAS2021)",
+        "where":    "Leiden, The Netherlands, (online)",
         "when":     "Jun 2021",
         "invited":  False,
         "more":     ""
@@ -1610,7 +1642,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Hierarchical black-hole mergers in the LIGO/Virgo band",
-        "where":    "Gravitational Wave Astrophysics Conference 2021, Hefei, China, (online)",
+        "what":     "Gravitational Wave Astrophysics Conference 2021",
+        "where":    "Hefei, China, (online)",
         "when":     "Jun 2021",
         "invited":  True,
         "more":     ""
@@ -1618,7 +1651,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Testing GR? Keep calm and mind the waveform.",
-        "where":    "24rd Capra Meeting on Radiation Reaction in General Relativity, Waterloo, Canada, (online)",
+        "what":     "24rd Capra Meeting on Radiation Reaction in General Relativity",
+        "where":    "Waterloo, Canada, (online)",
         "when":     "Jun 2021",
         "invited":  False,
         "more":     ""
@@ -1626,7 +1660,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Warped accretion disks with LISA",
-        "where":    "Distorted astrophysical discs: new insights and future directions, Cambridge, UK (online)",
+        "what":     "Distorted astrophysical discs: new insights and future directions",
+        "where":    "Cambridge, UK, (online)",
         "when":     "May 2021",
         "invited":  False,
         "more":     ""
@@ -1634,7 +1669,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Detectability of gravitational-wave signals with neural-network classifiers",
-        "where":    "RAS Specialist Meeting -- Machine learning and artificial intelligence applied to astronomy 2, (online)",
+        "what":     "RAS Specialist Meeting -- Machine learning and artificial intelligence applied to astronomy 2",
+        "where":    "London, UK, (online)",
         "when":     "May 2021",
         "invited":  False,
         "more":     ""
@@ -1642,7 +1678,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Transitioning to research independence in gravitational-wave astronomy (my own view on postdoc and grant applications)",
-        "where":    "Gravitational Wave Astrophysics for Early Career Scientists, Leiden, The Netherlands, (online)",
+        "what":     "Gravitational Wave Astrophysics for Early Career Scientists",
+        "where":    "Leiden, The Netherlands, (online)",
         "when":     "May 2021",
         "invited":  True,
         "more":     ""
@@ -1650,7 +1687,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Can a computer learn if LIGO and Virgo will observe gravitational waves?",
-        "where":    "April APS Meeting, (online)",
+        "what":     "APS April Meeting",
+        "where":    "(online)",
         "when":     "Apr 2021",
         "invited":  False,
         "more":     ""
@@ -1658,7 +1696,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "A self-consistent treatment of warped accretion disks surrounding spinning supermassive black holes",
-        "where":    "Science at the Horizon: the Next-Generation EHT, (online)",
+        "what":     "Science at the Horizon: the Next-Generation Event Horizon Telescope",
+        "where":    "(online)",
         "when":     "Feb 2021",
         "invited":  False,
         "more":     ""
@@ -1666,7 +1705,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Astrophysical black-hole binaries: the elephant in the room",
-        "where":    "Primordial black holes confront gravitational-wave data, Rome, Italy, (online)",
+        "what":     "Primordial black holes confront gravitational-wave data",
+        "where":    "Rome, Italy, (online)",
         "when":     "Feb 2021",
         "invited":  True,
         "more":     ""
@@ -1674,7 +1714,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Black holes, gravitational waves, and the BEARs",
-        "where":    "10th Birmingham Environment for Academic Research (BEAR) Conference, Birmingham, UK, (online)",
+        "what":     "10th Birmingham Environment for Academic Research (BEAR) Conference",
+        "where":    "Birmingham, UK, (online)",
         "when":     "Sep 2020",
         "invited":  True,
         "more":     ""
@@ -1682,7 +1723,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Warped accretion discs, black-hole spins, and LISA",
-        "where":    "13th LISA Symposium, (online)",
+        "what":     "13th LISA Symposium",
+        "where":    "(online)",
         "when":     "Sep 2020",
         "invited":  False,
         "more":     ""
@@ -1690,7 +1732,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Multi-timescale post-Newtonian dynamics of spinning black-hole binaries: a status update",
-        "where":    "23rd Capra Meeting on Radiation Reaction in General Relativity, Austin TX, USA, (online)",
+        "what":     "23rd Capra Meeting on Radiation Reaction in General Relativity",
+        "where":    "Austin TX, USA, (online)",
         "when":     "Jun 2020",
         "invited":  False,
         "more":     ""
@@ -1698,7 +1741,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "An attempt to navigate the astro job market",
-        "where":    "LISA Early Career Scientists (LECS) training workshop (online)",
+        "what":     "LISA Early Career Scientists (LECS) training workshop",
+        "where":    "(online)",
         "when":     "Jun 2020",
         "invited":  True,
         "more":     ""
@@ -1706,7 +1750,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Second-generation black holes, the pair-instability mass gap, and the escape speed of stellar clusters",
-        "where":    "30th Texas Symposium on Relativistic Astrophysics, Portsmouth, UK",
+        "what":     "30th Texas Symposium on Relativistic Astrophysics",
+        "where":    "Portsmouth, UK",
         "when":     "Dec 2019",
         "invited":  False,
         "more":     ""
@@ -1714,23 +1759,17 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Testing the no-hair theorem with multiband black-hole binaries",
-        "where":    "30th Texas Symposium on Relativistic Astrophysics, Portsmouth, UK",
+        "what":     "30th Texas Symposium on Relativistic Astrophysics",
+        "where":    "Portsmouth, UK",
         "when":     "Dec 2019",
         "invited":  False,
         "more":     ""
         })
 
     talks['conferences']['data'].append({
-        "title":    "Multiband gravitational-wave (astro)physics",
-        "where":    "Gravitational-wave Excellence through Alliance Training (GrEAT) PhD school, Birmingham, UK",
-        "when":     "Nov 2019",
-        "invited":  False,
-        "more":     ""
-        })
-
-    talks['conferences']['data'].append({
         "title":    "Pick the right one: Bayesian model selection on catalogs of gravitational-wave events",
-        "where":    "22nd International Conference on General Relativity and Gravitation (GR22) and 13th Edoardo Amaldi Conference, Valencia, Spain",
+        "what":     "22nd International Conference on General Relativity and Gravitation (GR22) and 13th Edoardo Amaldi Conference",
+        "where":    "Valencia, Spain",
         "when":     "Jul 2019",
         "invited":  False,
         "more":     ""
@@ -1738,7 +1777,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Space-ground multiband detections. How many?",
-        "where":    "22nd International Conference on General Relativity and Gravitation (GR22) and 13th Edoardo Amaldi Conference, Valencia, Spain",
+        "what":     "22nd International Conference on General Relativity and Gravitation (GR22) and 13th Edoardo Amaldi Conference",
+        "where":    "Valencia, Spain",
         "when":     "Jul 2019",
         "invited":  False,
         "more":     ""
@@ -1746,7 +1786,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Black-hole kicks: how and where",
-        "where":    "Taipei Gravitational Wave Group (TGWG) Conference, Taipei, Taiwan",
+        "what":     "Taipei Gravitational Wave Group (TGWG) Conference",
+        "where":    "Taipei, Taiwan",
         "when":     "Oct 2018",
         "invited":  True,
         "more":     ""
@@ -1754,7 +1795,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Forming binary black holes out of stars",
-        "where":    "Taipei Gravitational Wave Group (TGWG) Conference, Taipei, Taiwan",
+        "what":     "Taipei Gravitational Wave Group (TGWG) Conference",
+        "where":    "Taipei, Taiwan",
         "when":     "Oct 2018",
         "invited":  True,
         "more":     ""
@@ -1762,7 +1804,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Getting ready: exploit LISA to improve LIGO's tests of General Relativity",
-        "where":    "Einstein Fellows Symposium 2018, Cambridge MA, USA",
+        "what":     "Einstein Fellows Symposium 2018",
+        "where":    "Cambridge MA, USA",
         "when":     "Oct 2018",
         "invited":  True,
         "more":     ""
@@ -1770,7 +1813,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Runaways: recoiling black holes and their gravitational-wave signatures",
-        "where":    "COSPAR 2018 42nd assembly, Pasadena CA, USA",
+        "what":     "COSPAR 2018 42nd assembly",
+        "where":    "Pasadena CA, USA",
         "when":     "Jul 2018",
         "invited":  False,
         "more":     ""
@@ -1778,7 +1822,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "An unprecedented opportunity: black-hole spectroscopy with LISA forewarnings and LIGO optimizations",
-        "where":    "12th LISA Symposium, Chicago IL, USA",
+        "what":     "12th LISA Symposium",
+        "where":    "Chicago IL, USA",
         "when":     "Jul 2018",
         "invited":  False,
         "more":     ""
@@ -1786,7 +1831,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "What do LIGO's black holes remember?",
-        "where":    "April APS Meeting, Columbus OH, USA",
+        "what":     "April APS Meeting",
+        "where":    "Columbus OH, USA",
         "when":     "Apr 2018",
         "invited":  True,
         "more":     ""
@@ -1794,7 +1840,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Modeling black hole kicks with waveform approximants",
-        "where":    "34rd Pacific Coast Gravity Meeting, Pasadena CA, USA",
+        "what":     "34rd Pacific Coast Gravity Meeting",
+        "where":    "Pasadena CA, USA",
         "when":     "Mar 2018",
         "invited":  False,
         "more":     ""
@@ -1802,7 +1849,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Black holes from other black holes?",
-        "where":    "Gravity@Malta2018, Valletta, Malta",
+        "what":     "Graviy@Malta 2018",
+        "where":    "Valletta, Malta",
         "when":     "Jan 2018",
         "invited":  False,
         "more":     ""
@@ -1810,7 +1858,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "The gravitational-wave astronomy revolution",
-        "where":    "2nd Milan Christmas Workshop, Milan, Italy",
+        "what":     "2nd Milan Christmas Workshop",
+        "where":    "Milan, Italy",
         "when":     "Dec 2017",
         "invited":  True,
         "more":     ""
@@ -1818,7 +1867,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Reanalysis of LIGO black-hole coalescences with alternative prior assumptions",
-        "where":    "IAU Symposium 338, Baton Rouge LA, USA",
+        "what":     "IAU Symposium 338",
+        "where":    "Baton Rouge LA, USA",
         "when":     "Oct 2017",
         "invited":  False,
         "more":     "Proceedings published by Cambridge University Press (2018)"
@@ -1826,7 +1876,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Careful with the priors: a reanalysis of LIGO black-hole coalescences",
-        "where":    "Einstein Fellows Symposium 2017, Cambridge MA, USA",
+        "what":     "Einstein Fellows Symposium 2017",
+        "where":    "Cambridge MA, USA",
         "when":     "Oct 2017",
         "invited":  True,
         "more":     ""
@@ -1834,7 +1885,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Empty galaxies to constrain black-hole superkicks",
-        "where":    "3rd Swinburne-Caltech Galaxy Workshop, Pasadena CA, USA",
+        "what":     "3rd Swinburne-Caltech Galaxy Workshop",
+        "where":    "Pasadena CA, USA",
         "when":     "Sept 2017",
         "invited":  False,
         "more":     ""
@@ -1842,7 +1894,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers",
-        "where":    "12th Edoardo Amaldi Conference, Pasadena CA, USA, (plenary talk)",
+        "what":     "12th Edoardo Amaldi Conference (plenary talk)",
+        "where":    "Pasadena CA, USA",
         "when":     "Jul 2017",
         "invited":  True,
         "more":     "Proceedings published by IoP (2018)"
@@ -1850,7 +1903,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Core collapse and compact-object formation to test General Relativity",
-        "where":    "LIGO Core Collapse Supernova Workshop, Pasadena CA, USA",
+        "what":     "LIGO Core Collapse Supernova Workshop",
+        "where":    "Pasadena CA, USA",
         "when":     "Mar 2017",
         "invited":  False,
         "more":     ""
@@ -1858,7 +1912,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "The curious and simple limit of equal-mass precessing black-hole binaries",
-        "where":    "33rd Pacific Coast Gravity Meeting, Santa Barbara CA, USA",
+        "what":     "33rd Pacific Coast Gravity Meeting",
+        "where":    "Santa Barbara CA, USA",
         "when":     "Mar 2017",
         "invited":  False,
         "more":     ""
@@ -1866,7 +1921,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Spins remember: spin signatures of astrophysical black hole formation mechanisms",
-        "where":    "Strong Gravity and Binary Dynamics with Gravitational Wave Observations, Oxford MS, USA",
+        "what":     "Strong Gravity and Binary Dynamics with Gravitational Wave Observations",
+        "where":    "Oxford MS, USA",
         "when":     "Feb 2017",
         "invited":  True,
         "more":     ""
@@ -1874,7 +1930,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "The kick is in the waveform: detection of black-hole recoils",
-        "where":    "The Dawning Era of Gravitational-Wave Astrophysics, Aspen CO, USA",
+        "what":     "The Dawning Era of Gravitational-Wave Astrophysics",
+        "where":    "Aspen CO, USA",
         "when":     "Feb 2017",
         "invited":  False,
         "more":     ""
@@ -1882,7 +1939,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Kicked waveforms: prospects for direct detection of black hole recoils",
-        "where":    "``April'' APS Meeting, Washington DC, USA",
+        "what":     "``April'' APS Meeting",
+        "where":    "Washington DC, USA",
         "when":     "Jan 2017",
         "invited":  False,
         "more":     ""
@@ -1890,7 +1948,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Getting the most out of gravitational-wave observations: kicks and spin precession",
-        "where":    "Einstein Fellow Symposium 2016, Cambridge MA, USA",
+        "what":     "Einstein Fellows Symposium 2016",
+        "where":    "Cambridge MA, USA",
         "when":     "Oct 2016",
         "invited":  True,
         "more":     ""
@@ -1898,7 +1957,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Averaging the average: multi-timescale analysis of precessing black-hole binaries",
-        "where":    "21st International Conference on General Relativity and Gravitation (GR21), New York NY, USA",
+        "what":     "21st International Conference on General Relativity and Gravitation (GR21)",
+        "where":    "New York NY, USA",
         "when":     "Jul 2016",
         "invited":  False,
         "more":     ""
@@ -1906,7 +1966,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Differential accretion means differential alignment",
-        "where":    "BritGrav 16, Nottingham, UK",
+        "what":     "BritGrav 16",
+        "where":    "Nottingham, UK",
         "when":     "Apr 2016",
         "invited":  False,
         "more":     ""
@@ -1914,7 +1975,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "A new instability to black-hole spin precession",
-        "where":    "28th Texas Symposium on Relativistic Astrophysics, Geneva, Switzerland",
+        "what":     "28th Texas Symposium on Relativistic Astrophysics",
+        "where":    "Geneva, Switzerland",
         "when":     "Dec 2015",
         "invited":  False,
         "more":     ""
@@ -1922,7 +1984,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Binary black-hole spin precession: a tale of three timescales",
-        "where":    "One Hundred Years of Strong Gravity, Lisbon, Portugal",
+        "what":     "One Hundred Years of Strong Gravity",
+        "where":    "Lisbon, Portugal",
         "when":     "Jun 2015",
         "invited":  False,
         "more":     ""
@@ -1930,7 +1993,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Giant and empty: black-hole occupation fraction in brightest cluster galaxies",
-        "where":    "BritGrav 15, Birmingham, UK",
+        "what":     "BritGrav 15",
+        "where":    "Birmingham, UK",
         "when":     "Apr 2015",
         "invited":  False,
         "more":     ""
@@ -1938,7 +2002,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Not so fast: gas-driven spin alignment in merging black-hole binaries",
-        "where":    "Milan Christmas Workshop, Milan, Italy",
+        "what":     "Milan Christmas Workshop, Milan, Italy",
+        "where":    "Milan, Italy",
         "when":     "Dec 2014",
         "invited":  True,
         "more":     ""
@@ -1946,7 +2011,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks",
-        "where":    "99 years of Black Holes, Potsdam, Germany",
+        "what":     "99 years of Black Holes",
+        "where":    "Potsdam, Germany",
         "when":     "May 2014",
         "invited":  False,
         "more":     ""
@@ -1954,7 +2020,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history",
-        "where":    "3rd Session of the Sant Cugat Forum on Astrophysics, Sant Cugat, Spain",
+        "what":     "3rd Session of the Sant Cugat Forum on Astrophysics",
+        "where":    "Sant Cugat, Spain",
         "when":     "Apr 2014",
         "invited":  False,
         "more":     "Proceedings published by Springer (2015)"
@@ -1962,7 +2029,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Gravitational-wave signals from stellar-mass black-hole binaries in resonant configurations",
-        "where":    "BritGrav 14, Cambridge, UK",
+        "what":     "BritGrav 14",
+        "where":    "Cambridge, UK",
         "when":     "Mar 2014",
         "invited":  False,
         "more":     ""
@@ -1970,7 +2038,8 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Spin alignment effects in stellar mass black hole binaries",
-        "where":    "22nd Midwest Relativity Meeting, Chicago IL, USA",
+        "what":     "22nd Midwest Relativity Meeting",
+        "where":    "Chicago IL, USA",
         "when":     "Sep 2012",
         "invited":  False,
         "more":     ""
@@ -1983,7 +2052,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "The case of quasar 3C 186 as kicked black hole",
-        "where":    "Astronomy seminars, Cardiff University, Cardiff, UK",
+        "what":     "Astronomy seminars, Cardiff University",
+        "where":    "Cardiff, UK",
         "when":     "Jul 2024",
         "invited":  True,
         "more":     ""
@@ -1991,7 +2061,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Black-hole binaries, formation channels, and repeated mergers",
-        "where":    "Gravitational-wave seminars, Università di Pisa, Pisa, Italy",
+        "what":     "Gravitational-wave seminars, Università di Pisa, ",
+        "where":    "Pisa, Italy",
         "when":     "May 2024",
         "invited":  True,
         "more":     ""
@@ -1999,7 +2070,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Deep learning and Bayesian stats to uncover the origin of merging black holes",
-        "where":    "INAF/OAPD seminars, Università degli Studi di Padova, Padua, Italy",
+        "what":     "INAF/OAPD seminars, Università degli Studi di Padova, ",
+        "where":    "Padua, Italy",
         "when":     "Apr 2023",
         "invited":  True,
         "more":     ""
@@ -2007,7 +2079,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Deep-learning emulators for gravitational-wave population fits",
-        "where":    "Theoretical Astrophysics seminars, University of Zurich, Zurich, Switzerland",
+        "what":     "Theoretical Astrophysics seminars, University of Zurich",
+        "where":    "Zurich, Switzerland",
         "when":     "Feb 2023",
         "invited":  True,
         "more":     ""
@@ -2015,7 +2088,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Comparing gravitational-wave data and stellar-physics predictions with deep learning",
-        "where":    "Theoretical Physics colloquium, University of Cambridge, Cambridge, UK",
+        "what":     "Theoretical Physics colloquium, University of Cambridge",
+        "where":    "Cambridge, UK",
         "when":     "Feb 2023",
         "invited":  True,
         "more":     ""
@@ -2023,7 +2097,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Gravitational-wave data exploitation with deep learning",
-        "where":    "Astrophysics seminars, Universit\`{a}  degli Studi di Milano, Milan, Italy",
+        "what":     "Astrophysics seminars, Università degli Studi di Milano",
+        "where":    "Milan, Italy",
         "when":     "Jan 2023",
         "invited":  True,
         "more":     ""
@@ -2031,7 +2106,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Some of the LIGO events might have merged a few times already",
-        "where":    "Gr@v seminars, Universidade de Aveiro, Aveiro, Portugal (online)",
+        "what":     "Gr@v seminars, Universidade de Aveiro",
+        "where":    "Aveiro, Portugal, (online)",
         "when":     "Nov 2021",
         "invited":  True,
         "more":     ""
@@ -2039,7 +2115,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Entering the data-driven regime of gravitational-wave astronomy",
-        "where":    "Physics Department colloquium, Universit\`{a}  degli Studi di Milano-Bicocca, Milan, Italy (online)",
+        "what":     "Physics Department colloquium, Università degli Studi di Milano-Bicocca",
+        "where":    "Milan, Italy, (online)",
         "when":     "Oct 2020",
         "invited":  True,
         "more":     ""
@@ -2047,7 +2124,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Waiting for the next black-hole surprise, from the upper mass gap to GW190412",
-        "where":    "Gravity seminars, University of Mississippi, Oxford MS, USA (online)",
+        "what":     "Gravity seminars, University of Mississippi",
+        "where":    "Oxford MS, USA, (online)",
         "when":     "Jun 2020",
         "invited":  True,
         "more":     ""
@@ -2055,7 +2133,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Keep the black holes merging: cluster escape speed and the curious case of GW190412",
-        "where":    "Astronomy seminars, Cardiff University, Cardiff, UK (online)",
+        "what":     "Astronomy seminars, Cardiff University",
+        "where":    "Cardiff, UK, (online)",
         "when":     "Jul 2020",
         "invited":  True,
         "more":     ""
@@ -2063,7 +2142,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Growing up: the next generation of black holes moves out of the cluster",
-        "where":    "Black Hole Initiative Colloquium, Harvard University, Cambridge MA, USA (online)",
+        "what":     "Black Hole Initiative Colloquium, Harvard University",
+        "where":    "Cambridge MA, USA, (online)",
         "when":     "Mar 2020",
         "invited":  True,
         "more":     ""
@@ -2071,7 +2151,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Multiple generations of black-hole mergers to pinpoint their astrophysical origin",
-        "where":    "Gravity seminars, University of Southampton, Southampton, UK",
+        "what":     "Gravity seminars, University of Southampton",
+        "where":    "Southampton, UK",
         "when":     "Feb 2020",
         "invited":  True,
         "more":     ""
@@ -2079,7 +2160,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Assembling multiple generations of black-hole mergers in the LIGO/Virgo band",
-        "where":    "Theoretical Astrophysics seminars, University of Leicester, Leicester, UK",
+        "what":     "Theoretical Astrophysics seminars, University of Leicester",
+        "where":    "Leicester, UK",
         "when":     "Feb 2020",
         "invited":  True,
         "more":     ""
@@ -2087,7 +2169,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Predicting LIGO's black holes with LISA",
-        "where":    "AstroParticle seminars, Institute for Fundamental Physics of the Universe, Trieste, Italy",
+        "what":     "AstroParticle seminars, Institute for Fundamental Physics of the Universe",
+        "where":    "Trieste, Italy",
         "when":     "Nov 2019",
         "invited":  True,
         "more":     ""
@@ -2095,7 +2178,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Multiband gravitational waves: event rates, detectability, and tests of gravity",
-        "where":    "Particle Cosmology seminars, University of Nottingham, Nottingham, UK",
+        "what":     "Particle Cosmology seminars, University of Nottingham",
+        "where":    "Nottingham, UK",
         "when":     "Nov 2019",
         "invited":  True,
         "more":     ""
@@ -2103,7 +2187,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Understanding birth and growth of binary black holes with gravitational waves",
-        "where":    "Physics Colloquium, California State University Los Angeles, Los Angeles CA, USA",
+        "what":     "Physics Colloquium, California State University Los Angeles",
+        "where":    "Los Angeles CA, USA",
         "when":     "Feb 2019",
         "invited":  True,
         "more":     ""
@@ -2111,7 +2196,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "The (astro)physics of black-hole mergers and their gravitational-wave emission",
-        "where":    "Physics and Astronomy Colloquium, California State University Northridge, Los Angeles CA, USA",
+        "what":     "Physics and Astronomy Colloquium, California State University Northridge",
+        "where":    "Los Angeles CA, USA",
         "when":     "Jan 2019",
         "invited":  True,
         "more":     ""
@@ -2119,7 +2205,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Model selection for large catalogs of gravitational-wave events",
-        "where":    "Cosmology seminars, Johns Hopkins University, Baltimore MD, USA",
+        "what":     "Cosmology seminars, Johns Hopkins University",
+        "where":    "Baltimore MD, USA",
         "when":     "Nov 2018",
         "invited":  True,
         "more":     ""
@@ -2127,7 +2214,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "How to kick black holes out of their galaxies",
-        "where":    "Strong Gravity Seminars, Perimeter Institute for Theoretical Physics, Waterloo, Canada",
+        "what":     "Strong Gravity Seminars, Perimeter Institute for Theoretical Physics",
+        "where":    "Waterloo, Canada",
         "when":     "Sep 2018",
         "invited":  True,
         "more":     ""
@@ -2135,7 +2223,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "(Astro)physical consequences of black-hole recoils",
-        "where":    "CITA Seminars, Canadian Institute for Theoretical Astrophysics, Toronto, Canada",
+        "what":     "CITA Seminars, Canadian Institute for Theoretical Astrophysics",
+        "where":    "Toronto, Canada",
         "when":     "Sep 2018",
         "invited":  True,
         "more":     ""
@@ -2143,7 +2232,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Black-hole spins and the astrophysics of LIGO's sources",
-        "where":    "AEI seminars, Albert Einstein Institute, Hannover, Germany",
+        "what":     "AEI seminars, Albert Einstein Institute",
+        "where":    "Hannover, Germany",
         "when":     "Apr 2018",
         "invited":  True,
         "more":     ""
@@ -2151,7 +2241,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Dynamics of spinning black-hole binaries as a tool to uncover their formation pathway",
-        "where":    "AEI seminars, Albert Einstein Institute, Potsdam, Germany",
+        "what":     "AEI seminars, Albert Einstein Institute",
+        "where":    "Potsdam, Germany",
         "when":     "Mar 2018",
         "invited":  True,
         "more":     ""
@@ -2159,7 +2250,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Runaways: phenomenology and detectability of black-hole recoils",
-        "where":    "Theoretical Astrophysics seminars, University of Florida, Gainsville FL, USA",
+        "what":     "Theoretical Astrophysics seminars, University of Florida",
+        "where":    "Gainsville FL, USA",
         "when":     "Mar 2018",
         "invited":  True,
         "more":     ""
@@ -2167,7 +2259,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Testing relativity with past and future supernova explosions",
-        "where":    "Physics colloquia, Montana State University, Bozeman MT, USA",
+        "what":     "Physics colloquia, Montana State University",
+        "where":    "Bozeman MT, USA",
         "when":     "Feb 2018",
         "invited":  True,
         "more":     ""
@@ -2175,7 +2268,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "More astrophysics out of the first gravitational wave detections",
-        "where":    "GSSI seminars, Gran Sasso Science Institute, L'Aquila, Italy",
+        "what":     "GSSI seminars, Gran Sasso Science Institute",
+        "where":    "L'Aquila, Italy",
         "when":     "Jan 2018",
         "invited":  True,
         "more":     ""
@@ -2183,7 +2277,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Where do binary black holes come from? How do we find out?",
-        "where":    "Theory seminars, Sapienza Universit\`a di Roma, Rome, Italy",
+        "what":     "Theory seminars, Sapienza Università di Roma, ",
+        "where":    "Rome, Italy",
         "when":     "Jan 2018",
         "invited":  True,
         "more":     ""
@@ -2191,7 +2286,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Monopole radiation, hyper scalarization and inverse chirps: the promise of testing gravity with stellar collapse",
-        "where":    "Steward Observatory lunch seminars, University of Arizona, Tucson AZ, USA",
+        "what":     "Steward Observatory lunch seminars, University of Arizona",
+        "where":    "Tucson AZ, USA",
         "when":     "Nov 2017",
         "invited":  True,
         "more":     ""
@@ -2199,7 +2295,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Black-hole binary spin precession: from relativity to astronomy",
-        "where":    "GRITTS seminars, Massachusetts Institute of Technology LIGO Lab, Cambridge MA, USA",
+        "what":     "GRITTS seminars, Massachusetts Institute of Technology LIGO Lab",
+        "where":    "Cambridge MA, USA",
         "when":     "Oct 2017",
         "invited":  True,
         "more":     ""
@@ -2207,7 +2304,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Constraining the astrophysics behind the first LIGO detections",
-        "where":    "Physics colloquia, University of Texas at Dallas, Richardson TX, USA",
+        "what":     "Physics colloquia, University of Texas at Dallas",
+        "where":    "Richardson TX, USA",
         "when":     "Sep 2017",
         "invited":  True,
         "more":     ""
@@ -2215,7 +2313,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Binary black hole astrophysics with the first gravitational-wave events",
-        "where":    "Theory group seminars, Universitat de Barcelona, Barcelona, Spain",
+        "what":     "Theory group seminars, Universitat de Barcelona",
+        "where":    "Barcelona, Spain",
         "when":     "May 2017",
         "invited":  True,
         "more":     ""
@@ -2224,7 +2323,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Astrophysics with the first gravitational-wave events: from supernova asymmetries to multiple black-hole generations",
-        "where":    "GR seminars, Department of Applied Mathematics and Theoretical Physics, Cambridge, UK",
+        "what":     "GR seminars, Department of Applied Mathematics and Theoretical Physics",
+        "where":    "Cambridge, UK",
         "when":     "May 2017",
         "invited":  True,
         "more":     ""
@@ -2232,7 +2332,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Black-hole binaries on the road to merger",
-        "where":    "Oskar Klein Center colloquia, Stockholms Universitet, Stockholm, Sweden",
+        "what":     "Oskar Klein Center colloquia, Stockholms Universitet",
+        "where":    "Stockholm, Sweden",
         "when":     "Jan 2017",
         "invited":  True,
         "more":     ""
@@ -2240,7 +2341,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "A tale of astronomy and relativity: formation and evolution of black-hole binaries",
-        "where":    "Department seminars, Universit\`{a}  degli Studi di Milano, Milan, Italy",
+        "what":     "Department seminars, Università degli Studi di Milano",
+        "where":    "Milan, Italy",
         "when":     "Apr 2016",
         "invited":  True,
         "more":     ""
@@ -2248,7 +2350,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "A new paradigm for black-hole spin precession",
-        "where":    "Astrophysics seminars, University of Birmingham, Birmingham, UK",
+        "what":     "Astrophysics seminars, University of Birmingham",
+        "where":    "Birmingham, UK",
         "when":     "Feb 2016",
         "invited":  True,
         "more":     ""
@@ -2256,7 +2359,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "New insights on binary black-hole spin precession",
-        "where":    "Relativity division seminars, Albert Einstein Institute, Potsdam, Germany",
+        "what":     "Relativity division seminars, Albert Einstein Institute",
+        "where":    "Potsdam, Germany",
         "when":     "Feb 2016",
         "invited":  True,
         "more":     ""
@@ -2264,7 +2368,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Spontaneous scalarization: a promising avenue for gravitational-wave astronomy",
-        "where":    "GReCO seminars, Institut d'Astrophysique de Paris, Paris, France",
+        "what":     "GReCO seminars, Institut d'Astrophysique de Paris",
+        "where":    "Paris, France",
         "when":     "Jan 2016",
         "invited":  True,
         "more":     ""
@@ -2272,7 +2377,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Innovative multi-timescale approach to binary black holes",
-        "where":    "Theoretical Astrophysics seminars, Universit\`{a}  degli Studi di Milano, Milan, Italy",
+        "what":     "Theoretical Astrophysics seminars, Università degli Studi di Milano",
+        "where":    "Milan, Italy",
         "when":     "Dec 2015",
         "invited":  True,
         "more":     ""
@@ -2280,7 +2386,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Stellar collapse in scalar-tensor theories of gravity: prospects for gravitational-wave astronomy",
-        "where":    "Gravity and Particles seminar, University of Nottingham, Nottingham, UK",
+        "what":     "Gravity and Particles seminar, University of Nottingham",
+        "where":    "Nottingham, UK",
         "when":     "Dec 2015",
         "invited":  True,
         "more":     ""
@@ -2288,7 +2395,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Core collapse and relativistic stars in scalar-tensor theories of gravity",
-        "where":    "Gravity seminars, STAG Research Center, Southampton, UK",
+        "what":     "Gravity seminars, STAG Research Center, University of Southampton",
+        "where":    "Southampton, UK",
         "when":     "Oct 2015",
         "invited":  True,
         "more":     ""
@@ -2296,7 +2404,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Binary black-hole spin alignment: gas-driven and relativistic inspiral",
-        "where":    "Wednesday seminars, Institute of Astronomy, Cambridge, UK",
+        "what":     "Wednesday seminars, Institute of Astronomy, University of Cambridge",
+        "where":    "Cambridge, UK",
         "when":     "Jun 2015",
         "invited":  True,
         "more":     ""
@@ -2304,7 +2413,8 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Spin-orbit resonances: unveiling black-hole binary dynamics on both stellar-mass and supermassive scale",
-        "where":    "Gravitational Physics seminars, Cardiff University, Cardiff, UK",
+        "what":     "Gravitational Physics seminars, Cardiff University",
+        "where":    "Cardiff, UK",
         "when":     "May 2014",
         "invited":  True,
         "more":     ""
@@ -2312,15 +2422,17 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Spin-orbit resonances: unveiling black-hole binary dynamics on both stellar-mass and supermassive scale",
-        "where":    "GR seminars, Department Applied Mathematics and Theoretical Physics, Cambridge, UK",
-        "when":     " May 2014",
+        "where":    "GR seminars, Department Applied Mathematics and Theoretical Physics, University of Cambridge",
+        "where":    "Cambridge, UK",
+        "when":     "May 2014",
         "invited":  True,
         "more":     ""
         })
 
     talks['seminars']['data'].append({
         "title":    "Spin alignment and resonant plane in stellar mass black hole binaries",
-        "where":    "Lunch talks, Leiden Observatory, Leiden, The Netherlands",
+        "what":     "Lunch talks, Leiden Observatory"
+        "where":    "Leiden, The Netherlands",
         "when":     "Jan 2012",
         "invited":  True,
         "more":     ""
@@ -2333,7 +2445,8 @@ if lectures:
 
     talks['lectures']['data'].append({
         "title":    "Tips on academic job applications for early career scientists",
-        "where":    "Gravitational-wave early-career scientists (GWECS) online talks, (online)",
+        "what":     "Gravitational-wave early-career scientists (GWECS) online talks"
+        "where":    "(online)",
         "when":     "Nov 2024",
         "invited":  True,
         "more":     ""
@@ -2341,7 +2454,8 @@ if lectures:
 
     talks['lectures']['data'].append({
         "title":    "My thoughts on the academic job market",
-        "where":    "IPTA Student Week 2024, Milan, Italy",
+        "what":     "IPTA Student Week 2024",
+        "whre":     "Milan, Italy",
         "when":     "Jun 2024",
         "invited":  True,
         "more":     ""
@@ -2349,7 +2463,8 @@ if lectures:
 
     talks['lectures']['data'].append({
         "title":    "Stellar-mass black-hole binary formation channels",
-        "where":    "Kavli-Villum Summer School on Gravitational Wave, Corfu, Greece",
+        "what":     "Kavli-Villum Summer School on Gravitational Wave",
+        "where":    "Corfu, Greece",
         "when":     "Sep 2023",
         "invited":  True,
         "more":     ""
@@ -2357,7 +2472,8 @@ if lectures:
 
     talks['lectures']['data'].append({
         "title":    "Gravitational waves: principles of emission",
-        "where":    "Kavli-Villum Summer School on Gravitational Wave, Corfu, Greece",
+        "what":     "Kavli-Villum Summer School on Gravitational Wave",
+        "where":    "Corfu, Greece",
         "when":     "Sep 2023",
         "invited":  True,
         "more":     ""
@@ -2365,11 +2481,22 @@ if lectures:
 
     talks['lectures']['data'].append({
         "title":    "Introduction to gravitational waves (theory background)",
-        "where":    "VIPER summer school on PTA GW astrophysics, Nashville TN, USA (online)",
+        "what":     "VIPER summer school on PTA GW astrophysics",
+        "where":    "Nashville TN, USA, (online)",
         "when":     "Jul 2022",
         "invited":  True,
         "more":     ""
         })
+    
+    talks['lectures']['data'].append({
+        "title":    "Multiband gravitational-wave (astro)physics",
+        "what":     "Gravitational-wave Excellence through Alliance Training (GrEAT) PhD school",
+        "where":    "Birmingham, UK",
+        "when":     "Nov 2019",
+        "invited":  False,
+        "more":     ""
+        })
+
 
 if posters:
     talks['posters'] = {}
