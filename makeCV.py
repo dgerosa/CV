@@ -1108,6 +1108,14 @@ def replacekeys():
         f.write(publist)
 
 
+def makemap(talks):
+
+    for k in talks:
+        print(k)
+
+
+
+
 def pushtogit():
     try:
         comment = sys.argv[1]
@@ -1159,7 +1167,7 @@ if __name__ == "__main__":
 
 
     # Set testing=True to avoid API limit
-    testing = False
+    testing = True
 
     papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)
@@ -1178,6 +1186,8 @@ if __name__ == "__main__":
     markdowncitations(papers)   
     markdowngroup(group)
     #citationspreadsheet(papers)
+
+    makemap(talks)
 
     if not testing:
         replacekeys()
