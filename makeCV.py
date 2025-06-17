@@ -324,7 +324,6 @@ def parsetalks(talks,filename="parsetalks.tex"):
                 mark=""
             out.append("\\textbf{"+str(i)+".} & "+mark+" & \\textit{"+p['title'].strip(".")+".}")
             out.append("\\newline{}")
-            print(p['title'])
             out.append(p['what'].strip(".")+", "+p['where'].strip(".")+", "+p['when'].strip(".")+".")
             if p['more']:
                 out.append("\\newline{}")
@@ -1059,7 +1058,6 @@ def buildbib():
     with tqdm(total=tot) as pbar:
         for k in papers:
             for p in papers[k]['data']:
-
                 if  p['ads_found'] and p['ads_found'] not in stored:
                     with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation") as f:
                         bib = f.read()
@@ -1108,11 +1106,120 @@ def replacekeys():
         f.write(publist)
 
 
-def makemap(talks):
+def makemap(talks, filename="map.html"):
+    import folium
+    from branca.element import Template, MacroElement
+    print("Making map")
 
-    for k in talks:
-        print(k)
+    #for k in talks:
+    #    print(k)
 
+    # Sample locations for each category
+    blue_locations = [
+        ("Statue of Liberty", 40.6892, -74.0445),
+        ("Golden Gate Bridge", 37.8199, -122.4783),
+    ]
+
+    yellow_locations = [
+        ("Great Pyramid of Giza", 29.9792, 31.1342),
+        ("Sydney Opera House", -33.8568, 151.2153),
+    ]
+
+    green_locations = [
+        ("Eiffel Tower", 48.8584, 2.2945),
+        ("Colosseum", 41.8902, 12.4922),
+    ]
+
+    # Create the map centered roughly on Europe
+    mymap = folium.Map(location=[20, 0], zoom_start=2)
+
+    # Add blue markers
+    for name, lat, lon in blue_locations:
+        folium.Marker(
+            location=(lat, lon),
+            popup=name,
+            tooltip=name,
+            icon=folium.Icon(color='blue', icon='')  # blue pin, no icon
+        ).add_to(mymap)
+
+    # Add yellow markers (use orange color for yellow-ish pin)
+    for name, lat, lon in yellow_locations:
+        folium.Marker(
+            location=(lat, lon),
+            popup=name,
+            tooltip=name,
+            icon=folium.Icon(color='orange', icon='')  # orange ~ yellow pin, no icon
+        ).add_to(mymap)
+
+    # Add green markers
+    for name, lat, lon in green_locations:
+        folium.Marker(
+            location=(lat, lon),
+            popup=name,
+            tooltip=name,
+            icon=folium.Icon(color='green', icon='')  # green pin, no icon
+        ).add_to(mymap)
+
+    # Create a legend with matching colors in the order: blue, yellow, green
+    legend_html = """
+    {% macro html(this, kwargs) %}
+    <div style="
+        position: fixed;
+        bottom: 50px;
+        left: 50px;
+        z-index: 9999;
+        background-color: white;
+        border: 2px solid grey;
+        padding: 10px 12px;
+        font-size: 14px;
+        line-height: 1.6;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        font-family: Arial, sans-serif;
+    ">
+        <b>Legend</b><br>
+        <span style="
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background-color: #38aadd;
+            border-radius: 50%;
+            margin-right: 8px;
+            border: 1px solid #555;
+            vertical-align: middle;
+        "></span>
+        Blue Locations<br>
+        <span style="
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background-color: #72b025;
+            border-radius: 50%;
+            margin-right: 8px;
+            border: 1px solid #555;
+            vertical-align: middle;
+        "></span>
+        Yellow Locations<br>
+        <span style="
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background-color: #f69730;
+            border-radius: 50%;
+            margin-right: 8px;
+            border: 1px solid #555;
+            vertical-align: middle;
+        "></span>
+        Green Locations
+    </div>
+    {% endmacro %}
+    """
+
+    legend = MacroElement()
+    legend._template = Template(legend_html)
+    mymap.get_root().add_child(legend)
+
+    # Save to HTML file
+    mymap.save(filename)
 
 
 
@@ -1167,7 +1274,7 @@ if __name__ == "__main__":
 
 
     # Set testing=True to avoid API limit
-    testing = True
+    testing = False
 
     papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)
