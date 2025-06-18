@@ -18,10 +18,12 @@ from github_release import gh_release_create
 import warnings
 import re
 import unicodedata
+from glob import glob   
 
 #import ssl
 #ssl._create_default_https_context = ssl._create_unverified_context
 
+relativepathwebsiterepo = "../website"
 
 def hindex(citations):
     return sum(x >= i + 1 for i, x in enumerate(sorted(  list(citations), reverse=True)))
@@ -31,6 +33,9 @@ def roundto100(N):
 
 def pdflatex(filename):
     os.system('pdflatex '+filename+' >/dev/null')
+
+def slugify(text):
+    return re.sub(r'[^a-z0-9\-]+', '', re.sub(r'\s+', '-', text.lower()))
 
 def checkinternet():
     url = "http://www.google.com"
@@ -297,6 +302,30 @@ def markdownpapers(papers,filename="_publications.md"):
     out = apply_journal_conversion(out)
 
     with open(filename,"w") as f: f.write("\n".join(out))
+
+
+def checkblogposts(papers):
+    print('Check blog posts for papers')
+    posts = glob(relativepathwebsiterepo+"/_posts/*.md")        
+    #print(posts)
+    for k in ['submitted','published','proceedings']:
+        for p in papers[k]['data']:
+
+            target_substring = slugify(p['title'])
+            #print(target_substring)
+            # Build a regex pattern like r"\d{4}-\d{2}-\d{2}-report"
+            pattern = rf"{relativepathwebsiterepo}/_posts/\d{{4}}-\d{{2}}-\d{{2}}-{re.escape(target_substring)}.md"
+
+            # Check if any string matches the pattern
+            if any(re.fullmatch(pattern, s) for s in posts):
+                pass
+                #print("Found!")
+            else:
+                print("Not found", slugify(p['title']))
+                #raise ValueError("Blog post not found for paper: "+p['title'])
+    # Check if the blog post exists for each paper
+    #for k in ['submitted','published','proceedings']:
+    #    for p in papers[k]['title']:
 
 
 
@@ -1236,7 +1265,6 @@ def pushtogit():
     os.system("git push")
 
 def pushtowebsite():
-    relativepathwebsiterepo = "../website"
     comment='updated from dgerosa/cv'
     os.system("cp _*.md "+relativepathwebsiterepo+"/_pages/")
     os.system("git -C "+relativepathwebsiterepo+" add -u")
@@ -1272,6 +1300,9 @@ def clean():
 
 if __name__ == "__main__":
 
+
+    #checkblogposts(papers)
+    #sys.exit()
 
     # Set testing=True to avoid API limit
     testing = False
