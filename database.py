@@ -2062,6 +2062,15 @@ if seminars:
     talks['seminars']['data'] = []
 
     talks['seminars']['data'].append({
+        "title":    "Gravitational-wave populations: deeper statistics for deeper astrophysics",
+        "what":     "Joint Israeli seminar series on gravitational physics",
+        "where":    "Israel, (online)",
+        "when":     "Jun 2025",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['seminars']['data'].append({
         "title":    "The case of quasar 3C 186 as kicked black hole",
         "what":     "Astronomy seminars, Cardiff University",
         "where":    "Cardiff, UK",

@@ -305,6 +305,8 @@ def markdownpapers(papers,filename="_publications.md"):
 
 
 def checkblogposts(papers):
+    today = datetime.today().strftime('%Y-%m-%d')
+
     print('Check blog posts for papers')
     posts = glob(relativepathwebsiterepo+"/_posts/*.md")        
     #print(posts)
@@ -321,11 +323,54 @@ def checkblogposts(papers):
                 pass
                 #print("Found!")
             else:
-                print("Not found", slugify(p['title']))
-                #raise ValueError("Blog post not found for paper: "+p['title'])
-    # Check if the blog post exists for each paper
-    #for k in ['submitted','published','proceedings']:
-    #    for p in papers[k]['title']:
+                #print("Not found", slugify(p['title']))
+
+                out=[]
+                out.append("---")
+                cleantitle = p['title'].strip(".").replace("$", "$$").replace("`", "'")
+                out.append(f"title: \"{cleantitle}\"")
+                out.append(f"date: {today}")
+                out.append(f"permalink: /posts/{today}-{slugify(p['title'])}")
+                out.append("tags:")
+                out.append("  - Papers")
+                out.append("---")
+
+                [out.append("") for _ in range(5)] 
+
+                #out.append("*"+p['title'].strip(".").replace("$", "$$")+"*.\\")
+                out.append(p['author'].replace("D. Gerosa","**D. Gerosa**").strip(".")+".\\")
+                line=""
+                if p['link']:
+                    line+='['
+                if p['journal']:
+                    line+=p['journal'].strip(".")
+                if p['link']:
+                    line+="]("+p['link']+")"
+                if p['journal']:
+                    line+=". "
+                if 'erratum' in p.keys():
+                    line+=" Erratum: "
+                    if p['errlink']:
+                        line+='['
+                    if p['erratum']:
+                        line+=p['erratum'].strip(".")
+                    if p['errlink']:
+                        line+="]("+p['errlink']+")"
+                    line+='. '
+ 
+                if p['arxiv']:
+                    line+="["+p['arxiv'].strip(".")+"](https://arxiv.org/abs/"+p['arxiv'].split(":")[1].split(" ")[0].split(" ")[0]+")."
+                out.append(line)
+                if p['more']:
+                    out[-1]+="\\"
+                    out.append(p['more'].strip(".")+".")
+
+                out = apply_journal_conversion(out)
+
+                filename =f"temp/{today}-{slugify(p['title'])}.md"
+                with open(filename,"w") as f: f.write("\n".join(out))
+                print("--> Created blog post template:", filename)
+                print("--> Please edit the file and move it to _posts/; requires manual intervention if there's latex in the title")
 
 
 
@@ -1300,10 +1345,6 @@ def clean():
 
 if __name__ == "__main__":
 
-
-    #checkblogposts(papers)
-    #sys.exit()
-
     # Set testing=True to avoid API limit
     testing = False
 
@@ -1324,8 +1365,9 @@ if __name__ == "__main__":
     markdowncitations(papers)   
     markdowngroup(group)
     #citationspreadsheet(papers)
+    checkblogposts(papers)
 
-    makemap(talks)
+    #makemap(talks)
 
     if not testing:
         replacekeys()
