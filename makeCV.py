@@ -244,9 +244,12 @@ def markdownpapers(papers,filename="_publications.md"):
         out.append("")
 
         for p in papers[k]['data']:
+            name = p['author'].replace("D. Gerosa","**D. Gerosa**").strip(".")
+            name = name.replace("\\`o", "o'")
+            name = name.replace("\\v{s}", "s'")
             out.append("**"+str(i)+".**")
             out.append("*"+p['title'].strip(".").replace("$", "$$")+"*.\\")
-            out.append(p['author'].replace("D. Gerosa","**D. Gerosa**").strip(".")+".\\")
+            out.append(name+".\\")
             line=""
             # if p['link']:
             #     line+='['
@@ -988,6 +991,7 @@ def markdowncitations(papers, output_file="_citations.md"):
         for p in papers[k]['data']:
             name = p['author'].split(",")[0].split(".")[-1].strip()
             name = name.replace("\\`o", "o'")
+            name = name.replace("\\v{s}", "s'")
             spreaddata['first_author'].append(name)
             spreaddata['ads_citations'].append(p['ads_citations'])
             spreaddata['inspire_citations'].append(p['inspire_citations'])
