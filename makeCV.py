@@ -185,7 +185,7 @@ def parsepapers(papers,filename="parsepapers.tex"):
         out.append("%")
 
         for p in papers[k]['data']:
-            out.append("\\textbf{"+str(i)+".} & & \\textit{"+p['title'].strip(".")+".}")
+            out.append("\\textbf{"+str(i)+".} & & \\textit{"+p['title'].replace("_","\\_").strip(".")+".}")
             out.append("\\newline{}")
             out.append(p['author'].replace("D. Gerosa","\\textbf{D. Gerosa}").strip(".")+".")
             out.append("\\newline{}")
