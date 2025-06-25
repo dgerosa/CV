@@ -2092,7 +2092,7 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Black-hole binaries, formation channels, and repeated mergers",
-        "what":     "Gravitational-wave seminars, Università di Pisa, ",
+        "what":     "Gravitational-wave seminars, Università di Pisa",
         "where":    "Pisa, Italy",
         "when":     "May 2024",
         "invited":  True,
@@ -2101,7 +2101,7 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "Deep learning and Bayesian stats to uncover the origin of merging black holes",
-        "what":     "INAF/OAPD seminars, Università degli Studi di Padova, ",
+        "what":     "INAF/OAPD seminars, Università degli Studi di Padova",
         "where":    "Padua, Italy",
         "when":     "Apr 2023",
         "invited":  True,
