@@ -3020,6 +3020,16 @@ if msc:
     group['msc']['data'] = []
 
     group['msc']['data'].append({
+        "name":     "Marco Bianchi",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "note":     "",
+        "current":  True
+        })
+
+
+    group['msc']['data'].append({
         "name":     "Pietro Zeduri",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
