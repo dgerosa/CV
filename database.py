@@ -3028,10 +3028,9 @@ if msc:
         "current":  True
         })
 
-
     group['msc']['data'].append({
         "name":     "Pietro Zeduri",
-        "where":    "Milano-Bicocca",
+        "where":    "Milano-Bicocca and University of Aix-Marseille",
         "what":     "MSc thesis",
         "year":     "2025",
         "note":     "",
@@ -3040,7 +3039,7 @@ if msc:
 
     group['msc']['data'].append({
         "name":     "Alessia Corelli",
-        "where":    "Milano-Bicocca",
+        "where":    "Milano-Bicocca ",
         "what":     "MSc thesis",
         "year":     "2025",
         "note":     "",
