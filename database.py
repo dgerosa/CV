@@ -3141,7 +3141,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
-        "note":     "Then PhD student at ETH Zurich (Switzerland).", 
+        "note":     "Then PhD student at ETH Zurich (Switzerland). Resulting publication: arXiv:2506.12572.", 
         "current":  False
         })
     
