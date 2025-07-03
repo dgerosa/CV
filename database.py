@@ -3124,7 +3124,7 @@ if msc:
         "what":     "MSc thesis",
         "year":     "2025",
         "note":     "Then PhD student at IFAE Barcelona (Spain).", 
-        "current":  True
+        "current":  False
         })
     
     group['msc']['data'].append({
