@@ -150,7 +150,7 @@ if published:
         "journal":  "\prd in press.",
         "link":     "",
         "arxiv":    "arXiv:2502.06952 [gr-qc]",
-        "ads":      "2025arXiv250206952F",
+        "ads":      "2025PhRvD.112b4012F",
         "inspire":  "Fumagalli:2025rhc",
         "more":     ""
         })
@@ -1371,6 +1371,15 @@ if conferences:
     talks['conferences'] = {}
     talks['conferences']['label'] = 'Talks at conferences'
     talks['conferences']['data'] = []
+
+    talks['conferences']['data'].append({
+        "title":    "Are merging black holes born from stellar collapse or previous mergers? Some years later...",
+        "what":     "International Congress of Basic Science",
+        "where":    "Beijing, China",
+        "when":     "Jul 2025",
+        "invited":  True,
+        "more":     ""
+        })
 
     talks['conferences']['data'].append({
         "title":    "Machine learning in gravitational-wave population inference",
