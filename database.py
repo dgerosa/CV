@@ -3150,7 +3150,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
-        "note":     "",
+        "note":     "Then PhD student at GSSI (L'Aquila, Italy).", 
         "current":  False
         })
     
