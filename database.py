@@ -1373,6 +1373,15 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Which black hole? The labeling uncertainty in gravitational-wave astronomy",
+        "what":     "24th International Conference on General Relativity and Gravitation (GR24) and 16th Edoardo Amaldi Conference",
+        "where":    "Glasgow, UK",
+        "when":     "Jul 2025",
+        "invited":  False,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "Are merging black holes born from stellar collapse or previous mergers? Some years later…",
         "what":     "International Congress of Basic Science",
         "where":    "Beijing, China",
