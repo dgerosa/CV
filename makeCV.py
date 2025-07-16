@@ -322,12 +322,12 @@ def checkblogposts(papers):
             pattern = rf"{relativepathwebsiterepo}/_posts/\d{{4}}-\d{{2}}-\d{{2}}-{re.escape(target_substring)}.md"
 
             # Check if any string matches the pattern
-            if any(re.fullmatch(pattern, s) for s in posts):
-                pass
+            #if any(re.fullmatch(pattern, s) for s in posts):
+            #    pass
                 #print("Found!")
-            else:
+            #else:
                 #print("Not found", slugify(p['title']))
-
+            if True:
                 out=[]
                 out.append("---")
                 cleantitle = p['title'].strip(".").replace("$", "$$").replace("`", "'")

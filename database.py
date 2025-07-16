@@ -147,8 +147,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory",
         "author":   "G. Fumagalli, N. Loutrel, D. Gerosa, M. Boschini",
-        "journal":  "\prd in press.",
-        "link":     "",
+        "journal":  "\prd 112 (2025) 024012.",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/znmj-6wvt",
         "arxiv":    "arXiv:2502.06952 [gr-qc]",
         "ads":      "2025PhRvD.112b4012F",
         "inspire":  "Fumagalli:2025rhc",
