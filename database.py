@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Comparing astrophysical models to gravitational-wave data in the observable space",
+        "author":   "A. Toubiana, D. Gerosa, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2507.13249 [gr-qc]",
+        "ads":      "2025arXiv250713249T",
+        "inspire":  "",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications",
         "author":   "I. Romero-Shaw, J. Stegmann, H. Tagawa, D. Gerosa, J. Samsing, N. Gupte, S. R. Green",
         "journal":  "",
