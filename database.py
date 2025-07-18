@@ -36,7 +36,7 @@ if submitted:
         "link":     "",
         "arxiv":    "arXiv:2507.13249 [gr-qc]",
         "ads":      "2025arXiv250713249T",
-        "inspire":  "",
+        "inspire":  "Toubiana:2025syw",
         "more":     ""
         })
 
