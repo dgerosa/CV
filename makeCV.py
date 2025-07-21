@@ -336,6 +336,7 @@ def checkblogposts(papers):
                 out.append(f"permalink: /posts/{today}-{slugify(p['title'])}")
                 out.append("tags:")
                 out.append("  - Papers")
+                out.append("  - Milano")
                 out.append("---")
 
                 [out.append("") for _ in range(5)] 
