@@ -3336,6 +3336,14 @@ if bsc:
     group['bsc']['data'] = []
 
     group['bsc']['data'].append({
+        "name":     "Lorenzo Lecci",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2025",
+        "current":  True
+        })
+
+    group['bsc']['data'].append({
         "name":     "Arianna Pedone",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
