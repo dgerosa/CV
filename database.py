@@ -3360,6 +3360,14 @@ if bsc:
         })
 
     group['bsc']['data'].append({
+        "name":     "Sterling Scarlett",
+        "where":    "Milano-Bicocca and Boston University",
+        "what":     "IREU summer project",
+        "year":     "2025",
+        "current":  False
+        })
+    
+    group['bsc']['data'].append({
         "name":     "Alessandro Malfasi",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
