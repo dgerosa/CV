@@ -1384,6 +1384,16 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Stacking gravitational-wave events for testing GR: proceed with care",
+        "what":     "Testing Aspects of General Relativity-IV",
+        "where":    "Gandhinagar, India, (online)",
+        "when":     "Jul 2024",
+        "invited":  True,
+        "more":     ""
+        })
+
+
+    talks['conferences']['data'].append({
         "title":    "Which black hole? The labeling uncertainty in gravitational-wave astronomy",
         "what":     "24th International Conference on General Relativity and Gravitation (GR24) and 16th Edoardo Amaldi Conference",
         "where":    "Glasgow, UK",
@@ -2801,7 +2811,7 @@ if fellowships:
     group['fellowships']['data'] = []
 
     group['fellowships']['data'].append({
-        "name":         "Zacharias~Roupas",
+        "name":         "Zacharias Roupas",
         "where":        "Milano-Bicocca",
         "fellowship":   "ERC Marie Skłodowska-Curie Fellow",
         "start":        "2024",
@@ -2812,7 +2822,7 @@ if fellowships:
         })    
     
     group['fellowships']['data'].append({
-        "name":        "Arianna~Renzini",
+        "name":        "Arianna Renzini",
         "where":       "Milano-Bicocca",
         "fellowship":  "ERC Marie Skłodowska-Curie Fellow",
         "start":       "2023",
@@ -2823,7 +2833,7 @@ if fellowships:
         })
     
     group['fellowships']['data'].append({
-        "name":         "Swetha~Baghwat",
+        "name":         "Swetha Baghwat",
         "where":        "Birmingham",
         "fellowship":   "UKRI Stephen Hawking Fellow",
         "start":        "2022",
