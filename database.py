@@ -118,17 +118,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries.",
-        "author":   "R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, D. Gerosa, A. Carzaniga",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2410.08263 [astro-ph.HE]",
-        "ads":      "2024arXiv241008263B",
-        "inspire":  "Buscicchio:2024wwm",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "The last three years: multiband gravitational-wave observations of stellar-mass binary black holes",
         "author":   "A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, D. Gerosa, S. McGee, M. Nicholl, A. Vecchio",
         "journal":  "",
@@ -144,10 +133,34 @@ if published:
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
 
+    papers['submitted']['data'].append({
+        "title":    "A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries",
+        "author":   "R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, D. Gerosa, A. Carzaniga",
+        "journal":  "European Physical Journal C, in press (2025)",
+        "link":     "",
+        "arxiv":    "arXiv:2410.08263 [astro-ph.HE]",
+        "ads":      "2024arXiv241008263B",
+        "inspire":  "Buscicchio:2024wwm",
+        "more":     ""
+        })
+
+
+    papers['published']['data'].append({
+        "title":    "“LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design",
+        "author":   "M. Boschini, D. Gerosa, A. Crespi, M. Falconea",
+        "journal":  "SoftwareX, in press (2025)",
+        "link":     "",
+        "arxiv":    "",
+        "ads":      "",
+        "inspire":  "",
+        "more":     ""
+        })
+
+
     papers['published']['data'].append({
         "title":    "Ringdown mode amplitudes of precessing binary black holes",
         "author":   "F. Nobili, S. Bhagwat, C. Pacilio, D. Gerosa",
-        "journal":  "\prd in press",
+        "journal":  "\prd, in pres (2025)",
         "link":     "",
         "arxiv":    "arXiv:2504.17021 [gr-qc]",
         "ads":      "2025arXiv250417021N",
