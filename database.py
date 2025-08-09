@@ -133,7 +133,7 @@ if published:
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
 
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
         "title":    "A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries",
         "author":   "R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, D. Gerosa, A. Carzaniga",
         "journal":  "European Physical Journal C, in press (2025)",
@@ -143,7 +143,6 @@ if published:
         "inspire":  "Buscicchio:2024wwm",
         "more":     ""
         })
-
 
     papers['published']['data'].append({
         "title":    "“LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design",
@@ -155,7 +154,6 @@ if published:
         "inspire":  "",
         "more":     ""
         })
-
 
     papers['published']['data'].append({
         "title":    "Ringdown mode amplitudes of precessing binary black holes",
