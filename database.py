@@ -1082,7 +1082,7 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "On the equal-mass limit of precessing black-hole binaries.",
+        "title":    "On the equal-mass limit of precessing black-hole binaries",
         "author":   "D. Gerosa, U. Sperhake, J. Vo\\v{s}mera",
         "journal":  "\cqg 34 (2017) 064004",
         "link":     "http://dx.doi.org/10.1088/1361-6382/aa5e58",
@@ -1093,7 +1093,7 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "Black-hole kicks as new gravitational-wave observables.",
+        "title":    "Black-hole kicks as new gravitational-wave observables",
         "author":   "D. Gerosa, C. J. Moore",
         "journal":  "\prl 117 (2016) 011101",
         "link":     "http://dx.doi.org/10.1103/PhysRevLett.117.011101",
@@ -1204,8 +1204,8 @@ if published:
 
     papers['published']['data'].append({
         "title":    "Distinguishing black-hole spin-orbit resonances by their gravitational-wave signatures",
-        "author":   "D. Gerosa, R. O'Shaughnessy, M. Kesden, E. Berti, U. Sperhake",
-        "journal":  "\prd 89 (2014) 124025.",
+        "author":   "D. Gerosa, R. O'Shaughnessy, M. Kesden, E. Berti, U. Spehake",
+        "journal":  "\prd 89 (2014) 124025",
         "link":     "http://dx.doi.org/10.1103/PhysRevD.89.124025",
         "arxiv":    "arXiv:1403.7147 [gr-qc]",
         "ads":      "2014PhRvD..89l4025G",
