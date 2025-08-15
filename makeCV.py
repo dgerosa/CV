@@ -185,7 +185,12 @@ def parsepapers(papers,filename="parsepapers.tex"):
         out.append("%")
 
         for p in papers[k]['data']:
-            out.append("\\textbf{"+str(i)+".} & & \\textit{"+p['title'].replace("_","\\_").strip(".")+".}")
+            #out.append("\\textbf{"+str(i)+".} & & \\textit{"+p['title'].replace("_","\\_").strip(".")+".}")
+            title = p['title'].replace("_", "\\_").rstrip(".")
+            if not title.endswith("?"):
+                title += "."
+            out.append(f"\\textbf{{{i}.}} & & \\textit{{{title}}}")
+            
             out.append("\\newline{}")
             out.append(p['author'].replace("D. Gerosa","\\textbf{D. Gerosa}").strip(".")+".")
             out.append("\\newline{}")
@@ -248,7 +253,11 @@ def markdownpapers(papers,filename="_publications.md"):
             name = name.replace("\\`o", "o'")
             name = name.replace("\\v{s}", "s")
             out.append("**"+str(i)+".**")
-            out.append("*"+p['title'].strip(".").replace("$", "$$")+"*.\\")
+            #out.append("*"+p['title'].strip(".").replace("$", "$$")+"*.\\")
+            title = p['title'].rstrip(".").replace("$", "$$")
+            if not title.endswith("?"):
+                title += "."
+            out.append("*" + title + "*.\\")
             out.append(name+".\\")
             line=""
             # if p['link']:
