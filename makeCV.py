@@ -257,7 +257,7 @@ def markdownpapers(papers,filename="_publications.md"):
             title = p['title'].rstrip(".").replace("$", "$$")
             if not title.endswith("?"):
                 title += "."
-            out.append("*" + title + "*.\\")
+            out.append("*" + title + "*\\")
             out.append(name+".\\")
             line=""
             # if p['link']:
