@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Can stellar physics explain GW231123?",
+        "author":   "D. Croon, J. Sakstein, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2508.10088 [astro-ph.HE]",
+        "ads":      "2025arXiv250810088C",
+        "inspire":  "Croon:2025gol",
+        "more":     ""
+        })
+    
+    papers['submitted']['data'].append({
         "title":    "Comparing astrophysical models to gravitational-wave data in the observable space",
         "author":   "A. Toubiana, D. Gerosa, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini",
         "journal":  "",
@@ -146,9 +157,9 @@ if published:
 
     papers['published']['data'].append({
         "title":    "“LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design",
-        "author":   "M. Boschini, D. Gerosa, A. Crespi, M. Falconea",
-        "journal":  "SoftwareX, in press (2025)",
-        "link":     "",
+        "author":   "M. Boschini, D. Gerosa, A. Crespi, M. Falcone",
+        "journal":  "SoftwareX 31 (2024) 102294",
+        "link":     "https://authors.elsevier.com/sd/article/S2352-7110(25)00260-2",
         "arxiv":    "",
         "ads":      "",
         "inspire":  "",
@@ -158,7 +169,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Ringdown mode amplitudes of precessing binary black holes",
         "author":   "F. Nobili, S. Bhagwat, C. Pacilio, D. Gerosa",
-        "journal":  "\prd, in pres (2025)",
+        "journal":  "\prd, in press (2025)",
         "link":     "",
         "arxiv":    "arXiv:2504.17021 [gr-qc]",
         "ads":      "2025arXiv250417021N",
