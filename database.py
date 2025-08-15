@@ -118,7 +118,7 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "A confirmed recoiling supermassive black hole in a powerful quasar",
+        "title":    "A recoiling supermassive black hole in a powerful quasar",
         "author":   "M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, D. Gerosa, M. Konishi, S. Koyama, K. Kushibiki, E. Lambrides, E. T. Meyer, K. Motohara, M. Stiavelli, H. Takahashi, G. R. Tremblay, C. Norman",
         "journal":  "",
         "link":     "",
