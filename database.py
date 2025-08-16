@@ -158,7 +158,7 @@ if published:
     papers['published']['data'].append({
         "title":    "“LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design",
         "author":   "M. Boschini, D. Gerosa, A. Crespi, M. Falcone",
-        "journal":  "SoftwareX 31 (2024) 102294",
+        "journal":  "SoftwareX 31 (2025) 102294",
         "link":     "https://authors.elsevier.com/sd/article/S2352-7110(25)00260-2",
         "arxiv":    "",
         "ads":      "",
