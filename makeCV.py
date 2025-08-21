@@ -1055,7 +1055,7 @@ def markdowncitations(papers, output_file="_citations.md"):
         f.write(f"- **h-index**: {h_idx}\n\n")
 
         # === Table: List ===
-        f.write("## Paper List Sorted by Citation Count\n\n")
+        f.write("## Paper list sorted by citation count\n\n")
         f.write("| # | Author | Year | Title | ADS | INSPIRE | MAX |\n")
         f.write("|---|--------|------|-------|-----|---------|-----|\n")
         for i in range(len(spreaddata['title'])):
@@ -1075,7 +1075,7 @@ def markdowncitations(papers, output_file="_citations.md"):
 
         # === Table: Journals ===
         f.write("\n## Papers per journal\n\n")
-        shortpub = [convertjournal(j)[1] for j in spreaddata['journal']]
+        shortpub = [convertjournal(j)[0] for j in spreaddata['journal']]
         singlepub = sorted(set(shortpub), key=lambda s: -shortpub.count(s))
 
         f.write("| Journal | Paper Count |\n")
