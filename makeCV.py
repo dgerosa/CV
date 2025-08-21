@@ -1068,7 +1068,7 @@ def markdowncitations(papers, output_file="_citations.md"):
         singleyear = sorted(set(spreaddata['year']))
         yearcount = [np.sum(spreaddata['year'] == y) for y in singleyear]
 
-        f.write("| Year | Paper Count |\n")
+        f.write("| Year | Paper count |\n")
         f.write("|------|--------------|\n")
         for y, c in zip(singleyear, yearcount):
             f.write(f"| {y} | {c} |\n")
@@ -1078,7 +1078,7 @@ def markdowncitations(papers, output_file="_citations.md"):
         shortpub = [convertjournal(j)[0] for j in spreaddata['journal']]
         singlepub = sorted(set(shortpub), key=lambda s: -shortpub.count(s))
 
-        f.write("| Journal | Paper Count |\n")
+        f.write("| Journal | Paper count |\n")
         f.write("|---------|--------------|\n")
         for s in singlepub:
             count = shortpub.count(s)
