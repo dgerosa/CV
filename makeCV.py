@@ -1,4 +1,3 @@
-import gspread
 import numpy as np
 import json
 #import ads
@@ -19,6 +18,7 @@ import warnings
 import re
 import unicodedata
 from glob import glob   
+#import gspread
 
 #import ssl
 #ssl._create_default_https_context = ssl._create_unverified_context
@@ -858,130 +858,130 @@ def apply_journal_conversion(lines):
         converted.append(new_line)
     return converted
 
-def citationspreadsheet(papers):
+# def citationspreadsheet(papers):
 
-    gc = gspread.service_account()
-    sh = gc.open("Citation count")
+#     gc = gspread.service_account()
+#     sh = gc.open("Citation count")
 
-    print('Write Google Spreadsheet: List')
+#     print('Write Google Spreadsheet: List')
 
-    spreaddata={}
-    spreaddata['first_author']=[]
-    spreaddata['ads_citations']=[]
-    spreaddata['inspire_citations']=[]
-    spreaddata['max_citations']=[]
-    spreaddata['title']=[]
-    spreaddata['journal']=[]
-    spreaddata['year']=[]
-    spreaddata['arxiv']=[]
+#     spreaddata={}
+#     spreaddata['first_author']=[]
+#     spreaddata['ads_citations']=[]
+#     spreaddata['inspire_citations']=[]
+#     spreaddata['max_citations']=[]
+#     spreaddata['title']=[]
+#     spreaddata['journal']=[]
+#     spreaddata['year']=[]
+#     spreaddata['arxiv']=[]
 
-    for k in papers:
-        for p in papers[k]['data']:
-            spreaddata['first_author'].append(p['author'].split(",")[0].split(".")[-1].strip().replace("\`",""))
-            spreaddata['ads_citations'].append(p['ads_citations'])
-            spreaddata['inspire_citations'].append(p['inspire_citations'])
-            spreaddata['max_citations'].append(max(p['ads_citations'],p['inspire_citations']))
-            spreaddata['title'].append(p['title'])
-            if p['journal']:
-                spreaddata['journal'].append(p['journal'].split("(")[0].replace("in press","").rstrip(" 0123456789.,") )
-            elif p['arxiv']:
-                spreaddata['journal'].append('arXiv')
-            else:
-                spreaddata['journal'].append("")
-            if p['journal'] == "PhD thesis":
-                spreaddata['year'].append(2016)
-            elif p['journal'] and "(" in  p['journal'] and ")" in  p['journal']:
-                spreaddata['year'].append(p['journal'].split("(")[-1].split(")")[0])
-            elif p['arxiv']:
-                spreaddata['year'].append("20"+p['arxiv'].split(':')[1][:2])
-            else:
-                spreaddata['year'].append()
-            if p['arxiv']:
-                spreaddata['arxiv'].append(p['arxiv'].split(']')[0].split("[")[1])
-            else:
-                spreaddata['arxiv'].append("None")
-    tot = len(spreaddata['title'])
-    for x in spreaddata:
-        assert(len(spreaddata[x]) == tot)
+#     for k in papers:
+#         for p in papers[k]['data']:
+#             spreaddata['first_author'].append(p['author'].split(",")[0].split(".")[-1].strip().replace("\`",""))
+#             spreaddata['ads_citations'].append(p['ads_citations'])
+#             spreaddata['inspire_citations'].append(p['inspire_citations'])
+#             spreaddata['max_citations'].append(max(p['ads_citations'],p['inspire_citations']))
+#             spreaddata['title'].append(p['title'])
+#             if p['journal']:
+#                 spreaddata['journal'].append(p['journal'].split("(")[0].replace("in press","").rstrip(" 0123456789.,") )
+#             elif p['arxiv']:
+#                 spreaddata['journal'].append('arXiv')
+#             else:
+#                 spreaddata['journal'].append("")
+#             if p['journal'] == "PhD thesis":
+#                 spreaddata['year'].append(2016)
+#             elif p['journal'] and "(" in  p['journal'] and ")" in  p['journal']:
+#                 spreaddata['year'].append(p['journal'].split("(")[-1].split(")")[0])
+#             elif p['arxiv']:
+#                 spreaddata['year'].append("20"+p['arxiv'].split(':')[1][:2])
+#             else:
+#                 spreaddata['year'].append()
+#             if p['arxiv']:
+#                 spreaddata['arxiv'].append(p['arxiv'].split(']')[0].split("[")[1])
+#             else:
+#                 spreaddata['arxiv'].append("None")
+#     tot = len(spreaddata['title'])
+#     for x in spreaddata:
+#         assert(len(spreaddata[x]) == tot)
 
-    years = np.array([int(y) for y in spreaddata['year']])
-    max_cits = np.array(spreaddata['max_citations'])
-    # lexsort sorts by last key first, so we pass (years, max_cits)
-    ind = np.lexsort(( -years, -max_cits ))
-    for x in spreaddata:
-        spreaddata[x]=np.array(spreaddata[x])[ind]
+#     years = np.array([int(y) for y in spreaddata['year']])
+#     max_cits = np.array(spreaddata['max_citations'])
+#     # lexsort sorts by last key first, so we pass (years, max_cits)
+#     ind = np.lexsort(( -years, -max_cits ))
+#     for x in spreaddata:
+#         spreaddata[x]=np.array(spreaddata[x])[ind]
 
-    worksheet = sh.worksheet("List")
-    worksheet.update("A3",np.expand_dims(np.arange(tot)+1,1).tolist())
-    worksheet.update("C3",np.expand_dims(spreaddata['first_author'],1).tolist())
-    worksheet.update("D3",np.expand_dims(spreaddata['year'],1).tolist())
-    worksheet.update("E3",np.expand_dims(spreaddata['title'],1).tolist())
-    worksheet.update("F3",np.expand_dims(spreaddata['ads_citations'],1).tolist())
-    worksheet.update("G3",np.expand_dims(spreaddata['inspire_citations'],1).tolist())
-    worksheet.update("H3",np.expand_dims(spreaddata['max_citations'],1).tolist())
-    worksheet.update("F2",str(np.sum(spreaddata['ads_citations'])))
-    worksheet.update("G2",str(np.sum(spreaddata['inspire_citations'])))
-    worksheet.update("H2",str(np.sum(spreaddata['max_citations'])))
-    worksheet.update("I2",str(hindex(spreaddata['max_citations'])))
+#     worksheet = sh.worksheet("List")
+#     worksheet.update("A3",np.expand_dims(np.arange(tot)+1,1).tolist())
+#     worksheet.update("C3",np.expand_dims(spreaddata['first_author'],1).tolist())
+#     worksheet.update("D3",np.expand_dims(spreaddata['year'],1).tolist())
+#     worksheet.update("E3",np.expand_dims(spreaddata['title'],1).tolist())
+#     worksheet.update("F3",np.expand_dims(spreaddata['ads_citations'],1).tolist())
+#     worksheet.update("G3",np.expand_dims(spreaddata['inspire_citations'],1).tolist())
+#     worksheet.update("H3",np.expand_dims(spreaddata['max_citations'],1).tolist())
+#     worksheet.update("F2",str(np.sum(spreaddata['ads_citations'])))
+#     worksheet.update("G2",str(np.sum(spreaddata['inspire_citations'])))
+#     worksheet.update("H2",str(np.sum(spreaddata['max_citations'])))
+#     worksheet.update("I2",str(hindex(spreaddata['max_citations'])))
 
-    print('Write Google Spreadsheet: Year')
+#     print('Write Google Spreadsheet: Year')
 
-    singleyear=np.array(list(set(spreaddata['year'])))
-    journalcount = np.array([np.sum(spreaddata['year']==s) for s in singleyear])
-    ind = np.argsort(singleyear)
-    singleyear=singleyear[ind]
-    journalcount=journalcount[ind]
+#     singleyear=np.array(list(set(spreaddata['year'])))
+#     journalcount = np.array([np.sum(spreaddata['year']==s) for s in singleyear])
+#     ind = np.argsort(singleyear)
+#     singleyear=singleyear[ind]
+#     journalcount=journalcount[ind]
 
-    worksheet = sh.worksheet("Years")
-    worksheet.update("A2",np.expand_dims(np.array(singleyear),1).tolist())
-    worksheet.update("B2",np.expand_dims(np.array(journalcount),1).tolist())
+#     worksheet = sh.worksheet("Years")
+#     worksheet.update("A2",np.expand_dims(np.array(singleyear),1).tolist())
+#     worksheet.update("B2",np.expand_dims(np.array(journalcount),1).tolist())
 
-    print('Write Google Spreadsheet: Journals')
+#     print('Write Google Spreadsheet: Journals')
 
-    shortpub = [convertjournal(j)[1] for j in spreaddata['journal']]
-    singlepub = np.array([convertjournal(j)[1] for j in list(set(shortpub))])
-    journalcount = np.array([np.sum(np.array([convertjournal(j)[1] for j in shortpub])==s) for s in singlepub])
+#     shortpub = [convertjournal(j)[1] for j in spreaddata['journal']]
+#     singlepub = np.array([convertjournal(j)[1] for j in list(set(shortpub))])
+#     journalcount = np.array([np.sum(np.array([convertjournal(j)[1] for j in shortpub])==s) for s in singlepub])
 
-    ind = np.argsort(journalcount)[::-1]
-    singlepub=singlepub[ind]
-    journalcount=journalcount[ind]
+#     ind = np.argsort(journalcount)[::-1]
+#     singlepub=singlepub[ind]
+#     journalcount=journalcount[ind]
 
-    longjournals=[]
-    for s in singlepub:
-        for j in list(set(spreaddata['journal'])):
-            if convertjournal(j)[1]==s:
-                longjournals.append(convertjournal(j)[0])
-                break
-    # longpub=[]
-    # shortpub=[]
-    # for j in singlepub:
-    #     if j in journalconversion:
-    #         longpub.append(journalconversion[j][0])
-    #         shortpub.append(journalconversion[j][1])
-    #     else:
-    #         longpub.append(j)
-    #         shortpub.append(j)
+#     longjournals=[]
+#     for s in singlepub:
+#         for j in list(set(spreaddata['journal'])):
+#             if convertjournal(j)[1]==s:
+#                 longjournals.append(convertjournal(j)[0])
+#                 break
+#     # longpub=[]
+#     # shortpub=[]
+#     # for j in singlepub:
+#     #     if j in journalconversion:
+#     #         longpub.append(journalconversion[j][0])
+#     #         shortpub.append(journalconversion[j][1])
+#     #     else:
+#     #         longpub.append(j)
+#     #         shortpub.append(j)
 
-    worksheet = sh.worksheet("Journals")
-    worksheet.update("A2",np.expand_dims(np.array(longjournals),1).tolist())
-    worksheet.update("B2",np.expand_dims(np.array(journalcount),1).tolist())
-    worksheet.update("D2",np.expand_dims(np.array(singlepub),1).tolist())
+#     worksheet = sh.worksheet("Journals")
+#     worksheet.update("A2",np.expand_dims(np.array(longjournals),1).tolist())
+#     worksheet.update("B2",np.expand_dims(np.array(journalcount),1).tolist())
+#     worksheet.update("D2",np.expand_dims(np.array(singlepub),1).tolist())
 
 
-    print('Write Google Spreadsheet: arXiv')
+#     print('Write Google Spreadsheet: arXiv')
 
-    singlearxiv=np.array(list(set(spreaddata['arxiv'])))
-    # Remove empty
-    singlearxiv=singlearxiv[singlearxiv!=""]
-    journalcount = np.array([np.sum(spreaddata['arxiv']==s) for s in singlearxiv])
+#     singlearxiv=np.array(list(set(spreaddata['arxiv'])))
+#     # Remove empty
+#     singlearxiv=singlearxiv[singlearxiv!=""]
+#     journalcount = np.array([np.sum(spreaddata['arxiv']==s) for s in singlearxiv])
 
-    ind = np.argsort(journalcount)[::-1]
-    singlearxiv=singlearxiv[ind]
-    journalcount=journalcount[ind]
+#     ind = np.argsort(journalcount)[::-1]
+#     singlearxiv=singlearxiv[ind]
+#     journalcount=journalcount[ind]
 
-    worksheet = sh.worksheet("arXiv")
-    worksheet.update("A2",np.expand_dims(np.array(singlearxiv),1).tolist())
-    worksheet.update("B2",np.expand_dims(np.array(journalcount),1).tolist())
+#     worksheet = sh.worksheet("arXiv")
+#     worksheet.update("A2",np.expand_dims(np.array(singlearxiv),1).tolist())
+#     worksheet.update("B2",np.expand_dims(np.array(journalcount),1).tolist())
 
 
 

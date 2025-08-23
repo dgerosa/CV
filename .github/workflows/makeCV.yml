@@ -66,7 +66,7 @@ jobs:
         working-directory: CV
         run: |
           TAG=$(date +"%Y-%m-%d-%H-%M")
-          FILES=$(ls *.pdf *.json 2>/dev/null || true)
+          FILES=$(ls DavideGerosa_*.pdf 2>/dev/null || true)
           gh release create "$TAG" $FILES --notes "Automated CV update"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
