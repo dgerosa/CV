@@ -1,0 +1,72 @@
+name: Build and Publish CV
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # --- Checkout repos ---
+      - uses: actions/checkout@v4
+        with:
+          path: cvrepo
+
+      - uses: actions/checkout@v4
+        with:
+          repository: yourusername/website
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          path: website
+
+      # --- Python setup ---
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
+          pip install numpy tqdm requests
+
+      # --- ADS credentials ---
+      - name: Set up ADS token
+        run: |
+          mkdir -p $HOME/reps/dotfiles
+          echo "${{ secrets.ADS_TOKEN }}" > $HOME/reps/dotfiles/adstoken.txt
+
+      # --- Run the CV builder ---
+      - name: Build CV and website data
+        working-directory: cvrepo
+        run: python makeCV.py
+
+      # --- Commit and push website changes ---
+      - name: Commit and push website updates
+        working-directory: website
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Website update from CV workflow" || echo "No changes"
+          git push
+
+      # --- Upload temp/ as workflow artifacts ---
+      - name: Upload temp artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-temp-files
+          path: temp/
+
+      # --- Create GitHub Release ---
+      - name: Publish CV Release
+        working-directory: cvrepo
+        run: |
+          TAG=$(date +"%Y-%m-%d-%H-%M")
+          FILES=$(ls *.pdf *.json 2>/dev/null || true)
+          gh release create "$TAG" $FILES --notes "Automated CV update"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
