@@ -22,7 +22,7 @@ from glob import glob
 #import ssl
 #ssl._create_default_https_context = ssl._create_unverified_context
 
-relativepathwebsiterepo = "../website"
+relativepathwebsiterepo = os.path.abspath(os.getcwd())+"/../website"
 
 def hindex(citations):
     return sum(x >= i + 1 for i, x in enumerate(sorted(  list(citations), reverse=True)))
@@ -1425,7 +1425,7 @@ if __name__ == "__main__":
         replacekeys()
         builddocs()
         copyfiles()
-        
+
         if os.getenv("GITHUB_ACTIONS") == "true": # Running inside GitHub Actions
             pass
         else:
