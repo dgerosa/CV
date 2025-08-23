@@ -145,6 +145,17 @@ if published:
     papers['published']['data'] = []
 
     papers['published']['data'].append({
+        "title":    "This is a test to see if the database is working",
+        "author":   "This is a test to see if the database is working",
+        "journal":  "Test",
+        "link":     "",
+        "arxiv":    "",
+        "ads":      "",
+        "inspire":  "",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
         "title":    "A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries",
         "author":   "R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, D. Gerosa, A. Carzaniga",
         "journal":  "European Physical Journal C, in press (2025)",
