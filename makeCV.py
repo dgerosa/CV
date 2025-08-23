@@ -1357,6 +1357,7 @@ def pushtogit():
 
 def pushtowebsite():
     comment='updated from dgerosa/cv'
+    os.system("git -C "+relativepathwebsiterepo+" pull")
     os.system("git -C "+relativepathwebsiterepo+" add -u")
     os.system("git -C "+relativepathwebsiterepo+" commit -m '"+comment+"'")
     os.system("git -C "+relativepathwebsiterepo+" push")
@@ -1428,8 +1429,8 @@ if __name__ == "__main__":
         if os.getenv("GITHUB_ACTIONS") == "true": # Running inside GitHub Actions
             pass
         else:
-            pushtowebsite()
             pushtogit()
+            pushtowebsite()
             publishgithub()
 
     clean()
