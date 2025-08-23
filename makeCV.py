@@ -13,7 +13,6 @@ import html
 from database import papers, talks, group
 from datetime import datetime
 import shutil
-from github_release import gh_release_create
 import warnings
 import re
 import unicodedata
@@ -1332,6 +1331,8 @@ def pushtowebsite():
 
 
 def publishgithub():
+    from github_release import gh_release_create
+
     date = datetime.now().strftime("%Y-%m-%d-%H-%M")
     print("Publish github release:", date)
 
@@ -1387,7 +1388,11 @@ if __name__ == "__main__":
         replacekeys()
         builddocs()
         pushtogit()
-        publishgithub()
         pushtowebsite()
+
+        if os.getenv("GITHUB_ACTIONS") == "true": # Running inside GitHub Actions
+            pass
+        else:
+            publishgithub()
 
     clean()
