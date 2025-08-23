@@ -1,4 +1,4 @@
-name: Build and Publish CV
+name: makeCV
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  makeCV:
     runs-on: ubuntu-latest
 
     steps:

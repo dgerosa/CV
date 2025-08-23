@@ -69,7 +69,8 @@ def ads_citations(papers,testing=False):
 
     print('Get citations from ADS')
 
-    with open('/Users/dgerosa/reps/dotfiles/adstoken.txt') as f:
+    path = os.path.expandvars('$HOME/reps/dotfiles/adstoken.txt')
+    with open(path) as f:
         #ads.config.token = f.read()
         token = f.read()
 
