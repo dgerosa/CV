@@ -1363,17 +1363,19 @@ def pushtowebsite():
     os.system("git -C "+relativepathwebsiterepo+" push")
 
 
-def publishgithub():
-    from github_release import gh_release_create
-
-    date = datetime.now().strftime("%Y-%m-%d-%H-%M")
-    print("Publish github release:", date)
+def copyfiles():
 
     shutil.copy2("CV.pdf", "DavideGerosa_fullCV.pdf")
     shutil.copy2("CVshort.pdf", "DavideGerosa_shortCV.pdf")
     shutil.copy2("publist.pdf", "DavideGerosa_publist.pdf")
     shutil.copy2("publist.bib", "DavideGerosa_publist.bib")
     shutil.copy2("talklist.pdf", "DavideGerosa_talklist.pdf")
+
+def publishgithub():
+    from github_release import gh_release_create
+
+    date = datetime.now().strftime("%Y-%m-%d-%H-%M")
+    print("Publish github release:", date)
 
     # Create a github token, see:
     # https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
@@ -1422,7 +1424,8 @@ if __name__ == "__main__":
     if True:
         replacekeys()
         builddocs()
-
+        copyfiles()
+        
         if os.getenv("GITHUB_ACTIONS") == "true": # Running inside GitHub Actions
             pass
         else:

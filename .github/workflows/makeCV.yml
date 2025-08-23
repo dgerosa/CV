@@ -71,7 +71,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cv-temp-files
-          path: temp/
+          path: CV/temp/
 
       # --- Create GitHub Release ---
       - name: Publish CV Release
