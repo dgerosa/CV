@@ -126,7 +126,7 @@ def ads_citations(papers,testing=False):
 
 
                                 q=list(ads.SearchQuery(bibcode=p['ads'], fl=['bibcode', 'citation_count']))[0] 
-                                print(q.citation_count, q.bibcode)
+                                #print(q.citation_count, q.bibcode)
                                 citation_count=q.citation_count
                                 if citation_count is not None:
                                     p['ads_citations'] = citation_count
@@ -1395,7 +1395,7 @@ def clean():
 if __name__ == "__main__":
 
     # Set testing=True to avoid API limit
-    testing = True
+    testing = False
 
     papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)
