@@ -31,8 +31,8 @@ def roundto100(N):
     return int(N/100)*100
 
 def pdflatex(filename):
-    #os.system('pdflatex '+filename+' >/dev/null')
-    os.system('pdflatex '+filename)
+    os.system('pdflatex '+filename+' >/dev/null')
+    #os.system('pdflatex '+filename)
 
 def slugify(text):
     return re.sub(r'[^a-z0-9\-]+', '', re.sub(r'\s+', '-', text.lower()))
@@ -1357,14 +1357,13 @@ def pushtogit():
 
 def pushtowebsite():
     comment='updated from dgerosa/cv'
-    os.system("cp _*.md "+relativepathwebsiterepo+"/_pages/")
     os.system("git -C "+relativepathwebsiterepo+" add -u")
     os.system("git -C "+relativepathwebsiterepo+" commit -m '"+comment+"'")
     os.system("git -C "+relativepathwebsiterepo+" push")
 
 
 def copyfiles():
-
+    os.system("cp _*.md "+relativepathwebsiterepo+"/_pages/")
     shutil.copy2("CV.pdf", "DavideGerosa_fullCV.pdf")
     shutil.copy2("CVshort.pdf", "DavideGerosa_shortCV.pdf")
     shutil.copy2("publist.pdf", "DavideGerosa_publist.pdf")
