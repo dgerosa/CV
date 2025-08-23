@@ -74,9 +74,16 @@ def ads_citations(papers,testing=False):
         #ads.config.token = f.read()
         token = f.read()
 
+    from requests.adapters import HTTPAdapter
+    from urllib3.util.retry import Retry
+
     session = requests.Session()
     session.headers.update({'Authorization': f'Bearer {token}'})
-    requests.packages.urllib3.disable_warnings()
+
+    retry = Retry(total=5, backoff_factor=0.3, status_forcelist=[500,502,503,504])
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=10, pool_maxsize=10)
+    session.mount('http://', adapter)
+    session.mount('https://', adapter)
 
     tot = len(np.concatenate([papers[k]['data'] for k in papers]))
     with tqdm(total=tot) as pbar:
