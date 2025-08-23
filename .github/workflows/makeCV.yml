@@ -30,8 +30,9 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-#          sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
           pip install numpy tqdm requests
+      
+      # sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
 
       # --- ADS credentials ---
       - name: Set up ADS token
