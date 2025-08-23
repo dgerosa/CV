@@ -31,7 +31,8 @@ def roundto100(N):
     return int(N/100)*100
 
 def pdflatex(filename):
-    os.system('pdflatex '+filename+' >/dev/null')
+    #os.system('pdflatex '+filename+' >/dev/null')
+    os.system('pdflatex '+filename)
 
 def slugify(text):
     return re.sub(r'[^a-z0-9\-]+', '', re.sub(r'\s+', '-', text.lower()))
