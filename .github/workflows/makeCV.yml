@@ -44,13 +44,22 @@ jobs:
         working-directory: CV
         run: python makeCV.py
 
+      # --- Commit and push CV changes ---
+      - name: Commit and push CV changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -u
+          git commit -m "CV update from CV workflow" || echo "No changes"
+          git push
+
       # --- Commit and push website changes ---
       - name: Commit and push website updates
         working-directory: website
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+          git add -u
           git commit -m "Website update from CV workflow" || echo "No changes"
           git push
 

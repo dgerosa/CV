@@ -1423,7 +1423,6 @@ if __name__ == "__main__":
         builddocs()
 
         if os.getenv("GITHUB_ACTIONS") == "true": # Running inside GitHub Actions
-            print('here')
             pass
         else:
             pushtogit()
