@@ -13,11 +13,11 @@ jobs:
       # --- Checkout repos ---
       - uses: actions/checkout@v4
         with:
-          path: cvrepo
+          path: CV
 
       - uses: actions/checkout@v4
         with:
-          repository: yourusername/website
+          repository: dgerosa/website
           token: ${{ secrets.PERSONAL_TOKEN }}
           path: website
 
@@ -41,7 +41,7 @@ jobs:
 
       # --- Run the CV builder ---
       - name: Build CV and website data
-        working-directory: cvrepo
+        working-directory: CV
         run: python makeCV.py
 
       # --- Commit and push website changes ---
@@ -63,7 +63,7 @@ jobs:
 
       # --- Create GitHub Release ---
       - name: Publish CV Release
-        working-directory: cvrepo
+        working-directory: CV
         run: |
           TAG=$(date +"%Y-%m-%d-%H-%M")
           FILES=$(ls *.pdf *.json 2>/dev/null || true)
