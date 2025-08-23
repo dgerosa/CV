@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          pip install numpy tqdm requests
+          pip install numpy tqdm requests ads
       
       # sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
 

@@ -1,6 +1,6 @@
 import numpy as np
 import json
-#import ads
+import ads
 from tqdm import tqdm
 import copy
 import sys
@@ -71,8 +71,8 @@ def ads_citations(papers,testing=False):
 
     path = os.path.expandvars('$HOME/reps/dotfiles/adstoken.txt')
     with open(path) as f:
-        #ads.config.token = f.read()
-        token = f.read()
+        ads.config.token = f.read()
+        #token = f.read()
 
     # from requests.adapters import HTTPAdapter
     # from urllib3.util.retry import Retry
@@ -111,24 +111,29 @@ def ads_citations(papers,testing=False):
                                 #if len(q)!=1:
                                 #    raise ValueError("ADS error in "+b)
                                 
-                                query = p['ads'].replace("&", "%26")
-                                url = f"https://api.adsabs.harvard.edu/v1/search/query?q={query}&fl=citation_count,bibcode"
-                                req = urllib.request.Request(url, headers={'Authorization': f'Bearer {token}'})
-                                with urllib.request.urlopen(req, context=None) as response:
-                                    q = response.read().decode('utf-8')
-                                q= json.loads(q)
+                                # query = p['ads'].replace("&", "%26")
+                                # url = f"https://api.adsabs.harvard.edu/v1/search/query?q={query}&fl=citation_count,bibcode"
+                                # req = urllib.request.Request(url, headers={'Authorization': f'Bearer {token}'})
+                                # with urllib.request.urlopen(req, context=None) as response:
+                                #     q = response.read().decode('utf-8')
+                                # q= json.loads(q)
 
-                                if int(q['response']["numFound"])!=1:
-                                    raise ValueError("ADS error in "+b)
+                                # if int(q['response']["numFound"])!=1:
+                                #     raise ValueError("ADS error in "+b)
 
-                                citation_count=int(q['response']['docs'][0]['citation_count'])
+                                # citation_count=int(q['response']['docs'][0]['citation_count'])
+
+
+                                q=list(ads.SearchQuery(bibcode=p['ads'], fl=['bibcode', 'citation_count']))[0] 
+                                citation_count=q.citation_count
                                 if citation_count is not None:
                                     p['ads_citations'] = citation_count
                                 else:
                                     print("Warning: citation count is None.", p['ads'])
                                     p['ads_citations'] = 0
                                 #p['ads_found'] = q['bibcode']
-                                q['response']['docs'][0]['bibcode']
+                                #q['response']['docs'][0]['bibcode']
+                                p['ads_found'] = q.bibcode
 
                             except:
                                 retry_time = 10 #req.getheaders()["retry-in"]
