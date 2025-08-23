@@ -42,10 +42,13 @@ jobs:
       # --- Run the CV builder ---
       - name: Build CV and website data
         working-directory: CV
-        run: python makeCV.py
+        run: |
+          python makeCV.py
+          ls
 
       # --- Commit and push CV changes ---
       - name: Commit and push CV changes
+        working-directory: CV
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
