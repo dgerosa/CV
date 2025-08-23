@@ -74,6 +74,10 @@ def ads_citations(papers,testing=False):
         #ads.config.token = f.read()
         token = f.read()
 
+    session = requests.Session()
+    session.headers.update({'Authorization': f'Bearer {token}'})
+    requests.packages.urllib3.disable_warnings()
+
     tot = len(np.concatenate([papers[k]['data'] for k in papers]))
     with tqdm(total=tot) as pbar:
         for k in papers:
@@ -92,7 +96,10 @@ def ads_citations(papers,testing=False):
                             try:
                                 with warnings.catch_warnings():
                                     warnings.filterwarnings("ignore", message="Unverified HTTPS request is being made to host")
-                                    r = requests.get("https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads'].replace("&","%26")+"&fl=citation_count,bibcode",headers={'Authorization': 'Bearer ' + token},verify=False)
+                                    #r = requests.get("https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads'].replace("&","%26")+"&fl=citation_count,bibcode",headers={'Authorization': 'Bearer ' + token},verify=False)
+                                    url = "https://api.adsabs.harvard.edu/v1/search/query?q=" + p['ads'].replace("&", "%26") + "&fl=citation_count,bibcode"
+                                    r = session.get(url, verify=False, timeout=10)
+
                                 q= r.json()['response']['docs']
                                 #print(p['ads'], q)
                                 if len(q)!=1:
