@@ -11,7 +11,7 @@ import urllib.request
 import urllib.error
 import html
 from database import papers, talks, group
-from datetime import datetime
+from datetime import datetime, timezone
 import shutil
 import warnings
 import re
@@ -250,6 +250,13 @@ def parsepapers(papers,filename="parsepapers.tex"):
     with open(filename,"w") as f: f.write("\n".join(out))
 
 
+def lastupdated(out):
+    now_utc = datetime.now(timezone.utc)
+    formatted = now_utc.strftime("%Y-%m-%d %H:%M:%S %Z")
+    out.append("")
+    out.append("<br><br>")
+    out.append("*Last updated: "+formatted+"*")
+
 def markdownpapers(papers,filename="_publications.md"):
 
     print('Markdown paper list for website')
@@ -344,6 +351,7 @@ def markdownpapers(papers,filename="_publications.md"):
         out.append("")
         
     out = apply_journal_conversion(out)
+    lastupdated(out)
 
     with open(filename,"w") as f: f.write("\n".join(out))
 
@@ -510,13 +518,12 @@ def markdowntalks(talks, filename="_talks.md"):
         out.append("---")
         out.append("")
 
+    lastupdated(out)
+
     with open(filename, "w") as f:
         f.write("\n".join(out))
 
 
-import re
-
-import re
 
 def markdowngroup(group, filename="_group.md"):
     print('Markdown group list for website')
@@ -682,6 +689,9 @@ def markdowngroup(group, filename="_group.md"):
     out.append("")
     out.append("---")
     out.append("")
+
+
+    lastupdated(out)
 
     with open(filename, "w") as f:
         f.write("\n".join(out))
@@ -1140,6 +1150,10 @@ def markdowncitations(papers, output_file="_citations.md"):
         for cat in unique_cats:
             f.write(f"| {cat} | {np.sum(categories == cat)} |\n")
 
+        out=[""]
+        lastupdated(out)
+        f.write("\n".join(out))
+
     print(f"Markdown citation list for website")
 
 def builddocs():
@@ -1396,7 +1410,7 @@ def clean():
 if __name__ == "__main__":
 
     # Set testing=True to avoid API limit
-    testing = False
+    testing = True
 
     papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)
