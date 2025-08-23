@@ -1428,8 +1428,8 @@ if __name__ == "__main__":
         if os.getenv("GITHUB_ACTIONS") == "true": # Running inside GitHub Actions
             pass
         else:
+            pushtowebsite()
             pushtogit()
             publishgithub()
-            pushtowebsite()
 
     clean()
