@@ -27,11 +27,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
-          pip install numpy tqdm requests
+      # - name: Install dependencies
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
+      #     pip install numpy tqdm requests
 
       # --- ADS credentials ---
       - name: Set up ADS token

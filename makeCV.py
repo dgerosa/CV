@@ -1378,8 +1378,9 @@ if __name__ == "__main__":
     # Set testing=True to avoid API limit
     testing = False
 
-    papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)
+
+    papers = ads_citations(papers,testing=testing)
 
     parsepapers(papers)
     parsetalks(talks)
