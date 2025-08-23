@@ -125,6 +125,7 @@ def ads_citations(papers,testing=False):
 
 
                                 q=list(ads.SearchQuery(bibcode=p['ads'], fl=['bibcode', 'citation_count']))[0] 
+                                print(q.citation_count, q.bibcode)
                                 citation_count=q.citation_count
                                 if citation_count is not None:
                                     p['ads_citations'] = citation_count
@@ -412,8 +413,8 @@ def checkblogposts(papers):
 
                 filename =f"temp/{today}-{slugify(p['title'])}.md"
                 with open(filename,"w") as f: f.write("\n".join(out))
-                print("--> Created blog post template:", filename)
-                print("--> Please edit the file and move it to _posts/; requires manual intervention if there's latex in the title")
+                #print("--> Created blog post template:", filename)
+                #print("--> Please edit the file and move it to _posts/; requires manual intervention if there's latex in the title")
 
 
 
@@ -1392,7 +1393,7 @@ def clean():
 if __name__ == "__main__":
 
     # Set testing=True to avoid API limit
-    testing = False
+    testing = True
 
     papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)
@@ -1416,15 +1417,17 @@ if __name__ == "__main__":
 
     #makemap(talks)
 
-    if not testing:
+    #if not testing:
+    if True:
         replacekeys()
         builddocs()
-        pushtogit()
-        pushtowebsite()
 
         if os.getenv("GITHUB_ACTIONS") == "true": # Running inside GitHub Actions
+            print('here')
             pass
         else:
+            pushtogit()
             publishgithub()
+            pushtowebsite()
 
     clean()
