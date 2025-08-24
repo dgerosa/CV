@@ -373,6 +373,8 @@ def checkblogposts(papers):
 
                 out = apply_journal_conversion(out)
 
+                os.system('mkdir -p temp')
+                os.system('rm -f temp/*')
                 filename =f"temp/{today}-{slugify(p['title'])}.md"
                 with open(filename,"w") as f: f.write("\n".join(out))
                 #print("--> Created blog post template:", filename)
