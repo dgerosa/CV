@@ -32,20 +32,16 @@ jobs:
       #   working-directory: CV
       #   run: for f in CV CVshort publist talklist; do pdflatex "$f".tex; done
 
-      - name: Compile lates
+      - name: Compile LaTeX
         uses: xu-cheng/latex-action@v4
-        working-directory: CV
         with:
+          working_directory: CV
           root_file: |
             CV.tex
             CVshort.tex
             publist.tex
             talklist.tex
-          extra_system_packages: |
-            texlive-latex-extra
-            texlive-fonts-recommended
-            texlive-fonts-extra
-            gh
+          extra_system_packages: texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
 
       - name: Copy files
         working-directory: CV
