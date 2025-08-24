@@ -1112,7 +1112,7 @@ def publishgithub():
 
 
 def clean():
-    os.system("rm -f .aux *.log *.out")
+    os.system("rm -f *.aux *.log *.out")
 
 
 #####################################
