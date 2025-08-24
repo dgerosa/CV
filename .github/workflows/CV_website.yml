@@ -34,18 +34,17 @@ jobs:
 
       - uses: xu-cheng/latex-action@v4
         working-directory: CV
-        extra_system_packages: |
-          texlive-latex-extra
-          texlive-fonts-recommended
-          texlive-fonts-extra
-          gh
         with:
           root_file: |
             CV.tex
             CVshort.tex
             publist.tex
             talklist.tex
-
+          extra_system_packages: |
+            texlive-latex-extra
+            texlive-fonts-recommended
+            texlive-fonts-extra
+            gh
 
       - name: Copy files
         working-directory: CV
