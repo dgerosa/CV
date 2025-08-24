@@ -1,0 +1,66 @@
+name: CV and website workflow
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+  #schedule:
+  #  - cron: '0 0 * * *'  # every day at 00:00 UTC
+
+jobs:
+  CV_website:
+    runs-on: ubuntu-latest
+
+    steps:
+      # --- Checkout repos ---
+      - uses: actions/checkout@v4
+        with:
+          path: CV
+
+      - uses: actions/checkout@v4
+        with:
+          repository: dgerosa/website
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          path: website
+
+      - name: Install latex
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
+
+      - name: Compile latex
+        working-directory: CV
+        run: for f in CV CVshort publist talklist; do pdflatex "$f".tex; done
+
+      - name: Copy files
+        working-directory: CV
+        run: |
+          for f in CV.pdf CVshort.pdf publist.pdf talklist.pdf publist.bib; do cp "$f" "DavideGerosa_$f"; done
+          cp _citations.md _group.md _publications.md _talks.md ../website/_pages/
+
+      - name: Commit and push CV updates
+        working-directory: CV
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -u
+          git commit -m "CV update from workflow" || echo "No changes"
+          git push
+
+      - name: Commit and push website updates
+        working-directory: website
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -u
+          git commit -m "Website update from workflow" || echo "No changes"
+          git push
+
+      - name: Publish CV Release
+        working-directory: CV
+        run: |
+          TAG=$(date +"%Y-%m-%d-%H-%M")
+          FILES=$(ls DavideGerosa_*.pdf 2>/dev/null || true)
+          gh release create "$TAG" $FILES --notes "Automated CV update"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1066,69 +1066,6 @@ def replacekeys():
         f.write(publist)
 
 
-#### Latex and git things ####
-
-def builddocs():
-
-    print("Update CV")
-    pdflatex("CV")
-
-    print("Update publist")
-    pdflatex("publist")
-
-    print("Update talklist")
-    pdflatex("talklist")
-
-    print("Update CVshort")
-    pdflatex("CVshort")
-
-
-def pushtogit():
-    try:
-        comment = sys.argv[1]
-    except:
-        comment = "Generic update"
-
-    print("Push to git:", comment)
-    print(" ")
-    os.system("git add -u")
-    os.system("git commit -m '"+comment+"'")
-    os.system("git push")
-
-def pushtowebsite():
-    comment='updated from dgerosa/cv'
-    os.system("git -C "+relativepathwebsiterepo+" pull")
-    os.system("git -C "+relativepathwebsiterepo+" add -u")
-    os.system("git -C "+relativepathwebsiterepo+" commit -m '"+comment+"'")
-    os.system("git -C "+relativepathwebsiterepo+" push")
-
-def copyfiles():
-    os.system("cp _*.md "+relativepathwebsiterepo+"/_pages/")
-    shutil.copy2("CV.pdf", "DavideGerosa_fullCV.pdf")
-    shutil.copy2("CVshort.pdf", "DavideGerosa_shortCV.pdf")
-    shutil.copy2("publist.pdf", "DavideGerosa_publist.pdf")
-    shutil.copy2("publist.bib", "DavideGerosa_publist.bib")
-    shutil.copy2("talklist.pdf", "DavideGerosa_talklist.pdf")
-
-def publishgithub():
-    from github_release import gh_release_create
-
-    date = datetime.now().strftime("%Y-%m-%d-%H-%M")
-    print("Publish github release:", date)
-
-    # Create a github token, see:
-    # https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-    # Make sure a GITHUB_TOKEN variable is part of the environment variables
-
-    gh_release_create("dgerosa/CV", date, publish=True, name=date, asset_pattern="DavideGerosa_*")
-
-    os.system("git pull") # This is to get new tags from github
-
-
-def clean():
-    os.system("rm -f *.aux *.log *.out")
-
-
 #####################################
 
 
@@ -1136,7 +1073,6 @@ if __name__ == "__main__":
 
     # Set testing=True to avoid API limit
     testing = True
-
 
     os.system("git pull") # You never know
 
@@ -1163,10 +1099,3 @@ if __name__ == "__main__":
     # Database
     replacekeys()
 
-    # Latex and git things
-    builddocs()
-    copyfiles()
-    pushtowebsite()
-    pushtogit()
-    publishgithub()
-    clean()
