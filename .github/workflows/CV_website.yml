@@ -41,7 +41,6 @@ jobs:
             CVshort.tex
             publist.tex
             talklist.tex
-          extra_system_packages: texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
 
       - name: Copy files
         working-directory: CV
