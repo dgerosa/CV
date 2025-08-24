@@ -20,7 +20,8 @@ import re
 import unicodedata
 from glob import glob   
 
-context = ssl.create_default_context()
+
+context = ssl._create_unverified_context()
 #import gspread
 
 #import ssl
