@@ -397,3 +397,14 @@ def clean():
     pushtogit()
     publishgithub()
     clean()
+
+
+
+      # - name: Install latex
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
+
+      # - name: Compile latex
+      #   working-directory: CV
+      #   run: for f in CV CVshort publist talklist; do pdflatex "$f".tex; done

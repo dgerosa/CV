@@ -1072,9 +1072,10 @@ def replacekeys():
 if __name__ == "__main__":
 
     # Set testing=True to avoid API limit
-    testing = True
+    testing = False
 
-    os.system("git pull") # You never know
+    # Git pull
+    os.system("git pull")
 
     # Citations
     papers = ads_citations(papers,testing=testing)
@@ -1099,3 +1100,12 @@ if __name__ == "__main__":
     # Database
     replacekeys()
 
+    # Git push
+    try:
+        comment = sys.argv[1]
+    except:
+        comment = "Generic update"
+    print("Push to git:", comment)
+    os.system("git add -u")
+    os.system("git commit -m '"+comment+"'")
+    os.system("git push")

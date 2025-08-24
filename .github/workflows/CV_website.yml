@@ -12,25 +12,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # --- Checkout repos ---
-      - uses: actions/checkout@v4
+      - name: Checkout CV
+        uses: actions/checkout@v4
         with:
           path: CV
 
-      - uses: actions/checkout@v4
+      - name: Checkout website
+        uses: actions/checkout@v4
         with:
           repository: dgerosa/website
           token: ${{ secrets.PERSONAL_TOKEN }}
           path: website
-
-      # - name: Install latex
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
-
-      # - name: Compile latex
-      #   working-directory: CV
-      #   run: for f in CV CVshort publist talklist; do pdflatex "$f".tex; done
 
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v4
@@ -45,7 +37,10 @@ jobs:
       - name: Copy files
         working-directory: CV
         run: |
-          for f in CV.pdf CVshort.pdf publist.pdf talklist.pdf publist.bib; do cp "$f" "DavideGerosa_$f"; done
+          cp CV.pdf DavideGerosa_fullCV.pdf
+          cp CVshort.pdf DavideGerosa_shortCV.pdf
+          cp publist.pdf DavideGerosa_publist.pdf
+          cp talklist.pdf DavideGerosa_talklist.pdf
           cp _citations.md _group.md _publications.md _talks.md ../website/_pages/
 
       - name: Commit and push CV updates
