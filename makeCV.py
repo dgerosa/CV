@@ -1025,7 +1025,7 @@ def buildbib():
         for k in papers:
             for p in papers[k]['data']:
                 if  p['ads_found'] and p['ads_found'] not in stored:
-                    with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation") as f:
+                    with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation",contex=context) as f:
                         bib = f.read()
                     bib=bib.decode()
                     bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
@@ -1128,8 +1128,8 @@ if __name__ == "__main__":
     # Set testing=True to avoid API limit
     testing = False
 
-    papers = inspire_citations(papers,testing=testing)
     papers = ads_citations(papers,testing=testing)
+    papers = inspire_citations(papers,testing=testing)
 
 
     parsepapers(papers)
