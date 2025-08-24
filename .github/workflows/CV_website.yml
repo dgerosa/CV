@@ -60,7 +60,7 @@ jobs:
           git commit -m "Website update from workflow" || echo "No changes"
           git push
 
-      - name: Publish CV Release
+      - name: Publish CV release
         working-directory: CV
         run: |
           TAG=$(date +"%Y-%m-%d-%H-%M")
