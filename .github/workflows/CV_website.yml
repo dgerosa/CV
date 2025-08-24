@@ -33,6 +33,7 @@ jobs:
             CVshort.tex
             publist.tex
             talklist.tex
+          extra_system_packages: "texlive-fonts-recommended texlive-fonts-extra"
 
       - name: Copy files
         working-directory: CV
