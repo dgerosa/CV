@@ -26,23 +26,21 @@ The only files one needs to change are `database.py` and `CV.tex`. Everything el
 
 Then run `makeCV.py`:
 
-- Fetch citations from [ADS](https://ui.adsabs.harvard.edu/search/filter_bibstem_facet_fq_bibstem_facet=NOT&filter_bibstem_facet_fq_bibstem_facet=*%3A*&filter_bibstem_facet_fq_bibstem_facet=bibstem_facet%3A%22cosp%22&fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq=%7B!type%3Daqp%20v%3D%24fq_bibstem_facet%7D&fq_bibstem_facet=(*%3A*%20NOT%20bibstem_facet%3A%22cosp%22)&fq_doctype=(doctype%3A%22misc%22%20OR%20doctype%3A%22inproceedings%22%20OR%20doctype%3A%22article%22%20OR%20doctype%3A%22eprint%22)&p_=0&q=%20author%3A%22Gerosa%2C%20Davide%22&sort=citation_count%20desc%2C%20bibcode%20desc) and [INSPIRE](https://inspirehep.net/literature?sort=mostcited&size=25&page=1&q=exactauthor%3AD.Gerosa.1).
-- Put together a papers and talks list in tex format (`parsepapers.tex`  and `parsetalks.tex`).
-- Compute some basic indicators like h-index, etc (`metricspapers.tex`  and `metricstalks.tex`).
-- Fetch bibtex record from  [ADS](https://ui.adsabs.harvard.edu/search/filter_bibstem_facet_fq_bibstem_facet=NOT&filter_bibstem_facet_fq_bibstem_facet=*%3A*&filter_bibstem_facet_fq_bibstem_facet=bibstem_facet%3A%22cosp%22&fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq=%7B!type%3Daqp%20v%3D%24fq_bibstem_facet%7D&fq_bibstem_facet=(*%3A*%20NOT%20bibstem_facet%3A%22cosp%22)&fq_doctype=(doctype%3A%22misc%22%20OR%20doctype%3A%22inproceedings%22%20OR%20doctype%3A%22article%22%20OR%20doctype%3A%22eprint%22)&p_=0&q=%20author%3A%22Gerosa%2C%20Davide%22&sort=citation_count%20desc%2C%20bibcode%20desc) (`publist.bib `). This is useful for services like [bibbase](https://davidegerosa.com/bibbase).
-- Create markdown pages `_*.md` for a Jekyll website like my own [davidegerosa.com](https://davidegerosa.com/citations).
+- Fetch citations from [ADS](https://davidegerosa.com/myads) and [INSPIRE](https://davidegerosa.com/myinspire).
+- Put together papers and talks in tex format.
+- Fetch full bibtex record from [ADS](https://davidegerosa.com/myads) for a `.bib` file.
+- Create markdown pages `_*.md` for a Jekyll website like [my own](https://davidegerosa.com).
 - Sanitize the database if the ADS key changed.
-- Build the full CV with publication and presentation lists (`CV.tex`).
 - Push to git
 
 Then there's a github action `.github/workflows/CV_website.yml` that:
 
-- Compile full CV, short CV, standalone publication list, presentation list.
-- Publish [Github releases](https://github.com/dgerosa/CV/releases) to get permanent URLs.
+- Compile full CV, short CV, standalone publication list, standalone presentation list.
+- Publish a [Github release](https://github.com/dgerosa/CV/releases) to get permanent URLs.
 - Push updates to the [CV repo](https://github.com/dgerosa/CV) if any.
 - Push updates to the [website repo](https://github.com/dgerosa/website) if any (from there, another action will publish the website itself).
 
 At the end of the day: you change something and then type
 ```shell
-python makeCV.py "commit messsage"
+python makeCV.py "commit message"
 ```
