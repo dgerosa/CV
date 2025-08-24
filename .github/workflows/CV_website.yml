@@ -23,14 +23,29 @@ jobs:
           token: ${{ secrets.PERSONAL_TOKEN }}
           path: website
 
-      - name: Install latex
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
+      # - name: Install latex
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
 
-      - name: Compile latex
+      # - name: Compile latex
+      #   working-directory: CV
+      #   run: for f in CV CVshort publist talklist; do pdflatex "$f".tex; done
+
+      - uses: xu-cheng/latex-action@v4
         working-directory: CV
-        run: for f in CV CVshort publist talklist; do pdflatex "$f".tex; done
+        extra_system_packages: |
+          texlive-latex-extra
+          texlive-fonts-recommended
+          texlive-fonts-extra
+          gh
+        with:
+          root_file: |
+            CV.tex
+            CVshort.tex
+            publist.tex
+            talklist.tex
+
 
       - name: Copy files
         working-directory: CV
