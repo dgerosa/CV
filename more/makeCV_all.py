@@ -20,17 +20,27 @@ import re
 import unicodedata
 from glob import glob   
 
-context = ssl._create_unverified_context()
-relativepathwebsiterepo = os.path.abspath(os.getcwd())+"/../website"
 
-#### Utils ####
+context = ssl._create_unverified_context()
+#import gspread
+
+#import ssl
+#ssl._create_default_https_context = ssl._create_unverified_context
+
+relativepathwebsiterepo = os.path.abspath(os.getcwd())+"/../website"
 
 def hindex(citations):
     return sum(x >= i + 1 for i, x in enumerate(sorted(  list(citations), reverse=True)))
 
-
 def roundto100(N):
     return int(N/100)*100
+
+def pdflatex(filename):
+    os.system('pdflatex '+filename+' >/dev/null')
+    #os.system('pdflatex '+filename)
+
+def slugify(text):
+    return re.sub(r'[^a-z0-9\-]+', '', re.sub(r'\s+', '-', text.lower()))
 
 
 def slugify(text):
@@ -51,73 +61,6 @@ def slugify(text):
 def nameinitial(name):
     parts = name.split()
     return f"{parts[0][0]}. {' '.join(parts[1:])}"
-
-
-def lastupdated(out):
-    now_utc = datetime.now(timezone.utc)
-    formatted = now_utc.strftime("%Y-%m-%d %H:%M:%S %Z")
-    out.append("")
-    out.append("<br><br>")
-    out.append("*Last updated: "+formatted+"*")
-
-
-def journaldict():
-    # Conversion dictionary for journal names
-    journalconversion = {}
-    journalconversion['\prd'] = ["Physical Review D", "PRD"]
-    journalconversion['\prdrc'] = ["Physical Review D", "PRD"]
-    journalconversion['\prdl'] = ["Physical Review D", "PRD"]
-    journalconversion['\prl'] = ["Physical Review Letters", "PRL"]
-    journalconversion['\prr'] = ["Physical Review Research", "PRR"]
-    journalconversion['\mnras'] = ["Monthly Notices of the Royal Astronomical Society", "MNRAS"]
-    journalconversion['\mnrasl'] = ["Monthly Notices of the Royal Astronomical Society", "MNRAS"]
-    journalconversion['\cqg'] = ["Classical and Quantum Gravity", "CQG"]
-    journalconversion['\\aap'] = ["Astronomy & Astrophysics", "A&A"]
-    journalconversion['\\apj'] = ["Astrophysical Journal", "APJ"]
-    journalconversion['\\apjl'] = ["Astrophysical Journal", "APJ"]
-    journalconversion['\grg'] = ["General Relativity and Gravitation", "GRG"]
-    journalconversion['\lrr'] = ["Living Reviews in Relativity", "LRR"]
-    journalconversion['\\natastro'] = ["Nature Astronomy", "NatAstro"]
-    journalconversion['Proceedings of the International Astronomical Union'] = ["IAU Proceedigs", "IAU"]
-    journalconversion['Journal of Physics: Conference Series'] = ["Journal of Physics: Conference Series", "JoPCS"]
-    journalconversion['Journal of Open Source Software'] = ["Journal of Open Source Software", "JOSS"]
-    journalconversion['Astrophysics and Space Science Proceedings'] = ["Astrophysics and Space Science Proceedings", "AaSSP"]
-    journalconversion['Caltech Undergraduate Research Journal'] = ["Caltech Undergraduate Research Journal", "CURJ"]
-    journalconversion['Chapter in: Handbook of Gravitational Wave Astronomy, Springer, Singapore'] = ['Book contribution', 'book']
-    journalconversion['Rendiconti Lincei. Scienze Fisiche e Naturali'] = ['Rendiconti Lincei', 'Lincei']
-    journalconversion['Proceedings of the 57th Rencontres de Moriond'] = ['Moriond proceedings', 'Moriond']
-    journalconversion["arXiv e-prints"] = ["arXiv", "arXiv"]
-    return journalconversion
-
-
-def convertjournal(j):
-    journalconversion=journaldict()
-    if j in journalconversion:
-        return journalconversion[j]
-    else:
-        return [j, j]
-
-
-def apply_journal_conversion(lines):
-    journalconversion=journaldict()
-
-    converted = []
-    # Sort tags by length descending
-    sorted_tags = sorted(journalconversion.keys(), key=len, reverse=True)
-
-    for line in lines:
-        new_line = line
-        for tag in sorted_tags:
-            full_name, short_name = journalconversion[tag]
-            if short_name == "book":
-                continue  # Skip conversion for 'book'
-            if tag in new_line:
-                new_line = new_line.replace(tag, full_name)
-        converted.append(new_line)
-    return converted
-
-
-#### Get citations ####
 
 def ads_citations(papers,testing=False):
 
@@ -212,7 +155,6 @@ def inspire_citations(papers,testing=False):
 
     return papers
 
-#### CV latex ####
 
 def parsepapers(papers,filename="parsepapers.tex"):
 
@@ -264,239 +206,12 @@ def parsepapers(papers,filename="parsepapers.tex"):
     with open(filename,"w") as f: f.write("\n".join(out))
 
 
-def metricspapers(papers,filename="metricspapers.tex"):
-
-    print('Compute papers metrics')
-
-    out=[]
-    out.append("\cvitem{}{\\begin{tabular}{rcl}")
-    out.append("\\textcolor{mark_color}{\\textbf{Publications}}: &\hspace{0.3cm} &")
-    out.append("\\textbf{"+str(len(papers['published']['data']))+"} papers published in major peer-reviewed journals,")
-    if len(papers['submitted']['data'])>1:
-        out.append("\\textbf{"+str(len(papers['submitted']['data']))+"} papers in submission stage,")
-    elif len(papers['submitted']['data'])==1:
-        out.append("\\textbf{"+str(len(papers['submitted']['data']))+"} paper in submission stage,")
-
-    out.append("\\\\ & &")
-    out.append("\\textbf{"+str(len(papers['proceedings']['data']))+"} other publications (white papers, proceedings, etc.)")
-    out.append("\\\\ & &")
-
-    first_author = []
-    for k in ['submitted','published','proceedings']:
-        for p in papers[k]['data']:
-            if "D. Gerosa" not in p['author']:
-                raise ValueError("Looks like you're not an author:", p['title'])
-            first_author.append( p['author'].split("D. Gerosa")[0]=="" )
-
-    out.append("(out of which \\textbf{"+str(np.sum(first_author))+"} first-authored papers and")
-
-    press_release = []
-    for k in ['submitted','published','proceedings']:
-        for p in papers[k]['data']:
-            press_release.append("press release" in p['more'])
-
-    out.append("\\textbf{"+str(np.sum(press_release))+"} papers covered by press releases).")
-    out.append("\end{tabular} }")
-
-    # including long-authorlist
-    ads_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in papers])
-    inspire_citations = np.concatenate([[p['inspire_citations'] for p in papers[k]['data']] for k in papers])
-    max_citations_including = np.maximum(ads_citations,inspire_citations)
-    totalnumber_including = np.sum(max_citations_including)
-    hind_including = hindex(max_citations_including)
-
-    # excluding long-authorlist
-    ads_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in ['submitted','published']])
-    inspire_citations = np.concatenate([[p['inspire_citations'] for p in papers[k]['data']] for k in ['submitted','published']])
-    max_citations_excluding = np.maximum(ads_citations,inspire_citations)
-    totalnumber_excluding = np.sum(max_citations_excluding)
-    hind_excluding = hindex(max_citations_excluding)
-
-    print("\tTotal number of citations:", totalnumber_including, totalnumber_excluding)
-    print("\th-index:", hind_including, hind_excluding)
-    out.append("Summary metrics reported using ADS and InSpire excluding [including] long-authorlist papers:")
-    out.append("\\\\")
-    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}}: >"+str(roundto100(totalnumber_excluding))+" [>"+str(roundto100(totalnumber_including))+"]")
-    out.append(" --- ")
-    out.append("\\textcolor{mark_color}{\\textbf{h-index}}: "+str(hind_excluding)+" ["+str(hind_including)+"].")
-    out.append("\\\\")  
-    out.append("\\textcolor{mark_color}{\\textbf{Web links to list services}}:")
-    out.append("\href{https://davidegerosa.com/myads}{\\textsc{ADS}};")
-    out.append("\href{https://davidegerosa.com/myinspire}{\\textsc{InSpire}};")
-    out.append("\href{http://davidegerosa.com/myarxiv}{\\textsc{arXiv}};")
-    out.append("\href{https://davidegerosa.com/myorcid}{\\textsc{ORCID}}.")
-
-    with open(filename,"w") as f: f.write("\n".join(out))
-
-
-def parsetalks(talks,filename="parsetalks.tex"):
-
-    print('Parse talks from database')
-
-    out=[]
-    out.append("Invited talks marked with *.")
-    out.append("\\vspace{0.2cm}")
+def lastupdated(out):
+    now_utc = datetime.now(timezone.utc)
+    formatted = now_utc.strftime("%Y-%m-%d %H:%M:%S %Z")
     out.append("")
-
-    for k in ['conferences','seminars','lectures','posters','outreach']:
-        out.append("\\textcolor{color1}{\\textbf{"+talks[k]['label']+":}}")
-        out.append("\\vspace{-0.5cm}")
-        out.append("")
-        out.append("\cvitem{}{\small\hspace{-1cm}\\begin{longtable}{rp{0.3cm}p{15.8cm}}")
-        out.append("%")
-
-        i = len(talks[k]['data'])
-        for p in talks[k]['data']:
-            if p["invited"]:
-                mark="*"
-            else:
-                mark=""
-            out.append("\\textbf{"+str(i)+".} & "+mark+" & \\textit{"+p['title'].strip(".")+".}")
-            out.append("\\newline{}")
-            out.append(p['what'].strip(".")+", "+p['where'].strip(".")+", "+p['when'].strip(".")+".")
-            if p['more']:
-                out.append("\\newline{}")
-                out.append("\\textcolor{color1}{$\\bullet$} "+p['more'].strip(".")+".")
-            out.append("\\vspace{0.05cm}\\\\")
-            out.append("%")
-            i=i-1
-        out.append("\end{longtable} }")
-
-    with open(filename,"w") as f: f.write("\n".join(out))
-
-
-def metricstalks(talks,filename="metricstalks.tex"):
-
-    print('Compute talks metrics')
-
-
-    out=[]
-    out.append("\cvitem{}{\\begin{tabular}{rcl}")
-    out.append("\\textcolor{mark_color}{\\textbf{Presentations}}: &\hspace{0.3cm} &")
-    out.append("\\textbf{"+str(len(talks['conferences']['data']))+"} talks at conferences,")
-    out.append("\\textbf{"+str(len(talks['seminars']['data']))+"} talks at department seminars,")
-    out.append("\\textbf{"+str(len(talks['posters']['data']))+"} posters at conferences,")
-    out.append("\\\\ & &")
-
-    invited = []
-    for k in ['conferences','seminars','posters']:
-        for p in talks[k]['data']:
-            invited.append(p['invited'])
-
-    plural = "s" if len(talks['lectures']['data'])>1 else ""
-
-    out.append("(out of which \\textbf{"+str(np.sum(invited))+"} invited presentations),")
-    out.append("\\textbf{"+str(len(talks['lectures']['data']))+"} lecture"+plural+" at PhD schools,")
-    out.append("\\textbf{"+str(len(talks['outreach']['data']))+"} outreach talks.")
-
-    out.append("\end{tabular} }")
-
-    with open(filename,"w") as f: f.write("\n".join(out))
-
-
-def parsegroup(group,filename="parsegroup.tex"):
-
-    print('Parse group from database')
-
-    out=[]
-
-    out.append("\cvitem{}{\\begin{tabular}{l@{\hspace{10pt}}c@{\hspace{4pt}}l@{\hspace{4pt}}c@{\hspace{3pt}}l}")
-
-    for k in ['fellowships','postdocs','phd','msc','bsc']:
-        overall = len(group[k]['data'])
-        current = np.sum([x['current'] for x in group[k]['data']])
-        #if current>0:
-        #    currentlabel = "(of which \\textbf{"+str(current)+"} &currently in my group)"
-        #else:
-        #    currentlabel = "&"
-        if current>0:
-            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far (of which &\\textbf{"+str(current)+"}& currently in my group). \\\\")
-        if current==0:
-            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far. \\\\")
-    out.append("\end{tabular} }")
-    
-    out.append("\\vspace{0.2cm}")
-    out.append("")
-    out.append("Current group members marked with *.  More information at \href{http://www.davidegerosa.com/group}{\\texttt{www.davidegerosa.com/group}}")
-
-    def current(x):
-        if x['current']:
-            return "*"
-        else:
-            return ""
-    def name(x):
-        return "\\textit{"+x['name'].replace(" ","~")+"}"
-
-    for k in ['fellowships','postdocs','phd','msc','bsc']:
-        out.append("")
-        out.append("\\vspace{0.2cm}")
-        out.append("\\textbf{"+group[k]['labellong']+":}")
-        out.append("")
-
-        if k=="fellowships":
-            for x in group[k]['data']:
-                out.append("\\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ "+name(x)+" ("+x['where']+", "+x['fellowship']+")."+current(x)+"}{"+x['start']+"-"+x['end']+"}")    
-                out.append("\\vspace{-0.1cm}")
-                
-        elif k in ["postdocs","phd"]:
-            for x in group[k]['data']:
-                out.append("\\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ "+name(x)+" ("+x['where']+")."+current(x)+"}{"+x['start']+"-"+x['end']+"}")    
-                out.append("\\vspace{-0.1cm}")
-        elif k in ["msc","bsc"]:
-            for x in group[k]['data']:
-                line = "\\textit{"+nameinitial(x['name'])+"} ("+x['where']+", "+x['what']+", "+str(x['year'])+")"+current(x)
-                if x==group[k]['data'][-1]:
-                    line+='.'
-                else:
-                    line+=' --- '
-                out.append(line)           
-
-    with open(filename,"w") as f: f.write("\n".join(out))
-
-
-def CVshort(filename='CVshort.tex'):
-
-    with open('CV.tex', 'r') as f:
-        CV = f.read()
-    CVshort = "%".join(CV.split("%mark_CVshort")[::2])
-    with open(filename, 'w') as f:
-        f.write(CVshort)
-
-def buildbib(filename='publist.bib'):
-
-    print("Build bib file from ADS")
-
-    with open(filename, 'r') as f:
-        publist = f.read()
-
-    stored = []
-    for p in publist.split('@'):
-        if "BibDesk" not in p:
-            stored.append(p.split("{")[1].split(",")[0])
-
-    tot = len(np.concatenate([papers[k]['data'] for k in papers]))
-    with tqdm(total=tot) as pbar:
-        for k in papers:
-            for p in papers[k]['data']:
-                if  p['ads_found'] and p['ads_found'] not in stored:
-                    with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation",contex=context) as f:
-                        bib = f.read()
-                    bib=bib.decode()
-                    bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
-                    bib=html.unescape(bib)
-
-                    if "journal =" in bib:
-                        j  = bib.split("journal =")[1].split("}")[0].split("{")[1]
-                        bib = bib.replace(j,convertjournal(j)[0])
-
-                    with open(filename, 'a') as f:
-                        f.write(bib)
-                pbar.update(1)
-
-
-
-
-#### Website markdown ####
+    out.append("<br><br>")
+    out.append("*Last updated: "+formatted+"*")
 
 def markdownpapers(papers,filename="_publications.md"):
 
@@ -597,6 +312,116 @@ def markdownpapers(papers,filename="_publications.md"):
     with open(filename,"w") as f: f.write("\n".join(out))
 
 
+def checkblogposts(papers):
+    today = datetime.today().strftime('%Y-%m-%d')
+
+    print('Check blog posts for papers')
+    posts = glob(relativepathwebsiterepo+"/_posts/*.md")        
+    #print(posts)
+    for k in ['submitted','published','proceedings']:
+        for p in papers[k]['data']:
+
+            target_substring = slugify(p['title'])
+            #print(target_substring)
+            # Build a regex pattern like r"\d{4}-\d{2}-\d{2}-report"
+            pattern = rf"{relativepathwebsiterepo}/_posts/\d{{4}}-\d{{2}}-\d{{2}}-{re.escape(target_substring)}.md"
+
+            # Check if any string matches the pattern
+            #if any(re.fullmatch(pattern, s) for s in posts):
+            #    pass
+                #print("Found!")
+            #else:
+                #print("Not found", slugify(p['title']))
+            if True:
+                out=[]
+                out.append("---")
+                cleantitle = p['title'].strip(".").replace("$", "$$").replace("`", "'")
+                out.append(f"title: \"{cleantitle}\"")
+                out.append(f"date: {today}")
+                out.append(f"permalink: /posts/{today}-{slugify(p['title'])}")
+                out.append("tags:")
+                out.append("  - Papers")
+                out.append("  - Milano")
+                out.append("---")
+
+                [out.append("") for _ in range(5)] 
+
+                #out.append("*"+p['title'].strip(".").replace("$", "$$")+"*.\\")
+                out.append(p['author'].replace("D. Gerosa","**D. Gerosa**").strip(".")+".\\")
+                line=""
+                if p['link']:
+                    line+='['
+                if p['journal']:
+                    line+=p['journal'].strip(".")
+                if p['link']:
+                    line+="]("+p['link']+")"
+                if p['journal']:
+                    line+=". "
+                if 'erratum' in p.keys():
+                    line+=" Erratum: "
+                    if p['errlink']:
+                        line+='['
+                    if p['erratum']:
+                        line+=p['erratum'].strip(".")
+                    if p['errlink']:
+                        line+="]("+p['errlink']+")"
+                    line+='. '
+ 
+                if p['arxiv']:
+                    line+="["+p['arxiv'].strip(".")+"](https://arxiv.org/abs/"+p['arxiv'].split(":")[1].split(" ")[0].split(" ")[0]+")."
+                out.append(line)
+                if p['more']:
+                    out[-1]+="\\"
+                    out.append(p['more'].strip(".")+".")
+
+                out = apply_journal_conversion(out)
+
+                os.system('mkdir -p temp')
+                os.system('rm -f temp/*')
+                filename =f"temp/{today}-{slugify(p['title'])}.md"
+                with open(filename,"w") as f: f.write("\n".join(out))
+                #print("--> Created blog post template:", filename)
+                #print("--> Please edit the file and move it to _posts/; requires manual intervention if there's latex in the title")
+
+
+
+def parsetalks(talks,filename="parsetalks.tex"):
+
+    print('Parse talks from database')
+
+    out=[]
+    out.append("Invited talks marked with *.")
+    out.append("\\vspace{0.2cm}")
+    out.append("")
+
+    for k in ['conferences','seminars','lectures','posters','outreach']:
+        out.append("\\textcolor{color1}{\\textbf{"+talks[k]['label']+":}}")
+        out.append("\\vspace{-0.5cm}")
+        out.append("")
+        out.append("\cvitem{}{\small\hspace{-1cm}\\begin{longtable}{rp{0.3cm}p{15.8cm}}")
+        out.append("%")
+
+        i = len(talks[k]['data'])
+        for p in talks[k]['data']:
+            if p["invited"]:
+                mark="*"
+            else:
+                mark=""
+            out.append("\\textbf{"+str(i)+".} & "+mark+" & \\textit{"+p['title'].strip(".")+".}")
+            out.append("\\newline{}")
+            out.append(p['what'].strip(".")+", "+p['where'].strip(".")+", "+p['when'].strip(".")+".")
+            if p['more']:
+                out.append("\\newline{}")
+                out.append("\\textcolor{color1}{$\\bullet$} "+p['more'].strip(".")+".")
+            out.append("\\vspace{0.05cm}\\\\")
+            out.append("%")
+            i=i-1
+        out.append("\end{longtable} }")
+
+    with open(filename,"w") as f: f.write("\n".join(out))
+
+
+
 def markdowntalks(talks, filename="_talks.md"):
 
     print('Markdown talk list for website')
@@ -655,6 +480,7 @@ def markdowntalks(talks, filename="_talks.md"):
 
     with open(filename, "w") as f:
         f.write("\n".join(out))
+
 
 
 def markdowngroup(group, filename="_group.md"):
@@ -829,6 +655,210 @@ def markdowngroup(group, filename="_group.md"):
         f.write("\n".join(out))
 
 
+
+def metricspapers(papers,filename="metricspapers.tex"):
+
+    print('Compute papers metrics')
+
+    out=[]
+    out.append("\cvitem{}{\\begin{tabular}{rcl}")
+    out.append("\\textcolor{mark_color}{\\textbf{Publications}}: &\hspace{0.3cm} &")
+    out.append("\\textbf{"+str(len(papers['published']['data']))+"} papers published in major peer-reviewed journals,")
+    if len(papers['submitted']['data'])>1:
+        out.append("\\textbf{"+str(len(papers['submitted']['data']))+"} papers in submission stage,")
+    elif len(papers['submitted']['data'])==1:
+        out.append("\\textbf{"+str(len(papers['submitted']['data']))+"} paper in submission stage,")
+
+    out.append("\\\\ & &")
+    out.append("\\textbf{"+str(len(papers['proceedings']['data']))+"} other publications (white papers, proceedings, etc.)")
+    out.append("\\\\ & &")
+
+    first_author = []
+    for k in ['submitted','published','proceedings']:
+        for p in papers[k]['data']:
+            if "D. Gerosa" not in p['author']:
+                raise ValueError("Looks like you're not an author:", p['title'])
+            first_author.append( p['author'].split("D. Gerosa")[0]=="" )
+
+    out.append("(out of which \\textbf{"+str(np.sum(first_author))+"} first-authored papers and")
+
+    press_release = []
+    for k in ['submitted','published','proceedings']:
+        for p in papers[k]['data']:
+            press_release.append("press release" in p['more'])
+
+    out.append("\\textbf{"+str(np.sum(press_release))+"} papers covered by press releases).")
+    out.append("\end{tabular} }")
+
+    # including long-authorlist
+    ads_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in papers])
+    inspire_citations = np.concatenate([[p['inspire_citations'] for p in papers[k]['data']] for k in papers])
+    max_citations_including = np.maximum(ads_citations,inspire_citations)
+    totalnumber_including = np.sum(max_citations_including)
+    hind_including = hindex(max_citations_including)
+
+    # excluding long-authorlist
+    ads_citations = np.concatenate([[p['ads_citations'] for p in papers[k]['data']] for k in ['submitted','published']])
+    inspire_citations = np.concatenate([[p['inspire_citations'] for p in papers[k]['data']] for k in ['submitted','published']])
+    max_citations_excluding = np.maximum(ads_citations,inspire_citations)
+    totalnumber_excluding = np.sum(max_citations_excluding)
+    hind_excluding = hindex(max_citations_excluding)
+
+    print("\tTotal number of citations:", totalnumber_including, totalnumber_excluding)
+    print("\th-index:", hind_including, hind_excluding)
+    out.append("Summary metrics reported using ADS and InSpire excluding [including] long-authorlist papers:")
+    out.append("\\\\")
+    out.append("\\textcolor{mark_color}{\\textbf{Total number of citations}}: >"+str(roundto100(totalnumber_excluding))+" [>"+str(roundto100(totalnumber_including))+"]")
+    out.append(" --- ")
+    out.append("\\textcolor{mark_color}{\\textbf{h-index}}: "+str(hind_excluding)+" ["+str(hind_including)+"].")
+    out.append("\\\\")  
+    out.append("\\textcolor{mark_color}{\\textbf{Web links to list services}}:")
+    out.append("\href{https://davidegerosa.com/myads}{\\textsc{ADS}};")
+    out.append("\href{https://davidegerosa.com/myinspire}{\\textsc{InSpire}};")
+    out.append("\href{http://davidegerosa.com/myarxiv}{\\textsc{arXiv}};")
+    out.append("\href{https://davidegerosa.com/myorcid}{\\textsc{ORCID}}.")
+
+    with open(filename,"w") as f: f.write("\n".join(out))
+
+
+def metricstalks(talks,filename="metricstalks.tex"):
+
+    print('Compute talks metrics')
+
+
+    out=[]
+    out.append("\cvitem{}{\\begin{tabular}{rcl}")
+    out.append("\\textcolor{mark_color}{\\textbf{Presentations}}: &\hspace{0.3cm} &")
+    out.append("\\textbf{"+str(len(talks['conferences']['data']))+"} talks at conferences,")
+    out.append("\\textbf{"+str(len(talks['seminars']['data']))+"} talks at department seminars,")
+    out.append("\\textbf{"+str(len(talks['posters']['data']))+"} posters at conferences,")
+    out.append("\\\\ & &")
+
+    invited = []
+    for k in ['conferences','seminars','posters']:
+        for p in talks[k]['data']:
+            invited.append(p['invited'])
+
+    plural = "s" if len(talks['lectures']['data'])>1 else ""
+
+    out.append("(out of which \\textbf{"+str(np.sum(invited))+"} invited presentations),")
+    out.append("\\textbf{"+str(len(talks['lectures']['data']))+"} lecture"+plural+" at PhD schools,")
+    out.append("\\textbf{"+str(len(talks['outreach']['data']))+"} outreach talks.")
+
+    out.append("\end{tabular} }")
+
+    with open(filename,"w") as f: f.write("\n".join(out))
+
+
+def parsegroup(group,filename="parsegroup.tex"):
+
+    print('Parse group from database')
+
+    out=[]
+
+    out.append("\cvitem{}{\\begin{tabular}{l@{\hspace{10pt}}c@{\hspace{4pt}}l@{\hspace{4pt}}c@{\hspace{3pt}}l}")
+
+    for k in ['fellowships','postdocs','phd','msc','bsc']:
+        overall = len(group[k]['data'])
+        current = np.sum([x['current'] for x in group[k]['data']])
+        #if current>0:
+        #    currentlabel = "(of which \\textbf{"+str(current)+"} &currently in my group)"
+        #else:
+        #    currentlabel = "&"
+        if current>0:
+            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far (of which &\\textbf{"+str(current)+"}& currently in my group). \\\\")
+        if current==0:
+            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far. \\\\")
+    out.append("\end{tabular} }")
+    
+    out.append("\\vspace{0.2cm}")
+    out.append("")
+    out.append("Current group members marked with *.  More information at \href{http://www.davidegerosa.com/group}{\\texttt{www.davidegerosa.com/group}}")
+
+    def current(x):
+        if x['current']:
+            return "*"
+        else:
+            return ""
+    def name(x):
+        return "\\textit{"+x['name'].replace(" ","~")+"}"
+
+    for k in ['fellowships','postdocs','phd','msc','bsc']:
+        out.append("")
+        out.append("\\vspace{0.2cm}")
+        out.append("\\textbf{"+group[k]['labellong']+":}")
+        out.append("")
+
+        if k=="fellowships":
+            for x in group[k]['data']:
+                out.append("\\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ "+name(x)+" ("+x['where']+", "+x['fellowship']+")."+current(x)+"}{"+x['start']+"-"+x['end']+"}")    
+                out.append("\\vspace{-0.1cm}")
+                
+        elif k in ["postdocs","phd"]:
+            for x in group[k]['data']:
+                out.append("\\cvitemwithcomment{}{\hspace{0.4cm}$\circ\;$ "+name(x)+" ("+x['where']+")."+current(x)+"}{"+x['start']+"-"+x['end']+"}")    
+                out.append("\\vspace{-0.1cm}")
+        elif k in ["msc","bsc"]:
+            for x in group[k]['data']:
+                line = "\\textit{"+nameinitial(x['name'])+"} ("+x['where']+", "+x['what']+", "+str(x['year'])+")"+current(x)
+                if x==group[k]['data'][-1]:
+                    line+='.'
+                else:
+                    line+=' --- '
+                out.append(line)           
+
+    with open(filename,"w") as f: f.write("\n".join(out))
+
+
+# Declare the dictionary outside
+journalconversion = {}
+journalconversion['\prd'] = ["Physical Review D", "PRD"]
+journalconversion['\prdrc'] = ["Physical Review D", "PRD"]
+journalconversion['\prdl'] = ["Physical Review D", "PRD"]
+journalconversion['\prl'] = ["Physical Review Letters", "PRL"]
+journalconversion['\prr'] = ["Physical Review Research", "PRR"]
+journalconversion['\mnras'] = ["Monthly Notices of the Royal Astronomical Society", "MNRAS"]
+journalconversion['\mnrasl'] = ["Monthly Notices of the Royal Astronomical Society", "MNRAS"]
+journalconversion['\cqg'] = ["Classical and Quantum Gravity", "CQG"]
+journalconversion['\\aap'] = ["Astronomy & Astrophysics", "A&A"]
+journalconversion['\\apj'] = ["Astrophysical Journal", "APJ"]
+journalconversion['\\apjl'] = ["Astrophysical Journal", "APJ"]
+journalconversion['\grg'] = ["General Relativity and Gravitation", "GRG"]
+journalconversion['\lrr'] = ["Living Reviews in Relativity", "LRR"]
+journalconversion['\\natastro'] = ["Nature Astronomy", "NatAstro"]
+journalconversion['Proceedings of the International Astronomical Union'] = ["IAU Proceedigs", "IAU"]
+journalconversion['Journal of Physics: Conference Series'] = ["Journal of Physics: Conference Series", "JoPCS"]
+journalconversion['Journal of Open Source Software'] = ["Journal of Open Source Software", "JOSS"]
+journalconversion['Astrophysics and Space Science Proceedings'] = ["Astrophysics and Space Science Proceedings", "AaSSP"]
+journalconversion['Caltech Undergraduate Research Journal'] = ["Caltech Undergraduate Research Journal", "CURJ"]
+journalconversion['Chapter in: Handbook of Gravitational Wave Astronomy, Springer, Singapore'] = ['Book contribution', 'book']
+journalconversion['Rendiconti Lincei. Scienze Fisiche e Naturali'] = ['Rendiconti Lincei', 'Lincei']
+journalconversion['Proceedings of the 57th Rencontres de Moriond'] = ['Moriond proceedings', 'Moriond']
+journalconversion["arXiv e-prints"] = ["arXiv", "arXiv"]
+
+def convertjournal(j):
+    if j in journalconversion:
+        return journalconversion[j]
+    else:
+        return [j, j]
+
+def apply_journal_conversion(lines):
+    converted = []
+    # Sort tags by length descending
+    sorted_tags = sorted(journalconversion.keys(), key=len, reverse=True)
+
+    for line in lines:
+        new_line = line
+        for tag in sorted_tags:
+            full_name, short_name = journalconversion[tag]
+            if short_name == "book":
+                continue  # Skip conversion for 'book'
+            if tag in new_line:
+                new_line = new_line.replace(tag, full_name)
+        converted.append(new_line)
+    return converted
+
+
 def markdowncitations(papers, output_file="_citations.md"):
     spreaddata = {
         'first_author': [],
@@ -958,80 +988,57 @@ def markdowncitations(papers, output_file="_citations.md"):
 
     print(f"Markdown citation list for website")
 
+def builddocs():
 
-def checkblogposts(papers,directory='temp'):
-    today = datetime.today().strftime('%Y-%m-%d')
+    print("Update CV")
+    pdflatex("CV")
 
-    print('Check blog posts for papers')
-    posts = glob(relativepathwebsiterepo+"/_posts/*.md")        
-    #print(posts)
-    for k in ['submitted','published','proceedings']:
-        for p in papers[k]['data']:
+    print("Update publist")
+    pdflatex("publist")
 
-            target_substring = slugify(p['title'])
-            #print(target_substring)
-            # Build a regex pattern like r"\d{4}-\d{2}-\d{2}-report"
-            pattern = rf"{relativepathwebsiterepo}/_posts/\d{{4}}-\d{{2}}-\d{{2}}-{re.escape(target_substring)}.md"
+    print("Update talklist")
+    pdflatex("talklist")
 
-            # Check if any string matches the pattern
-            #if any(re.fullmatch(pattern, s) for s in posts):
-            #    pass
-                #print("Found!")
-            #else:
-                #print("Not found", slugify(p['title']))
-            if True:
-                out=[]
-                out.append("---")
-                cleantitle = p['title'].strip(".").replace("$", "$$").replace("`", "'")
-                out.append(f"title: \"{cleantitle}\"")
-                out.append(f"date: {today}")
-                out.append(f"permalink: /posts/{today}-{slugify(p['title'])}")
-                out.append("tags:")
-                out.append("  - Papers")
-                out.append("  - Milano")
-                out.append("---")
-
-                [out.append("") for _ in range(5)] 
-
-                #out.append("*"+p['title'].strip(".").replace("$", "$$")+"*.\\")
-                out.append(p['author'].replace("D. Gerosa","**D. Gerosa**").strip(".")+".\\")
-                line=""
-                if p['link']:
-                    line+='['
-                if p['journal']:
-                    line+=p['journal'].strip(".")
-                if p['link']:
-                    line+="]("+p['link']+")"
-                if p['journal']:
-                    line+=". "
-                if 'erratum' in p.keys():
-                    line+=" Erratum: "
-                    if p['errlink']:
-                        line+='['
-                    if p['erratum']:
-                        line+=p['erratum'].strip(".")
-                    if p['errlink']:
-                        line+="]("+p['errlink']+")"
-                    line+='. '
- 
-                if p['arxiv']:
-                    line+="["+p['arxiv'].strip(".")+"](https://arxiv.org/abs/"+p['arxiv'].split(":")[1].split(" ")[0].split(" ")[0]+")."
-                out.append(line)
-                if p['more']:
-                    out[-1]+="\\"
-                    out.append(p['more'].strip(".")+".")
-
-                out = apply_journal_conversion(out)
-
-                os.system(f"mkdir -p {directory}")
-                os.system(f"rm -f {directory}/*")
-                filename =f"{directory}/{today}-{slugify(p['title'])}.md"
-                with open(filename,"w") as f: f.write("\n".join(out))
-                #print("--> Created blog post template:", filename)
-                #print("--> Please edit the file and move it to _posts/; requires manual intervention if there's latex in the title")
+    print("Update CVshort")
+    with open('CV.tex', 'r') as f:
+        CV = f.read()
+    CVshort = "%".join(CV.split("%mark_CVshort")[::2])
+    with open('CVshort.tex', 'w') as f:
+        f.write(CVshort)
+    pdflatex("CVshort")
 
 
-#### Database sanitizer ####
+def buildbib():
+
+    print("Build bib file from ADS")
+
+    os.system("touch publist.bib")
+    with open('publist.bib', 'r') as f:
+        publist = f.read()
+
+    stored = []
+    for p in publist.split('@'):
+        if "BibDesk" not in p:
+            stored.append(p.split("{")[1].split(",")[0])
+
+    tot = len(np.concatenate([papers[k]['data'] for k in papers]))
+    with tqdm(total=tot) as pbar:
+        for k in papers:
+            for p in papers[k]['data']:
+                if  p['ads_found'] and p['ads_found'] not in stored:
+                    with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation",contex=context) as f:
+                        bib = f.read()
+                    bib=bib.decode()
+                    bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
+                    bib=html.unescape(bib)
+
+                    if "journal =" in bib:
+                        j  = bib.split("journal =")[1].split("}")[0].split("{")[1]
+                        bib = bib.replace(j,convertjournal(j)[0])
+
+                    with open('publist.bib', 'a') as f:
+                        f.write(bib)
+                pbar.update(1)
 
 def replacekeys():
 
@@ -1066,22 +1073,6 @@ def replacekeys():
         f.write(publist)
 
 
-#### Latex and git things ####
-
-def builddocs():
-
-    print("Update CV")
-    pdflatex("CV")
-
-    print("Update publist")
-    pdflatex("publist")
-
-    print("Update talklist")
-    pdflatex("talklist")
-
-    print("Update CVshort")
-    pdflatex("CVshort")
-
 
 def pushtogit():
     try:
@@ -1101,6 +1092,7 @@ def pushtowebsite():
     os.system("git -C "+relativepathwebsiterepo+" add -u")
     os.system("git -C "+relativepathwebsiterepo+" commit -m '"+comment+"'")
     os.system("git -C "+relativepathwebsiterepo+" push")
+
 
 def copyfiles():
     os.system("cp _*.md "+relativepathwebsiterepo+"/_pages/")
@@ -1135,38 +1127,36 @@ def clean():
 if __name__ == "__main__":
 
     # Set testing=True to avoid API limit
-    testing = True
+    testing = False
 
 
     os.system("git pull") # You never know
 
-    # Citations
+    # Get citations
     papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)
 
-    # CV
+    # For latex
     parsepapers(papers)
-    metricspapers(papers)
     parsetalks(talks)
+    metricspapers(papers)
     metricstalks(talks)
     parsegroup(group)
-    CVshort()
     buildbib()
-
-    # Website
+    
+    #For website
     markdownpapers(papers)
     markdowntalks(talks)
-    markdowngroup(group)
     markdowncitations(papers)   
+    markdowngroup(group)
     checkblogposts(papers)
 
-    # Database
+    # Publish
     replacekeys()
-
-    # Latex and git things
     builddocs()
     copyfiles()
     pushtowebsite()
     pushtogit()
     publishgithub()
+
     clean()
