@@ -32,7 +32,8 @@ jobs:
       #   working-directory: CV
       #   run: for f in CV CVshort publist talklist; do pdflatex "$f".tex; done
 
-      - uses: xu-cheng/latex-action@v4
+      - name: Compile lates
+        uses: xu-cheng/latex-action@v4
         working-directory: CV
         with:
           root_file: |
