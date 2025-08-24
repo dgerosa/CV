@@ -1,11 +1,11 @@
-name: makeCV
+name: makeCV (works but takes forever, not viable)
 
 on:
   workflow_dispatch:
   #push:
   #  branches: [ master ]
-  schedule:
-    - cron: '0 0 * * *'  # every day at 00:00 UTC
+  #schedule:
+  #  - cron: '0 0 * * *'  # every day at 00:00 UTC
 jobs:
   makeCV:
     runs-on: ubuntu-latest
