@@ -8,7 +8,7 @@ import copy
 import sys
 import time
 import os
-import requests
+import ssl
 import urllib.request
 import urllib.error
 import html
@@ -19,6 +19,8 @@ import warnings
 import re
 import unicodedata
 from glob import glob   
+
+context = ssl.create_default_context()
 #import gspread
 
 #import ssl
@@ -127,7 +129,7 @@ def inspire_citations(papers,testing=False):
                         n_retries=0
                         while n_retries<10:
                             try:
-                                req = urllib.request.urlopen("https://inspirehep.net/api/literature?q=texkey:"+p['inspire'])
+                                req = urllib.request.urlopen("https://inspirehep.net/api/literature?q=texkey:"+p['inspire'],context=context)
                             except urllib.error.HTTPError as e:
                                 if e.code == 429:
                                     retry_time = 10 #req.getheaders()["retry-in"]
@@ -1125,8 +1127,8 @@ if __name__ == "__main__":
     # Set testing=True to avoid API limit
     testing = False
 
-    papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)
+    papers = ads_citations(papers,testing=testing)
 
 
     parsepapers(papers)
