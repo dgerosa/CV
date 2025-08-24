@@ -1012,6 +1012,7 @@ def buildbib():
 
     print("Build bib file from ADS")
 
+    os.system("touch publist.bib")
     with open('publist.bib', 'r') as f:
         publist = f.read()
 
