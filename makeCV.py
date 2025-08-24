@@ -1129,10 +1129,14 @@ if __name__ == "__main__":
     # Set testing=True to avoid API limit
     testing = False
 
+
+    os.system("git pull") # You never know
+
+    # Get citations
     papers = ads_citations(papers,testing=testing)
     papers = inspire_citations(papers,testing=testing)
 
-
+    # For latex
     parsepapers(papers)
     parsetalks(talks)
     metricspapers(papers)
@@ -1147,17 +1151,12 @@ if __name__ == "__main__":
     markdowngroup(group)
     checkblogposts(papers)
 
-    #if not testing:
-    if True:
-        replacekeys()
-        builddocs()
-        copyfiles()
-
-        if os.getenv("GITHUB_ACTIONS") == "true": # Running inside GitHub Actions
-            pass
-        else:
-            pushtogit()
-            pushtowebsite()
-            publishgithub()
+    # Publish
+    replacekeys()
+    builddocs()
+    copyfiles()
+    pushtowebsite()
+    pushtogit()
+    publishgithub()
 
     clean()
