@@ -920,7 +920,7 @@ def markdowncitations(papers, output_file="_citations.md"):
         # === Table: Journals ===
         f.write("\n## Papers per journal\n\n")
         shortpub = [convertjournal(j)[0] for j in spreaddata['journal']]
-        singlepub = sorted(set(shortpub), key=lambda s: -shortpub.count(s))
+        singlepub = sorted(set(shortpub), key=lambda s: (-shortpub.count(s), s))
 
         f.write("| Journal | Paper count |\n")
         f.write("|---------|--------------|\n")
