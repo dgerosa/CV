@@ -169,6 +169,7 @@
 | European Physical Journal C | 1 |
 | General Relativity and Gravitation | 1 |
 | IAU Proceedigs | 1 |
+| iScience | 1 |
 | Journal of Open Source Software | 1 |
 | Journal of Physics: Conference Series | 1 |
 | Moriond proceedings | 1 |
@@ -178,7 +179,6 @@
 | Rendiconti Lincei | 1 |
 | SoftwareX | 1 |
 | Symmetry | 1 |
-| iScience | 1 |
 
 ## Papers per arXiv category
 
@@ -192,4 +192,4 @@
 
 
 <br><br>
-*Last updated: 2025-08-25 13:25:40 UTC*
+*Last updated: 2025-08-25 13:29:45 UTC*

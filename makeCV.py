@@ -920,7 +920,7 @@ def markdowncitations(papers, output_file="_citations.md"):
         # === Table: Journals ===
         f.write("\n## Papers per journal\n\n")
         shortpub = [convertjournal(j)[0] for j in spreaddata['journal']]
-        singlepub = sorted(set(shortpub), key=lambda s: (-shortpub.count(s), s))
+        singlepub = sorted(set(shortpub), key=lambda s: (-shortpub.count(s), s.lower()))
 
         f.write("| Journal | Paper count |\n")
         f.write("|---------|--------------|\n")
@@ -945,7 +945,7 @@ def markdowncitations(papers, output_file="_citations.md"):
                 return "unknown"
 
         categories = np.array([extract_category(a) for a in arxiv])
-        unique_cats = sorted(set(categories), key=lambda c: -np.sum(categories == c))
+        unique_cats = sorted(set(categories), key=lambda c: (-np.sum(categories == c), c.lower()))
 
         f.write("| Category | Paper Count |\n")
         f.write("|----------|--------------|\n")
