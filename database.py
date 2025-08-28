@@ -3430,6 +3430,7 @@ if bsc:
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2024",
+        "note":     "Resulting publication: arXiv:2508.19735.",
         "current":  False
         })
     

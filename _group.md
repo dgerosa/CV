@@ -196,7 +196,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Sterling Scarlett**. Milano-Bicocca and Boston University, 2025.
 - **Alessandro Malfasi**. Milano-Bicocca, 2025.
 - **Rocco Giugni**. Milano-Bicocca, 2024.
-- **Giulia Foroni**. Milano-Bicocca, 2024.
+- **Giulia Foroni**. Milano-Bicocca, 2024. Resulting publication: [arXiv:2508.19735](https://arxiv.org/abs/2508.19735).
 - **Matilde Vergani**. Milano-Bicocca, 2024.
 - **Laura Tassoni**. Milano-Bicocca, 2024.
 - **Francesca Rattegni**. Milano-Bicocca, 2024.
@@ -242,4 +242,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-08-28 04:40:10 UTC*
+*Last updated: 2025-08-28 04:48:14 UTC*
