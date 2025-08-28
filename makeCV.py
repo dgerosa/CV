@@ -480,12 +480,13 @@ def buildbib(filename='publist.bib'):
         for k in papers:
             for p in papers[k]['data']:
                 if  p['ads_found'] and p['ads_found'] not in stored:
-                    with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation",contex=context) as f:
-                        bib = f.read()
-                    bib=bib.decode()
-                    bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
-                    bib=html.unescape(bib)
-
+                    #with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation",contex=context) as f:
+                    #    bib = f.read()
+                    #bib=bib.decode()
+                    #bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
+                    #bib=html.unescape(bib)
+                    q=list(ads.SearchQuery(bibcode=p['ads_found'], fl=['bibtex']))[0]
+                    bib = q.bibtex
                     if "journal =" in bib:
                         j  = bib.split("journal =")[1].split("}")[0].split("{")[1]
                         bib = bib.replace(j,convertjournal(j)[0])
@@ -493,7 +494,6 @@ def buildbib(filename='publist.bib'):
                     with open(filename, 'a') as f:
                         f.write(bib)
                 pbar.update(1)
-
 
 
 

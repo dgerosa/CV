@@ -2,14 +2,14 @@
 
 - **Total ADS citations**: 8633
 - **Total INSPIRE citations**: 9471
-- **Total MAX citations**: 9519
+- **Total MAX citations**: 9518
 - **h-index**: 46
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1318 | 1473 | 1473 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1319 | 1473 | 1473 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 785 | 861 | 861 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 589 | 569 | 589 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 434 | 453 | 453 |
@@ -38,8 +38,8 @@
 | **27** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 66 | 83 | 83 |
 | **28** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 74 | 83 | 83 |
 | **29** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 74 | 76 | 76 |
-| **30** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 75 | 73 | 75 |
-| **31** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 64 | 74 | 74 |
+| **30** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 64 | 74 | 74 |
+| **31** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 74 | 73 | 74 |
 | **32** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 64 | 73 | 73 |
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 70 | 73 | 73 |
 | **34** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 58 | 63 | 63 |
@@ -194,4 +194,4 @@
 
 
 <br><br>
-*Last updated: 2025-08-28 08:26:40 UTC*
+*Last updated: 2025-08-28 16:05:46 UTC*
