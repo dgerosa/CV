@@ -1252,6 +1252,17 @@ if proceedings:
     papers['proceedings']['data'] = []
 
     papers['proceedings']['data'].append({
+        "title":    "Coincident morphological transitions in precessing black-hole binaries",
+        "author":   "D. Gerosa, G. Foroni, G. Fumagalli, E. Berti",
+        "journal":  "Proceedings of the International Congress of Basic Science, International Press.",
+        "link":     "",
+        "arxiv":    "arXiv:2508.19735 [gr-qc]",
+        "ads":      "2025arXiv250819735G",
+        "inspire":  "Gerosa:2025lwg",
+        "more":     ""
+        })
+
+    papers['proceedings']['data'].append({
         "title":    "Waveform modelling for the Laser Interferometer Space Antenna",
         "author":   "N. Afshordi, et al. (105 authors incl. D. Gerosa)",
         "journal":  "",
@@ -1261,7 +1272,6 @@ if proceedings:
         "inspire":  "LISAConsortiumWaveformWorkingGroup:2023arg",
         "more":     ""
         })
-
 
     papers['proceedings']['data'].append({
         "title":    "QLUSTER: quick clusters of merging binary black holes",

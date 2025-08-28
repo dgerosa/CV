@@ -86,6 +86,7 @@ def journaldict():
     journalconversion['Chapter in: Handbook of Gravitational Wave Astronomy, Springer, Singapore'] = ['Book contribution', 'book']
     journalconversion['Rendiconti Lincei. Scienze Fisiche e Naturali'] = ['Rendiconti Lincei', 'Lincei']
     journalconversion['Proceedings of the 57th Rencontres de Moriond'] = ['Moriond proceedings', 'Moriond']
+    journalconversion['Proceedings of the International Congress of Basic Science, International Press'] = ['ICBS proceedings', 'ICBS']
     journalconversion["arXiv e-prints"] = ["arXiv", "arXiv"]
     return journalconversion
 
