@@ -64,19 +64,19 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 ## Papers published in major peer-reviewed journals
 
 **100.**
-*A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries.*\
-R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, **D. Gerosa**, A. Carzaniga.\
-European Physical Journal C, in press (2025). <a href="https://arxiv.org/abs/2410.08263" style="color: inherit; text-decoration: none;">arXiv:2410.08263 [astro-ph.HE]</a>.
- 
-**99.**
-*“LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design.*\
-M. Boschini, **D. Gerosa**, A. Crespi, M. Falcone.\
-<a href="https://authors.elsevier.com/sd/article/S2352-7110(25)00260-2" style="color: inherit; text-decoration: none;">SoftwareX 31 (2025) 102294</a>. 
- 
-**98.**
 *Ringdown mode amplitudes of precessing binary black holes.*\
 F. Nobili, S. Bhagwat, C. Pacilio, **D. Gerosa**.\
 Physical Review D, in press (2025). <a href="https://arxiv.org/abs/2504.17021" style="color: inherit; text-decoration: none;">arXiv:2504.17021 [gr-qc]</a>.
+ 
+**99.**
+*A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries.*\
+R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, **D. Gerosa**, A. Carzaniga.\
+<a href="https://doi.org/10.1140/epjc/s10052-025-14616-w" style="color: inherit; text-decoration: none;">European Physical Journal C 85 (2025) 887</a>. <a href="https://arxiv.org/abs/2410.08263" style="color: inherit; text-decoration: none;">arXiv:2410.08263 [astro-ph.HE]</a>.
+ 
+**98.**
+*“LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design.*\
+M. Boschini, **D. Gerosa**, A. Crespi, M. Falcone.\
+<a href="https://authors.elsevier.com/sd/article/S2352-7110(25)00260-2" style="color: inherit; text-decoration: none;">SoftwareX 31 (2025) 102294</a>. 
  
 **97.**
 *Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory.*\
@@ -654,4 +654,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-08-29 08:59:52 UTC*
+*Last updated: 2025-08-29 13:32:20 UTC*

@@ -145,10 +145,21 @@ if published:
     papers['published']['data'] = []
 
     papers['published']['data'].append({
+        "title":    "Ringdown mode amplitudes of precessing binary black holes",
+        "author":   "F. Nobili, S. Bhagwat, C. Pacilio, D. Gerosa",
+        "journal":  "\prd 112 (2025) 044058",
+        "link":     "",
+        "arxiv":    "arXiv:2504.17021 [gr-qc]",
+        "ads":      "2025arXiv250417021N",
+        "inspire":  "Nobili:2025ydt",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
         "title":    "A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries",
         "author":   "R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, D. Gerosa, A. Carzaniga",
-        "journal":  "European Physical Journal C, in press (2025)",
-        "link":     "",
+        "journal":  "European Physical Journal C 85 (2025) 887",
+        "link":     "https://doi.org/10.1140/epjc/s10052-025-14616-w",
         "arxiv":    "arXiv:2410.08263 [astro-ph.HE]",
         "ads":      "2024arXiv241008263B",
         "inspire":  "Buscicchio:2024wwm",
@@ -167,20 +178,9 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "Ringdown mode amplitudes of precessing binary black holes",
-        "author":   "F. Nobili, S. Bhagwat, C. Pacilio, D. Gerosa",
-        "journal":  "\prd, in press (2025)",
-        "link":     "",
-        "arxiv":    "arXiv:2504.17021 [gr-qc]",
-        "ads":      "2025arXiv250417021N",
-        "inspire":  "Nobili:2025ydt",
-        "more":     ""
-        })
-
-    papers['published']['data'].append({
         "title":    "Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory",
         "author":   "G. Fumagalli, N. Loutrel, D. Gerosa, M. Boschini",
-        "journal":  "\prd 112 (2025) 024012.",
+        "journal":  "\prd 112 (2025) 024012",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/znmj-6wvt",
         "arxiv":    "arXiv:2502.06952 [gr-qc]",
         "ads":      "2025PhRvD.112b4012F",
@@ -191,7 +191,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data.",
         "author":   "C. M. Fabbri, D. Gerosa, A. Santini, M. Mould, A. Toubiana, J. Gair",
-        "journal":  "\prd 111 (2025) 104053.",
+        "journal":  "\prd 111 (2025) 104053",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.104053",
         "arxiv":    "arXiv:2501.17233 [astro-ph.HE]",
         "ads":      "2025PhRvD.111j4053F",
@@ -202,7 +202,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms.",
         "author":   "R. Tenorio, D. Gerosa",
-        "journal":  "\prd 111 (2025) 104044.",
+        "journal":  "\prd 111 (2025) 104044",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.104044",
         "arxiv":    "arXiv:2502.11823 [gr-qc]",
         "ads":      "2025PhRvD.111j4044T",
@@ -213,7 +213,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy",
         "author":   "M. Mancarella, D. Gerosa",
-        "journal":  "\prd 111 (2025) 103012.",
+        "journal":  "\prd 111 (2025) 103012",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.103012",
         "arxiv":    "arXiv:2502.12156 [gr-qc]",
         "ads":      "2025PhRvD.111j3012M",
