@@ -66,7 +66,7 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 **100.**
 *Ringdown mode amplitudes of precessing binary black holes.*\
 F. Nobili, S. Bhagwat, C. Pacilio, **D. Gerosa**.\
-Physical Review D, in press (2025). <a href="https://arxiv.org/abs/2504.17021" style="color: inherit; text-decoration: none;">arXiv:2504.17021 [gr-qc]</a>.
+Physical Review D 112 (2025) 044058. <a href="https://arxiv.org/abs/2504.17021" style="color: inherit; text-decoration: none;">arXiv:2504.17021 [gr-qc]</a>.
  
 **99.**
 *A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries.*\
@@ -654,4 +654,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-08-29 13:32:20 UTC*
+*Last updated: 2025-08-29 13:35:31 UTC*

@@ -189,7 +189,7 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data.",
+        "title":    "Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data",
         "author":   "C. M. Fabbri, D. Gerosa, A. Santini, M. Mould, A. Toubiana, J. Gair",
         "journal":  "\prd 111 (2025) 104053",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.104053",
@@ -200,7 +200,7 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms.",
+        "title":    "Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms",
         "author":   "R. Tenorio, D. Gerosa",
         "journal":  "\prd 111 (2025) 104044",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.104044",
@@ -223,7 +223,7 @@ if published:
 
     papers['published']['data'].append({
         "title":    "Which is which? Identification of the two compact objects in gravitational-wave binaries",
-        "author":   "D. Gerosa, V. De Renzis, F. Tettoni, M. Mould, A. Vecchio, C. Pacilio.",
+        "author":   "D. Gerosa, V. De Renzis, F. Tettoni, M. Mould, A. Vecchio, C. Pacilio",
         "journal":  "\prl 134 (2025) 121402",
         "link":     "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.121402",
         "arxiv":    "arXiv:2409.07519 [astro-ph.HE]",
@@ -235,7 +235,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Forecasting the population properties of merging black holes",
         "author":   "V. De Renzis, F. Iacovelli, D. Gerosa, M. Mancarella, C. Pacilio",
-        "journal":  "\prd 111 (2025) 044048.",
+        "journal":  "\prd 111 (2025) 044048",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.044048",
         "arxiv":    "arXiv:2410.17325 [astro-ph.HE]",
         "ads":      "2025PhRvD.111d4048D",
@@ -627,7 +627,7 @@ if published:
         "arxiv":    "arXiv:2105.03439 [gr-qc]",
         "ads":      "2021NatAs...5..749G",
         "inspire":  "Gerosa:2021mno",
-        "more":     "Review article. Covered by press release.",
+        "more":     "Review article. Covered by press release",
         })
 
     papers['published']['data'].append({
@@ -862,7 +862,7 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "Machine-learning interpolation of population-synthesis simulations to interpret gravitational-wave observations: a case study.",
+        "title":    "Machine-learning interpolation of population-synthesis simulations to interpret gravitational-wave observations: a case study",
         "author":   "K. W. K. Wong, D. Gerosa",
         "journal":  "\prd 100 (2019) 083015",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.100.083015",
@@ -1254,7 +1254,7 @@ if proceedings:
     papers['proceedings']['data'].append({
         "title":    "Coincident morphological transitions in precessing black-hole binaries",
         "author":   "D. Gerosa, G. Foroni, G. Fumagalli, E. Berti",
-        "journal":  "Proceedings of the International Congress of Basic Science, International Press.",
+        "journal":  "Proceedings of the International Congress of Basic Science, International Press",
         "link":     "",
         "arxiv":    "arXiv:2508.19735 [gr-qc]",
         "ads":      "2025arXiv250819735G",
@@ -1319,7 +1319,7 @@ if proceedings:
 
     papers['proceedings']['data'].append({
         "title":    "Black holes, gravitational waves and fundamental physics: a roadmap",
-        "author":   "L. Barack, et al. (199 authors incl. D. Gerosa).",
+        "author":   "L. Barack, et al. (199 authors incl. D. Gerosa)",
         "journal":  "\cqg 36 (2019) 143001",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ab0587",
         "arxiv":    "arXiv:1806.05195 [gr-qc]",
@@ -1363,7 +1363,7 @@ if proceedings:
 
     papers['proceedings']['data'].append({
         "title":    "Testing general relativity with present and future astrophysical observations",
-        "author":   "E. Berti, et al. (53 authors incl. D. Gerosa).",
+        "author":   "E. Berti, et al. (53 authors incl. D. Gerosa)",
         "journal":  "\cqg 32 (2015) 243001. Topical Review",
         "link":     "http://dx.doi.org/10.1088/0264-9381/32/24/243001",
         "arxiv":    "arXiv:1501.07274 [gr-qc]",
@@ -1480,7 +1480,7 @@ if conferences:
         })
 
     talks['conferences']['data'].append({
-        "title":    "It’s not at all trivial to say which is BH1 and which is BH2.",
+        "title":    "It’s not at all trivial to say which is BH1 and which is BH2",
         "what":     "Gravitational-wave snowballs, populations, and models",
         "where":    "Sexten, Italy",
         "when":     "Jan 2025",
@@ -1743,7 +1743,7 @@ if conferences:
         })
 
     talks['conferences']['data'].append({
-        "title":    "Testing GR? Keep calm and mind the waveform.",
+        "title":    "Testing GR? Keep calm and mind the waveform",
         "what":     "24rd Capra Meeting on Radiation Reaction in General Relativity",
         "where":    "Waterloo, Canada, (online)",
         "when":     "Jun 2021",
@@ -2872,7 +2872,7 @@ if fellowships:
         "end":          "2025",
         "email":        "sbhagwat@star.sr.bham.ac.uk",
         "bio":          "Gravitational-wave data analyst, astrophysical modeler, and machine learning enthusiast. Loves to explore the world through food, travel, and music.",
-        "note":         "Stephen Hawking Fellow.",
+        "note":         "Stephen Hawking Fellow",
         "current":      False
         })
     
