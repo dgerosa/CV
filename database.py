@@ -1252,6 +1252,17 @@ if proceedings:
     papers['proceedings']['data'] = []
 
     papers['proceedings']['data'].append({
+        "title":    "PRECESSION 2.1: black-hole binary spin precession on eccentric orbits",
+        "author":   "G. Fumagalli, D. Gerosa, N. Loutrel",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2508.21125 [gr-qc]",
+        "ads":      "2025arXiv250821125F",
+        "inspire":  "Fumagalli:2025asw",
+        "more":     ""
+        })
+
+    papers['proceedings']['data'].append({
         "title":    "Coincident morphological transitions in precessing black-hole binaries",
         "author":   "D. Gerosa, G. Foroni, G. Fumagalli, E. Berti",
         "journal":  "Proceedings of the International Congress of Basic Science, International Press",
