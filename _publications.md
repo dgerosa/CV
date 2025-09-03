@@ -1,5 +1,5 @@
 ## Summary
-**10** [Submitted papers](#submitted-papers)\
+**11** [Submitted papers](#submitted-papers)\
 **100** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**11.**
+*Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries.*\
+N. Loutrel, A. Bailey, **D. Gerosa**.\
+<a href="https://arxiv.org/abs/2509.01614" style="color: inherit; text-decoration: none;">arXiv:2509.01614 [gr-qc]</a>.
+ 
 **10.**
 *Can stellar physics explain GW231123?*\
 D. Croon, J. Sakstein, **D. Gerosa**.\
@@ -76,7 +81,8 @@ R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, **D. Gerosa**, A. 
 **98.**
 *“LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design.*\
 M. Boschini, **D. Gerosa**, A. Crespi, M. Falcone.\
-<a href="https://authors.elsevier.com/sd/article/S2352-7110(25)00260-2" style="color: inherit; text-decoration: none;">SoftwareX 31 (2025) 102294</a>. 
+<a href="https://authors.elsevier.com/sd/article/S2352-7110(25)00260-2" style="color: inherit; text-decoration: none;">SoftwareX 31 (2025) 102294</a>. <a href="https://arxiv.org/abs/2509.00159" style="color: inherit; text-decoration: none;">arXiv:2509.00159 [stat.ME]</a>.\
+Open source code.
  
 **97.**
 *Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory.*\
@@ -659,4 +665,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-09-01 10:14:10 UTC*
+*Last updated: 2025-09-03 05:04:07 UTC*

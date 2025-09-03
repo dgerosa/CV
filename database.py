@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries",
+        "author":   "N. Loutrel, A. Bailey, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2509.01614 [gr-qc]",
+        "ads":      "2025arXiv250901614L",
+        "inspire":  "Loutrel:2025bqn",
+        "more":     ""
+        })
+    
+    papers['submitted']['data'].append({
         "title":    "Can stellar physics explain GW231123?",
         "author":   "D. Croon, J. Sakstein, D. Gerosa",
         "journal":  "",
@@ -171,10 +182,10 @@ if published:
         "author":   "M. Boschini, D. Gerosa, A. Crespi, M. Falcone",
         "journal":  "SoftwareX 31 (2025) 102294",
         "link":     "https://authors.elsevier.com/sd/article/S2352-7110(25)00260-2",
-        "arxiv":    "",
-        "ads":      "",
-        "inspire":  "",
-        "more":     ""
+        "arxiv":    "arXiv:2509.00159 [stat.ME]",
+        "ads":      "2024arXiv250900159B",
+        "inspire":  "Boschini:2025ymu",
+        "more":     "Open source code"
         })
 
     papers['published']['data'].append({
