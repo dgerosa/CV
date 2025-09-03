@@ -966,6 +966,10 @@ def checkblogposts(papers,directory='temp'):
     print('Check blog posts for papers')
     posts = glob(relativepathwebsiterepo+"/_posts/*.md")        
     #print(posts)
+    
+    os.system(f"mkdir -p {directory}")
+    os.system(f"rm -f {directory}/*")
+
     for k in ['submitted','published','proceedings']:
         for p in papers[k]['data']:
 
@@ -1024,8 +1028,7 @@ def checkblogposts(papers,directory='temp'):
 
                 out = apply_journal_conversion(out)
 
-                os.system(f"mkdir -p {directory}")
-                os.system(f"rm -f {directory}/*")
+
                 filename =f"{directory}/{today}-{slugify(p['title'])}.md"
                 with open(filename,"w") as f: f.write("\n".join(out))
                 #print("--> Created blog post template:", filename)
