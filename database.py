@@ -159,7 +159,7 @@ if published:
         "title":    "Ringdown mode amplitudes of precessing binary black holes",
         "author":   "F. Nobili, S. Bhagwat, C. Pacilio, D. Gerosa",
         "journal":  "\prd 112 (2025) 044058",
-        "link":     "",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/cl3k-3xt2",
         "arxiv":    "arXiv:2504.17021 [gr-qc]",
         "ads":      "2025arXiv250417021N",
         "inspire":  "Nobili:2025ydt",
