@@ -1438,10 +1438,19 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Spin precession across timescales",
+        "what":     "EOB@Work25",
+        "where":    "Torino, Italy",
+        "when":     "Sep 2025",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "Stacking gravitational-wave events for testing GR: proceed with care",
         "what":     "Testing Aspects of General Relativity-IV",
         "where":    "Gandhinagar, India, (online)",
-        "when":     "Jul 2024",
+        "when":     "Jul 2025",
         "invited":  True,
         "more":     ""
         })

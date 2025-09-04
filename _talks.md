@@ -1,7 +1,7 @@
 Invited talks marked with ✦.
 
 ## Summary
-**80** (**33**✦) [Talks at conferences](#talks-at-conferences) \
+**81** (**34**✦) [Talks at conferences](#talks-at-conferences) \
 **44** (**44**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **6** (**5**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
@@ -11,8 +11,11 @@ Invited talks marked with ✦.
 
 ## Talks at conferences
 
+**81.** ✦ *Spin precession across timescales*  \\
+EOB@Work25, Torino, Italy, Sep 2025.
+
 **80.** ✦ *Stacking gravitational-wave events for testing GR: proceed with care*  \\
-Testing Aspects of General Relativity-IV, Gandhinagar, India, (online), Jul 2024.
+Testing Aspects of General Relativity-IV, Gandhinagar, India, (online), Jul 2025.
 
 **79.** *Which black hole? The labeling uncertainty in gravitational-wave astronomy*  \\
 24th International Conference on General Relativity and Gravitation (GR24) and 16th Edoardo Amaldi Conference, Glasgow, UK, Jul 2025.
@@ -505,4 +508,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2025-09-04 05:34:20 UTC*
+*Last updated: 2025-09-04 10:00:28 UTC*
