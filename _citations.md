@@ -1,22 +1,22 @@
 ## Citation Summary
 
 - **Total ADS citations**: 8697
-- **Total INSPIRE citations**: 9517
-- **Total MAX citations**: 9560
+- **Total INSPIRE citations**: 9522
+- **Total MAX citations**: 9564
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1322 | 1477 | 1477 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1322 | 1478 | 1478 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 786 | 864 | 864 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 593 | 576 | 593 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 593 | 577 | 593 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 435 | 453 | 453 |
 | **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 357 | 401 | 401 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 358 | 383 | 383 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 298 | 325 | 325 |
-| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 247 | 291 | 291 |
+| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 247 | 292 | 292 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 217 | 237 | 237 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 197 | 224 | 224 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 134 | 156 | 156 |
@@ -37,7 +37,7 @@
 | **26** | Taylor | 2018 | Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework | 89 | 92 | 92 |
 | **27** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 67 | 83 | 83 |
 | **28** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 74 | 83 | 83 |
-| **29** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 74 | 76 | 76 |
+| **29** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 74 | 77 | 77 |
 | **30** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 75 | 73 | 75 |
 | **31** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 65 | 74 | 74 |
 | **32** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 65 | 73 | 73 |
@@ -53,8 +53,8 @@
 | **42** | Gerosa | 2014 | Distinguishing black-hole spin-orbit resonances by their gravitational-wave signatures | 45 | 53 | 53 |
 | **43** | Gerosa | 2015 | Spin alignment and differential accretion in merging black hole binaries | 52 | 45 | 52 |
 | **44** | Sperhake | 2017 | Long-lived inverse chirp signals from core collapse in massive scalar-tensor gravity | 43 | 49 | 49 |
-| **45** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 43 | 48 | 48 |
-| **46** | Mould | 2022 | Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers | 43 | 47 | 47 |
+| **45** | Mould | 2022 | Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers | 43 | 48 | 48 |
+| **46** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 43 | 48 | 48 |
 | **47** | Gerosa | 2015 | Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature | 41 | 47 | 47 |
 | **48** | Mould | 2022 | Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data | 42 | 46 | 46 |
 | **49** | Moore | 2021 | Testing general relativity with gravitational-wave catalogs: the insidious nature of waveform systematics | 39 | 42 | 42 |
@@ -197,4 +197,4 @@
 
 
 <br><br>
-*Last updated: 2025-09-03 13:44:50 UTC*
+*Last updated: 2025-09-04 05:34:20 UTC*
