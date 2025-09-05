@@ -158,8 +158,8 @@
 
 | Journal | Paper count |
 |---------|--------------|
-| Physical Review D | 56 |
-| arXiv | 13 |
+| Physical Review D | 57 |
+| arXiv | 12 |
 | Monthly Notices of the Royal Astronomical Society | 12 |
 | Classical and Quantum Gravity | 10 |
 | Physical Review Letters | 9 |
@@ -197,4 +197,4 @@
 
 
 <br><br>
-*Last updated: 2025-09-05 05:33:25 UTC*
+*Last updated: 2025-09-05 11:50:13 UTC*

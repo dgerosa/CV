@@ -1,6 +1,6 @@
 ## Summary
-**11** [Submitted papers](#submitted-papers)\
-**100** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**10** [Submitted papers](#submitted-papers)\
+**101** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,25 +8,20 @@
 
 ## Submitted papers
 
-**11.**
+**10.**
 *Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries.*\
 N. Loutrel, A. Bailey, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2509.01614" style="color: inherit; text-decoration: none;">arXiv:2509.01614 [gr-qc]</a>.
  
-**10.**
+**9.**
 *Can stellar physics explain GW231123?*\
 D. Croon, J. Sakstein, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2508.10088" style="color: inherit; text-decoration: none;">arXiv:2508.10088 [astro-ph.HE]</a>.
  
-**9.**
+**8.**
 *Comparing astrophysical models to gravitational-wave data in the observable space.*\
 A. Toubiana, **D. Gerosa**, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini.\
 <a href="https://arxiv.org/abs/2507.13249" style="color: inherit; text-decoration: none;">arXiv:2507.13249 [gr-qc]</a>.
- 
-**8.**
-*GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications.*\
-I. Romero-Shaw, J. Stegmann, H. Tagawa, **D. Gerosa**, J. Samsing, N. Gupte, S. R. Green.\
-<a href="https://arxiv.org/abs/2506.17105" style="color: inherit; text-decoration: none;">arXiv:2506.17105 [astro-ph.HE]</a>.
  
 **7.**
 *Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background.*\
@@ -68,6 +63,11 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 
 ## Papers published in major peer-reviewed journals
 
+**101.**
+*GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications.*\
+I. Romero-Shaw, J. Stegmann, H. Tagawa, **D. Gerosa**, J. Samsing, N. Gupte, S. R. Green.\
+Physical Review D in press. <a href="https://arxiv.org/abs/2506.17105" style="color: inherit; text-decoration: none;">arXiv:2506.17105 [astro-ph.HE]</a>.
+ 
 **100.**
 *Ringdown mode amplitudes of precessing binary black holes.*\
 F. Nobili, S. Bhagwat, C. Pacilio, **D. Gerosa**.\
@@ -665,4 +665,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-09-05 05:33:25 UTC*
+*Last updated: 2025-09-05 11:50:13 UTC*

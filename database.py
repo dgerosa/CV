@@ -61,17 +61,6 @@ if submitted:
         "inspire":  "Toubiana:2025syw",
         "more":     ""
         })
-
-    papers['submitted']['data'].append({
-        "title":    "GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications",
-        "author":   "I. Romero-Shaw, J. Stegmann, H. Tagawa, D. Gerosa, J. Samsing, N. Gupte, S. R. Green",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2506.17105 [astro-ph.HE]",
-        "ads":      "2025arXiv250617105R",
-        "inspire":  "Romero-Shaw:2025vbc",
-        "more":     ""
-        })
     
     papers['submitted']['data'].append({
         "title":    "Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background",
@@ -154,6 +143,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications",
+        "author":   "I. Romero-Shaw, J. Stegmann, H. Tagawa, D. Gerosa, J. Samsing, N. Gupte, S. R. Green",
+        "journal":  "\prd in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2506.17105 [astro-ph.HE]",
+        "ads":      "2025arXiv250617105R",
+        "inspire":  "Romero-Shaw:2025vbc",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Ringdown mode amplitudes of precessing binary black holes",
