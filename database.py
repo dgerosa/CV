@@ -1438,6 +1438,16 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "The full gravitational-wave population problem (aka: sample them all)",
+        "what":     "XXVI SIGRAV Conference 2021",
+        "where":    "Milano, Italy",
+        "when":     "Sep 2025",
+        "invited":  False,
+        "more":     ""
+        })
+
+
+    talks['conferences']['data'].append({
         "title":    "Spin precession across timescales",
         "what":     "EOB@Work25",
         "where":    "Torino, Italy",
