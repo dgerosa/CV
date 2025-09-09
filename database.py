@@ -3273,7 +3273,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2024",
-        "note":     "Resulting publication: arXiv:2409.07519.",
+        "note":     "Then engineer at Leonardo Helicopters. Resulting publication: arXiv:2409.07519.",
         "current":  False
         })
     
