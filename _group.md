@@ -202,13 +202,13 @@ Here are the amazing students who are currently completing research projects wit
 - **Francesca Rattegni**. Milano-Bicocca, 2024.
 - **Matteo Pagani**. Milano-Bicocca, 2024.
 - **William Toscani**. Milano-Bicocca, 2024.
-- **Ava Bailey**. Milano-Bicocca and Duke, 2024.
-- **Alessandro Crespi**. Milano-Bicocca, 2024.
+- **Ava Bailey**. Milano-Bicocca and Duke, 2024. Resulting publication: [arXiv:2509.01614](https://arxiv.org/abs/2509.01614).
+- **Alessandro Crespi**. Milano-Bicocca, 2024. Resulting publication: [arXiv:2509.00159](https://arxiv.org/abs/2509.00159).
 - **Annalisa Amigoni**. Milano-Bicocca, 2024.
 - **Alice Palladino**. Milano-Bicocca, 2024.
 - **Lisa Merlo**. Milano-Bicocca, 2024.
 - **Serena Caslini**. Milano-Bicocca, 2023.
-- **Matteo Falcone**. Milano-Bicocca, 2023.
+- **Matteo Falcone**. Milano-Bicocca, 2023. Resulting publication: [arXiv:2509.00159](https://arxiv.org/abs/2509.00159).
 - **Marco Bianchi**. Milano-Bicocca, 2023.
 - **Martin Gerini**. Milano-Bicocca, 2023.
 - **Federico Ravelli**. Milano-Bicocca, 2023.
@@ -242,4 +242,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-09-09 05:38:09 UTC*
+*Last updated: 2025-09-09 07:01:55 UTC*

@@ -3519,7 +3519,8 @@ if bsc:
         "name":     "Ava Bailey",
         "where":    "Milano-Bicocca and Duke",
         "what":     "IREU summer project",
-        "year":     "2024",
+        "year":     "2024", 
+        "note":     "Resulting publication: arXiv:2509.01614.",
         "current":  False
         })
     
@@ -3527,7 +3528,9 @@ if bsc:
         "name":     "Alessandro Crespi",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
+        "note":     "Resulting publication: arXiv:2509.00159.",
         "year":     "2024",
+        
         "current":  False
         })
     
@@ -3568,6 +3571,7 @@ if bsc:
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2023",
+        "note":     "Resulting publication: arXiv:2509.00159.",
         "current":  False
         })
     
