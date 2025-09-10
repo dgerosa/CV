@@ -161,7 +161,7 @@ if published:
         "journal":  "\prd 112 (2025) 044058",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/cl3k-3xt2",
         "arxiv":    "arXiv:2504.17021 [gr-qc]",
-        "ads":      "2025arXiv250417021N",
+        "ads":      "2025PhRvD.112d4058N",
         "inspire":  "Nobili:2025ydt",
         "more":     ""
         })
@@ -172,7 +172,7 @@ if published:
         "journal":  "European Physical Journal C 85 (2025) 887",
         "link":     "https://doi.org/10.1140/epjc/s10052-025-14616-w",
         "arxiv":    "arXiv:2410.08263 [astro-ph.HE]",
-        "ads":      "2024arXiv241008263B",
+        "ads":      "2025EPJC...85..887B",
         "inspire":  "Buscicchio:2024wwm",
         "more":     ""
         })

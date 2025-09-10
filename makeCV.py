@@ -11,6 +11,7 @@ import os
 import ssl
 import urllib.request
 import urllib.error
+import requests
 import html
 from database import papers, talks, group
 from datetime import datetime, timezone
@@ -120,18 +121,74 @@ def apply_journal_conversion(lines):
 
 #### Get citations ####
 
+# def ads_citations(papers,testing=False):
+
+#     print('Get citations from ADS')
+
+#     ads.config.token = os.getenv("ADS_TOKEN")
+
+#     tot = len(np.concatenate([papers[k]['data'] for k in papers]))
+#     with tqdm(total=tot) as pbar:
+#         for k in papers:
+#             for p in papers[k]['data']:
+#                 if p['ads']:
+#                     #print("here", p['ads'])
+#                     if testing:
+#                         p['ads_citations'] = np.random.randint(0, 100)
+#                         p['ads_found'] = p['ads']
+#                     else:
+#                         n_retries=0
+                        
+#                         p['ads_citations'] = 0
+#                         p['ads_found'] = ""
+                        
+#                         while n_retries<10:
+#                             try:
+
+#                                 q=list(ads.SearchQuery(bibcode=p['ads'], fl=['bibcode', 'citation_count']))[0] 
+#                                 citation_count=q.citation_count
+#                                 if citation_count is not None:
+#                                     p['ads_citations'] = citation_count
+#                                 else:
+#                                     print("Warning: citation count is None.", p['ads'])
+#                                     p['ads_citations'] = 0
+#                                 p['ads_found'] = q.bibcode
+
+#                             except:
+#                                 retry_time = 10 #req.getheaders()["retry-in"]
+#                                 print('ADS API error: retry in', retry_time, 's. -- '+p['ads'])
+#                                 time.sleep(retry_time)
+#                                 n_retries = n_retries + 1
+                            
+#                                 if n_retries==11:
+#                                     print('ADS API error: giving up -- '+p['ads'])
+#                                 continue
+#                             else:
+#                                 break
+
+#                 else:
+#                     p['ads_citations'] = 0
+#                     p['ads_found'] = ""
+#                 pbar.update(1)
+
+#     return papers
+
+
 def ads_citations(papers,testing=False):
 
     print('Get citations from ADS')
 
-    ads.config.token = os.getenv("ADS_TOKEN")
+    #with open('/Users/dgerosa/reps/dotfiles/adstoken.txt') as f:
+    #    #ads.config.token = f.read()
+    #    token = f.read()
+
+    token = os.getenv("ADS_TOKEN")
 
     tot = len(np.concatenate([papers[k]['data'] for k in papers]))
     with tqdm(total=tot) as pbar:
         for k in papers:
             for p in papers[k]['data']:
                 if p['ads']:
-                    #print("here", p['ads'])
                     if testing:
                         p['ads_citations'] = np.random.randint(0, 100)
                         p['ads_found'] = p['ads']
@@ -141,17 +198,23 @@ def ads_citations(papers,testing=False):
                         p['ads_citations'] = 0
                         p['ads_found'] = ""
                         
-                        while n_retries<10:
+                        while n_retries<1:
                             try:
-
-                                q=list(ads.SearchQuery(bibcode=p['ads'], fl=['bibcode', 'citation_count']))[0] 
-                                citation_count=q.citation_count
-                                if citation_count is not None:
-                                    p['ads_citations'] = citation_count
+                            #if True:   
+                                with warnings.catch_warnings():
+                                    warnings.filterwarnings("ignore", message="Unverified HTTPS request is being made to host")
+                                    r = requests.get("https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads'].replace("&","%26")+"&fl=citation_count,bibcode",headers={'Authorization': 'Bearer ' + token},verify=False)
+                                q= r.json()['response']['docs']
+                                #print(p['ads'], q)
+                                if len(q)!=1:
+                                    raise ValueError("ADS error in "+b)
+                                q=q[0]
+                                if q['citation_count'] is not None:
+                                    p['ads_citations'] = q['citation_count']
                                 else:
                                     print("Warning: citation count is None.", p['ads'])
                                     p['ads_citations'] = 0
-                                p['ads_found'] = q.bibcode
+                                p['ads_found'] = q['bibcode']
 
                             except:
                                 retry_time = 10 #req.getheaders()["retry-in"]
@@ -161,6 +224,8 @@ def ads_citations(papers,testing=False):
                             
                                 if n_retries==11:
                                     print('ADS API error: giving up -- '+p['ads'])
+
+                                    #raise ValueError("ADS error in "+p['ads'])
                                 continue
                             else:
                                 break
@@ -480,16 +545,16 @@ def buildbib(filename='publist.bib'):
         for k in papers:
             for p in papers[k]['data']:
                 if  p['ads_found'] and p['ads_found'] not in stored:
-                    #with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation",contex=context) as f:
-                    #    bib = f.read()
-                    #bib=bib.decode()
-                    #bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
-                    #bib=html.unescape(bib)
-                    q=list(ads.SearchQuery(bibcode=p['ads_found'], fl=['bibtex']))[0]
-                    bib = q.bibtex
-                    if "journal =" in bib:
-                        j  = bib.split("journal =")[1].split("}")[0].split("{")[1]
-                        bib = bib.replace(j,convertjournal(j)[0])
+                    with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation") as f:
+                       bib = f.read()
+                    bib=bib.decode()
+                    bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
+                    bib=html.unescape(bib)
+                    # q=list(ads.SearchQuery(bibcode=p['ads_found'], fl=['bibtex']))[0]
+                    # bib = q.bibtex
+                    # if "journal =" in bib:
+                    #     j  = bib.split("journal =")[1].split("}")[0].split("{")[1]
+                    #     bib = bib.replace(j,convertjournal(j)[0])
 
                     with open(filename, 'a') as f:
                         f.write(bib)

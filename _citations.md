@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 8709
+- **Total ADS citations**: 8730
 - **Total INSPIRE citations**: 9567
 - **Total MAX citations**: 9610
 - **h-index**: 47
@@ -85,7 +85,7 @@
 | **74** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 18 | 19 | 19 |
 | **75** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 16 | 18 | 18 |
 | **76** | Nealon | 2022 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity | 18 | 12 | 18 |
-| **77** | Buscicchio | 2025 | A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries | 0 | 16 | 16 |
+| **77** | Buscicchio | 2025 | A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries | 13 | 16 | 16 |
 | **78** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 13 | 16 | 16 |
 | **79** | Varma | 2021 | Up-down instability of binary black holes in numerical relativity | 14 | 16 | 16 |
 | **80** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 16 | 15 | 16 |
@@ -97,7 +97,7 @@
 | **86** | Reali | 2020 | Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants | 10 | 11 | 11 |
 | **87** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 7 | 10 | 10 |
 | **88** | Gangardt | 2022 | Constraining black-hole binary spin precession and nutation with sequential prior conditioning | 9 | 10 | 10 |
-| **89** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 0 | 9 | 9 |
+| **89** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 8 | 9 | 9 |
 | **90** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 9 | 7 | 9 |
 | **91** | Fabbri | 2025 | Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data | 6 | 8 | 8 |
 | **92** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 5 | 8 | 8 |
@@ -197,4 +197,4 @@
 
 
 <br><br>
-*Last updated: 2025-09-10 04:59:19 UTC*
+*Last updated: 2025-09-10 06:03:46 UTC*
