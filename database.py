@@ -63,17 +63,6 @@ if submitted:
         })
     
     papers['submitted']['data'].append({
-        "title":    "Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background",
-        "author":   "G. Giarda, A. I. Renzini, C. Pacilio, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2506.12572 [gr-qc]",
-        "ads":      "2025arXiv250612572G",
-        "inspire":  "Giarda:2025ouf",
-        "more":     ""
-        })
-    
-    papers['submitted']['data'].append({
         "title":    "Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $3<z<5$ Ly$\\alpha$ emitters",
         "author":   "D. Tornotti, M. Fossati, M. Fumagalli, D. Gerosa, L. Pizzuti, F. Arrigoni Battaia",
         "journal":  "",
@@ -143,6 +132,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background",
+        "author":   "G. Giarda, A. I. Renzini, C. Pacilio, D. Gerosa",
+        "journal":  "\cqg in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2506.12572 [gr-qc]",
+        "ads":      "2025arXiv250612572G",
+        "inspire":  "Giarda:2025ouf",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications",

@@ -1,20 +1,20 @@
 ## Citation Summary
 
 - **Total ADS citations**: 8746
-- **Total INSPIRE citations**: 9586
-- **Total MAX citations**: 9633
+- **Total INSPIRE citations**: 9598
+- **Total MAX citations**: 9643
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1327 | 1484 | 1484 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1327 | 1486 | 1486 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 786 | 866 | 866 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 600 | 581 | 600 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 600 | 583 | 600 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 436 | 453 | 453 |
-| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 357 | 402 | 402 |
-| **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 360 | 391 | 391 |
+| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 357 | 404 | 404 |
+| **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 360 | 393 | 393 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 300 | 330 | 330 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 249 | 295 | 295 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 219 | 239 | 239 |
@@ -39,10 +39,10 @@
 | **28** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 67 | 84 | 84 |
 | **29** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 75 | 77 | 77 |
 | **30** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 75 | 74 | 75 |
-| **31** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 65 | 74 | 74 |
-| **32** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 65 | 73 | 73 |
+| **31** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 65 | 74 | 74 |
+| **32** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 65 | 74 | 74 |
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 70 | 73 | 73 |
-| **34** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 58 | 63 | 63 |
+| **34** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 58 | 64 | 64 |
 | **35** | Gerosa | 2015 | Precessional instability in binary black holes with aligned spins | 56 | 61 | 61 |
 | **36** | Gerosa | 2018 | Black-hole kicks from numerical-relativity surrogate models | 55 | 60 | 60 |
 | **37** | Gerosa | 2016 | Numerical simulations of stellar collapse in scalar-tensor theories of gravity | 52 | 60 | 60 |
@@ -57,7 +57,7 @@
 | **46** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 43 | 48 | 48 |
 | **47** | Mould | 2022 | Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data | 42 | 47 | 47 |
 | **48** | Gerosa | 2015 | Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature | 41 | 47 | 47 |
-| **49** | Moore | 2021 | Testing general relativity with gravitational-wave catalogs: the insidious nature of waveform systematics | 39 | 42 | 42 |
+| **49** | Moore | 2021 | Testing general relativity with gravitational-wave catalogs: the insidious nature of waveform systematics | 39 | 43 | 43 |
 | **50** | Tso | 2019 | Optimizing LIGO with LISA forewarnings to improve black-hole spectroscopy | 36 | 41 | 41 |
 | **51** | Trifiro' | 2016 | Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation | 35 | 41 | 41 |
 | **52** | Gerosa | 2020 | Gravitational-wave selection effects using neural-network classifiers | 33 | 39 | 39 |
@@ -92,7 +92,7 @@
 | **81** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 13 | 15 | 15 |
 | **82** | Gerosa | 2017 | filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography | 12 | 15 | 15 |
 | **83** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 13 | 14 | 14 |
-| **84** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 10 | 13 | 13 |
+| **84** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 10 | 14 | 14 |
 | **85** | Steinle | 2023 | The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries | 9 | 11 | 11 |
 | **86** | Reali | 2020 | Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants | 10 | 11 | 11 |
 | **87** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 8 | 10 | 10 |
@@ -159,9 +159,9 @@
 | Journal | Paper count |
 |---------|--------------|
 | Physical Review D | 57 |
-| arXiv | 12 |
 | Monthly Notices of the Royal Astronomical Society | 12 |
-| Classical and Quantum Gravity | 10 |
+| arXiv | 11 |
+| Classical and Quantum Gravity | 11 |
 | Physical Review Letters | 9 |
 | Astronomy & Astrophysics | 4 |
 | Astrophysical Journal | 3 |
@@ -197,4 +197,4 @@
 
 
 <br><br>
-*Last updated: 2025-09-11 13:02:08 UTC*
+*Last updated: 2025-09-12 05:59:09 UTC*
