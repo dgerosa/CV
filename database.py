@@ -2185,6 +2185,15 @@ if seminars:
     talks['seminars']['data'] = []
 
     talks['seminars']['data'].append({
+        "title":    "Challenges and opportunities in gravitational-wave population inference",
+        "what":     "Astrophysics+Theory seminars, Imperial College",
+        "where":    "London, UK",
+        "when":     "Sep 2025",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['seminars']['data'].append({
         "title":    "Gravitational-wave populations: deeper statistics for deeper astrophysics",
         "what":     "Joint Israeli seminar series on gravitational physics",
         "where":    "Israel, (online)",
