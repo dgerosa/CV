@@ -3215,15 +3215,6 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "Erika Sottocorno",
-        "where":    "Milano-Bicocca",
-        "what":     "MSc thesis",
-        "year":     "2025",
-        "note":     "Then PhD student at SISSA (Trieste, Italy).", 
-        "current":  True
-        })
-    
-    group['msc']['data'].append({
         "name":     "Serena Caslini",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
@@ -3233,12 +3224,21 @@ if msc:
         })
     
     group['msc']['data'].append({
+        "name":     "Erika Sottocorno",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "note":     "Then PhD student at SISSA (Trieste, Italy).", 
+        "current":  False
+        })
+    
+    group['msc']['data'].append({
         "name":     "Simone Restuccia",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2025",
         "note":     "",
-        "current":  True
+        "current":  False
         })
     
     group['msc']['data'].append({
@@ -3436,7 +3436,7 @@ if bsc:
         })
 
     group['bsc']['data'].append({
-        "name":     "Arianna Pedone",
+        "name":     "Federico Quattrini",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2025",
@@ -3444,11 +3444,11 @@ if bsc:
         })
 
     group['bsc']['data'].append({
-        "name":     "Federico Quattrini",
+        "name":     "Arianna Pedone",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2025",
-        "current":  True
+        "current":  False
         })
 
     group['bsc']['data'].append({
