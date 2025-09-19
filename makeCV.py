@@ -199,8 +199,8 @@ def ads_citations(papers,testing=False):
                         p['ads_found'] = ""
                         
                         while n_retries<10:
-                            try:
-                            #if True:   
+                            #try:
+                            if True:   
                                 with warnings.catch_warnings():
                                     warnings.filterwarnings("ignore", message="Unverified HTTPS request is being made to host")
                                     r = requests.get("https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads'].replace("&","%26")+"&fl=citation_count,bibcode",headers={'Authorization': 'Bearer ' + token},verify=False)
@@ -216,7 +216,7 @@ def ads_citations(papers,testing=False):
                                     p['ads_citations'] = 0
                                 p['ads_found'] = q['bibcode']
 
-                            except:
+                            #except:
                                 retry_time = 10 #req.getheaders()["retry-in"]
                                 print('ADS API error: retry in', retry_time, 's. -- '+p['ads'])
                                 time.sleep(retry_time)
