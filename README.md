@@ -1,4 +1,5 @@
 # Davide Gerosa, CV
+
 Here is where I keep my (hopefully updated) CV, publication list, talks, etc.
 
 For more information on my research, please visit my personal homepage: [davidegerosa.com](https://davidegerosa.com)
