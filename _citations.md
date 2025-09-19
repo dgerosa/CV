@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 8811
+- **Total ADS citations**: 8812
 - **Total INSPIRE citations**: 9644
 - **Total MAX citations**: 9690
 - **h-index**: 47
@@ -22,7 +22,7 @@
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 136 | 158 | 158 |
 | **12** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 141 | 155 | 155 |
 | **13** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 134 | 147 | 147 |
-| **14** | Afshordi | 2023 | Waveform modelling for the Laser Interferometer Space Antenna | 115 | 138 | 138 |
+| **14** | Afshordi | 2023 | Waveform modelling for the Laser Interferometer Space Antenna | 116 | 138 | 138 |
 | **15** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 133 | 133 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 113 | 120 | 120 |
 | **17** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 113 | 119 | 119 |
@@ -197,4 +197,4 @@
 
 
 <br><br>
-*Last updated: 2025-09-19 09:10:37 UTC*
+*Last updated: 2025-09-19 09:58:04 UTC*
