@@ -1,8 +1,8 @@
 ## Citation Summary
 
-- **Total ADS citations**: 8819
-- **Total INSPIRE citations**: 9646
-- **Total MAX citations**: 9693
+- **Total ADS citations**: 8822
+- **Total INSPIRE citations**: 9647
+- **Total MAX citations**: 9694
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -24,8 +24,8 @@
 | **13** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 134 | 147 | 147 |
 | **14** | Afshordi | 2023 | Waveform modelling for the Laser Interferometer Space Antenna | 117 | 138 | 138 |
 | **15** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 133 | 133 |
-| **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 113 | 120 | 120 |
-| **17** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 113 | 119 | 119 |
+| **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 114 | 120 | 120 |
+| **17** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 113 | 120 | 120 |
 | **18** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 102 | 119 | 119 |
 | **19** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 108 | 119 | 119 |
 | **20** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 107 | 114 | 114 |
@@ -54,7 +54,7 @@
 | **43** | Gerosa | 2015 | Spin alignment and differential accretion in merging black hole binaries | 52 | 45 | 52 |
 | **44** | Mould | 2022 | Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers | 46 | 50 | 50 |
 | **45** | Sperhake | 2017 | Long-lived inverse chirp signals from core collapse in massive scalar-tensor gravity | 43 | 49 | 49 |
-| **46** | Mould | 2022 | Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data | 43 | 48 | 48 |
+| **46** | Mould | 2022 | Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data | 44 | 48 | 48 |
 | **47** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 43 | 48 | 48 |
 | **48** | Gerosa | 2015 | Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature | 41 | 47 | 47 |
 | **49** | Moore | 2021 | Testing general relativity with gravitational-wave catalogs: the insidious nature of waveform systematics | 39 | 43 | 43 |
@@ -123,7 +123,7 @@
 | **112** | Cole | 2025 | Sequential simulation-based inference for extreme mass ratio inspirals | 3 | 3 | 3 |
 | **113** | Boschini | 2024 | Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186 | 3 | 2 | 3 |
 | **114** | Stegmann | 2025 | Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements | 2 | 2 | 2 |
-| **115** | Giarda | 2025 | Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background | 1 | 2 | 2 |
+| **115** | Giarda | 2025 | Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background | 2 | 2 | 2 |
 | **116** | Gerosa | 2023 | QLUSTER: quick clusters of merging binary black holes | 2 | 0 | 2 |
 | **117** | Gerosa | 2018 | Reanalysis of LIGO black-hole coalescences with alternative prior assumptions | 2 | 2 | 2 |
 | **118** | Gerosa | 2015 | Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history | 0 | 1 | 1 |
@@ -197,4 +197,4 @@
 
 
 <br><br>
-*Last updated: 2025-09-21 02:01:39 UTC*
+*Last updated: 2025-09-22 02:01:35 UTC*
