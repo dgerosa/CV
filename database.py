@@ -2911,7 +2911,7 @@ if fellowships:
         "end":         "2025",
         "bio":         "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
         "email":       "arianna.renzini@unimib.it",
-        "current":      True
+        "current":      False
         })
     
     group['fellowships']['data'].append({
