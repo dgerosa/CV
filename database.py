@@ -2908,7 +2908,7 @@ if fellowships:
         "where":       "Milano-Bicocca",
         "fellowship":  "ERC Marie Skłodowska-Curie Fellow",
         "start":       "2023",
-        "end":         "current",
+        "end":         "2025",
         "bio":         "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
         "email":       "arianna.renzini@unimib.it",
         "current":      True
