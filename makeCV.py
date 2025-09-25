@@ -1169,12 +1169,13 @@ if __name__ == "__main__":
     # Database
     replacekeys()
 
-    # Git push
-    try:
-        comment = sys.argv[1]
-    except:
-        comment = "Generic update"
-    print("Push to git:", comment)
-    os.system("git add -u")
-    os.system("git commit -m '"+comment+"'")
-    os.system("git push")
+    if not testing:
+        # Git push
+        try:
+            comment = sys.argv[1]
+        except:
+            comment = "Generic update"
+        print("Push to git:", comment)
+        os.system("git add -u")
+        os.system("git commit -m '"+comment+"'")
+        os.system("git push")

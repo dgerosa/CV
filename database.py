@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity",
+        "author":   "R. Tenorio, A. Toubiana, T. Bruel, D. Gerosa, J. Gair",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2509.19466 astro-ph.HE]",
+        "ads":      "2025arXiv250919466T",
+        "inspire":  "Loutrel:2025bqn",
+        "more":     ""
+        })
+    
+    papers['submitted']['data'].append({
         "title":    "Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries",
         "author":   "N. Loutrel, A. Bailey, D. Gerosa",
         "journal":  "",

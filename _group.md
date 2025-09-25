@@ -3,15 +3,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
 ## Current group members
 <div class="people-list">
 <div class="person">
-  <img src="{{ '/images/arianna-renzini.jpg' | relative_url }}" alt="Arianna Renzini" class="person-photo">
-  <div class="person-text">
-    <strong>Arianna Renzini</strong><br>
-    ERC Marie Skłodowska-Curie Fellow<br>
-<a href="mailto:arianna.renzini@unimib.it">arianna.renzini@unimib.it</a><br>
-    <em>Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/tristan-bruel.jpg' | relative_url }}" alt="Tristan Bruel" class="person-photo">
   <div class="person-text">
     <strong>Tristan Bruel</strong><br>
@@ -154,6 +145,7 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former postdocs
 
+- **Arianna Renzini**. Milano-Bicocca, 2023–2025.
 - **Swetha Baghwat**. Birmingham, 2022–2025. Stephen Hawking Fellow.
 - **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille, France.
 - **Nathan Steinle**. Birmingham, 2021–2023. Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).
@@ -242,4 +234,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-09-23 19:52:31 UTC*
+*Last updated: 2025-09-25 05:45:57 UTC*
