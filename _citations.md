@@ -1,22 +1,22 @@
 ## Citation Summary
 
-- **Total ADS citations**: 8830
-- **Total INSPIRE citations**: 9691
-- **Total MAX citations**: 9730
+- **Total ADS citations**: 8840
+- **Total INSPIRE citations**: 9694
+- **Total MAX citations**: 9736
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1332 | 1495 | 1495 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 788 | 870 | 870 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 606 | 594 | 606 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1334 | 1495 | 1495 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 789 | 870 | 870 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 610 | 595 | 610 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 438 | 454 | 454 |
-| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 358 | 407 | 407 |
-| **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 371 | 395 | 395 |
+| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 359 | 407 | 407 |
+| **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 372 | 395 | 395 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 305 | 332 | 332 |
-| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 252 | 300 | 300 |
+| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 253 | 300 | 300 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 222 | 244 | 244 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 200 | 226 | 226 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 136 | 158 | 158 |
@@ -24,7 +24,7 @@
 | **13** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 135 | 147 | 147 |
 | **14** | Afshordi | 2023 | Waveform modelling for the Laser Interferometer Space Antenna | 117 | 141 | 141 |
 | **15** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 133 | 133 |
-| **16** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 114 | 123 | 123 |
+| **16** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 114 | 124 | 124 |
 | **17** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 114 | 120 | 120 |
 | **18** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 102 | 119 | 119 |
 | **19** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 108 | 119 | 119 |
@@ -62,7 +62,7 @@
 | **51** | Trifiro' | 2016 | Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation | 35 | 41 | 41 |
 | **52** | Gerosa | 2020 | Gravitational-wave selection effects using neural-network classifiers | 34 | 39 | 39 |
 | **53** | Lodato | 2013 | Black hole mergers: do gas discs lead to spin alignment? | 38 | 37 | 38 |
-| **54** | Santini | 2023 | Black-hole mergers in disk-like environments could explain the observed $$q-\chi_\mathrm{eff}$$ correlation | 35 | 36 | 36 |
+| **54** | Santini | 2023 | Black-hole mergers in disk-like environments could explain the observed $$q-\chi_\mathrm{eff}$$ correlation | 35 | 37 | 37 |
 | **55** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 33 | 34 | 34 |
 | **56** | Rosca-Mead | 2020 | Core collapse in massive scalar-tensor gravity | 27 | 33 | 33 |
 | **57** | Gerosa | 2021 | High mass but low spin: an exclusion region to rule out hierarchical black-hole mergers as a mechanism to populate the pair-instability mass gap | 28 | 31 | 31 |
@@ -199,4 +199,4 @@
 
 
 <br><br>
-*Last updated: 2025-09-25 06:04:56 UTC*
+*Last updated: 2025-09-25 14:53:45 UTC*
