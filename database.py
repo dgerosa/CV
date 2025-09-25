@@ -2922,6 +2922,7 @@ if fellowships:
         "end":         "2025",
         "bio":         "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
         "email":       "arianna.renzini@unimib.it",
+        "note":         "Marie Skłodowska-Curie Fellow. Then technical staff at ETH, Zurich.",
         "current":      False
         })
     
@@ -3152,6 +3153,15 @@ if msc:
     group['msc']['labelshort'] = 'MSc students'
     group['msc']['labellong'] = 'MSc student mentoring'
     group['msc']['data'] = []
+
+    group['msc']['data'].append({
+        "name":     "Sofia Dossena",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "note":     "",
+        "current":  True
+        })
 
     group['msc']['data'].append({
         "name":     "Marco Bianchi",
