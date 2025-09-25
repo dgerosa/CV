@@ -3031,7 +3031,7 @@ if postdocs:
         "end":      "2024",
         "bio":      "Cosmologist, cosmo-everything, Fisher matrixer. Uses stats, machine learning, and theory to challenge Einstein’s gravity. Curses in front of a python script, trains in a muay thai gym, cooks risotto.",
         "email":    "michele.mancarella@unimib.it",
-        "note":     "Supported by the ERC. Then faculty at the University of Aix-Marseille, France.",
+        "note":     "Supported by the ERC. Then faculty at the University of Aix-Marseille (France).",
         "current":  False
         })
     
@@ -3090,6 +3090,7 @@ if phd:
         "end":      "current",
         "bio":      "Gaussian Processor, black-hole surrogator, Tolkien addict. Likes discovering new places, whether in the real world or in fantasy books. Often bothers friends with “simple” board games. Probably knows even how to build a nuclear reactor.",
         "email":    "m.boschini1@campus.unimib.it",
+        "note":     "Supported by the ERC.",
         "current":  True
         })
     
@@ -3111,7 +3112,7 @@ if phd:
         "end":      "current",
         "bio":      "Eccentricity calculator, outlier nightmare, PN analyzer. Likes gravitational waves, black holes, and cats. Specialized in cakes, cookies, and any sweet treats (by far the best chocolate brownie in town!). A marathon every now and then just to let off steam.",
         "email":    "g.fumagalli47@campus.unimib.it",
-        "note":     "Supported by the ERC. Then Burke Fellow at the California Institute of Technology, USA.",
+        "note":     "Supported by the ERC. Then Burke Fellow at the California Institute of Technology (USA).",
         "current":  True
         })
     
@@ -3122,7 +3123,7 @@ if phd:
         "end":      "2024",
         "bio":      "Signal injecter, code parallelizer, Bayesian grandmaster, music addicted, guitar player (or at least she tries), ice-cream lover, manga reader. Intrigued by all questions we cannot answer.",
         "email":    "v.derenzis@campus.unimib.it",
-        "note":     "Supported by the ERC. Then postdoc at the University of Aix-Marseille, France.",
+        "note":     "Supported by the ERC. Then postdoc at the University of Aix-Marseille (France) .",
         "current":  False
         })
     
@@ -3144,7 +3145,7 @@ if phd:
         "end":      "2023",
         "bio":      "Machine learner, python sorcerer, gig-goer. When not thinking about astrophysics, can be found noodling on a guitar, on a (very) long run, or with the head buried in a book. Or wishing there was a guitar around.",
         "email":    "mmould@star.sr.bham.ac.uk",
-        "note":     "Supported by STFC. Then postdoc at the Massachusetts Institute of Technology, USA.",
+        "note":     "Supported by STFC. Then postdoc at the Massachusetts Institute of Technology (USA).",
         "current":  False
         })
 

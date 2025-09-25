@@ -123,6 +123,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
 ## Current MSc and Bsc students
 Here are the amazing students who are currently completing research projects with us in the group… Taking the first fun steps into the perilous world of black holes!
 
+- **Sofia Dossena**, MSc thesis, Milano-Bicocca, 2025.
 - **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2025.
 - **Pietro Zeduri**, MSc thesis, Milano-Bicocca and University of Aix-Marseille, 2025.
 - **Alessia Corelli**, MSc thesis, Milano-Bicocca , 2025.
@@ -145,17 +146,17 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former postdocs
 
-- **Arianna Renzini**. Milano-Bicocca, 2023–2025.
+- **Arianna Renzini**. Milano-Bicocca, 2023–2025. Marie Skłodowska-Curie Fellow. Then technical staff at ETH, Zurich.
 - **Swetha Baghwat**. Birmingham, 2022–2025. Stephen Hawking Fellow.
-- **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille, France.
+- **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille (France).
 - **Nathan Steinle**. Birmingham, 2021–2023. Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).
 - **Nicola Giacobbo**. Birmingham, 2020–2021. Supported by the Leverhulme Trust. Then software developer at IRS Srl (Italy).
 
 ## Former PhD students
 
-- **Viola De Renzis**. Milano-Bicocca, 2021–2024. Supported by the ERC. Then postdoc at the University of Aix-Marseille, France.
+- **Viola De Renzis**. Milano-Bicocca, 2021–2024. Supported by the ERC. Then postdoc at the University of Aix-Marseille (France) .
 - **Daria Gangardt**. Birmingham, 2020–2024. Supported by STFC. Then Research Associate at the UK Centre for Ecology & Hydrology (UKCEH).
-- **Matthew Mould**. Birmingham, 2019–2023. Supported by STFC. Then postdoc at the Massachusetts Institute of Technology, USA.
+- **Matthew Mould**. Birmingham, 2019–2023. Supported by STFC. Then postdoc at the Massachusetts Institute of Technology (USA).
 
 ## Former MSc students
 
@@ -234,4 +235,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-09-25 05:52:22 UTC*
+*Last updated: 2025-09-25 06:04:56 UTC*
