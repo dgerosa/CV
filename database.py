@@ -36,7 +36,7 @@ if submitted:
         "link":     "",
         "arxiv":    "arXiv:2509.19466 astro-ph.HE]",
         "ads":      "2025arXiv250919466T",
-        "inspire":  "Loutrel:2025bqn",
+        "inspire":  "Tenorio:2025nyt",
         "more":     ""
         })
     

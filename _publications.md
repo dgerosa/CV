@@ -1,5 +1,5 @@
 ## Summary
-**9** [Submitted papers](#submitted-papers)\
+**10** [Submitted papers](#submitted-papers)\
 **102** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**10.**
+*Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity.*\
+R. Tenorio, A. Toubiana, T. Bruel, **D. Gerosa**, J. Gair.\
+<a href="https://arxiv.org/abs/2509.19466" style="color: inherit; text-decoration: none;">arXiv:2509.19466 astro-ph.HE]</a>.
+ 
 **9.**
 *Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries.*\
 N. Loutrel, A. Bailey, **D. Gerosa**.\
@@ -665,4 +670,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-09-25 05:45:57 UTC*
+*Last updated: 2025-09-25 05:52:22 UTC*
