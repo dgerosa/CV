@@ -2744,6 +2744,15 @@ if outreach:
     talks['outreach']['data'] = []
 
     talks['outreach']['data'].append({
+        "title":    "Onde di gravit\`a",
+        "what":     "MEETmeTonight European Researchers' Night",
+        "where":    "Milan, Italy",
+        "when":     "Sep 2025",
+        "invited":  True,
+        "more":     ""
+        })
+    
+    talks['outreach']['data'].append({
         "title":    "Buchi neri ed onde gravitazionali (aka: ``Cosa racconto alla vostra prof. dopo una giornata di lavoro'')",
         "what":     "Collegio San Carlo",
         "where":    "Milan, Italy",
