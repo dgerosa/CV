@@ -5,7 +5,7 @@ Invited talks marked with ✦.
 **45** (**45**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **6** (**5**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
-**17** (**17**✦) [Outreach talks](#outreach-talks)
+**18** (**18**✦) [Outreach talks](#outreach-talks)
 
 ---
 
@@ -458,6 +458,9 @@ DPG Physics School ``General Relativity @99'', Bad Honnef, Germany, Sep 2014.
 
 ## Outreach talks
 
+**18.** ✦ *Onde di gravit\`a*  \\
+MEETmeTonight European Researchers' Night, Milan, Italy, Sep 2025.
+
 **17.** ✦ *Buchi neri ed onde gravitazionali (aka: ``Cosa racconto alla vostra prof. dopo una giornata di lavoro'')*  \\
 Collegio San Carlo, Milan, Italy, Jun 2024.
 
@@ -514,4 +517,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2025-09-25 14:53:45 UTC*
+*Last updated: 2025-09-27 05:44:32 UTC*
