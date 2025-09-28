@@ -80,7 +80,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Matilde Garcia</strong><br>
     PhD student<br>
 <a href="mailto:m.garcia5@campus.unimib.it">m.garcia5@campus.unimib.it</a><br>
-    <em>Black holes and gravitational waves enthusiast. Testing gravity on ski slopes and volleyball courts, sticking to GR predictions at work.”</em>
+    <em>Black holes and gravitational waves enthusiast. Testing gravity on ski slopes and volleyball courts, sticking to GR predictions at work.</em>
   </div>
 </div>
 <div class="person">
@@ -244,4 +244,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-09-28 09:49:31 UTC*
+*Last updated: 2025-09-28 10:00:05 UTC*

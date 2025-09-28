@@ -3077,7 +3077,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2025",
         "end":      "current",
-        "bio":      "Black holes and gravitational waves enthusiast. Testing gravity on ski slopes and volleyball courts, sticking to GR predictions at work.”",
+        "bio":      "Black holes and gravitational waves enthusiast. Testing gravity on ski slopes and volleyball courts, sticking to GR predictions at work.",
         "email":    "m.garcia5@campus.unimib.it",
         "current":  True
         })
