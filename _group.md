@@ -89,7 +89,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Chiara Anselmo</strong><br>
     PhD student<br>
 <a href="mailto:c.anselmo@campus.unimib.it">c.anselmo@campus.unimib.it</a><br>
-    <em>Ringdowner, mode finder. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.</em>
+    <em>Ringdowner, higher mode finder. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.</em>
   </div>
 </div>
 <div class="person">
@@ -107,7 +107,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Matteo Boschini</strong><br>
     PhD student<br>
 <a href="mailto:m.boschini1@campus.unimib.it">m.boschini1@campus.unimib.it</a><br>
-    <em>Gaussian Processor, black-hole surrogator, Tolkien addict. Likes discovering new places, whether in the real world or in fantasy books. Often bothers friends with “simple” board games. Probably knows even how to build a nuclear reactor.</em>
+    <em>Gaussian Processor, black-hole surrogator, hypercuber, Tolkien addict. Likes discovering new places, whether in the real world or in fantasy books. Often bothers friends with “simple” board games. Probably knows even how to build a nuclear reactor.</em>
   </div>
 </div>
 <div class="person">
@@ -244,4 +244,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-09-28 09:46:59 UTC*
+*Last updated: 2025-09-28 09:49:31 UTC*

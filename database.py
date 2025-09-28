@@ -3087,7 +3087,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
-        "bio":      "Ringdowner, mode finder. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.",
+        "bio":      "Ringdowner, higher mode finder. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.",
         "email":    "c.anselmo@campus.unimib.it",
         "current":  True
         })
@@ -3107,7 +3107,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2023",
         "end":      "current",
-        "bio":      "Gaussian Processor, black-hole surrogator, Tolkien addict. Likes discovering new places, whether in the real world or in fantasy books. Often bothers friends with “simple” board games. Probably knows even how to build a nuclear reactor.",
+        "bio":      "Gaussian Processor, black-hole surrogator, hypercuber, Tolkien addict. Likes discovering new places, whether in the real world or in fantasy books. Often bothers friends with “simple” board games. Probably knows even how to build a nuclear reactor.",
         "email":    "m.boschini1@campus.unimib.it",
         "note":     "Supported by the ERC.",
         "current":  True
