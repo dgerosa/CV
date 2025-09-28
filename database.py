@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity",
+        "author":   "R. Tenorio, A. Toubiana, T. Bruel, D. Gerosa, J. Gair",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2509.19466 astro-ph.HE]",
+        "ads":      "2025arXiv250919466T",
+        "inspire":  "Tenorio:2025nyt",
+        "more":     ""
+        })
+    
+    papers['submitted']['data'].append({
         "title":    "Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries",
         "author":   "N. Loutrel, A. Bailey, D. Gerosa",
         "journal":  "",
@@ -2733,6 +2744,15 @@ if outreach:
     talks['outreach']['data'] = []
 
     talks['outreach']['data'].append({
+        "title":    "Onde di gravit\`a",
+        "what":     "MEETmeTonight European Researchers' Night",
+        "where":    "Milan, Italy",
+        "when":     "Sep 2025",
+        "invited":  True,
+        "more":     ""
+        })
+    
+    talks['outreach']['data'].append({
         "title":    "Buchi neri ed onde gravitazionali (aka: ``Cosa racconto alla vostra prof. dopo una giornata di lavoro'')",
         "what":     "Collegio San Carlo",
         "where":    "Milan, Italy",
@@ -2908,10 +2928,11 @@ if fellowships:
         "where":       "Milano-Bicocca",
         "fellowship":  "ERC Marie Skłodowska-Curie Fellow",
         "start":       "2023",
-        "end":         "current",
+        "end":         "2025",
         "bio":         "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
         "email":       "arianna.renzini@unimib.it",
-        "current":      True
+        "note":         "Marie Skłodowska-Curie Fellow. Then technical staff at ETH, Zurich.",
+        "current":      False
         })
     
     group['fellowships']['data'].append({
@@ -3019,7 +3040,7 @@ if postdocs:
         "end":      "2024",
         "bio":      "Cosmologist, cosmo-everything, Fisher matrixer. Uses stats, machine learning, and theory to challenge Einstein’s gravity. Curses in front of a python script, trains in a muay thai gym, cooks risotto.",
         "email":    "michele.mancarella@unimib.it",
-        "note":     "Supported by the ERC. Then faculty at the University of Aix-Marseille, France.",
+        "note":     "Supported by the ERC. Then faculty at the University of Aix-Marseille (France).",
         "current":  False
         })
     
@@ -3078,6 +3099,7 @@ if phd:
         "end":      "current",
         "bio":      "Gaussian Processor, black-hole surrogator, Tolkien addict. Likes discovering new places, whether in the real world or in fantasy books. Often bothers friends with “simple” board games. Probably knows even how to build a nuclear reactor.",
         "email":    "m.boschini1@campus.unimib.it",
+        "note":     "Supported by the ERC.",
         "current":  True
         })
     
@@ -3099,7 +3121,7 @@ if phd:
         "end":      "current",
         "bio":      "Eccentricity calculator, outlier nightmare, PN analyzer. Likes gravitational waves, black holes, and cats. Specialized in cakes, cookies, and any sweet treats (by far the best chocolate brownie in town!). A marathon every now and then just to let off steam.",
         "email":    "g.fumagalli47@campus.unimib.it",
-        "note":     "Supported by the ERC. Then Burke Fellow at the California Institute of Technology, USA.",
+        "note":     "Supported by the ERC. Then Burke Fellow at the California Institute of Technology (USA).",
         "current":  True
         })
     
@@ -3110,7 +3132,7 @@ if phd:
         "end":      "2024",
         "bio":      "Signal injecter, code parallelizer, Bayesian grandmaster, music addicted, guitar player (or at least she tries), ice-cream lover, manga reader. Intrigued by all questions we cannot answer.",
         "email":    "v.derenzis@campus.unimib.it",
-        "note":     "Supported by the ERC. Then postdoc at the University of Aix-Marseille, France.",
+        "note":     "Supported by the ERC. Then postdoc at the University of Aix-Marseille (France) .",
         "current":  False
         })
     
@@ -3132,7 +3154,7 @@ if phd:
         "end":      "2023",
         "bio":      "Machine learner, python sorcerer, gig-goer. When not thinking about astrophysics, can be found noodling on a guitar, on a (very) long run, or with the head buried in a book. Or wishing there was a guitar around.",
         "email":    "mmould@star.sr.bham.ac.uk",
-        "note":     "Supported by STFC. Then postdoc at the Massachusetts Institute of Technology, USA.",
+        "note":     "Supported by STFC. Then postdoc at the Massachusetts Institute of Technology (USA).",
         "current":  False
         })
 
@@ -3141,6 +3163,15 @@ if msc:
     group['msc']['labelshort'] = 'MSc students'
     group['msc']['labellong'] = 'MSc student mentoring'
     group['msc']['data'] = []
+
+    group['msc']['data'].append({
+        "name":     "Sofia Dossena",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2025",
+        "note":     "",
+        "current":  True
+        })
 
     group['msc']['data'].append({
         "name":     "Marco Bianchi",
