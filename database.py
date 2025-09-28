@@ -3073,11 +3073,21 @@ if phd:
     group['phd']['data'] = []
 
     group['phd']['data'].append({
+        "name":     "Matilde Garcia",
+        "where":    "Milano-Bicocca",
+        "start":    "2025",
+        "end":      "current",
+        "bio":      "Black holes and gravitational waves enthusiast. Testing gravity on ski slopes and volleyball courts, sticking to GR predictions at work.”",
+        "email":    "m.garcia5@campus.unimib.it",
+        "current":  True
+        })
+    
+    group['phd']['data'].append({
         "name":     "Chiara Anselmo",
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
-        "bio":      "Black hole enthusiast, curious about gravitational waves. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.",
+        "bio":      "Ringdowner, mode finder. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.",
         "email":    "c.anselmo@campus.unimib.it",
         "current":  True
         })
@@ -3087,7 +3097,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
-        "bio":      "Machine learning keeps him busy, Gravitational waves keep him curious. Astrophotographer, always in awe of the night sky. When not dealing with the universe he’s lost in movies, games, or the keys of a piano.",
+        "bio":      "Simulation based infererer, precursor hunter, sys admin geek, astrophotographer. Machine learning keeps him busy, Gravitational waves keep him curious. When not dealing with the universe he’s lost in movies, games, or the keys of a piano.",
         "email":    "f.desanti@campus.unimib.it",
         "current":  True
         })
