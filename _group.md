@@ -75,12 +75,21 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
+  <img src="{{ '/images/matilde-garcia.jpg' | relative_url }}" alt="Matilde Garcia" class="person-photo">
+  <div class="person-text">
+    <strong>Matilde Garcia</strong><br>
+    PhD student<br>
+<a href="mailto:m.garcia5@campus.unimib.it">m.garcia5@campus.unimib.it</a><br>
+    <em>Black holes and gravitational waves enthusiast. Testing gravity on ski slopes and volleyball courts, sticking to GR predictions at work.”</em>
+  </div>
+</div>
+<div class="person">
   <img src="{{ '/images/chiara-anselmo.jpg' | relative_url }}" alt="Chiara Anselmo" class="person-photo">
   <div class="person-text">
     <strong>Chiara Anselmo</strong><br>
     PhD student<br>
 <a href="mailto:c.anselmo@campus.unimib.it">c.anselmo@campus.unimib.it</a><br>
-    <em>Black hole enthusiast, curious about gravitational waves. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.</em>
+    <em>Ringdowner, mode finder. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.</em>
   </div>
 </div>
 <div class="person">
@@ -89,7 +98,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Federico De Santi</strong><br>
     PhD student<br>
 <a href="mailto:f.desanti@campus.unimib.it">f.desanti@campus.unimib.it</a><br>
-    <em>Machine learning keeps him busy, Gravitational waves keep him curious. Astrophotographer, always in awe of the night sky. When not dealing with the universe he’s lost in movies, games, or the keys of a piano.</em>
+    <em>Simulation based infererer, precursor hunter, sys admin geek, astrophotographer. Machine learning keeps him busy, Gravitational waves keep him curious. When not dealing with the universe he’s lost in movies, games, or the keys of a piano.</em>
   </div>
 </div>
 <div class="person">
@@ -235,4 +244,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-09-28 06:43:11 UTC*
+*Last updated: 2025-09-28 09:46:59 UTC*
