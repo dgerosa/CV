@@ -670,8 +670,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-<<<<<<< HEAD
-*Last updated: 2025-09-28 02:01:46 UTC*
-=======
-*Last updated: 2025-09-27 05:44:32 UTC*
->>>>>>> f811737b7e5bb9e07b5573bd108fcb946fef5a1c
+*Last updated: 2025-09-28 06:43:11 UTC*

@@ -128,15 +128,6 @@
 | **117** | Gerosa | 2018 | Reanalysis of LIGO black-hole coalescences with alternative prior assumptions | 2 | 2 | 2 |
 | **118** | Toubiana | 2025 | Comparing astrophysical models to gravitational-wave data in the observable space | 0 | 1 | 1 |
 | **119** | Gerosa | 2015 | Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history | 0 | 1 | 1 |
-<<<<<<< HEAD
-| **120** | Loutrel | 2025 | Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries | 0 | 0 | 0 |
-| **121** | Tornotti | 2025 | Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Ly$$\alpha$$ emitters | 0 | 0 | 0 |
-| **122** | Boschini | 2025 | “LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design | 0 | 0 | 0 |
-| **123** | Fumagalli | 2025 | PRECESSION 2.1: black-hole binary spin precession on eccentric orbits | 0 | 0 | 0 |
-| **124** | Gerosa | 2025 | Coincident morphological transitions in precessing black-hole binaries | 0 | 0 | 0 |
-| **125** | Gerosa | 2016 | Source modelling at the dawn of gravitational-wave astronomy | 0 | 0 | 0 |
-| **126** | Gerosa | 2014 | Spin alignment effects in black hole binaries | 0 | 0 | 0 |
-=======
 | **120** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 0 | 0 | 0 |
 | **121** | Loutrel | 2025 | Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries | 0 | 0 | 0 |
 | **122** | Tornotti | 2025 | Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Ly$$\alpha$$ emitters | 0 | 0 | 0 |
@@ -145,7 +136,6 @@
 | **125** | Gerosa | 2025 | Coincident morphological transitions in precessing black-hole binaries | 0 | 0 | 0 |
 | **126** | Gerosa | 2016 | Source modelling at the dawn of gravitational-wave astronomy | 0 | 0 | 0 |
 | **127** | Gerosa | 2014 | Spin alignment effects in black hole binaries | 0 | 0 | 0 |
->>>>>>> f811737b7e5bb9e07b5573bd108fcb946fef5a1c
 
 ## Papers per year
 
@@ -209,8 +199,4 @@
 
 
 <br><br>
-<<<<<<< HEAD
-*Last updated: 2025-09-28 02:01:46 UTC*
-=======
-*Last updated: 2025-09-27 05:44:32 UTC*
->>>>>>> f811737b7e5bb9e07b5573bd108fcb946fef5a1c
+*Last updated: 2025-09-28 06:43:11 UTC*
