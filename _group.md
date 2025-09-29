@@ -3,6 +3,15 @@ Here are the amazing people in my group. Come visit and chat science with us! If
 ## Current group members
 <div class="people-list">
 <div class="person">
+  <img src="{{ '/images/caroline-owen.jpg' | relative_url }}" alt="Caroline Owen" class="person-photo">
+  <div class="person-text">
+    <strong>Caroline Owen</strong><br>
+    Postdoc<br>
+<a href="mailto:caroline.owen@unimib.it">caroline.owen@unimib.it</a><br>
+    <em>Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.</em>
+  </div>
+</div>
+<div class="person">
   <img src="{{ '/images/tristan-bruel.jpg' | relative_url }}" alt="Tristan Bruel" class="person-photo">
   <div class="person-text">
     <strong>Tristan Bruel</strong><br>
@@ -27,15 +36,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     Postdoc<br>
 <a href="mailto:rodrigo.tenorio@unimib.it">rodrigo.tenorio@unimib.it</a><br>
     <em>Long-signal searcher, stats geek, thinks that everything is a sinusoid if you look close enough. He enjoys crunching numbers on a GPU, playing bagpipes, and using Bayesian probability to climb up walls efficiently. Also, Fëanor did nothing wrong.</em>
-  </div>
-</div>
-<div class="person">
-  <img src="{{ '/images/caroline-owen.jpg' | relative_url }}" alt="Caroline Owen" class="person-photo">
-  <div class="person-text">
-    <strong>Caroline Owen</strong><br>
-    Postdoc<br>
-<a href="mailto:caroline.owen@unimib.it">caroline.owen@unimib.it</a><br>
-    <em>Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.</em>
   </div>
 </div>
 <div class="person">
@@ -253,4 +253,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-09-29 17:03:05 UTC*
+*Last updated: 2025-09-29 17:07:23 UTC*
