@@ -768,8 +768,8 @@ def markdowngroup(group, filename="_group.md"):
 
     merged_current = sorted(merged_current, key=lambda x: x["order"])
 
-    # add myself at the last spot of merged_current
-    merged_current.insert(len(merged_current), {
+    #merged_current.insert(len(merged_current), {
+    merged_current.insert(0, {
         "name": "Davide Gerosa",
         "role": "Associate professor",
         "email": "davide.gerosa@unimib.it",
