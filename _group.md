@@ -3,6 +3,15 @@ Here are the amazing people in my group. Come visit and chat science with us! If
 ## Current group members
 <div class="people-list">
 <div class="person">
+  <img src="{{ '/images/davide-gerosa.jpg' | relative_url }}" alt="Davide Gerosa" class="person-photo">
+  <div class="person-text">
+    <strong>Davide Gerosa</strong><br>
+    Associate professor<br>
+<a href="mailto:davide.gerosa@unimib.it">davide.gerosa@unimib.it</a><br>
+    <em>... and that's me. Running around, gravity, football, rock music, some more gravity. Astrophysics when I want to remember things are real, mountains when I want to see things are beautiful.</em>
+  </div>
+</div>
+<div class="person">
   <img src="{{ '/images/caroline-owen.jpg' | relative_url }}" alt="Caroline Owen" class="person-photo">
   <div class="person-text">
     <strong>Caroline Owen</strong><br>
@@ -128,15 +137,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <em>Eccentricity calculator, outlier nightmare, PN analyzer. Likes gravitational waves, black holes, and cats. Specialized in cakes, cookies, and any sweet treats (by far the best chocolate brownie in town!). A marathon every now and then just to let off steam.</em>
   </div>
 </div>
-<div class="person">
-  <img src="{{ '/images/davide-gerosa.jpg' | relative_url }}" alt="Davide Gerosa" class="person-photo">
-  <div class="person-text">
-    <strong>Davide Gerosa</strong><br>
-    Associate professor<br>
-<a href="mailto:davide.gerosa@unimib.it">davide.gerosa@unimib.it</a><br>
-    <em>... and that's me. Running around, gravity, football, rock music, some more gravity. Astrophysics when I want to remember things are real, mountains when I want to see things are beautiful.</em>
-  </div>
-</div>
 </div>
 ## Current MSc and Bsc students
 Here are the amazing students who are currently completing research projects with us in the group… Taking the first fun steps into the perilous world of black holes!
@@ -253,4 +253,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-09-29 17:31:17 UTC*
+*Last updated: 2025-09-29 17:41:46 UTC*
