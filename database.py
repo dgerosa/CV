@@ -2907,6 +2907,7 @@ if outreach:
         })
 
 if fellowships:
+
     group['fellowships'] = {}
     group['fellowships']['labelshort'] = 'Postdoc fellowships'
     group['fellowships']['labellong'] = 'Postdoc external fellowship sponsor'
@@ -2952,7 +2953,17 @@ if postdocs:
     group['postdocs']['labelshort'] = 'Postdocs (hired)'
     group['postdocs']['labellong'] = 'Hired postdocs'
     group['postdocs']['data'] = []
-
+    
+    group['postdocs']['data'].append({
+        "name":     "Caroline Owen",
+        "where":    "Milano-Bicocca",
+        "start":    "2024",
+        "end":      "current",
+        "bio":      "Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.",
+        "email":    "caroline.owen@unimib.it",
+        "current":  True
+        })
+    
     group['postdocs']['data'].append({
         "name":     "Tristan Bruel",
         "where":    "Milano-Bicocca",
@@ -2980,16 +2991,6 @@ if postdocs:
         "end":      "current",
         "bio":      "Long-signal searcher, stats geek, thinks that everything is a sinusoid if you look close enough. He enjoys crunching numbers on a GPU, playing bagpipes, and using Bayesian probability to climb up walls efficiently. Also, Fëanor did nothing wrong.",
         "email":    "rodrigo.tenorio@unimib.it",
-        "current":  True
-        })
-    
-    group['postdocs']['data'].append({
-        "name":     "Caroline Owen",
-        "where":    "Milano-Bicocca",
-        "start":    "2024",
-        "end":      "current",
-        "bio":      "Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.",
-        "email":    "caroline.owen@unimib.it",
         "current":  True
         })
     

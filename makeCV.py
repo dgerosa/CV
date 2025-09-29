@@ -768,6 +768,14 @@ def markdowngroup(group, filename="_group.md"):
 
     merged_current = sorted(merged_current, key=lambda x: x["order"])
 
+    # add myself at the last spot of merged_current
+    merged_current.insert(len(merged_current), {
+        "name": "Davide Gerosa",
+        "role": "Associate professor",
+        "email": "davide.gerosa@unimib.it",
+        "bio": "... and that's me. Running around, gravity, football, rock music, some more gravity. Astrophysics when I want to remember things are real, mountains when I want to see things are beautiful."
+    })
+
  #   for x in merged_current:
  #       out.append(f"**{x['name']}**  ")
  #       out.append(f"*{x['role']}*;  ")
