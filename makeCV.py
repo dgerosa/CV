@@ -773,7 +773,7 @@ def markdowngroup(group, filename="_group.md"):
         "name": "Davide Gerosa",
         "role": "Associate professor",
         "email": "davide.gerosa@unimib.it",
-        "bio": "... and that's me. Running around, gravity, football, rock music, some more gravity. Astrophysics when I want to remember things are real, mountains when I want to see things are beautiful."
+        "bio": "Running around, gravity, football, rock music, some more gravity. Astrophysics when I want to remember things are real, mountains when I want to see things are beautiful."
     })
 
  #   for x in merged_current:
