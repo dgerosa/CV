@@ -2196,6 +2196,15 @@ if seminars:
     talks['seminars']['data'] = []
 
     talks['seminars']['data'].append({
+        "title":    "What gravitational waves can(not) reveal about merging black holes",
+        "what":     "CPT seminars, Centre de Physique Théorique, Université d'Aix-Marseille",
+        "where":    "Marseille, France",
+        "when":     "Oct 2025",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['seminars']['data'].append({
         "title":    "Challenges and opportunities in gravitational-wave population inference",
         "what":     "Astrophysics+Theory seminars, Imperial College",
         "where":    "London, UK",
