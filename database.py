@@ -1483,7 +1483,8 @@ if conferences:
         "where":    "Glasgow, UK",
         "when":     "Jul 2025",
         "invited":  False,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?list=PL9DaMB7CQ0fpp7ajfL26lcKOOK0xcTNfn&t=2761&v=iR6VY9kOKoo&feature=youtu.be"
         })
 
     talks['conferences']['data'].append({
@@ -1492,7 +1493,8 @@ if conferences:
         "where":    "Beijing, China",
         "when":     "Jul 2025",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=hb-TbNawDuU"
         })
 
     talks['conferences']['data'].append({
@@ -1510,7 +1512,8 @@ if conferences:
         "where":    "Bologna, Italy",
         "when":     "May 2025",
         "invited":  False,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=sFl-bpTb8Jc"
         })
 
     talks['conferences']['data'].append({
@@ -1638,6 +1641,7 @@ if conferences:
         "when":     "Jul 2023",
         "invited":  False,
         "more":     ""
+        "recording": "https://www.youtube.com/watch?v=5RmE9Opfunw&t=2640s"
         })
 
     talks['conferences']['data'].append({
@@ -1764,7 +1768,8 @@ if conferences:
         "where":    "Melbourne, Australia, (online)",
         "when":     "Jul 2021",
         "invited":  False,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=QPoPlsiBGqc&t=3552s"
         })
 
     talks['conferences']['data'].append({
@@ -1773,7 +1778,8 @@ if conferences:
         "where":    "London, UK, (online)",
         "when":     "Jul 2021",
         "invited":  False,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=X_hU5R-IuZM"
         })
 
     talks['conferences']['data'].append({
@@ -1845,7 +1851,8 @@ if conferences:
         "where":    "(online)",
         "when":     "Feb 2021",
         "invited":  False,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=n9enku9PS7k"
         })
 
     talks['conferences']['data'].append({
@@ -1863,7 +1870,8 @@ if conferences:
         "where":    "Birmingham, UK, (online)",
         "when":     "Sep 2020",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=txMLbfC-vo8&ab_channel=BEARUoBTraining"
         })
 
     talks['conferences']['data'].append({
@@ -1872,7 +1880,8 @@ if conferences:
         "where":    "(online)",
         "when":     "Sep 2020",
         "invited":  False,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=zYg-J7W1xFw"
         })
 
     talks['conferences']['data'].append({
@@ -1881,7 +1890,8 @@ if conferences:
         "where":    "Austin TX, USA, (online)",
         "when":     "Jun 2020",
         "invited":  False,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=a6phyJ4rXck"
         })
 
     talks['conferences']['data'].append({
@@ -1953,7 +1963,8 @@ if conferences:
         "where":    "Cambridge MA, USA",
         "when":     "Oct 2018",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=tOMM5Pcxs4s"
         })
 
     talks['conferences']['data'].append({
@@ -2025,7 +2036,8 @@ if conferences:
         "where":    "Cambridge MA, USA",
         "when":     "Oct 2017",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=XDIaaEX1C7Q"
         })
 
     talks['conferences']['data'].append({
@@ -2097,7 +2109,8 @@ if conferences:
         "where":    "Cambridge MA, USA",
         "when":     "Oct 2016",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=bL9Ite62FcE#t=19m52s"
         })
 
     talks['conferences']['data'].append({
@@ -2219,7 +2232,8 @@ if seminars:
         "where":    "Israel, (online)",
         "when":     "Jun 2025",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=N36cpqeymTc"
         })
 
     talks['seminars']['data'].append({
@@ -2255,7 +2269,8 @@ if seminars:
         "where":    "Zurich, Switzerland",
         "when":     "Feb 2023",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=dpg52HbyVtU"
         })
 
     talks['seminars']['data'].append({
@@ -2318,7 +2333,8 @@ if seminars:
         "where":    "Cambridge MA, USA, (online)",
         "when":     "Mar 2020",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=sdFq0ZGeEG8"
         })
 
     talks['seminars']['data'].append({
@@ -2399,7 +2415,8 @@ if seminars:
         "where":    "Toronto, Canada",
         "when":     "Sep 2018",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=QZVk3y_izGI"
         })
 
     talks['seminars']['data'].append({
@@ -2657,7 +2674,8 @@ if lectures:
         "where":    "Nashville TN, USA, (online)",
         "when":     "Jul 2022",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=Mnnzkf10MBM&t=1s"
         })
     
     talks['lectures']['data'].append({
@@ -2690,7 +2708,7 @@ if posters:
         "where":    "Cambridge, UK",
         "when":     "Apr 2016",
         "invited":  False,
-        "more":     ""
+        "more":     "",
         })
 
     talks['posters']['data'].append({
@@ -2830,7 +2848,8 @@ if outreach:
         "where":    "(online)",
         "when":     "Mar 2022",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=GznXOFfcx80&feature=emb_logo"
         })
 
 
@@ -2840,7 +2859,8 @@ if outreach:
         "where":    "Bromsgrove, UK, (online)",
         "when":     "Jun 2021",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=swMeqNRlnws"
         })
 
     talks['outreach']['data'].append({
