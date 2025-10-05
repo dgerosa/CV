@@ -711,7 +711,7 @@ def markdowntalks(talks, filename="_talks.md"):
             if p['recording'] or p['more']:
                 out[-1] += "  \\\\"
             if p['recording']:
-                out[-1] += f' [Recording]({p["recording"]}).'
+                out.append(f' [Recording]({p["recording"]}).')
             if p['more']:
                 more = re.sub(r'\\textbf{(.*?)}', r'\1', p['more'].strip("."))
                 out.append(more + ".")
