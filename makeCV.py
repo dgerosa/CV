@@ -705,8 +705,14 @@ def markdowntalks(talks, filename="_talks.md"):
             mark = "✦ " if p.get("invited", False) else ""
             out.append(f"**{i}.** {mark}*{p['title'].strip('.')}*  \\\\")
             out.append(f"{p['what'].strip('.')}, {p['where'].strip('.')}, {p['when'].strip('.')}.")
-            if p['more']:
+            #handle cases where recodring key is missing
+            if 'recording' not in p:
+                p['recording'] = ""
+            if p['recording'] or p['more']:
                 out[-1] += "  \\\\"
+            if p['recording']:
+                out[-1] += f' [Recording]({p["recording"]}).'
+            if p['more']:
                 more = re.sub(r'\\textbf{(.*?)}', r'\1', p['more'].strip("."))
                 out.append(more + ".")
 
@@ -773,7 +779,7 @@ def markdowngroup(group, filename="_group.md"):
         "name": "Davide Gerosa",
         "role": "Associate professor",
         "email": "davide.gerosa@unimib.it",
-        "bio": "Running around, gravity, football, rock music, some more gravity. Astrophysics when I want to remember things are real, mountains when I want to see things are beautiful."
+        "bio": "That's me, running, gravity, football, rock music, some more gravity. Astrophysics when I want to remember things are real, mountains when I want to see things are beautiful."
     })
 
  #   for x in merged_current:

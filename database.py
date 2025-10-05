@@ -161,7 +161,7 @@ if published:
         "journal":  "\prd in press.",
         "link":     "",
         "arxiv":    "arXiv:2506.17105 [astro-ph.HE]",
-        "ads":      "2025arXiv250617105R",
+        "ads":      "2025PhRvD.112f3052R",
         "inspire":  "Romero-Shaw:2025vbc",
         "more":     ""
         })
@@ -1640,7 +1640,7 @@ if conferences:
         "where":    "(online)",
         "when":     "Jul 2023",
         "invited":  False,
-        "more":     ""
+        "more":     "",
         "recording": "https://www.youtube.com/watch?v=5RmE9Opfunw&t=2640s"
         })
 
@@ -3060,6 +3060,7 @@ if postdocs:
         "end":      "current",
         "bio":      "Black-hole spectroscoper, simulation-based inferer, pizza purist, coffee obsessed. Using black holes and neutron stars to understand our Universe. Reading comic books to explore parallel worlds. Listening to Bob Dylan to refresh my emotions.",
         "email":    "costantino.pacilio@unimib.it",
+        "note":     "Supported by the ERC. Then postdoc at the Foundation for Research and Technology Hellas (Greece).",
         "current":  True
         })
     
@@ -3119,6 +3120,7 @@ if phd:
         "end":      "current",
         "bio":      "Ringdowner, higher mode finder. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.",
         "email":    "c.anselmo@campus.unimib.it",
+        "note":     "Supported by the Cariplo Foundation.",
         "current":  True
         })
     
