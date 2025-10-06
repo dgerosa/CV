@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 8901
-- **Total INSPIRE citations**: 9730
-- **Total MAX citations**: 9776
+- **Total INSPIRE citations**: 9731
+- **Total MAX citations**: 9777
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -63,7 +63,7 @@
 | **52** | Gerosa | 2020 | Gravitational-wave selection effects using neural-network classifiers | 34 | 39 | 39 |
 | **53** | Lodato | 2013 | Black hole mergers: do gas discs lead to spin alignment? | 38 | 37 | 38 |
 | **54** | Santini | 2023 | Black-hole mergers in disk-like environments could explain the observed $$q-\chi_\mathrm{eff}$$ correlation | 36 | 37 | 37 |
-| **55** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 34 | 34 | 34 |
+| **55** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 34 | 35 | 35 |
 | **56** | Rosca-Mead | 2020 | Core collapse in massive scalar-tensor gravity | 27 | 34 | 34 |
 | **57** | Gerosa | 2021 | High mass but low spin: an exclusion region to rule out hierarchical black-hole mergers as a mechanism to populate the pair-instability mass gap | 28 | 31 | 31 |
 | **58** | Wong | 2019 | Machine-learning interpolation of population-synthesis simulations to interpret gravitational-wave observations: a case study | 25 | 30 | 30 |
@@ -199,4 +199,4 @@
 
 
 <br><br>
-*Last updated: 2025-10-06 02:02:03 UTC*
+*Last updated: 2025-10-06 20:21:21 UTC*

@@ -8,7 +8,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Davide Gerosa</strong><br>
     Associate professor<br>
 <a href="mailto:davide.gerosa@unimib.it">davide.gerosa@unimib.it</a><br>
-    <em>Running around, gravity, football, rock music, some more gravity. Astrophysics when I want to remember things are real, mountains when I want to see things are beautiful.</em>
+    <em>That's me, running, gravity, football, rock music, some more gravity. Astrophysics when I want to remember things are real, mountains when I want to see things are beautiful.</em>
   </div>
 </div>
 <div class="person">
@@ -253,4 +253,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-10-06 02:02:03 UTC*
+*Last updated: 2025-10-06 20:21:21 UTC*

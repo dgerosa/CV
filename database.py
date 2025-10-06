@@ -147,8 +147,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background",
         "author":   "G. Giarda, A. I. Renzini, C. Pacilio, D. Gerosa",
-        "journal":  "\cqg in press.",
-        "link":     "",
+        "journal":  "\cqg 42 (2025) 195015",
+        "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ae07a0",
         "arxiv":    "arXiv:2506.12572 [gr-qc]",
         "ads":      "2025arXiv250612572G",
         "inspire":  "Giarda:2025ouf",
@@ -158,8 +158,8 @@ if published:
     papers['published']['data'].append({
         "title":    "GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications",
         "author":   "I. Romero-Shaw, J. Stegmann, H. Tagawa, D. Gerosa, J. Samsing, N. Gupte, S. R. Green",
-        "journal":  "\prd in press.",
-        "link":     "",
+        "journal":  "\prd 112 (2025) 063052",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/jj7m-x66y",
         "arxiv":    "arXiv:2506.17105 [astro-ph.HE]",
         "ads":      "2025PhRvD.112f3052R",
         "inspire":  "Romero-Shaw:2025vbc",
