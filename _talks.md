@@ -21,19 +21,16 @@ EOB@Work25, Torino, Italy, Sep 2025.
 Testing Aspects of General Relativity-IV, Gandhinagar, India, (online), Jul 2025.
 
 **79.** *Which black hole? The labeling uncertainty in gravitational-wave astronomy*  \\
-24th International Conference on General Relativity and Gravitation (GR24) and 16th Edoardo Amaldi Conference, Glasgow, UK, Jul 2025.  \\
- [Recording](https://www.youtube.com/watch?list=PL9DaMB7CQ0fpp7ajfL26lcKOOK0xcTNfn&t=2761&v=iR6VY9kOKoo&feature=youtu.be).
+24th International Conference on General Relativity and Gravitation (GR24) and 16th Edoardo Amaldi Conference, Glasgow, UK, Jul 2025.
 
 **78.** ✦ *Are merging black holes born from stellar collapse or previous mergers? Some years later…*  \\
-International Congress of Basic Science, Beijing, China, Jul 2025.  \\
- [Recording](https://www.youtube.com/watch?v=hb-TbNawDuU).
+International Congress of Basic Science, Beijing, China, Jul 2025.
 
 **77.** ✦ *Machine learning in gravitational-wave population inference*  \\
 Scientific Machine Learning for Gravitational Wave Astronomy, Providence RI, USA, Jun 2025.
 
 **76.** *Black holes and gravitational waves are discovered (also) with Python!*  \\
-PyCon Italia 2025, Bologna, Italy, May 2025.  \\
- [Recording](https://www.youtube.com/watch?v=sFl-bpTb8Jc).
+PyCon Italia 2025, Bologna, Italy, May 2025.
 
 **75.** *We observe compact binaries but are interested in single objects, this is hard*  \\
 Theoretical Horizons in Unraveling Relativity, Astrophysics, and Mergers (THURAM), L'Aquila, Italy, May 2025.
@@ -75,8 +72,7 @@ RESCEU-NBIA workshop on gravitational-wave sources, Tokyo, Japan, Dec 2023.
 LISA Astrophysics Working Group Meeting, Milan, Italy, Sep 2023.
 
 **62.** *Eccentricity, spin precession, and gravitational-wave signals that are too short*  \\
-15th Edoardo Amaldi Conference, (online), Jul 2023.  \\
- [Recording](https://www.youtube.com/watch?v=5RmE9Opfunw&t=2640s).
+15th Edoardo Amaldi Conference, (online), Jul 2023.
 
 **61.** *When orbital eccentricity and spin precession are kind of the same*  \\
 April APS Meeting, Minneapolis MN, USA, Apr 2023.
@@ -118,12 +114,10 @@ April APS Meeting, New York NY, USA, Apr 2022.
 XXIV SIGRAV Conference 2021, Urbino, Italy, Sep 2021.
 
 **48.** *Two precessing spins and how to find them*  \\
-14th Edoardo Amaldi Conference, Melbourne, Australia, (online), Jul 2021.  \\
- [Recording](https://www.youtube.com/watch?v=QPoPlsiBGqc&t=3552s).
+14th Edoardo Amaldi Conference, Melbourne, Australia, (online), Jul 2021.
 
 **47.** *Waveform systematics and gravitational-wave catalogs*  \\
-2nd European Physical Society Conference on Gravitation: measuring gravity, London, UK, (online), Jul 2021.  \\
- [Recording](https://www.youtube.com/watch?v=X_hU5R-IuZM).
+2nd European Physical Society Conference on Gravitation: measuring gravity, London, UK, (online), Jul 2021.
 
 **46.** *Probing warped accretion disks with gravitational-wave observations of supermassive black-hole mergers*  \\
 European Astronomical Society Annual Meeting (EAS2021), Leiden, The Netherlands, (online), Jun 2021.
@@ -147,23 +141,19 @@ Gravitational Wave Astrophysics for Early Career Scientists, Leiden, The Netherl
 APS April Meeting, (online), Apr 2021.
 
 **39.** *A self-consistent treatment of warped accretion disks surrounding spinning supermassive black holes*  \\
-Science at the Horizon: the Next-Generation Event Horizon Telescope, (online), Feb 2021.  \\
- [Recording](https://www.youtube.com/watch?v=n9enku9PS7k).
+Science at the Horizon: the Next-Generation Event Horizon Telescope, (online), Feb 2021.
 
 **38.** ✦ *Astrophysical black-hole binaries: the elephant in the room*  \\
 Primordial black holes confront gravitational-wave data, Rome, Italy, (online), Feb 2021.
 
 **37.** ✦ *Black holes, gravitational waves, and the BEARs*  \\
-10th Birmingham Environment for Academic Research (BEAR) Conference, Birmingham, UK, (online), Sep 2020.  \\
- [Recording](https://www.youtube.com/watch?v=txMLbfC-vo8&ab_channel=BEARUoBTraining).
+10th Birmingham Environment for Academic Research (BEAR) Conference, Birmingham, UK, (online), Sep 2020.
 
 **36.** *Warped accretion discs, black-hole spins, and LISA*  \\
-13th LISA Symposium, (online), Sep 2020.  \\
- [Recording](https://www.youtube.com/watch?v=zYg-J7W1xFw).
+13th LISA Symposium, (online), Sep 2020.
 
 **35.** *Multi-timescale post-Newtonian dynamics of spinning black-hole binaries: a status update*  \\
-23rd Capra Meeting on Radiation Reaction in General Relativity, Austin TX, USA, (online), Jun 2020.  \\
- [Recording](https://www.youtube.com/watch?v=a6phyJ4rXck).
+23rd Capra Meeting on Radiation Reaction in General Relativity, Austin TX, USA, (online), Jun 2020.
 
 **34.** ✦ *An attempt to navigate the astro job market*  \\
 LISA Early Career Scientists (LECS) training workshop, (online), Jun 2020.
@@ -187,8 +177,7 @@ Taipei Gravitational Wave Group (TGWG) Conference, Taipei, Taiwan, Oct 2018.
 Taipei Gravitational Wave Group (TGWG) Conference, Taipei, Taiwan, Oct 2018.
 
 **27.** ✦ *Getting ready: exploit LISA to improve LIGO's tests of General Relativity*  \\
-Einstein Fellows Symposium 2018, Cambridge MA, USA, Oct 2018.  \\
- [Recording](https://www.youtube.com/watch?v=tOMM5Pcxs4s).
+Einstein Fellows Symposium 2018, Cambridge MA, USA, Oct 2018.
 
 **26.** *Runaways: recoiling black holes and their gravitational-wave signatures*  \\
 COSPAR 2018 42nd assembly, Pasadena CA, USA, Jul 2018.
@@ -213,8 +202,7 @@ IAU Symposium 338, Baton Rouge LA, USA, Oct 2017.  \\
 Proceedings published by Cambridge University Press (2018).
 
 **19.** ✦ *Careful with the priors: a reanalysis of LIGO black-hole coalescences*  \\
-Einstein Fellows Symposium 2017, Cambridge MA, USA, Oct 2017.  \\
- [Recording](https://www.youtube.com/watch?v=XDIaaEX1C7Q).
+Einstein Fellows Symposium 2017, Cambridge MA, USA, Oct 2017.
 
 **18.** *Empty galaxies to constrain black-hole superkicks*  \\
 3rd Swinburne-Caltech Galaxy Workshop, Pasadena CA, USA, Sept 2017.
@@ -239,8 +227,7 @@ The Dawning Era of Gravitational-Wave Astrophysics, Aspen CO, USA, Feb 2017.
 ``April'' APS Meeting, Washington DC, USA, Jan 2017.
 
 **11.** ✦ *Getting the most out of gravitational-wave observations: kicks and spin precession*  \\
-Einstein Fellows Symposium 2016, Cambridge MA, USA, Oct 2016.  \\
- [Recording](https://www.youtube.com/watch?v=bL9Ite62FcE#t=19m52s).
+Einstein Fellows Symposium 2016, Cambridge MA, USA, Oct 2016.
 
 **10.** *Averaging the average: multi-timescale analysis of precessing black-hole binaries*  \\
 21st International Conference on General Relativity and Gravitation (GR21), New York NY, USA, Jul 2016.
@@ -285,8 +272,7 @@ CPT seminars, Centre de Physique Théorique, Université d'Aix-Marseille, Marse
 Astrophysics+Theory seminars, Imperial College, London, UK, Sep 2025.
 
 **44.** ✦ *Gravitational-wave populations: deeper statistics for deeper astrophysics*  \\
-Joint Israeli seminar series on gravitational physics, Israel, (online), Jun 2025.  \\
- [Recording](https://www.youtube.com/watch?v=N36cpqeymTc).
+Joint Israeli seminar series on gravitational physics, Israel, (online), Jun 2025.
 
 **43.** ✦ *The case of quasar 3C 186 as kicked black hole*  \\
 Astronomy seminars, Cardiff University, Cardiff, UK, Jul 2024.
@@ -298,8 +284,7 @@ Gravitational-wave seminars, Università di Pisa, Pisa, Italy, May 2024.
 INAF/OAPD seminars, Università degli Studi di Padova, Padua, Italy, Apr 2023.
 
 **40.** ✦ *Deep-learning emulators for gravitational-wave population fits*  \\
-Theoretical Astrophysics seminars, University of Zurich, Zurich, Switzerland, Feb 2023.  \\
- [Recording](https://www.youtube.com/watch?v=dpg52HbyVtU).
+Theoretical Astrophysics seminars, University of Zurich, Zurich, Switzerland, Feb 2023.
 
 **39.** ✦ *Comparing gravitational-wave data and stellar-physics predictions with deep learning*  \\
 Theoretical Physics colloquium, University of Cambridge, Cambridge, UK, Feb 2023.
@@ -320,8 +305,7 @@ Gravity seminars, University of Mississippi, Oxford MS, USA, (online), Jun 2020.
 Astronomy seminars, Cardiff University, Cardiff, UK, (online), Jul 2020.
 
 **33.** ✦ *Growing up: the next generation of black holes moves out of the cluster*  \\
-Black Hole Initiative Colloquium, Harvard University, Cambridge MA, USA, (online), Mar 2020.  \\
- [Recording](https://www.youtube.com/watch?v=sdFq0ZGeEG8).
+Black Hole Initiative Colloquium, Harvard University, Cambridge MA, USA, (online), Mar 2020.
 
 **32.** ✦ *Multiple generations of black-hole mergers to pinpoint their astrophysical origin*  \\
 Gravity seminars, University of Southampton, Southampton, UK, Feb 2020.
@@ -348,8 +332,7 @@ Cosmology seminars, Johns Hopkins University, Baltimore MD, USA, Nov 2018.
 Strong Gravity Seminars, Perimeter Institute for Theoretical Physics, Waterloo, Canada, Sep 2018.
 
 **24.** ✦ *(Astro)physical consequences of black-hole recoils*  \\
-CITA Seminars, Canadian Institute for Theoretical Astrophysics, Toronto, Canada, Sep 2018.  \\
- [Recording](https://www.youtube.com/watch?v=QZVk3y_izGI).
+CITA Seminars, Canadian Institute for Theoretical Astrophysics, Toronto, Canada, Sep 2018.
 
 **23.** ✦ *Black-hole spins and the astrophysics of LIGO's sources*  \\
 AEI seminars, Albert Einstein Institute, Hannover, Germany, Apr 2018.
@@ -438,8 +421,7 @@ Kavli-Villum Summer School on Gravitational Wave, Corfu, Greece, Sep 2023.
 Kavli-Villum Summer School on Gravitational Wave, Corfu, Greece, Sep 2023.
 
 **2.** ✦ *Introduction to gravitational waves (theory background)*  \\
-VIPER summer school on PTA GW astrophysics, Nashville TN, USA, (online), Jul 2022.  \\
- [Recording](https://www.youtube.com/watch?v=Mnnzkf10MBM&t=1s).
+VIPER summer school on PTA GW astrophysics, Nashville TN, USA, (online), Jul 2022.
 
 **1.** *Multiband gravitational-wave (astro)physics*  \\
 Gravitational-wave Excellence through Alliance Training (GrEAT) PhD school, Birmingham, UK, Nov 2019.
@@ -504,12 +486,10 @@ Istituto Svizzero, Milan, Italy, Mar 2023.
 Fondazione Sacro Cuore, Milan, Italy, Sep 2022.
 
 **10.** ✦ *Quando la gravit\`a viaggia*  \\
-Astronomiamo Association, Italy, (online), Mar 2022.  \\
- [Recording](https://www.youtube.com/watch?v=GznXOFfcx80&feature=emb_logo).
+Astronomiamo Association, Italy, (online), Mar 2022.
 
 **9.** ✦ *Hearing the Universe with gravitational waves*  \\
-Bromsgrove Astronomical Society, Bromsgrove, UK, (online), Jun 2021.  \\
- [Recording](https://www.youtube.com/watch?v=swMeqNRlnws).
+Bromsgrove Astronomical Society, Bromsgrove, UK, (online), Jun 2021.
 
 **8.** ✦ *Esplorare l'Universo con le onde gravitazionali*  \\
 Settimana dell'Astronomia, Fondazione Lombardia per l'Ambiente, Italy, (online), Apr 2021.
@@ -540,4 +520,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2025-10-05 17:08:58 UTC*
+*Last updated: 2025-10-06 02:02:03 UTC*
