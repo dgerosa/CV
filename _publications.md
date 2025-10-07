@@ -66,12 +66,12 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 **102.**
 *Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background.*\
 G. Giarda, A. I. Renzini, C. Pacilio, **D. Gerosa**.\
-Classical and Quantum Gravity in press. <a href="https://arxiv.org/abs/2506.12572" style="color: inherit; text-decoration: none;">arXiv:2506.12572 [gr-qc]</a>.
+<a href="https://iopscience.iop.org/article/10.1088/1361-6382/ae07a0" style="color: inherit; text-decoration: none;">Classical and Quantum Gravity 42 (2025) 195015</a>. <a href="https://arxiv.org/abs/2506.12572" style="color: inherit; text-decoration: none;">arXiv:2506.12572 [gr-qc]</a>.
  
 **101.**
 *GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications.*\
 I. Romero-Shaw, J. Stegmann, H. Tagawa, **D. Gerosa**, J. Samsing, N. Gupte, S. R. Green.\
-Physical Review D in press. <a href="https://arxiv.org/abs/2506.17105" style="color: inherit; text-decoration: none;">arXiv:2506.17105 [astro-ph.HE]</a>.
+<a href="https://journals.aps.org/prd/abstract/10.1103/jj7m-x66y" style="color: inherit; text-decoration: none;">Physical Review D 112 (2025) 063052</a>. <a href="https://arxiv.org/abs/2506.17105" style="color: inherit; text-decoration: none;">arXiv:2506.17105 [astro-ph.HE]</a>.
  
 **100.**
 *Ringdown mode amplitudes of precessing binary black holes.*\
@@ -670,4 +670,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-10-07 02:01:40 UTC*
+*Last updated: 2025-10-07 16:25:15 UTC*
