@@ -150,7 +150,7 @@ if published:
         "journal":  "\cqg 42 (2025) 195015",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ae07a0",
         "arxiv":    "arXiv:2506.12572 [gr-qc]",
-        "ads":      "2025arXiv250612572G",
+        "ads":      "2025CQGra..42s5015G",
         "inspire":  "Giarda:2025ouf",
         "more":     ""
         })
