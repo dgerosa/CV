@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 8920
-- **Total INSPIRE citations**: 9807
-- **Total MAX citations**: 9843
+- **Total INSPIRE citations**: 9808
+- **Total MAX citations**: 9844
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -24,7 +24,7 @@
 | **13** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 138 | 151 | 151 |
 | **14** | Afshordi | 2023 | Waveform modelling for the Laser Interferometer Space Antenna | 122 | 147 | 147 |
 | **15** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 132 | 132 |
-| **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 119 | 126 | 126 |
+| **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 119 | 127 | 127 |
 | **17** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 118 | 124 | 124 |
 | **18** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 103 | 120 | 120 |
 | **19** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 108 | 119 | 119 |
@@ -199,4 +199,4 @@
 
 
 <br><br>
-*Last updated: 2025-10-10 05:59:55 UTC*
+*Last updated: 2025-10-11 02:03:55 UTC*
