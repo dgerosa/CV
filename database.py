@@ -3115,6 +3115,16 @@ if phd:
     group['phd']['data'] = []
 
     group['phd']['data'].append({
+        "name":     "Giulia Cuomo",
+        "where":    "Milano-Bicocca",
+        "start":    "2025",
+        "end":      "current",
+        "bio":      "Universe investigator. Often busy exploring the depths of the Ocean in her diving gear, running long distances, engaging in her next artistic project, or blasting prog metal in her headphones.",
+        "email":    "g.cuomo3@campus.unimib.it",
+        "current":  True
+        })
+    
+    group['phd']['data'].append({
         "name":     "Matilde Garcia",
         "where":    "Milano-Bicocca",
         "start":    "2025",
