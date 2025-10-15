@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9033
-- **Total INSPIRE citations**: 9818
-- **Total MAX citations**: 9862
+- **Total INSPIRE citations**: 9822
+- **Total MAX citations**: 9865
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -10,13 +10,13 @@
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1355 | 1504 | 1504 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 795 | 879 | 879 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 628 | 613 | 628 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 795 | 880 | 880 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 628 | 614 | 628 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 442 | 456 | 456 |
 | **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 367 | 412 | 412 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 384 | 402 | 402 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 312 | 335 | 335 |
-| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 259 | 304 | 304 |
+| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 259 | 305 | 305 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 233 | 249 | 249 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 205 | 227 | 227 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 137 | 157 | 157 |
@@ -85,8 +85,8 @@
 | **74** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 20 | 20 | 20 |
 | **75** | Mancarella | 2023 | Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors | 14 | 19 | 19 |
 | **76** | Nealon | 2022 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity | 19 | 13 | 19 |
-| **77** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 15 | 18 | 18 |
-| **78** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 16 | 17 | 17 |
+| **77** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 16 | 18 | 18 |
+| **78** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 15 | 18 | 18 |
 | **79** | Varma | 2021 | Up-down instability of binary black holes in numerical relativity | 15 | 17 | 17 |
 | **80** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 17 | 16 | 17 |
 | **81** | Buscicchio | 2025 | A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries | 15 | 16 | 16 |
@@ -199,4 +199,4 @@
 
 
 <br><br>
-*Last updated: 2025-10-14 07:53:51 UTC*
+*Last updated: 2025-10-15 02:01:59 UTC*
