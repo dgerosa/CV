@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Impact of facility timing and coordination for next-generation gravitational-wave detectors",
+        "author":   "S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2510.11861 [gr-qc]",
+        "ads":      "2025arXiv251011861B",
+        "inspire":  "Borhanian:2025uni",
+        "more":     ""
+        })
+    
+    papers['submitted']['data'].append({
         "title":    "Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity",
         "author":   "R. Tenorio, A. Toubiana, T. Bruel, D. Gerosa, J. Gair",
         "journal":  "",
