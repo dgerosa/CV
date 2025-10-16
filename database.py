@@ -205,7 +205,7 @@ if published:
         "journal":  "SoftwareX 31 (2025) 102294",
         "link":     "https://authors.elsevier.com/sd/article/S2352-7110(25)00260-2",
         "arxiv":    "arXiv:2509.00159 [stat.ME]",
-        "ads":      "2025arXiv250900159B",
+        "ads":      "2025SoftX..3102294B",
         "inspire":  "Boschini:2025ymu",
         "more":     "Open source code"
         })

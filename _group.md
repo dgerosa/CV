@@ -84,15 +84,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
-  <img src="{{ '/images/giulia-cuomo.jpg' | relative_url }}" alt="Giulia Cuomo" class="person-photo">
-  <div class="person-text">
-    <strong>Giulia Cuomo</strong><br>
-    PhD student<br>
-<a href="mailto:g.cuomo3@campus.unimib.it">g.cuomo3@campus.unimib.it</a><br>
-    <em>Universe investigator. Often busy exploring the depths of the Ocean in her diving gear, running long distances, engaging in her next artistic project, or blasting prog metal in her headphones.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/matilde-garcia.jpg' | relative_url }}" alt="Matilde Garcia" class="person-photo">
   <div class="person-text">
     <strong>Matilde Garcia</strong><br>
@@ -262,4 +253,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-10-15 13:31:10 UTC*
+*Last updated: 2025-10-16 02:01:59 UTC*
