@@ -1,5 +1,5 @@
 ## Summary
-**10** [Submitted papers](#submitted-papers)\
+**11** [Submitted papers](#submitted-papers)\
 **102** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**11.**
+*Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
+S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, **D. Gerosa**.\
+<a href="https://arxiv.org/abs/2510.11861" style="color: inherit; text-decoration: none;">arXiv:2510.11861 [gr-qc]</a>.
+ 
 **10.**
 *Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity.*\
 R. Tenorio, A. Toubiana, T. Bruel, **D. Gerosa**, J. Gair.\
@@ -670,4 +675,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-10-16 02:01:59 UTC*
+*Last updated: 2025-10-16 08:56:19 UTC*
