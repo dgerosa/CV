@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9108
-- **Total INSPIRE citations**: 9860
-- **Total MAX citations**: 9917
+- **Total INSPIRE citations**: 9861
+- **Total MAX citations**: 9918
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -38,9 +38,9 @@
 | **27** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 78 | 86 | 86 |
 | **28** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 71 | 84 | 84 |
 | **29** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 69 | 78 | 78 |
-| **30** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 76 | 76 | 76 |
-| **31** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 75 | 76 | 76 |
-| **32** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 65 | 75 | 75 |
+| **30** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 65 | 76 | 76 |
+| **31** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 76 | 76 | 76 |
+| **32** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 75 | 76 | 76 |
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 70 | 74 | 74 |
 | **34** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 61 | 65 | 65 |
 | **35** | Gerosa | 2015 | Precessional instability in binary black holes with aligned spins | 57 | 61 | 61 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-10-20 02:01:59 UTC*
+*Last updated: 2025-10-20 15:10:58 UTC*
