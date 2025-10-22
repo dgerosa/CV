@@ -1,24 +1,24 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9121
-- **Total INSPIRE citations**: 9892
-- **Total MAX citations**: 9948
+- **Total INSPIRE citations**: 9902
+- **Total MAX citations**: 9956
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1359 | 1510 | 1510 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 798 | 882 | 882 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 651 | 625 | 651 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1359 | 1511 | 1511 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 798 | 884 | 884 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 651 | 626 | 651 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 445 | 457 | 457 |
-| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 371 | 413 | 413 |
+| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 371 | 414 | 414 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 388 | 407 | 407 |
-| **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 314 | 336 | 336 |
-| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 266 | 311 | 311 |
+| **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 314 | 337 | 337 |
+| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 266 | 313 | 313 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 237 | 254 | 254 |
-| **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 205 | 228 | 228 |
+| **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 205 | 229 | 229 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 137 | 158 | 158 |
 | **12** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 141 | 155 | 155 |
 | **13** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 140 | 152 | 152 |
@@ -111,7 +111,7 @@
 | **100** | Pedrotti | 2025 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 5 | 6 | 6 |
 | **101** | Fumagalli | 2025 | Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory | 5 | 6 | 6 |
 | **102** | Tenorio | 2025 | Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms | 6 | 6 | 6 |
-| **103** | Spadaro | 2025 | Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA | 6 | 5 | 6 |
+| **103** | Spadaro | 2025 | Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA | 6 | 6 | 6 |
 | **104** | Steinle | 2024 | Probing AGN jet precession with LISA | 6 | 4 | 6 |
 | **105** | De Renzis | 2023 | Parameter estimation of binary black holes in the endpoint of the up-down instability | 4 | 6 | 6 |
 | **106** | Dabrowny | 2021 | Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness | 5 | 6 | 6 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-10-22 02:02:10 UTC*
+*Last updated: 2025-10-22 09:39:40 UTC*
