@@ -83,17 +83,6 @@ if submitted:
         "inspire":  "Toubiana:2025syw",
         "more":     ""
         })
-    
-    papers['submitted']['data'].append({
-        "title":    "Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $3<z<5$ Ly$\\alpha$ emitters",
-        "author":   "D. Tornotti, M. Fossati, M. Fumagalli, D. Gerosa, L. Pizzuti, F. Arrigoni Battaia",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2506.10083 [astro-ph.GA]",
-        "ads":      "2025arXiv250610083T",
-        "inspire":  "Tornotti:2025njj",
-        "more":     ""
-        })
 
     papers['submitted']['data'].append({
         "title":    "Sequential simulation-based inference for extreme mass ratio inspirals",
@@ -154,6 +143,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $3<z<5$ Ly$\\alpha$ emitters",
+        "author":   "D. Tornotti, M. Fossati, M. Fumagalli, D. Gerosa, L. Pizzuti, F. Arrigoni Battaia",
+        "journal":  "\\aap in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2506.10083 [astro-ph.GA]",
+        "ads":      "2025arXiv250610083T",
+        "inspire":  "Tornotti:2025njj",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background",

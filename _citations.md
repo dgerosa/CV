@@ -161,11 +161,11 @@
 | Journal | Paper count |
 |---------|--------------|
 | Physical Review D | 57 |
-| arXiv | 13 |
+| arXiv | 12 |
 | Monthly Notices of the Royal Astronomical Society | 12 |
 | Classical and Quantum Gravity | 11 |
 | Physical Review Letters | 9 |
-| Astronomy & Astrophysics | 4 |
+| Astronomy & Astrophysics | 5 |
 | Astrophysical Journal | 3 |
 | Living Reviews in Relativity | 2 |
 | Astrophysics and Space Science Proceedings | 1 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-10-22 09:39:40 UTC*
+*Last updated: 2025-10-22 12:58:55 UTC*
