@@ -1,6 +1,6 @@
 ## Summary
-**10** [Submitted papers](#submitted-papers)\
-**103** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**11** [Submitted papers](#submitted-papers)\
+**102** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,30 +8,35 @@
 
 ## Submitted papers
 
-**10.**
+**11.**
 *Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
 S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2510.11861" style="color: inherit; text-decoration: none;">arXiv:2510.11861 [gr-qc]</a>.
  
-**9.**
+**10.**
 *Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity.*\
 R. Tenorio, A. Toubiana, T. Bruel, **D. Gerosa**, J. Gair.\
 <a href="https://arxiv.org/abs/2509.19466" style="color: inherit; text-decoration: none;">arXiv:2509.19466 astro-ph.HE]</a>.
  
-**8.**
+**9.**
 *Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries.*\
 N. Loutrel, A. Bailey, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2509.01614" style="color: inherit; text-decoration: none;">arXiv:2509.01614 [gr-qc]</a>.
  
-**7.**
+**8.**
 *Can stellar physics explain GW231123?*\
 D. Croon, J. Sakstein, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2508.10088" style="color: inherit; text-decoration: none;">arXiv:2508.10088 [astro-ph.HE]</a>.
  
-**6.**
+**7.**
 *Comparing astrophysical models to gravitational-wave data in the observable space.*\
 A. Toubiana, **D. Gerosa**, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini.\
 <a href="https://arxiv.org/abs/2507.13249" style="color: inherit; text-decoration: none;">arXiv:2507.13249 [gr-qc]</a>.
+ 
+**6.**
+*Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Ly$$\alpha$$ emitters.*\
+D. Tornotti, M. Fossati, M. Fumagalli, **D. Gerosa**, L. Pizzuti, F. Arrigoni Battaia.\
+<a href="https://arxiv.org/abs/2506.10083" style="color: inherit; text-decoration: none;">arXiv:2506.10083 [astro-ph.GA]</a>.
  
 **5.**
 *Sequential simulation-based inference for extreme mass ratio inspirals.*\
@@ -63,11 +68,6 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 
 ## Papers published in major peer-reviewed journals
 
-**103.**
-*Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Ly$$\alpha$$ emitters.*\
-D. Tornotti, M. Fossati, M. Fumagalli, **D. Gerosa**, L. Pizzuti, F. Arrigoni Battaia.\
-Astronomy & Astrophysics in press. <a href="https://arxiv.org/abs/2506.10083" style="color: inherit; text-decoration: none;">arXiv:2506.10083 [astro-ph.GA]</a>.
- 
 **102.**
 *Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background.*\
 G. Giarda, A. I. Renzini, C. Pacilio, **D. Gerosa**.\
@@ -675,4 +675,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-10-22 12:58:55 UTC*
+*Last updated: 2025-10-23 02:01:58 UTC*
