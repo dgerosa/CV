@@ -3228,10 +3228,19 @@ if msc:
     group['msc']['data'] = []
 
     group['msc']['data'].append({
+        "name":     "Lisa Merlo",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2026",
+        "note":     "",
+        "current":  True
+        })
+
+    group['msc']['data'].append({
         "name":     "Sofia Dossena",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
-        "year":     "2025",
+        "year":     "2026",
         "note":     "",
         "current":  True
         })
@@ -3240,7 +3249,7 @@ if msc:
         "name":     "Marco Bianchi",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
-        "year":     "2025",
+        "year":     "2026",
         "note":     "",
         "current":  True
         })
@@ -3249,7 +3258,7 @@ if msc:
         "name":     "Pietro Zeduri",
         "where":    "Milano-Bicocca and University of Aix-Marseille",
         "what":     "MSc thesis",
-        "year":     "2025",
+        "year":     "2026",
         "note":     "",
         "current":  True
         })
@@ -3258,7 +3267,7 @@ if msc:
         "name":     "Alessia Corelli",
         "where":    "Milano-Bicocca ",
         "what":     "MSc thesis",
-        "year":     "2025",
+        "year":     "2026",
         "note":     "",
         "current":  True
         })
@@ -3267,7 +3276,7 @@ if msc:
         "name":     "Federico Leto di Priolo",
         "where":    "Milano-Bicocca and ESO Garching",
         "what":     "MSc thesis",
-        "year":     "2025",
+        "year":     "2026",
         "note":     "",
         "current":  True
         })
@@ -3276,7 +3285,7 @@ if msc:
         "name":     "Giorgio Monti",
         "where":    "Milano-Bicocca and GSSI L'Aquila",
         "what":     "MSc thesis",
-        "year":     "2025",
+        "year":     "2026",
         "note":     "",
         "current":  True
         })
@@ -3285,7 +3294,7 @@ if msc:
         "name":     "Oliver Rossi",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
-        "year":     "2025",
+        "year":     "2026",
         "note":     "",
         "current":  True
         })
@@ -3294,7 +3303,7 @@ if msc:
         "name":     "Martin Gerini",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
-        "year":     "2025",
+        "year":     "2026",
         "note":     "",
         "current":  True
         })
@@ -3303,7 +3312,7 @@ if msc:
         "name":     "Giulia Conti",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
-        "year":     "2025",
+        "year":     "2026",
         "note":     "",
         "current":  True
         })
@@ -3312,7 +3321,7 @@ if msc:
         "name":     "Serena Caslini",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
-        "year":     "2025",
+        "year":     "2026",
         "note":     "",
         "current":  True
         })
@@ -3814,6 +3823,7 @@ if bsc:
         "where":    "Birmingham and ENSTA Paris",
         "what":     "summer project",
         "year":     "2022",
+        "note":     "Resulting publication: arXiv:2510.20811.",
         "current":  False
         })
     

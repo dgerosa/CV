@@ -150,16 +150,17 @@ Here are the amazing people in my group. Come visit and chat science with us! If
 ## Current MSc and Bsc students
 Here are the amazing students who are currently completing research projects with us in the group… Taking the first fun steps into the perilous world of black holes!
 
-- **Sofia Dossena**, MSc thesis, Milano-Bicocca, 2025.
-- **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2025.
-- **Pietro Zeduri**, MSc thesis, Milano-Bicocca and University of Aix-Marseille, 2025.
-- **Alessia Corelli**, MSc thesis, Milano-Bicocca , 2025.
-- **Federico Leto di Priolo**, MSc thesis, Milano-Bicocca and ESO Garching, 2025.
-- **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2025.
-- **Oliver Rossi**, MSc thesis, Milano-Bicocca, 2025.
-- **Martin Gerini**, MSc thesis, Milano-Bicocca, 2025.
-- **Giulia Conti**, MSc thesis, Milano-Bicocca, 2025.
-- **Serena Caslini**, MSc thesis, Milano-Bicocca, 2025.
+- **Lisa Merlo**, MSc thesis, Milano-Bicocca, 2026.
+- **Sofia Dossena**, MSc thesis, Milano-Bicocca, 2026.
+- **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2026.
+- **Pietro Zeduri**, MSc thesis, Milano-Bicocca and University of Aix-Marseille, 2026.
+- **Alessia Corelli**, MSc thesis, Milano-Bicocca , 2026.
+- **Federico Leto di Priolo**, MSc thesis, Milano-Bicocca and ESO Garching, 2026.
+- **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
+- **Oliver Rossi**, MSc thesis, Milano-Bicocca, 2026.
+- **Martin Gerini**, MSc thesis, Milano-Bicocca, 2026.
+- **Giulia Conti**, MSc thesis, Milano-Bicocca, 2026.
+- **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
 - **Lorenzo Lecci**, BSc thesis, Milano-Bicocca, 2025.
 - **Federico Quattrini**, BSc thesis, Milano-Bicocca, 2025.
 
@@ -245,7 +246,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Oliver Rossi**. Milano-Bicocca, 2022.
 - **Sayan Neogi**. Birmingham and IISER Pune, 2022.
 - **Diego Padilla Monroy**. Milano-Bicocca and Florida International, 2022. Resulting publication: [arXiv:2304.04801](https://arxiv.org/abs/2304.04801).
-- **Sarah Al Humaikani**. Birmingham and ENSTA Paris, 2022.
+- **Sarah Al Humaikani**. Birmingham and ENSTA Paris, 2022. Resulting publication: [arXiv:2510.20811](https://arxiv.org/abs/2510.20811).
 - **Nesibe Sivrioglu**. Milano-Bicocca and Grinell College, 2022.
 - **Cecilia Fabbri**. Milano-Bicocca, 2022. Resulting publication: [arXiv:2202.08848](https://arxiv.org/abs/2202.08848).
 - **Meredith Vogel**. Birmingham and Missouri State, 2021.
@@ -262,4 +263,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-10-24 15:32:57 UTC*
+*Last updated: 2025-10-24 15:41:26 UTC*
