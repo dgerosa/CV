@@ -2994,7 +2994,7 @@ if fellowships:
         "start":        "2022",
         "end":          "2025",
         "email":        "sbhagwat@star.sr.bham.ac.uk",
-        "bio":          "Gravitational-wave data analyst, astrophysical modeler, and machine learning enthusiast. Loves to explore the world through food, travel, and music.",
+        "bio":      "Metric perturber, GR tester, ringdown magician. Travels across understanding gravity, oil painting, writing poetry, and fantasy books.",
         "note":         "Stephen Hawking Fellow",
         "current":      False
         })
@@ -3082,8 +3082,8 @@ if postdocs:
         "end":      "current",
         "bio":      "Black-hole spectroscoper, simulation-based inferer, pizza purist, coffee obsessed. Using black holes and neutron stars to understand our Universe. Reading comic books to explore parallel worlds. Listening to Bob Dylan to refresh my emotions.",
         "email":    "costantino.pacilio@unimib.it",
-        "note":     "Supported by the ERC. Then postdoc at the Foundation for Research and Technology Hellas (Greece).",
-        "current":  True
+        "note":     "Supported by the ERC. Then permanent researcher at INFN, Rome (Italy).",
+        "current":  False
         })
     
     group['postdocs']['data'].append({
@@ -3102,7 +3102,7 @@ if postdocs:
         "where":    "Birmingham",
         "start":    "2021",
         "end":      "2023",
-        "bio":      "Metric perturber, GR tester, ringdown magician. Travels across understanding gravity, oil painting, writing poetry, and fantasy books.",
+        "bio":          "Gravitational-wave data analyst, astrophysical modeler, and machine learning enthusiast. Loves to explore the world through food, travel, and music.",
         "email":    "nsteinle@star.sr.bham.ac.uk",
         "note":     "Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).",
         "current":  False
