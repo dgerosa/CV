@@ -166,7 +166,7 @@ Here are the amazing students who are currently completing research projects wit
 
 - **Arianna Renzini**. Milano-Bicocca, 2023–2025. Marie Skłodowska-Curie Fellow. Then technical staff at ETH, Zurich.
 - **Swetha Baghwat**. Birmingham, 2022–2025. Stephen Hawking Fellow.
-- **Costantino Pacilio**. Milano-Bicocca, 2022–current. Supported by the ERC. Then permanent researcher at INFN, Rome (Italy).
+- **Costantino Pacilio**. Milano-Bicocca, 2022–2025. Supported by the ERC. Then permanent researcher at INFN, Rome (Italy).
 - **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille (France).
 - **Nathan Steinle**. Birmingham, 2021–2023. Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).
 - **Nicola Giacobbo**. Birmingham, 2020–2021. Supported by the Leverhulme Trust. Then software developer at IRS Srl (Italy).
@@ -255,4 +255,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-10-28 06:59:12 UTC*
+*Last updated: 2025-10-28 08:45:29 UTC*

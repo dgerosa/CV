@@ -3079,7 +3079,7 @@ if postdocs:
         "name":     "Costantino Pacilio",
         "where":    "Milano-Bicocca",
         "start":    "2022",
-        "end":      "current",
+        "end":      "2025",
         "bio":      "Black-hole spectroscoper, simulation-based inferer, pizza purist, coffee obsessed. Using black holes and neutron stars to understand our Universe. Reading comic books to explore parallel worlds. Listening to Bob Dylan to refresh my emotions.",
         "email":    "costantino.pacilio@unimib.it",
         "note":     "Supported by the ERC. Then permanent researcher at INFN, Rome (Italy).",
