@@ -1,5 +1,5 @@
 ## Summary
-**11** [Submitted papers](#submitted-papers)\
+**10** [Submitted papers](#submitted-papers)\
 **103** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,11 +8,6 @@
 
 ## Submitted papers
 
-**11.**
-*Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals.*\
-L. Speri, R. Tenorio, C. Chapman-Bird, **D. Gerosa**.\
-<a href="https://arxiv.org/abs/2510.20891" style="color: inherit; text-decoration: none;">arXiv:2510.20891 [gr-qc]</a>.
- 
 **10.**
 *Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
 S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, **D. Gerosa**.\
@@ -680,4 +675,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-10-27 06:11:47 UTC*
+*Last updated: 2025-10-28 02:01:59 UTC*
