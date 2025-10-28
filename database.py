@@ -3554,7 +3554,7 @@ if bsc:
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2025",
-        "current":  True
+        "current":  False
         })
 
     group['bsc']['data'].append({

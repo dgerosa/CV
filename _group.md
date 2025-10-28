@@ -162,7 +162,6 @@ Here are the amazing students who are currently completing research projects wit
 - **Giulia Conti**, MSc thesis, Milano-Bicocca, 2026.
 - **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
 - **Lorenzo Lecci**, BSc thesis, Milano-Bicocca, 2025.
-- **Federico Quattrini**, BSc thesis, Milano-Bicocca, 2025.
 
 <br>
 
@@ -213,6 +212,7 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former BSc students
 
+- **Federico Quattrini**. Milano-Bicocca, 2025.
 - **Arianna Pedone**. Milano-Bicocca, 2025.
 - **Sterling Scarlett**. Milano-Bicocca and Boston University, 2025.
 - **Alessandro Malfasi**. Milano-Bicocca, 2025.
@@ -263,4 +263,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-10-28 02:01:59 UTC*
+*Last updated: 2025-10-28 06:11:53 UTC*
