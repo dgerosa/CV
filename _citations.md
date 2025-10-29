@@ -1,7 +1,7 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9166
-- **Total INSPIRE citations**: 9948
+- **Total INSPIRE citations**: 9949
 - **Total MAX citations**: 10006
 - **h-index**: 47
 
@@ -9,16 +9,16 @@
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1363 | 1518 | 1518 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1363 | 1519 | 1519 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 802 | 887 | 887 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 658 | 630 | 658 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 658 | 631 | 658 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 443 | 457 | 457 |
-| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 372 | 417 | 417 |
+| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 372 | 418 | 418 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 393 | 408 | 408 |
-| **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 314 | 339 | 339 |
+| **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 314 | 338 | 338 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 274 | 316 | 316 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 237 | 256 | 256 |
-| **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 206 | 229 | 229 |
+| **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 206 | 228 | 228 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 137 | 158 | 158 |
 | **12** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 141 | 155 | 155 |
 | **13** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 141 | 152 | 152 |
@@ -201,4 +201,4 @@
 
 
 <br><br>
-*Last updated: 2025-10-29 02:01:55 UTC*
+*Last updated: 2025-10-29 20:41:05 UTC*
