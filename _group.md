@@ -75,6 +75,15 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
+  <img src="{{ '/images/costantino-pacilio.jpg' | relative_url }}" alt="Costantino Pacilio" class="person-photo">
+  <div class="person-text">
+    <strong>Costantino Pacilio</strong><br>
+    Postdoc<br>
+<a href="mailto:costantino.pacilio@unimib.it">costantino.pacilio@unimib.it</a><br>
+    <em>Black-hole spectroscoper, simulation-based inferer, pizza purist, coffee obsessed. Using black holes and neutron stars to understand our Universe. Reading comic books to explore parallel worlds. Listening to Bob Dylan to refresh my emotions.</em>
+  </div>
+</div>
+<div class="person">
   <img src="{{ '/images/giulia-cuomo.jpg' | relative_url }}" alt="Giulia Cuomo" class="person-photo">
   <div class="person-text">
     <strong>Giulia Cuomo</strong><br>
@@ -153,6 +162,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Giulia Conti**, MSc thesis, Milano-Bicocca, 2026.
 - **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
 - **Lorenzo Lecci**, BSc thesis, Milano-Bicocca, 2025.
+- **Federico Quattrini**, BSc thesis, Milano-Bicocca, 2025.
 
 <br>
 
@@ -166,7 +176,6 @@ Here are the amazing students who are currently completing research projects wit
 
 - **Arianna Renzini**. Milano-Bicocca, 2023–2025. Marie Skłodowska-Curie Fellow. Then technical staff at ETH, Zurich.
 - **Swetha Baghwat**. Birmingham, 2022–2025. Stephen Hawking Fellow.
-- **Costantino Pacilio**. Milano-Bicocca, 2022–2025. Supported by the ERC. Then permanent researcher at INFN, Rome (Italy).
 - **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille (France).
 - **Nathan Steinle**. Birmingham, 2021–2023. Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).
 - **Nicola Giacobbo**. Birmingham, 2020–2021. Supported by the Leverhulme Trust. Then software developer at IRS Srl (Italy).
@@ -204,7 +213,6 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former BSc students
 
-- **Federico Quattrini**. Milano-Bicocca, 2025.
 - **Arianna Pedone**. Milano-Bicocca, 2025.
 - **Sterling Scarlett**. Milano-Bicocca and Boston University, 2025.
 - **Alessandro Malfasi**. Milano-Bicocca, 2025.
@@ -255,4 +263,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-10-28 08:45:29 UTC*
+*Last updated: 2025-10-29 02:01:55 UTC*
