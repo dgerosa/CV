@@ -1,22 +1,22 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9166
+- **Total ADS citations**: 9175
 - **Total INSPIRE citations**: 9949
-- **Total MAX citations**: 10006
+- **Total MAX citations**: 10004
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1363 | 1519 | 1519 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 802 | 887 | 887 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 658 | 631 | 658 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1365 | 1519 | 1519 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 803 | 887 | 887 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 657 | 631 | 657 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 443 | 457 | 457 |
-| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 372 | 418 | 418 |
+| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 373 | 418 | 418 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 393 | 408 | 408 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 314 | 338 | 338 |
-| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 274 | 316 | 316 |
+| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 275 | 316 | 316 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 237 | 256 | 256 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 206 | 228 | 228 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 137 | 158 | 158 |
@@ -27,20 +27,20 @@
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 121 | 128 | 128 |
 | **17** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 118 | 125 | 125 |
 | **18** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 103 | 120 | 120 |
-| **19** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 109 | 120 | 120 |
+| **19** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 110 | 120 | 120 |
 | **20** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 106 | 116 | 116 |
 | **21** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 107 | 114 | 114 |
 | **22** | Gerosa | 2016 | PRECESSION: Dynamics of spinning black-hole binaries with python | 91 | 100 | 100 |
 | **23** | Wysocki | 2018 | Explaining LIGO's observations via isolated binary evolution with natal kicks | 95 | 99 | 99 |
-| **24** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 85 | 98 | 98 |
+| **24** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 86 | 98 | 98 |
 | **25** | Vitale | 2017 | Impact of Bayesian priors on the characterization of binary black hole coalescences | 85 | 97 | 97 |
 | **26** | Taylor | 2018 | Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework | 90 | 93 | 93 |
 | **27** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 78 | 86 | 86 |
 | **28** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 71 | 84 | 84 |
 | **29** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 69 | 78 | 78 |
-| **30** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 77 | 76 | 77 |
-| **31** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 75 | 77 | 77 |
-| **32** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 66 | 76 | 76 |
+| **30** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 75 | 77 | 77 |
+| **31** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 66 | 76 | 76 |
+| **32** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 76 | 76 | 76 |
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 70 | 74 | 74 |
 | **34** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 61 | 65 | 65 |
 | **35** | Klein | 2022 | The last three years: multiband gravitational-wave observations of stellar-mass binary black holes | 59 | 61 | 61 |
@@ -103,18 +103,18 @@
 | **92** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 7 | 10 | 10 |
 | **93** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 9 | 8 | 9 |
 | **94** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 9 | 7 | 9 |
-| **95** | Pedrotti | 2025 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 6 | 8 | 8 |
+| **95** | Pedrotti | 2025 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 7 | 8 | 8 |
 | **96** | Fabbri | 2025 | Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data | 7 | 8 | 8 |
-| **97** | Tenorio | 2025 | Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms | 7 | 8 | 8 |
+| **97** | Tenorio | 2025 | Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms | 8 | 8 | 8 |
 | **98** | Pacilio | 2024 | Catalog variance of testing general relativity with gravitational-wave data | 8 | 8 | 8 |
 | **99** | Mould | 2024 | Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs | 7 | 8 | 8 |
 | **100** | Gerosa | 2025 | Which is which? Identification of the two compact objects in gravitational-wave binaries | 7 | 6 | 7 |
 | **101** | De Renzis | 2025 | Forecasting the population properties of merging black holes | 4 | 7 | 7 |
 | **102** | Spadaro | 2025 | Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA | 7 | 6 | 7 |
-| **103** | Cole | 2025 | Sequential simulation-based inference for extreme mass ratio inspirals | 5 | 6 | 6 |
+| **103** | Cole | 2025 | Sequential simulation-based inference for extreme mass ratio inspirals | 6 | 6 | 6 |
 | **104** | Fumagalli | 2025 | Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory | 5 | 6 | 6 |
 | **105** | Steinle | 2024 | Probing AGN jet precession with LISA | 6 | 4 | 6 |
-| **106** | Kritos | 2024 | Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters | 4 | 6 | 6 |
+| **106** | Kritos | 2024 | Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters | 5 | 6 | 6 |
 | **107** | De Renzis | 2023 | Parameter estimation of binary black holes in the endpoint of the up-down instability | 4 | 6 | 6 |
 | **108** | Dabrowny | 2021 | Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness | 5 | 6 | 6 |
 | **109** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 5 | 5 | 5 |
@@ -201,4 +201,4 @@
 
 
 <br><br>
-*Last updated: 2025-10-29 20:41:05 UTC*
+*Last updated: 2025-10-30 02:01:55 UTC*
