@@ -52,17 +52,6 @@ if submitted:
         })
     
     papers['submitted']['data'].append({
-        "title":    "Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity",
-        "author":   "R. Tenorio, A. Toubiana, T. Bruel, D. Gerosa, J. Gair",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2509.19466 astro-ph.HE]",
-        "ads":      "2025arXiv250919466T",
-        "inspire":  "Tenorio:2025nyt",
-        "more":     ""
-        })
-    
-    papers['submitted']['data'].append({
         "title":    "Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries",
         "author":   "N. Loutrel, A. Bailey, D. Gerosa",
         "journal":  "",
@@ -154,6 +143,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity",
+        "author":   "R. Tenorio, A. Toubiana, T. Bruel, D. Gerosa, J. Gair",
+        "journal":  "\\apjl in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2509.19466 astro-ph.HE]",
+        "ads":      "2025arXiv250919466T",
+        "inspire":  "Tenorio:2025nyt",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $3<z<5$ Ly$\\alpha$ emitters",
