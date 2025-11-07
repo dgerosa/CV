@@ -149,7 +149,7 @@ if published:
         "author":   "R. Tenorio, A. Toubiana, T. Bruel, D. Gerosa, J. Gair",
         "journal":  "\\apjl in press.",
         "link":     "",
-        "arxiv":    "arXiv:2509.19466 astro-ph.HE]",
+        "arxiv":    "arXiv:2509.19466 [astro-ph.HE]",
         "ads":      "2025arXiv250919466T",
         "inspire":  "Tenorio:2025nyt",
         "more":     ""

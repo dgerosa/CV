@@ -192,13 +192,12 @@
 | Category | Paper Count |
 |----------|--------------|
 | gr-qc | 70 |
-| astro-ph.HE | 41 |
+| astro-ph.HE | 42 |
 | astro-ph.GA | 9 |
 | astro-ph.CO | 2 |
 | astro-ph.IM | 1 |
 | stat.ME | 1 |
-| unknown | 1 |
 
 
 <br><br>
-*Last updated: 2025-11-07 06:52:06 UTC*
+*Last updated: 2025-11-07 06:59:30 UTC*

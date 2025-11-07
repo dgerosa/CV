@@ -66,7 +66,7 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 **104.**
 *Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity.*\
 R. Tenorio, A. Toubiana, T. Bruel, **D. Gerosa**, J. Gair.\
-Astrophysical Journal in press. <a href="https://arxiv.org/abs/2509.19466" style="color: inherit; text-decoration: none;">arXiv:2509.19466 astro-ph.HE]</a>.
+Astrophysical Journal in press. <a href="https://arxiv.org/abs/2509.19466" style="color: inherit; text-decoration: none;">arXiv:2509.19466 [astro-ph.HE]</a>.
  
 **103.**
 *Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Ly$$\alpha$$ emitters.*\
@@ -680,4 +680,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-11-07 06:52:06 UTC*
+*Last updated: 2025-11-07 06:59:30 UTC*
