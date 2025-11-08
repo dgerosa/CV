@@ -1,6 +1,6 @@
 ## Summary
-**11** [Submitted papers](#submitted-papers)\
-**103** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**10** [Submitted papers](#submitted-papers)\
+**104** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,20 +8,15 @@
 
 ## Submitted papers
 
-**11.**
+**10.**
 *Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals.*\
 L. Speri, R. Tenorio, C. Chapman-Bird, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2510.20891" style="color: inherit; text-decoration: none;">arXiv:2510.20891 [gr-qc]</a>.
  
-**10.**
+**9.**
 *Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
 S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2510.11861" style="color: inherit; text-decoration: none;">arXiv:2510.11861 [gr-qc]</a>.
- 
-**9.**
-*Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity.*\
-R. Tenorio, A. Toubiana, T. Bruel, **D. Gerosa**, J. Gair.\
-<a href="https://arxiv.org/abs/2509.19466" style="color: inherit; text-decoration: none;">arXiv:2509.19466 astro-ph.HE]</a>.
  
 **8.**
 *Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries.*\
@@ -68,6 +63,11 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 
 ## Papers published in major peer-reviewed journals
 
+**104.**
+*Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity.*\
+R. Tenorio, A. Toubiana, T. Bruel, **D. Gerosa**, J. Gair.\
+Astrophysical Journal in press. <a href="https://arxiv.org/abs/2509.19466" style="color: inherit; text-decoration: none;">arXiv:2509.19466 [astro-ph.HE]</a>.
+ 
 **103.**
 *Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Ly$$\alpha$$ emitters.*\
 D. Tornotti, M. Fossati, M. Fumagalli, **D. Gerosa**, L. Pizzuti, F. Arrigoni Battaia.\
@@ -680,4 +680,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-11-08 02:01:46 UTC*
+*Last updated: 2025-11-08 17:58:58 UTC*

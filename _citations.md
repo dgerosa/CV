@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9239
+- **Total ADS citations**: 9241
 - **Total INSPIRE citations**: 9998
 - **Total MAX citations**: 10067
 - **h-index**: 47
@@ -9,10 +9,10 @@
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1369 | 1527 | 1527 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1370 | 1527 | 1527 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 808 | 891 | 891 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 676 | 636 | 676 |
-| **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 445 | 459 | 459 |
+| **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 446 | 459 | 459 |
 | **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 375 | 419 | 419 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 396 | 410 | 410 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 317 | 339 | 339 |
@@ -130,8 +130,8 @@
 | **119** | Gerosa | 2015 | Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history | 0 | 1 | 1 |
 | **120** | Speri | 2025 | Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals | 0 | 0 | 0 |
 | **121** | Borhanian | 2025 | Impact of facility timing and coordination for next-generation gravitational-wave detectors | 0 | 0 | 0 |
-| **122** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 0 | 0 | 0 |
-| **123** | Loutrel | 2025 | Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries | 0 | 0 | 0 |
+| **122** | Loutrel | 2025 | Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries | 0 | 0 | 0 |
+| **123** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 0 | 0 | 0 |
 | **124** | Tornotti | 2025 | Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Ly$$\alpha$$ emitters | 0 | 0 | 0 |
 | **125** | Boschini | 2025 | “LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design | 0 | 0 | 0 |
 | **126** | Fumagalli | 2025 | PRECESSION 2.1: black-hole binary spin precession on eccentric orbits | 0 | 0 | 0 |
@@ -162,12 +162,12 @@
 | Journal | Paper count |
 |---------|--------------|
 | Physical Review D | 57 |
-| arXiv | 13 |
+| arXiv | 12 |
 | Monthly Notices of the Royal Astronomical Society | 12 |
 | Classical and Quantum Gravity | 11 |
 | Physical Review Letters | 9 |
 | Astronomy & Astrophysics | 5 |
-| Astrophysical Journal | 3 |
+| Astrophysical Journal | 4 |
 | Living Reviews in Relativity | 2 |
 | Astrophysics and Space Science Proceedings | 1 |
 | Book contribution | 1 |
@@ -192,13 +192,12 @@
 | Category | Paper Count |
 |----------|--------------|
 | gr-qc | 70 |
-| astro-ph.HE | 41 |
+| astro-ph.HE | 42 |
 | astro-ph.GA | 9 |
 | astro-ph.CO | 2 |
 | astro-ph.IM | 1 |
 | stat.ME | 1 |
-| unknown | 1 |
 
 
 <br><br>
-*Last updated: 2025-11-08 02:01:46 UTC*
+*Last updated: 2025-11-08 17:58:58 UTC*
