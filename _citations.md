@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9241
+- **Total ADS citations**: 9243
 - **Total INSPIRE citations**: 9998
 - **Total MAX citations**: 10067
 - **h-index**: 47
@@ -88,11 +88,11 @@
 | **77** | Nealon | 2022 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity | 19 | 13 | 19 |
 | **78** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 15 | 19 | 19 |
 | **79** | Varma | 2021 | Up-down instability of binary black holes in numerical relativity | 16 | 18 | 18 |
-| **80** | Buscicchio | 2025 | A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries | 15 | 17 | 17 |
+| **80** | Buscicchio | 2025 | A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries | 16 | 17 | 17 |
 | **81** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 17 | 16 | 17 |
 | **82** | Gerosa | 2017 | filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography | 12 | 16 | 16 |
 | **83** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 15 | 15 | 15 |
-| **84** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 13 | 14 | 14 |
+| **84** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 14 | 14 | 14 |
 | **85** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 13 | 14 | 14 |
 | **86** | Croon | 2025 | Can stellar physics explain GW231123? | 13 | 12 | 13 |
 | **87** | Steinle | 2023 | The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries | 10 | 12 | 12 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-11-08 17:58:58 UTC*
+*Last updated: 2025-11-09 02:01:42 UTC*
