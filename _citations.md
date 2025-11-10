@@ -2,7 +2,7 @@
 
 - **Total ADS citations**: 9246
 - **Total INSPIRE citations**: 10006
-- **Total MAX citations**: 10074
+- **Total MAX citations**: 10075
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -43,7 +43,7 @@
 | **32** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 76 | 76 | 76 |
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 70 | 74 | 74 |
 | **34** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 61 | 65 | 65 |
-| **35** | Klein | 2022 | The last three years: multiband gravitational-wave observations of stellar-mass binary black holes | 59 | 61 | 61 |
+| **35** | Klein | 2022 | The last three years: multiband gravitational-wave observations of stellar-mass binary black holes | 59 | 62 | 62 |
 | **36** | Gerosa | 2015 | Precessional instability in binary black holes with aligned spins | 57 | 61 | 61 |
 | **37** | Gupta | 2020 | Black holes in the low mass gap: Implications for gravitational wave observations | 56 | 60 | 60 |
 | **38** | Gerosa | 2018 | Black-hole kicks from numerical-relativity surrogate models | 55 | 60 | 60 |
@@ -116,7 +116,7 @@
 | **105** | Steinle | 2024 | Probing AGN jet precession with LISA | 6 | 4 | 6 |
 | **106** | Kritos | 2024 | Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters | 5 | 6 | 6 |
 | **107** | De Renzis | 2023 | Parameter estimation of binary black holes in the endpoint of the up-down instability | 4 | 6 | 6 |
-| **108** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 6 | 6 | 6 |
+| **108** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 6 | 5 | 6 |
 | **109** | Dabrowny | 2021 | Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness | 5 | 6 | 6 |
 | **110** | Varma | 2019 | The binary black hole explorer: on-the-fly visualizations of precessing binary black holes | 4 | 5 | 5 |
 | **111** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-11-10 06:17:06 UTC*
+*Last updated: 2025-11-10 11:29:47 UTC*
