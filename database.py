@@ -96,17 +96,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements",
-        "author":   "J. Stegmann, D. Gerosa, I. Romero-Shaw, G. Fumagalli, H. Tagawa, L. Zwick",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2505.13589 [astro-ph.HE]",
-        "ads":      "2025arXiv250513589S",
-        "inspire":  "Stegmann:2025shr",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
         "author":   "A. Pedrotti, M. Mancarella, J. Bel, D. Gerosa",
         "journal":  "",
@@ -143,6 +132,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements",
+        "author":   "J. Stegmann, D. Gerosa, I. Romero-Shaw, G. Fumagalli, H. Tagawa, L. Zwick",
+        "journal":  "\\apjl in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2505.13589 [astro-ph.HE]",
+        "ads":      "2025arXiv250513589S",
+        "inspire":  "Stegmann:2025shr",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity",
