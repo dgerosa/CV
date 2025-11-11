@@ -1,6 +1,6 @@
 ## Summary
-**10** [Submitted papers](#submitted-papers)\
-**104** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**9** [Submitted papers](#submitted-papers)\
+**105** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,40 +8,35 @@
 
 ## Submitted papers
 
-**10.**
+**9.**
 *Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals.*\
 L. Speri, R. Tenorio, C. Chapman-Bird, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2510.20891" style="color: inherit; text-decoration: none;">arXiv:2510.20891 [gr-qc]</a>.
  
-**9.**
+**8.**
 *Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
 S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2510.11861" style="color: inherit; text-decoration: none;">arXiv:2510.11861 [gr-qc]</a>.
  
-**8.**
+**7.**
 *Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries.*\
 N. Loutrel, A. Bailey, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2509.01614" style="color: inherit; text-decoration: none;">arXiv:2509.01614 [gr-qc]</a>.
  
-**7.**
+**6.**
 *Can stellar physics explain GW231123?*\
 D. Croon, J. Sakstein, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2508.10088" style="color: inherit; text-decoration: none;">arXiv:2508.10088 [astro-ph.HE]</a>.
  
-**6.**
+**5.**
 *Comparing astrophysical models to gravitational-wave data in the observable space.*\
 A. Toubiana, **D. Gerosa**, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini.\
 <a href="https://arxiv.org/abs/2507.13249" style="color: inherit; text-decoration: none;">arXiv:2507.13249 [gr-qc]</a>.
  
-**5.**
+**4.**
 *Sequential simulation-based inference for extreme mass ratio inspirals.*\
 P. S. Cole, J. Alvey, L. Speri, C. Weniger, U. Bhardwaj, **D. Gerosa**, G. Bertone.\
 <a href="https://arxiv.org/abs/2505.16795" style="color: inherit; text-decoration: none;">arXiv:2505.16795 [gr-qc]</a>.
- 
-**4.**
-*Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements.*\
-J. Stegmann, **D. Gerosa**, I. Romero-Shaw, G. Fumagalli, H. Tagawa, L. Zwick.\
-<a href="https://arxiv.org/abs/2505.13589" style="color: inherit; text-decoration: none;">arXiv:2505.13589 [astro-ph.HE]</a>.
  
 **3.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
@@ -63,6 +58,11 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 
 ## Papers published in major peer-reviewed journals
 
+**105.**
+*Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements.*\
+J. Stegmann, **D. Gerosa**, I. Romero-Shaw, G. Fumagalli, H. Tagawa, L. Zwick.\
+Astrophysical Journal in press. <a href="https://arxiv.org/abs/2505.13589" style="color: inherit; text-decoration: none;">arXiv:2505.13589 [astro-ph.HE]</a>.
+ 
 **104.**
 *Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity.*\
 R. Tenorio, A. Toubiana, T. Bruel, **D. Gerosa**, J. Gair.\
@@ -680,4 +680,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-11-11 02:01:44 UTC*
+*Last updated: 2025-11-11 15:31:08 UTC*
