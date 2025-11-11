@@ -1,15 +1,15 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9246
+- **Total ADS citations**: 9247
 - **Total INSPIRE citations**: 10006
-- **Total MAX citations**: 10075
+- **Total MAX citations**: 10076
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1371 | 1527 | 1527 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1370 | 1527 | 1527 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 808 | 891 | 891 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 676 | 635 | 676 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 446 | 459 | 459 |
@@ -38,9 +38,9 @@
 | **27** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 79 | 87 | 87 |
 | **28** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 72 | 86 | 86 |
 | **29** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 70 | 79 | 79 |
-| **30** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 75 | 77 | 77 |
-| **31** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 66 | 76 | 76 |
-| **32** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 76 | 76 | 76 |
+| **30** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 77 | 76 | 77 |
+| **31** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 75 | 77 | 77 |
+| **32** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 66 | 76 | 76 |
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 70 | 74 | 74 |
 | **34** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 61 | 65 | 65 |
 | **35** | Klein | 2022 | The last three years: multiband gravitational-wave observations of stellar-mass binary black holes | 59 | 62 | 62 |
@@ -53,7 +53,7 @@
 | **42** | Gerosa | 2014 | Distinguishing black-hole spin-orbit resonances by their gravitational-wave signatures | 46 | 55 | 55 |
 | **43** | Gerosa | 2015 | Spin alignment and differential accretion in merging black hole binaries | 54 | 48 | 54 |
 | **44** | Mould | 2022 | Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers | 47 | 52 | 52 |
-| **45** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 44 | 50 | 50 |
+| **45** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 45 | 50 | 50 |
 | **46** | Sperhake | 2017 | Long-lived inverse chirp signals from core collapse in massive scalar-tensor gravity | 43 | 50 | 50 |
 | **47** | Mould | 2022 | Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data | 45 | 49 | 49 |
 | **48** | Gerosa | 2015 | Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature | 41 | 47 | 47 |
@@ -162,12 +162,12 @@
 | Journal | Paper count |
 |---------|--------------|
 | Physical Review D | 57 |
+| arXiv | 12 |
 | Monthly Notices of the Royal Astronomical Society | 12 |
-| arXiv | 11 |
 | Classical and Quantum Gravity | 11 |
 | Physical Review Letters | 9 |
 | Astronomy & Astrophysics | 5 |
-| Astrophysical Journal | 5 |
+| Astrophysical Journal | 4 |
 | Living Reviews in Relativity | 2 |
 | Astrophysics and Space Science Proceedings | 1 |
 | Book contribution | 1 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-11-10 11:29:47 UTC*
+*Last updated: 2025-11-11 02:01:44 UTC*
