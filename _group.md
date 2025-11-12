@@ -152,7 +152,6 @@ Here are the amazing students who are currently completing research projects wit
 - **Martin Gerini**, MSc thesis, Milano-Bicocca, 2026.
 - **Giulia Conti**, MSc thesis, Milano-Bicocca, 2026.
 - **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
-- **Pablo Basta**, BSc thesis, Milano-Bicocca, 2026.
 - **Lorenzo Lecci**, BSc thesis, Milano-Bicocca, 2025.
 
 <br>
@@ -256,4 +255,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-11-11 15:31:08 UTC*
+*Last updated: 2025-11-12 02:01:43 UTC*
