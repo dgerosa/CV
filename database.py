@@ -1320,7 +1320,7 @@ if proceedings:
     papers['proceedings']['data'].append({
         "title":    "Waveform modelling for the Laser Interferometer Space Antenna",
         "author":   "N. Afshordi, et al. (105 authors incl. D. Gerosa)",
-        "journal":  "",
+        "journal":  "\lrr 28 (2025) 9",
         "link":     "",
         "arxiv":    "arXiv:2311.01300 [gr-qc]",
         "ads":      "2023arXiv231101300L",
