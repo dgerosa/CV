@@ -20,7 +20,7 @@
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 243 | 259 | 259 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 207 | 229 | 229 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 137 | 159 | 159 |
-| **12** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 137 | 156 | 156 |
+| **12** | Afshordi | 2023 | Waveform modelling for the Laser Interferometer Space Antenna | 137 | 156 | 156 |
 | **13** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 141 | 155 | 155 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 141 | 155 | 155 |
 | **15** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 115 | 135 | 135 |
@@ -153,9 +153,9 @@
 | 2020 | 15 |
 | 2021 | 12 |
 | 2022 | 10 |
-| 2023 | 11 |
+| 2023 | 12 |
 | 2024 | 10 |
-| 2025 | 27 |
+| 2025 | 26 |
 
 ## Papers per journal
 
@@ -163,12 +163,12 @@
 |---------|--------------|
 | Physical Review D | 57 |
 | Monthly Notices of the Royal Astronomical Society | 12 |
+| arXiv | 11 |
 | Classical and Quantum Gravity | 11 |
-| arXiv | 10 |
 | Physical Review Letters | 9 |
 | Astronomy & Astrophysics | 5 |
 | Astrophysical Journal | 5 |
-| Living Reviews in Relativity | 3 |
+| Living Reviews in Relativity | 2 |
 | Astrophysics and Space Science Proceedings | 1 |
 | Book contribution | 1 |
 | Caltech Undergraduate Research Journal | 1 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-11-16 17:27:49 UTC*
+*Last updated: 2025-11-17 02:02:04 UTC*
