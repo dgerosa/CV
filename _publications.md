@@ -616,7 +616,7 @@ ICBS proceedings. <a href="https://arxiv.org/abs/2508.19735" style="color: inher
 **12.**
 *Waveform modelling for the Laser Interferometer Space Antenna.*\
 N. Afshordi, et al. (105 authors incl. **D. Gerosa**).\
-<a href="https://arxiv.org/abs/2311.01300" style="color: inherit; text-decoration: none;">arXiv:2311.01300 [gr-qc]</a>.
+Living Reviews in Relativity 28 (2025) 9. <a href="https://arxiv.org/abs/2311.01300" style="color: inherit; text-decoration: none;">arXiv:2311.01300 [gr-qc]</a>.
  
 **11.**
 *QLUSTER: quick clusters of merging binary black holes.*\
@@ -680,4 +680,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-11-17 02:02:04 UTC*
+*Last updated: 2025-11-18 02:01:55 UTC*
