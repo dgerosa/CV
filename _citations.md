@@ -1,23 +1,23 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9290
-- **Total INSPIRE citations**: 10116
-- **Total MAX citations**: 10194
+- **Total INSPIRE citations**: 10119
+- **Total MAX citations**: 10196
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1373 | 1535 | 1535 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1373 | 1536 | 1536 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 809 | 893 | 893 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 690 | 641 | 690 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 690 | 642 | 690 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 446 | 461 | 461 |
 | **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 377 | 422 | 422 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 399 | 418 | 418 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 317 | 343 | 343 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 282 | 325 | 325 |
-| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 243 | 260 | 260 |
+| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 243 | 261 | 261 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 207 | 231 | 231 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 137 | 160 | 160 |
 | **12** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 137 | 157 | 157 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-11-19 02:02:03 UTC*
+*Last updated: 2025-11-19 21:12:33 UTC*
