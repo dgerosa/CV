@@ -1,22 +1,22 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9330
-- **Total INSPIRE citations**: 10136
-- **Total MAX citations**: 10212
+- **Total ADS citations**: 9331
+- **Total INSPIRE citations**: 10141
+- **Total MAX citations**: 10218
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1377 | 1538 | 1538 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 810 | 893 | 893 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 691 | 644 | 691 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1377 | 1540 | 1540 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 810 | 894 | 894 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 692 | 644 | 692 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 448 | 461 | 461 |
 | **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 377 | 423 | 423 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 402 | 419 | 419 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 318 | 343 | 343 |
-| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 281 | 327 | 327 |
+| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 281 | 329 | 329 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 244 | 261 | 261 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 208 | 231 | 231 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 137 | 160 | 160 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-11-25 02:01:49 UTC*
+*Last updated: 2025-11-26 02:01:52 UTC*
