@@ -131,8 +131,8 @@
 | **120** | Speri | 2025 | Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals | 0 | 0 | 0 |
 | **121** | Borhanian | 2025 | Impact of facility timing and coordination for next-generation gravitational-wave detectors | 0 | 0 | 0 |
 | **122** | Loutrel | 2025 | Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries | 0 | 0 | 0 |
-| **123** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 0 | 0 | 0 |
-| **124** | Tornotti | 2025 | Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Ly$$\alpha$$ emitters | 0 | 0 | 0 |
+| **123** | Tornotti | 2025 | Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Ly$$\alpha$$ emitters | 0 | 0 | 0 |
+| **124** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 0 | 0 | 0 |
 | **125** | Boschini | 2025 | “LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design | 0 | 0 | 0 |
 | **126** | Fumagalli | 2025 | PRECESSION 2.1: black-hole binary spin precession on eccentric orbits | 0 | 0 | 0 |
 | **127** | Gerosa | 2025 | Coincident morphological transitions in precessing black-hole binaries | 0 | 0 | 0 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-11-27 14:54:50 UTC*
+*Last updated: 2025-11-27 14:59:29 UTC*
