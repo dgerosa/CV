@@ -147,8 +147,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity",
         "author":   "R. Tenorio, A. Toubiana, T. Bruel, D. Gerosa, J. Gair",
-        "journal":  "\\apjl in press.",
-        "link":     "",
+        "journal":  "\\apjl 994 (2025) L52",
+        "link":     "https://iopscience.iop.org/article/10.3847/2041-8213/ae1cbd",
         "arxiv":    "arXiv:2509.19466 [astro-ph.HE]",
         "ads":      "2025arXiv250919466T",
         "inspire":  "Tenorio:2025nyt",

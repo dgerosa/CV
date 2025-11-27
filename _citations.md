@@ -1,17 +1,17 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9325
-- **Total INSPIRE citations**: 10151
-- **Total MAX citations**: 10227
+- **Total ADS citations**: 9328
+- **Total INSPIRE citations**: 10154
+- **Total MAX citations**: 10229
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1378 | 1542 | 1542 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 810 | 894 | 894 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 691 | 644 | 691 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1380 | 1543 | 1543 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 811 | 895 | 895 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 691 | 645 | 691 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 448 | 461 | 461 |
 | **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 377 | 423 | 423 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 401 | 420 | 420 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-11-27 02:01:47 UTC*
+*Last updated: 2025-11-27 14:54:50 UTC*
