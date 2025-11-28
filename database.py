@@ -2976,13 +2976,13 @@ if fellowships:
         })    
     
     group['fellowships']['data'].append({
-        "name":        "Arianna Renzini",
-        "where":       "Milano-Bicocca",
-        "fellowship":  "ERC Marie Skłodowska-Curie Fellow",
-        "start":       "2023",
-        "end":         "2025",
-        "bio":         "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
-        "email":       "arianna.renzini@unimib.it",
+        "name":         "Arianna Renzini",
+        "where":        "Milano-Bicocca",
+        "fellowship":   "ERC Marie Skłodowska-Curie Fellow",
+        "start":        "2023",
+        "end":          "2025",
+        "bio":          "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
+        "email":        "arianna.renzini@unimib.it",
         "note":         "Marie Skłodowska-Curie Fellow. Then technical staff at ETH, Zurich.",
         "current":      False
         })
@@ -2994,7 +2994,7 @@ if fellowships:
         "start":        "2022",
         "end":          "2025",
         "email":        "sbhagwat@star.sr.bham.ac.uk",
-        "bio":      "Metric perturber, GR tester, ringdown magician. Travels across understanding gravity, oil painting, writing poetry, and fantasy books.",
+        "bio":          "Metric perturber, GR tester, ringdown magician. Travels across understanding gravity, oil painting, writing poetry, and fantasy books.",
         "note":         "Stephen Hawking Fellow",
         "current":      False
         })
@@ -3102,7 +3102,7 @@ if postdocs:
         "where":    "Birmingham",
         "start":    "2021",
         "end":      "2023",
-        "bio":          "Gravitational-wave data analyst, astrophysical modeler, and machine learning enthusiast. Loves to explore the world through food, travel, and music.",
+        "bio":      "Gravitational-wave data analyst, astrophysical modeler, and machine learning enthusiast. Loves to explore the world through food, travel, and music.",
         "email":    "nsteinle@star.sr.bham.ac.uk",
         "note":     "Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).",
         "current":  False
@@ -3276,7 +3276,7 @@ if msc:
 
     group['msc']['data'].append({
         "name":     "Alessia Corelli",
-        "where":    "Milano-Bicocca ",
+        "where":    "Milano-Bicocca and University of Nottingham",
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "",
