@@ -134,17 +134,6 @@ if published:
     papers['published']['data'] = []
 
     papers['published']['data'].append({
-        "title":    "Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements",
-        "author":   "J. Stegmann, D. Gerosa, I. Romero-Shaw, G. Fumagalli, H. Tagawa, L. Zwick",
-        "journal":  "\\apjl in press.",
-        "link":     "",
-        "arxiv":    "arXiv:2505.13589 [astro-ph.HE]",
-        "ads":      "2025arXiv250513589S",
-        "inspire":  "Stegmann:2025shr",
-        "more":     ""
-        })
-
-    papers['published']['data'].append({
         "title":    "Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $3<z<5$ Ly$\\alpha$ emitters",
         "author":   "D. Tornotti, M. Fossati, M. Fumagalli, D. Gerosa, L. Pizzuti, F. Arrigoni Battaia",
         "journal":  "\\aap in press.",
@@ -163,6 +152,17 @@ if published:
         "arxiv":    "arXiv:2509.19466 [astro-ph.HE]",
         "ads":      "2025arXiv250919466T",
         "inspire":  "Tenorio:2025nyt",
+        "more":     ""
+        })
+    
+    papers['published']['data'].append({
+        "title":    "Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements",
+        "author":   "J. Stegmann, D. Gerosa, I. Romero-Shaw, G. Fumagalli, H. Tagawa, L. Zwick",
+        "journal":  "\\apjl 994 (2025) L47",
+        "link":     "https://iopscience.iop.org/article/10.3847/2041-8213/ae1d66",
+        "arxiv":    "arXiv:2505.13589 [astro-ph.HE]",
+        "ads":      "2025arXiv250513589S",
+        "inspire":  "Stegmann:2025shr",
         "more":     ""
         })
 
