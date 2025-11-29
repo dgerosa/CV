@@ -59,19 +59,19 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 ## Papers published in major peer-reviewed journals
 
 **105.**
+*Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements.*\
+J. Stegmann, **D. Gerosa**, I. Romero-Shaw, G. Fumagalli, H. Tagawa, L. Zwick.\
+Astrophysical Journal in press. <a href="https://arxiv.org/abs/2505.13589" style="color: inherit; text-decoration: none;">arXiv:2505.13589 [astro-ph.HE]</a>.
+ 
+**104.**
 *Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Ly$$\alpha$$ emitters.*\
 D. Tornotti, M. Fossati, M. Fumagalli, **D. Gerosa**, L. Pizzuti, F. Arrigoni Battaia.\
 Astronomy & Astrophysics in press. <a href="https://arxiv.org/abs/2506.10083" style="color: inherit; text-decoration: none;">arXiv:2506.10083 [astro-ph.GA]</a>.
  
-**104.**
+**103.**
 *Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity.*\
 R. Tenorio, A. Toubiana, T. Bruel, **D. Gerosa**, J. Gair.\
 <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ae1cbd" style="color: inherit; text-decoration: none;">Astrophysical Journal 994 (2025) L52</a>. <a href="https://arxiv.org/abs/2509.19466" style="color: inherit; text-decoration: none;">arXiv:2509.19466 [astro-ph.HE]</a>.
- 
-**103.**
-*Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements.*\
-J. Stegmann, **D. Gerosa**, I. Romero-Shaw, G. Fumagalli, H. Tagawa, L. Zwick.\
-<a href="https://iopscience.iop.org/article/10.3847/2041-8213/ae1d66" style="color: inherit; text-decoration: none;">Astrophysical Journal 994 (2025) L47</a>. <a href="https://arxiv.org/abs/2505.13589" style="color: inherit; text-decoration: none;">arXiv:2505.13589 [astro-ph.HE]</a>.
  
 **102.**
 *Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background.*\
@@ -680,4 +680,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-11-28 15:44:09 UTC*
+*Last updated: 2025-11-29 02:01:52 UTC*
