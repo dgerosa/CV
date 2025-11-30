@@ -1,23 +1,23 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9360
+- **Total ADS citations**: 9366
 - **Total INSPIRE citations**: 10167
-- **Total MAX citations**: 10248
+- **Total MAX citations**: 10249
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1383 | 1546 | 1546 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 813 | 895 | 895 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 698 | 647 | 698 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1384 | 1546 | 1546 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 814 | 895 | 895 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 699 | 647 | 699 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 448 | 461 | 461 |
 | **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 378 | 423 | 423 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 403 | 420 | 420 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 319 | 343 | 343 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 284 | 331 | 331 |
-| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 243 | 261 | 261 |
+| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 244 | 261 | 261 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 209 | 231 | 231 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 137 | 160 | 160 |
 | **12** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 140 | 158 | 158 |
@@ -71,7 +71,7 @@
 | **60** | Mould | 2022 | Gravitational-wave population inference at past time infinity | 25 | 29 | 29 |
 | **61** | Sayeb | 2021 | Massive black hole binary inspiral and spin evolution in a cosmological framework | 29 | 27 | 29 |
 | **62** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 28 | 28 | 28 |
-| **63** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 24 | 28 | 28 |
+| **63** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 25 | 28 | 28 |
 | **64** | Spadaro | 2023 | Glitch systematics on the observation of massive black-hole binaries with LISA | 25 | 27 | 27 |
 | **65** | Rosca-Mead | 2020 | Structure of neutron stars in massive scalar-tensor gravity | 23 | 26 | 26 |
 | **66** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 21 | 23 | 23 |
@@ -94,7 +94,7 @@
 | **83** | Gerosa | 2017 | filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography | 13 | 16 | 16 |
 | **84** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 14 | 15 | 15 |
 | **85** | Croon | 2025 | Can stellar physics explain GW231123? | 14 | 14 | 14 |
-| **86** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 13 | 14 | 14 |
+| **86** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 14 | 14 | 14 |
 | **87** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 13 | 14 | 14 |
 | **88** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 10 | 13 | 13 |
 | **89** | Gerosa | 2024 | Quick recipes for gravitational-wave selection effects | 10 | 12 | 12 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-11-30 02:01:54 UTC*
+*Last updated: 2025-11-30 18:08:25 UTC*
