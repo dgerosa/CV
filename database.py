@@ -3184,7 +3184,7 @@ if phd:
         "end":      "current",
         "bio":      "Glitch hunter, LISA responser, gravitational-wave lover. Cares for nature, addicted to adventure sports (surf!). Likes building fun stuff with Lego bricks and gets charged up with rock music. Curious to learn something new and explore the universe.",
         "email":    "a.spadaro3@campus.unimib.it",
-        "note":     "Supported by the Italian Center for Supercomputing. Then postdoc at the University of Toulouse, France.",
+        "note":     "Supported by the Italian Center for Supercomputing. Then postdoc at the University of Toulouse (France).",
         "current":  True
         })
     
