@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9376
-- **Total INSPIRE citations**: 10181
-- **Total MAX citations**: 10263
+- **Total INSPIRE citations**: 10184
+- **Total MAX citations**: 10266
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -26,7 +26,7 @@
 | **15** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 115 | 136 | 136 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 123 | 133 | 133 |
 | **17** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 120 | 127 | 127 |
-| **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 113 | 124 | 124 |
+| **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 113 | 125 | 125 |
 | **19** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 105 | 123 | 123 |
 | **20** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 109 | 116 | 116 |
 | **21** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 106 | 116 | 116 |
@@ -44,8 +44,8 @@
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 70 | 74 | 74 |
 | **34** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 62 | 66 | 66 |
 | **35** | Klein | 2022 | The last three years: multiband gravitational-wave observations of stellar-mass binary black holes | 60 | 65 | 65 |
-| **36** | Buscicchio | 2021 | Bayesian parameter estimation of stellar-mass black-hole binaries with LISA | 53 | 61 | 61 |
-| **37** | Gupta | 2020 | Black holes in the low mass gap: Implications for gravitational wave observations | 56 | 61 | 61 |
+| **36** | Gupta | 2020 | Black holes in the low mass gap: Implications for gravitational wave observations | 56 | 62 | 62 |
+| **37** | Buscicchio | 2021 | Bayesian parameter estimation of stellar-mass black-hole binaries with LISA | 53 | 61 | 61 |
 | **38** | Gerosa | 2018 | Black-hole kicks from numerical-relativity surrogate models | 55 | 61 | 61 |
 | **39** | Gerosa | 2015 | Precessional instability in binary black holes with aligned spins | 57 | 61 | 61 |
 | **40** | Gerosa | 2016 | Numerical simulations of stellar collapse in scalar-tensor theories of gravity | 52 | 60 | 60 |
@@ -93,10 +93,10 @@
 | **82** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 15 | 16 | 16 |
 | **83** | Gerosa | 2017 | filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography | 13 | 16 | 16 |
 | **84** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 14 | 15 | 15 |
-| **85** | Croon | 2025 | Can stellar physics explain GW231123? | 14 | 14 | 14 |
-| **86** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 14 | 14 | 14 |
-| **87** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 10 | 14 | 14 |
-| **88** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 13 | 14 | 14 |
+| **85** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 13 | 15 | 15 |
+| **86** | Croon | 2025 | Can stellar physics explain GW231123? | 14 | 14 | 14 |
+| **87** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 14 | 14 | 14 |
+| **88** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 10 | 14 | 14 |
 | **89** | Gerosa | 2024 | Quick recipes for gravitational-wave selection effects | 10 | 12 | 12 |
 | **90** | Steinle | 2023 | The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries | 10 | 12 | 12 |
 | **91** | Reali | 2020 | Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants | 10 | 12 | 12 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-12-01 17:04:10 UTC*
+*Last updated: 2025-12-02 02:04:18 UTC*
