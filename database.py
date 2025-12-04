@@ -150,7 +150,7 @@ if published:
         "journal":  "\\apjl 994 (2025) L52",
         "link":     "https://iopscience.iop.org/article/10.3847/2041-8213/ae1cbd",
         "arxiv":    "arXiv:2509.19466 [astro-ph.HE]",
-        "ads":      "2025arXiv250919466T",
+        "ads":      "2025ApJ...994L..52T",
         "inspire":  "Tenorio:2025nyt",
         "more":     ""
         })
@@ -161,7 +161,7 @@ if published:
         "journal":  "\\apjl 994 (2025) L47",
         "link":     "https://iopscience.iop.org/article/10.3847/2041-8213/ae1d66",
         "arxiv":    "arXiv:2505.13589 [astro-ph.HE]",
-        "ads":      "2025arXiv250513589S",
+        "ads":      "2025ApJ...994L..47S",
         "inspire":  "Stegmann:2025shr",
         "more":     ""
         })
