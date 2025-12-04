@@ -2655,6 +2655,15 @@ if lectures:
     talks['lectures']['data'] = []
 
     talks['lectures']['data'].append({
+        "title":    "PhDs, postdocs, faculties, and all that",
+        "what":     "AstroCareer Day @ University of Milano-Bicocca",
+        "where":    "Milan, Italy",
+        "when":     "Dec 2025",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['lectures']['data'].append({
         "title":    "Tips on academic job applications for early career scientists",
         "what":     "Gravitational-wave early-career scientists (GWECS) online talks",
         "where":    "(online)",
