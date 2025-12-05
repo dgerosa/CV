@@ -3,7 +3,7 @@ Invited talks marked with ✦.
 ## Summary
 **82** (**34**✦) [Talks at conferences](#talks-at-conferences) \
 **46** (**46**✦) [Talks at department seminars](#talks-at-department-seminars) \
-**7** (**6**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
+**6** (**5**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
 **18** (**18**✦) [Outreach talks](#outreach-talks)
 
@@ -425,9 +425,6 @@ Lunch talks, Leiden Observatory, Leiden, The Netherlands, Jan 2012.
 
 ## Lectures at PhD schools
 
-**7.** ✦ *PhDs, postdocs, faculties, and all that*  \\
-AstroCareer Day @ University of Milano-Bicocca, Milan, Italy, Dec 2025.
-
 **6.** ✦ *Tips on academic job applications for early career scientists*  \\
 Gravitational-wave early-career scientists (GWECS) online talks, (online), Nov 2024.
 
@@ -543,4 +540,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2025-12-04 14:52:30 UTC*
+*Last updated: 2025-12-05 02:02:00 UTC*

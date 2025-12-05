@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9381
-- **Total INSPIRE citations**: 10226
-- **Total MAX citations**: 10303
+- **Total INSPIRE citations**: 10227
+- **Total MAX citations**: 10304
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -16,7 +16,7 @@
 | **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 379 | 427 | 427 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 402 | 422 | 422 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 319 | 346 | 346 |
-| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 283 | 331 | 331 |
+| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 283 | 332 | 332 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 246 | 264 | 264 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 209 | 232 | 232 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 138 | 160 | 160 |
@@ -200,4 +200,4 @@
 
 
 <br><br>
-*Last updated: 2025-12-04 14:52:30 UTC*
+*Last updated: 2025-12-05 02:02:00 UTC*
