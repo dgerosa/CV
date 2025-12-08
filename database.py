@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521",
+        "author":   "C. Anselmo, C. Pacilio, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2512.05193 [gr-qc]",
+        "ads":      "2025arXiv251205193A",
+        "inspire":  "Anselmo:2025ehx",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals",
         "author":   "L. Speri, R. Tenorio, C. Chapman-Bird, D. Gerosa",
         "journal":  "",
