@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9398
+- **Total ADS citations**: 9405
 - **Total INSPIRE citations**: 10253
 - **Total MAX citations**: 10332
 - **h-index**: 47
@@ -13,11 +13,11 @@
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 819 | 902 | 902 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 699 | 650 | 699 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 449 | 464 | 464 |
-| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 380 | 428 | 428 |
-| **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 402 | 424 | 424 |
+| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 382 | 428 | 428 |
+| **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 404 | 424 | 424 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 320 | 347 | 347 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 285 | 333 | 333 |
-| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 246 | 266 | 266 |
+| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 248 | 266 | 266 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 209 | 233 | 233 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 139 | 160 | 160 |
 | **12** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 138 | 160 | 160 |
@@ -74,7 +74,7 @@
 | **63** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 25 | 28 | 28 |
 | **64** | Spadaro | 2023 | Glitch systematics on the observation of massive black-hole binaries with LISA | 24 | 27 | 27 |
 | **65** | Rosca-Mead | 2020 | Structure of neutron stars in massive scalar-tensor gravity | 23 | 26 | 26 |
-| **66** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 18 | 24 | 24 |
+| **66** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 19 | 24 | 24 |
 | **67** | Fumagalli | 2024 | Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes | 23 | 24 | 24 |
 | **68** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 21 | 23 | 23 |
 | **69** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 20 | 23 | 23 |
@@ -201,4 +201,4 @@
 
 
 <br><br>
-*Last updated: 2025-12-09 13:18:51 UTC*
+*Last updated: 2025-12-09 16:33:53 UTC*
