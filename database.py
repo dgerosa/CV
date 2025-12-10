@@ -148,7 +148,7 @@ if published:
         "title":    "Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $3<z<5$ Lyman $\\alpha$ emitters",
         "author":   "D. Tornotti, M. Fossati, M. Fumagalli, D. Gerosa, L. Pizzuti, F. Arrigoni Battaia",
         "journal":  "\\aap 704 (2025) A201",
-        "link":     "",
+        "link":     "https://doi.org/10.1051/0004-6361/202555898",
         "arxiv":    "arXiv:2506.10083 [astro-ph.GA]",
         "ads":      "2025arXiv250610083T",
         "inspire":  "Tornotti:2025njj",
