@@ -66,7 +66,7 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 **105.**
 *Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Lyman $$\alpha$$ emitters.*\
 D. Tornotti, M. Fossati, M. Fumagalli, **D. Gerosa**, L. Pizzuti, F. Arrigoni Battaia.\
-<a href="https://doi.org/10.1051/0004-6361/202555898" style="color: inherit; text-decoration: none;">Astronomy & Astrophysics 704 (2025) A201</a>. <a href="https://arxiv.org/abs/2506.10083" style="color: inherit; text-decoration: none;">arXiv:2506.10083 [astro-ph.GA]</a>.
+Astronomy & Astrophysics 704 (2025) A201. <a href="https://arxiv.org/abs/2506.10083" style="color: inherit; text-decoration: none;">arXiv:2506.10083 [astro-ph.GA]</a>.
  
 **104.**
 *Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity.*\
@@ -685,4 +685,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2025-12-10 08:05:46 UTC*
+*Last updated: 2025-12-11 02:01:54 UTC*
