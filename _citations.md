@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9457
-- **Total INSPIRE citations**: 10281
-- **Total MAX citations**: 10361
+- **Total INSPIRE citations**: 10284
+- **Total MAX citations**: 10363
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -11,11 +11,11 @@
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1389 | 1555 | 1555 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 822 | 904 | 904 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 702 | 654 | 702 |
-| **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 450 | 464 | 464 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 702 | 655 | 702 |
+| **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 450 | 465 | 465 |
 | **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 383 | 428 | 428 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 406 | 425 | 425 |
-| **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 322 | 348 | 348 |
+| **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 322 | 349 | 349 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 288 | 336 | 336 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 250 | 267 | 267 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 211 | 233 | 233 |
@@ -201,4 +201,4 @@
 
 
 <br><br>
-*Last updated: 2025-12-15 02:01:51 UTC*
+*Last updated: 2025-12-15 08:28:01 UTC*
