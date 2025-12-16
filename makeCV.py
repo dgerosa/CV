@@ -1183,6 +1183,9 @@ if __name__ == "__main__":
     # Database
     replacekeys()
 
+    # Clean auxiliary files
+    os.system('rm -f *.aux *.log *.toc *.out *.bbl *.blg *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.vrb *.lof *.lot *Notes.bib')
+
     if not testing:
         # Git push
         try:
