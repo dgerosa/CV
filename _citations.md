@@ -1,22 +1,22 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9466
-- **Total INSPIRE citations**: 10300
-- **Total MAX citations**: 10376
+- **Total INSPIRE citations**: 10303
+- **Total MAX citations**: 10379
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1390 | 1556 | 1556 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 822 | 904 | 904 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1390 | 1557 | 1557 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 822 | 905 | 905 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 703 | 658 | 703 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 450 | 467 | 467 |
 | **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 383 | 428 | 428 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 407 | 425 | 425 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 322 | 351 | 351 |
-| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 288 | 337 | 337 |
+| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 288 | 338 | 338 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 251 | 267 | 267 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 211 | 233 | 233 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 140 | 160 | 160 |
@@ -201,4 +201,4 @@
 
 
 <br><br>
-*Last updated: 2025-12-17 02:01:46 UTC*
+*Last updated: 2025-12-17 09:27:32 UTC*
