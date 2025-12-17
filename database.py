@@ -150,7 +150,7 @@ if published:
         "journal":  "\\aap 704 (2025) A201",
         "link":     "https://doi.org/10.1051/0004-6361/202555898",
         "arxiv":    "arXiv:2506.10083 [astro-ph.GA]",
-        "ads":      "2025arXiv250610083T",
+        "ads":      "2025A&A...704A.201T",
         "inspire":  "Tornotti:2025njj",
         "more":     ""
         })
