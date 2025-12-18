@@ -141,12 +141,11 @@ Here are the amazing people in my group. Come visit and chat science with us! If
 ## Current MSc and Bsc students
 Here are the amazing students who are currently completing research projects with us in the group… Taking the first fun steps into the perilous world of black holes!
 
-- **Rocco Giugni**, MSc thesis, Milano-Bicocca and Roma-Sapienza, 2026.
 - **Lisa Merlo**, MSc thesis, Milano-Bicocca, 2026.
 - **Sofia Dossena**, MSc thesis, Milano-Bicocca, 2026.
 - **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2026.
-- **Pietro Zeduri**, MSc thesis, Milano-Bicocca and Aix-Marseille, 2026.
-- **Alessia Corelli**, MSc thesis, Milano-Bicocca and Nottingham, 2026.
+- **Pietro Zeduri**, MSc thesis, Milano-Bicocca and University of Aix-Marseille, 2026.
+- **Alessia Corelli**, MSc thesis, Milano-Bicocca and University of Nottingham, 2026.
 - **Federico Leto di Priolo**, MSc thesis, Milano-Bicocca and ESO Garching, 2026.
 - **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
 - **Oliver Rossi**, MSc thesis, Milano-Bicocca, 2026.
@@ -258,4 +257,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-12-17 09:27:32 UTC*
+*Last updated: 2025-12-18 02:01:39 UTC*
