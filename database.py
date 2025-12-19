@@ -1482,6 +1482,15 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "When measuring binaries, identifying each object is ambiguous",
+        "what":     "7th Milan Christmas Workshop",
+        "where":    "Milan, Italy",
+        "when":     "Dec 2025",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "The full gravitational-wave population problem (aka: sample them all)",
         "what":     "XXVI SIGRAV Conference 2021",
         "where":    "Milano, Italy",
