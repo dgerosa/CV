@@ -1,26 +1,26 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9474
+- **Total ADS citations**: 9488
 - **Total INSPIRE citations**: 10316
-- **Total MAX citations**: 10393
+- **Total MAX citations**: 10394
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1391 | 1558 | 1558 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 822 | 905 | 905 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 707 | 662 | 707 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1393 | 1558 | 1558 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 824 | 905 | 905 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 708 | 662 | 708 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 452 | 467 | 467 |
-| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 383 | 428 | 428 |
-| **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 406 | 427 | 427 |
+| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 384 | 428 | 428 |
+| **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 408 | 427 | 427 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 325 | 352 | 352 |
-| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 288 | 338 | 338 |
+| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 291 | 338 | 338 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 250 | 268 | 268 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 211 | 233 | 233 |
 | **11** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 138 | 160 | 160 |
-| **12** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 139 | 158 | 158 |
+| **12** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 141 | 158 | 158 |
 | **13** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 141 | 158 | 158 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 143 | 156 | 156 |
 | **15** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 116 | 137 | 137 |
@@ -39,7 +39,7 @@
 | **28** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 77 | 89 | 89 |
 | **29** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 79 | 87 | 87 |
 | **30** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 76 | 78 | 78 |
-| **31** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 66 | 77 | 77 |
+| **31** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 67 | 77 | 77 |
 | **32** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 76 | 76 | 76 |
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 70 | 74 | 74 |
 | **34** | Klein | 2022 | The last three years: multiband gravitational-wave observations of stellar-mass binary black holes | 61 | 66 | 66 |
@@ -201,4 +201,4 @@
 
 
 <br><br>
-*Last updated: 2025-12-19 09:09:14 UTC*
+*Last updated: 2025-12-20 02:01:55 UTC*

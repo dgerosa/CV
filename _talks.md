@@ -1,7 +1,7 @@
 Invited talks marked with ✦.
 
 ## Summary
-**83** (**35**✦) [Talks at conferences](#talks-at-conferences) \
+**82** (**34**✦) [Talks at conferences](#talks-at-conferences) \
 **46** (**46**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **7** (**6**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
@@ -10,9 +10,6 @@ Invited talks marked with ✦.
 ---
 
 ## Talks at conferences
-
-**83.** ✦ *When measuring binaries, identifying each object is ambiguous*  \\
-7th Milan Christmas Workshop, Milan, Italy, Dec 2025.
 
 **82.** *The full gravitational-wave population problem (aka: sample them all)*  \\
 XXVI SIGRAV Conference 2021, Milano, Italy, Sep 2025.
@@ -546,4 +543,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2025-12-19 09:09:14 UTC*
+*Last updated: 2025-12-20 02:01:55 UTC*
