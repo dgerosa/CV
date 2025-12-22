@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9496
+- **Total ADS citations**: 9494
 - **Total INSPIRE citations**: 10329
 - **Total MAX citations**: 10410
 - **h-index**: 47
@@ -9,7 +9,7 @@
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1394 | 1558 | 1558 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1393 | 1558 | 1558 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 822 | 905 | 905 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 712 | 663 | 712 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 452 | 467 | 467 |
@@ -43,7 +43,7 @@
 | **32** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 76 | 76 | 76 |
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 70 | 74 | 74 |
 | **34** | Klein | 2022 | The last three years: multiband gravitational-wave observations of stellar-mass binary black holes | 61 | 66 | 66 |
-| **35** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 62 | 66 | 66 |
+| **35** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 61 | 66 | 66 |
 | **36** | Buscicchio | 2021 | Bayesian parameter estimation of stellar-mass black-hole binaries with LISA | 53 | 62 | 62 |
 | **37** | Gupta | 2020 | Black holes in the low mass gap: Implications for gravitational wave observations | 57 | 62 | 62 |
 | **38** | Gerosa | 2018 | Black-hole kicks from numerical-relativity surrogate models | 55 | 61 | 61 |
@@ -201,4 +201,4 @@
 
 
 <br><br>
-*Last updated: 2025-12-22 10:30:33 UTC*
+*Last updated: 2025-12-22 10:35:36 UTC*
