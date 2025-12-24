@@ -184,7 +184,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Erika Sottocorno**. Milano-Bicocca, 2025. Then PhD student at SISSA (Trieste, Italy).
 - **Simone Restuccia**. Milano-Bicocca, 2025.
 - **Leonardo Toti**. Milano-Bicocca, 2025. Then PhD student at IFAE Barcelona (Spain).
-- **Olga Pietrosanti**. Milano-Bicocca, 2025. Then PhD student at SISSA (Trieste, Italy). Resulting publication: [arXiv:2511.09129](https://arxiv.org/abs/2511.09129).
+- **Olga Pietrosanti**. Milano-Bicocca, 2025. Then PhD student at SISSA (Trieste, Italy).
 - **Nicole Grillo**. Milano-Bicocca, 2025. Then PhD student at GSSI (L'Aquila, Italy).
 - **Giovanni Giarda**. Milano-Bicocca, 2025. Then PhD student at ETH Zurich (Switzerland). Resulting publication: [arXiv:2506.12572](https://arxiv.org/abs/2506.12572).
 - **Federica Tettoni**. Milano-Bicocca, 2024. Then engineer at Leonardo Helicopters. Resulting publication: [arXiv:2409.07519](https://arxiv.org/abs/2409.07519).
@@ -258,4 +258,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2025-12-23 12:19:11 UTC*
+*Last updated: 2025-12-24 02:01:50 UTC*
