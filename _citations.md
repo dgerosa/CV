@@ -1,8 +1,8 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9543
+- **Total ADS citations**: 9544
 - **Total INSPIRE citations**: 10371
-- **Total MAX citations**: 10459
+- **Total MAX citations**: 10460
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -81,10 +81,10 @@
 | **70** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 23 | 22 | 23 |
 | **71** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 20 | 23 | 23 |
 | **72** | Gerosa | 2017 | On the equal-mass limit of precessing black-hole binaries | 20 | 23 | 23 |
-| **73** | Mould | 2020 | Endpoint of the up-down instability in precessing binary black holes | 18 | 22 | 22 |
-| **74** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 22 | 22 | 22 |
-| **75** | Gerosa | 2019 | Wide nutation: binary black-hole spins repeatedly oscillating from full alignment to full anti-alignment | 20 | 22 | 22 |
-| **76** | Croon | 2025 | Can stellar physics explain GW231123? | 21 | 21 | 21 |
+| **73** | Croon | 2025 | Can stellar physics explain GW231123? | 22 | 21 | 22 |
+| **74** | Mould | 2020 | Endpoint of the up-down instability in precessing binary black holes | 18 | 22 | 22 |
+| **75** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 22 | 22 | 22 |
+| **76** | Gerosa | 2019 | Wide nutation: binary black-hole spins repeatedly oscillating from full alignment to full anti-alignment | 20 | 22 | 22 |
 | **77** | Mancarella | 2023 | Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors | 15 | 21 | 21 |
 | **78** | Nealon | 2022 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity | 21 | 14 | 21 |
 | **79** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 16 | 20 | 20 |
@@ -201,4 +201,4 @@
 
 
 <br><br>
-*Last updated: 2025-12-29 10:21:53 UTC*
+*Last updated: 2025-12-30 02:01:42 UTC*
