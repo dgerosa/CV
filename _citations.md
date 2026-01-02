@@ -1,8 +1,8 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9552
+- **Total ADS citations**: 9554
 - **Total INSPIRE citations**: 10380
-- **Total MAX citations**: 10470
+- **Total MAX citations**: 10471
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -11,9 +11,9 @@
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1394 | 1564 | 1564 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 823 | 911 | 911 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 719 | 665 | 719 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 720 | 665 | 720 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 453 | 468 | 468 |
-| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 385 | 432 | 432 |
+| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 386 | 432 | 432 |
 | **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 415 | 432 | 432 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 326 | 352 | 352 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 293 | 342 | 342 |
@@ -201,4 +201,4 @@
 
 
 <br><br>
-*Last updated: 2026-01-01 11:09:31 UTC*
+*Last updated: 2026-01-02 02:01:45 UTC*
