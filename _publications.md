@@ -1,6 +1,6 @@
 ## Summary
-**10** [Submitted papers](#submitted-papers)\
-**105** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**9** [Submitted papers](#submitted-papers)\
+**106** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,15 +8,10 @@
 
 ## Submitted papers
 
-**10.**
+**9.**
 *Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521.*\
 C. Anselmo, C. Pacilio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2512.05193" style="color: inherit; text-decoration: none;">arXiv:2512.05193 [gr-qc]</a>.
- 
-**9.**
-*Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals.*\
-L. Speri, R. Tenorio, C. Chapman-Bird, **D. Gerosa**.\
-<a href="https://arxiv.org/abs/2510.20891" style="color: inherit; text-decoration: none;">arXiv:2510.20891 [gr-qc]</a>.
  
 **8.**
 *Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
@@ -63,6 +58,11 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 
 ## Papers published in major peer-reviewed journals
 
+**106.**
+*Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals.*\
+L. Speri, R. Tenorio, C. Chapman-Bird, **D. Gerosa**.\
+Physical Review D, in press. <a href="https://arxiv.org/abs/2510.20891" style="color: inherit; text-decoration: none;">arXiv:2510.20891 [gr-qc]</a>.
+ 
 **105.**
 *Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Lyman $$\alpha$$ emitters.*\
 D. Tornotti, M. Fossati, M. Fumagalli, **D. Gerosa**, L. Pizzuti, F. Arrigoni Battaia.\
@@ -685,4 +685,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-01-06 02:01:44 UTC*
+*Last updated: 2026-01-06 11:16:42 UTC*

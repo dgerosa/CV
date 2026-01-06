@@ -41,17 +41,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals",
-        "author":   "L. Speri, R. Tenorio, C. Chapman-Bird, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2510.20891 [gr-qc]",
-        "ads":      "2025arXiv251020891S",
-        "inspire":  "Speri:2025ucn",
-        "more":     ""
-        })
-    
-    papers['submitted']['data'].append({
         "title":    "Impact of facility timing and coordination for next-generation gravitational-wave detectors",
         "author":   "S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, D. Gerosa",
         "journal":  "",
@@ -143,6 +132,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals",
+        "author":   "L. Speri, R. Tenorio, C. Chapman-Bird, D. Gerosa",
+        "journal":  "\prd, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2510.20891 [gr-qc]",
+        "ads":      "2025arXiv251020891S",
+        "inspire":  "Speri:2025ucn",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $3<z<5$ Lyman $\\alpha$ emitters",
