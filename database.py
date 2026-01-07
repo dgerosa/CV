@@ -36,7 +36,7 @@ if submitted:
         "link":     "",
         "arxiv":    "arXiv:2601.02467 [astro-ph.HE]",
         "ads":      "2026arXiv260102467T",
-        "inspire":  "",
+        "inspire":  "Tenorio:2026dcc",
         "more":     ""
         })
 
