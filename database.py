@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "On the exceptionality of exceptional gravitational-wave events",
+        "author":   "R. Tenorio, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2601.02467 [astro-ph.HE]",
+        "ads":      "2026arXiv260102467T",
+        "inspire":  "",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521",
         "author":   "C. Anselmo, C. Pacilio, D. Gerosa",
         "journal":  "",
