@@ -74,17 +74,6 @@ if submitted:
         })
     
     papers['submitted']['data'].append({
-        "title":    "Can stellar physics explain GW231123?",
-        "author":   "D. Croon, J. Sakstein, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2508.10088 [astro-ph.HE]",
-        "ads":      "2025arXiv250810088C",
-        "inspire":  "Croon:2025gol",
-        "more":     ""
-        })
-    
-    papers['submitted']['data'].append({
         "title":    "Comparing astrophysical models to gravitational-wave data in the observable space",
         "author":   "A. Toubiana, D. Gerosa, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini",
         "journal":  "",
@@ -143,6 +132,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Can stellar physics explain GW231123?",
+        "author":   "D. Croon, J. Sakstein, D. Gerosa",
+        "journal":  "\mnras, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2508.10088 [astro-ph.HE]",
+        "ads":      "2025arXiv250810088C",
+        "inspire":  "Croon:2025gol",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals",
