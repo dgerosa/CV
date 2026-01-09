@@ -1,5 +1,5 @@
 ## Summary
-**9** [Submitted papers](#submitted-papers)\
+**10** [Submitted papers](#submitted-papers)\
 **106** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**10.**
+*On the exceptionality of exceptional gravitational-wave events.*\
+R. Tenorio, **D. Gerosa**.\
+<a href="https://arxiv.org/abs/2601.02467" style="color: inherit; text-decoration: none;">arXiv:2601.02467 [astro-ph.HE]</a>.
+ 
 **9.**
 *Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521.*\
 C. Anselmo, C. Pacilio, **D. Gerosa**.\
@@ -685,4 +690,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-01-08 02:01:47 UTC*
+*Last updated: 2026-01-09 02:01:45 UTC*
