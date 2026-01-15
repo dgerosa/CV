@@ -85,17 +85,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Sequential simulation-based inference for extreme mass ratio inspirals",
-        "author":   "P. S. Cole, J. Alvey, L. Speri, C. Weniger, U. Bhardwaj, D. Gerosa, G. Bertone",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2505.16795 [gr-qc]",
-        "ads":      "2025arXiv250516795C",
-        "inspire":  "Cole:2025sqo",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
         "author":   "A. Pedrotti, M. Mancarella, J. Bel, D. Gerosa",
         "journal":  "",
@@ -132,6 +121,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Sequential simulation-based inference for extreme mass ratio inspirals",
+        "author":   "P. S. Cole, J. Alvey, L. Speri, C. Weniger, U. Bhardwaj, D. Gerosa, G. Bertone",
+        "journal":  "\prd, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2505.16795 [gr-qc]",
+        "ads":      "2025arXiv250516795C",
+        "inspire":  "Cole:2025sqo",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Can stellar physics explain GW231123?",
