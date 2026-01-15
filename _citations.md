@@ -1,23 +1,23 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9611
-- **Total INSPIRE citations**: 10480
-- **Total MAX citations**: 10563
+- **Total INSPIRE citations**: 10491
+- **Total MAX citations**: 10574
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1402 | 1574 | 1574 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 829 | 919 | 919 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1402 | 1577 | 1577 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 829 | 921 | 921 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 726 | 674 | 726 |
-| **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 453 | 470 | 470 |
-| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 387 | 437 | 437 |
-| **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 421 | 437 | 437 |
+| **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 453 | 471 | 471 |
+| **5** | Barausse | 2020 | Prospects for fundamental physics with LISA | 387 | 439 | 439 |
+| **6** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 421 | 438 | 438 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 328 | 354 | 354 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 297 | 349 | 349 |
-| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 258 | 276 | 276 |
+| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 258 | 277 | 277 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 213 | 235 | 235 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 141 | 166 | 166 |
 | **12** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 138 | 161 | 161 |
@@ -78,10 +78,10 @@
 | **67** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 21 | 25 | 25 |
 | **68** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 22 | 24 | 24 |
 | **69** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 24 | 23 | 24 |
-| **70** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 22 | 23 | 23 |
-| **71** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 21 | 23 | 23 |
-| **72** | Gerosa | 2017 | On the equal-mass limit of precessing black-hole binaries | 19 | 23 | 23 |
-| **73** | Croon | 2025 | Can stellar physics explain GW231123? | 21 | 22 | 22 |
+| **70** | Croon | 2025 | Can stellar physics explain GW231123? | 21 | 23 | 23 |
+| **71** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 22 | 23 | 23 |
+| **72** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 21 | 23 | 23 |
+| **73** | Gerosa | 2017 | On the equal-mass limit of precessing black-hole binaries | 19 | 23 | 23 |
 | **74** | Mould | 2020 | Endpoint of the up-down instability in precessing binary black holes | 18 | 22 | 22 |
 | **75** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 21 | 22 | 22 |
 | **76** | Gerosa | 2019 | Wide nutation: binary black-hole spins repeatedly oscillating from full alignment to full anti-alignment | 20 | 22 | 22 |
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-01-14 17:23:45 UTC*
+*Last updated: 2026-01-15 08:15:25 UTC*
