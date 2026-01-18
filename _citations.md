@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9638
-- **Total INSPIRE citations**: 10492
-- **Total MAX citations**: 10579
+- **Total INSPIRE citations**: 10493
+- **Total MAX citations**: 10580
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -19,7 +19,7 @@
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 299 | 349 | 349 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 260 | 277 | 277 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 213 | 235 | 235 |
-| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 142 | 166 | 166 |
+| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 142 | 167 | 167 |
 | **12** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 138 | 161 | 161 |
 | **13** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 142 | 158 | 158 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 142 | 158 | 158 |
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-01-17 14:05:17 UTC*
+*Last updated: 2026-01-18 01:01:12 UTC*
