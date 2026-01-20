@@ -3364,7 +3364,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "",
+        "note":     "Then PhD student at the University of Louvain (Belgium).",
         "current":  True
         })
     
