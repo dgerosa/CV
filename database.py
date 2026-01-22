@@ -3086,16 +3086,6 @@ if postdocs:
         })
     
     group['postdocs']['data'].append({
-        "name":     "Philippa Cole",
-        "where":    "Milano-Bicocca",
-        "start":    "2023",
-        "end":      "current",
-        "bio":      "Dark matter hunter, gravitational wave decipherer, primordial black hole dreamer. Looking for signatures of dark matter in gravitational wave signals. Enjoys food-centric trips around the world and dancing to Beyonce.",
-        "email":    "philippa.cole@unimib.it",
-        "current":  True
-        })
-    
-    group['postdocs']['data'].append({
         "name":     "Ssohrab Borhanian",
         "where":    "Milano-Bicocca",
         "start":    "2023",
@@ -3115,6 +3105,17 @@ if postdocs:
         "current":  True
         })
     
+    group['postdocs']['data'].append({
+        "name":     "Philippa Cole",
+        "where":    "Milano-Bicocca",
+        "start":    "2023",
+        "end":      "current",
+        "bio":      "Dark matter hunter, gravitational wave decipherer, primordial black hole dreamer. Looking for signatures of dark matter in gravitational wave signals. Enjoys food-centric trips around the world and dancing to Beyonce.",
+        "email":    "philippa.cole@unimib.it",
+        "note":     "Supported by the ERC. Then faculty at Queen Mary University of London (UK).",
+        "current":  True
+        })
+
     group['postdocs']['data'].append({
         "name":     "Costantino Pacilio",
         "where":    "Milano-Bicocca",
@@ -3221,22 +3222,22 @@ if phd:
         "name":     "Alice Spadaro",
         "where":    "Milano-Bicocca",
         "start":    "2022",
-        "end":      "current",
+        "end":      "2025",
         "bio":      "Glitch hunter, LISA responser, gravitational-wave lover. Cares for nature, addicted to adventure sports (surf!). Likes building fun stuff with Lego bricks and gets charged up with rock music. Curious to learn something new and explore the universe.",
         "email":    "a.spadaro3@campus.unimib.it",
         "note":     "Supported by the Italian Center for Supercomputing. Then postdoc at the University of Toulouse (France).",
-        "current":  True
+        "current":  False
         })
     
     group['phd']['data'].append({
         "name":     "Giulia Fumagalli",
         "where":    "Milano-Bicocca",
         "start":    "2022",
-        "end":      "current",
+        "end":      "2025",
         "bio":      "Eccentricity calculator, outlier nightmare, PN analyzer. Likes gravitational waves, black holes, and cats. Specialized in cakes, cookies, and any sweet treats (by far the best chocolate brownie in town!). A marathon every now and then just to let off steam.",
         "email":    "g.fumagalli47@campus.unimib.it",
         "note":     "Supported by the ERC. Then Burke Fellow at the California Institute of Technology (USA).",
-        "current":  True
+        "current":  False
         })
     
     group['phd']['data'].append({

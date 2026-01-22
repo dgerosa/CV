@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9646
-- **Total INSPIRE citations**: 10511
-- **Total MAX citations**: 10596
+- **Total INSPIRE citations**: 10512
+- **Total MAX citations**: 10597
 - **h-index**: 47
 
 ## Paper list sorted by citation count
@@ -16,7 +16,7 @@
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 424 | 441 | 441 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 389 | 439 | 439 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 329 | 354 | 354 |
-| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 298 | 349 | 349 |
+| **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 298 | 350 | 350 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 261 | 277 | 277 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 213 | 235 | 235 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 142 | 168 | 168 |
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-01-22 08:38:43 UTC*
+*Last updated: 2026-01-22 11:02:30 UTC*
