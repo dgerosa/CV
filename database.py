@@ -3279,6 +3279,15 @@ if msc:
     group['msc']['data'] = []
 
     group['msc']['data'].append({
+        "name":     "Giulia Foroni",
+        "where":    "Milano-Bicocca and Columbia",
+        "what":     "MSc thesis",
+        "year":     "2026",
+        "note":     "",
+        "current":  True
+        })
+
+    group['msc']['data'].append({
         "name":     "Rocco Giugni",
         "where":    "Milano-Bicocca and Roma-Sapienza",
         "what":     "MSc thesis",

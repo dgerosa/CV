@@ -1,7 +1,7 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9646
-- **Total INSPIRE citations**: 10509
+- **Total INSPIRE citations**: 10511
 - **Total MAX citations**: 10596
 - **h-index**: 47
 
@@ -11,7 +11,7 @@
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1405 | 1580 | 1580 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 831 | 923 | 923 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 728 | 676 | 728 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 728 | 678 | 728 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 455 | 471 | 471 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 424 | 441 | 441 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 389 | 439 | 439 |
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-01-22 01:01:13 UTC*
+*Last updated: 2026-01-22 08:38:43 UTC*
