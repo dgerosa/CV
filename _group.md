@@ -48,15 +48,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
-  <img src="{{ '/images/philippa-cole.jpg' | relative_url }}" alt="Philippa Cole" class="person-photo">
-  <div class="person-text">
-    <strong>Philippa Cole</strong><br>
-    Postdoc<br>
-<a href="mailto:philippa.cole@unimib.it">philippa.cole@unimib.it</a><br>
-    <em>Dark matter hunter, gravitational wave decipherer, primordial black hole dreamer. Looking for signatures of dark matter in gravitational wave signals. Enjoys food-centric trips around the world and dancing to Beyonce.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/ssohrab-borhanian.jpg' | relative_url }}" alt="Ssohrab Borhanian" class="person-photo">
   <div class="person-text">
     <strong>Ssohrab Borhanian</strong><br>
@@ -72,6 +63,15 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     Postdoc<br>
 <a href="mailto:nicholas.loutrel@unimib.it">nicholas.loutrel@unimib.it</a><br>
     <em>Stationary phaser, burst calculator, catastrophe theorizer. Perhaps a secret agent. Still can’t understand why we talk probabilities while he lives in a deterministic world.</em>
+  </div>
+</div>
+<div class="person">
+  <img src="{{ '/images/philippa-cole.jpg' | relative_url }}" alt="Philippa Cole" class="person-photo">
+  <div class="person-text">
+    <strong>Philippa Cole</strong><br>
+    Postdoc<br>
+<a href="mailto:philippa.cole@unimib.it">philippa.cole@unimib.it</a><br>
+    <em>Dark matter hunter, gravitational wave decipherer, primordial black hole dreamer. Looking for signatures of dark matter in gravitational wave signals. Enjoys food-centric trips around the world and dancing to Beyonce.</em>
   </div>
 </div>
 <div class="person">
@@ -141,6 +141,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
 ## Current MSc and Bsc students
 Here are the amazing students who are currently completing research projects with us in the group… Taking the first fun steps into the perilous world of black holes!
 
+- **Giulia Foroni**, MSc thesis, Milano-Bicocca and Columbia, 2026.
 - **Rocco Giugni**, MSc thesis, Milano-Bicocca and Roma-Sapienza, 2026.
 - **Lisa Merlo**, MSc thesis, Milano-Bicocca, 2026.
 - **Sofia Dossena**, MSc thesis, Milano-Bicocca, 2026.
@@ -258,4 +259,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-01-23 01:01:14 UTC*
+*Last updated: 2026-01-23 16:49:02 UTC*
