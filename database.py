@@ -134,8 +134,8 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "Can stellar physics explain GW231123?",
-        "author":   "D. Croon, J. Sakstein, D. Gerosa",
+        "title":    "Can GW231123 have a stellar origin?",
+        "author":   "D. Croon, D. Gerosa, J. Sakstein",
         "journal":  "\mnras, in press",
         "link":     "",
         "arxiv":    "arXiv:2508.10088 [astro-ph.HE]",

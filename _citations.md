@@ -78,7 +78,7 @@
 | **67** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 21 | 25 | 25 |
 | **68** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 22 | 24 | 24 |
 | **69** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 24 | 23 | 24 |
-| **70** | Croon | 2025 | Can stellar physics explain GW231123? | 23 | 23 | 23 |
+| **70** | Croon | 2025 | Can GW231123 have a stellar origin? | 23 | 23 | 23 |
 | **71** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 22 | 23 | 23 |
 | **72** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 21 | 23 | 23 |
 | **73** | Gerosa | 2017 | On the equal-mass limit of precessing black-hole binaries | 19 | 23 | 23 |
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-01-25 01:01:15 UTC*
+*Last updated: 2026-01-25 06:27:29 UTC*
