@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9657
+- **Total ADS citations**: 9660
 - **Total INSPIRE citations**: 10520
 - **Total MAX citations**: 10603
 - **h-index**: 47
@@ -13,7 +13,7 @@
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 835 | 924 | 924 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 729 | 680 | 729 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 455 | 471 | 471 |
-| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 424 | 442 | 442 |
+| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 425 | 442 | 442 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 389 | 439 | 439 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 329 | 354 | 354 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 298 | 351 | 351 |
@@ -86,14 +86,14 @@
 | **75** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 21 | 22 | 22 |
 | **76** | Gerosa | 2019 | Wide nutation: binary black-hole spins repeatedly oscillating from full alignment to full anti-alignment | 20 | 22 | 22 |
 | **77** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 21 | 20 | 21 |
-| **78** | Mancarella | 2023 | Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors | 15 | 21 | 21 |
+| **78** | Mancarella | 2023 | Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors | 16 | 21 | 21 |
 | **79** | Nealon | 2022 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity | 21 | 14 | 21 |
 | **80** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 16 | 20 | 20 |
 | **81** | Varma | 2021 | Up-down instability of binary black holes in numerical relativity | 17 | 19 | 19 |
 | **82** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 14 | 18 | 18 |
 | **83** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 15 | 17 | 17 |
 | **84** | Buscicchio | 2025 | A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries | 16 | 17 | 17 |
-| **85** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 15 | 17 | 17 |
+| **85** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 16 | 17 | 17 |
 | **86** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 17 | 16 | 17 |
 | **87** | Gerosa | 2017 | filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography | 13 | 16 | 16 |
 | **88** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 14 | 15 | 15 |
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-01-24 01:01:20 UTC*
+*Last updated: 2026-01-25 01:01:15 UTC*
