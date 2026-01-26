@@ -59,8 +59,8 @@ P. S. Cole, J. Alvey, L. Speri, C. Weniger, U. Bhardwaj, **D. Gerosa**, G. Berto
 Physical Review D, in press. <a href="https://arxiv.org/abs/2505.16795" style="color: inherit; text-decoration: none;">arXiv:2505.16795 [gr-qc]</a>.
  
 **107.**
-*Can GW231123 have a stellar origin?*\
-D. Croon, **D. Gerosa**, J. Sakstein.\
+*Can stellar physics explain GW231123?*\
+D. Croon, J. Sakstein, **D. Gerosa**.\
 Monthly Notices of the Royal Astronomical Society, in press. <a href="https://arxiv.org/abs/2508.10088" style="color: inherit; text-decoration: none;">arXiv:2508.10088 [astro-ph.HE]</a>.
  
 **106.**
@@ -690,4 +690,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-01-25 06:27:29 UTC*
+*Last updated: 2026-01-26 01:01:12 UTC*
