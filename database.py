@@ -1494,7 +1494,7 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Are exceptional gravitational-wave events truly exceptional?",
-        "what":     "Gwfreeride: Carving the AI Gradient in Gravitational-Wave Astronomy",
+        "what":     "Gwfreeride: Carving the AI gradient in gravitational-wave astronomy",
         "where":    "Sexten, Italy",
         "when":     "Jan 2026",
         "invited":  False,
