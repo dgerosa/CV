@@ -1,7 +1,7 @@
 Invited talks marked with ✦.
 
 ## Summary
-**83** (**35**✦) [Talks at conferences](#talks-at-conferences) \
+**84** (**35**✦) [Talks at conferences](#talks-at-conferences) \
 **46** (**46**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **7** (**6**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
@@ -10,6 +10,9 @@ Invited talks marked with ✦.
 ---
 
 ## Talks at conferences
+
+**84.** *Are exceptional gravitational-wave events truly exceptional?*  \\
+Gwfreeride: Carving the AI gradient in gravitational-wave astronomy, Sexten, Italy, Jan 2026.
 
 **83.** ✦ *When measuring binaries, identifying each object is ambiguous*  \\
 7th Milan Christmas Workshop, Milan, Italy, Dec 2025.
@@ -546,4 +549,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-01-29 01:01:15 UTC*
+*Last updated: 2026-01-30 01:01:13 UTC*
