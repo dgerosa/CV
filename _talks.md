@@ -12,7 +12,7 @@ Invited talks marked with ✦.
 ## Talks at conferences
 
 **84.** *Are exceptional gravitational-wave events truly exceptional?*  \\
-Gwfreeride: Carving the AI gradient in gravitational-wave astronomy, Sexten, Italy, Jan 2026.
+GWfreeride: Carving the AI gradient in gravitational-wave astronomy, Sexten, Italy, Jan 2026.
 
 **83.** ✦ *When measuring binaries, identifying each object is ambiguous*  \\
 7th Milan Christmas Workshop, Milan, Italy, Dec 2025.
@@ -549,4 +549,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-01-31 01:01:16 UTC*
+*Last updated: 2026-01-31 06:49:13 UTC*

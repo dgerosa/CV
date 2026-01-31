@@ -64,9 +64,9 @@ D. Croon, **D. Gerosa**, J. Sakstein.\
 Monthly Notices of the Royal Astronomical Society, in press. <a href="https://arxiv.org/abs/2508.10088" style="color: inherit; text-decoration: none;">arXiv:2508.10088 [astro-ph.HE]</a>.
  
 **106.**
-*Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals.*\
+*Single-harmonic search for extreme mass-ratio inspirals.*\
 L. Speri, R. Tenorio, C. Chapman-Bird, **D. Gerosa**.\
-Physical Review D, in press. <a href="https://arxiv.org/abs/2510.20891" style="color: inherit; text-decoration: none;">arXiv:2510.20891 [gr-qc]</a>.
+<a href="https://journals.aps.org/prd/abstract/10.1103/dh3j-ksfl" style="color: inherit; text-decoration: none;">Physical Review D 113 (2026) 024061</a>. <a href="https://arxiv.org/abs/2510.20891" style="color: inherit; text-decoration: none;">arXiv:2510.20891 [gr-qc]</a>.
  
 **105.**
 *Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Lyman $$\alpha$$ emitters.*\
@@ -690,4 +690,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-01-31 01:01:16 UTC*
+*Last updated: 2026-01-31 06:49:13 UTC*

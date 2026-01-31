@@ -145,10 +145,10 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals",
+        "title":    "Single-harmonic search for extreme mass-ratio inspirals",
         "author":   "L. Speri, R. Tenorio, C. Chapman-Bird, D. Gerosa",
-        "journal":  "\prd, in press",
-        "link":     "",
+        "journal":  "\prd 113 (2026) 024061",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/dh3j-ksfl",
         "arxiv":    "arXiv:2510.20891 [gr-qc]",
         "ads":      "2025arXiv251020891S",
         "inspire":  "Speri:2025ucn",
@@ -1494,7 +1494,7 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Are exceptional gravitational-wave events truly exceptional?",
-        "what":     "Gwfreeride: Carving the AI gradient in gravitational-wave astronomy",
+        "what":     "GWfreeride: Carving the AI gradient in gravitational-wave astronomy",
         "where":    "Sexten, Italy",
         "when":     "Jan 2026",
         "invited":  False,

@@ -125,7 +125,7 @@
 | **114** | Boschini | 2024 | Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186 | 5 | 4 | 5 |
 | **115** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
 | **116** | Giarda | 2025 | Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background | 2 | 4 | 4 |
-| **117** | Speri | 2025 | Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals | 2 | 2 | 2 |
+| **117** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 2 | 2 | 2 |
 | **118** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 2 | 1 | 2 |
 | **119** | Gerosa | 2023 | QLUSTER: quick clusters of merging binary black holes | 2 | 0 | 2 |
 | **120** | Gerosa | 2018 | Reanalysis of LIGO black-hole coalescences with alternative prior assumptions | 2 | 2 | 2 |
@@ -157,8 +157,8 @@
 | 2022 | 10 |
 | 2023 | 11 |
 | 2024 | 10 |
-| 2025 | 28 |
-| 2026 | 1 |
+| 2025 | 27 |
+| 2026 | 2 |
 
 ## Papers per journal
 
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-01-31 01:01:16 UTC*
+*Last updated: 2026-01-31 06:49:13 UTC*
