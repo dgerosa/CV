@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9713
+- **Total ADS citations**: 9710
 - **Total INSPIRE citations**: 10577
 - **Total MAX citations**: 10659
 - **h-index**: 47
@@ -17,7 +17,7 @@
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 389 | 439 | 439 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 331 | 355 | 355 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 301 | 354 | 354 |
-| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 265 | 280 | 280 |
+| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 264 | 280 | 280 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 214 | 235 | 235 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 144 | 174 | 174 |
 | **12** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 139 | 162 | 162 |
@@ -27,7 +27,7 @@
 | **16** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 129 | 138 | 138 |
 | **17** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 115 | 137 | 137 |
 | **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 115 | 126 | 126 |
-| **19** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 109 | 125 | 125 |
+| **19** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 108 | 125 | 125 |
 | **20** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 109 | 120 | 120 |
 | **21** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 110 | 119 | 119 |
 | **22** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 89 | 101 | 101 |
@@ -45,7 +45,7 @@
 | **34** | Klein | 2022 | The last three years: multiband gravitational-wave observations of stellar-mass binary black holes | 61 | 68 | 68 |
 | **35** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 62 | 66 | 66 |
 | **36** | Buscicchio | 2021 | Bayesian parameter estimation of stellar-mass black-hole binaries with LISA | 55 | 64 | 64 |
-| **37** | Gupta | 2020 | Black holes in the low mass gap: Implications for gravitational wave observations | 60 | 64 | 64 |
+| **37** | Gupta | 2020 | Black holes in the low mass gap: Implications for gravitational wave observations | 59 | 64 | 64 |
 | **38** | Gerosa | 2018 | Black-hole kicks from numerical-relativity surrogate models | 56 | 62 | 62 |
 | **39** | Gerosa | 2015 | Precessional instability in binary black holes with aligned spins | 56 | 61 | 61 |
 | **40** | Gerosa | 2020 | Astrophysical implications of GW190412 as a remnant of a previous black-hole merger | 54 | 60 | 60 |
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-02-03 07:33:09 UTC*
+*Last updated: 2026-02-04 01:01:16 UTC*
