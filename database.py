@@ -139,7 +139,7 @@ if published:
         "journal":  "\mnras, in press",
         "link":     "",
         "arxiv":    "arXiv:2508.10088 [astro-ph.HE]",
-        "ads":      "2025arXiv250810088C",
+        "ads":      "2026MNRAS.tmp..120C",
         "inspire":  "Croon:2025gol",
         "more":     ""
         })
@@ -150,7 +150,7 @@ if published:
         "journal":  "\prd 113 (2026) 024061",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/dh3j-ksfl",
         "arxiv":    "arXiv:2510.20891 [gr-qc]",
-        "ads":      "2025arXiv251020891S",
+        "ads":      "2026PhRvD.113b4061S",
         "inspire":  "Speri:2025ucn",
         "more":     ""
         })
