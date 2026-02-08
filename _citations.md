@@ -1,21 +1,21 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9725
+- **Total ADS citations**: 9732
 - **Total INSPIRE citations**: 10604
-- **Total MAX citations**: 10683
+- **Total MAX citations**: 10684
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1419 | 1589 | 1589 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 841 | 930 | 930 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 741 | 692 | 741 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1421 | 1589 | 1589 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 842 | 930 | 930 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 742 | 692 | 742 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 456 | 473 | 473 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 433 | 450 | 450 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 390 | 439 | 439 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 304 | 355 | 355 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 305 | 355 | 355 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 331 | 355 | 355 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 264 | 282 | 282 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 215 | 236 | 236 |
@@ -38,7 +38,7 @@
 | **27** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 82 | 96 | 96 |
 | **28** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 79 | 92 | 92 |
 | **29** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 79 | 87 | 87 |
-| **30** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 67 | 79 | 79 |
+| **30** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 68 | 79 | 79 |
 | **31** | Bouffanais | 2019 | Constraining the fraction of binary black holes formed in isolation and young star clusters with gravitational-wave data | 76 | 78 | 78 |
 | **32** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 76 | 76 | 76 |
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 70 | 74 | 74 |
@@ -91,7 +91,7 @@
 | **80** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 16 | 20 | 20 |
 | **81** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 14 | 19 | 19 |
 | **82** | Varma | 2021 | Up-down instability of binary black holes in numerical relativity | 17 | 19 | 19 |
-| **83** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 16 | 17 | 17 |
+| **83** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 17 | 17 | 17 |
 | **84** | Buscicchio | 2025 | A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries | 16 | 17 | 17 |
 | **85** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 16 | 17 | 17 |
 | **86** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 17 | 17 | 17 |
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-02-07 01:02:50 UTC*
+*Last updated: 2026-02-08 01:01:21 UTC*
