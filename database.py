@@ -139,7 +139,7 @@ if published:
         "journal":  "\mnras, in press",
         "link":     "",
         "arxiv":    "arXiv:2508.10088 [astro-ph.HE]",
-        "ads":      "2026MNRAS.tmp..120C",
+        "ads":      "2026MNRAS.546ag073C",
         "inspire":  "Croon:2025gol",
         "more":     ""
         })
