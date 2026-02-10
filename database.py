@@ -136,7 +136,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Can GW231123 have a stellar origin?",
         "author":   "D. Croon, D. Gerosa, J. Sakstein",
-        "journal":  "\mnras, in press",
+        "journal":  "\mnras 530 (2024) stag073",
         "link":     "",
         "arxiv":    "arXiv:2508.10088 [astro-ph.HE]",
         "ads":      "2026MNRAS.546ag073C",

@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9732
+- **Total ADS citations**: 9729
 - **Total INSPIRE citations**: 10620
 - **Total MAX citations**: 10700
 - **h-index**: 47
@@ -10,7 +10,7 @@
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1423 | 1591 | 1591 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 842 | 930 | 930 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 839 | 930 | 930 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 743 | 693 | 743 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 456 | 474 | 474 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 435 | 450 | 450 |
@@ -79,7 +79,7 @@
 | **68** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 23 | 25 | 25 |
 | **69** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 22 | 24 | 24 |
 | **70** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 24 | 23 | 24 |
-| **71** | Croon | 2025 | Can GW231123 have a stellar origin? | 0 | 23 | 23 |
+| **71** | Croon | 2024 | Can GW231123 have a stellar origin? | 0 | 23 | 23 |
 | **72** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 23 | 23 | 23 |
 | **73** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 21 | 23 | 23 |
 | **74** | Gerosa | 2017 | On the equal-mass limit of precessing black-hole binaries | 19 | 23 | 23 |
@@ -156,8 +156,8 @@
 | 2021 | 12 |
 | 2022 | 10 |
 | 2023 | 11 |
-| 2024 | 10 |
-| 2025 | 27 |
+| 2024 | 11 |
+| 2025 | 26 |
 | 2026 | 2 |
 
 ## Papers per journal
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-02-10 15:27:20 UTC*
+*Last updated: 2026-02-10 15:36:22 UTC*
