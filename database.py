@@ -2847,7 +2847,8 @@ if outreach:
         "where":    "Milan, Italy",
         "when":     "Sep 2025",
         "invited":  True,
-        "more":     ""
+        "more":     "",
+        "recording": "https://www.youtube.com/watch?v=djgzGCjuwmM"
         })
     
     talks['outreach']['data'].append({
@@ -3122,7 +3123,7 @@ if postdocs:
         "bio":      "Dark matter hunter, gravitational wave decipherer, primordial black hole dreamer. Looking for signatures of dark matter in gravitational wave signals. Enjoys food-centric trips around the world and dancing to Beyonce.",
         "email":    "philippa.cole@unimib.it",
         "note":     "Supported by the ERC. Then faculty at Queen Mary University of London (UK).",
-        "current":  True
+        "current":  False
         })
 
     group['postdocs']['data'].append({
@@ -3246,7 +3247,7 @@ if phd:
         "bio":      "Eccentricity calculator, outlier nightmare, PN analyzer. Likes gravitational waves, black holes, and cats. Specialized in cakes, cookies, and any sweet treats (by far the best chocolate brownie in town!). A marathon every now and then just to let off steam.",
         "email":    "g.fumagalli47@campus.unimib.it",
         "note":     "Supported by the ERC. Then Burke Fellow at the California Institute of Technology (USA).",
-        "current":  True
+        "current":  False
         })
     
     group['phd']['data'].append({
