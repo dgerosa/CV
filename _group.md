@@ -66,6 +66,15 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
+  <img src="{{ '/images/philippa-cole.jpg' | relative_url }}" alt="Philippa Cole" class="person-photo">
+  <div class="person-text">
+    <strong>Philippa Cole</strong><br>
+    Postdoc<br>
+<a href="mailto:philippa.cole@unimib.it">philippa.cole@unimib.it</a><br>
+    <em>Dark matter hunter, gravitational wave decipherer, primordial black hole dreamer. Looking for signatures of dark matter in gravitational wave signals. Enjoys food-centric trips around the world and dancing to Beyonce.</em>
+  </div>
+</div>
+<div class="person">
   <img src="{{ '/images/giulia-cuomo.jpg' | relative_url }}" alt="Giulia Cuomo" class="person-photo">
   <div class="person-text">
     <strong>Giulia Cuomo</strong><br>
@@ -119,6 +128,15 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <em>Glitch hunter, LISA responser, gravitational-wave lover. Cares for nature, addicted to adventure sports (surf!). Likes building fun stuff with Lego bricks and gets charged up with rock music. Curious to learn something new and explore the universe.</em>
   </div>
 </div>
+<div class="person">
+  <img src="{{ '/images/giulia-fumagalli.jpg' | relative_url }}" alt="Giulia Fumagalli" class="person-photo">
+  <div class="person-text">
+    <strong>Giulia Fumagalli</strong><br>
+    PhD student<br>
+<a href="mailto:g.fumagalli47@campus.unimib.it">g.fumagalli47@campus.unimib.it</a><br>
+    <em>Eccentricity calculator, outlier nightmare, PN analyzer. Likes gravitational waves, black holes, and cats. Specialized in cakes, cookies, and any sweet treats (by far the best chocolate brownie in town!). A marathon every now and then just to let off steam.</em>
+  </div>
+</div>
 </div>
 ## Current MSc and Bsc students
 Here are the amazing students who are currently completing research projects with us in the group… Taking the first fun steps into the perilous world of black holes!
@@ -136,7 +154,6 @@ Here are the amazing students who are currently completing research projects wit
 - **Martin Gerini**, MSc thesis, Milano-Bicocca, 2026.
 - **Giulia Conti**, MSc thesis, Milano-Bicocca, 2026.
 - **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
-- **Nicola Toselli**, BSc thesis, Milano-Bicocca, 2026.
 - **Alessandro Zappietro**, BSc thesis, Milano-Bicocca and Pavia, 2026.
 - **Pablo Basta**, BSc thesis, Milano-Bicocca, 2026.
 
@@ -152,7 +169,6 @@ Here are the amazing students who are currently completing research projects wit
 
 - **Arianna Renzini**. Milano-Bicocca, 2023–2025. Marie Skłodowska-Curie Fellow. Then technical staff at ETH, Zurich.
 - **Swetha Baghwat**. Birmingham, 2022–2025. Stephen Hawking Fellow.
-- **Philippa Cole**. Milano-Bicocca, 2023–current. Supported by the ERC. Then faculty at Queen Mary University of London (UK).
 - **Costantino Pacilio**. Milano-Bicocca, 2022–2025. Supported by the ERC. Then permanent researcher at INFN, Rome (Italy).
 - **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille (France).
 - **Nathan Steinle**. Birmingham, 2021–2023. Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).
@@ -160,7 +176,6 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former PhD students
 
-- **Giulia Fumagalli**. Milano-Bicocca, 2022–2025. Supported by the ERC. Then Burke Fellow at the California Institute of Technology (USA).
 - **Viola De Renzis**. Milano-Bicocca, 2021–2024. Supported by the ERC. Then postdoc at the University of Aix-Marseille (France) .
 - **Daria Gangardt**. Birmingham, 2020–2024. Supported by STFC. Then Research Associate at the UK Centre for Ecology & Hydrology (UKCEH).
 - **Matthew Mould**. Birmingham, 2019–2023. Supported by STFC. Then postdoc at the Massachusetts Institute of Technology (USA).
@@ -244,4 +259,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-02-13 19:52:02 UTC*
+*Last updated: 2026-02-14 01:01:19 UTC*
