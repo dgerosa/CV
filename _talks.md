@@ -489,7 +489,8 @@ DPG Physics School ``General Relativity @99'', Bad Honnef, Germany, Sep 2014.
 ## Outreach talks
 
 **18.** ✦ *Onde di gravit\`a*  \\
-MEETmeTonight European Researchers' Night, Milan, Italy, Sep 2025.
+MEETmeTonight European Researchers' Night, Milan, Italy, Sep 2025.  \\
+ [Recording](https://www.youtube.com/watch?v=djgzGCjuwmM).
 
 **17.** ✦ *Buchi neri ed onde gravitazionali (aka: ``Cosa racconto alla vostra prof. dopo una giornata di lavoro'')*  \\
 Collegio San Carlo, Milan, Italy, Jun 2024.
@@ -549,4 +550,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-02-14 01:01:19 UTC*
+*Last updated: 2026-02-15 01:01:21 UTC*
