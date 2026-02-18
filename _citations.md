@@ -1,7 +1,7 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9767
-- **Total INSPIRE citations**: 10676
+- **Total ADS citations**: 9763
+- **Total INSPIRE citations**: 10677
 - **Total MAX citations**: 10751
 - **h-index**: 47
 
@@ -9,11 +9,11 @@
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1412 | 1593 | 1593 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1412 | 1594 | 1594 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 842 | 935 | 935 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 745 | 699 | 745 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 744 | 699 | 744 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 476 | 476 |
-| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 434 | 450 | 450 |
+| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 432 | 450 | 450 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 391 | 440 | 440 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 307 | 360 | 360 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 331 | 358 | 358 |
@@ -80,7 +80,7 @@
 | **69** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 23 | 25 | 25 |
 | **70** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 25 | 24 | 25 |
 | **71** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 22 | 24 | 24 |
-| **72** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 23 | 23 | 23 |
+| **72** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 22 | 23 | 23 |
 | **73** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 21 | 23 | 23 |
 | **74** | Gerosa | 2017 | On the equal-mass limit of precessing black-hole binaries | 19 | 23 | 23 |
 | **75** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 21 | 22 | 22 |
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-02-18 11:59:16 UTC*
+*Last updated: 2026-02-18 17:57:00 UTC*
