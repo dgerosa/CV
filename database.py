@@ -2703,6 +2703,15 @@ if lectures:
     talks['lectures'] = {}
     talks['lectures']['label'] = 'Lectures at PhD schools'
     talks['lectures']['data'] = []
+    
+    talks['lectures']['data'].append({
+        "title":    "Bayesian inference and stochastic sampling in (astro)physics",
+        "what":     "Visitor program mini-course, Instituto Superior Técnico",
+        "where":    "Lisbon, Portugal",
+        "when":     "Feb 2026",
+        "invited":  True,
+        "more":     ""
+        })
 
     talks['lectures']['data'].append({
         "title":    "PhDs, postdocs, faculties, and all that",
