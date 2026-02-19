@@ -2,7 +2,7 @@ Invited talks marked with ✦.
 
 ## Summary
 **84** (**35**✦) [Talks at conferences](#talks-at-conferences) \
-**46** (**46**✦) [Talks at department seminars](#talks-at-department-seminars) \
+**47** (**47**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **7** (**6**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
 **18** (**18**✦) [Outreach talks](#outreach-talks)
@@ -284,6 +284,9 @@ BritGrav 14, Cambridge, UK, Mar 2014.
 
 ## Talks at department seminars
 
+**47.** ✦ *Merging binary black holes, the first ten years*  \\
+Physics colloquium, Instituto Superior Técnico, Lisbon, Portugal, Feb 2026.
+
 **46.** ✦ *What gravitational waves can(not) reveal about merging black holes*  \\
 CPT seminars, Centre de Physique Théorique, Université d'Aix-Marseille, Marseille, France, Oct 2025.
 
@@ -550,4 +553,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-02-19 01:01:45 UTC*
+*Last updated: 2026-02-19 11:46:20 UTC*

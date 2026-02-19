@@ -1,22 +1,22 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9763
-- **Total INSPIRE citations**: 10678
-- **Total MAX citations**: 10752
+- **Total ADS citations**: 9766
+- **Total INSPIRE citations**: 10680
+- **Total MAX citations**: 10753
 - **h-index**: 47
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1412 | 1594 | 1594 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1412 | 1595 | 1595 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 842 | 935 | 935 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 744 | 699 | 744 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 744 | 700 | 744 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 476 | 476 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 432 | 450 | 450 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 391 | 440 | 440 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 307 | 360 | 360 |
-| **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 331 | 358 | 358 |
+| **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 333 | 358 | 358 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 267 | 284 | 284 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 218 | 240 | 240 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 146 | 176 | 176 |
@@ -32,7 +32,7 @@
 | **21** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 110 | 119 | 119 |
 | **22** | Gerosa | 2016 | PRECESSION: Dynamics of spinning black-hole binaries with python | 93 | 103 | 103 |
 | **23** | Wysocki | 2018 | Explaining LIGO's observations via isolated binary evolution with natal kicks | 98 | 102 | 102 |
-| **24** | Vitale | 2017 | Impact of Bayesian priors on the characterization of binary black hole coalescences | 86 | 102 | 102 |
+| **24** | Vitale | 2017 | Impact of Bayesian priors on the characterization of binary black hole coalescences | 87 | 102 | 102 |
 | **25** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 89 | 100 | 100 |
 | **26** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 82 | 98 | 98 |
 | **27** | Taylor | 2018 | Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework | 92 | 97 | 97 |
@@ -203,4 +203,4 @@
 
 
 <br><br>
-*Last updated: 2026-02-19 01:01:45 UTC*
+*Last updated: 2026-02-19 11:46:20 UTC*
