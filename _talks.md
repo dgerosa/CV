@@ -3,7 +3,7 @@ Invited talks marked with ✦.
 ## Summary
 **84** (**35**✦) [Talks at conferences](#talks-at-conferences) \
 **47** (**47**✦) [Talks at department seminars](#talks-at-department-seminars) \
-**7** (**6**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
+**8** (**7**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
 **18** (**18**✦) [Outreach talks](#outreach-talks)
 
@@ -434,6 +434,9 @@ Lunch talks, Leiden Observatory, Leiden, The Netherlands, Jan 2012.
 
 ## Lectures at PhD schools
 
+**8.** ✦ *Bayesian inference and stochastic sampling in (astro)physics*  \\
+Visitor program mini-course, Instituto Superior Técnico, Lisbon, Portugal, Feb 2026.
+
 **7.** ✦ *PhDs, postdocs, faculties, and all that*  \\
 AstroCareer Day @ University of Milano-Bicocca, Milan, Italy, Dec 2025.
 
@@ -553,4 +556,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-02-20 01:01:20 UTC*
+*Last updated: 2026-02-20 19:22:24 UTC*
