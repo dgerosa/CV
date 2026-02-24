@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Inferring the population properties of galactic binaries from LISA'sstochastic foreground",
+        "author":   "F. De Santi, A. Santini, A. Toubiana, N. Karnesis, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2602.18560 [astro-ph.HE]",
+        "ads":      "2026arXiv260218560D",
+        "inspire":  "DeSanti:2026xhs",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "On the exceptionality of exceptional gravitational-wave events",
         "author":   "R. Tenorio, D. Gerosa",
         "journal":  "",

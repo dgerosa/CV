@@ -1,5 +1,5 @@
 ## Summary
-**8** [Submitted papers](#submitted-papers)\
+**9** [Submitted papers](#submitted-papers)\
 **108** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**9.**
+*Inferring the population properties of galactic binaries from LISA'sstochastic foreground.*\
+F. De Santi, A. Santini, A. Toubiana, N. Karnesis, **D. Gerosa**.\
+<a href="https://arxiv.org/abs/2602.18560" style="color: inherit; text-decoration: none;">arXiv:2602.18560 [astro-ph.HE]</a>.
+ 
 **8.**
 *On the exceptionality of exceptional gravitational-wave events.*\
 R. Tenorio, **D. Gerosa**.\
@@ -690,4 +695,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-02-24 01:03:06 UTC*
+*Last updated: 2026-02-24 05:29:52 UTC*
