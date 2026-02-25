@@ -1356,7 +1356,7 @@ if proceedings:
         "journal":  "\lrr 28 (2025) 9",
         "link":     "",
         "arxiv":    "arXiv:2311.01300 [gr-qc]",
-        "ads":      "2023arXiv231101300L",
+        "ads":      "2025LRR....28....9L",
         "inspire":  "LISAConsortiumWaveformWorkingGroup:2023arg",
         "more":     ""
         })
