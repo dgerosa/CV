@@ -9,7 +9,7 @@
 ## Submitted papers
 
 **9.**
-*Inferring the population properties of galactic binaries from LISA'sstochastic foreground.*\
+*Inferring the population properties of galactic binaries from LISA's stochastic foreground.*\
 F. De Santi, A. Santini, A. Toubiana, N. Karnesis, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2602.18560" style="color: inherit; text-decoration: none;">arXiv:2602.18560 [astro-ph.HE]</a>.
  
@@ -695,4 +695,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-02-26 10:57:43 UTC*
+*Last updated: 2026-02-26 11:12:28 UTC*

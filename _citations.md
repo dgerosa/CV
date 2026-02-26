@@ -132,7 +132,7 @@
 | **121** | Tenorio | 2026 | On the exceptionality of exceptional gravitational-wave events | 1 | 1 | 1 |
 | **122** | Anselmo | 2025 | Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521 | 1 | 1 | 1 |
 | **123** | Gerosa | 2015 | Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history | 0 | 1 | 1 |
-| **124** | De Santi | 2026 | Inferring the population properties of galactic binaries from LISA'sstochastic foreground | 0 | 0 | 0 |
+| **124** | De Santi | 2026 | Inferring the population properties of galactic binaries from LISA's stochastic foreground | 0 | 0 | 0 |
 | **125** | Borhanian | 2025 | Impact of facility timing and coordination for next-generation gravitational-wave detectors | 0 | 0 | 0 |
 | **126** | Loutrel | 2025 | Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries | 0 | 0 | 0 |
 | **127** | Tornotti | 2025 | Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Lyman $$\alpha$$ emitters | 0 | 0 | 0 |
@@ -204,4 +204,4 @@
 
 
 <br><br>
-*Last updated: 2026-02-26 10:57:43 UTC*
+*Last updated: 2026-02-26 11:12:28 UTC*

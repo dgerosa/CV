@@ -30,7 +30,7 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
-        "title":    "Inferring the population properties of galactic binaries from LISA'sstochastic foreground",
+        "title":    "Inferring the population properties of galactic binaries from LISA's stochastic foreground",
         "author":   "F. De Santi, A. Santini, A. Toubiana, N. Karnesis, D. Gerosa",
         "journal":  "",
         "link":     "",
