@@ -3375,6 +3375,16 @@ if msc:
         "note":     "",
         "current":  True
         })
+    
+    group['msc']['data'].append({
+        "name":     "Giorgio Monti",
+        "where":    "Milano-Bicocca and GSSI L'Aquila",
+        "what":     "MSc thesis",
+        "year":     "2026",
+        "note":     "",
+        "current":  True
+        })
+    
 
     group['msc']['data'].append({
         "name":     "Pietro Zeduri",
@@ -3404,20 +3414,11 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "Giorgio Monti",
-        "where":    "Milano-Bicocca and GSSI L'Aquila",
-        "what":     "MSc thesis",
-        "year":     "2026",
-        "note":     "",
-        "current":  True
-        })
-    
-    group['msc']['data'].append({
         "name":     "Oliver Rossi",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "",
+        "note":     "The softwar engineer at NetCom Group (Italy).",
         "current":  True
         })
     
