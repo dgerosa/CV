@@ -66,7 +66,7 @@ Physical Review D, in press. <a href="https://arxiv.org/abs/2505.16795" style="c
 **107.**
 *Can GW231123 have a stellar origin?*\
 D. Croon, **D. Gerosa**, J. Sakstein.\
-<a href="https://academic.oup.com/mnras/article/doi/10.1093/mnras/stag073/8431335" style="color: inherit; text-decoration: none;">Monthly Notices of the Royal Astronomical Society 530 (2024) stag073</a>. <a href="https://arxiv.org/abs/2508.10088" style="color: inherit; text-decoration: none;">arXiv:2508.10088 [astro-ph.HE]</a>.
+<a href="https://academic.oup.com/mnras/article/doi/10.1093/mnras/stag073/8431335" style="color: inherit; text-decoration: none;">Monthly Notices of the Royal Astronomical Society 546 (2026) stag073</a>. <a href="https://arxiv.org/abs/2508.10088" style="color: inherit; text-decoration: none;">arXiv:2508.10088 [astro-ph.HE]</a>.
  
 **106.**
 *Single-harmonic search for extreme mass-ratio inspirals.*\
@@ -695,4 +695,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-03-01 12:33:19 UTC*
+*Last updated: 2026-03-01 13:38:30 UTC*

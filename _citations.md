@@ -74,7 +74,7 @@
 | **63** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 28 | 29 | 29 |
 | **64** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 27 | 29 | 29 |
 | **65** | Fumagalli | 2024 | Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes | 28 | 27 | 28 |
-| **66** | Croon | 2024 | Can GW231123 have a stellar origin? | 26 | 23 | 26 |
+| **66** | Croon | 2026 | Can GW231123 have a stellar origin? | 26 | 23 | 26 |
 | **67** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 22 | 26 | 26 |
 | **68** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 25 | 26 | 26 |
 | **69** | Rosca-Mead | 2020 | Structure of neutron stars in massive scalar-tensor gravity | 23 | 26 | 26 |
@@ -157,9 +157,9 @@
 | 2021 | 12 |
 | 2022 | 10 |
 | 2023 | 11 |
-| 2024 | 11 |
+| 2024 | 10 |
 | 2025 | 26 |
-| 2026 | 3 |
+| 2026 | 4 |
 
 ## Papers per journal
 
@@ -204,4 +204,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-01 12:33:19 UTC*
+*Last updated: 2026-03-01 13:38:30 UTC*
