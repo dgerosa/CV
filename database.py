@@ -2714,7 +2714,17 @@ if lectures:
     talks['lectures'] = {}
     talks['lectures']['label'] = 'Lectures at PhD schools'
     talks['lectures']['data'] = []
-    
+
+    talks['lectures']['data'].append({
+        "title":    "Gravitational waves from compact binaries",
+        "what":     "Theoretical Aspects of Astroparticle Physics, Cosmology and Gravitation (6h class)",
+        "where":    "Florence, Italy",
+        "when":     "Mar 2026",
+        "invited":  True,
+        "more":     ""
+        })
+
+
     talks['lectures']['data'].append({
         "title":    "Bayesian inference and stochastic sampling in (astro)physics",
         "what":     "Visitor program mini-course, Instituto Superior Técnico",
