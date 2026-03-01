@@ -3143,7 +3143,7 @@ if postdocs:
         "bio":      "Stationary phaser, burst calculator, catastrophe theorizer. Perhaps a secret agent. Still can’t understand why we talk probabilities while he lives in a deterministic world.",
         "end":      "current",
         "email":    "nicholas.loutrel@unimib.it",
-        "note":     "Then journal editor at Physical Review Letters, American Physical Society.",
+        "note":     "Supported by the ERC. Then journal editor at Physical Review Letters, American Physical Society.",
         "current":  True
         })
     
