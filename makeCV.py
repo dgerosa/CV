@@ -859,15 +859,13 @@ def markdowngroup(group, filename="_group.md"):
             then_str += '.'
         return then_str
 
-    def exclude_from_markdown(note):
-        if not note:
-            return False
-        return str(note).strip() == "NO"
+    def exclude_from_markdown(entry):
+        return entry.get("bio", "") is None
 
     def extract_former_longterm(data):
         entries = []
         for x in data:
-            if not x.get("current", False) and not exclude_from_markdown(x.get("note", "")):
+            if not x.get("current", False) and not exclude_from_markdown(x):
                 start = str(x.get("start", ""))
                 end = str(x.get("end", ""))
                 years = f"{start}–{end}" if start and end else start or end
@@ -890,7 +888,7 @@ def markdowngroup(group, filename="_group.md"):
     def extract_former_shortterm(data):
         entries = []
         for x in data:
-            if not x.get("current", False) and not exclude_from_markdown(x.get("note", "")):
+            if not x.get("current", False) and not exclude_from_markdown(x):
                 entries.append({
                     "name": x["name"].replace("~", " "),
                     "where": x["where"],
