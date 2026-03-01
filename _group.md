@@ -30,15 +30,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
-  <img src="{{ '/images/alexandre-toubiana.jpg' | relative_url }}" alt="Alexandre Toubiana" class="person-photo">
-  <div class="person-text">
-    <strong>Alexandre Toubiana</strong><br>
-    Postdoc<br>
-<a href="mailto:alexandre.toubiana@unimib.it">alexandre.toubiana@unimib.it</a><br>
-    <em>Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/rodrigo-tenorio.jpg' | relative_url }}" alt="Rodrigo Tenorio" class="person-photo">
   <div class="person-text">
     <strong>Rodrigo Tenorio</strong><br>
@@ -245,4 +236,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-03-01 01:01:40 UTC*
+*Last updated: 2026-03-01 09:39:07 UTC*

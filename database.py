@@ -3045,6 +3045,17 @@ if fellowships:
     group['fellowships']['data'] = []
 
     group['fellowships']['data'].append({
+        "name":         "Alexandre Toubiana",
+        "where":        "Milano-Bicocca",
+        "fellowship":   "MUR Young Researchers Fellow",
+        "start":        "2025",
+        "end":          "current",
+        "bio":          None,
+        "email":        "alexandre.toubiana@unimib.it",
+        "current":      True,
+        })    
+
+    group['fellowships']['data'].append({
         "name":         "Zacharias Roupas",
         "where":        "Milano-Bicocca",
         "fellowship":   "ERC Marie Skłodowska-Curie Fellow",
@@ -3106,16 +3117,6 @@ if postdocs:
         })
     
     group['postdocs']['data'].append({
-        "name":     "Alexandre Toubiana",
-        "where":    "Milano-Bicocca",
-        "start":    "2024",
-        "end":      "current",
-        "bio":      "Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.",
-        "email":    "alexandre.toubiana@unimib.it",
-        "current":  True
-        }) 
-    
-    group['postdocs']['data'].append({
         "name":     "Rodrigo Tenorio",
         "where":    "Milano-Bicocca",
         "start":    "2024",
@@ -3142,6 +3143,7 @@ if postdocs:
         "bio":      "Stationary phaser, burst calculator, catastrophe theorizer. Perhaps a secret agent. Still can’t understand why we talk probabilities while he lives in a deterministic world.",
         "end":      "current",
         "email":    "nicholas.loutrel@unimib.it",
+        "note":     "Then journal editor at Physical Review Letters, American Physical Society.",
         "current":  True
         })
     
@@ -3166,6 +3168,17 @@ if postdocs:
         "note":     "Supported by the ERC. Then permanent researcher at INFN, Rome (Italy).",
         "current":  False
         })
+    
+    group['postdocs']['data'].append({
+        "name":     "Alexandre Toubiana",
+        "where":    "Milano-Bicocca",
+        "start":    "2024",
+        "end":      "2025",
+        "bio":      "Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.",
+        "email":    "alexandre.toubiana@unimib.it",
+        "note":     "NO",
+        "current":  False
+        }) 
     
     group['postdocs']['data'].append({
         "name":     "Michele Mancarella",
