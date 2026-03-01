@@ -128,10 +128,10 @@ Here are the amazing students who are currently completing research projects wit
 - **Lisa Merlo**, MSc thesis, Milano-Bicocca, 2026.
 - **Sofia Dossena**, MSc thesis, Milano-Bicocca, 2026.
 - **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2026.
+- **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
 - **Pietro Zeduri**, MSc thesis, Milano-Bicocca and Aix-Marseille, 2026.
 - **Alessia Corelli**, MSc thesis, Milano-Bicocca and Nottingham, 2026.
 - **Federico Leto di Priolo**, MSc thesis, Milano-Bicocca and ESO Garching, 2026.
-- **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
 - **Oliver Rossi**, MSc thesis, Milano-Bicocca, 2026.
 - **Martin Gerini**, MSc thesis, Milano-Bicocca, 2026.
 - **Giulia Conti**, MSc thesis, Milano-Bicocca, 2026.
@@ -245,4 +245,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-03-01 12:27:58 UTC*
+*Last updated: 2026-03-01 12:33:19 UTC*
