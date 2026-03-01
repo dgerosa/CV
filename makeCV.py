@@ -875,9 +875,17 @@ def markdowngroup(group, filename="_group.md"):
                     "name": x["name"].replace("~", " "),
                     "where": x["where"],
                     "years": years,
-                    "note": x.get("note", "")
+                    "note": x.get("note", ""),
+                    "start": start,
+                    "end": end
                 })
         return entries
+
+    def parse_year(value):
+        if not value:
+            return -1
+        m = re.search(r"\d{4}", str(value))
+        return int(m.group(0)) if m else -1
 
     def extract_former_shortterm(data):
         entries = []
@@ -897,7 +905,17 @@ def markdowngroup(group, filename="_group.md"):
     former_mscs = extract_former_shortterm(group['msc']['data'])
     former_bscs = extract_former_shortterm(group['bsc']['data'])
 
-    former_section("Former postdocs", former_fellowships + former_postdocs)
+    former_postdocs_all = former_fellowships + former_postdocs
+    former_postdocs_all = sorted(
+        former_postdocs_all,
+        key=lambda x: (
+            -parse_year(x.get("end", "")),
+            -parse_year(x.get("start", "")),
+            x["name"].lower()
+        )
+    )
+
+    former_section("Former postdocs", former_postdocs_all)
     former_section("Former PhD students", former_phds)
     former_section("Former MSc students", former_mscs)
     former_section("Former BSc students", former_bscs)

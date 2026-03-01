@@ -3050,7 +3050,7 @@ if fellowships:
         "fellowship":   "MUR Young Researchers Fellow",
         "start":        "2025",
         "end":          "current",
-        "bio":          None,
+        "bio":          "Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.",
         "email":        "alexandre.toubiana@unimib.it",
         "current":      True,
         })    
@@ -3151,7 +3151,7 @@ if postdocs:
         "name":     "Philippa Cole",
         "where":    "Milano-Bicocca",
         "start":    "2023",
-        "end":      "current",
+        "end":      "2026",
         "bio":      "Dark matter hunter, gravitational wave decipherer, primordial black hole dreamer. Looking for signatures of dark matter in gravitational wave signals. Enjoys food-centric trips around the world and dancing to Beyonce.",
         "email":    "philippa.cole@unimib.it",
         "note":     "Supported by the ERC. Then faculty at Queen Mary University of London (UK).",
@@ -3174,9 +3174,8 @@ if postdocs:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "2025",
-        "bio":      "Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.",
+        "bio":      None,
         "email":    "alexandre.toubiana@unimib.it",
-        "note":     "NO",
         "current":  False
         }) 
     
