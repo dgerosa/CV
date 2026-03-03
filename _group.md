@@ -12,6 +12,15 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
+  <img src="{{ '/images/alexandre-toubiana.jpg' | relative_url }}" alt="Alexandre Toubiana" class="person-photo">
+  <div class="person-text">
+    <strong>Alexandre Toubiana</strong><br>
+    MUR Young Researchers Fellow<br>
+<a href="mailto:alexandre.toubiana@unimib.it">alexandre.toubiana@unimib.it</a><br>
+    <em>Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.</em>
+  </div>
+</div>
+<div class="person">
   <img src="{{ '/images/caroline-owen.jpg' | relative_url }}" alt="Caroline Owen" class="person-photo">
   <div class="person-text">
     <strong>Caroline Owen</strong><br>
@@ -27,15 +36,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     Postdoc<br>
 <a href="mailto:tristan.bruel@unimib.it">tristan.bruel@unimib.it</a><br>
     <em>Binary black holes enjoyer, population synthesizer, star cluster simulator. Dream of identifying the host galaxies of black hole mergers. Addicted to endurance sports and eager to bring a French touch to local Italian rugby.</em>
-  </div>
-</div>
-<div class="person">
-  <img src="{{ '/images/alexandre-toubiana.jpg' | relative_url }}" alt="Alexandre Toubiana" class="person-photo">
-  <div class="person-text">
-    <strong>Alexandre Toubiana</strong><br>
-    Postdoc<br>
-<a href="mailto:alexandre.toubiana@unimib.it">alexandre.toubiana@unimib.it</a><br>
-    <em>Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.</em>
   </div>
 </div>
 <div class="person">
@@ -128,10 +128,10 @@ Here are the amazing students who are currently completing research projects wit
 - **Lisa Merlo**, MSc thesis, Milano-Bicocca, 2026.
 - **Sofia Dossena**, MSc thesis, Milano-Bicocca, 2026.
 - **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2026.
+- **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
 - **Pietro Zeduri**, MSc thesis, Milano-Bicocca and Aix-Marseille, 2026.
 - **Alessia Corelli**, MSc thesis, Milano-Bicocca and Nottingham, 2026.
 - **Federico Leto di Priolo**, MSc thesis, Milano-Bicocca and ESO Garching, 2026.
-- **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
 - **Oliver Rossi**, MSc thesis, Milano-Bicocca, 2026.
 - **Martin Gerini**, MSc thesis, Milano-Bicocca, 2026.
 - **Giulia Conti**, MSc thesis, Milano-Bicocca, 2026.
@@ -151,10 +151,10 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former postdocs
 
+- **Philippa Cole**. Milano-Bicocca, 2023–2026. Supported by the ERC. Then faculty at Queen Mary University of London (UK).
 - **Arianna Renzini**. Milano-Bicocca, 2023–2025. Marie Skłodowska-Curie Fellow. Then technical staff at ETH, Zurich.
-- **Swetha Baghwat**. Birmingham, 2022–2025. Stephen Hawking Fellow.
-- **Philippa Cole**. Milano-Bicocca, 2023–current. Supported by the ERC. Then faculty at Queen Mary University of London (UK).
 - **Costantino Pacilio**. Milano-Bicocca, 2022–2025. Supported by the ERC. Then permanent researcher at INFN, Rome (Italy).
+- **Swetha Baghwat**. Birmingham, 2022–2025. Stephen Hawking Fellow.
 - **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille (France).
 - **Nathan Steinle**. Birmingham, 2021–2023. Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).
 - **Nicola Giacobbo**. Birmingham, 2020–2021. Supported by the Leverhulme Trust. Then software developer at IRS Srl (Italy).
@@ -245,4 +245,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-03-02 01:01:12 UTC*
+*Last updated: 2026-03-03 01:01:14 UTC*
