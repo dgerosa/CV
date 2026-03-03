@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Variance of gravitational-wave populations",
+        "author":   "A. Corelli, D. Gerosa, M. Mould, C. M. Fabbri",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2603.00239 [astro-ph.HE]",
+        "ads":      "2026arXiv260300239C",
+        "inspire":  "Corelli:2026thw",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Inferring the population properties of galactic binaries from LISA's stochastic foreground",
         "author":   "F. De Santi, A. Santini, A. Toubiana, N. Karnesis, D. Gerosa",
         "journal":  "",
