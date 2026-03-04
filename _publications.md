@@ -1,5 +1,5 @@
 ## Summary
-**9** [Submitted papers](#submitted-papers)\
+**10** [Submitted papers](#submitted-papers)\
 **108** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**10.**
+*Variance of gravitational-wave populations.*\
+A. Corelli, **D. Gerosa**, M. Mould, C. M. Fabbri.\
+<a href="https://arxiv.org/abs/2603.00239" style="color: inherit; text-decoration: none;">arXiv:2603.00239 [astro-ph.HE]</a>.
+ 
 **9.**
 *Inferring the population properties of galactic binaries from LISA's stochastic foreground.*\
 F. De Santi, A. Santini, A. Toubiana, N. Karnesis, **D. Gerosa**.\
@@ -695,4 +700,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-03-04 01:01:12 UTC*
+*Last updated: 2026-03-04 06:43:02 UTC*
