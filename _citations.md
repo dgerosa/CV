@@ -121,8 +121,8 @@
 | **110** | Dabrowny | 2021 | Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness | 5 | 6 | 6 |
 | **111** | Varma | 2019 | The binary black hole explorer: on-the-fly visualizations of precessing binary black holes | 4 | 6 | 6 |
 | **112** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 5 | 5 | 5 |
-| **113** | Toubiana | 2025 | Comparing astrophysical models to gravitational-wave data in the observable space | 5 | 4 | 5 |
-| **114** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 5 | 5 |
+| **113** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 5 | 5 |
+| **114** | Toubiana | 2025 | Comparing astrophysical models to gravitational-wave data in the observable space | 5 | 4 | 5 |
 | **115** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 5 | 5 | 5 |
 | **116** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
 | **117** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 4 | 3 | 4 |
@@ -166,10 +166,10 @@
 
 | Journal | Paper count |
 |---------|--------------|
-| Physical Review D | 59 |
+| Physical Review D | 60 |
 | Monthly Notices of the Royal Astronomical Society | 13 |
-| arXiv | 11 |
 | Classical and Quantum Gravity | 11 |
+| arXiv | 10 |
 | Physical Review Letters | 9 |
 | Astronomy & Astrophysics | 5 |
 | Astrophysical Journal | 5 |
@@ -205,4 +205,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-05 13:44:25 UTC*
+*Last updated: 2026-03-05 16:46:13 UTC*
