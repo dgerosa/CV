@@ -152,7 +152,7 @@ Here are the amazing students who are currently completing research projects wit
 ## Former postdocs
 
 - **Philippa Cole**. Milano-Bicocca, 2023–2026. Supported by the ERC. Then faculty at Queen Mary University of London (UK).
-- **Arianna Renzini**. Milano-Bicocca, 2023–2025. Marie Skłodowska-Curie Fellow. Then technical staff at ETH, Zurich.
+- **Arianna Renzini**. Milano-Bicocca, 2023–2025. Marie Skłodowska-Curie Fellow. Then permanent researcher at ETH, Zurich.
 - **Costantino Pacilio**. Milano-Bicocca, 2022–2025. Supported by the ERC. Then permanent researcher at INFN, Rome (Italy).
 - **Swetha Baghwat**. Birmingham, 2022–2025. Stephen Hawking Fellow.
 - **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille (France).
@@ -245,4 +245,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-03-05 11:56:24 UTC*
+*Last updated: 2026-03-05 13:44:25 UTC*

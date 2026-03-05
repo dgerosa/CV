@@ -3095,7 +3095,7 @@ if fellowships:
         "end":          "2025",
         "bio":          "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
         "email":        "arianna.renzini@unimib.it",
-        "note":         "Marie Skłodowska-Curie Fellow. Then technical staff at ETH, Zurich.",
+        "note":         "Marie Skłodowska-Curie Fellow. Then permanent researcher at ETH, Zurich.",
         "current":      False
         })
     
