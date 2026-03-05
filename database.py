@@ -96,17 +96,6 @@ if submitted:
         })
     
     papers['submitted']['data'].append({
-        "title":    "Comparing astrophysical models to gravitational-wave data in the observable space",
-        "author":   "A. Toubiana, D. Gerosa, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2507.13249 [gr-qc]",
-        "ads":      "2025arXiv250713249T",
-        "inspire":  "Toubiana:2025syw",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
         "author":   "A. Pedrotti, M. Mancarella, J. Bel, D. Gerosa",
         "journal":  "",
@@ -143,6 +132,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['submitted']['data'].append({
+        "title":    "Comparing astrophysical models to gravitational-wave data in the observable space",
+        "author":   "A. Toubiana, D. Gerosa, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini",
+        "journal":  "\prd, in press",
+        "link":     "",
+        "arxiv":    "arXiv:2507.13249 [gr-qc]",
+        "ads":      "2025arXiv250713249T",
+        "inspire":  "Toubiana:2025syw",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Sequential simulation-based inference for extreme mass ratio inspirals",
