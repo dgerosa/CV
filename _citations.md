@@ -1,17 +1,17 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9827
-- **Total INSPIRE citations**: 10778
-- **Total MAX citations**: 10853
+- **Total INSPIRE citations**: 10781
+- **Total MAX citations**: 10854
 - **h-index**: 48
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1413 | 1605 | 1605 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1413 | 1606 | 1606 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 846 | 940 | 940 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 754 | 707 | 754 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 754 | 708 | 754 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 457 | 479 | 479 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 433 | 455 | 455 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 394 | 443 | 443 |
@@ -121,8 +121,8 @@
 | **110** | Dabrowny | 2021 | Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness | 5 | 6 | 6 |
 | **111** | Varma | 2019 | The binary black hole explorer: on-the-fly visualizations of precessing binary black holes | 4 | 6 | 6 |
 | **112** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 5 | 5 | 5 |
-| **113** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 5 | 5 |
-| **114** | Toubiana | 2025 | Comparing astrophysical models to gravitational-wave data in the observable space | 5 | 4 | 5 |
+| **113** | Toubiana | 2025 | Comparing astrophysical models to gravitational-wave data in the observable space | 5 | 5 | 5 |
+| **114** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 5 | 5 |
 | **115** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 5 | 5 | 5 |
 | **116** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
 | **117** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 4 | 3 | 4 |
@@ -166,10 +166,10 @@
 
 | Journal | Paper count |
 |---------|--------------|
-| Physical Review D | 60 |
+| Physical Review D | 59 |
 | Monthly Notices of the Royal Astronomical Society | 13 |
+| arXiv | 11 |
 | Classical and Quantum Gravity | 11 |
-| arXiv | 10 |
 | Physical Review Letters | 9 |
 | Astronomy & Astrophysics | 5 |
 | Astrophysical Journal | 5 |
@@ -205,4 +205,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-05 16:46:13 UTC*
+*Last updated: 2026-03-06 01:01:18 UTC*
