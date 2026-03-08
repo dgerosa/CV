@@ -1,21 +1,21 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9834
+- **Total ADS citations**: 9837
 - **Total INSPIRE citations**: 10777
-- **Total MAX citations**: 10852
+- **Total MAX citations**: 10851
 - **h-index**: 48
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1413 | 1606 | 1606 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 846 | 939 | 939 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 755 | 707 | 755 |
-| **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 457 | 479 | 479 |
-| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 433 | 455 | 455 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1415 | 1606 | 1606 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 847 | 939 | 939 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 754 | 707 | 754 |
+| **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 479 | 479 |
+| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 434 | 455 | 455 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 395 | 443 | 443 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 310 | 361 | 361 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 309 | 361 | 361 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 335 | 361 | 361 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 269 | 291 | 291 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 219 | 242 | 242 |
@@ -205,4 +205,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-07 01:01:17 UTC*
+*Last updated: 2026-03-08 01:01:16 UTC*
