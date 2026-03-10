@@ -1,29 +1,29 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9855
-- **Total INSPIRE citations**: 10789
-- **Total MAX citations**: 10866
+- **Total INSPIRE citations**: 10795
+- **Total MAX citations**: 10871
 - **h-index**: 48
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1417 | 1606 | 1606 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1417 | 1608 | 1608 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 848 | 939 | 939 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 755 | 707 | 755 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 755 | 708 | 755 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 479 | 479 |
-| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 436 | 456 | 456 |
+| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 436 | 457 | 457 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 395 | 444 | 444 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 336 | 362 | 362 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 309 | 361 | 361 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 271 | 294 | 294 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 219 | 243 | 243 |
-| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 146 | 177 | 177 |
+| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 146 | 178 | 178 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 144 | 163 | 163 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 138 | 163 | 163 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 161 | 161 |
-| **15** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 132 | 143 | 143 |
+| **15** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 132 | 144 | 144 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 129 | 141 | 141 |
 | **17** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 138 | 138 |
 | **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 116 | 130 | 130 |
@@ -205,4 +205,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-10 01:01:15 UTC*
+*Last updated: 2026-03-10 06:39:06 UTC*
