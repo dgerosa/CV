@@ -1,7 +1,7 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9852
-- **Total INSPIRE citations**: 10801
+- **Total INSPIRE citations**: 10802
 - **Total MAX citations**: 10877
 - **h-index**: 48
 
@@ -11,7 +11,7 @@
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1416 | 1608 | 1608 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 848 | 940 | 940 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 757 | 708 | 757 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 757 | 709 | 757 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 479 | 479 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 435 | 457 | 457 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 396 | 445 | 445 |
@@ -19,11 +19,11 @@
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 309 | 362 | 362 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 272 | 294 | 294 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 220 | 244 | 244 |
-| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 146 | 178 | 178 |
+| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 146 | 179 | 179 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 143 | 163 | 163 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 138 | 163 | 163 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 161 | 161 |
-| **15** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 133 | 144 | 144 |
+| **15** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 133 | 143 | 143 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 130 | 141 | 141 |
 | **17** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 138 | 138 |
 | **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 116 | 130 | 130 |
@@ -205,4 +205,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-11 13:55:35 UTC*
+*Last updated: 2026-03-12 01:01:22 UTC*
