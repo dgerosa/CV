@@ -1,20 +1,20 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9858
-- **Total INSPIRE citations**: 10813
-- **Total MAX citations**: 10889
+- **Total INSPIRE citations**: 10817
+- **Total MAX citations**: 10893
 - **h-index**: 48
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1418 | 1608 | 1608 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 848 | 941 | 941 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1418 | 1610 | 1610 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 848 | 942 | 942 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 758 | 709 | 758 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 479 | 479 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 435 | 458 | 458 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 396 | 446 | 446 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 396 | 447 | 447 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 335 | 364 | 364 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 309 | 363 | 363 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 272 | 294 | 294 |
@@ -205,4 +205,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-13 01:01:17 UTC*
+*Last updated: 2026-03-13 08:09:34 UTC*
