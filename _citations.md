@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9866
-- **Total INSPIRE citations**: 10817
-- **Total MAX citations**: 10895
+- **Total INSPIRE citations**: 10820
+- **Total MAX citations**: 10898
 - **h-index**: 48
 
 ## Paper list sorted by citation count
@@ -14,7 +14,7 @@
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 760 | 709 | 760 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 479 | 479 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 435 | 458 | 458 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 397 | 447 | 447 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 397 | 450 | 450 |
 | **7** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 335 | 364 | 364 |
 | **8** | Arun | 2022 | New horizons for fundamental physics with LISA | 310 | 363 | 363 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 272 | 294 | 294 |
@@ -205,4 +205,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-14 19:25:47 UTC*
+*Last updated: 2026-03-15 01:01:16 UTC*
