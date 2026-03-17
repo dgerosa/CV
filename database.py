@@ -3444,15 +3444,6 @@ if msc:
         })
     
     group['msc']['data'].append({
-        "name":     "Martin Gerini",
-        "where":    "Milano-Bicocca",
-        "what":     "MSc thesis",
-        "year":     "2026",
-        "note":     "Then PhD student at the University of Louvain (Belgium).",
-        "current":  True
-        })
-    
-    group['msc']['data'].append({
         "name":     "Giulia Conti",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
@@ -3468,6 +3459,15 @@ if msc:
         "year":     "2026",
         "note":     "",
         "current":  True
+        })
+    
+    group['msc']['data'].append({
+        "name":     "Martin Gerini",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2026",
+        "note":     "Then PhD student at the University of Louvain (Belgium).",
+        "current":  False
         })
     
     group['msc']['data'].append({
