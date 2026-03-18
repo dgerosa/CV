@@ -1,8 +1,8 @@
 ## Citation Summary
 
-- **Total ADS citations**: 9884
-- **Total INSPIRE citations**: 10840
-- **Total MAX citations**: 10919
+- **Total ADS citations**: 9883
+- **Total INSPIRE citations**: 10842
+- **Total MAX citations**: 10920
 - **h-index**: 48
 
 ## Paper list sorted by citation count
@@ -10,7 +10,7 @@
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1420 | 1611 | 1611 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 850 | 943 | 943 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 850 | 944 | 944 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 761 | 711 | 761 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 479 | 479 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 438 | 458 | 458 |
@@ -19,7 +19,7 @@
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 336 | 364 | 364 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 272 | 295 | 295 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 221 | 244 | 244 |
-| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 148 | 180 | 180 |
+| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 148 | 181 | 181 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 144 | 164 | 164 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 138 | 163 | 163 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 161 | 161 |
@@ -74,11 +74,11 @@
 | **63** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 28 | 29 | 29 |
 | **64** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 27 | 29 | 29 |
 | **65** | Fumagalli | 2024 | Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes | 28 | 27 | 28 |
-| **66** | Croon | 2026 | Can GW231123 have a stellar origin? | 26 | 24 | 26 |
-| **67** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 22 | 26 | 26 |
-| **68** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 23 | 26 | 26 |
-| **69** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 26 | 26 | 26 |
-| **70** | Rosca-Mead | 2020 | Structure of neutron stars in massive scalar-tensor gravity | 23 | 26 | 26 |
+| **66** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 22 | 26 | 26 |
+| **67** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 23 | 26 | 26 |
+| **68** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 26 | 26 | 26 |
+| **69** | Rosca-Mead | 2020 | Structure of neutron stars in massive scalar-tensor gravity | 23 | 26 | 26 |
+| **70** | Croon | 2026 | Can GW231123 have a stellar origin? | 25 | 24 | 25 |
 | **71** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 25 | 24 | 25 |
 | **72** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 22 | 24 | 24 |
 | **73** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 24 | 24 | 24 |
@@ -205,4 +205,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-17 20:56:07 UTC*
+*Last updated: 2026-03-18 01:01:15 UTC*

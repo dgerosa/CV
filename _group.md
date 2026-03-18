@@ -133,6 +133,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Alessia Corelli**, MSc thesis, Milano-Bicocca and Nottingham, 2026.
 - **Federico Leto di Priolo**, MSc thesis, Milano-Bicocca and ESO Garching, 2026.
 - **Oliver Rossi**, MSc thesis, Milano-Bicocca, 2026.
+- **Martin Gerini**, MSc thesis, Milano-Bicocca, 2026.
 - **Giulia Conti**, MSc thesis, Milano-Bicocca, 2026.
 - **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
 - **Nicola Toselli**, BSc thesis, Milano-Bicocca, 2026.
@@ -167,7 +168,6 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former MSc students
 
-- **Martin Gerini**. Milano-Bicocca, 2026. Then PhD student at the University of Louvain (Belgium).
 - **Erika Sottocorno**. Milano-Bicocca, 2025. Then PhD student at SISSA (Trieste, Italy).
 - **Simone Restuccia**. Milano-Bicocca, 2025.
 - **Leonardo Toti**. Milano-Bicocca, 2025. Then PhD student at IFAE Barcelona (Spain).
@@ -245,4 +245,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-03-17 20:56:07 UTC*
+*Last updated: 2026-03-18 01:01:15 UTC*
