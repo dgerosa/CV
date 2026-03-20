@@ -72,17 +72,6 @@ if submitted:
         "inspire":  "Anselmo:2025ehx",
         "more":     ""
         })
-
-    papers['submitted']['data'].append({
-        "title":    "Impact of facility timing and coordination for next-generation gravitational-wave detectors",
-        "author":   "S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2510.11861 [gr-qc]",
-        "ads":      "2025arXiv251011861B",
-        "inspire":  "Borhanian:2025uni",
-        "more":     ""
-        })
     
     papers['submitted']['data'].append({
         "title":    "Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries",
@@ -133,7 +122,18 @@ if published:
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
 
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
+        "title":    "Impact of facility timing and coordination for next-generation gravitational-wave detectors",
+        "author":   "S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, D. Gerosa",
+        "journal":  "\cqg, in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2510.11861 [gr-qc]",
+        "ads":      "2025arXiv251011861B",
+        "inspire":  "Borhanian:2025uni",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
         "title":    "Comparing astrophysical models to gravitational-wave data in the observable space",
         "author":   "A. Toubiana, D. Gerosa, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini",
         "journal":  "\prd, in press",

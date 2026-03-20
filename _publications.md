@@ -1,6 +1,6 @@
 ## Summary
-**10** [Submitted papers](#submitted-papers)\
-**108** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**8** [Submitted papers](#submitted-papers)\
+**110** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,61 +8,61 @@
 
 ## Submitted papers
 
-**10.**
+**8.**
 *Variance of gravitational-wave populations.*\
 A. Corelli, **D. Gerosa**, M. Mould, C. M. Fabbri.\
 <a href="https://arxiv.org/abs/2603.00239" style="color: inherit; text-decoration: none;">arXiv:2603.00239 [astro-ph.HE]</a>.
  
-**9.**
+**7.**
 *Inferring the population properties of galactic binaries from LISA's stochastic foreground.*\
 F. De Santi, A. Santini, A. Toubiana, N. Karnesis, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2602.18560" style="color: inherit; text-decoration: none;">arXiv:2602.18560 [astro-ph.HE]</a>.
  
-**8.**
+**6.**
 *On the exceptionality of exceptional gravitational-wave events.*\
 R. Tenorio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2601.02467" style="color: inherit; text-decoration: none;">arXiv:2601.02467 [astro-ph.HE]</a>.
  
-**7.**
+**5.**
 *Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521.*\
 C. Anselmo, C. Pacilio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2512.05193" style="color: inherit; text-decoration: none;">arXiv:2512.05193 [gr-qc]</a>.
  
-**6.**
-*Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
-S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, **D. Gerosa**.\
-<a href="https://arxiv.org/abs/2510.11861" style="color: inherit; text-decoration: none;">arXiv:2510.11861 [gr-qc]</a>.
- 
-**5.**
+**4.**
 *Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries.*\
 N. Loutrel, A. Bailey, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2509.01614" style="color: inherit; text-decoration: none;">arXiv:2509.01614 [gr-qc]</a>.
  
-**4.**
+**3.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
 A. Pedrotti, M. Mancarella, J. Bel, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
  
-**3.**
+**2.**
 *A recoiling supermassive black hole in a powerful quasar.*\
 M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, **D. Gerosa**, M. Konishi, S. Koyama, K. Kushibiki, E. Lambrides, E. T. Meyer, K. Motohara, M. Stiavelli, H. Takahashi, G. R. Tremblay, C. Norman.\
 <a href="https://arxiv.org/abs/2501.18730" style="color: inherit; text-decoration: none;">arXiv:2501.18730 [astro-ph.GA]</a>.
  
-**2.**
+**1.**
 *The last three years: multiband gravitational-wave observations of stellar-mass binary black holes.*\
 A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, **D. Gerosa**, S. McGee, M. Nicholl, A. Vecchio.\
 <a href="https://arxiv.org/abs/2204.03423" style="color: inherit; text-decoration: none;">arXiv:2204.03423 [gr-qc]</a>.
- 
-**1.**
-*Comparing astrophysical models to gravitational-wave data in the observable space.*\
-A. Toubiana, **D. Gerosa**, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini.\
-Physical Review D, in press. <a href="https://arxiv.org/abs/2507.13249" style="color: inherit; text-decoration: none;">arXiv:2507.13249 [gr-qc]</a>.
  
 
 ---
 
 ## Papers published in major peer-reviewed journals
 
+**110.**
+*Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
+S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, **D. Gerosa**.\
+Classical and Quantum Gravity, in press. <a href="https://arxiv.org/abs/2510.11861" style="color: inherit; text-decoration: none;">arXiv:2510.11861 [gr-qc]</a>.
+ 
+**109.**
+*Comparing astrophysical models to gravitational-wave data in the observable space.*\
+A. Toubiana, **D. Gerosa**, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini.\
+Physical Review D, in press. <a href="https://arxiv.org/abs/2507.13249" style="color: inherit; text-decoration: none;">arXiv:2507.13249 [gr-qc]</a>.
+ 
 **108.**
 *Sequential simulation-based inference for extreme mass ratio inspirals.*\
 P. S. Cole, J. Alvey, L. Speri, C. Weniger, U. Bhardwaj, **D. Gerosa**, G. Bertone.\
@@ -700,4 +700,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-03-20 01:01:23 UTC*
+*Last updated: 2026-03-20 10:39:44 UTC*
