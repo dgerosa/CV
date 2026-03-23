@@ -111,7 +111,7 @@ if published:
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
 
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
         "title":    "Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries",
         "author":   "N. Loutrel, A. Bailey, D. Gerosa",
         "journal":  "\cqg, in press.",
@@ -148,8 +148,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Sequential simulation-based inference for extreme mass ratio inspirals",
         "author":   "P. S. Cole, J. Alvey, L. Speri, C. Weniger, U. Bhardwaj, D. Gerosa, G. Bertone",
-        "journal":  "\prd, in press",
-        "link":     "",
+        "journal":  "\prd 113 (2026) 063030",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/4cd3-wfjr",
         "arxiv":    "arXiv:2505.16795 [gr-qc]",
         "ads":      "2026PhRvD.113f3030C",
         "inspire":  "Cole:2025sqo",
