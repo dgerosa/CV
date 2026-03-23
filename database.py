@@ -150,7 +150,7 @@ if published:
         "journal":  "\prd, in press",
         "link":     "",
         "arxiv":    "arXiv:2505.16795 [gr-qc]",
-        "ads":      "2025arXiv250516795C",
+        "ads":      "2026PhRvD.113f3030C",
         "inspire":  "Cole:2025sqo",
         "more":     ""
         })
