@@ -74,17 +74,6 @@ if submitted:
         })
     
     papers['submitted']['data'].append({
-        "title":    "Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries",
-        "author":   "N. Loutrel, A. Bailey, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2509.01614 [gr-qc]",
-        "ads":      "2025arXiv250901614L",
-        "inspire":  "Loutrel:2025bqn",
-        "more":     ""
-        })
-    
-    papers['submitted']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
         "author":   "A. Pedrotti, M. Mancarella, J. Bel, D. Gerosa",
         "journal":  "",
@@ -121,6 +110,18 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['submitted']['data'].append({
+        "title":    "Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries",
+        "author":   "N. Loutrel, A. Bailey, D. Gerosa",
+        "journal":  "\cqg, in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2509.01614 [gr-qc]",
+        "ads":      "2025arXiv250901614L",
+        "inspire":  "Loutrel:2025bqn",
+        "more":     ""
+        })
+    
 
     papers['published']['data'].append({
         "title":    "Impact of facility timing and coordination for next-generation gravitational-wave detectors",
