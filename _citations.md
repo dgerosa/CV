@@ -109,7 +109,7 @@
 | **98** | Stegmann | 2025 | Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements | 9 | 10 | 10 |
 | **99** | Fabbri | 2025 | Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data | 9 | 10 | 10 |
 | **100** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 10 | 8 | 10 |
-| **101** | Cole | 2026 | Sequential simulation-based inference for extreme mass ratio inspirals | 9 | 9 | 9 |
+| **101** | Cole | 2025 | Sequential simulation-based inference for extreme mass ratio inspirals | 9 | 9 | 9 |
 | **102** | Fumagalli | 2025 | Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory | 9 | 9 | 9 |
 | **103** | De Renzis | 2025 | Forecasting the population properties of merging black holes | 5 | 8 | 8 |
 | **104** | Spadaro | 2025 | Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA | 8 | 8 | 8 |
@@ -159,18 +159,18 @@
 | 2022 | 10 |
 | 2023 | 11 |
 | 2024 | 10 |
-| 2025 | 25 |
-| 2026 | 6 |
+| 2025 | 26 |
+| 2026 | 5 |
 
 ## Papers per journal
 
 | Journal | Paper count |
 |---------|--------------|
 | Physical Review D | 60 |
-| Classical and Quantum Gravity | 13 |
 | Monthly Notices of the Royal Astronomical Society | 13 |
+| Classical and Quantum Gravity | 12 |
+| arXiv | 9 |
 | Physical Review Letters | 9 |
-| arXiv | 8 |
 | Astronomy & Astrophysics | 5 |
 | Astrophysical Journal | 5 |
 | Living Reviews in Relativity | 3 |
@@ -205,4 +205,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-23 18:17:08 UTC*
+*Last updated: 2026-03-24 01:01:14 UTC*
