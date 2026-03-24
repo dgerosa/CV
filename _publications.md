@@ -1,6 +1,6 @@
 ## Summary
 **8** [Submitted papers](#submitted-papers)\
-**110** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**111** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -9,29 +9,29 @@
 ## Submitted papers
 
 **8.**
+*Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
+A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
+<a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
+ 
+**7.**
 *Variance of gravitational-wave populations.*\
 A. Corelli, **D. Gerosa**, M. Mould, C. M. Fabbri.\
 <a href="https://arxiv.org/abs/2603.00239" style="color: inherit; text-decoration: none;">arXiv:2603.00239 [astro-ph.HE]</a>.
  
-**7.**
+**6.**
 *Inferring the population properties of galactic binaries from LISA's stochastic foreground.*\
 F. De Santi, A. Santini, A. Toubiana, N. Karnesis, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2602.18560" style="color: inherit; text-decoration: none;">arXiv:2602.18560 [astro-ph.HE]</a>.
  
-**6.**
+**5.**
 *On the exceptionality of exceptional gravitational-wave events.*\
 R. Tenorio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2601.02467" style="color: inherit; text-decoration: none;">arXiv:2601.02467 [astro-ph.HE]</a>.
  
-**5.**
+**4.**
 *Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521.*\
 C. Anselmo, C. Pacilio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2512.05193" style="color: inherit; text-decoration: none;">arXiv:2512.05193 [gr-qc]</a>.
- 
-**4.**
-*Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries.*\
-N. Loutrel, A. Bailey, **D. Gerosa**.\
-<a href="https://arxiv.org/abs/2509.01614" style="color: inherit; text-decoration: none;">arXiv:2509.01614 [gr-qc]</a>.
  
 **3.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
@@ -53,6 +53,11 @@ A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonin
 
 ## Papers published in major peer-reviewed journals
 
+**111.**
+*Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries.*\
+N. Loutrel, A. Bailey, **D. Gerosa**.\
+Classical and Quantum Gravity, in press. <a href="https://arxiv.org/abs/2509.01614" style="color: inherit; text-decoration: none;">arXiv:2509.01614 [gr-qc]</a>.
+ 
 **110.**
 *Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
 S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, **D. Gerosa**.\
@@ -66,7 +71,7 @@ Physical Review D, in press. <a href="https://arxiv.org/abs/2507.13249" style="c
 **108.**
 *Sequential simulation-based inference for extreme mass ratio inspirals.*\
 P. S. Cole, J. Alvey, L. Speri, C. Weniger, U. Bhardwaj, **D. Gerosa**, G. Bertone.\
-Physical Review D, in press. <a href="https://arxiv.org/abs/2505.16795" style="color: inherit; text-decoration: none;">arXiv:2505.16795 [gr-qc]</a>.
+<a href="https://journals.aps.org/prd/abstract/10.1103/4cd3-wfjr" style="color: inherit; text-decoration: none;">Physical Review D 113 (2026) 063030</a>. <a href="https://arxiv.org/abs/2505.16795" style="color: inherit; text-decoration: none;">arXiv:2505.16795 [gr-qc]</a>.
  
 **107.**
 *Can GW231123 have a stellar origin?*\
@@ -700,4 +705,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-03-24 01:01:14 UTC*
+*Last updated: 2026-03-24 07:00:41 UTC*

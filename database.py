@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Accurate and efficient simulation-based inference for massive black-hole binaries with LISA",
+        "author":   "A. Spadaro, J. Gair, D. Gerosa, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2603.20431 [astro-ph.HE]",
+        "ads":      "2026arXiv260320432S",
+        "inspire":  "Spadaro:2026evb",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Variance of gravitational-wave populations",
         "author":   "A. Corelli, D. Gerosa, M. Mould, C. M. Fabbri",
         "journal":  "",
@@ -122,7 +133,6 @@ if published:
         "more":     ""
         })
     
-
     papers['published']['data'].append({
         "title":    "Impact of facility timing and coordination for next-generation gravitational-wave detectors",
         "author":   "S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, D. Gerosa",
