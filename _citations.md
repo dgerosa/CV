@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9926
-- **Total INSPIRE citations**: 10903
-- **Total MAX citations**: 10979
+- **Total INSPIRE citations**: 10904
+- **Total MAX citations**: 10980
 - **h-index**: 48
 
 ## Paper list sorted by citation count
@@ -14,7 +14,7 @@
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 765 | 715 | 765 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 479 | 479 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 440 | 464 | 464 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 402 | 457 | 457 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 402 | 458 | 458 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 315 | 369 | 369 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 338 | 367 | 367 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 273 | 299 | 299 |
@@ -133,16 +133,15 @@
 | **122** | Anselmo | 2025 | Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521 | 1 | 1 | 1 |
 | **123** | Boschini | 2025 | “LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design | 1 | 0 | 1 |
 | **124** | Gerosa | 2015 | Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history | 0 | 1 | 1 |
-| **125** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 0 | 0 | 0 |
-| **126** | Corelli | 2026 | Variance of gravitational-wave populations | 0 | 0 | 0 |
-| **127** | De Santi | 2026 | Inferring the population properties of galactic binaries from LISA's stochastic foreground | 0 | 0 | 0 |
-| **128** | Loutrel | 2025 | Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries | 0 | 0 | 0 |
-| **129** | Borhanian | 2025 | Impact of facility timing and coordination for next-generation gravitational-wave detectors | 0 | 0 | 0 |
-| **130** | Tornotti | 2025 | Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Lyman $$\alpha$$ emitters | 0 | 0 | 0 |
-| **131** | Fumagalli | 2025 | PRECESSION 2.1: black-hole binary spin precession on eccentric orbits | 0 | 0 | 0 |
-| **132** | Gerosa | 2025 | Coincident morphological transitions in precessing black-hole binaries | 0 | 0 | 0 |
-| **133** | Gerosa | 2016 | Source modelling at the dawn of gravitational-wave astronomy | 0 | 0 | 0 |
-| **134** | Gerosa | 2014 | Spin alignment effects in black hole binaries | 0 | 0 | 0 |
+| **125** | Corelli | 2026 | Variance of gravitational-wave populations | 0 | 0 | 0 |
+| **126** | De Santi | 2026 | Inferring the population properties of galactic binaries from LISA's stochastic foreground | 0 | 0 | 0 |
+| **127** | Loutrel | 2025 | Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries | 0 | 0 | 0 |
+| **128** | Borhanian | 2025 | Impact of facility timing and coordination for next-generation gravitational-wave detectors | 0 | 0 | 0 |
+| **129** | Tornotti | 2025 | Bayesian luminosity function estimation in multidepth datasets with selection effects: a case study for $$3<z<5$$ Lyman $$\alpha$$ emitters | 0 | 0 | 0 |
+| **130** | Fumagalli | 2025 | PRECESSION 2.1: black-hole binary spin precession on eccentric orbits | 0 | 0 | 0 |
+| **131** | Gerosa | 2025 | Coincident morphological transitions in precessing black-hole binaries | 0 | 0 | 0 |
+| **132** | Gerosa | 2016 | Source modelling at the dawn of gravitational-wave astronomy | 0 | 0 | 0 |
+| **133** | Gerosa | 2014 | Spin alignment effects in black hole binaries | 0 | 0 | 0 |
 
 ## Papers per year
 
@@ -161,7 +160,7 @@
 | 2023 | 11 |
 | 2024 | 10 |
 | 2025 | 25 |
-| 2026 | 7 |
+| 2026 | 6 |
 
 ## Papers per journal
 
@@ -170,8 +169,8 @@
 | Physical Review D | 60 |
 | Classical and Quantum Gravity | 13 |
 | Monthly Notices of the Royal Astronomical Society | 13 |
-| arXiv | 9 |
 | Physical Review Letters | 9 |
+| arXiv | 8 |
 | Astronomy & Astrophysics | 5 |
 | Astrophysical Journal | 5 |
 | Living Reviews in Relativity | 3 |
@@ -198,7 +197,7 @@
 | Category | Paper Count |
 |----------|--------------|
 | gr-qc | 71 |
-| astro-ph.HE | 46 |
+| astro-ph.HE | 45 |
 | astro-ph.GA | 9 |
 | astro-ph.CO | 2 |
 | astro-ph.IM | 1 |
@@ -206,4 +205,4 @@
 
 
 <br><br>
-*Last updated: 2026-03-24 07:00:41 UTC*
+*Last updated: 2026-03-25 01:01:16 UTC*
