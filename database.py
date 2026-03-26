@@ -35,7 +35,7 @@ if submitted:
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2603.20431 [astro-ph.HE]",
-        "ads":      "2026arXiv260320432S",
+        "ads":      "2026arXiv260320431S",
         "inspire":  "Spadaro:2026evb",
         "more":     ""
         })
@@ -3416,7 +3416,15 @@ if msc:
         "note":     "",
         "current":  True
         })
-    
+
+    group['msc']['data'].append({
+        "name":     "Serena Caslini",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2026",
+        "note":     "",
+        "current":  True
+        })   
 
     group['msc']['data'].append({
         "name":     "Pietro Zeduri",
@@ -3424,7 +3432,7 @@ if msc:
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "",
-        "current":  True
+        "current":  False
         })
 
     group['msc']['data'].append({
@@ -3433,7 +3441,7 @@ if msc:
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "",
-        "current":  True
+        "current":  False
         })
     
     group['msc']['data'].append({
@@ -3442,7 +3450,7 @@ if msc:
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "",
-        "current":  True
+        "current":  False
         })
     
     group['msc']['data'].append({
@@ -3450,8 +3458,8 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "The softwar engineer at NetCom Group (Italy).",
-        "current":  True
+        "note":     "The software engineer at NetCom Group (Italy).",
+        "current":  False
         })
     
     group['msc']['data'].append({
@@ -3460,16 +3468,7 @@ if msc:
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "",
-        "current":  True
-        })
-    
-    group['msc']['data'].append({
-        "name":     "Serena Caslini",
-        "where":    "Milano-Bicocca",
-        "what":     "MSc thesis",
-        "year":     "2026",
-        "note":     "",
-        "current":  True
+        "current":  False
         })
     
     group['msc']['data'].append({
@@ -3714,7 +3713,7 @@ if bsc:
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2026",
-        "current":  True
+        "current":  False
         })
 
     group['bsc']['data'].append({

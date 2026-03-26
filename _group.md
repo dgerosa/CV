@@ -129,16 +129,10 @@ Here are the amazing students who are currently completing research projects wit
 - **Sofia Dossena**, MSc thesis, Milano-Bicocca, 2026.
 - **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2026.
 - **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
-- **Pietro Zeduri**, MSc thesis, Milano-Bicocca and Aix-Marseille, 2026.
-- **Alessia Corelli**, MSc thesis, Milano-Bicocca and Nottingham, 2026.
-- **Federico Leto di Priolo**, MSc thesis, Milano-Bicocca and ESO Garching, 2026.
-- **Oliver Rossi**, MSc thesis, Milano-Bicocca, 2026.
-- **Giulia Conti**, MSc thesis, Milano-Bicocca, 2026.
 - **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
 - **Nicola Toselli**, BSc thesis, Milano-Bicocca, 2026.
 - **Alessandro Zappietro**, BSc thesis, Milano-Bicocca and Pavia, 2026.
 - **Pablo Basta**, BSc thesis, Milano-Bicocca, 2026.
-- **Simone Abeni**, BSc thesis, Milano-Bicocca, 2026.
 
 <br>
 
@@ -167,6 +161,11 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former MSc students
 
+- **Pietro Zeduri**. Milano-Bicocca and Aix-Marseille, 2026.
+- **Alessia Corelli**. Milano-Bicocca and Nottingham, 2026.
+- **Federico Leto di Priolo**. Milano-Bicocca and ESO Garching, 2026.
+- **Oliver Rossi**. Milano-Bicocca, 2026. The software engineer at NetCom Group (Italy).
+- **Giulia Conti**. Milano-Bicocca, 2026.
 - **Martin Gerini**. Milano-Bicocca, 2026. Then PhD student at the University of Louvain (Belgium).
 - **Erika Sottocorno**. Milano-Bicocca, 2025. Then PhD student at SISSA (Trieste, Italy).
 - **Simone Restuccia**. Milano-Bicocca, 2025.
@@ -193,6 +192,7 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former BSc students
 
+- **Simone Abeni**. Milano-Bicocca, 2026.
 - **Lorenzo Lecci**. Milano-Bicocca, 2025.
 - **Federico Quattrini**. Milano-Bicocca, 2025.
 - **Arianna Pedone**. Milano-Bicocca, 2025.
@@ -245,4 +245,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-03-25 09:18:38 UTC*
+*Last updated: 2026-03-26 06:37:21 UTC*
