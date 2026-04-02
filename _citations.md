@@ -1,17 +1,17 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9969
-- **Total INSPIRE citations**: 10947
-- **Total MAX citations**: 11016
+- **Total INSPIRE citations**: 10950
+- **Total MAX citations**: 11018
 - **h-index**: 48
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1434 | 1620 | 1620 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1434 | 1621 | 1621 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 863 | 947 | 947 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 766 | 722 | 766 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 766 | 723 | 766 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 479 | 479 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 445 | 469 | 469 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 405 | 459 | 459 |
@@ -71,8 +71,8 @@
 | **60** | Sayeb | 2021 | Massive black hole binary inspiral and spin evolution in a cosmological framework | 31 | 29 | 31 |
 | **61** | Wong | 2019 | Machine-learning interpolation of population-synthesis simulations to interpret gravitational-wave observations: a case study | 26 | 31 | 31 |
 | **62** | Mould | 2022 | Gravitational-wave population inference at past time infinity | 26 | 30 | 30 |
-| **63** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 28 | 29 | 29 |
-| **64** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 28 | 29 | 29 |
+| **63** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 28 | 30 | 30 |
+| **64** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 28 | 29 | 29 |
 | **65** | Fumagalli | 2024 | Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes | 28 | 27 | 28 |
 | **66** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 26 | 27 | 27 |
 | **67** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 24 | 27 | 27 |
@@ -206,4 +206,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-02 00:01:32 UTC*
+*Last updated: 2026-04-02 06:04:18 UTC*
