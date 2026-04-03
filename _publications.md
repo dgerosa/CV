@@ -114,7 +114,7 @@ F. Nobili, S. Bhagwat, C. Pacilio, **D. Gerosa**.\
 <a href="https://journals.aps.org/prd/abstract/10.1103/cl3k-3xt2" style="color: inherit; text-decoration: none;">Physical Review D 112 (2025) 044058</a>. <a href="https://arxiv.org/abs/2504.17021" style="color: inherit; text-decoration: none;">arXiv:2504.17021 [gr-qc]</a>.
  
 **99.**
-*A test for LISA foreground Gaussianity and stationarity. I. Galactic white-dwarf binaries.*\
+*Test for LISA foreground Gaussianity and stationarity: galactic white-dwarf binaries.*\
 R. Buscicchio, A. Klein, V. Korol, F. Di Renzo, C. J. Moore, **D. Gerosa**, A. Carzaniga.\
 <a href="https://doi.org/10.1140/epjc/s10052-025-14616-w" style="color: inherit; text-decoration: none;">European Physical Journal C 85 (2025) 887</a>. <a href="https://arxiv.org/abs/2410.08263" style="color: inherit; text-decoration: none;">arXiv:2410.08263 [astro-ph.HE]</a>.
  
@@ -705,4 +705,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-04-03 00:01:30 UTC*
+*Last updated: 2026-04-03 09:46:14 UTC*
