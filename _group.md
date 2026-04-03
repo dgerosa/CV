@@ -110,6 +110,15 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <em>Gaussian Processor, black-hole surrogator, hypercuber, Tolkien addict. Likes discovering new places, whether in the real world or in fantasy books. Often bothers friends with “simple” board games. Probably knows even how to build a nuclear reactor.</em>
   </div>
 </div>
+<div class="person">
+  <img src="{{ '/images/alice-spadaro.jpg' | relative_url }}" alt="Alice Spadaro" class="person-photo">
+  <div class="person-text">
+    <strong>Alice Spadaro</strong><br>
+    PhD student<br>
+<a href="mailto:a.spadaro3@campus.unimib.it">a.spadaro3@campus.unimib.it</a><br>
+    <em>Glitch hunter, LISA responser, gravitational-wave lover. Cares for nature, addicted to adventure sports (surf!). Likes building fun stuff with Lego bricks and gets charged up with rock music. Curious to learn something new and explore the universe.</em>
+  </div>
+</div>
 </div>
 ## Current MSc and Bsc students
 Here are the amazing students who are currently completing research projects with us in the group… Taking the first fun steps into the perilous world of black holes!
@@ -146,7 +155,6 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former PhD students
 
-- **Alice Spadaro**. Milano-Bicocca, 2022–2025. Supported by the Italian Center for Supercomputing. Then postdoc at the University of Toulouse (France).
 - **Giulia Fumagalli**. Milano-Bicocca, 2022–2025. Supported by the ERC. Then Burke Fellow at the California Institute of Technology (USA).
 - **Viola De Renzis**. Milano-Bicocca, 2021–2024. Supported by the ERC. Then postdoc at the University of Aix-Marseille (France) .
 - **Daria Gangardt**. Birmingham, 2020–2024. Supported by STFC. Then Research Associate at the UK Centre for Ecology & Hydrology (UKCEH).
@@ -238,4 +246,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-04-02 06:04:18 UTC*
+*Last updated: 2026-04-03 00:01:30 UTC*
