@@ -1,5 +1,5 @@
 ## Summary
-**8** [Submitted papers](#submitted-papers)\
+**9** [Submitted papers](#submitted-papers)\
 **111** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**9.**
+*Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
+A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
+<a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
+ 
 **8.**
 *Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
 A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
@@ -705,4 +710,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-04-04 16:30:00 UTC*
+*Last updated: 2026-04-04 16:37:16 UTC*
