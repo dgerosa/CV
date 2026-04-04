@@ -42,6 +42,7 @@ jobs:
 
       - name: Generate CV inputs (citations, markdown, tex)
         working-directory: CV
+        run: python -c 'import os; t=os.getenv("ADS_TOKEN",""); print("ADS_TOKEN", t)'
         run: python -u makeCV.py
         env:
           ADS_TOKEN: ${{ secrets.ADS_TOKEN }}
