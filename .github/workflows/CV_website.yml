@@ -158,8 +158,6 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          MAX_BYTES=900000
-          SIZE_BYTES="$(wc -c < CV/workflow.log 2>/dev/null || echo 0)"
           {
             echo 'body<<EOF'
             echo "Repo: ${{ github.repository }}"
@@ -168,23 +166,27 @@ jobs:
             echo "Job: ${{ github.job }}"
             echo "Status: ${{ job.status }}"
             echo
-            echo "workflow.log is attached to this email."
-            echo
-            if [ "${SIZE_BYTES}" -le "${MAX_BYTES}" ]; then
-              echo "=== Full log ==="
-              cat CV/workflow.log || true
-            else
-              echo "=== Log too large for email body (${SIZE_BYTES} bytes) ==="
-              echo "Showing last 200 lines here; see attachment for the full log."
-              echo
-              echo "=== Tail (last 200 lines) ==="
-              tail -n 200 CV/workflow.log || true
-            fi
+            echo "=== Full workflow.log ==="
+            cat CV/workflow.log || true
             echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
-      - name: Email workflow log
+      - name: Decide whether to send email
         if: always()
+        id: mail_enabled
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -n "${SMTP_PASSWORD:-}" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+
+      - name: Email workflow log
+        if: ${{ always() && steps.mail_enabled.outputs.enabled == 'true' }}
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -192,8 +194,7 @@ jobs:
           secure: true
           username: davide.gerosa@gmail.com
           password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "CV workflow: ${{ job.status }}"
+          subject: "[dgerosa/CV] CV_website.yml: ${{ job.status }}"
           to: davide.gerosa+github@gmail.com
           from: davide.gerosa+github@gmail.com
           body: ${{ steps.email.outputs.body }}
-          attachments: CV/workflow.log
