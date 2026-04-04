@@ -4,12 +4,20 @@ on:
   workflow_dispatch:
   push:
     branches: [ master ]
+    paths:
+      - CV.tex
+      - database.py
+      - makeCV.py
+      - requirements.txt
+      - .github/workflows/CV_website.yml
   #schedule:
   #  - cron: '0 0 * * *'  # every day at 00:00 UTC
 
 jobs:
   CV_website:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout CV
@@ -23,6 +31,28 @@ jobs:
           repository: dgerosa/website
           token: ${{ secrets.PERSONAL_TOKEN }}
           path: website
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python deps
+        run: python -m pip install --upgrade pip && python -m pip install -r CV/requirements.txt
+
+      - name: Generate CV inputs (citations, markdown, tex)
+        working-directory: CV
+        run: python makeCV.py
+        env:
+          ADS_TOKEN: ${{ secrets.ADS_TOKEN }}
+
+      - name: Upload blogpost templates
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: blogpost-templates
+          path: CV/temp
+          if-no-files-found: ignore
 
       - name: Install latex
         run: |
@@ -47,7 +77,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -u
+          git add -A
           git commit -m "CV update from workflow" || echo "No changes"
           git push
 
@@ -56,7 +86,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -u
+          git add -A
           git commit -m "Website update from workflow" || echo "No changes"
           git push
 

@@ -36,6 +36,7 @@ Then run `makeCV.py`:
 
 Then there's a github action `.github/workflows/CV_website.yml` that:
 
+- Run `makeCV.py` on GitHub Actions (requires `ADS_TOKEN` as a repository secret).
 - Compile full CV, short CV, standalone publication list, standalone presentation list.
 - Publish a [Github release](https://github.com/dgerosa/CV/releases) to get permanent URLs.
 - Push updates to the [CV repo](https://github.com/dgerosa/CV) if any.

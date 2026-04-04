@@ -1,8 +1,7 @@
-# Make sure GITHUB_TOKEN and ADS_TOKEN are part of the environment variables
+# Make sure ADS_TOKEN is part of the environment variables
 
 import numpy as np
 import json
-import ads
 from tqdm import tqdm
 import copy
 import sys
@@ -23,6 +22,7 @@ from glob import glob
 
 context = ssl._create_unverified_context()
 relativepathwebsiterepo = os.path.abspath(os.getcwd())+"/../website"
+is_github_actions = os.getenv("GITHUB_ACTIONS", "").lower() == "true"
 
 #### Utils ####
 
@@ -183,6 +183,8 @@ def ads_citations(papers,testing=False):
     #    token = f.read()
 
     token = os.getenv("ADS_TOKEN")
+    if not token and not testing:
+        raise RuntimeError("ADS_TOKEN is missing. Set ADS_TOKEN in your environment (GitHub Actions secret) before running.")
 
     tot = len(np.concatenate([papers[k]['data'] for k in papers]))
     with tqdm(total=tot) as pbar:
@@ -203,11 +205,16 @@ def ads_citations(papers,testing=False):
                             #if True:   
                                 with warnings.catch_warnings():
                                     warnings.filterwarnings("ignore", message="Unverified HTTPS request is being made to host")
-                                    r = requests.get("https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads'].replace("&","%26")+"&fl=citation_count,bibcode",headers={'Authorization': 'Bearer ' + token},verify=False)
+                                    r = requests.get(
+                                        "https://api.adsabs.harvard.edu/v1/search/query?q="+p['ads'].replace("&","%26")+"&fl=citation_count,bibcode",
+                                        headers={'Authorization': 'Bearer ' + token},
+                                        verify=False,
+                                        timeout=30,
+                                    )
                                 q= r.json()['response']['docs']
                                 #print(p['ads'], q)
                                 if len(q)!=1:
-                                    raise ValueError("ADS error in "+b)
+                                    raise ValueError("ADS error in "+str(p['ads']))
                                 q=q[0]
                                 if q['citation_count'] is not None:
                                     p['ads_citations'] = q['citation_count']
@@ -1179,7 +1186,8 @@ if __name__ == "__main__":
     testing = False
 
     # Git pull
-    os.system("git pull")
+    if not is_github_actions:
+        os.system("git pull")
 
     # Citations
     papers = ads_citations(papers,testing=testing)
@@ -1207,7 +1215,7 @@ if __name__ == "__main__":
     # Clean auxiliary files
     os.system('rm -f *.aux *.log *.toc *.out *.bbl *.blg *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.vrb *.lof *.lot *Notes.bib')
 
-    if not testing:
+    if not testing and not is_github_actions:
         # Git push
         try:
             comment = sys.argv[1]
