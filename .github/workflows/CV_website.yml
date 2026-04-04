@@ -186,12 +186,10 @@ jobs:
 
       - name: Prepare email body
         if: always()
-        id: email
         shell: bash
         run: |
           set -euo pipefail
           {
-            echo 'body<<EOF'
             echo "Repo: ${{ github.repository }}"
             echo "Workflow: ${{ github.workflow }}"
             echo "Run: ${{ github.run_id }}"
@@ -200,8 +198,7 @@ jobs:
             echo
             echo "=== Full workflow.txt ==="
             cat CV/workflow.txt || true
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT"
+          } > CV/email_body.txt
 
       - name: Decide whether to send email
         if: always()
@@ -229,4 +226,4 @@ jobs:
           subject: "[dgerosa/CV] CV_website.yml: ${{ job.status }}"
           to: davide.gerosa+github@gmail.com
           from: davide.gerosa+github@gmail.com
-          body: ${{ steps.email.outputs.body }}
+          body: file://CV/email_body.txt
