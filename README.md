@@ -25,24 +25,22 @@ The only files one needs to change are `database.py` and `CV.tex`. Everything el
 - Touch the other things in the CV directly in `CV.tex`.
 - Tags `%mark_CVshort` indicate what to exclude when building the short version of the CV.
 
-Then run `makeCV.py`:
+The script `makeCV.py` does the following:
 
 - Fetch citations from [ADS](https://davidegerosa.com/myads) and [INSPIRE](https://davidegerosa.com/myinspire).
 - Put together papers and talks in tex format.
 - Fetch full bibtex record from [ADS](https://davidegerosa.com/myads) for a `.bib` file.
 - Create markdown pages `_*.md` for a Jekyll website like [my own](https://davidegerosa.com).
 - Sanitize the database if the ADS key changed.
-- Push to git
+- Push to git (optional, only if run locally)
 
 Then there's a github action `.github/workflows/CV_website.yml` that:
 
-- Run `makeCV.py` on GitHub Actions (requires `ADS_TOKEN` as a repository secret).
+- Run `makeCV.py` (requires `ADS_TOKEN` as a repository secret).
 - Compile full CV, short CV, standalone publication list, standalone presentation list.
 - Publish a [Github release](https://github.com/dgerosa/CV/releases) to get permanent URLs.
 - Push updates to the [CV repo](https://github.com/dgerosa/CV) if any.
 - Push updates to the [website repo](https://github.com/dgerosa/website) if any (from there, another action will publish the website itself).
 
-At the end of the day: you change something and then type
-```shell
-python makeCV.py "commit message"
+At the end of the day: you change something and commit.
 ```
