@@ -10,8 +10,8 @@ on:
       - makeCV.py
       - requirements.txt
       - .github/workflows/CV_website.yml
-  #schedule:
-  #  - cron: '0 0 * * *'  # every day at 00:00 UTC
+  schedule:
+    - cron: '18 1 * * *'  # every day at 00:00 UTC
 
 jobs:
   CV_website:
