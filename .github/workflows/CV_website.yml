@@ -32,17 +32,35 @@ jobs:
           token: ${{ secrets.PERSONAL_TOKEN }}
           path: website
 
+      - name: Init workflow log
+        shell: bash
+        run: |
+          set -euo pipefail
+          : > CV/workflow.log
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install Python deps
-        run: python -m pip install --upgrade pip && python -m pip install -r CV/requirements.txt
+        shell: bash
+        run: |
+          set -euo pipefail
+          {
+            python -m pip install --upgrade pip
+            python -m pip install -r CV/requirements.txt
+          } 2>&1 | tee -a CV/workflow.log
 
       - name: Generate CV inputs (citations, markdown, tex)
         working-directory: CV
-        run: python -c 'import os; t=os.getenv("ADS_TOKEN",""); print("ADS_TOKEN", t)'; python -u makeCV.py
+        shell: bash
+        run: |
+          set -euo pipefail
+          {
+            python -c 'import os; t=os.getenv("ADS_TOKEN",""); print("ADS_TOKEN set:", bool(t), "len:", len(t))'
+            python -u makeCV.py
+          } 2>&1 | tee -a workflow.log
         env:
           ADS_TOKEN: ${{ secrets.ADS_TOKEN }}
 
@@ -55,46 +73,127 @@ jobs:
           if-no-files-found: ignore
 
       - name: Install latex
+        shell: bash
         run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
+          set -euo pipefail
+          {
+            sudo apt-get update
+            sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
+          } 2>&1 | tee -a CV/workflow.log
 
       - name: Compile latex
         working-directory: CV
-        run: for f in CV CVshort publist talklist; do pdflatex "$f".tex; done
+        shell: bash
+        run: |
+          set -euo pipefail
+          {
+            for f in CV CVshort publist talklist; do
+              pdflatex "$f".tex
+            done
+          } 2>&1 | tee -a workflow.log
 
       - name: Copy files
         working-directory: CV
+        shell: bash
         run: |
-          cp CV.pdf DavideGerosa_fullCV.pdf
-          cp CVshort.pdf DavideGerosa_shortCV.pdf
-          cp publist.pdf DavideGerosa_publist.pdf
-          cp talklist.pdf DavideGerosa_talklist.pdf
-          cp _citations.md _group.md _publications.md _talks.md ../website/_pages/
+          set -euo pipefail
+          {
+            cp CV.pdf DavideGerosa_fullCV.pdf
+            cp CVshort.pdf DavideGerosa_shortCV.pdf
+            cp publist.pdf DavideGerosa_publist.pdf
+            cp talklist.pdf DavideGerosa_talklist.pdf
+            cp _citations.md _group.md _publications.md _talks.md ../website/_pages/
+          } 2>&1 | tee -a workflow.log
 
       - name: Commit and push CV updates
         working-directory: CV
+        shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "CV update from workflow" || echo "No changes"
-          git push
+          set -euo pipefail
+          {
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "CV update from workflow" || echo "No changes"
+            git push
+          } 2>&1 | tee -a workflow.log
 
       - name: Commit and push website updates
         working-directory: website
+        shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "Website update from workflow" || echo "No changes"
-          git push
+          set -euo pipefail
+          {
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Website update from workflow" || echo "No changes"
+            git push
+          } 2>&1 | tee -a ../CV/workflow.log
 
       - name: Publish CV release
         working-directory: CV
+        shell: bash
         run: |
-          TAG=$(date +"%Y-%m-%d-%H-%M")
-          FILES=$(ls DavideGerosa_*.pdf 2>/dev/null || true)
-          gh release create "$TAG" $FILES --notes "Automated CV update"
+          set -euo pipefail
+          {
+            TAG=$(date +"%Y-%m-%d-%H-%M")
+            FILES=$(ls DavideGerosa_*.pdf 2>/dev/null || true)
+            gh release create "$TAG" $FILES --notes "Automated CV update"
+          } 2>&1 | tee -a workflow.log
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload workflow log artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: workflow-log
+          path: CV/workflow.log
+          if-no-files-found: error
+
+      - name: Prepare email body
+        if: always()
+        id: email
+        shell: bash
+        run: |
+          set -euo pipefail
+          MAX_BYTES=900000
+          SIZE_BYTES="$(wc -c < CV/workflow.log 2>/dev/null || echo 0)"
+          {
+            echo 'body<<EOF'
+            echo "Repo: ${{ github.repository }}"
+            echo "Workflow: ${{ github.workflow }}"
+            echo "Run: ${{ github.run_id }}"
+            echo "Job: ${{ github.job }}"
+            echo "Status: ${{ job.status }}"
+            echo
+            echo "workflow.log is attached to this email."
+            echo
+            if [ "${SIZE_BYTES}" -le "${MAX_BYTES}" ]; then
+              echo "=== Full log ==="
+              cat CV/workflow.log || true
+            else
+              echo "=== Log too large for email body (${SIZE_BYTES} bytes) ==="
+              echo "Showing last 200 lines here; see attachment for the full log."
+              echo
+              echo "=== Tail (last 200 lines) ==="
+              tail -n 200 CV/workflow.log || true
+            fi
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Email workflow log
+        if: ${{ always() && secrets.SMTP_PASSWORD != ''}}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: davide.gerosa@gmail.com
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "CV workflow: ${{ job.status }}"
+          to: davide.gerosa+github@gmail.com
+          from: davide.gerosa+github@gmail.com
+          body: ${{ steps.email.outputs.body }}
+          attachments: CV/workflow.log
