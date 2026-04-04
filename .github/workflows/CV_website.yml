@@ -184,6 +184,31 @@ jobs:
           path: CV/workflow.txt
           if-no-files-found: error
 
+      - name: Zip blogpost templates for email
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os
+          import zipfile
+          from pathlib import Path
+          
+          root = Path("CV")
+          src = root / "temp"
+          dst = root / "blogpost-templates.zip"
+          
+          dst.parent.mkdir(parents=True, exist_ok=True)
+          with zipfile.ZipFile(dst, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+              if src.exists():
+                  for p in src.rglob("*"):
+                      if p.is_file():
+                          zf.write(p, p.relative_to(root))
+              else:
+                  zf.writestr("temp/README.txt", "CV/temp did not exist in this run.\n")
+          print(f"Wrote {dst}")
+          PY
+
       - name: Prepare email body
         if: always()
         shell: bash
@@ -227,3 +252,4 @@ jobs:
           to: davide.gerosa+github@gmail.com
           from: davide.gerosa+github@gmail.com
           body: file://CV/email_body.txt
+          attachments: CV/blogpost-templates.zip
