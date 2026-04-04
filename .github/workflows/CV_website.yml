@@ -183,8 +183,22 @@ jobs:
             echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
+      - name: Decide whether to send email
+        if: always()
+        id: mail_enabled
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -n "${SMTP_PASSWORD:-}" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+
       - name: Email workflow log
-        if: ${{ always() && secrets.SMTP_PASSWORD != ''}}
+        if: always()
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
