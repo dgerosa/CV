@@ -16,6 +16,8 @@ on:
 jobs:
   CV_website:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/${{ github.repository_owner }}/cv-ci:latest
     permissions:
       contents: write
 
@@ -37,11 +39,6 @@ jobs:
         run: |
           set -euo pipefail
           : > CV/workflow.txt
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
 
       - name: Install Python deps
         shell: bash
@@ -79,19 +76,6 @@ jobs:
           name: blogpost-templates
           path: CV/temp
           if-no-files-found: ignore
-
-      - name: Install latex
-        shell: bash
-        run: |
-          set -euo pipefail
-          {
-            echo "================================================================================"
-            echo "STEP START: Install latex"
-            echo "TIME (UTC): $(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
-            echo "================================================================================"
-            sudo apt-get update
-            sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra gh
-          } 2>&1 | tee -a CV/workflow.txt
 
       - name: Compile latex
         working-directory: CV
