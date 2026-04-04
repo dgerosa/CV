@@ -8,7 +8,6 @@ on:
       - CV.tex
       - database.py
       - makeCV.py
-      - requirements.txt
       - .github/workflows/CV_website.yml
   schedule:
     - cron: '18 1 * * *' 
@@ -39,19 +38,6 @@ jobs:
         run: |
           set -euo pipefail
           : > CV/workflow.txt
-
-      - name: Install Python deps
-        shell: bash
-        run: |
-          set -euo pipefail
-          {
-            echo "================================================================================"
-            echo "STEP START: Install Python deps"
-            echo "TIME (UTC): $(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
-            echo "================================================================================"
-            python -m pip install --upgrade pip
-            python -m pip install -r CV/requirements.txt
-          } 2>&1 | tee -a CV/workflow.txt
 
       - name: Generate CV inputs (citations, markdown, tex)
         working-directory: CV
