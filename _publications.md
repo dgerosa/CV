@@ -629,14 +629,14 @@ G. Lodato, **D. Gerosa**.\
 ## Other publications (white papers, proceedings, etc.)
 
 **14.**
-*PRECESSION 2.1: black-hole binary spin precession on eccentric orbits.*\
-G. Fumagalli, **D. Gerosa**, N. Loutrel.\
-<a href="https://arxiv.org/abs/2508.21125" style="color: inherit; text-decoration: none;">arXiv:2508.21125 [gr-qc]</a>.
- 
-**13.**
 *Coincident morphological transitions in precessing black-hole binaries.*\
 **D. Gerosa**, G. Foroni, G. Fumagalli, E. Berti.\
 ICBS proceedings. <a href="https://arxiv.org/abs/2508.19735" style="color: inherit; text-decoration: none;">arXiv:2508.19735 [gr-qc]</a>.
+ 
+**13.**
+*PRECESSION 2.1: black-hole binary spin precession on eccentric orbits.*\
+G. Fumagalli, **D. Gerosa**, N. Loutrel.\
+<a href="https://iopscience.iop.org/article/10.1088/1742-6596/3177/1/012117" style="color: inherit; text-decoration: none;">Journal of Physics: Conference Series 3177 (2026) 012117</a>. <a href="https://arxiv.org/abs/2508.21125" style="color: inherit; text-decoration: none;">arXiv:2508.21125 [gr-qc]</a>.
  
 **12.**
 *Waveform modelling for the Laser Interferometer Space Antenna.*\
@@ -677,7 +677,7 @@ L. Barack, et al. (199 authors incl. **D. Gerosa**).\
 **5.**
 *Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers.*\
 **D. Gerosa**.\
-<a href="http://dx.doi.org/10.1088/1742-6596/957/1/012014" style="color: inherit; text-decoration: none;">Journal of Physics: Conference Series 957 (2018) 1, 012014</a>. <a href="https://arxiv.org/abs/1711.10038" style="color: inherit; text-decoration: none;">arXiv:1711.10038 [astro-ph.HE]</a>.
+<a href="http://dx.doi.org/10.1088/1742-6596/957/1/012014" style="color: inherit; text-decoration: none;">Journal of Physics: Conference Series 957 (2018) 012014</a>. <a href="https://arxiv.org/abs/1711.10038" style="color: inherit; text-decoration: none;">arXiv:1711.10038 [astro-ph.HE]</a>.
  
 **4.**
 *filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography.*\
@@ -705,4 +705,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-04-05 04:13:35 UTC*
+*Last updated: 2026-04-05 18:23:41 UTC*
