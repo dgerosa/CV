@@ -1351,17 +1351,6 @@ if proceedings:
     papers['proceedings']['data'] = []
 
     papers['proceedings']['data'].append({
-        "title":    "PRECESSION 2.1: black-hole binary spin precession on eccentric orbits",
-        "author":   "G. Fumagalli, D. Gerosa, N. Loutrel",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2508.21125 [gr-qc]",
-        "ads":      "2025arXiv250821125F",
-        "inspire":  "Fumagalli:2025asw",
-        "more":     ""
-        })
-
-    papers['proceedings']['data'].append({
         "title":    "Coincident morphological transitions in precessing black-hole binaries",
         "author":   "D. Gerosa, G. Foroni, G. Fumagalli, E. Berti",
         "journal":  "Proceedings of the International Congress of Basic Science, International Press",
@@ -1369,6 +1358,17 @@ if proceedings:
         "arxiv":    "arXiv:2508.19735 [gr-qc]",
         "ads":      "2025arXiv250819735G",
         "inspire":  "Gerosa:2025lwg",
+        "more":     ""
+        })
+
+    papers['proceedings']['data'].append({
+        "title":    "PRECESSION 2.1: black-hole binary spin precession on eccentric orbits",
+        "author":   "G. Fumagalli, D. Gerosa, N. Loutrel",
+        "journal":  "Journal of Physics: Conference Series 3177 (2026) 012117",
+        "link":     "https://iopscience.iop.org/article/10.1088/1742-6596/3177/1/012117",
+        "arxiv":    "arXiv:2508.21125 [gr-qc]",
+        "ads":      "2025arXiv250821125F",
+        "inspire":  "Fumagalli:2025asw",
         "more":     ""
         })
 
@@ -1452,7 +1452,7 @@ if proceedings:
     papers['proceedings']['data'].append({
         "title":    "Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers",
         "author":   "D. Gerosa",
-        "journal":  "Journal of Physics: Conference Series 957 (2018) 1, 012014",
+        "journal":  "Journal of Physics: Conference Series 957 (2018) 012014",
         "link":     "http://dx.doi.org/10.1088/1742-6596/957/1/012014",
         "arxiv":    "arXiv:1711.10038 [astro-ph.HE]",
         "ads":      "2018JPhCS.957a2014G",

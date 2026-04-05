@@ -14,7 +14,6 @@ Pdf files can be accessed using the links below:
 Additionally, my citation count is available [here](https://davidegerosa.com/citations).
 
 
-
 ### My CV and website workflow
 
 This is how I handle it. 
@@ -41,6 +40,8 @@ Then there's a github action `.github/workflows/CV_website.yml` that:
 - Publish a [Github release](https://github.com/dgerosa/CV/releases) to get permanent URLs.
 - Push updates to the [CV repo](https://github.com/dgerosa/CV) if any.
 - Push updates to the [website repo](https://github.com/dgerosa/website) if any (from there, another action will publish the website itself).
+- (The action runs in a Docker image created by another action; that's to avoid re-installing latex every single time)
 
-At the end of the day: you change something and commit.
+
+At the end of the day: you change something in `database.py` or `CV.tex`, and commit.
 ```
