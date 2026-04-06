@@ -147,8 +147,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Comparing astrophysical models to gravitational-wave data in the observable space",
         "author":   "A. Toubiana, D. Gerosa, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini",
-        "journal":  "\prd, in press",
-        "link":     "",
+        "journal":  "\prd 113 (2026) 083006",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/8xkp-zpj1",
         "arxiv":    "arXiv:2507.13249 [gr-qc]",
         "ads":      "2025arXiv250713249T",
         "inspire":  "Toubiana:2025syw",
