@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9997
-- **Total INSPIRE citations**: 10958
-- **Total MAX citations**: 11033
+- **Total INSPIRE citations**: 10959
+- **Total MAX citations**: 11034
 - **h-index**: 48
 
 ## Paper list sorted by citation count
@@ -75,9 +75,9 @@
 | **64** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 28 | 29 | 29 |
 | **65** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 28 | 27 | 28 |
 | **66** | Fumagalli | 2024 | Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes | 28 | 27 | 28 |
-| **67** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 25 | 27 | 27 |
-| **68** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 27 | 27 | 27 |
-| **69** | Croon | 2026 | Can GW231123 have a stellar origin? | 26 | 26 | 26 |
+| **67** | Croon | 2026 | Can GW231123 have a stellar origin? | 26 | 27 | 27 |
+| **68** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 25 | 27 | 27 |
+| **69** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 27 | 27 | 27 |
 | **70** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 23 | 26 | 26 |
 | **71** | Rosca-Mead | 2020 | Structure of neutron stars in massive scalar-tensor gravity | 22 | 26 | 26 |
 | **72** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 22 | 24 | 24 |
@@ -206,4 +206,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-05 18:23:41 UTC*
+*Last updated: 2026-04-06 04:20:54 UTC*
