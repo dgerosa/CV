@@ -66,7 +66,7 @@ Classical and Quantum Gravity, in press. <a href="https://arxiv.org/abs/2510.118
 **109.**
 *Comparing astrophysical models to gravitational-wave data in the observable space.*\
 A. Toubiana, **D. Gerosa**, M. Mould, S. Rinaldi, M. Arca Sedda, T. Bruel, R. Buscicchio, J. Gair, L. Paiella, F. Santoliquido, R. Tenorio, C. Ugolini.\
-Physical Review D, in press. <a href="https://arxiv.org/abs/2507.13249" style="color: inherit; text-decoration: none;">arXiv:2507.13249 [gr-qc]</a>.
+<a href="https://journals.aps.org/prd/abstract/10.1103/8xkp-zpj1" style="color: inherit; text-decoration: none;">Physical Review D 113 (2026) 083006</a>. <a href="https://arxiv.org/abs/2507.13249" style="color: inherit; text-decoration: none;">arXiv:2507.13249 [gr-qc]</a>.
  
 **108.**
 *Sequential simulation-based inference for extreme mass ratio inspirals.*\
@@ -705,4 +705,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-04-06 04:20:54 UTC*
+*Last updated: 2026-04-06 16:32:53 UTC*

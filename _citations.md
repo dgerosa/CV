@@ -121,8 +121,8 @@
 | **110** | Boschini | 2024 | Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186 | 6 | 4 | 6 |
 | **111** | Dabrowny | 2021 | Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness | 5 | 6 | 6 |
 | **112** | Varma | 2019 | The binary black hole explorer: on-the-fly visualizations of precessing binary black holes | 4 | 6 | 6 |
-| **113** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 5 | 5 |
-| **114** | Toubiana | 2025 | Comparing astrophysical models to gravitational-wave data in the observable space | 5 | 5 | 5 |
+| **113** | Toubiana | 2026 | Comparing astrophysical models to gravitational-wave data in the observable space | 5 | 5 | 5 |
+| **114** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 5 | 5 |
 | **115** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 5 | 5 | 5 |
 | **116** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
 | **117** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 4 | 4 | 4 |
@@ -160,8 +160,8 @@
 | 2022 | 10 |
 | 2023 | 11 |
 | 2024 | 10 |
-| 2025 | 24 |
-| 2026 | 8 |
+| 2025 | 23 |
+| 2026 | 9 |
 
 ## Papers per journal
 
@@ -206,4 +206,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-06 04:20:54 UTC*
+*Last updated: 2026-04-06 16:32:53 UTC*
