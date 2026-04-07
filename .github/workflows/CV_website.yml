@@ -108,6 +108,8 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add -A
+            # workflow.txt is a run log (uploaded as an artifact) and should not be committed.
+            git reset -q workflow.txt || true
             git commit -m "CV update from workflow" || echo "No changes"
             git push
           } 2>&1 | tee -a workflow.txt

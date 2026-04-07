@@ -38,3 +38,8 @@ talklist.pdf
 CVshort.pdf
 transcript.pdf
 temp
+
+# GitHub Actions run logs / artifacts
+workflow.txt
+email_body.txt
+blogpost-templates.zip
