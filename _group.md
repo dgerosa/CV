@@ -156,7 +156,7 @@ Here are the amazing students who are currently completing research projects wit
 ## Former MSc students
 
 - **Pietro Zeduri**. Milano-Bicocca and Aix-Marseille, 2026.
-- **Alessia Corelli**. Milano-Bicocca and Nottingham, 2026.
+- **Alessia Corelli**. Milano-Bicocca and Nottingham, 2026. Resulting publication: [arXiv:2603.00239](https://arxiv.org/abs/2603.00239).
 - **Federico Leto di Priolo**. Milano-Bicocca and ESO Garching, 2026.
 - **Oliver Rossi**. Milano-Bicocca, 2026. The software engineer at NetCom Group (Italy).
 - **Giulia Conti**. Milano-Bicocca, 2026.
@@ -239,4 +239,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-04-08 08:31:50 UTC*
+*Last updated: 2026-04-08 12:35:41 UTC*
