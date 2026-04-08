@@ -3440,7 +3440,7 @@ if msc:
         "where":    "Milano-Bicocca and Nottingham",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "",
+        "note":     "Resulting publication: arXiv:2603.00239.", 
         "current":  False
         })
     
