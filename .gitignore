@@ -38,6 +38,7 @@ talklist.pdf
 CVshort.pdf
 transcript.pdf
 temp
+DavideGerosa_*.pdf
 
 # GitHub Actions run logs / artifacts
 workflow.txt
