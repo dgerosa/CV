@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 9995
-- **Total INSPIRE citations**: 11012
-- **Total MAX citations**: 11081
+- **Total INSPIRE citations**: 11013
+- **Total MAX citations**: 11082
 - **h-index**: 48
 
 ## Paper list sorted by citation count
@@ -15,7 +15,7 @@
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 481 | 481 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 447 | 471 | 471 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 406 | 463 | 463 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 318 | 379 | 379 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 318 | 380 | 380 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 338 | 368 | 368 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 273 | 302 | 302 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 221 | 247 | 247 |
@@ -206,4 +206,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-08 12:35:41 UTC*
+*Last updated: 2026-04-09 04:08:22 UTC*
