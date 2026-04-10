@@ -1,21 +1,21 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10007
-- **Total INSPIRE citations**: 11017
-- **Total MAX citations**: 11088
+- **Total INSPIRE citations**: 11020
+- **Total MAX citations**: 11092
 - **h-index**: 48
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1439 | 1627 | 1627 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 866 | 951 | 951 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 774 | 727 | 774 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1439 | 1628 | 1628 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 866 | 952 | 952 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 774 | 726 | 774 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 458 | 481 | 481 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 448 | 471 | 471 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 407 | 463 | 463 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 319 | 381 | 381 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 319 | 382 | 382 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 339 | 368 | 368 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 273 | 302 | 302 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 220 | 247 | 247 |
@@ -105,9 +105,9 @@
 | **94** | Mould | 2024 | Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs | 11 | 12 | 12 |
 | **95** | Steinle | 2023 | The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries | 10 | 12 | 12 |
 | **96** | Reali | 2020 | Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants | 10 | 12 | 12 |
-| **97** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 8 | 11 | 11 |
-| **98** | Gangardt | 2022 | Constraining black-hole binary spin precession and nutation with sequential prior conditioning | 10 | 11 | 11 |
-| **99** | Cole | 2026 | Sequential simulation-based inference for extreme mass ratio inspirals | 9 | 10 | 10 |
+| **97** | Cole | 2026 | Sequential simulation-based inference for extreme mass ratio inspirals | 9 | 11 | 11 |
+| **98** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 8 | 11 | 11 |
+| **99** | Gangardt | 2022 | Constraining black-hole binary spin precession and nutation with sequential prior conditioning | 10 | 11 | 11 |
 | **100** | Fabbri | 2025 | Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data | 9 | 10 | 10 |
 | **101** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 10 | 8 | 10 |
 | **102** | Fumagalli | 2025 | Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory | 9 | 9 | 9 |
@@ -206,4 +206,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-09 15:42:06 UTC*
+*Last updated: 2026-04-10 04:22:46 UTC*
