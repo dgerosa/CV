@@ -3176,7 +3176,7 @@ if postdocs:
         "end":      "current",
         "email":    "nicholas.loutrel@unimib.it",
         "note":     "Supported by the ERC. Then journal editor at Physical Review Letters, American Physical Society.",
-        "current":  True
+        "current":  False
         })
     
     group['postdocs']['data'].append({
