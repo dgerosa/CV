@@ -57,15 +57,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
-  <img src="{{ '/images/nicholas-loutrel.jpg' | relative_url }}" alt="Nicholas Loutrel" class="person-photo">
-  <div class="person-text">
-    <strong>Nicholas Loutrel</strong><br>
-    Postdoc<br>
-<a href="mailto:nicholas.loutrel@unimib.it">nicholas.loutrel@unimib.it</a><br>
-    <em>Stationary phaser, burst calculator, catastrophe theorizer. Perhaps a secret agent. Still can’t understand why we talk probabilities while he lives in a deterministic world.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/giulia-cuomo.jpg' | relative_url }}" alt="Giulia Cuomo" class="person-photo">
   <div class="person-text">
     <strong>Giulia Cuomo</strong><br>
@@ -144,6 +135,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille (France).
 - **Nathan Steinle**. Birmingham, 2021–2023. Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).
 - **Nicola Giacobbo**. Birmingham, 2020–2021. Supported by the Leverhulme Trust. Then software developer at IRS Srl (Italy).
+- **Nicholas Loutrel**. Milano-Bicocca, 2023–current. Supported by the ERC. Then journal editor at Physical Review Letters, American Physical Society.
 
 ## Former PhD students
 
@@ -239,4 +231,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-04-10 04:22:46 UTC*
+*Last updated: 2026-04-10 13:38:08 UTC*
