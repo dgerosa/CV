@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10035
+- **Total ADS citations**: 10030
 - **Total INSPIRE citations**: 11032
 - **Total MAX citations**: 11108
 - **h-index**: 48
@@ -9,13 +9,13 @@
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1441 | 1628 | 1628 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 868 | 952 | 952 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1440 | 1628 | 1628 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 867 | 952 | 952 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 778 | 726 | 778 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 459 | 481 | 481 |
-| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 449 | 474 | 474 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 408 | 464 | 464 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 320 | 383 | 383 |
+| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 448 | 474 | 474 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 407 | 464 | 464 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 319 | 383 | 383 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 340 | 368 | 368 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 275 | 302 | 302 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 221 | 248 | 248 |
@@ -206,4 +206,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-11 03:52:51 UTC*
+*Last updated: 2026-04-11 18:23:22 UTC*
