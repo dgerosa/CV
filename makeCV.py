@@ -473,23 +473,6 @@ def parsegroup(group,filename="parsegroup.tex"):
 
     out=[]
 
-    out.append("\cvitem{}{\\begin{tabular}{l@{\hspace{10pt}}c@{\hspace{4pt}}l@{\hspace{4pt}}c@{\hspace{3pt}}l}")
-
-    for k in ['fellowships','postdocs','phd','msc','bsc']:
-        overall = len(group[k]['data'])
-        current = np.sum([x['current'] for x in group[k]['data']])
-        #if current>0:
-        #    currentlabel = "(of which \\textbf{"+str(current)+"} &currently in my group)"
-        #else:
-        #    currentlabel = "&"
-        if current>0:
-            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far (of which &\\textbf{"+str(current)+"}& currently in my group). \\\\")
-        if current==0:
-            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far. \\\\")
-    out.append("\end{tabular} }")
-    
-    out.append("\\vspace{0.2cm}")
-    out.append("")
     out.append("Current group members marked with *.  More information at \href{http://www.davidegerosa.com/group}{\\texttt{www.davidegerosa.com/group}}")
 
     def current(x):
@@ -517,14 +500,42 @@ def parsegroup(group,filename="parsegroup.tex"):
                 out.append("\\vspace{-0.1cm}")
         elif k in ["msc","bsc"]:
             for x in group[k]['data']:
-                line = "\\textit{"+nameinitial(x['name'])+"} ("+x['where']+", "+x['what']+", "+str(x['year'])+")"+current(x)
-                if x==group[k]['data'][-1]:
-                    line+='.'
-                else:
-                    line+=' --- '
-                out.append(line)           
+                out.append(
+                    "\\cvitemwithcomment{}{\\hspace{0.4cm}$\\circ\\;$ "
+                    + name(x)
+                    + " ("
+                    + x['where']
+                    + ", "
+                    + x['what']
+                    + ")."
+                    + current(x)
+                    + "}{"
+                    + str(x['year'])
+                    + "}"
+                )
+                out.append("\\vspace{-0.1cm}")
 
     with open(filename,"w") as f: f.write("\n".join(out))
+
+
+def metricsgroup(group, filename="metricsgroup.tex"):
+
+    print('Compute group metrics')
+
+    out=[]
+
+    out.append("\\cvitem{}{\\begin{tabular}{l@{\\hspace{10pt}}c@{\\hspace{4pt}}l@{\\hspace{4pt}}c@{\\hspace{3pt}}l}")
+    for k in ['fellowships', 'postdocs', 'phd', 'msc', 'bsc']:
+        overall = len(group[k]['data'])
+        current = np.sum([x['current'] for x in group[k]['data']])
+        if current > 0:
+            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far (of which &\\textbf{"+str(current)+"}& currently in my group). \\\\")
+        else:
+            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far. \\\\")
+    out.append("\\end{tabular} }")
+
+    with open(filename, "w") as f:
+        f.write("\n".join(out))
 
 
 def CVshort(filename='CVshort.tex'):
@@ -1198,6 +1209,7 @@ if __name__ == "__main__":
     metricspapers(papers)
     parsetalks(talks)
     metricstalks(talks)
+    metricsgroup(group)
     parsegroup(group)
     CVshort()
     buildbib()
