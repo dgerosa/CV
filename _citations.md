@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10030
+- **Total ADS citations**: 10029
 - **Total INSPIRE citations**: 11032
 - **Total MAX citations**: 11108
 - **h-index**: 48
@@ -19,7 +19,7 @@
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 340 | 368 | 368 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 275 | 302 | 302 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 221 | 248 | 248 |
-| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 154 | 188 | 188 |
+| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 153 | 188 | 188 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 147 | 169 | 169 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 139 | 164 | 164 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 161 | 161 |
@@ -206,4 +206,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-11 18:48:39 UTC*
+*Last updated: 2026-04-12 04:24:38 UTC*

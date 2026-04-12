@@ -150,7 +150,7 @@ if published:
         "journal":  "\prd 113 (2026) 083006",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/8xkp-zpj1",
         "arxiv":    "arXiv:2507.13249 [gr-qc]",
-        "ads":      "2025arXiv250713249T",
+        "ads":      "2026PhRvD.113h3006T",
         "inspire":  "Toubiana:2025syw",
         "more":     ""
         })
