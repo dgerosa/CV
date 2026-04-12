@@ -3458,7 +3458,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "The software engineer at NetCom Group (Italy).",
+        "note":     "The software engineer at Netcom Engineering (Italy).",
         "current":  False
         })
     
