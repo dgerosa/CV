@@ -473,7 +473,7 @@ def parsegroup(group,filename="parsegroup.tex"):
 
     out=[]
 
-    out.append("Current group members marked with *.  More information at \href{http://www.davidegerosa.com/group}{\\texttt{www.davidegerosa.com/group}}")
+    out.append("Current group members marked with *.")
 
     def current(x):
         if x['current']:
