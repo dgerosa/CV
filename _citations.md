@@ -1,20 +1,20 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10037
-- **Total INSPIRE citations**: 11035
-- **Total MAX citations**: 11112
+- **Total ADS citations**: 10039
+- **Total INSPIRE citations**: 11038
+- **Total MAX citations**: 11114
 - **h-index**: 48
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1441 | 1629 | 1629 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1441 | 1630 | 1630 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 867 | 952 | 952 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 779 | 727 | 779 |
-| **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 459 | 481 | 481 |
-| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 448 | 474 | 474 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 407 | 464 | 464 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 779 | 728 | 779 |
+| **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 459 | 482 | 482 |
+| **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 449 | 474 | 474 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 408 | 464 | 464 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 319 | 383 | 383 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 340 | 368 | 368 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 275 | 302 | 302 |
@@ -206,4 +206,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-13 04:35:40 UTC*
+*Last updated: 2026-04-14 04:22:48 UTC*
