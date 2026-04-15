@@ -2303,6 +2303,14 @@ if seminars:
     talks['seminars']['label'] = 'Talks at department seminars'
     talks['seminars']['data'] = []
 
+    talks['seminars']['data'].append({
+        "title":    "Gravitational wavescapes",
+        "what":     "INFN Milano-Bicocca section council",
+        "where":    "Milan, Italy",
+        "when":     "Apr 2026",
+        "invited":  True,
+        "more":     ""
+        })
 
     talks['seminars']['data'].append({
         "title":    "Merging binary black holes, the first ten years",
@@ -2315,7 +2323,7 @@ if seminars:
 
     talks['seminars']['data'].append({
         "title":    "What gravitational waves can(not) reveal about merging black holes",
-        "what":     "CPT seminars, Centre de Physique Théorique, Université d'Aix-Marseille",
+        "what":     "CPT seminars, Centre de physique théorique, Université d'Aix-Marseille",
         "where":    "Marseille, France",
         "when":     "Oct 2025",
         "invited":  True,
