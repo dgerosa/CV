@@ -1367,7 +1367,7 @@ if proceedings:
         "journal":  "Journal of Physics: Conference Series 3177 (2026) 012117",
         "link":     "https://iopscience.iop.org/article/10.1088/1742-6596/3177/1/012117",
         "arxiv":    "arXiv:2508.21125 [gr-qc]",
-        "ads":      "2025arXiv250821125F",
+        "ads":      "2026JPhCS3177a2117F",
         "inspire":  "Fumagalli:2025asw",
         "more":     ""
         })
