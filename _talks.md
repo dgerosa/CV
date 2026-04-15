@@ -2,7 +2,7 @@ Invited talks marked with ✦.
 
 ## Summary
 **84** (**35**✦) [Talks at conferences](#talks-at-conferences) \
-**47** (**47**✦) [Talks at department seminars](#talks-at-department-seminars) \
+**48** (**48**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **9** (**8**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
 **18** (**18**✦) [Outreach talks](#outreach-talks)
@@ -284,11 +284,14 @@ BritGrav 14, Cambridge, UK, Mar 2014.
 
 ## Talks at department seminars
 
+**48.** ✦ *Gravitational wavescapes*  \\
+INFN Milano-Bicocca section council, Milan, Italy, Apr 2026.
+
 **47.** ✦ *Merging binary black holes, the first ten years*  \\
 Physics colloquium, Instituto Superior Técnico, Lisbon, Portugal, Feb 2026.
 
 **46.** ✦ *What gravitational waves can(not) reveal about merging black holes*  \\
-CPT seminars, Centre de Physique Théorique, Université d'Aix-Marseille, Marseille, France, Oct 2025.
+CPT seminars, Centre de physique théorique, Université d'Aix-Marseille, Marseille, France, Oct 2025.
 
 **45.** ✦ *Challenges and opportunities in gravitational-wave population inference*  \\
 Astrophysics+Theory seminars, Imperial College, London, UK, Sep 2025.
@@ -559,4 +562,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-04-15 04:21:59 UTC*
+*Last updated: 2026-04-15 17:32:43 UTC*
