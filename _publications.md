@@ -1,52 +1,47 @@
 ## Summary
-**8** [Submitted papers](#submitted-papers)\
+**7** [Submitted papers](#submitted-papers)\
 **111** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
-**14** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
+**15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
 ---
 
 ## Submitted papers
 
-**8.**
+**7.**
 *Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
 A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
 <a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
  
-**7.**
+**6.**
 *Variance of gravitational-wave populations.*\
 A. Corelli, **D. Gerosa**, M. Mould, C. M. Fabbri.\
 <a href="https://arxiv.org/abs/2603.00239" style="color: inherit; text-decoration: none;">arXiv:2603.00239 [astro-ph.HE]</a>.
  
-**6.**
+**5.**
 *Inferring the population properties of galactic binaries from LISA's stochastic foreground.*\
 F. De Santi, A. Santini, A. Toubiana, N. Karnesis, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2602.18560" style="color: inherit; text-decoration: none;">arXiv:2602.18560 [astro-ph.HE]</a>.
  
-**5.**
+**4.**
 *On the exceptionality of exceptional gravitational-wave events.*\
 R. Tenorio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2601.02467" style="color: inherit; text-decoration: none;">arXiv:2601.02467 [astro-ph.HE]</a>.
  
-**4.**
+**3.**
 *Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521.*\
 C. Anselmo, C. Pacilio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2512.05193" style="color: inherit; text-decoration: none;">arXiv:2512.05193 [gr-qc]</a>.
  
-**3.**
+**2.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
 A. Pedrotti, M. Mancarella, J. Bel, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
  
-**2.**
+**1.**
 *A recoiling supermassive black hole in a powerful quasar.*\
 M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, **D. Gerosa**, M. Konishi, S. Koyama, K. Kushibiki, E. Lambrides, E. T. Meyer, K. Motohara, M. Stiavelli, H. Takahashi, G. R. Tremblay, C. Norman.\
 <a href="https://arxiv.org/abs/2501.18730" style="color: inherit; text-decoration: none;">arXiv:2501.18730 [astro-ph.GA]</a>.
- 
-**1.**
-*The last three years: multiband gravitational-wave observations of stellar-mass binary black holes.*\
-A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, **D. Gerosa**, S. McGee, M. Nicholl, A. Vecchio.\
-<a href="https://arxiv.org/abs/2204.03423" style="color: inherit; text-decoration: none;">arXiv:2204.03423 [gr-qc]</a>.
  
 
 ---
@@ -628,36 +623,41 @@ G. Lodato, **D. Gerosa**.\
 
 ## Other publications (white papers, proceedings, etc.)
 
-**14.**
+**15.**
 *Coincident morphological transitions in precessing black-hole binaries.*\
 **D. Gerosa**, G. Foroni, G. Fumagalli, E. Berti.\
 ICBS proceedings. <a href="https://arxiv.org/abs/2508.19735" style="color: inherit; text-decoration: none;">arXiv:2508.19735 [gr-qc]</a>.
  
-**13.**
+**14.**
 *PRECESSION 2.1: black-hole binary spin precession on eccentric orbits.*\
 G. Fumagalli, **D. Gerosa**, N. Loutrel.\
 <a href="https://iopscience.iop.org/article/10.1088/1742-6596/3177/1/012117" style="color: inherit; text-decoration: none;">Journal of Physics: Conference Series 3177 (2026) 012117</a>. <a href="https://arxiv.org/abs/2508.21125" style="color: inherit; text-decoration: none;">arXiv:2508.21125 [gr-qc]</a>.
  
-**12.**
+**13.**
 *Waveform modelling for the Laser Interferometer Space Antenna.*\
 N. Afshordi, et al. (105 authors incl. **D. Gerosa**).\
 Living Reviews in Relativity 28 (2025) 9. <a href="https://arxiv.org/abs/2311.01300" style="color: inherit; text-decoration: none;">arXiv:2311.01300 [gr-qc]</a>.
  
-**11.**
+**12.**
 *QLUSTER: quick clusters of merging binary black holes.*\
 **D. Gerosa**, M. Mould.\
 <a href="https://doi.org/10.58027/bsnq-2422" style="color: inherit; text-decoration: none;">Moriond proceedings</a>. <a href="https://arxiv.org/abs/2305.04987" style="color: inherit; text-decoration: none;">arXiv:2305.04987 [astro-ph.HE]</a>.\
 Open source code.
  
-**10.**
+**11.**
 *Astrophysics with the Laser Interferometer Space Antenna.*\
 P. Amaro-Seoane, et al. (155 authors incl. **D. Gerosa**).\
 <a href="https://link.springer.com/article/10.1007/s41114-022-00041-y" style="color: inherit; text-decoration: none;">Living Reviews in Relativity 26 (2022) 2</a>. <a href="https://arxiv.org/abs/2203.06016" style="color: inherit; text-decoration: none;">arXiv:2203.06016 [gr-qc]</a>.
  
-**9.**
+**10.**
 *New horizons for fundamental physics with LISA.*\
 K. G. Arun, et al. (141 authors incl. **D. Gerosa**).\
 <a href="https://doi.org/10.1007/s41114-022-00036-9" style="color: inherit; text-decoration: none;">Living Reviews in Relativity 25 (2022) 4</a>. <a href="https://arxiv.org/abs/2205.01597" style="color: inherit; text-decoration: none;">arXiv:2205.01597 [gr-qc]</a>.
+ 
+**9.**
+*The last three years: multiband gravitational-wave observations of stellar-mass binary black holes.*\
+A. Klein, G. Pratten, R. Buscicchio, P. Schmidt, C. J. Moore, E. Finch, A. Bonino, L. M. Thomas, N. Williams, **D. Gerosa**, S. McGee, M. Nicholl, A. Vecchio.\
+<a href="https://arxiv.org/abs/2204.03423" style="color: inherit; text-decoration: none;">arXiv:2204.03423 [gr-qc]</a>.
  
 **8.**
 *Prospects for fundamental physics with LISA.*\
@@ -705,4 +705,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-04-16 04:28:58 UTC*
+*Last updated: 2026-04-16 05:31:19 UTC*
