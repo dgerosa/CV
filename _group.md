@@ -21,15 +21,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
-  <img src="{{ '/images/caroline-owen.jpg' | relative_url }}" alt="Caroline Owen" class="person-photo">
-  <div class="person-text">
-    <strong>Caroline Owen</strong><br>
-    Postdoc<br>
-<a href="mailto:caroline.owen@unimib.it">caroline.owen@unimib.it</a><br>
-    <em>Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/tristan-bruel.jpg' | relative_url }}" alt="Tristan Bruel" class="person-photo">
   <div class="person-text">
     <strong>Tristan Bruel</strong><br>
@@ -39,21 +30,30 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
-  <img src="{{ '/images/rodrigo-tenorio.jpg' | relative_url }}" alt="Rodrigo Tenorio" class="person-photo">
-  <div class="person-text">
-    <strong>Rodrigo Tenorio</strong><br>
-    Postdoc<br>
-<a href="mailto:rodrigo.tenorio@unimib.it">rodrigo.tenorio@unimib.it</a><br>
-    <em>Long-signal searcher, stats geek, thinks that everything is a sinusoid if you look close enough. He enjoys crunching numbers on a GPU, playing bagpipes, and using Bayesian probability to climb up walls efficiently. Also, Fëanor did nothing wrong.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/ssohrab-borhanian.jpg' | relative_url }}" alt="Ssohrab Borhanian" class="person-photo">
   <div class="person-text">
     <strong>Ssohrab Borhanian</strong><br>
     Postdoc<br>
 <a href="mailto:ssohrab.borhanian@unimib.it">ssohrab.borhanian@unimib.it</a><br>
     <em>Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.</em>
+  </div>
+</div>
+<div class="person">
+  <img src="{{ '/images/caroline-owen.jpg' | relative_url }}" alt="Caroline Owen" class="person-photo">
+  <div class="person-text">
+    <strong>Caroline Owen</strong><br>
+    Postdoc<br>
+<a href="mailto:caroline.owen@unimib.it">caroline.owen@unimib.it</a><br>
+    <em>Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.</em>
+  </div>
+</div>
+<div class="person">
+  <img src="{{ '/images/rodrigo-tenorio.jpg' | relative_url }}" alt="Rodrigo Tenorio" class="person-photo">
+  <div class="person-text">
+    <strong>Rodrigo Tenorio</strong><br>
+    Postdoc<br>
+<a href="mailto:rodrigo.tenorio@unimib.it">rodrigo.tenorio@unimib.it</a><br>
+    <em>Long-signal searcher, stats geek, thinks that everything is a sinusoid if you look close enough. He enjoys crunching numbers on a GPU, playing bagpipes, and using Bayesian probability to climb up walls efficiently. Also, Fëanor did nothing wrong.</em>
   </div>
 </div>
 <div class="person">
@@ -129,14 +129,14 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former postdocs
 
+- **Nicholas Loutrel**. Milano-Bicocca, 2023–2026. Supported by the ERC. Then journal editor at Physical Review Letters, American Physical Society.
 - **Philippa Cole**. Milano-Bicocca, 2023–2026. Supported by the ERC. Then faculty at Queen Mary University of London (UK).
-- **Arianna Renzini**. Milano-Bicocca, 2023–2025. Marie Skłodowska-Curie Fellow. Then permanent researcher at ETH, Zurich.
+- **Arianna Renzini**. Milano-Bicocca, 2023–2025. Marie Skłodowska-Curie Fellow. Then permanent researcher at ETH Zurich (Switzerland).
 - **Costantino Pacilio**. Milano-Bicocca, 2022–2025. Supported by the ERC. Then permanent researcher at INFN, Rome (Italy).
 - **Swetha Baghwat**. Birmingham, 2022–2025. Stephen Hawking Fellow.
 - **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille (France).
 - **Nathan Steinle**. Birmingham, 2021–2023. Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).
 - **Nicola Giacobbo**. Birmingham, 2020–2021. Supported by the Leverhulme Trust. Then software developer at IRS Srl (Italy).
-- **Nicholas Loutrel**. Milano-Bicocca, 2023–current. Supported by the ERC. Then journal editor at Physical Review Letters, American Physical Society.
 
 ## Former PhD students
 
@@ -232,4 +232,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-04-17 04:27:34 UTC*
+*Last updated: 2026-04-17 13:02:38 UTC*
