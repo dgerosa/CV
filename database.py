@@ -3147,12 +3147,22 @@ if postdocs:
         "current":  True
         })
     
+    group['postdocs']['data'].append({
+        "name":     "Ssohrab Borhanian",
+        "where":    "Milano-Bicocca",
+        "start":    "2023",
+        "end":      "current",
+        "bio":      "Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.",
+        "email":    "ssohrab.borhanian@unimib.it",
+        "note":     "Supported by the ERC.",
+        "current":  True
+        })
 
     group['postdocs']['data'].append({
         "name":     "Caroline Owen",
         "where":    "Milano-Bicocca",
         "start":    "2024",
-        "end":      "current",
+        "end":      "2026",
         "bio":      "Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.",
         "email":    "caroline.owen@unimib.it",
         "note":     "Supported by the ERC. Then visiting assistant professor at Williams College (USA).",
@@ -3163,28 +3173,20 @@ if postdocs:
         "name":     "Rodrigo Tenorio",
         "where":    "Milano-Bicocca",
         "start":    "2024",
-        "end":      "current",
+        "end":      "2026",
         "bio":      "Long-signal searcher, stats geek, thinks that everything is a sinusoid if you look close enough. He enjoys crunching numbers on a GPU, playing bagpipes, and using Bayesian probability to climb up walls efficiently. Also, Fëanor did nothing wrong.",
         "email":    "rodrigo.tenorio@unimib.it",
+        "note":     "Supported by the Italian Research Ministry and the ERC.",
         "current":  True
         })
     
-    group['postdocs']['data'].append({
-        "name":     "Ssohrab Borhanian",
-        "where":    "Milano-Bicocca",
-        "start":    "2023",
-        "end":      "current",
-        "bio":      "Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.",
-        "email":    "ssohrab.borhanian@unimib.it",
-        "current":  True
-        })
-    
+
     group['postdocs']['data'].append({
         "name":     "Nicholas Loutrel",
         "where":    "Milano-Bicocca",
         "start":    "2023",
+        "end":      "2026",
         "bio":      "Stationary phaser, burst calculator, catastrophe theorizer. Perhaps a secret agent. Still can’t understand why we talk probabilities while he lives in a deterministic world.",
-        "end":      "current",
         "email":    "nicholas.loutrel@unimib.it",
         "note":     "Supported by the ERC. Then journal editor at Physical Review Letters, American Physical Society.",
         "current":  False
