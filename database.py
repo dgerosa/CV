@@ -3115,7 +3115,7 @@ if fellowships:
         "end":          "2025",
         "bio":          "Stochastic backgrounder, anisotropy locator, non-gaussianizer. Writes python packages, merges pull requests, dances acrobatic rock’n’roll.",
         "email":        "arianna.renzini@unimib.it",
-        "note":         "Marie Skłodowska-Curie Fellow. Then permanent researcher at ETH, Zurich.",
+        "note":         "Marie Skłodowska-Curie Fellow. Then permanent researcher at ETH Zurich (Switzerland).",
         "current":      False
         })
     
@@ -3138,22 +3138,24 @@ if postdocs:
     group['postdocs']['data'] = []
     
     group['postdocs']['data'].append({
-        "name":     "Caroline Owen",
-        "where":    "Milano-Bicocca",
-        "start":    "2024",
-        "end":      "current",
-        "bio":      "Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.",
-        "email":    "caroline.owen@unimib.it",
-        "current":  True
-        })
-    
-    group['postdocs']['data'].append({
         "name":     "Tristan Bruel",
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
         "bio":      "Binary black holes enjoyer, population synthesizer, star cluster simulator. Dream of identifying the host galaxies of black hole mergers. Addicted to endurance sports and eager to bring a French touch to local Italian rugby.",
         "email":    "tristan.bruel@unimib.it",
+        "current":  True
+        })
+    
+
+    group['postdocs']['data'].append({
+        "name":     "Caroline Owen",
+        "where":    "Milano-Bicocca",
+        "start":    "2024",
+        "end":      "current",
+        "bio":      "Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.",
+        "email":    "caroline.owen@unimib.it",
+        "note":     "Supported by the ERC. Then visiting assistant professor at Williams College (USA).",
         "current":  True
         })
     
