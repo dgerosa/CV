@@ -112,6 +112,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2026.
 - **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
 - **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
+- **Ecaterina Tsuhuy**, BSc thesis, Milano-Bicocca and Pavia, 2026.
 - **Laura Canova**, BSc thesis, Milano-Bicocca, 2026.
 - **Giacomo Brugali**, BSc thesis, Milano-Bicocca, 2026.
 - **Federico Massacesi**, BSc thesis, Milano-Bicocca, 2026.
@@ -232,4 +233,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-04-20 10:35:05 UTC*
+*Last updated: 2026-04-20 16:29:21 UTC*
