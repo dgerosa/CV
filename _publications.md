@@ -56,12 +56,12 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 **111.**
 *Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
 S. Borhanian, A. Renzini, P. S. Cole, C. Pacilio, M. Mancarella, **D. Gerosa**.\
-Classical and Quantum Gravity, in press. <a href="https://arxiv.org/abs/2510.11861" style="color: inherit; text-decoration: none;">arXiv:2510.11861 [gr-qc]</a>.
+<a href="https://iopscience.iop.org/article/10.1088/1361-6382/ae5b1a" style="color: inherit; text-decoration: none;">Classical and Quantum Gravity 43 (2026) 085008</a>. <a href="https://arxiv.org/abs/2510.11861" style="color: inherit; text-decoration: none;">arXiv:2510.11861 [gr-qc]</a>.
  
 **110.**
 *Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries.*\
 N. Loutrel, A. Bailey, **D. Gerosa**.\
-Classical and Quantum Gravity 43 (2026) 075010. <a href="https://arxiv.org/abs/2509.01614" style="color: inherit; text-decoration: none;">arXiv:2509.01614 [gr-qc]</a>.
+<a href="https://iopscience.iop.org/article/10.1088/1361-6382/ae59e4" style="color: inherit; text-decoration: none;">Classical and Quantum Gravity 43 (2026) 075010</a>. <a href="https://arxiv.org/abs/2509.01614" style="color: inherit; text-decoration: none;">arXiv:2509.01614 [gr-qc]</a>.
  
 **109.**
 *Comparing astrophysical models to gravitational-wave data in the observable space.*\
@@ -710,4 +710,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-04-21 04:28:11 UTC*
+*Last updated: 2026-04-21 11:13:18 UTC*

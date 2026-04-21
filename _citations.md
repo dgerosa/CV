@@ -133,8 +133,8 @@
 | **122** | Gerosa | 2018 | Reanalysis of LIGO black-hole coalescences with alternative prior assumptions | 2 | 2 | 2 |
 | **123** | Corelli | 2026 | Variance of gravitational-wave populations | 0 | 1 | 1 |
 | **124** | De Santi | 2026 | Inferring the population properties of galactic binaries from LISA's stochastic foreground | 1 | 1 | 1 |
-| **125** | Anselmo | 2025 | Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521 | 1 | 1 | 1 |
-| **126** | Borhanian | 2025 | Impact of facility timing and coordination for next-generation gravitational-wave detectors | 0 | 1 | 1 |
+| **125** | Borhanian | 2026 | Impact of facility timing and coordination for next-generation gravitational-wave detectors | 0 | 1 | 1 |
+| **126** | Anselmo | 2025 | Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521 | 1 | 1 | 1 |
 | **127** | Boschini | 2025 | “LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design | 1 | 1 | 1 |
 | **128** | Gerosa | 2015 | Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history | 0 | 1 | 1 |
 | **129** | Mould | 2026 | Gravitational-wave astronomy requires population-informed parameter estimation | 0 | 0 | 0 |
@@ -161,8 +161,8 @@
 | 2022 | 10 |
 | 2023 | 11 |
 | 2024 | 10 |
-| 2025 | 22 |
-| 2026 | 11 |
+| 2025 | 21 |
+| 2026 | 12 |
 
 ## Papers per journal
 
@@ -207,4 +207,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-21 04:28:11 UTC*
+*Last updated: 2026-04-21 11:13:18 UTC*
