@@ -1,23 +1,23 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10051
-- **Total INSPIRE citations**: 11116
-- **Total MAX citations**: 11186
+- **Total INSPIRE citations**: 11128
+- **Total MAX citations**: 11197
 - **h-index**: 48
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1445 | 1636 | 1636 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1445 | 1637 | 1637 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 869 | 955 | 955 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 781 | 733 | 781 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 781 | 734 | 781 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 459 | 484 | 484 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 450 | 483 | 483 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 409 | 464 | 464 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 409 | 471 | 471 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 321 | 385 | 385 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 341 | 370 | 370 |
-| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 276 | 307 | 307 |
+| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 276 | 309 | 309 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 220 | 248 | 248 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 154 | 191 | 191 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 147 | 170 | 170 |
@@ -67,11 +67,11 @@
 | **56** | Spadaro | 2023 | Glitch systematics on the observation of massive black-hole binaries with LISA | 29 | 34 | 34 |
 | **57** | Gerosa | 2021 | High mass but low spin: an exclusion region to rule out hierarchical black-hole mergers as a mechanism to populate the pair-instability mass gap | 31 | 34 | 34 |
 | **58** | Rosca-Mead | 2020 | Core collapse in massive scalar-tensor gravity | 27 | 34 | 34 |
-| **59** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 30 | 31 | 31 |
-| **60** | Gerosa | 2023 | Efficient multi-timescale dynamics of precessing black-hole binaries | 27 | 31 | 31 |
-| **61** | Sayeb | 2021 | Massive black hole binary inspiral and spin evolution in a cosmological framework | 31 | 29 | 31 |
-| **62** | Wong | 2019 | Machine-learning interpolation of population-synthesis simulations to interpret gravitational-wave observations: a case study | 27 | 31 | 31 |
-| **63** | Croon | 2026 | Can GW231123 have a stellar origin? | 26 | 30 | 30 |
+| **59** | Croon | 2026 | Can GW231123 have a stellar origin? | 26 | 31 | 31 |
+| **60** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 30 | 31 | 31 |
+| **61** | Gerosa | 2023 | Efficient multi-timescale dynamics of precessing black-hole binaries | 27 | 31 | 31 |
+| **62** | Sayeb | 2021 | Massive black hole binary inspiral and spin evolution in a cosmological framework | 31 | 29 | 31 |
+| **63** | Wong | 2019 | Machine-learning interpolation of population-synthesis simulations to interpret gravitational-wave observations: a case study | 27 | 31 | 31 |
 | **64** | Mould | 2022 | Gravitational-wave population inference at past time infinity | 25 | 30 | 30 |
 | **65** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 29 | 30 | 30 |
 | **66** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 28 | 29 | 29 |
@@ -207,4 +207,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-21 11:13:18 UTC*
+*Last updated: 2026-04-22 04:26:13 UTC*
