@@ -140,7 +140,7 @@ if published:
         "journal":  "\cqg 43 (2026) 075010",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ae59e4",
         "arxiv":    "arXiv:2509.01614 [gr-qc]",
-        "ads":      "2025arXiv250901614L",
+        "ads":      "2026CQGra..43g5010L",
         "inspire":  "Loutrel:2025bqn",
         "more":     ""
         })
