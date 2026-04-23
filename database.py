@@ -1538,6 +1538,16 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Massive binary black-hole spins and disk warps",
+        "what":     "Massive black hole spin workshop",
+        "where":    "Edinburgh, UK",
+        "when":     "Apr 2026",
+        "invited":  True,
+        "more":     ""
+        })
+
+
+    talks['conferences']['data'].append({
         "title":    "Are exceptional gravitational-wave events truly exceptional?",
         "what":     "GWfreeride: Carving the AI gradient in gravitational-wave astronomy",
         "where":    "Sexten, Italy",
