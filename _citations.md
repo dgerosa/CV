@@ -1,8 +1,8 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10072
-- **Total INSPIRE citations**: 11133
-- **Total MAX citations**: 11209
+- **Total ADS citations**: 10073
+- **Total INSPIRE citations**: 11134
+- **Total MAX citations**: 11210
 - **h-index**: 48
 
 ## Paper list sorted by citation count
@@ -35,7 +35,7 @@
 | **24** | Gerosa | 2016 | PRECESSION: Dynamics of spinning black-hole binaries with python | 92 | 104 | 104 |
 | **25** | Vitale | 2017 | Impact of Bayesian priors on the characterization of binary black hole coalescences | 88 | 102 | 102 |
 | **26** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 89 | 100 | 100 |
-| **27** | Taylor | 2018 | Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework | 93 | 100 | 100 |
+| **27** | Taylor | 2018 | Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework | 94 | 100 | 100 |
 | **28** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 84 | 96 | 96 |
 | **29** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 79 | 88 | 88 |
 | **30** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 70 | 84 | 84 |
@@ -101,11 +101,11 @@
 | **90** | Tenorio | 2025 | Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms | 12 | 14 | 14 |
 | **91** | Stegmann | 2025 | Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements | 10 | 13 | 13 |
 | **92** | Gerosa | 2024 | Quick recipes for gravitational-wave selection effects | 13 | 13 | 13 |
-| **93** | Pedrotti | 2025 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 12 | 12 | 12 |
-| **94** | Mould | 2024 | Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs | 11 | 12 | 12 |
-| **95** | Steinle | 2023 | The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries | 10 | 12 | 12 |
-| **96** | Reali | 2020 | Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants | 10 | 12 | 12 |
-| **97** | Cole | 2026 | Sequential simulation-based inference for extreme mass ratio inspirals | 9 | 11 | 11 |
+| **93** | Cole | 2026 | Sequential simulation-based inference for extreme mass ratio inspirals | 9 | 12 | 12 |
+| **94** | Pedrotti | 2025 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 12 | 12 | 12 |
+| **95** | Mould | 2024 | Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs | 11 | 12 | 12 |
+| **96** | Steinle | 2023 | The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries | 10 | 12 | 12 |
+| **97** | Reali | 2020 | Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants | 10 | 12 | 12 |
 | **98** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 8 | 11 | 11 |
 | **99** | Gangardt | 2022 | Constraining black-hole binary spin precession and nutation with sequential prior conditioning | 10 | 11 | 11 |
 | **100** | Fumagalli | 2025 | Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory | 9 | 10 | 10 |
@@ -207,4 +207,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-23 04:28:31 UTC*
+*Last updated: 2026-04-23 14:14:59 UTC*

@@ -1,7 +1,7 @@
 Invited talks marked with ✦.
 
 ## Summary
-**84** (**35**✦) [Talks at conferences](#talks-at-conferences) \
+**85** (**36**✦) [Talks at conferences](#talks-at-conferences) \
 **48** (**48**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **9** (**8**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
@@ -10,6 +10,9 @@ Invited talks marked with ✦.
 ---
 
 ## Talks at conferences
+
+**85.** ✦ *Massive binary black-hole spins and disk warps*  \\
+Massive black hole spin workshop, Edinburgh, UK, Apr 2026.
 
 **84.** *Are exceptional gravitational-wave events truly exceptional?*  \\
 GWfreeride: Carving the AI gradient in gravitational-wave astronomy, Sexten, Italy, Jan 2026.
@@ -562,4 +565,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-04-23 04:28:31 UTC*
+*Last updated: 2026-04-23 14:14:59 UTC*
