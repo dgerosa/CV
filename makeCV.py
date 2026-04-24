@@ -522,17 +522,55 @@ def metricsgroup(group, filename="metricsgroup.tex"):
 
     print('Compute group metrics')
 
-    out=[]
+    def n_current(k):
+        return sum(1 for x in group[k]['data'] if x['current'])
 
-    out.append("\\cvitem{}{\\begin{tabular}{l@{\\hspace{10pt}}c@{\\hspace{4pt}}l@{\\hspace{4pt}}c@{\\hspace{3pt}}l}")
-    for k in ['fellowships', 'postdocs', 'phd', 'msc', 'bsc']:
-        overall = len(group[k]['data'])
-        current = np.sum([x['current'] for x in group[k]['data']])
-        if current > 0:
-            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far (of which &\\textbf{"+str(current)+"}& currently in my group). \\\\")
-        else:
-            out.append("\\textbf{"+group[k]['labelshort']+"}: & \\textbf{"+str(overall)+"} & so far. \\\\")
-    out.append("\\end{tabular} }")
+    fellowships_total = len(group['fellowships']['data'])
+    fellowships_current = n_current('fellowships')
+
+    postdocs_total = len(group['postdocs']['data'])
+    postdocs_current = n_current('postdocs')
+
+    phd_total = len(group['phd']['data'])
+    phd_current = n_current('phd')
+
+    msc_total = len(group['msc']['data'])
+    msc_current = n_current('msc')
+
+    bsc_total = len(group['bsc']['data'])
+    bsc_current = n_current('bsc')
+
+    out = [
+        "Host of \\textbf{"
+        + str(fellowships_total)
+        + " postdoctoral fellows} supported by external fellowships ("
+        + str(fellowships_current)
+        + " currently in my group).",
+        "",
+        "Employer of \\textbf{"
+        + str(postdocs_total)
+        + " postdoctoral researchers} hired on grants ("
+        + str(postdocs_current)
+        + " currently in my group).",
+        "",
+        "Supervisor of \\textbf{"
+        + str(phd_total)
+        + " PhD students} ("
+        + str(phd_current)
+        + " currently in my group).",
+        "",
+        "Supervisor of \\textbf{"
+        + str(msc_total)
+        + " MSc thesis projects} ("
+        + str(msc_current)
+        + " currently in my group).",
+        "",
+        "Supervisor of \\textbf{"
+        + str(bsc_total)
+        + " BSc thesis projects} ("
+        + str(bsc_current)
+        + " currently in my group).",
+    ]
 
     with open(filename, "w") as f:
         f.write("\n".join(out))
