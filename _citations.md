@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10084
+- **Total ADS citations**: 10087
 - **Total INSPIRE citations**: 11151
 - **Total MAX citations**: 11223
 - **h-index**: 48
@@ -99,7 +99,7 @@
 | **88** | Pacilio | 2024 | Catalog variance of testing general relativity with gravitational-wave data | 13 | 17 | 17 |
 | **89** | Gerosa | 2017 | filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography | 13 | 16 | 16 |
 | **90** | Tenorio | 2025 | Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms | 12 | 14 | 14 |
-| **91** | Stegmann | 2025 | Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements | 10 | 13 | 13 |
+| **91** | Stegmann | 2025 | Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements | 11 | 13 | 13 |
 | **92** | Gerosa | 2024 | Quick recipes for gravitational-wave selection effects | 13 | 13 | 13 |
 | **93** | Cole | 2026 | Sequential simulation-based inference for extreme mass ratio inspirals | 9 | 12 | 12 |
 | **94** | Pedrotti | 2025 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 12 | 12 | 12 |
@@ -127,7 +127,7 @@
 | **116** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 5 | 4 | 5 |
 | **117** | Giarda | 2025 | Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background | 2 | 5 | 5 |
 | **118** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
-| **119** | Tenorio | 2026 | On the exceptionality of exceptional gravitational-wave events | 1 | 3 | 3 |
+| **119** | Tenorio | 2026 | On the exceptionality of exceptional gravitational-wave events | 3 | 3 | 3 |
 | **120** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 2 | 2 | 2 |
 | **121** | Boschini | 2025 | “LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design | 2 | 1 | 2 |
 | **122** | Gerosa | 2023 | QLUSTER: quick clusters of merging binary black holes | 2 | 0 | 2 |
@@ -207,4 +207,4 @@
 
 
 <br><br>
-*Last updated: 2026-04-24 20:22:00 UTC*
+*Last updated: 2026-04-25 04:12:59 UTC*
