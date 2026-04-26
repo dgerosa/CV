@@ -540,37 +540,47 @@ def metricsgroup(group, filename="metricsgroup.tex"):
     bsc_total = len(group['bsc']['data'])
     bsc_current = n_current('bsc')
 
-    out = [
+    out = []
+
+    def bullet(line):
+        out.append("\\cvitemwithcomment{}{\\hspace{0.4cm}$\\circ\\;$ " + line + "}{}")
+        out.append("\\vspace{-0.1cm}")
+
+    bullet(
         "Host of \\textbf{"
         + str(fellowships_total)
         + " postdoctoral fellows} supported by external fellowships ("
         + str(fellowships_current)
-        + " currently in my group).",
-        "",
+        + " currently in my group)."
+    )
+    bullet(
         "Employer of \\textbf{"
         + str(postdocs_total)
         + " postdoctoral researchers} hired on grants ("
         + str(postdocs_current)
-        + " currently in my group).",
-        "",
+        + " currently in my group)."
+    )
+    bullet(
         "Supervisor of \\textbf{"
         + str(phd_total)
         + " PhD students} ("
         + str(phd_current)
-        + " currently in my group).",
-        "",
+        + " currently in my group)."
+    )
+    bullet(
         "Supervisor of \\textbf{"
         + str(msc_total)
         + " MSc thesis projects} ("
         + str(msc_current)
-        + " currently in my group).",
-        "",
+        + " currently in my group)."
+    )
+    bullet(
         "Supervisor of \\textbf{"
         + str(bsc_total)
         + " BSc thesis projects} ("
         + str(bsc_current)
-        + " currently in my group).",
-    ]
+        + " currently in my group)."
+    )
 
     with open(filename, "w") as f:
         f.write("\n".join(out))
