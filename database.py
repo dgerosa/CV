@@ -3197,8 +3197,8 @@ if postdocs:
         "end":      "2026",
         "bio":      "Long-signal searcher, stats geek, thinks that everything is a sinusoid if you look close enough. He enjoys crunching numbers on a GPU, playing bagpipes, and using Bayesian probability to climb up walls efficiently. Also, Fëanor did nothing wrong.",
         "email":    "rodrigo.tenorio@unimib.it",
-        "note":     "Supported by the Italian Research Ministry and the ERC.",
-        "current":  True
+        "note":     "Supported by the Italian Research Ministry (PRIN) and the ERC.",
+        "current":  False
         })
     
 
