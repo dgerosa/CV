@@ -48,15 +48,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
-  <img src="{{ '/images/rodrigo-tenorio.jpg' | relative_url }}" alt="Rodrigo Tenorio" class="person-photo">
-  <div class="person-text">
-    <strong>Rodrigo Tenorio</strong><br>
-    Postdoc<br>
-<a href="mailto:rodrigo.tenorio@unimib.it">rodrigo.tenorio@unimib.it</a><br>
-    <em>Long-signal searcher, stats geek, thinks that everything is a sinusoid if you look close enough. He enjoys crunching numbers on a GPU, playing bagpipes, and using Bayesian probability to climb up walls efficiently. Also, Fëanor did nothing wrong.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/giulia-cuomo.jpg' | relative_url }}" alt="Giulia Cuomo" class="person-photo">
   <div class="person-text">
     <strong>Giulia Cuomo</strong><br>
@@ -113,6 +104,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2026.
 - **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
 - **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
+- **Andrea La Canna**, BSc thesis, Milano-Bicocca, 2026.
 - **Ecaterina Tsuhuy**, BSc thesis, Milano-Bicocca and Pavia, 2026.
 - **Laura Canova**, BSc thesis, Milano-Bicocca, 2026.
 - **Giacomo Brugali**, BSc thesis, Milano-Bicocca, 2026.
@@ -131,6 +123,7 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former postdocs
 
+- **Rodrigo Tenorio**. Milano-Bicocca, 2024–2026. Supported by the Italian Research Ministry (PRIN) and the ERC.
 - **Nicholas Loutrel**. Milano-Bicocca, 2023–2026. Supported by the ERC. Then journal editor at Physical Review Letters, American Physical Society.
 - **Philippa Cole**. Milano-Bicocca, 2023–2026. Supported by the ERC. Then faculty at Queen Mary University of London (UK).
 - **Arianna Renzini**. Milano-Bicocca, 2023–2025. Marie Skłodowska-Curie Fellow. Then permanent researcher at ETH Zurich (Switzerland).
@@ -234,4 +227,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-04-28 04:49:19 UTC*
+*Last updated: 2026-04-28 07:21:36 UTC*
