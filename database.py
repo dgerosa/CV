@@ -3726,7 +3726,15 @@ if bsc:
     group['bsc']['labelshort'] = 'BSc students'
     group['bsc']['labellong'] = 'BSc student projects'
     group['bsc']['data'] = []
-
+    
+    group['bsc']['data'].append({
+        "name":     "Andrea La Canna",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2026",
+        "current":  True
+        })
+    
     group['bsc']['data'].append({
         "name":     "Ecaterina Tsuhuy",
         "where":    "Milano-Bicocca and Pavia",
