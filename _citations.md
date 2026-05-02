@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10139
+- **Total ADS citations**: 10145
 - **Total INSPIRE citations**: 11181
 - **Total MAX citations**: 11263
 - **h-index**: 49
@@ -10,7 +10,7 @@
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1456 | 1641 | 1641 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 871 | 963 | 963 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 872 | 963 | 963 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 801 | 743 | 801 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 461 | 485 | 485 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 455 | 483 | 483 |
@@ -19,7 +19,7 @@
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 343 | 371 | 371 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 283 | 310 | 310 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 219 | 248 | 248 |
-| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 156 | 195 | 195 |
+| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 159 | 195 | 195 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 148 | 170 | 170 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 138 | 165 | 165 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 161 | 161 |
@@ -107,7 +107,7 @@
 | **96** | Steinle | 2023 | The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries | 10 | 12 | 12 |
 | **97** | Reali | 2020 | Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants | 10 | 12 | 12 |
 | **98** | Fumagalli | 2025 | Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory | 9 | 11 | 11 |
-| **99** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 10 | 11 | 11 |
+| **99** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 11 | 11 | 11 |
 | **100** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 8 | 11 | 11 |
 | **101** | Gangardt | 2022 | Constraining black-hole binary spin precession and nutation with sequential prior conditioning | 10 | 11 | 11 |
 | **102** | Fabbri | 2025 | Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data | 9 | 10 | 10 |
@@ -125,7 +125,7 @@
 | **114** | Toubiana | 2026 | Comparing astrophysical models to gravitational-wave data in the observable space | 5 | 5 | 5 |
 | **115** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 5 | 5 |
 | **116** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 5 | 4 | 5 |
-| **117** | Giarda | 2025 | Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background | 2 | 5 | 5 |
+| **117** | Giarda | 2025 | Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background | 3 | 5 | 5 |
 | **118** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
 | **119** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 2 | 3 | 3 |
 | **120** | Tenorio | 2026 | On the exceptionality of exceptional gravitational-wave events | 3 | 3 | 3 |
@@ -207,4 +207,4 @@
 
 
 <br><br>
-*Last updated: 2026-05-01 10:32:08 UTC*
+*Last updated: 2026-05-02 04:33:18 UTC*
