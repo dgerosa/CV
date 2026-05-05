@@ -1,15 +1,15 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10163
-- **Total INSPIRE citations**: 11197
-- **Total MAX citations**: 11281
+- **Total INSPIRE citations**: 11198
+- **Total MAX citations**: 11282
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1457 | 1644 | 1644 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1457 | 1645 | 1645 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 871 | 963 | 963 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 802 | 744 | 802 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 463 | 486 | 486 |
@@ -168,11 +168,11 @@
 
 | Journal | Paper count |
 |---------|--------------|
-| Physical Review D | 60 |
+| Physical Review D | 61 |
 | Classical and Quantum Gravity | 13 |
 | Monthly Notices of the Royal Astronomical Society | 13 |
-| arXiv | 9 |
 | Physical Review Letters | 9 |
+| arXiv | 8 |
 | Astronomy & Astrophysics | 5 |
 | Astrophysical Journal | 5 |
 | Living Reviews in Relativity | 3 |
@@ -207,4 +207,4 @@
 
 
 <br><br>
-*Last updated: 2026-05-05 04:33:58 UTC*
+*Last updated: 2026-05-05 16:40:21 UTC*
