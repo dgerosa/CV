@@ -112,7 +112,7 @@ if published:
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
     
-    papers['submitted']['data'].append({
+    papers['published']['data'].append({
         "title":    "Inferring the population properties of galactic binaries from LISA's stochastic foreground",
         "author":   "F. De Santi, A. Santini, A. Toubiana, N. Karnesis, D. Gerosa",
         "journal":  "\prd in press.",
