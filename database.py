@@ -129,7 +129,7 @@ if published:
         "journal":  "\cqg 43 (2026) 085008",
         "link":     "https://iopscience.iop.org/article/10.1088/1361-6382/ae5b1a",
         "arxiv":    "arXiv:2510.11861 [gr-qc]",
-        "ads":      "2025arXiv251011861B",
+        "ads":      "2026CQGra..43h5008B",
         "inspire":  "Borhanian:2025uni",
         "more":     ""
         })
