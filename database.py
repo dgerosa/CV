@@ -72,17 +72,6 @@ if submitted:
         "inspire":  "Tenorio:2026dcc",
         "more":     ""
         })
-
-    papers['submitted']['data'].append({
-        "title":    "Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521",
-        "author":   "C. Anselmo, C. Pacilio, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2512.05193 [gr-qc]",
-        "ads":      "2025arXiv251205193A",
-        "inspire":  "Anselmo:2025ehx",
-        "more":     ""
-        })
     
     papers['submitted']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
@@ -112,6 +101,17 @@ if published:
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
     
+    papers['published']['data'].append({
+        "title":    "Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521",
+        "author":   "C. Anselmo, C. Pacilio, D. Gerosa",
+        "journal":  "\prd in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2512.05193 [gr-qc]",
+        "ads":      "2025arXiv251205193A",
+        "inspire":  "Anselmo:2025ehx",
+        "more":     ""
+        })
+
     papers['published']['data'].append({
         "title":    "Inferring the population properties of galactic binaries from LISA's stochastic foreground",
         "author":   "F. De Santi, A. Santini, A. Toubiana, N. Karnesis, D. Gerosa",
