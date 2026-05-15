@@ -1,23 +1,23 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10184
-- **Total INSPIRE citations**: 11263
-- **Total MAX citations**: 11342
+- **Total ADS citations**: 10187
+- **Total INSPIRE citations**: 11265
+- **Total MAX citations**: 11345
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1467 | 1653 | 1653 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1467 | 1654 | 1654 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 877 | 965 | 965 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 805 | 750 | 805 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 806 | 750 | 806 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 463 | 490 | 490 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 452 | 488 | 488 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 410 | 472 | 472 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 326 | 391 | 391 |
-| **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 342 | 373 | 373 |
-| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 283 | 312 | 312 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 326 | 392 | 392 |
+| **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 343 | 373 | 373 |
+| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 284 | 312 | 312 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 219 | 249 | 249 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 163 | 201 | 201 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 148 | 172 | 172 |
@@ -27,14 +27,14 @@
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 133 | 147 | 147 |
 | **17** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 138 | 138 |
 | **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 116 | 131 | 131 |
-| **19** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 109 | 129 | 129 |
+| **19** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 108 | 129 | 129 |
 | **20** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 115 | 124 | 124 |
 | **21** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 112 | 122 | 122 |
 | **22** | Wysocki | 2018 | Explaining LIGO's observations via isolated binary evolution with natal kicks | 99 | 107 | 107 |
 | **23** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 90 | 105 | 105 |
 | **24** | Vitale | 2017 | Impact of Bayesian priors on the characterization of binary black hole coalescences | 89 | 104 | 104 |
 | **25** | Gerosa | 2016 | PRECESSION: Dynamics of spinning black-hole binaries with python | 92 | 104 | 104 |
-| **26** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 89 | 101 | 101 |
+| **26** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 90 | 101 | 101 |
 | **27** | Taylor | 2018 | Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework | 94 | 101 | 101 |
 | **28** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 84 | 96 | 96 |
 | **29** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 79 | 88 | 88 |
@@ -207,4 +207,4 @@
 
 
 <br><br>
-*Last updated: 2026-05-14 05:10:44 UTC*
+*Last updated: 2026-05-15 05:04:37 UTC*
