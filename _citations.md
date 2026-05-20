@@ -1,21 +1,21 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10197
-- **Total INSPIRE citations**: 11298
-- **Total MAX citations**: 11375
+- **Total INSPIRE citations**: 11306
+- **Total MAX citations**: 11382
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1470 | 1657 | 1657 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 879 | 966 | 966 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1470 | 1659 | 1659 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 879 | 968 | 968 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 808 | 753 | 808 |
 | **4** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 463 | 491 | 491 |
 | **5** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 453 | 491 | 491 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 410 | 472 | 472 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 326 | 393 | 393 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 326 | 395 | 395 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 343 | 374 | 374 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 284 | 313 | 313 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 219 | 250 | 250 |
@@ -81,7 +81,7 @@
 | **70** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 28 | 28 | 28 |
 | **71** | Rosca-Mead | 2020 | Structure of neutron stars in massive scalar-tensor gravity | 23 | 26 | 26 |
 | **72** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 25 | 26 | 26 |
-| **73** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 19 | 24 | 24 |
+| **73** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 19 | 25 | 25 |
 | **74** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 22 | 24 | 24 |
 | **75** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 21 | 24 | 24 |
 | **76** | Gerosa | 2017 | On the equal-mass limit of precessing black-hole binaries | 19 | 23 | 23 |
@@ -125,7 +125,7 @@
 | **114** | Varma | 2019 | The binary black hole explorer: on-the-fly visualizations of precessing binary black holes | 4 | 6 | 6 |
 | **115** | Tenorio | 2026 | On the exceptionality of exceptional gravitational-wave events | 3 | 5 | 5 |
 | **116** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 5 | 5 |
-| **117** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 5 | 4 | 5 |
+| **117** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 5 | 5 | 5 |
 | **118** | Giarda | 2025 | Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background | 3 | 5 | 5 |
 | **119** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
 | **120** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 2 | 3 | 3 |
@@ -207,4 +207,4 @@
 
 
 <br><br>
-*Last updated: 2026-05-19 07:57:10 UTC*
+*Last updated: 2026-05-20 05:18:49 UTC*
