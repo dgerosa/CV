@@ -1076,7 +1076,7 @@ def markdowncitations(papers, output_file="_citations.md"):
 
         # === Table: Year stats ===
         f.write("\n## Papers per year\n\n")
-        singleyear = sorted(set(spreaddata['year']))
+        singleyear = sorted(set(spreaddata['year']), reverse=True)
         yearcount = [np.sum(spreaddata['year'] == y) for y in singleyear]
 
         f.write("| Year | Paper count |\n")
