@@ -1,7 +1,7 @@
 Invited talks marked with ✦.
 
 ## Summary
-**85** (**36**✦) [Talks at conferences](#talks-at-conferences) \
+**86** (**37**✦) [Talks at conferences](#talks-at-conferences) \
 **48** (**48**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **9** (**8**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
@@ -10,6 +10,9 @@ Invited talks marked with ✦.
 ---
 
 ## Talks at conferences
+
+**86.** ✦ *Getting ready for postdoc applications*  \\
+GWECS funding opportunities workshop, (online), May 2026.
 
 **85.** ✦ *Massive binary black-hole spins and disk warps*  \\
 Massive black hole spin workshop, Edinburgh, UK, Apr 2026.
@@ -565,4 +568,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-05-27 09:55:38 UTC*
+*Last updated: 2026-05-27 15:45:05 UTC*
