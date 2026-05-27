@@ -1538,6 +1538,16 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Getting ready for postdoc applications",
+        "what":     "GWECS funding opportunities workshop",
+        "where":    "(online)",
+        "when":     "May 2026",
+        "invited":  True,
+        "more":     "",
+        })
+
+
+    talks['conferences']['data'].append({
         "title":    "Massive binary black-hole spins and disk warps",
         "what":     "Massive black hole spin workshop",
         "where":    "Edinburgh, UK",
