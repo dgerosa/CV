@@ -1,6 +1,6 @@
 ## Summary
-**6** [Submitted papers](#submitted-papers)\
-**113** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**5** [Submitted papers](#submitted-papers)\
+**114** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,30 +8,25 @@
 
 ## Submitted papers
 
-**6.**
+**5.**
 *Gravitational-wave astronomy requires population-informed parameter estimation.*\
 M. Mould, R. Tenorio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2604.15885" style="color: inherit; text-decoration: none;">arXiv:2604.15885 [gr-qc]</a>.
  
-**5.**
+**4.**
 *Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
 A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
 <a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
  
-**4.**
+**3.**
 *Variance of gravitational-wave populations.*\
 A. Corelli, **D. Gerosa**, M. Mould, C. M. Fabbri.\
 <a href="https://arxiv.org/abs/2603.00239" style="color: inherit; text-decoration: none;">arXiv:2603.00239 [astro-ph.HE]</a>.
  
-**3.**
+**2.**
 *On the exceptionality of exceptional gravitational-wave events.*\
 R. Tenorio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2601.02467" style="color: inherit; text-decoration: none;">arXiv:2601.02467 [astro-ph.HE]</a>.
- 
-**2.**
-*Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
-A. Pedrotti, M. Mancarella, J. Bel, **D. Gerosa**.\
-<a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
  
 **1.**
 *A recoiling supermassive black hole in a powerful quasar.*\
@@ -43,6 +38,11 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 
 ## Papers published in major peer-reviewed journals
 
+**114.**
+*Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
+A. Pedrotti, M. Mancarella, J. Bel, **D. Gerosa**.\
+Astronomy & Astrophysics in press. <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
+ 
 **113.**
 *Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521.*\
 C. Anselmo, C. Pacilio, **D. Gerosa**.\
@@ -710,4 +710,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-06-01 06:23:05 UTC*
+*Last updated: 2026-06-01 16:34:05 UTC*

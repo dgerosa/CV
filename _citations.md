@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10272
+- **Total ADS citations**: 10270
 - **Total INSPIRE citations**: 11382
 - **Total MAX citations**: 11466
 - **h-index**: 49
@@ -9,8 +9,8 @@
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1477 | 1664 | 1664 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 887 | 972 | 972 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1476 | 1664 | 1664 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 886 | 972 | 972 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 815 | 754 | 815 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 456 | 499 | 499 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 465 | 496 | 496 |
@@ -172,8 +172,8 @@
 | Classical and Quantum Gravity | 13 |
 | Monthly Notices of the Royal Astronomical Society | 13 |
 | Physical Review Letters | 9 |
-| arXiv | 7 |
-| Astronomy & Astrophysics | 5 |
+| arXiv | 6 |
+| Astronomy & Astrophysics | 6 |
 | Astrophysical Journal | 5 |
 | Living Reviews in Relativity | 3 |
 | Journal of Physics: Conference Series | 2 |
@@ -207,4 +207,4 @@
 
 
 <br><br>
-*Last updated: 2026-06-01 06:23:05 UTC*
+*Last updated: 2026-06-01 16:34:05 UTC*
