@@ -72,17 +72,6 @@ if submitted:
         "inspire":  "Tenorio:2026dcc",
         "more":     ""
         })
-    
-    papers['submitted']['data'].append({
-        "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
-        "author":   "A. Pedrotti, M. Mancarella, J. Bel, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2504.10482 [astro-ph.CO]",
-        "ads":      "2025arXiv250410482P",
-        "inspire":  "Pedrotti:2025tfg",
-        "more":     ""
-        })
 
     papers['submitted']['data'].append({
         "title":    "A recoiling supermassive black hole in a powerful quasar",
@@ -101,6 +90,17 @@ if published:
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
     
+    papers['published']['data'].append({
+        "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
+        "author":   "A. Pedrotti, M. Mancarella, J. Bel, D. Gerosa",
+        "journal":  "\\aap in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2504.10482 [astro-ph.CO]",
+        "ads":      "2025arXiv250410482P",
+        "inspire":  "Pedrotti:2025tfg",
+        "more":     ""
+        })
+
     papers['published']['data'].append({
         "title":    "Black-hole ringdown with templates capturing spin precession: a criticalre-analysis of GW190521",
         "author":   "C. Anselmo, C. Pacilio, D. Gerosa",
