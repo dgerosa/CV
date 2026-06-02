@@ -40,7 +40,7 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 
 **114.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
-A. Pedrotti, M. Mancarella, J. Bel, **D. Gerosa**.\
+A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, **D. Gerosa**.\
 Astronomy & Astrophysics in press. <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
  
 **113.**
@@ -710,4 +710,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-06-02 06:05:37 UTC*
+*Last updated: 2026-06-02 10:18:55 UTC*
