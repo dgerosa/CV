@@ -92,7 +92,7 @@ if published:
     
     papers['published']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
-        "author":   "A. Pedrotti, M. Mancarella, J. Bel, D. Gerosa",
+        "author":   "A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, D. Gerosa",
         "journal":  "\\aap in press.",
         "link":     "",
         "arxiv":    "arXiv:2504.10482 [astro-ph.CO]",
