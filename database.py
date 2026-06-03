@@ -31,7 +31,7 @@ if submitted:
 
     papers['submitted']['data'].append({
         "title":    "Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors",
-        "author":   "F. Leto di Priolo, Martyna Chruślińska, Davide Gerosa",
+        "author":   "F. Leto di Priolo, M. Chruślińska, D. Gerosa",
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2606.03776 [astro-ph.HE]",
