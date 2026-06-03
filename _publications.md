@@ -1,5 +1,5 @@
 ## Summary
-**5** [Submitted papers](#submitted-papers)\
+**6** [Submitted papers](#submitted-papers)\
 **114** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**6.**
+*Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors.*\
+F. Leto di Priolo, M. Chruślińska, **D. Gerosa**.\
+<a href="https://arxiv.org/abs/2606.03776" style="color: inherit; text-decoration: none;">arXiv:2606.03776 [astro-ph.HE]</a>.
+ 
 **5.**
 *Gravitational-wave astronomy requires population-informed parameter estimation.*\
 M. Mould, R. Tenorio, **D. Gerosa**.\
@@ -710,4 +715,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-06-02 10:18:55 UTC*
+*Last updated: 2026-06-03 06:16:20 UTC*
