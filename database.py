@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors",
+        "author":   "F. Leto di Priolo, Martyna Chruślińska, Davide Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2606.03776 [astro-ph.HE]",
+        "ads":      "",
+        "inspire":  "",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Gravitational-wave astronomy requires population-informed parameter estimation",
         "author":   "M. Mould, R. Tenorio, D. Gerosa",
         "journal":  "",
