@@ -35,8 +35,8 @@ if submitted:
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2606.03776 [astro-ph.HE]",
-        "ads":      "",
-        "inspire":  "",
+        "ads":      "2026arXiv260603776L",
+        "inspire":  "diPriolo:2026ayj",
         "more":     ""
         })
 
