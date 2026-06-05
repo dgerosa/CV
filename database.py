@@ -52,17 +52,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Accurate and efficient simulation-based inference for massive black-hole binaries with LISA",
-        "author":   "A. Spadaro, J. Gair, D. Gerosa, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2603.20431 [astro-ph.HE]",
-        "ads":      "2026arXiv260320431S",
-        "inspire":  "Spadaro:2026evb",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Variance of gravitational-wave populations",
         "author":   "A. Corelli, D. Gerosa, M. Mould, C. M. Fabbri",
         "journal":  "",
@@ -101,6 +90,17 @@ if published:
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
     
+    papers['published']['data'].append({
+        "title":    "Accurate and efficient simulation-based inference for massive black-hole binaries with LISA",
+        "author":   "A. Spadaro, J. Gair, D. Gerosa, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2603.20431 [astro-ph.HE]",
+        "ads":      "2026arXiv260320431S",
+        "inspire":  "Spadaro:2026evb",
+        "more":     ""
+        })
+
     papers['published']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
         "author":   "A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, D. Gerosa",
