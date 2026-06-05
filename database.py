@@ -93,7 +93,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Accurate and efficient simulation-based inference for massive black-hole binaries with LISA",
         "author":   "A. Spadaro, J. Gair, D. Gerosa, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova",
-        "journal":  "",
+        "journal":  "\prd in press",
         "link":     "",
         "arxiv":    "arXiv:2603.20431 [astro-ph.HE]",
         "ads":      "2026arXiv260320431S",
