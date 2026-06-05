@@ -1,6 +1,6 @@
 ## Summary
-**6** [Submitted papers](#submitted-papers)\
-**114** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**5** [Submitted papers](#submitted-papers)\
+**115** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,20 +8,15 @@
 
 ## Submitted papers
 
-**6.**
+**5.**
 *Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors.*\
 F. Leto di Priolo, M. Chruślińska, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2606.03776" style="color: inherit; text-decoration: none;">arXiv:2606.03776 [astro-ph.HE]</a>.
  
-**5.**
+**4.**
 *Gravitational-wave astronomy requires population-informed parameter estimation.*\
 M. Mould, R. Tenorio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2604.15885" style="color: inherit; text-decoration: none;">arXiv:2604.15885 [gr-qc]</a>.
- 
-**4.**
-*Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
-A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
-<a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
  
 **3.**
 *Variance of gravitational-wave populations.*\
@@ -43,6 +38,11 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 
 ## Papers published in major peer-reviewed journals
 
+**115.**
+*Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
+A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
+<a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
+ 
 **114.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
 A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, **D. Gerosa**.\
@@ -715,4 +715,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-06-05 05:54:04 UTC*
+*Last updated: 2026-06-05 07:40:21 UTC*
