@@ -41,7 +41,7 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 **115.**
 *Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
 A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
-<a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
+Physical Review D in press. <a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
  
 **114.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
@@ -715,4 +715,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-06-05 07:40:21 UTC*
+*Last updated: 2026-06-08 06:14:34 UTC*
