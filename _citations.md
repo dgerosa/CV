@@ -1,7 +1,7 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10290
-- **Total INSPIRE citations**: 11433
+- **Total ADS citations**: 10286
+- **Total INSPIRE citations**: 11434
 - **Total MAX citations**: 11514
 - **h-index**: 49
 
@@ -9,9 +9,9 @@
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1479 | 1668 | 1668 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1478 | 1669 | 1669 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 887 | 977 | 977 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 815 | 758 | 815 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 814 | 758 | 814 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 457 | 503 | 503 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 464 | 499 | 499 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 412 | 476 | 476 |
@@ -56,11 +56,11 @@
 | **45** | Gerosa | 2015 | Spin alignment and differential accretion in merging black hole binaries | 56 | 50 | 56 |
 | **46** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 46 | 53 | 53 |
 | **47** | Sperhake | 2017 | Long-lived inverse chirp signals from core collapse in massive scalar-tensor gravity | 45 | 53 | 53 |
-| **48** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 51 | 52 | 52 |
+| **48** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 50 | 52 | 52 |
 | **49** | Moore | 2021 | Testing general relativity with gravitational-wave catalogs: the insidious nature of waveform systematics | 44 | 52 | 52 |
 | **50** | Gerosa | 2015 | Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature | 43 | 47 | 47 |
 | **51** | Gerosa | 2020 | Gravitational-wave selection effects using neural-network classifiers | 38 | 45 | 45 |
-| **52** | Santini | 2023 | Black-hole mergers in disk-like environments could explain the observed $$q-\chi_\mathrm{eff}$$ correlation | 43 | 44 | 44 |
+| **52** | Santini | 2023 | Black-hole mergers in disk-like environments could explain the observed $$q-\chi_\mathrm{eff}$$ correlation | 42 | 44 | 44 |
 | **53** | Tso | 2019 | Optimizing LIGO with LISA forewarnings to improve black-hole spectroscopy | 37 | 43 | 43 |
 | **54** | Trifiro' | 2016 | Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation | 34 | 43 | 43 |
 | **55** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 37 | 39 | 39 |
@@ -208,4 +208,4 @@
 
 
 <br><br>
-*Last updated: 2026-06-08 06:14:34 UTC*
+*Last updated: 2026-06-08 16:35:46 UTC*
