@@ -2347,6 +2347,15 @@ if seminars:
     talks['seminars']['data'] = []
 
     talks['seminars']['data'].append({
+        "title":    "Challenges, limits, and opportunities in gravitational-wave population inference",
+        "what":     "AEI seminars, Albert Einstein Institute",
+        "where":    "Potsdam, Germany",
+        "when":     "Jun 2026",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['seminars']['data'].append({
         "title":    "Gravitational wavescapes",
         "what":     "INFN Milano-Bicocca section council",
         "where":    "Milan, Italy",
