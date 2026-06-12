@@ -3522,7 +3522,7 @@ if msc:
         "where":    "Milano-Bicocca and ESO Garching",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "",
+        "note":     "Resulting publication: arXiv:2606.03776.",
         "current":  False
         })
     
