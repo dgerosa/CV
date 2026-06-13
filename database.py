@@ -3428,6 +3428,15 @@ if msc:
     group['msc']['data'] = []
 
     group['msc']['data'].append({
+        "name":     "Emma Balzanelli",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2027",
+        "note":     "",
+        "current":  True
+        })
+
+    group['msc']['data'].append({
         "name":     "Martina Berva",
         "where":    "Milano-Bicocca and Aix-Marseille",
         "what":     "MSc thesis",
@@ -3471,7 +3480,16 @@ if msc:
         "note":     "",
         "current":  True
         })
-
+    
+    group['msc']['data'].append({
+        "name":     "Serena Caslini",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2026",
+        "note":     "",
+        "current":  True
+        })   
+    
     group['msc']['data'].append({
         "name":     "Marco Bianchi",
         "where":    "Milano-Bicocca",
@@ -3481,6 +3499,7 @@ if msc:
         "current":  True
         })
     
+    
     group['msc']['data'].append({
         "name":     "Giorgio Monti",
         "where":    "Milano-Bicocca and GSSI L'Aquila",
@@ -3489,15 +3508,6 @@ if msc:
         "note":     "",
         "current":  True
         })
-
-    group['msc']['data'].append({
-        "name":     "Serena Caslini",
-        "where":    "Milano-Bicocca",
-        "what":     "MSc thesis",
-        "year":     "2026",
-        "note":     "",
-        "current":  True
-        })   
 
     group['msc']['data'].append({
         "name":     "Pietro Zeduri",
@@ -3756,7 +3766,15 @@ if bsc:
     group['bsc']['labelshort'] = 'BSc students'
     group['bsc']['labellong'] = 'BSc student projects'
     group['bsc']['data'] = []
-    
+
+    group['bsc']['data'].append({
+        "name":     "Diego Noseda",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2026",
+        "current":  True
+        })
+        
     group['bsc']['data'].append({
         "name":     "Andrea La Canna",
         "where":    "Milano-Bicocca",
