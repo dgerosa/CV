@@ -96,14 +96,16 @@ Here are the amazing people in my group. Come visit and chat science with us! If
 ## Current MSc and Bsc students
 Here are the amazing students who are currently completing research projects with us in the group… Taking the first fun steps into the perilous world of black holes!
 
+- **Emma Balzanelli**, MSc thesis, Milano-Bicocca, 2027.
 - **Martina Berva**, MSc thesis, Milano-Bicocca and Aix-Marseille, 2027.
 - **Giulia Foroni**, MSc thesis, Milano-Bicocca and Columbia, 2026.
 - **Rocco Giugni**, MSc thesis, Milano-Bicocca and Roma-Sapienza, 2026.
 - **Lisa Merlo**, MSc thesis, Milano-Bicocca, 2026.
 - **Sofia Dossena**, MSc thesis, Milano-Bicocca, 2026.
+- **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
 - **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2026.
 - **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
-- **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
+- **Diego Noseda**, BSc thesis, Milano-Bicocca, 2026.
 - **Andrea La Canna**, BSc thesis, Milano-Bicocca, 2026.
 - **Ecaterina Tsuhuy**, BSc thesis, Milano-Bicocca and Pavia, 2026.
 - **Laura Canova**, BSc thesis, Milano-Bicocca, 2026.
@@ -145,7 +147,7 @@ Here are the amazing students who are currently completing research projects wit
 
 - **Pietro Zeduri**. Milano-Bicocca and Aix-Marseille, 2026.
 - **Alessia Corelli**. Milano-Bicocca and Nottingham, 2026. Resulting publication: [arXiv:2603.00239](https://arxiv.org/abs/2603.00239).
-- **Federico Leto di Priolo**. Milano-Bicocca and ESO Garching, 2026.
+- **Federico Leto di Priolo**. Milano-Bicocca and ESO Garching, 2026. Resulting publication: [arXiv:2606.03776](https://arxiv.org/abs/2606.03776).
 - **Oliver Rossi**. Milano-Bicocca, 2026. The software engineer at Netcom Engineering (Italy).
 - **Giulia Conti**. Milano-Bicocca, 2026.
 - **Martin Gerini**. Milano-Bicocca, 2026. Then PhD student at the University of Louvain (Belgium).
@@ -227,4 +229,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-06-08 16:35:46 UTC*
+*Last updated: 2026-06-13 18:17:43 UTC*

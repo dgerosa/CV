@@ -2,7 +2,7 @@ Invited talks marked with ✦.
 
 ## Summary
 **86** (**37**✦) [Talks at conferences](#talks-at-conferences) \
-**48** (**48**✦) [Talks at department seminars](#talks-at-department-seminars) \
+**49** (**49**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **9** (**8**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
 **18** (**18**✦) [Outreach talks](#outreach-talks)
@@ -290,6 +290,9 @@ BritGrav 14, Cambridge, UK, Mar 2014.
 
 ## Talks at department seminars
 
+**49.** ✦ *Challenges, limits, and opportunities in gravitational-wave population inference*  \\
+AEI seminars, Albert Einstein Institute, Potsdam, Germany, Jun 2026.
+
 **48.** ✦ *Gravitational wavescapes*  \\
 INFN Milano-Bicocca section council, Milan, Italy, Apr 2026.
 
@@ -568,4 +571,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-06-08 16:35:46 UTC*
+*Last updated: 2026-06-13 18:17:43 UTC*

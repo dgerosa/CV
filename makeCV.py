@@ -10,6 +10,7 @@ import os
 import ssl
 import urllib.request
 import urllib.error
+import urllib.parse
 import requests
 import html
 from database import papers, talks, group
@@ -598,6 +599,10 @@ def buildbib(filename='publist.bib'):
 
     print("Build bib file from ADS")
 
+    token = os.getenv("ADS_TOKEN")
+    if not token:
+        raise RuntimeError("ADS_TOKEN is missing. Set ADS_TOKEN in your environment before building the bibliography.")
+
     with open(filename, 'r') as f:
         publist = f.read()
 
@@ -611,11 +616,19 @@ def buildbib(filename='publist.bib'):
         for k in papers:
             for p in papers[k]['data']:
                 if  p['ads_found'] and p['ads_found'] not in stored:
-                    with urllib.request.urlopen("https://ui.adsabs.harvard.edu/abs/"+p['ads_found']+"/exportcitation") as f:
-                       bib = f.read()
-                    bib=bib.decode()
-                    bib = "@"+list(filter(lambda x:'adsnote' in x, bib.split("@")))[0].split("</textarea>")[0]
-                    bib=html.unescape(bib)
+                    with warnings.catch_warnings():
+                        warnings.filterwarnings("ignore", message="Unverified HTTPS request is being made to host")
+                        r = requests.get(
+                            "https://api.adsabs.harvard.edu/v1/export/bibtex/"
+                            + urllib.parse.quote(p['ads_found'], safe=""),
+                            headers={'Authorization': 'Bearer ' + token},
+                            verify=False,
+                            timeout=30,
+                        )
+                    r.raise_for_status()
+                    bib = r.text.strip()
+                    if not bib:
+                        raise ValueError("ADS returned an empty BibTeX export for "+p['ads_found'])
                     # q=list(ads.SearchQuery(bibcode=p['ads_found'], fl=['bibtex']))[0]
                     # bib = q.bibtex
                     # if "journal =" in bib:
