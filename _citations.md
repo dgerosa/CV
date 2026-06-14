@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10298
+- **Total ADS citations**: 10299
 - **Total INSPIRE citations**: 11460
 - **Total MAX citations**: 11545
 - **h-index**: 49
@@ -54,7 +54,7 @@
 | **43** | Mould | 2022 | Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data | 48 | 59 | 59 |
 | **44** | Gerosa | 2014 | Distinguishing black-hole spin-orbit resonances by their gravitational-wave signatures | 46 | 57 | 57 |
 | **45** | Gerosa | 2015 | Spin alignment and differential accretion in merging black hole binaries | 56 | 50 | 56 |
-| **46** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 51 | 53 | 53 |
+| **46** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 52 | 53 | 53 |
 | **47** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 46 | 53 | 53 |
 | **48** | Sperhake | 2017 | Long-lived inverse chirp signals from core collapse in massive scalar-tensor gravity | 45 | 53 | 53 |
 | **49** | Moore | 2021 | Testing general relativity with gravitational-wave catalogs: the insidious nature of waveform systematics | 44 | 52 | 52 |
@@ -208,4 +208,4 @@
 
 
 <br><br>
-*Last updated: 2026-06-13 18:21:24 UTC*
+*Last updated: 2026-06-14 06:10:12 UTC*
