@@ -56,7 +56,7 @@ Physical Review D in press. <a href="https://arxiv.org/abs/2512.05193" style="co
 **112.**
 *Inferring the population properties of galactic binaries from LISA's stochastic foreground.*\
 F. De Santi, A. Santini, A. Toubiana, N. Karnesis, **D. Gerosa**.\
-<a href="https://journals.aps.org/prd/abstract/10.1103/9lc5-vgw5" style="color: inherit; text-decoration: none;">Physical Review D in press</a>. <a href="https://arxiv.org/abs/2602.18560" style="color: inherit; text-decoration: none;">arXiv:2602.18560 [astro-ph.HE]</a>.
+<a href="https://journals.aps.org/prd/abstract/10.1103/9lc5-vgw5" style="color: inherit; text-decoration: none;">Physical Review D 113 (2026) 123006</a>. <a href="https://arxiv.org/abs/2602.18560" style="color: inherit; text-decoration: none;">arXiv:2602.18560 [astro-ph.HE]</a>.
  
 **111.**
 *Impact of facility timing and coordination for next-generation gravitational-wave detectors.*\
@@ -715,4 +715,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-06-14 14:29:21 UTC*
+*Last updated: 2026-06-14 14:35:22 UTC*
