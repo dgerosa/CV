@@ -3133,7 +3133,7 @@ if fellowships:
 
     group['fellowships'] = {}
     group['fellowships']['labelshort'] = 'Postdoc fellowships'
-    group['fellowships']['labellong'] = 'Postdoc external fellowship sponsor'
+    group['fellowships']['labellong'] = 'Postdoctoral fellowship host'
     group['fellowships']['data'] = []
 
     group['fellowships']['data'].append({
