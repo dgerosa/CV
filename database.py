@@ -126,7 +126,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Inferring the population properties of galactic binaries from LISA's stochastic foreground",
         "author":   "F. De Santi, A. Santini, A. Toubiana, N. Karnesis, D. Gerosa",
-        "journal":  "\prd in press.",
+        "journal":  "\prd 113 (2026) 123006",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/9lc5-vgw5",
         "arxiv":    "arXiv:2602.18560 [astro-ph.HE]",
         "ads":      "2026arXiv260218560D",
