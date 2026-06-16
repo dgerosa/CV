@@ -51,7 +51,7 @@ Astronomy & Astrophysics in press. <a href="https://arxiv.org/abs/2504.10482" st
 **113.**
 *Black-hole ringdown with templates capturing spin precession: a reanalysis of GW190521.*\
 C. Anselmo, C. Pacilio, **D. Gerosa**.\
-Physical Review D in press. <a href="https://arxiv.org/abs/2512.05193" style="color: inherit; text-decoration: none;">arXiv:2512.05193 [gr-qc]</a>.
+<a href="https://journals.aps.org/prd/abstract/10.1103/52cd-81m5" style="color: inherit; text-decoration: none;">Physical Review D 113 (2026) 124047</a>. <a href="https://arxiv.org/abs/2512.05193" style="color: inherit; text-decoration: none;">arXiv:2512.05193 [gr-qc]</a>.
  
 **112.**
 *Inferring the population properties of galactic binaries from LISA's stochastic foreground.*\
@@ -715,4 +715,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-06-16 06:47:45 UTC*
+*Last updated: 2026-06-16 07:06:21 UTC*
