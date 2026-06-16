@@ -115,8 +115,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Black-hole ringdown with templates capturing spin precession: a reanalysis of GW190521",
         "author":   "C. Anselmo, C. Pacilio, D. Gerosa",
-        "journal":  "\prd in press.",
-        "link":     "",
+        "journal":  "\prd 113 (2026) 124047",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/52cd-81m5",
         "arxiv":    "arXiv:2512.05193 [gr-qc]",
         "ads":      "2025arXiv251205193A",
         "inspire":  "Anselmo:2025ehx",
