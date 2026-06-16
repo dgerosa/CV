@@ -129,7 +129,7 @@ if published:
         "journal":  "\prd 113 (2026) 123006",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/9lc5-vgw5",
         "arxiv":    "arXiv:2602.18560 [astro-ph.HE]",
-        "ads":      "2026arXiv260218560D",
+        "ads":      "2026PhRvD.113l3006D",
         "inspire":  "DeSanti:2026xhs",
         "more":     ""
         })
