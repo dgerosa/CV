@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10322
-- **Total INSPIRE citations**: 11503
-- **Total MAX citations**: 11587
+- **Total INSPIRE citations**: 11504
+- **Total MAX citations**: 11588
 - **h-index**: 49
 
 ## Paper list sorted by citation count
@@ -10,7 +10,7 @@
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1480 | 1676 | 1676 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 888 | 986 | 986 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 888 | 987 | 987 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 823 | 763 | 823 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 457 | 504 | 504 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 465 | 501 | 501 |
@@ -208,4 +208,4 @@
 
 
 <br><br>
-*Last updated: 2026-06-20 05:47:20 UTC*
+*Last updated: 2026-06-21 06:21:47 UTC*
