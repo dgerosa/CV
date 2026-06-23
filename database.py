@@ -31,7 +31,7 @@ if submitted:
 
     papers['submitted']['data'].append({
         "title":    "Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy",
-        "author":   "C. B. Owen, A. Toubiana, Davide Gerosa",
+        "author":   "C. B. Owen, A. Toubiana, D. Gerosa",
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2606.21076 [gr-qc]",
