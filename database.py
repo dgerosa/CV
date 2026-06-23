@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy",
+        "author":   "C. B. Owen, A. Toubiana, Davide Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2606.21076 [gr-qc]",
+        "ads":      "2026arXiv260621076O",
+        "inspire":  "Owen:2026hst",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors",
         "author":   "F. Leto di Priolo, M. Chruślińska, D. Gerosa",
         "journal":  "",
