@@ -129,7 +129,7 @@ if published:
         "journal":  "\prd 113 (2026) 124047",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/52cd-81m5",
         "arxiv":    "arXiv:2512.05193 [gr-qc]",
-        "ads":      "2025arXiv251205193A",
+        "ads":      "2026PhRvD.113l4047A",
         "inspire":  "Anselmo:2025ehx",
         "more":     ""
         })
