@@ -3213,7 +3213,7 @@ if postdocs:
         "name":     "Ssohrab Borhanian",
         "where":    "Milano-Bicocca",
         "start":    "2023",
-        "end":      "2026",
+        "end":      "current",
         "bio":      "Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.",
         "email":    "ssohrab.borhanian@unimib.it",
         "note":     "Supported by the ERC.",
