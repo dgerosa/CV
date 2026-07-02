@@ -3228,7 +3228,7 @@ if postdocs:
         "bio":      "Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.",
         "email":    "caroline.owen@unimib.it",
         "note":     "Supported by the ERC. Then visiting assistant professor at Williams College (USA).",
-        "current":  True
+        "current":  False
         })
     
     group['postdocs']['data'].append({
