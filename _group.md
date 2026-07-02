@@ -39,15 +39,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
-  <img src="{{ '/images/caroline-owen.jpg' | relative_url }}" alt="Caroline Owen" class="person-photo">
-  <div class="person-text">
-    <strong>Caroline Owen</strong><br>
-    Postdoc<br>
-<a href="mailto:caroline.owen@unimib.it">caroline.owen@unimib.it</a><br>
-    <em>Inspiral modeler, fundamental physics explorer, gravitational-wave enthusiast. Loves a long walk. Prefers to be in the woods.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/giulia-cuomo.jpg' | relative_url }}" alt="Giulia Cuomo" class="person-photo">
   <div class="person-text">
     <strong>Giulia Cuomo</strong><br>
@@ -125,6 +116,7 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former postdocs
 
+- **Caroline Owen**. Milano-Bicocca, 2024–2026. Supported by the ERC. Then visiting assistant professor at Williams College (USA).
 - **Rodrigo Tenorio**. Milano-Bicocca, 2024–2026. Supported by the Italian Research Ministry (PRIN) and the ERC.
 - **Nicholas Loutrel**. Milano-Bicocca, 2023–2026. Supported by the ERC. Then journal editor at Physical Review Letters, American Physical Society.
 - **Philippa Cole**. Milano-Bicocca, 2023–2026. Supported by the ERC. Then faculty at Queen Mary University of London (UK).
@@ -229,4 +221,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-07-02 05:13:10 UTC*
+*Last updated: 2026-07-02 14:02:11 UTC*

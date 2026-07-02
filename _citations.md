@@ -1,15 +1,15 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10405
-- **Total INSPIRE citations**: 11614
-- **Total MAX citations**: 11708
+- **Total INSPIRE citations**: 11616
+- **Total MAX citations**: 11710
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1484 | 1685 | 1685 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1484 | 1686 | 1686 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 893 | 992 | 992 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 846 | 777 | 846 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 463 | 509 | 509 |
@@ -50,7 +50,7 @@
 | **39** | Buscicchio | 2021 | Bayesian parameter estimation of stellar-mass black-hole binaries with LISA | 56 | 64 | 64 |
 | **40** | Gerosa | 2015 | Precessional instability in binary black holes with aligned spins | 56 | 64 | 64 |
 | **41** | Gerosa | 2020 | Astrophysical implications of GW190412 as a remnant of a previous black-hole merger | 56 | 63 | 63 |
-| **42** | Gerosa | 2016 | Numerical simulations of stellar collapse in scalar-tensor theories of gravity | 51 | 61 | 61 |
+| **42** | Gerosa | 2016 | Numerical simulations of stellar collapse in scalar-tensor theories of gravity | 51 | 62 | 62 |
 | **43** | Mould | 2022 | Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data | 48 | 59 | 59 |
 | **44** | Gerosa | 2014 | Distinguishing black-hole spin-orbit resonances by their gravitational-wave signatures | 46 | 58 | 58 |
 | **45** | Gerosa | 2015 | Spin alignment and differential accretion in merging black hole binaries | 56 | 51 | 56 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-07-02 05:13:10 UTC*
+*Last updated: 2026-07-02 14:02:11 UTC*
