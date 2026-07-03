@@ -1,20 +1,20 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10405
-- **Total INSPIRE citations**: 11616
-- **Total MAX citations**: 11710
+- **Total INSPIRE citations**: 11620
+- **Total MAX citations**: 11714
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1484 | 1686 | 1686 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1484 | 1687 | 1687 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 893 | 992 | 992 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 846 | 777 | 846 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 463 | 509 | 509 |
-| **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 464 | 507 | 507 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 412 | 477 | 477 |
+| **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 464 | 508 | 508 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 412 | 478 | 478 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 334 | 408 | 408 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 349 | 380 | 380 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 294 | 328 | 328 |
@@ -70,7 +70,7 @@
 | **59** | Gerosa | 2021 | High mass but low spin: an exclusion region to rule out hierarchical black-hole mergers as a mechanism to populate the pair-instability mass gap | 32 | 35 | 35 |
 | **60** | Rosca-Mead | 2020 | Core collapse in massive scalar-tensor gravity | 27 | 35 | 35 |
 | **61** | Gerosa | 2023 | Efficient multi-timescale dynamics of precessing black-hole binaries | 30 | 34 | 34 |
-| **62** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 24 | 32 | 32 |
+| **62** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 24 | 33 | 33 |
 | **63** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 29 | 32 | 32 |
 | **64** | Wong | 2019 | Machine-learning interpolation of population-synthesis simulations to interpret gravitational-wave observations: a case study | 27 | 32 | 32 |
 | **65** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 29 | 32 | 32 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-07-02 14:02:11 UTC*
+*Last updated: 2026-07-03 05:03:47 UTC*
