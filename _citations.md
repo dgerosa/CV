@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10427
-- **Total INSPIRE citations**: 11621
-- **Total MAX citations**: 11718
+- **Total INSPIRE citations**: 11623
+- **Total MAX citations**: 11720
 - **h-index**: 49
 
 ## Paper list sorted by citation count
@@ -23,7 +23,7 @@
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 150 | 173 | 173 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 140 | 169 | 169 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 164 | 164 |
-| **15** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 142 | 156 | 156 |
+| **15** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 142 | 157 | 157 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 135 | 149 | 149 |
 | **17** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 139 | 139 |
 | **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 119 | 135 | 135 |
@@ -121,12 +121,12 @@
 | **110** | Tenorio | 2026 | On the exceptionality of exceptional gravitational-wave events | 5 | 7 | 7 |
 | **111** | Toubiana | 2026 | Comparing astrophysical models to gravitational-wave data in the observable space | 7 | 7 | 7 |
 | **112** | Steinle | 2024 | Probing AGN jet precession with LISA | 7 | 4 | 7 |
-| **113** | Boschini | 2024 | Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186 | 6 | 4 | 6 |
-| **114** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 6 | 6 | 6 |
-| **115** | Dabrowny | 2021 | Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness | 5 | 6 | 6 |
-| **116** | Varma | 2019 | The binary black hole explorer: on-the-fly visualizations of precessing binary black holes | 4 | 6 | 6 |
-| **117** | Mould | 2026 | Gravitational-wave astronomy requires population-informed parameter estimation | 2 | 5 | 5 |
-| **118** | Corelli | 2026 | Variance of gravitational-wave populations | 4 | 5 | 5 |
+| **113** | Corelli | 2026 | Variance of gravitational-wave populations | 4 | 6 | 6 |
+| **114** | Boschini | 2024 | Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186 | 6 | 4 | 6 |
+| **115** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 6 | 6 | 6 |
+| **116** | Dabrowny | 2021 | Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness | 5 | 6 | 6 |
+| **117** | Varma | 2019 | The binary black hole explorer: on-the-fly visualizations of precessing binary black holes | 4 | 6 | 6 |
+| **118** | Mould | 2026 | Gravitational-wave astronomy requires population-informed parameter estimation | 2 | 5 | 5 |
 | **119** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 5 | 5 |
 | **120** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
 | **121** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 3 | 4 | 4 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-07-05 05:14:30 UTC*
+*Last updated: 2026-07-06 05:42:47 UTC*
