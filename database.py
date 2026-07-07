@@ -74,17 +74,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "On the exceptionality of exceptional gravitational-wave events",
-        "author":   "R. Tenorio, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2601.02467 [astro-ph.HE]",
-        "ads":      "2026arXiv260102467T",
-        "inspire":  "Tenorio:2026dcc",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "A recoiling supermassive black hole in a powerful quasar",
         "author":   "M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, D. Gerosa, M. Konishi, S. Koyama, K. Kushibiki, E. Lambrides, E. T. Meyer, K. Motohara, M. Stiavelli, H. Takahashi, G. R. Tremblay, C. Norman",
         "journal":  "",
@@ -102,9 +91,20 @@ if published:
     papers['published']['data'] = []
     
     papers['published']['data'].append({
+        "title":    "On the exceptionality of exceptional gravitational-wave events",
+        "author":   "R. Tenorio, D. Gerosa",
+        "journal":  "\prd in press (2026)",
+        "link":     "",
+        "arxiv":    "arXiv:2601.02467 [astro-ph.HE]",
+        "ads":      "2026arXiv260102467T",
+        "inspire":  "Tenorio:2026dcc",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
         "title":    "Accurate and efficient simulation-based inference for massive black-hole binaries with LISA",
         "author":   "A. Spadaro, J. Gair, D. Gerosa, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova",
-        "journal":  "\prd in press",
+        "journal":  "\prd in press (2026)",
         "link":     "",
         "arxiv":    "arXiv:2603.20431 [astro-ph.HE]",
         "ads":      "2026arXiv260320431S",
@@ -115,7 +115,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
         "author":   "A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, D. Gerosa",
-        "journal":  "\\aap in press.",
+        "journal":  "\\aap in press (2026)",
         "link":     "",
         "arxiv":    "arXiv:2504.10482 [astro-ph.CO]",
         "ads":      "2025arXiv250410482P",
