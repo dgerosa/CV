@@ -1,6 +1,6 @@
 ## Summary
-**6** [Submitted papers](#submitted-papers)\
-**115** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**4** [Submitted papers](#submitted-papers)\
+**117** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,30 +8,20 @@
 
 ## Submitted papers
 
-**6.**
+**4.**
 *Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy.*\
 C. B. Owen, A. Toubiana, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2606.21076" style="color: inherit; text-decoration: none;">arXiv:2606.21076 [gr-qc]</a>.
  
-**5.**
+**3.**
 *Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors.*\
 F. Leto di Priolo, M. Chruślińska, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2606.03776" style="color: inherit; text-decoration: none;">arXiv:2606.03776 [astro-ph.HE]</a>.
  
-**4.**
-*Gravitational-wave astronomy requires population-informed parameter estimation.*\
-M. Mould, R. Tenorio, **D. Gerosa**.\
-<a href="https://arxiv.org/abs/2604.15885" style="color: inherit; text-decoration: none;">arXiv:2604.15885 [gr-qc]</a>.
- 
-**3.**
+**2.**
 *Variance of gravitational-wave populations.*\
 A. Corelli, **D. Gerosa**, M. Mould, C. M. Fabbri.\
 <a href="https://arxiv.org/abs/2603.00239" style="color: inherit; text-decoration: none;">arXiv:2603.00239 [astro-ph.HE]</a>.
- 
-**2.**
-*On the exceptionality of exceptional gravitational-wave events.*\
-R. Tenorio, **D. Gerosa**.\
-<a href="https://arxiv.org/abs/2601.02467" style="color: inherit; text-decoration: none;">arXiv:2601.02467 [astro-ph.HE]</a>.
  
 **1.**
 *A recoiling supermassive black hole in a powerful quasar.*\
@@ -43,15 +33,25 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 
 ## Papers published in major peer-reviewed journals
 
+**117.**
+*Gravitational-wave astronomy requires population-informed parameter estimation.*\
+M. Mould, R. Tenorio, **D. Gerosa**.\
+<a href="https://arxiv.org/abs/2604.15885" style="color: inherit; text-decoration: none;">arXiv:2604.15885 [gr-qc]</a>.
+ 
+**116.**
+*On the exceptionality of exceptional gravitational-wave events.*\
+R. Tenorio, **D. Gerosa**.\
+Physical Review D in press (2026). <a href="https://arxiv.org/abs/2601.02467" style="color: inherit; text-decoration: none;">arXiv:2601.02467 [astro-ph.HE]</a>.
+ 
 **115.**
 *Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
 A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
-Physical Review D in press. <a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
+Physical Review D in press (2026). <a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
  
 **114.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
 A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, **D. Gerosa**.\
-Astronomy & Astrophysics in press. <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
+Astronomy & Astrophysics in press (2026). <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
  
 **113.**
 *Black-hole ringdown with templates capturing spin precession: a reanalysis of GW190521.*\
@@ -720,4 +720,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-07-07 05:13:17 UTC*
+*Last updated: 2026-07-07 10:03:04 UTC*
