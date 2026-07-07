@@ -52,17 +52,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Gravitational-wave astronomy requires population-informed parameter estimation",
-        "author":   "M. Mould, R. Tenorio, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2604.15885 [gr-qc]",
-        "ads":      "2026arXiv260415885M",
-        "inspire":  "Mould:2026nle",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Variance of gravitational-wave populations",
         "author":   "A. Corelli, D. Gerosa, M. Mould, C. M. Fabbri",
         "journal":  "",
@@ -91,6 +80,17 @@ if published:
     papers['published']['data'] = []
     
     papers['published']['data'].append({
+        "title":    "Gravitational-wave astronomy requires population-informed parameter estimation",
+        "author":   "M. Mould, R. Tenorio, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2604.15885 [gr-qc]",
+        "ads":      "2026arXiv260415885M",
+        "inspire":  "Mould:2026nle",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
         "title":    "On the exceptionality of exceptional gravitational-wave events",
         "author":   "R. Tenorio, D. Gerosa",
         "journal":  "\prd in press (2026)",
@@ -100,7 +100,7 @@ if published:
         "inspire":  "Tenorio:2026dcc",
         "more":     ""
         })
-
+    
     papers['published']['data'].append({
         "title":    "Accurate and efficient simulation-based inference for massive black-hole binaries with LISA",
         "author":   "A. Spadaro, J. Gair, D. Gerosa, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova",
