@@ -94,8 +94,6 @@ Here are the amazing students who are currently completing research projects wit
 - **Lisa Merlo**, MSc thesis, Milano-Bicocca, 2026.
 - **Sofia Dossena**, MSc thesis, Milano-Bicocca, 2026.
 - **Serena Caslini**, MSc thesis, Milano-Bicocca, 2026.
-- **Marco Bianchi**, MSc thesis, Milano-Bicocca, 2026.
-- **Giorgio Monti**, MSc thesis, Milano-Bicocca and GSSI L'Aquila, 2026.
 - **Diego Noseda**, BSc thesis, Milano-Bicocca, 2026.
 - **Andrea La Canna**, BSc thesis, Milano-Bicocca, 2026.
 - **Ecaterina Tsuhuy**, BSc thesis, Milano-Bicocca and Pavia, 2026.
@@ -137,8 +135,10 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former MSc students
 
+- **Marco Bianchi**. Milano-Bicocca, 2026. Then PhD student at GSSI (L'Aquila, Italy).
+- **Giorgio Monti**. Milano-Bicocca and GSSI L'Aquila, 2026.
 - **Pietro Zeduri**. Milano-Bicocca and Aix-Marseille, 2026.
-- **Alessia Corelli**. Milano-Bicocca and Nottingham, 2026. Resulting publication: [arXiv:2603.00239](https://arxiv.org/abs/2603.00239).
+- **Alessia Corelli**. Milano-Bicocca and Nottingham, 2026. Then PhD student in my group, joint with Aix-Marseille University. Resulting publication: [arXiv:2603.00239](https://arxiv.org/abs/2603.00239).
 - **Federico Leto di Priolo**. Milano-Bicocca and ESO Garching, 2026. Resulting publication: [arXiv:2606.03776](https://arxiv.org/abs/2606.03776).
 - **Oliver Rossi**. Milano-Bicocca, 2026. The software engineer at Netcom Engineering (Italy).
 - **Giulia Conti**. Milano-Bicocca, 2026.
@@ -221,4 +221,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-07-09 05:15:21 UTC*
+*Last updated: 2026-07-09 15:21:41 UTC*
