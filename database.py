@@ -82,7 +82,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Gravitational-wave astronomy requires population-informed parameter estimation",
         "author":   "M. Mould, R. Tenorio, D. Gerosa",
-        "journal":  "",
+        "journal":  "\prd in press (2026)",
         "link":     "",
         "arxiv":    "arXiv:2604.15885 [gr-qc]",
         "ads":      "2026arXiv260415885M",
@@ -3479,7 +3479,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "",
+        "note":     "Then PhD student in my group.",
         "current":  True
         })
 
@@ -3488,7 +3488,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "",
+        "note":     "Then PhD student at SISSA (Trieste, Italy).", 
         "current":  True
         })
     
@@ -3497,7 +3497,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "",
+        "note":     "Then PhD student at GSSI (L'Aquila, Italy).", 
         "current":  True
         })   
     
@@ -3506,10 +3506,9 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "",
-        "current":  True
+        "note":     "Then PhD student at GSSI (L'Aquila, Italy).", 
+        "current":  False
         })
-    
     
     group['msc']['data'].append({
         "name":     "Giorgio Monti",
@@ -3517,7 +3516,7 @@ if msc:
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "",
-        "current":  True
+        "current":  False
         })
 
     group['msc']['data'].append({
@@ -3534,7 +3533,7 @@ if msc:
         "where":    "Milano-Bicocca and Nottingham",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "Resulting publication: arXiv:2603.00239.", 
+        "note":     "Then PhD student in my group, joint with Aix-Marseille University. Resulting publication: arXiv:2603.00239.", 
         "current":  False
         })
     
