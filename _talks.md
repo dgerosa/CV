@@ -1,7 +1,7 @@
 Invited talks marked with ✦.
 
 ## Summary
-**86** (**37**✦) [Talks at conferences](#talks-at-conferences) \
+**87** (**38**✦) [Talks at conferences](#talks-at-conferences) \
 **49** (**49**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **9** (**8**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
@@ -10,6 +10,9 @@ Invited talks marked with ✦.
 ---
 
 ## Talks at conferences
+
+**87.** ✦ *(Over)interpreting gravitational-wave populations*  \\
+8th Unsolved problems in astrophysics and cosmology, Vienna, Austria, Jul 2026.
 
 **86.** ✦ *Getting ready for postdoc applications*  \\
 GWECS funding opportunities workshop, (online), May 2026.
@@ -97,7 +100,7 @@ April APS Meeting, Minneapolis MN, USA, Apr 2023.
 57th Rencontres de Moriond - Gravitation, La Thuile, Italy, Mar 2023.
 
 **59.** ✦ *You’ll never merge alone*  \\
-Unsolved problems in astrophysics and cosmology, Jerusalem, Israel, Dec 2022.
+7th Unsolved problems in astrophysics and cosmology, Jerusalem, Israel, Dec 2022.
 
 **58.** *Characterization of LIGO/Virgo selection effects with neural networks*  \\
 Machine learning in GW search: g2net next challenges, Pisa, Italy, Sep 2022.
@@ -571,4 +574,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-07-10 05:15:57 UTC*
+*Last updated: 2026-07-10 10:12:00 UTC*
