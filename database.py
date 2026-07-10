@@ -1560,6 +1560,15 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "(Over)interpreting gravitational-wave populations",
+        "what":     "8th Unsolved problems in astrophysics and cosmology",
+        "where":    "Vienna, Austria",
+        "when":     "Jul 2026",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "Getting ready for postdoc applications",
         "what":     "GWECS funding opportunities workshop",
         "where":    "(online)",
@@ -1567,7 +1576,6 @@ if conferences:
         "invited":  True,
         "more":     "",
         })
-
 
     talks['conferences']['data'].append({
         "title":    "Massive binary black-hole spins and disk warps",
@@ -1813,7 +1821,7 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "You’ll never merge alone",
-        "what":     "Unsolved problems in astrophysics and cosmology",
+        "what":     "7th Unsolved problems in astrophysics and cosmology",
         "where":    "Jerusalem, Israel",
         "when":     "Dec 2022",
         "invited":  True,
