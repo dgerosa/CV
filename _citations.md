@@ -1,18 +1,18 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10440
+- **Total ADS citations**: 10446
 - **Total INSPIRE citations**: 11685
-- **Total MAX citations**: 11776
+- **Total MAX citations**: 11777
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1488 | 1695 | 1695 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1490 | 1695 | 1695 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 890 | 994 | 994 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 850 | 783 | 850 |
-| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 462 | 515 | 515 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 851 | 783 | 851 |
+| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 463 | 515 | 515 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 471 | 512 | 512 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 414 | 479 | 479 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 336 | 408 | 408 |
@@ -34,7 +34,7 @@
 | **23** | Wysocki | 2018 | Explaining LIGO's observations via isolated binary evolution with natal kicks | 101 | 111 | 111 |
 | **24** | Gerosa | 2016 | PRECESSION: Dynamics of spinning black-hole binaries with python | 94 | 107 | 107 |
 | **25** | Vitale | 2017 | Impact of Bayesian priors on the characterization of binary black hole coalescences | 90 | 105 | 105 |
-| **26** | Taylor | 2018 | Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework | 96 | 104 | 104 |
+| **26** | Taylor | 2018 | Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework | 97 | 104 | 104 |
 | **27** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 85 | 102 | 102 |
 | **28** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 90 | 102 | 102 |
 | **29** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 79 | 89 | 89 |
@@ -79,7 +79,7 @@
 | **68** | Fumagalli | 2024 | Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes | 30 | 30 | 30 |
 | **69** | Fumagalli | 2023 | Spin-eccentricity interplay in merging binary black holes | 24 | 30 | 30 |
 | **70** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 28 | 29 | 29 |
-| **71** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 20 | 28 | 28 |
+| **71** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 21 | 28 | 28 |
 | **72** | Rosca-Mead | 2020 | Structure of neutron stars in massive scalar-tensor gravity | 24 | 27 | 27 |
 | **73** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 24 | 26 | 26 |
 | **74** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 25 | 26 | 26 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-07-11 04:35:50 UTC*
+*Last updated: 2026-07-12 04:46:09 UTC*
