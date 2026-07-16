@@ -1,17 +1,17 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10459
-- **Total INSPIRE citations**: 11689
-- **Total MAX citations**: 11783
+- **Total INSPIRE citations**: 11692
+- **Total MAX citations**: 11785
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1491 | 1700 | 1700 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1491 | 1701 | 1701 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 893 | 996 | 996 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 854 | 785 | 854 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 854 | 786 | 854 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 465 | 516 | 516 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 471 | 511 | 511 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 415 | 482 | 482 |
@@ -93,8 +93,8 @@
 | **82** | Buscicchio | 2025 | Test for LISA foreground Gaussianity and stationarity: galactic white-dwarf binaries | 19 | 22 | 22 |
 | **83** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 19 | 21 | 21 |
 | **84** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 17 | 21 | 21 |
-| **85** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 17 | 20 | 20 |
-| **86** | Varma | 2021 | Up-down instability of binary black holes in numerical relativity | 16 | 20 | 20 |
+| **85** | Varma | 2021 | Up-down instability of binary black holes in numerical relativity | 16 | 21 | 21 |
+| **86** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 17 | 20 | 20 |
 | **87** | Pacilio | 2024 | Catalog variance of testing general relativity with gravitational-wave data | 14 | 18 | 18 |
 | **88** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 16 | 18 | 18 |
 | **89** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 18 | 18 | 18 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-07-15 13:18:04 UTC*
+*Last updated: 2026-07-16 04:32:13 UTC*
