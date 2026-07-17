@@ -1,23 +1,23 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10459
-- **Total INSPIRE citations**: 11692
-- **Total MAX citations**: 11785
+- **Total ADS citations**: 10466
+- **Total INSPIRE citations**: 11695
+- **Total MAX citations**: 11786
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1491 | 1701 | 1701 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 893 | 996 | 996 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 854 | 786 | 854 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1492 | 1701 | 1701 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 894 | 998 | 998 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 854 | 788 | 854 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 465 | 516 | 516 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 471 | 511 | 511 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 415 | 482 | 482 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 336 | 409 | 409 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 417 | 482 | 482 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 337 | 409 | 409 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 350 | 382 | 382 |
-| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 296 | 329 | 329 |
+| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 296 | 328 | 328 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 222 | 257 | 257 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 171 | 219 | 219 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 149 | 173 | 173 |
@@ -71,7 +71,7 @@
 | **60** | Rosca-Mead | 2020 | Core collapse in massive scalar-tensor gravity | 27 | 35 | 35 |
 | **61** | Gerosa | 2023 | Efficient multi-timescale dynamics of precessing black-hole binaries | 29 | 34 | 34 |
 | **62** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 24 | 33 | 33 |
-| **63** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 29 | 32 | 32 |
+| **63** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 30 | 32 | 32 |
 | **64** | Wong | 2019 | Machine-learning interpolation of population-synthesis simulations to interpret gravitational-wave observations: a case study | 27 | 32 | 32 |
 | **65** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 29 | 32 | 32 |
 | **66** | Mould | 2022 | Gravitational-wave population inference at past time infinity | 27 | 31 | 31 |
@@ -118,7 +118,7 @@
 | **107** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 9 | 8 | 9 |
 | **108** | Kritos | 2024 | Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters | 6 | 8 | 8 |
 | **109** | De Renzis | 2023 | Parameter estimation of binary black holes in the endpoint of the up-down instability | 4 | 8 | 8 |
-| **110** | Tenorio | 2026 | On the exceptionality of exceptional gravitational-wave events | 5 | 7 | 7 |
+| **110** | Tenorio | 2026 | On the exceptionality of exceptional gravitational-wave events | 6 | 7 | 7 |
 | **111** | Toubiana | 2026 | Comparing astrophysical models to gravitational-wave data in the observable space | 7 | 7 | 7 |
 | **112** | Steinle | 2024 | Probing AGN jet precession with LISA | 7 | 4 | 7 |
 | **113** | Corelli | 2026 | Variance of gravitational-wave populations | 5 | 6 | 6 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-07-16 10:08:03 UTC*
+*Last updated: 2026-07-17 04:32:00 UTC*
