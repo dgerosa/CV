@@ -34,24 +34,24 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 ## Papers published in major peer-reviewed journals
 
 **117.**
-*Gravitational-wave astronomy requires population-informed parameter estimation.*\
-M. Mould, R. Tenorio, **D. Gerosa**.\
-Physical Review D in press (2026). <a href="https://arxiv.org/abs/2604.15885" style="color: inherit; text-decoration: none;">arXiv:2604.15885 [gr-qc]</a>.
- 
-**116.**
 *On the exceptionality of exceptional gravitational-wave events.*\
 R. Tenorio, **D. Gerosa**.\
 Physical Review D in press (2026). <a href="https://arxiv.org/abs/2601.02467" style="color: inherit; text-decoration: none;">arXiv:2601.02467 [astro-ph.HE]</a>.
  
-**115.**
+**116.**
 *Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
 A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
 Physical Review D in press (2026). <a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
  
-**114.**
+**115.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
 A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, **D. Gerosa**.\
 Astronomy & Astrophysics in press (2026). <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
+ 
+**114.**
+*Gravitational-wave astronomy requires population-informed parameter estimation.*\
+M. Mould, R. Tenorio, **D. Gerosa**.\
+<a href="https://journals.aps.org/prd/abstract/10.1103/blhd-ktbf" style="color: inherit; text-decoration: none;">Physical Review D 114 (2026) L021302</a>. <a href="https://arxiv.org/abs/2604.15885" style="color: inherit; text-decoration: none;">arXiv:2604.15885 [gr-qc]</a>.
  
 **113.**
 *Black-hole ringdown with templates capturing spin precession: a reanalysis of GW190521.*\
@@ -720,4 +720,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-07-17 04:32:00 UTC*
+*Last updated: 2026-07-17 05:58:43 UTC*
