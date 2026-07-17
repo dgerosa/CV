@@ -80,17 +80,6 @@ if published:
     papers['published']['data'] = []
     
     papers['published']['data'].append({
-        "title":    "Gravitational-wave astronomy requires population-informed parameter estimation",
-        "author":   "M. Mould, R. Tenorio, D. Gerosa",
-        "journal":  "\prd in press (2026)",
-        "link":     "",
-        "arxiv":    "arXiv:2604.15885 [gr-qc]",
-        "ads":      "2026arXiv260415885M",
-        "inspire":  "Mould:2026nle",
-        "more":     ""
-        })
-
-    papers['published']['data'].append({
         "title":    "On the exceptionality of exceptional gravitational-wave events",
         "author":   "R. Tenorio, D. Gerosa",
         "journal":  "\prd in press (2026)",
@@ -109,6 +98,17 @@ if published:
         "arxiv":    "arXiv:2603.20431 [astro-ph.HE]",
         "ads":      "2026arXiv260320431S",
         "inspire":  "Spadaro:2026evb",
+        "more":     ""
+        })
+    
+        papers['published']['data'].append({
+        "title":    "Gravitational-wave astronomy requires population-informed parameter estimation",
+        "author":   "M. Mould, R. Tenorio, D. Gerosa",
+        "journal":  "\prdl 114 (2026) L021302",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/blhd-ktbf",
+        "arxiv":    "arXiv:2604.15885 [gr-qc]",
+        "ads":      "2026arXiv260415885M",
+        "inspire":  "Mould:2026nle",
         "more":     ""
         })
 
