@@ -1,18 +1,18 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10466
-- **Total INSPIRE citations**: 11694
-- **Total MAX citations**: 11785
+- **Total ADS citations**: 10468
+- **Total INSPIRE citations**: 11695
+- **Total MAX citations**: 11787
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1492 | 1701 | 1701 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1492 | 1702 | 1702 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 894 | 998 | 998 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 854 | 788 | 854 |
-| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 465 | 516 | 516 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 855 | 788 | 855 |
+| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 466 | 516 | 516 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 471 | 511 | 511 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 417 | 481 | 481 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 337 | 409 | 409 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-07-17 05:58:43 UTC*
+*Last updated: 2026-07-18 04:20:49 UTC*
