@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10478
-- **Total INSPIRE citations**: 11705
-- **Total MAX citations**: 11800
+- **Total INSPIRE citations**: 11708
+- **Total MAX citations**: 11802
 - **h-index**: 49
 
 ## Paper list sorted by citation count
@@ -16,7 +16,7 @@
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 471 | 511 | 511 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 417 | 481 | 481 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 337 | 409 | 409 |
-| **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 351 | 382 | 382 |
+| **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 351 | 383 | 383 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 296 | 329 | 329 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 222 | 258 | 258 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 171 | 219 | 219 |
@@ -52,7 +52,7 @@
 | **41** | Gerosa | 2020 | Astrophysical implications of GW190412 as a remnant of a previous black-hole merger | 56 | 63 | 63 |
 | **42** | Gerosa | 2016 | Numerical simulations of stellar collapse in scalar-tensor theories of gravity | 51 | 62 | 62 |
 | **43** | Mould | 2022 | Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data | 48 | 59 | 59 |
-| **44** | Gerosa | 2015 | Spin alignment and differential accretion in merging black hole binaries | 58 | 51 | 58 |
+| **44** | Gerosa | 2015 | Spin alignment and differential accretion in merging black hole binaries | 58 | 52 | 58 |
 | **45** | Gerosa | 2014 | Distinguishing black-hole spin-orbit resonances by their gravitational-wave signatures | 46 | 58 | 58 |
 | **46** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 52 | 53 | 53 |
 | **47** | Moore | 2021 | Testing general relativity with gravitational-wave catalogs: the insidious nature of waveform systematics | 45 | 53 | 53 |
@@ -65,7 +65,7 @@
 | **54** | Tso | 2019 | Optimizing LIGO with LISA forewarnings to improve black-hole spectroscopy | 37 | 43 | 43 |
 | **55** | Trifiro' | 2016 | Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation | 34 | 43 | 43 |
 | **56** | Lodato | 2013 | Black hole mergers: do gas discs lead to spin alignment? | 39 | 40 | 40 |
-| **57** | Croon | 2026 | Can GW231123 have a stellar origin? | 34 | 37 | 37 |
+| **57** | Croon | 2026 | Can GW231123 have a stellar origin? | 34 | 38 | 38 |
 | **58** | Spadaro | 2023 | Glitch systematics on the observation of massive black-hole binaries with LISA | 31 | 36 | 36 |
 | **59** | Gerosa | 2021 | High mass but low spin: an exclusion region to rule out hierarchical black-hole mergers as a mechanism to populate the pair-instability mass gap | 33 | 36 | 36 |
 | **60** | Rosca-Mead | 2020 | Core collapse in massive scalar-tensor gravity | 27 | 35 | 35 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-07-20 04:59:18 UTC*
+*Last updated: 2026-07-20 17:53:45 UTC*
