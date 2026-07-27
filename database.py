@@ -118,7 +118,7 @@ if published:
         "journal":  "\prdl 114 (2026) L021302",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/blhd-ktbf",
         "arxiv":    "arXiv:2604.15885 [gr-qc]",
-        "ads":      "2026arXiv260415885M",
+        "ads":      "2026PhRvD.114b1302M",
         "inspire":  "Mould:2026nle",
         "more":     ""
         })
