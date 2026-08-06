@@ -107,7 +107,7 @@ if published:
         "journal":  "\prd 114 (2026) 023038",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/mmyl-wdgq",
         "arxiv":    "arXiv:2603.20431 [astro-ph.HE]",
-        "ads":      "2026arXiv260320431S",
+        "ads":      "2026PhRvD.114b3038S",
         "inspire":  "Spadaro:2026evb",
         "more":     ""
         })
@@ -118,7 +118,7 @@ if published:
         "journal":  "\prdl 114 (2026) L021302",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/blhd-ktbf",
         "arxiv":    "arXiv:2604.15885 [gr-qc]",
-        "ads":      "2026arXiv260415885M",
+        "ads":      "2026PhRvD.114b1302M",
         "inspire":  "Mould:2026nle",
         "more":     ""
         })
