@@ -1,17 +1,17 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10622
-- **Total INSPIRE citations**: 11791
-- **Total MAX citations**: 11897
+- **Total ADS citations**: 10619
+- **Total INSPIRE citations**: 11794
+- **Total MAX citations**: 11899
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1511 | 1710 | 1710 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1511 | 1711 | 1711 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 902 | 1004 | 1004 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 878 | 798 | 878 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 878 | 799 | 878 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 479 | 523 | 523 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 474 | 511 | 511 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 418 | 483 | 483 |
@@ -23,7 +23,7 @@
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 150 | 174 | 174 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 140 | 169 | 169 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 164 | 164 |
-| **15** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 141 | 156 | 156 |
+| **15** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 141 | 157 | 157 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 137 | 150 | 150 |
 | **17** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 139 | 139 |
 | **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 120 | 136 | 136 |
@@ -130,7 +130,7 @@
 | **119** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 5 | 5 |
 | **120** | Giarda | 2025 | Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background | 4 | 5 | 5 |
 | **121** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
-| **122** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 3 | 4 | 4 |
+| **122** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 0 | 4 | 4 |
 | **123** | Boschini | 2025 | “LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design | 3 | 1 | 3 |
 | **124** | De Santi | 2026 | Inferring the population properties of galactic binaries from LISA's stochastic foreground | 1 | 2 | 2 |
 | **125** | Gerosa | 2023 | QLUSTER: quick clusters of merging binary black holes | 2 | 0 | 2 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-05 04:36:10 UTC*
+*Last updated: 2026-08-06 04:37:53 UTC*

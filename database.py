@@ -96,7 +96,7 @@ if published:
         "journal":  "\prd in press (2026)",
         "link":     "",
         "arxiv":    "arXiv:2603.20431 [astro-ph.HE]",
-        "ads":      "2026arXiv260320431S",
+        "ads":      "2026PhRvD.114b3038S",
         "inspire":  "Spadaro:2026evb",
         "more":     ""
         })
