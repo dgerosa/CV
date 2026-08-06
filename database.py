@@ -80,10 +80,21 @@ if published:
     papers['published']['data'] = []
     
     papers['published']['data'].append({
-        "title":    "On the exceptionality of exceptional gravitational-wave events",
-        "author":   "R. Tenorio, D. Gerosa",
-        "journal":  "\prd in press (2026)",
+        "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
+        "author":   "A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, D. Gerosa",
+        "journal":  "\\aap 712 (2025) A37",
         "link":     "",
+        "arxiv":    "arXiv:2504.10482 [astro-ph.CO]",
+        "ads":      "2025arXiv250410482P",
+        "inspire":  "Pedrotti:2025tfg",
+        "more":     ""
+        })
+
+    papers['published']['data'].append({
+        "title":    "Exceptionality of exceptional gravitational-wave events",
+        "author":   "R. Tenorio, D. Gerosa",
+        "journal":  "\prd 114 (2026) 023058",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/ptvx-bkfb",
         "arxiv":    "arXiv:2601.02467 [astro-ph.HE]",
         "ads":      "2026arXiv260102467T",
         "inspire":  "Tenorio:2026dcc",
@@ -93,22 +104,11 @@ if published:
     papers['published']['data'].append({
         "title":    "Accurate and efficient simulation-based inference for massive black-hole binaries with LISA",
         "author":   "A. Spadaro, J. Gair, D. Gerosa, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova",
-        "journal":  "\prd in press (2026)",
-        "link":     "",
+        "journal":  "\prd 114 (2026) 023038",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/mmyl-wdgq",
         "arxiv":    "arXiv:2603.20431 [astro-ph.HE]",
         "ads":      "2026arXiv260320431S",
         "inspire":  "Spadaro:2026evb",
-        "more":     ""
-        })
-
-    papers['published']['data'].append({
-        "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
-        "author":   "A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, D. Gerosa",
-        "journal":  "\\aap in press (2026)",
-        "link":     "",
-        "arxiv":    "arXiv:2504.10482 [astro-ph.CO]",
-        "ads":      "2025arXiv250410482P",
-        "inspire":  "Pedrotti:2025tfg",
         "more":     ""
         })
 
