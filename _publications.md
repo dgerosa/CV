@@ -34,19 +34,19 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 ## Papers published in major peer-reviewed journals
 
 **117.**
-*On the exceptionality of exceptional gravitational-wave events.*\
-R. Tenorio, **D. Gerosa**.\
-Physical Review D in press (2026). <a href="https://arxiv.org/abs/2601.02467" style="color: inherit; text-decoration: none;">arXiv:2601.02467 [astro-ph.HE]</a>.
- 
-**116.**
-*Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
-A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
-Physical Review D in press (2026). <a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
- 
-**115.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
 A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, **D. Gerosa**.\
-Astronomy & Astrophysics in press (2026). <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
+Astronomy & Astrophysics 712 (2025) A37. <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
+ 
+**116.**
+*Exceptionality of exceptional gravitational-wave events.*\
+R. Tenorio, **D. Gerosa**.\
+<a href="https://journals.aps.org/prd/abstract/10.1103/ptvx-bkfb" style="color: inherit; text-decoration: none;">Physical Review D 114 (2026) 023058</a>. <a href="https://arxiv.org/abs/2601.02467" style="color: inherit; text-decoration: none;">arXiv:2601.02467 [astro-ph.HE]</a>.
+ 
+**115.**
+*Accurate and efficient simulation-based inference for massive black-hole binaries with LISA.*\
+A. Spadaro, J. Gair, **D. Gerosa**, S. R. Green, R. Buscicchio, N. Gupte, R. Tenorio, S. Clyne, M. Purrer, N. Korsakova.\
+<a href="https://journals.aps.org/prd/abstract/10.1103/mmyl-wdgq" style="color: inherit; text-decoration: none;">Physical Review D 114 (2026) 023038</a>. <a href="https://arxiv.org/abs/2603.20431" style="color: inherit; text-decoration: none;">arXiv:2603.20431 [astro-ph.HE]</a>.
  
 **114.**
 *Gravitational-wave astronomy requires population-informed parameter estimation.*\
@@ -720,4 +720,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-08-06 04:37:53 UTC*
+*Last updated: 2026-08-06 09:58:26 UTC*

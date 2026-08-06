@@ -85,7 +85,7 @@
 | **74** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 25 | 26 | 26 |
 | **75** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 21 | 25 | 25 |
 | **76** | Gerosa | 2019 | Wide nutation: binary black-hole spins repeatedly oscillating from full alignment to full anti-alignment | 21 | 24 | 24 |
-| **77** | Pedrotti | 2026 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 19 | 23 | 23 |
+| **77** | Pedrotti | 2025 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 19 | 23 | 23 |
 | **78** | Buscicchio | 2025 | Test for LISA foreground Gaussianity and stationarity: galactic white-dwarf binaries | 19 | 23 | 23 |
 | **79** | Mancarella | 2023 | Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors | 17 | 23 | 23 |
 | **80** | Nealon | 2022 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity | 23 | 17 | 23 |
@@ -117,7 +117,7 @@
 | **106** | Gerosa | 2025 | Which is which? Identification of the two compact objects in gravitational-wave binaries | 8 | 10 | 10 |
 | **107** | Spadaro | 2025 | Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA | 8 | 10 | 10 |
 | **108** | Toubiana | 2026 | Comparing astrophysical models to gravitational-wave data in the observable space | 7 | 9 | 9 |
-| **109** | Tenorio | 2026 | On the exceptionality of exceptional gravitational-wave events | 7 | 8 | 8 |
+| **109** | Tenorio | 2026 | Exceptionality of exceptional gravitational-wave events | 7 | 8 | 8 |
 | **110** | Kritos | 2024 | Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters | 6 | 8 | 8 |
 | **111** | De Renzis | 2023 | Parameter estimation of binary black holes in the endpoint of the up-down instability | 4 | 8 | 8 |
 | **112** | Steinle | 2024 | Probing AGN jet precession with LISA | 7 | 4 | 7 |
@@ -151,8 +151,8 @@
 
 | Year | Paper count |
 |------|--------------|
-| 2026 | 16 |
-| 2025 | 19 |
+| 2026 | 15 |
+| 2025 | 20 |
 | 2024 | 10 |
 | 2023 | 11 |
 | 2022 | 10 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-06 04:37:53 UTC*
+*Last updated: 2026-08-06 09:58:26 UTC*
