@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10615
+- **Total ADS citations**: 10616
 - **Total INSPIRE citations**: 11804
 - **Total MAX citations**: 11907
 - **h-index**: 49
@@ -9,7 +9,7 @@
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1514 | 1711 | 1711 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1515 | 1711 | 1711 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 903 | 1006 | 1006 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 881 | 800 | 881 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 478 | 523 | 523 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-08 03:05:42 UTC*
+*Last updated: 2026-08-09 03:12:02 UTC*
