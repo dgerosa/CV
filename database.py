@@ -3338,7 +3338,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2025",
         "end":      "current",
-        "bio":      "Universe investigator. Often busy exploring the depths of the Ocean in her diving gear, running long distances, engaging in her next artistic project, or blasting prog metal in her headphones.",
+        "bio":      "Universe investigator, black-hole labeler. Often busy exploring the depths of the Ocean in her diving gear, running long distances, engaging in her next artistic project, or blasting prog metal in her headphones.",
         "email":    "g.cuomo3@campus.unimib.it",
         "current":  True
         })
@@ -3358,7 +3358,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
-        "bio":      "Ringdowner, higher mode finder. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.",
+        "bio":      "Ringdowner, higher-mode finder, eccentritizer. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.",
         "email":    "c.anselmo@campus.unimib.it",
         "note":     "Supported by the Cariplo Foundation.",
         "current":  True
