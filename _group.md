@@ -44,7 +44,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Giulia Cuomo</strong><br>
     PhD student<br>
 <a href="mailto:g.cuomo3@campus.unimib.it">g.cuomo3@campus.unimib.it</a><br>
-    <em>Universe investigator. Often busy exploring the depths of the Ocean in her diving gear, running long distances, engaging in her next artistic project, or blasting prog metal in her headphones.</em>
+    <em>Universe investigator, black-hole labeler. Often busy exploring the depths of the Ocean in her diving gear, running long distances, engaging in her next artistic project, or blasting prog metal in her headphones.</em>
   </div>
 </div>
 <div class="person">
@@ -62,7 +62,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Chiara Anselmo</strong><br>
     PhD student<br>
 <a href="mailto:c.anselmo@campus.unimib.it">c.anselmo@campus.unimib.it</a><br>
-    <em>Ringdowner, higher mode finder. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.</em>
+    <em>Ringdowner, higher-mode finder, eccentritizer. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.</em>
   </div>
 </div>
 <div class="person">
@@ -221,4 +221,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-08-10 03:32:29 UTC*
+*Last updated: 2026-08-10 16:02:55 UTC*
