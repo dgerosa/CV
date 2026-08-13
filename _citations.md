@@ -1,21 +1,21 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10626
-- **Total INSPIRE citations**: 11806
-- **Total MAX citations**: 11910
+- **Total INSPIRE citations**: 11817
+- **Total MAX citations**: 11919
 - **h-index**: 49
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1514 | 1711 | 1711 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 904 | 1006 | 1006 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 882 | 800 | 882 |
-| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 479 | 524 | 524 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1514 | 1715 | 1715 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 904 | 1007 | 1007 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 882 | 802 | 882 |
+| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 479 | 525 | 525 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 474 | 511 | 511 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 419 | 483 | 483 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 340 | 411 | 411 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 419 | 484 | 484 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 340 | 412 | 412 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 351 | 384 | 384 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 297 | 331 | 331 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 224 | 260 | 260 |
@@ -26,7 +26,7 @@
 | **15** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 142 | 158 | 158 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 136 | 150 | 150 |
 | **17** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 139 | 139 |
-| **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 120 | 136 | 136 |
+| **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 120 | 137 | 137 |
 | **19** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 111 | 130 | 130 |
 | **20** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 115 | 124 | 124 |
 | **21** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 112 | 124 | 124 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-10 03:32:29 UTC*
+*Last updated: 2026-08-13 03:37:22 UTC*
