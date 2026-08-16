@@ -1,8 +1,8 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10655
+- **Total ADS citations**: 10656
 - **Total INSPIRE citations**: 11823
-- **Total MAX citations**: 11929
+- **Total MAX citations**: 11928
 - **h-index**: 49
 
 ## Paper list sorted by citation count
@@ -11,8 +11,8 @@
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1519 | 1716 | 1716 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 906 | 1008 | 1008 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 885 | 801 | 885 |
-| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 481 | 526 | 526 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 884 | 801 | 884 |
+| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 482 | 526 | 526 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 474 | 512 | 512 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 420 | 484 | 484 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 341 | 412 | 412 |
@@ -67,7 +67,7 @@
 | **56** | Lodato | 2013 | Black hole mergers: do gas discs lead to spin alignment? | 40 | 40 | 40 |
 | **57** | Croon | 2026 | Can GW231123 have a stellar origin? | 37 | 39 | 39 |
 | **58** | Gerosa | 2021 | High mass but low spin: an exclusion region to rule out hierarchical black-hole mergers as a mechanism to populate the pair-instability mass gap | 33 | 37 | 37 |
-| **59** | Rosca-Mead | 2020 | Core collapse in massive scalar-tensor gravity | 28 | 37 | 37 |
+| **59** | Rosca-Mead | 2020 | Core collapse in massive scalar-tensor gravity | 29 | 37 | 37 |
 | **60** | Spadaro | 2023 | Glitch systematics on the observation of massive black-hole binaries with LISA | 33 | 36 | 36 |
 | **61** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 28 | 34 | 34 |
 | **62** | Gerosa | 2023 | Efficient multi-timescale dynamics of precessing black-hole binaries | 29 | 34 | 34 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-15 17:30:25 UTC*
+*Last updated: 2026-08-16 02:38:36 UTC*
