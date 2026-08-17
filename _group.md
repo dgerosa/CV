@@ -87,6 +87,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
 ## Current MSc and Bsc students
 Here are the amazing students who are currently completing research projects with us in the group… Taking the first fun steps into the perilous world of black holes!
 
+- **Giovanni Matteotti**, MSc thesis, Milano-Bicocca and Kyoto, 2027.
 - **Emma Balzanelli**, MSc thesis, Milano-Bicocca, 2027.
 - **Martina Berva**, MSc thesis, Milano-Bicocca and Aix-Marseille, 2027.
 - **Giulia Foroni**, MSc thesis, Milano-Bicocca and Columbia, 2026.
@@ -221,4 +222,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-08-17 02:37:39 UTC*
+*Last updated: 2026-08-17 13:18:10 UTC*
