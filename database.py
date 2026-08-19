@@ -1650,7 +1650,7 @@ if conferences:
         "where":    "Beijing, China",
         "when":     "Jul 2025",
         "invited":  True,
-        "more":     "",
+        "more":     "Proceedings published by International Press (2026)",
         "recording": "https://www.youtube.com/watch?v=hb-TbNawDuU"
         })
 
@@ -1816,7 +1816,7 @@ if conferences:
         "where":    "La Thuile, Italy",
         "when":     "Mar 2023",
         "invited":  True,
-        "more":     ""
+        "more":     "Proceedings published by ARISF (2023)"
         })
 
     talks['conferences']['data'].append({
