@@ -42,6 +42,7 @@ Testing Aspects of General Relativity-IV, Gandhinagar, India, (online), Jul 2025
 **78.** ✦ *Are merging black holes born from stellar collapse or previous mergers? Some years later…*  \\
 International Congress of Basic Science, Beijing, China, Jul 2025.  \\
  [Recording](https://www.youtube.com/watch?v=hb-TbNawDuU).
+Proceedings published by International Press (2026).
 
 **77.** ✦ *Machine learning in gravitational-wave population inference*  \\
 Scientific Machine Learning for Gravitational Wave Astronomy, Providence RI, USA, Jun 2025.
@@ -97,7 +98,8 @@ LISA Astrophysics Working Group Meeting, Milan, Italy, Sep 2023.
 April APS Meeting, Minneapolis MN, USA, Apr 2023.
 
 **60.** ✦ *The black-hole binary formation-channel problem in gravitational-wave astronomy*  \\
-57th Rencontres de Moriond - Gravitation, La Thuile, Italy, Mar 2023.
+57th Rencontres de Moriond - Gravitation, La Thuile, Italy, Mar 2023.  \\
+Proceedings published by ARISF (2023).
 
 **59.** ✦ *You’ll never merge alone*  \\
 7th Unsolved problems in astrophysics and cosmology, Jerusalem, Israel, Dec 2022.
@@ -574,4 +576,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-08-19 02:36:33 UTC*
+*Last updated: 2026-08-19 12:54:49 UTC*

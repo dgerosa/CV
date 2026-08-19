@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10660
-- **Total INSPIRE citations**: 11839
-- **Total MAX citations**: 11945
+- **Total INSPIRE citations**: 11842
+- **Total MAX citations**: 11947
 - **h-index**: 49
 
 ## Paper list sorted by citation count
@@ -11,10 +11,10 @@
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1518 | 1719 | 1719 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 906 | 1007 | 1007 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 886 | 802 | 886 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 886 | 803 | 886 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 483 | 527 | 527 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 474 | 513 | 513 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 420 | 485 | 485 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 420 | 486 | 486 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 341 | 412 | 412 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 351 | 385 | 385 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 297 | 335 | 335 |
@@ -132,7 +132,7 @@
 | **121** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
 | **122** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 4 | 4 | 4 |
 | **123** | Boschini | 2025 | “LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design | 4 | 1 | 4 |
-| **124** | De Santi | 2026 | Inferring the population properties of galactic binaries from LISA's stochastic foreground | 2 | 2 | 2 |
+| **124** | De Santi | 2026 | Inferring the population properties of galactic binaries from LISA's stochastic foreground | 2 | 3 | 3 |
 | **125** | Gerosa | 2023 | QLUSTER: quick clusters of merging binary black holes | 2 | 0 | 2 |
 | **126** | Gerosa | 2018 | Reanalysis of LIGO black-hole coalescences with alternative prior assumptions | 2 | 2 | 2 |
 | **127** | Anselmo | 2026 | Black-hole ringdown with templates capturing spin precession: a reanalysis of GW190521 | 1 | 1 | 1 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-19 02:36:33 UTC*
+*Last updated: 2026-08-19 12:54:49 UTC*
