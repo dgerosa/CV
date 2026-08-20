@@ -9,7 +9,7 @@
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1518 | 1719 | 1719 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1519 | 1719 | 1719 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 906 | 1007 | 1007 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 886 | 803 | 886 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 483 | 527 | 527 |
@@ -33,7 +33,7 @@
 | **22** | Wysocki | 2018 | Explaining LIGO's observations via isolated binary evolution with natal kicks | 103 | 112 | 112 |
 | **23** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 97 | 111 | 111 |
 | **24** | Gerosa | 2016 | PRECESSION: Dynamics of spinning black-hole binaries with python | 94 | 109 | 109 |
-| **25** | Vitale | 2017 | Impact of Bayesian priors on the characterization of binary black hole coalescences | 93 | 107 | 107 |
+| **25** | Vitale | 2017 | Impact of Bayesian priors on the characterization of binary black hole coalescences | 92 | 107 | 107 |
 | **26** | Taylor | 2018 | Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework | 99 | 104 | 104 |
 | **27** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 87 | 103 | 103 |
 | **28** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 91 | 102 | 102 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-19 12:54:49 UTC*
+*Last updated: 2026-08-20 02:35:21 UTC*
