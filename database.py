@@ -85,7 +85,7 @@ if published:
         "journal":  "\\aap 712 (2025) A37",
         "link":     "",
         "arxiv":    "arXiv:2504.10482 [astro-ph.CO]",
-        "ads":      "2025arXiv250410482P",
+        "ads":      "2026A&A...712A..37P",
         "inspire":  "Pedrotti:2025tfg",
         "more":     ""
         })
