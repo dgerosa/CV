@@ -1,8 +1,8 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10664
+- **Total ADS citations**: 10667
 - **Total INSPIRE citations**: 11858
-- **Total MAX citations**: 11961
+- **Total MAX citations**: 11962
 - **h-index**: 50
 
 ## Paper list sorted by citation count
@@ -11,7 +11,7 @@
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1519 | 1723 | 1723 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 908 | 1007 | 1007 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 886 | 805 | 886 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 887 | 805 | 887 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 483 | 528 | 528 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 474 | 513 | 513 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 420 | 486 | 486 |
@@ -19,7 +19,7 @@
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 351 | 385 | 385 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 298 | 335 | 335 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 224 | 260 | 260 |
-| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 182 | 223 | 223 |
+| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 183 | 223 | 223 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 149 | 175 | 175 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 141 | 169 | 169 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 164 | 164 |
@@ -62,7 +62,7 @@
 | **51** | Santini | 2023 | Black-hole mergers in disk-like environments could explain the observed $$q-\chi_\mathrm{eff}$$ correlation | 43 | 48 | 48 |
 | **52** | Gerosa | 2015 | Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature | 43 | 48 | 48 |
 | **53** | Tso | 2019 | Optimizing LIGO with LISA forewarnings to improve black-hole spectroscopy | 37 | 44 | 44 |
-| **54** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 42 | 43 | 43 |
+| **54** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 43 | 43 | 43 |
 | **55** | Trifiro' | 2016 | Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation | 34 | 43 | 43 |
 | **56** | Lodato | 2013 | Black hole mergers: do gas discs lead to spin alignment? | 40 | 40 | 40 |
 | **57** | Croon | 2026 | Can GW231123 have a stellar origin? | 37 | 39 | 39 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-22 02:32:01 UTC*
+*Last updated: 2026-08-23 02:41:41 UTC*
