@@ -3827,14 +3827,6 @@ if bsc:
         })
     
     group['bsc']['data'].append({
-        "name":     "Giacomo Brugali",
-        "where":    "Milano-Bicocca",
-        "what":     "BSc thesis",
-        "year":     "2026",
-        "current":  True
-        })
-    
-    group['bsc']['data'].append({
         "name":     "Federico Massacesi",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
@@ -3858,12 +3850,20 @@ if bsc:
         "current":  True
         })
 
+    #group['bsc']['data'].append({
+    #    "name":     "Pablo Basta",
+    #    "where":    "Milano-Bicocca",
+    #    "what":     "BSc thesis",
+    #    "year":     "2026",
+    #    "current":  True
+    #    })
+
     group['bsc']['data'].append({
-        "name":     "Pablo Basta",
+        "name":     "Giacomo Brugali",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2026",
-        "current":  True
+        "current":  False
         })
 
     group['bsc']['data'].append({
