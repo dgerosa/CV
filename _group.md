@@ -99,11 +99,9 @@ Here are the amazing students who are currently completing research projects wit
 - **Andrea La Canna**, BSc thesis, Milano-Bicocca, 2026.
 - **Ecaterina Tsuhuy**, BSc thesis, Milano-Bicocca and Pavia, 2026.
 - **Laura Canova**, BSc thesis, Milano-Bicocca, 2026.
-- **Giacomo Brugali**, BSc thesis, Milano-Bicocca, 2026.
 - **Federico Massacesi**, BSc thesis, Milano-Bicocca, 2026.
 - **Nicola Toselli**, BSc thesis, Milano-Bicocca, 2026.
 - **Alessandro Zappietro**, BSc thesis, Milano-Bicocca and Pavia, 2026.
-- **Pablo Basta**, BSc thesis, Milano-Bicocca, 2026.
 
 <br>
 
@@ -169,6 +167,7 @@ Here are the amazing students who are currently completing research projects wit
 
 ## Former BSc students
 
+- **Giacomo Brugali**. Milano-Bicocca, 2026.
 - **Simone Abeni**. Milano-Bicocca, 2026.
 - **Lorenzo Lecci**. Milano-Bicocca, 2025.
 - **Federico Quattrini**. Milano-Bicocca, 2025.
@@ -222,4 +221,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-08-28 13:01:36 UTC*
+*Last updated: 2026-08-29 06:31:07 UTC*
