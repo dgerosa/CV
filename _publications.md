@@ -1,6 +1,6 @@
 ## Summary
-**4** [Submitted papers](#submitted-papers)\
-**117** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**3** [Submitted papers](#submitted-papers)\
+**118** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,15 +8,10 @@
 
 ## Submitted papers
 
-**4.**
+**3.**
 *Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy.*\
 C. B. Owen, A. Toubiana, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2606.21076" style="color: inherit; text-decoration: none;">arXiv:2606.21076 [gr-qc]</a>.
- 
-**3.**
-*Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors.*\
-F. Leto di Priolo, M. Chruślińska, **D. Gerosa**.\
-<a href="https://arxiv.org/abs/2606.03776" style="color: inherit; text-decoration: none;">arXiv:2606.03776 [astro-ph.HE]</a>.
  
 **2.**
 *Variance of gravitational-wave populations.*\
@@ -33,6 +28,11 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 
 ## Papers published in major peer-reviewed journals
 
+**118.**
+*Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors.*\
+F. Leto di Priolo, M. Chruślińska, **D. Gerosa**.\
+Astronomy & Astrophysics in press. <a href="https://arxiv.org/abs/2606.03776" style="color: inherit; text-decoration: none;">arXiv:2606.03776 [astro-ph.HE]</a>.
+ 
 **117.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
 A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, **D. Gerosa**.\
@@ -720,4 +720,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-08-30 06:49:36 UTC*
+*Last updated: 2026-08-30 08:38:07 UTC*

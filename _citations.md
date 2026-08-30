@@ -174,9 +174,9 @@
 | Classical and Quantum Gravity | 13 |
 | Monthly Notices of the Royal Astronomical Society | 13 |
 | Physical Review Letters | 9 |
-| Astronomy & Astrophysics | 6 |
-| arXiv | 5 |
+| Astronomy & Astrophysics | 7 |
 | Astrophysical Journal | 5 |
+| arXiv | 4 |
 | Living Reviews in Relativity | 3 |
 | Journal of Physics: Conference Series | 2 |
 | Astrophysics and Space Science Proceedings | 1 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-30 06:49:36 UTC*
+*Last updated: 2026-08-30 08:38:07 UTC*
