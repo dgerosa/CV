@@ -41,17 +41,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors",
-        "author":   "F. Leto di Priolo, M. Chruślińska, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2606.03776 [astro-ph.HE]",
-        "ads":      "2026arXiv260603776L",
-        "inspire":  "diPriolo:2026ayj",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Variance of gravitational-wave populations",
         "author":   "A. Corelli, D. Gerosa, M. Mould, C. M. Fabbri",
         "journal":  "",
@@ -78,6 +67,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors",
+        "author":   "F. Leto di Priolo, M. Chruślińska, D. Gerosa",
+        "journal":  "\\aap in press",
+        "link":     "",
+        "arxiv":    "arXiv:2606.03776 [astro-ph.HE]",
+        "ads":      "2026arXiv260603776L",
+        "inspire":  "diPriolo:2026ayj",
+        "more":     ""
+        })
     
     papers['published']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
