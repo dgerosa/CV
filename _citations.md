@@ -1,6 +1,6 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10662
+- **Total ADS citations**: 10660
 - **Total INSPIRE citations**: 11896
 - **Total MAX citations**: 11994
 - **h-index**: 50
@@ -19,7 +19,7 @@
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 351 | 385 | 385 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 298 | 338 | 338 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 223 | 261 | 261 |
-| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 183 | 223 | 223 |
+| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 182 | 223 | 223 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 148 | 175 | 175 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 140 | 169 | 169 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 164 | 164 |
@@ -62,7 +62,7 @@
 | **51** | Gerosa | 2015 | Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature | 43 | 49 | 49 |
 | **52** | Santini | 2023 | Black-hole mergers in disk-like environments could explain the observed $$q-\chi_\mathrm{eff}$$ correlation | 43 | 48 | 48 |
 | **53** | Tso | 2019 | Optimizing LIGO with LISA forewarnings to improve black-hole spectroscopy | 37 | 44 | 44 |
-| **54** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 43 | 43 | 43 |
+| **54** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 42 | 43 | 43 |
 | **55** | Trifiro' | 2016 | Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation | 34 | 43 | 43 |
 | **56** | Lodato | 2013 | Black hole mergers: do gas discs lead to spin alignment? | 40 | 41 | 41 |
 | **57** | Croon | 2026 | Can GW231123 have a stellar origin? | 37 | 40 | 40 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-29 07:58:27 UTC*
+*Last updated: 2026-08-30 06:49:36 UTC*
