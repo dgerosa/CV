@@ -1,23 +1,23 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10662
-- **Total INSPIRE citations**: 11902
-- **Total MAX citations**: 12000
+- **Total INSPIRE citations**: 11909
+- **Total MAX citations**: 12008
 - **h-index**: 50
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1518 | 1726 | 1726 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 908 | 1011 | 1011 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 891 | 812 | 891 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1518 | 1728 | 1728 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 908 | 1012 | 1012 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 891 | 811 | 891 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 483 | 529 | 529 |
-| **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 473 | 513 | 513 |
+| **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 473 | 514 | 514 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 420 | 489 | 489 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 341 | 414 | 414 |
-| **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 351 | 385 | 385 |
-| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 298 | 338 | 338 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 341 | 415 | 415 |
+| **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 351 | 386 | 386 |
+| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 298 | 339 | 339 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 223 | 261 | 261 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 182 | 224 | 224 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 148 | 175 | 175 |
@@ -108,9 +108,9 @@
 | **97** | Steinle | 2023 | The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries | 11 | 14 | 14 |
 | **98** | Reali | 2020 | Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants | 11 | 13 | 13 |
 | **99** | Fabbri | 2025 | Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data | 10 | 12 | 12 |
-| **100** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 11 | 12 | 12 |
-| **101** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 8 | 11 | 11 |
-| **102** | De Renzis | 2025 | Forecasting the population properties of merging black holes | 8 | 11 | 11 |
+| **100** | De Renzis | 2025 | Forecasting the population properties of merging black holes | 8 | 12 | 12 |
+| **101** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 11 | 12 | 12 |
+| **102** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 8 | 11 | 11 |
 | **103** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 8 | 11 | 11 |
 | **104** | Gangardt | 2022 | Constraining black-hole binary spin precession and nutation with sequential prior conditioning | 10 | 11 | 11 |
 | **105** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 10 | 9 | 10 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-08-31 07:07:24 UTC*
+*Last updated: 2026-09-01 06:21:38 UTC*
