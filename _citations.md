@@ -1,25 +1,25 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10670
-- **Total INSPIRE citations**: 11938
-- **Total MAX citations**: 12036
+- **Total INSPIRE citations**: 11945
+- **Total MAX citations**: 12041
 - **h-index**: 50
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1519 | 1732 | 1732 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1519 | 1733 | 1733 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 909 | 1014 | 1014 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 892 | 813 | 892 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 892 | 815 | 892 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 482 | 532 | 532 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 473 | 514 | 514 |
-| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 421 | 489 | 489 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 342 | 415 | 415 |
+| **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 421 | 490 | 490 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 342 | 416 | 416 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 351 | 387 | 387 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 298 | 342 | 342 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 223 | 262 | 262 |
-| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 182 | 226 | 226 |
+| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 182 | 227 | 227 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 148 | 175 | 175 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 140 | 169 | 169 |
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 164 | 164 |
@@ -111,11 +111,11 @@
 | **100** | De Renzis | 2025 | Forecasting the population properties of merging black holes | 8 | 12 | 12 |
 | **101** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 11 | 12 | 12 |
 | **102** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 8 | 11 | 11 |
-| **103** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 8 | 11 | 11 |
-| **104** | Gangardt | 2022 | Constraining black-hole binary spin precession and nutation with sequential prior conditioning | 10 | 11 | 11 |
-| **105** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 10 | 9 | 10 |
-| **106** | Gerosa | 2025 | Which is which? Identification of the two compact objects in gravitational-wave binaries | 8 | 10 | 10 |
-| **107** | Spadaro | 2025 | Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA | 9 | 10 | 10 |
+| **103** | Spadaro | 2025 | Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA | 9 | 11 | 11 |
+| **104** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 8 | 11 | 11 |
+| **105** | Gangardt | 2022 | Constraining black-hole binary spin precession and nutation with sequential prior conditioning | 10 | 11 | 11 |
+| **106** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 10 | 9 | 10 |
+| **107** | Gerosa | 2025 | Which is which? Identification of the two compact objects in gravitational-wave binaries | 8 | 10 | 10 |
 | **108** | Toubiana | 2026 | Comparing astrophysical models to gravitational-wave data in the observable space | 7 | 9 | 9 |
 | **109** | Tenorio | 2026 | Exceptionality of exceptional gravitational-wave events | 7 | 8 | 8 |
 | **110** | Kritos | 2024 | Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters | 6 | 8 | 8 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-09-03 05:57:26 UTC*
+*Last updated: 2026-09-04 06:03:37 UTC*
