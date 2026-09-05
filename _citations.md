@@ -1,17 +1,17 @@
 ## Citation Summary
 
-- **Total ADS citations**: 10670
-- **Total INSPIRE citations**: 11945
-- **Total MAX citations**: 12041
+- **Total ADS citations**: 10672
+- **Total INSPIRE citations**: 11950
+- **Total MAX citations**: 12047
 - **h-index**: 50
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1519 | 1733 | 1733 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 909 | 1014 | 1014 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 892 | 815 | 892 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1519 | 1734 | 1734 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 909 | 1015 | 1015 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 894 | 815 | 894 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 482 | 532 | 532 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 473 | 514 | 514 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 421 | 490 | 490 |
@@ -71,7 +71,7 @@
 | **60** | Spadaro | 2023 | Glitch systematics on the observation of massive black-hole binaries with LISA | 33 | 36 | 36 |
 | **61** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 28 | 35 | 35 |
 | **62** | Gerosa | 2023 | Efficient multi-timescale dynamics of precessing black-hole binaries | 30 | 35 | 35 |
-| **63** | Sayeb | 2021 | Massive black hole binary inspiral and spin evolution in a cosmological framework | 31 | 33 | 33 |
+| **63** | Sayeb | 2021 | Massive black hole binary inspiral and spin evolution in a cosmological framework | 31 | 34 | 34 |
 | **64** | Chamberlain | 2019 | Frequency-domain waveform approximants capturing Doppler shifts | 30 | 33 | 33 |
 | **65** | Mancarella | 2025 | Sampling the full hierarchical population posterior distribution in gravitational-wave astronomy | 26 | 32 | 32 |
 | **66** | Fumagalli | 2024 | Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes | 30 | 32 | 32 |
@@ -109,12 +109,12 @@
 | **98** | Reali | 2020 | Mapping the asymptotic inspiral of precessing binary black holes to their merger remnants | 11 | 13 | 13 |
 | **99** | Fabbri | 2025 | Reconstructing parametric gravitational-wave population fits from non-parametric results without refitting the data | 10 | 12 | 12 |
 | **100** | De Renzis | 2025 | Forecasting the population properties of merging black holes | 8 | 12 | 12 |
-| **101** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 11 | 12 | 12 |
-| **102** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 8 | 11 | 11 |
-| **103** | Spadaro | 2025 | Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA | 9 | 11 | 11 |
+| **101** | Spadaro | 2025 | Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA | 9 | 12 | 12 |
+| **102** | Santoliquido | 2024 | Classifying binary black holes from Population III stars with the Einstein Telescope: a machine-learning approach | 11 | 12 | 12 |
+| **103** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 8 | 11 | 11 |
 | **104** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 8 | 11 | 11 |
 | **105** | Gangardt | 2022 | Constraining black-hole binary spin precession and nutation with sequential prior conditioning | 10 | 11 | 11 |
-| **106** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 10 | 9 | 10 |
+| **106** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 10 | 10 | 10 |
 | **107** | Gerosa | 2025 | Which is which? Identification of the two compact objects in gravitational-wave binaries | 8 | 10 | 10 |
 | **108** | Toubiana | 2026 | Comparing astrophysical models to gravitational-wave data in the observable space | 7 | 9 | 9 |
 | **109** | Tenorio | 2026 | Exceptionality of exceptional gravitational-wave events | 7 | 8 | 8 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-09-04 06:03:37 UTC*
+*Last updated: 2026-09-05 05:54:57 UTC*
