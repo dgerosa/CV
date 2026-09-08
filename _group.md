@@ -30,15 +30,6 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
-  <img src="{{ '/images/ssohrab-borhanian.jpg' | relative_url }}" alt="Ssohrab Borhanian" class="person-photo">
-  <div class="person-text">
-    <strong>Ssohrab Borhanian</strong><br>
-    Postdoc<br>
-<a href="mailto:ssohrab.borhanian@unimib.it">ssohrab.borhanian@unimib.it</a><br>
-    <em>Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/giulia-cuomo.jpg' | relative_url }}" alt="Giulia Cuomo" class="person-photo">
   <div class="person-text">
     <strong>Giulia Cuomo</strong><br>
@@ -123,6 +114,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Michele Mancarella**. Milano-Bicocca, 2022–2024. Supported by the ERC. Then faculty at the University of Aix-Marseille (France).
 - **Nathan Steinle**. Birmingham, 2021–2023. Supported by the Leverhulme Trust. Then postdoc at the University of Manitoba, Winnipeg (Canada).
 - **Nicola Giacobbo**. Birmingham, 2020–2021. Supported by the Leverhulme Trust. Then software developer at IRS Srl (Italy).
+- **Ssohrab Borhanian**. Milano-Bicocca, 2023–current. Supported by the ERC.
 
 ## Former PhD students
 
@@ -221,4 +213,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-09-08 06:03:54 UTC*
+*Last updated: 2026-09-08 11:59:54 UTC*
