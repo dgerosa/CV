@@ -135,7 +135,7 @@ if published:
         })
 
     papers['published']['data'].append({
-        "title":    "Inferring the population properties of galactic binaries from LISA's stochastic foreground",
+        "title":       "Inferring the population properties of galactic binaries from LISA's stochastic foreground",
         "author":   "F. De Santi, A. Santini, A. Toubiana, N. Karnesis, D. Gerosa",
         "journal":  "\prd 113 (2026) 123006",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/9lc5-vgw5",
@@ -3174,7 +3174,7 @@ if fellowships:
         "end":          "current",
         "bio":          None,
         "email":        "zacharias.roupas@unimib.it",
-        "current":      True,
+        "current":      False,
         })    
     
     group['fellowships']['data'].append({
@@ -3225,7 +3225,7 @@ if postdocs:
         "bio":      "Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.",
         "email":    "ssohrab.borhanian@unimib.it",
         "note":     "Supported by the ERC.",
-        "current":  True
+        "current":  False
         })
 
     group['postdocs']['data'].append({
