@@ -1,7 +1,7 @@
 Invited talks marked with ✦.
 
 ## Summary
-**87** (**38**✦) [Talks at conferences](#talks-at-conferences) \
+**88** (**39**✦) [Talks at conferences](#talks-at-conferences) \
 **49** (**49**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **9** (**8**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
@@ -10,6 +10,9 @@ Invited talks marked with ✦.
 ---
 
 ## Talks at conferences
+
+**88.** ✦ *Simulation-based inference in gravitational-wave astronomy*  \\
+Listening to the cosmos: new frontiers in gravitational-wave physics (conference week), Florence, Italy, Sep 2026.
 
 **87.** ✦ *(Over)interpreting gravitational-wave populations*  \\
 8th Unsolved problems in astrophysics and cosmology, Vienna, Austria, Jul 2026.
@@ -576,4 +579,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-09-09 06:07:01 UTC*
+*Last updated: 2026-09-09 13:42:29 UTC*

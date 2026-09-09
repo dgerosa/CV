@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10674
-- **Total INSPIRE citations**: 11981
-- **Total MAX citations**: 12078
+- **Total INSPIRE citations**: 11983
+- **Total MAX citations**: 12080
 - **h-index**: 50
 
 ## Paper list sorted by citation count
@@ -29,7 +29,7 @@
 | **18** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 120 | 138 | 138 |
 | **19** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 111 | 131 | 131 |
 | **20** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 115 | 125 | 125 |
-| **21** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 112 | 124 | 124 |
+| **21** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 112 | 125 | 125 |
 | **22** | Wysocki | 2018 | Explaining LIGO's observations via isolated binary evolution with natal kicks | 103 | 113 | 113 |
 | **23** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 97 | 112 | 112 |
 | **24** | Gerosa | 2016 | PRECESSION: Dynamics of spinning black-hole binaries with python | 94 | 109 | 109 |
@@ -44,7 +44,7 @@
 | **33** | Horbatsch | 2015 | Tensor-multi-scalar theories: relativistic stars and 3+1 decomposition | 73 | 78 | 78 |
 | **34** | Klein | 2022 | The last three years: multiband gravitational-wave observations of stellar-mass binary black holes | 65 | 72 | 72 |
 | **35** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 65 | 72 | 72 |
-| **36** | Mould | 2022 | Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers | 64 | 69 | 69 |
+| **36** | Mould | 2022 | Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers | 64 | 70 | 70 |
 | **37** | Gerosa | 2018 | Black-hole kicks from numerical-relativity surrogate models | 59 | 69 | 69 |
 | **38** | Gupta | 2020 | Black holes in the low mass gap: Implications for gravitational wave observations | 59 | 67 | 67 |
 | **39** | Buscicchio | 2021 | Bayesian parameter estimation of stellar-mass black-hole binaries with LISA | 56 | 65 | 65 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-09-09 06:07:01 UTC*
+*Last updated: 2026-09-09 13:42:29 UTC*
