@@ -1560,6 +1560,15 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Simulation-based inference in gravitational-wave astronomy",
+        "what":     "Listening to the cosmos: new frontiers in gravitational-wave physics (conference week)",
+        "where":    "Florence, Italy",
+        "when":     "Sep 2026",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "(Over)interpreting gravitational-wave populations",
         "what":     "8th Unsolved problems in astrophysics and cosmology",
         "where":    "Vienna, Austria",
