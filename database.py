@@ -30,17 +30,6 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
-        "title":    "Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy",
-        "author":   "C. B. Owen, A. Toubiana, D. Gerosa",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2606.21076 [gr-qc]",
-        "ads":      "2026arXiv260621076O",
-        "inspire":  "Owen:2026hst",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Variance of gravitational-wave populations",
         "author":   "A. Corelli, D. Gerosa, M. Mould, C. M. Fabbri",
         "journal":  "",
@@ -67,6 +56,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy",
+        "author":   "C. B. Owen, A. Toubiana, D. Gerosa",
+        "journal":  "\prd in press",
+        "link":     "",
+        "arxiv":    "arXiv:2606.21076 [gr-qc]",
+        "ads":      "2026arXiv260621076O",
+        "inspire":  "Owen:2026hst",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors",
