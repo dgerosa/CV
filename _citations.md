@@ -1,18 +1,18 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10680
-- **Total INSPIRE citations**: 12024
-- **Total MAX citations**: 12126
+- **Total INSPIRE citations**: 12030
+- **Total MAX citations**: 12132
 - **h-index**: 50
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1520 | 1737 | 1737 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1520 | 1739 | 1739 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 909 | 1019 | 1019 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 903 | 820 | 903 |
-| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 484 | 535 | 535 |
+| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 484 | 536 | 536 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 474 | 519 | 519 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 423 | 491 | 491 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 342 | 418 | 418 |
@@ -25,11 +25,11 @@
 | **14** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 164 | 164 |
 | **15** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 143 | 163 | 163 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 137 | 153 | 153 |
-| **17** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 120 | 139 | 139 |
+| **17** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 120 | 140 | 140 |
 | **18** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 114 | 139 | 139 |
 | **19** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 111 | 131 | 131 |
-| **20** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 115 | 125 | 125 |
-| **21** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 112 | 125 | 125 |
+| **20** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 112 | 126 | 126 |
+| **21** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 115 | 125 | 125 |
 | **22** | Wysocki | 2018 | Explaining LIGO's observations via isolated binary evolution with natal kicks | 103 | 115 | 115 |
 | **23** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 96 | 112 | 112 |
 | **24** | Gerosa | 2016 | PRECESSION: Dynamics of spinning black-hole binaries with python | 94 | 109 | 109 |
@@ -55,8 +55,8 @@
 | **44** | Gerosa | 2014 | Distinguishing black-hole spin-orbit resonances by their gravitational-wave signatures | 46 | 59 | 59 |
 | **45** | Gerosa | 2015 | Spin alignment and differential accretion in merging black hole binaries | 58 | 54 | 58 |
 | **46** | Moore | 2021 | Testing general relativity with gravitational-wave catalogs: the insidious nature of waveform systematics | 46 | 55 | 55 |
-| **47** | Sperhake | 2017 | Long-lived inverse chirp signals from core collapse in massive scalar-tensor gravity | 46 | 54 | 54 |
-| **48** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 52 | 53 | 53 |
+| **47** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 52 | 54 | 54 |
+| **48** | Sperhake | 2017 | Long-lived inverse chirp signals from core collapse in massive scalar-tensor gravity | 46 | 54 | 54 |
 | **49** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 46 | 53 | 53 |
 | **50** | Gerosa | 2020 | Gravitational-wave selection effects using neural-network classifiers | 40 | 50 | 50 |
 | **51** | Santini | 2023 | Black-hole mergers in disk-like environments could explain the observed $$q-\chi_\mathrm{eff}$$ correlation | 43 | 49 | 49 |
@@ -170,13 +170,13 @@
 
 | Journal | Paper count |
 |---------|--------------|
-| Physical Review D | 65 |
+| Physical Review D | 66 |
 | Classical and Quantum Gravity | 13 |
 | Monthly Notices of the Royal Astronomical Society | 13 |
 | Physical Review Letters | 9 |
 | Astronomy & Astrophysics | 7 |
 | Astrophysical Journal | 5 |
-| arXiv | 4 |
+| arXiv | 3 |
 | Living Reviews in Relativity | 3 |
 | Journal of Physics: Conference Series | 2 |
 | Astrophysics and Space Science Proceedings | 1 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-09-14 06:30:53 UTC*
+*Last updated: 2026-09-15 06:07:09 UTC*
