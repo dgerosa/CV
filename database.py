@@ -3510,12 +3510,21 @@ if msc:
         })
 
     group['msc']['data'].append({
+        "name":     "Serena Caslini",
+        "where":    "Milano-Bicocca",
+        "what":     "MSc thesis",
+        "year":     "2026",
+        "note":     "Then PhD student at GSSI (L'Aquila, Italy).", 
+        "current":  True
+        })   
+    
+    group['msc']['data'].append({
         "name":     "Lisa Merlo",
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "Then PhD student in my group.",
-        "current":  True
+        "current":  False
         })
 
     group['msc']['data'].append({
@@ -3524,17 +3533,8 @@ if msc:
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "Then PhD student at SISSA (Trieste, Italy).", 
-        "current":  True
+        "current":  False
         })
-    
-    group['msc']['data'].append({
-        "name":     "Serena Caslini",
-        "where":    "Milano-Bicocca",
-        "what":     "MSc thesis",
-        "year":     "2026",
-        "note":     "Then PhD student at GSSI (L'Aquila, Italy).", 
-        "current":  True
-        })   
     
     group['msc']['data'].append({
         "name":     "Marco Bianchi",
