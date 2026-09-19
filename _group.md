@@ -91,6 +91,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Federico Massacesi**, BSc thesis, Milano-Bicocca, 2026.
 - **Nicola Toselli**, BSc thesis, Milano-Bicocca, 2026.
 - **Alessandro Zappietro**, BSc thesis, Milano-Bicocca and Pavia, 2026.
+- **Pablo Basta**, BSc thesis, Milano-Bicocca, 2026.
 
 <br>
 
@@ -213,4 +214,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-09-19 06:02:11 UTC*
+*Last updated: 2026-09-19 08:53:40 UTC*
