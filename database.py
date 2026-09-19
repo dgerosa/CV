@@ -3868,13 +3868,13 @@ if bsc:
         "current":  True
         })
 
-    #group['bsc']['data'].append({
-    #    "name":     "Pablo Basta",
-    #    "where":    "Milano-Bicocca",
-    #    "what":     "BSc thesis",
-    #    "year":     "2026",
-    #    "current":  True
-    #    })
+    group['bsc']['data'].append({
+       "name":     "Pablo Basta",
+       "where":    "Milano-Bicocca",
+       "what":     "BSc thesis",
+       "year":     "2026",
+       "current":  True
+       })
 
     group['bsc']['data'].append({
         "name":     "Giacomo Brugali",
