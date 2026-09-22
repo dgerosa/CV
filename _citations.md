@@ -1,18 +1,18 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10680
-- **Total INSPIRE citations**: 12067
-- **Total MAX citations**: 12165
+- **Total INSPIRE citations**: 12069
+- **Total MAX citations**: 12166
 - **h-index**: 50
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1520 | 1741 | 1741 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1520 | 1742 | 1742 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 909 | 1023 | 1023 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 903 | 823 | 903 |
-| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 484 | 537 | 537 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 903 | 824 | 903 |
+| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 484 | 536 | 536 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 474 | 520 | 520 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 423 | 492 | 492 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 342 | 420 | 420 |
@@ -22,7 +22,7 @@
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 183 | 236 | 236 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 148 | 178 | 178 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 140 | 171 | 171 |
-| **14** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 143 | 164 | 164 |
+| **14** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 143 | 165 | 165 |
 | **15** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 145 | 164 | 164 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 137 | 153 | 153 |
 | **17** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 120 | 140 | 140 |
@@ -46,7 +46,7 @@
 | **35** | Gerosa | 2016 | Black-hole kicks as new gravitational-wave observables | 65 | 72 | 72 |
 | **36** | Mould | 2022 | Deep learning and Bayesian inference of gravitational-wave populations: hierarchical black-hole mergers | 63 | 70 | 70 |
 | **37** | Gerosa | 2018 | Black-hole kicks from numerical-relativity surrogate models | 59 | 69 | 69 |
-| **38** | Gupta | 2020 | Black holes in the low mass gap: Implications for gravitational wave observations | 59 | 67 | 67 |
+| **38** | Gupta | 2020 | Black holes in the low mass gap: Implications for gravitational wave observations | 59 | 66 | 66 |
 | **39** | Buscicchio | 2021 | Bayesian parameter estimation of stellar-mass black-hole binaries with LISA | 56 | 65 | 65 |
 | **40** | Gerosa | 2016 | Numerical simulations of stellar collapse in scalar-tensor theories of gravity | 52 | 64 | 64 |
 | **41** | Gerosa | 2015 | Precessional instability in binary black holes with aligned spins | 56 | 64 | 64 |
@@ -119,9 +119,9 @@
 | **108** | Gerosa | 2025 | Which is which? Identification of the two compact objects in gravitational-wave binaries | 8 | 10 | 10 |
 | **109** | Kritos | 2024 | Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters | 6 | 9 | 9 |
 | **110** | Tenorio | 2026 | Exceptionality of exceptional gravitational-wave events | 7 | 8 | 8 |
-| **111** | De Renzis | 2023 | Parameter estimation of binary black holes in the endpoint of the up-down instability | 4 | 8 | 8 |
-| **112** | Corelli | 2026 | Variance of gravitational-wave populations | 5 | 7 | 7 |
-| **113** | Mould | 2026 | Gravitational-wave astronomy requires population-informed parameter estimation | 4 | 7 | 7 |
+| **111** | Mould | 2026 | Gravitational-wave astronomy requires population-informed parameter estimation | 4 | 8 | 8 |
+| **112** | De Renzis | 2023 | Parameter estimation of binary black holes in the endpoint of the up-down instability | 4 | 8 | 8 |
+| **113** | Corelli | 2026 | Variance of gravitational-wave populations | 5 | 7 | 7 |
 | **114** | Steinle | 2024 | Probing AGN jet precession with LISA | 7 | 4 | 7 |
 | **115** | Boschini | 2024 | Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186 | 6 | 4 | 6 |
 | **116** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 6 | 6 | 6 |
@@ -209,4 +209,4 @@
 
 
 <br><br>
-*Last updated: 2026-09-21 06:34:08 UTC*
+*Last updated: 2026-09-22 06:23:35 UTC*
