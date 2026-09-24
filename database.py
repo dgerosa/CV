@@ -96,7 +96,7 @@ if published:
         "journal":  "\prd 114 (2026) 023058",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/ptvx-bkfb",
         "arxiv":    "arXiv:2601.02467 [astro-ph.HE]",
-        "ads":      "2026arXiv260102467T",
+        "ads":      "2026PhRvD.114b3058T",
         "inspire":  "Tenorio:2026dcc",
         "more":     ""
         })
