@@ -1,5 +1,5 @@
 ## Summary
-**2** [Submitted papers](#submitted-papers)\
+**3** [Submitted papers](#submitted-papers)\
 **119** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**3.**
+*Not all spins of black-hole binaries formed in clusters are isotropic and not all spins of black-hole binaries formed in isolation are aligned.*\
+S. Dossena, **D. Gerosa**, T. Bruel.\
+<a href="https://arxiv.org/abs/2609.31879" style="color: inherit; text-decoration: none;">arXiv:2609.31879 [astro-ph.HE]</a>.
+ 
 **2.**
 *Variance of gravitational-wave populations.*\
 A. Corelli, **D. Gerosa**, M. Mould, C. M. Fabbri.\
@@ -36,7 +41,7 @@ Astronomy & Astrophysics in press. <a href="https://arxiv.org/abs/2606.03776" st
 **117.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
 A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, **D. Gerosa**.\
-Astronomy & Astrophysics 712 (2025) A37. <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
+<a href="https://www.aanda.org/10.1051/0004-6361/202557264" style="color: inherit; text-decoration: none;">Astronomy & Astrophysics 712 (2025) A37</a>. <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
  
 **116.**
 *Exceptionality of exceptional gravitational-wave events.*\
@@ -720,4 +725,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-09-28 07:06:38 UTC*
+*Last updated: 2026-09-29 05:30:02 UTC*
