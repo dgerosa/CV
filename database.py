@@ -94,7 +94,7 @@ if published:
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
         "author":   "A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, D. Gerosa",
         "journal":  "\\aap 712 (2025) A37",
-        "link":     "",
+        "link":     "https://www.aanda.org/10.1051/0004-6361/202557264",
         "arxiv":    "arXiv:2504.10482 [astro-ph.CO]",
         "ads":      "2026A&A...712A..37P",
         "inspire":  "Pedrotti:2025tfg",
