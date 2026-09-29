@@ -259,7 +259,7 @@ Strong Gravity and Binary Dynamics with Gravitational Wave Observations, Oxford 
 The Dawning Era of Gravitational-Wave Astrophysics, Aspen CO, USA, Feb 2017.
 
 **12.** *Kicked waveforms: prospects for direct detection of black hole recoils*  \\
-``April'' APS Meeting, Washington DC, USA, Jan 2017.
+"April" APS Meeting, Washington DC, USA, Jan 2017.
 
 **11.** ✦ *Getting the most out of gravitational-wave observations: kicks and spin precession*  \\
 Einstein Fellows Symposium 2016, Cambridge MA, USA, Oct 2016.  \\
@@ -513,21 +513,21 @@ Best  presentation award.
 RAS Specialist Meeting -- Towards gravitational-wave astronomy: data analysis techniques and challenges, London, UK, Dec 2014.
 
 **1.** *Morphologies and binary transfer: a new approach to the post-newtonian dynamics of precessing black-holes binaries*  \\
-DPG Physics School ``General Relativity @99'', Bad Honnef, Germany, Sep 2014.
+DPG Physics School "General Relativity @99", Bad Honnef, Germany, Sep 2014.
 
 
 ---
 
 ## Outreach talks
 
-**18.** ✦ *Onde di gravit\`a*  \\
+**18.** ✦ *Onde di gravità*  \\
 MEETmeTonight European Researchers' Night, Milan, Italy, Sep 2025.  \\
  [Recording](https://www.youtube.com/watch?v=djgzGCjuwmM).
 
-**17.** ✦ *Buchi neri ed onde gravitazionali (aka: ``Cosa racconto alla vostra prof. dopo una giornata di lavoro'')*  \\
+**17.** ✦ *Buchi neri ed onde gravitazionali (aka: "Cosa racconto alla vostra prof. dopo una giornata di lavoro")*  \\
 Collegio San Carlo, Milan, Italy, Jun 2024.
 
-**16.** ✦ *Al confine fra astronomia e relativit\`a*  \\
+**16.** ✦ *Al confine fra astronomia e relatività*  \\
 Finals of the Italian Physics Olympiad, Senigallia, Italy, Apr 2024.
 
 **15.** ✦ *Black holes on the way to merger*  \\
@@ -545,7 +545,7 @@ Istituto Svizzero, Milan, Italy, Mar 2023.
 **11.** ✦ *Onde gravitazionali, buchi neri e dove trovarli*  \\
 Fondazione Sacro Cuore, Milan, Italy, Sep 2022.
 
-**10.** ✦ *Quando la gravit\`a viaggia*  \\
+**10.** ✦ *Quando la gravità viaggia*  \\
 Astronomiamo Association, Italy, (online), Mar 2022.  \\
  [Recording](https://www.youtube.com/watch?v=GznXOFfcx80&feature=emb_logo).
 
@@ -574,7 +574,7 @@ Malvern Physics Olympics, Great Malvern, UK, Oct 2019.
 **2.** ✦ *Ride the wave (with gravity)*  \\
 Physics Day Experience, Birmingham, UK, Jun 2019.
 
-**1.** ✦ *Onde gravitazionali: ascoltare l'Universo (anzich\'e solo vederlo?)*  \\
+**1.** ✦ *Onde gravitazionali: ascoltare l'Universo (anziché solo vederlo?)*  \\
 Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 

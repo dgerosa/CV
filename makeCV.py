@@ -643,9 +643,44 @@ def buildbib(filename='publist.bib'):
 
 #### Website markdown ####
 
+def latex_text_to_unicode(text):
+    """Decode LaTeX text accents and quotes, leaving math and commands intact."""
+    accents = {
+        "`": "\u0300", "'": "\u0301", '"': "\u0308",
+        "^": "\u0302", "~": "\u0303", "v": "\u030c",
+    }
+    # Accept \\`a, \\`{a}, and {\\`a}; alphabetic commands need braces.
+    accent = r"\\(?P<accent>[`'\"^~]|v(?=\{))(?:\{(?P<braced>[A-Za-z])\}|(?P<bare>[A-Za-z]))"
+    pattern = re.compile(r"(?P<group>\{)?" + accent + r"(?(group)\})")
+
+    def convert(match):
+        letter = match['braced'] or match['bare']
+        return unicodedata.normalize('NFC', letter + accents[match['accent']])
+
+    # Keep formulas in the formats used by Markdown and MathJax unchanged.
+    parts = re.split(r"(\$\$.*?\$\$|\$[^$\n]*\$|\\\(.*?\\\)|\\\[.*?\\\])", text, flags=re.DOTALL)
+    parts[::2] = [
+        pattern.sub(convert, part).replace("``", '"').replace("''", '"').replace("’’", '"')
+        for part in parts[::2]
+    ]
+    return "".join(parts)
+
+
+def markdown_data(value):
+    """Make a website-only copy so the shared LaTeX database stays untouched."""
+    if isinstance(value, str):
+        return latex_text_to_unicode(value)
+    if isinstance(value, dict):
+        return {key: markdown_data(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [markdown_data(item) for item in value]
+    return value
+
+
 def markdownpapers(papers,filename="_publications.md"):
 
     print('Markdown paper list for website')
+    papers = markdown_data(papers)
 
     out=[]
 
@@ -675,8 +710,6 @@ def markdownpapers(papers,filename="_publications.md"):
 
         for p in papers[k]['data']:
             name = p['author'].replace("D. Gerosa","**D. Gerosa**").strip(".")
-            name = name.replace("\\`o", "o'")
-            name = name.replace("\\v{s}", "s")
             out.append("**"+str(i)+".**")
             #out.append("*"+p['title'].strip(".").replace("$", "$$")+"*.\\")
             title = p['title'].rstrip(".").replace("$", "$$")
@@ -739,12 +772,13 @@ def markdownpapers(papers,filename="_publications.md"):
     out = apply_journal_conversion(out)
     lastupdated(out)
 
-    with open(filename,"w") as f: f.write("\n".join(out))
+    with open(filename,"w", encoding="utf-8") as f: f.write("\n".join(out))
 
 
 def markdowntalks(talks, filename="_talks.md"):
 
     print('Markdown talk list for website')
+    talks = markdown_data(talks)
 
     out = []
     out.append("Invited talks marked with ✦.")
@@ -804,12 +838,13 @@ def markdowntalks(talks, filename="_talks.md"):
 
     lastupdated(out)
 
-    with open(filename, "w") as f:
+    with open(filename, "w", encoding="utf-8") as f:
         f.write("\n".join(out))
 
 
 def markdowngroup(group, filename="_group.md"):
     print('Markdown group list for website')
+    group = markdown_data(group)
 
     out = []
 
@@ -1005,11 +1040,12 @@ def markdowngroup(group, filename="_group.md"):
 
     lastupdated(out)
 
-    with open(filename, "w") as f:
+    with open(filename, "w", encoding="utf-8") as f:
         f.write("\n".join(out))
 
 
 def markdowncitations(papers, output_file="_citations.md"):
+    papers = markdown_data(papers)
     spreaddata = {
         'first_author': [],
         'ads_citations': [],
@@ -1024,8 +1060,6 @@ def markdowncitations(papers, output_file="_citations.md"):
     for k in papers:
         for p in papers[k]['data']:
             name = p['author'].split(",")[0].split(".")[-1].strip()
-            name = name.replace("\\`o", "o'")
-            name = name.replace("\\v{s}", "s")
             spreaddata['first_author'].append(name)
             spreaddata['ads_citations'].append(p['ads_citations'])
             spreaddata['inspire_citations'].append(p['inspire_citations'])
@@ -1070,7 +1104,7 @@ def markdowncitations(papers, output_file="_citations.md"):
     total_max = np.sum(spreaddata['max_citations'])
     h_idx = hindex(spreaddata['max_citations'])
 
-    with open(output_file, "w") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         # === Summary ===
         f.write("## Citation Summary\n\n")
         f.write(f"- **Total ADS citations**: {total_ads}\n")
@@ -1140,6 +1174,7 @@ def markdowncitations(papers, output_file="_citations.md"):
 
 
 def checkblogposts(papers,directory='temp'):
+    papers = markdown_data(papers)
     today = datetime.today().strftime('%Y-%m-%d')
 
     print('Check blog posts for papers')
@@ -1167,7 +1202,7 @@ def checkblogposts(papers,directory='temp'):
                 out=[]
                 out.append("---")
                 cleantitle = p['title'].strip(".").replace("$", "$$").replace("`", "'")
-                out.append(f"title: \"{cleantitle}\"")
+                out.append(f"title: {json.dumps(cleantitle, ensure_ascii=False)}")
                 out.append(f"date: {today}")
                 out.append(f"permalink: /posts/{today}-{slugify(p['title'])}")
                 out.append("tags:")
@@ -1209,7 +1244,7 @@ def checkblogposts(papers,directory='temp'):
 
 
                 filename =f"{directory}/{today}-{slugify(p['title'])}.md"
-                with open(filename,"w") as f: f.write("\n".join(out))
+                with open(filename,"w", encoding="utf-8") as f: f.write("\n".join(out))
                 #print("--> Created blog post template:", filename)
                 #print("--> Please edit the file and move it to _posts/; requires manual intervention if there's latex in the title")
 

@@ -565,7 +565,7 @@ PRD Editors' Suggestion.
  
 **14.**
 *On the equal-mass limit of precessing black-hole binaries.*\
-**D. Gerosa**, U. Sperhake, J. Vosmera.\
+**D. Gerosa**, U. Sperhake, J. Vošmera.\
 <a href="http://dx.doi.org/10.1088/1361-6382/aa5e58" style="color: inherit; text-decoration: none;">Classical and Quantum Gravity 34 (2017) 064004</a>. <a href="https://arxiv.org/abs/1612.05263" style="color: inherit; text-decoration: none;">arXiv:1612.05263 [gr-qc]</a>.
  
 **13.**
@@ -587,12 +587,12 @@ Open source code.
  
 **10.**
 *Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation.*\
-D. Trifiro', R. O'Shaughnessy, **D. Gerosa**, E. Berti, M. Kesden, T. Littenberg, U. Sperhake.\
+D. Trifirò, R. O'Shaughnessy, **D. Gerosa**, E. Berti, M. Kesden, T. Littenberg, U. Sperhake.\
 <a href="http://dx.doi.org/10.1103/PhysRevD.93.044071" style="color: inherit; text-decoration: none;">Physical Review D 93 (2016) 044071</a>. <a href="https://arxiv.org/abs/1507.05587" style="color: inherit; text-decoration: none;">arXiv:1507.05587 [gr-qc]</a>.
  
 **9.**
 *Precessional instability in binary black holes with aligned spins.*\
-**D. Gerosa**, M. Kesden, R. O'Shaughnessy, A. Klein, E. Berti, U. Sperhake, D. Trifiro'.\
+**D. Gerosa**, M. Kesden, R. O'Shaughnessy, A. Klein, E. Berti, U. Sperhake, D. Trifirò.\
 <a href="http://dx.doi.org/10.1103/PhysRevLett.115.141102" style="color: inherit; text-decoration: none;">Physical Review Letters 115 (2015) 141102</a>. <a href="https://arxiv.org/abs/1506.09116" style="color: inherit; text-decoration: none;">arXiv:1506.09116 [gr-qc]</a>.\
 PRL Editors' Suggestion.
  

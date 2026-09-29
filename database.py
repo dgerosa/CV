@@ -3503,8 +3503,8 @@ if msc:
         })
 
     group['msc']['data'].append({
-        "name":     "Giulia Foroni",
-        "where":    "Milano-Bicocca and Columbia",
+        "name":     "Rocco Giugni",
+        "where":    "Milano-Bicocca and Roma-Sapienza",
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "",
@@ -3512,8 +3512,8 @@ if msc:
         })
 
     group['msc']['data'].append({
-        "name":     "Rocco Giugni",
-        "where":    "Milano-Bicocca and Roma-Sapienza",
+        "name":     "Giulia Foroni",
+        "where":    "Milano-Bicocca and Columbia",
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "",

@@ -50,6 +50,7 @@ jobs:
             echo "TIME (UTC): $(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
             echo "================================================================================"
             python -c 'import os; t=os.getenv("ADS_TOKEN",""); print("ADS_TOKEN set:", bool(t), "len:", len(t))'
+            python -m unittest discover -s tests -v
             python -u makeCV.py
           } 2>&1 | tee -a workflow.txt
         env:
