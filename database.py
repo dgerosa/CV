@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Not all spins of black-hole binaries formed in clusters are isotropic and not all spins of black-hole binaries formed in isolation are aligned",
+        "author":   "S. Dossena, D. Gerosa, T. Bruel",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2609.31879 [astro-ph.HE]",
+        "ads":      "2026arXiv260931879D",
+        "inspire":  "Dossena:2026cwf",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Variance of gravitational-wave populations",
         "author":   "A. Corelli, D. Gerosa, M. Mould, C. M. Fabbri",
         "journal":  "",
