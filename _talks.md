@@ -1,7 +1,7 @@
 Invited talks marked with ✦.
 
 ## Summary
-**89** (**40**✦) [Talks at conferences](#talks-at-conferences) \
+**90** (**41**✦) [Talks at conferences](#talks-at-conferences) \
 **49** (**49**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **9** (**8**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
@@ -10,6 +10,9 @@ Invited talks marked with ✦.
 ---
 
 ## Talks at conferences
+
+**90.** ✦ *Spin effects in gravitational-wave astronomy*  \\
+8th Black Hole Nepal meeting, Kathmandu, Nepal, Oct 2026.
 
 **89.** ✦ *The astrophysics we are (not) learning with LVK and we might (not) learn with 3G*  \\
 Listening to the cosmos: new frontiers in gravitational-wave physics (workshop week 4), Florence, Italy, Sep 2026.
@@ -582,4 +585,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-10-12 07:30:50 UTC*
+*Last updated: 2026-10-13 06:01:32 UTC*
