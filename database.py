@@ -1571,6 +1571,15 @@ if conferences:
     talks['conferences']['data'] = []
 
     talks['conferences']['data'].append({
+        "title":    "Spin effects in gravitational-wave astronomy",
+        "what":     "8th Black Hole Nepal meeting",
+        "where":    "Kathmandu, Nepal",
+        "when":     "Oct 2026",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['conferences']['data'].append({
         "title":    "The astrophysics we are (not) learning with LVK and we might (not) learn with 3G",
         "what":     "Listening to the cosmos: new frontiers in gravitational-wave physics (workshop week 4)",
         "where":    "Florence, Italy",
