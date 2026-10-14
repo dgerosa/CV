@@ -1581,7 +1581,7 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "The astrophysics we are (not) learning with LVK and we might (not) learn with 3G",
-        "what":     "Listening to the cosmos: new frontiers in gravitational-wave physics (workshop week 4)",
+        "what":     "Listening to the cosmos: new frontiers in gravitational-wave physics (week 4)",
         "where":    "Florence, Italy",
         "when":     "Sep 2026",
         "invited":  True,
@@ -1590,7 +1590,7 @@ if conferences:
 
     talks['conferences']['data'].append({
         "title":    "Simulation-based inference in gravitational-wave astronomy",
-        "what":     "Listening to the cosmos: new frontiers in gravitational-wave physics (conference week 3)",
+        "what":     "Listening to the cosmos: new frontiers in gravitational-wave physics (week 3)",
         "where":    "Florence, Italy",
         "when":     "Sep 2026",
         "invited":  True,
