@@ -15,10 +15,10 @@ Invited talks marked with ✦.
 8th Black Hole Nepal meeting, Kathmandu, Nepal, Oct 2026.
 
 **89.** ✦ *The astrophysics we are (not) learning with LVK and we might (not) learn with 3G*  \\
-Listening to the cosmos: new frontiers in gravitational-wave physics (workshop week 4), Florence, Italy, Sep 2026.
+Listening to the cosmos: new frontiers in gravitational-wave physics (week 4), Florence, Italy, Sep 2026.
 
 **88.** ✦ *Simulation-based inference in gravitational-wave astronomy*  \\
-Listening to the cosmos: new frontiers in gravitational-wave physics (conference week 3), Florence, Italy, Sep 2026.
+Listening to the cosmos: new frontiers in gravitational-wave physics (week 3), Florence, Italy, Sep 2026.
 
 **87.** ✦ *(Over)interpreting gravitational-wave populations*  \\
 8th Unsolved problems in astrophysics and cosmology, Vienna, Austria, Jul 2026.
@@ -585,4 +585,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-10-13 07:52:17 UTC*
+*Last updated: 2026-10-14 02:43:21 UTC*
