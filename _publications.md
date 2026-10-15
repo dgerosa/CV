@@ -1,5 +1,5 @@
 ## Summary
-**3** [Submitted papers](#submitted-papers)\
+**4** [Submitted papers](#submitted-papers)\
 **119** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**4.**
+*Spinformation: do gravitational-wave events carry information beyond effective spins?*\
+C. Plunkett, J. Heinzel, N. E. Wolfe, **D. Gerosa**, S. Vitale.\
+<a href="https://arxiv.org/abs/2609.31879" style="color: inherit; text-decoration: none;">arXiv:2609.31879 [astro-ph.HE]</a>.
+ 
 **3.**
 *Not all spins of black-hole binaries formed in clusters are isotropic and not all spins of black-hole binaries formed in isolation are aligned.*\
 S. Dossena, **D. Gerosa**, T. Bruel.\
@@ -725,4 +730,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-10-14 06:16:44 UTC*
+*Last updated: 2026-10-15 06:03:29 UTC*
