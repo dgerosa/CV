@@ -3267,17 +3267,6 @@ if postdocs:
         })
     
     group['postdocs']['data'].append({
-        "name":     "Ssohrab Borhanian",
-        "where":    "Milano-Bicocca",
-        "start":    "2023",
-        "end":      "current",
-        "bio":      "Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.",
-        "email":    "ssohrab.borhanian@unimib.it",
-        "note":     "Supported by the ERC.",
-        "current":  False
-        })
-
-    group['postdocs']['data'].append({
         "name":     "Caroline Owen",
         "where":    "Milano-Bicocca",
         "start":    "2024",
@@ -3298,7 +3287,17 @@ if postdocs:
         "note":     "Supported by the Italian Research Ministry (PRIN) and the ERC.",
         "current":  False
         })
-    
+
+    group['postdocs']['data'].append({
+        "name":     "Ssohrab Borhanian",
+        "where":    "Milano-Bicocca",
+        "start":    "2023",
+        "end":      "2026",
+        "bio":      "Third generation forecaster, open sourcer, gravitational-wave counterparter, golden eventer. Exploring Milan’s restaurant scene without drinking coffee and meandering through Italy while taking too many pictures.",
+        "email":    "ssohrab.borhanian@unimib.it",
+        "note":     "Supported by the ERC.",
+        "current":  False
+        })
 
     group['postdocs']['data'].append({
         "name":     "Nicholas Loutrel",
