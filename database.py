@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Spinformation: do gravitational-wave events carry information beyond effective spins?",
+        "author":   "C. Plunkett, J. Heinzel, N. E. Wolfe, D. Gerosa, S. Vitale",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2609.31879 [astro-ph.HE]",
+        "ads":      "2026arXiv260931879P",
+        "inspire":  "",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Not all spins of black-hole binaries formed in clusters are isotropic and not all spins of black-hole binaries formed in isolation are aligned",
         "author":   "S. Dossena, D. Gerosa, T. Bruel",
         "journal":  "",
