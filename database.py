@@ -3536,7 +3536,7 @@ if msc:
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "",
-        "current":  True
+        "current":  False
         })
 
     group['msc']['data'].append({
@@ -3545,7 +3545,7 @@ if msc:
         "what":     "MSc thesis",
         "year":     "2026",
         "note":     "Then PhD student at GSSI (L'Aquila, Italy).", 
-        "current":  True
+        "current":  False
         })   
     
     group['msc']['data'].append({
