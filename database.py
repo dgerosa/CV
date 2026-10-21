@@ -3562,7 +3562,7 @@ if msc:
         "where":    "Milano-Bicocca",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "Then PhD student at SISSA (Trieste, Italy).", 
+        "note":     "Then PhD student at SISSA (Trieste, Italy). Resulting publication: arXiv:2609.31879.", 
         "current":  False
         })
     
