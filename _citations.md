@@ -1,16 +1,16 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10922
-- **Total INSPIRE citations**: 12302
-- **Total MAX citations**: 12425
+- **Total INSPIRE citations**: 12305
+- **Total MAX citations**: 12428
 - **h-index**: 50
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1534 | 1759 | 1759 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 919 | 1032 | 1032 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1534 | 1760 | 1760 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 919 | 1033 | 1033 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 943 | 844 | 943 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 495 | 550 | 550 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 481 | 528 | 528 |
@@ -85,7 +85,7 @@
 | **74** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 25 | 27 | 27 |
 | **75** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 24 | 27 | 27 |
 | **76** | Pedrotti | 2025 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 21 | 26 | 26 |
-| **77** | Buscicchio | 2025 | Test for LISA foreground Gaussianity and stationarity: galactic white-dwarf binaries | 20 | 25 | 25 |
+| **77** | Buscicchio | 2025 | Test for LISA foreground Gaussianity and stationarity: galactic white-dwarf binaries | 20 | 26 | 26 |
 | **78** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 17 | 25 | 25 |
 | **79** | Mancarella | 2023 | Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors | 18 | 24 | 24 |
 | **80** | Nealon | 2022 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity | 24 | 19 | 24 |
@@ -211,4 +211,4 @@
 
 
 <br><br>
-*Last updated: 2026-10-21 06:12:38 UTC*
+*Last updated: 2026-10-21 09:00:09 UTC*
