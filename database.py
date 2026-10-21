@@ -3851,14 +3851,6 @@ if bsc:
         })
         
     group['bsc']['data'].append({
-        "name":     "Andrea La Canna",
-        "where":    "Milano-Bicocca",
-        "what":     "BSc thesis",
-        "year":     "2026",
-        "current":  True
-        })
-    
-    group['bsc']['data'].append({
         "name":     "Laura Canova",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
@@ -3897,7 +3889,15 @@ if bsc:
        "year":     "2026",
        "current":  True
        })
-
+    
+    group['bsc']['data'].append({
+        "name":     "Andrea La Canna",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2026",
+        "current":  False
+        })
+    
     group['bsc']['data'].append({
         "name":     "Ecaterina Tsuhuy",
         "where":    "Milano-Bicocca and Pavia",
