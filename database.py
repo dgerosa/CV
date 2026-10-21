@@ -3843,6 +3843,14 @@ if bsc:
     group['bsc']['data'] = []
 
     group['bsc']['data'].append({
+        "name":     "Nicolo Negro Pet",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2026",
+        "current":  True
+        })
+
+    group['bsc']['data'].append({
         "name":     "Diego Noseda",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
@@ -3874,13 +3882,13 @@ if bsc:
         "current":  True
         })
     
-    group['bsc']['data'].append({
-        "name":     "Alessandro Zappietro",
-        "where":    "Milano-Bicocca and Pavia",
-        "what":     "BSc thesis",
-        "year":     "2026",
-        "current":  True
-        })
+    # group['bsc']['data'].append({
+    #     "name":     "Alessandro Zappietro",
+    #     "where":    "Milano-Bicocca and Pavia",
+    #     "what":     "BSc thesis",
+    #     "year":     "2026",
+    #     "current":  True
+    #     })
 
     group['bsc']['data'].append({
        "name":     "Pablo Basta",
