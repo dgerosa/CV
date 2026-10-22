@@ -36,17 +36,17 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 **119.**
 *Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy.*\
 C. B. Owen, A. Toubiana, **D. Gerosa**.\
-Physical Review D in press. <a href="https://arxiv.org/abs/2606.21076" style="color: inherit; text-decoration: none;">arXiv:2606.21076 [gr-qc]</a>.
+<a href="https://journals.aps.org/prd/abstract/10.1103/nhtw-rdxf" style="color: inherit; text-decoration: none;">Physical Review D 114 (2026) 083041</a>. <a href="https://arxiv.org/abs/2606.21076" style="color: inherit; text-decoration: none;">arXiv:2606.21076 [gr-qc]</a>.
  
 **118.**
 *Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors.*\
 F. Leto di Priolo, M. Chruślińska, **D. Gerosa**.\
-Astronomy & Astrophysics in press. <a href="https://arxiv.org/abs/2606.03776" style="color: inherit; text-decoration: none;">arXiv:2606.03776 [astro-ph.HE]</a>.
+<a href="https://www.aanda.org/10.1051/0004-6361/202661246" style="color: inherit; text-decoration: none;">Astronomy & Astrophysics 714 (2026) A341</a>. <a href="https://arxiv.org/abs/2606.03776" style="color: inherit; text-decoration: none;">arXiv:2606.03776 [astro-ph.HE]</a>.
  
 **117.**
 *Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey.*\
 A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, **D. Gerosa**.\
-<a href="https://www.aanda.org/10.1051/0004-6361/202557264" style="color: inherit; text-decoration: none;">Astronomy & Astrophysics 712 (2025) A37</a>. <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
+<a href="https://www.aanda.org/10.1051/0004-6361/202557264" style="color: inherit; text-decoration: none;">Astronomy & Astrophysics 712 (2026) A37</a>. <a href="https://arxiv.org/abs/2504.10482" style="color: inherit; text-decoration: none;">arXiv:2504.10482 [astro-ph.CO]</a>.
  
 **116.**
 *Exceptionality of exceptional gravitational-wave events.*\
@@ -730,4 +730,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-10-22 06:15:40 UTC*
+*Last updated: 2026-10-22 15:54:03 UTC*

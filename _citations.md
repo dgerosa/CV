@@ -84,7 +84,7 @@
 | **73** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 25 | 28 | 28 |
 | **74** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 26 | 28 | 28 |
 | **75** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 24 | 27 | 27 |
-| **76** | Pedrotti | 2025 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 21 | 26 | 26 |
+| **76** | Pedrotti | 2026 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 21 | 26 | 26 |
 | **77** | Buscicchio | 2025 | Test for LISA foreground Gaussianity and stationarity: galactic white-dwarf binaries | 20 | 26 | 26 |
 | **78** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 17 | 25 | 25 |
 | **79** | Mancarella | 2023 | Inferring, not just detecting: metrics for high-redshift sources observed with third-generation gravitational-wave detectors | 18 | 24 | 24 |
@@ -153,8 +153,8 @@
 
 | Year | Paper count |
 |------|--------------|
-| 2026 | 17 |
-| 2025 | 20 |
+| 2026 | 18 |
+| 2025 | 19 |
 | 2024 | 10 |
 | 2023 | 11 |
 | 2022 | 10 |
@@ -211,4 +211,4 @@
 
 
 <br><br>
-*Last updated: 2026-10-22 06:15:40 UTC*
+*Last updated: 2026-10-22 15:54:03 UTC*
