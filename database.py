@@ -82,8 +82,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy",
         "author":   "C. B. Owen, A. Toubiana, D. Gerosa",
-        "journal":  "\prd in press",
-        "link":     "",
+        "journal":  "\prd 114 (2026) 083041",
+        "link":     "https://journals.aps.org/prd/abstract/10.1103/nhtw-rdxf",
         "arxiv":    "arXiv:2606.21076 [gr-qc]",
         "ads":      "2026arXiv260621076O",
         "inspire":  "Owen:2026hst",
@@ -93,8 +93,8 @@ if published:
     papers['published']['data'].append({
         "title":    "Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors",
         "author":   "F. Leto di Priolo, M. Chruślińska, D. Gerosa",
-        "journal":  "\\aap in press",
-        "link":     "",
+        "journal":  "\\aap 714 (2026) A341",
+        "link":     "https://www.aanda.org/10.1051/0004-6361/202661246",
         "arxiv":    "arXiv:2606.03776 [astro-ph.HE]",
         "ads":      "2026arXiv260603776L",
         "inspire":  "diPriolo:2026ayj",
@@ -104,7 +104,7 @@ if published:
     papers['published']['data'].append({
         "title":    "Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey",
         "author":   "A. Pedrotti, M. Mancarella, J. Bel, M. Santoni, D. Gerosa",
-        "journal":  "\\aap 712 (2025) A37",
+        "journal":  "\\aap 712 (2026) A37",
         "link":     "https://www.aanda.org/10.1051/0004-6361/202557264",
         "arxiv":    "arXiv:2504.10482 [astro-ph.CO]",
         "ads":      "2026A&A...712A..37P",
