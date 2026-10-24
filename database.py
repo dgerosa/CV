@@ -34,9 +34,9 @@ if submitted:
         "author":   "C. Plunkett, J. Heinzel, N. E. Wolfe, D. Gerosa, S. Vitale",
         "journal":  "",
         "link":     "",
-        "arxiv":    "arXiv:2609.31879 [astro-ph.HE]",
-        "ads":      "2026arXiv260931879P",
-        "inspire":  "",
+        "arxiv":    "arXiv:2610.18973 [gr-qc]",
+        "ads":      "2026arXiv261018973P",
+        "inspire":  "Plunkett:2026aiq",
         "more":     ""
         })
 
