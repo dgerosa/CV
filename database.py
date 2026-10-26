@@ -3210,7 +3210,7 @@ if fellowships:
         "fellowship":   "MUR Young Researchers Fellow",
         "start":        "2025",
         "end":          "current",
-        "bio":          "Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.",
+        "bio":          "Global fitter, GR tester, transidimensionaler. LISA is amazing. Trying to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.",
         "email":        "alexandre.toubiana@unimib.it",
         "current":      True,
         })    
@@ -3261,7 +3261,7 @@ if postdocs:
         "where":    "Milano-Bicocca",
         "start":    "2026",
         "end":      "current",
-        "bio":      "Extreme mass-ratio inspiraler, scalar fielder, searching for the perfect pizza dough. Inspirals at work and saves on the volleyball court: different trajectories, same gravity. Harry Potter addict still waiting for a letter from Hogwarts. Until then, studying black holes is as close to magic as it gets.",
+        "bio":      "Extreme mass-ratio inspiraler, scalar fielder, searching for the perfect pizza dough. Inspiralling orbit at work and volleyball saves on the court. Harry Potter addict still waiting for a letter from Hogwarts. Until then, studying black holes is as close to magic as it gets.",
         "email":    "sara.gliorio@unimib.it",
         "current":  True
         })
@@ -3271,7 +3271,7 @@ if postdocs:
         "where":    "Milano-Bicocca",
         "start":    "2024",
         "end":      "current",
-        "bio":      "Binary black holes enjoyer, population synthesizer, star cluster simulator. Dream of identifying the host galaxies of black hole mergers. Addicted to endurance sports and eager to bring a French touch to local Italian rugby.",
+        "bio":      "Triangulator, population synthesizer, star cluster simulator. Dream of identifying the host galaxies of black hole mergers. Addicted to endurance sports and eager to bring a French touch to local Italian rugby.",
         "email":    "tristan.bruel@unimib.it",
         "current":  True
         })
