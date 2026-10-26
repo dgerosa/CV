@@ -17,7 +17,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Alexandre Toubiana</strong><br>
     MUR Young Researchers Fellow<br>
 <a href="mailto:alexandre.toubiana@unimib.it">alexandre.toubiana@unimib.it</a><br>
-    <em>Data analyzer, astrophysical modeler, GR tester. I try to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.</em>
+    <em>Global fitter, GR tester, transidimensionaler. LISA is amazing. Trying to decipher the mystery of gravitational waves between tap dance, cinema sessions, tennis games, and food exploration.</em>
   </div>
 </div>
 <div class="person">
@@ -26,7 +26,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Sara Gliorio</strong><br>
     Postdoc<br>
 <a href="mailto:sara.gliorio@unimib.it">sara.gliorio@unimib.it</a><br>
-    <em>Extreme mass-ratio inspiraler, scalar fielder, searching for the perfect pizza dough. Inspiralling orbits at work and volleyball saves on the court: different trajectories, same gravity. Harry Potter addict still waiting for a letter from Hogwarts. Until then, studying black holes is as close to magic as it gets.</em>
+    <em>Extreme mass-ratio inspiraler, scalar fielder, searching for the perfect pizza dough. Inspiralling orbit at work and volleyball saves on the court. Harry Potter addict still waiting for a letter from Hogwarts. Until then, studying black holes is as close to magic as it gets.</em>
   </div>
 </div>
 <div class="person">
@@ -35,7 +35,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Tristan Bruel</strong><br>
     Postdoc<br>
 <a href="mailto:tristan.bruel@unimib.it">tristan.bruel@unimib.it</a><br>
-    <em>Binary black holes enjoyer, population synthesizer, star cluster simulator. Dream of identifying the host galaxies of black hole mergers. Addicted to endurance sports and eager to bring a French touch to local Italian rugby.</em>
+    <em>Triangulator, population synthesizer, star cluster simulator. Dream of identifying the host galaxies of black hole mergers. Addicted to endurance sports and eager to bring a French touch to local Italian rugby.</em>
   </div>
 </div>
 <div class="person">
@@ -44,7 +44,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Alessia Corelli</strong><br>
     PhD student<br>
 <a href="mailto:a.corelli1@campus.unimib.it">a.corelli1@campus.unimib.it</a><br>
-    <em> </em>
+    <em>Coming soon!</em>
   </div>
 </div>
 <div class="person">
@@ -53,7 +53,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Lisa Merlo</strong><br>
     PhD student<br>
 <a href="mailto:l.merlo10@campus.unimib.it">l.merlo10@campus.unimib.it</a><br>
-    <em> </em>
+    <em>Coming soon!</em>
   </div>
 </div>
 <div class="person">
@@ -62,7 +62,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Giulia Cuomo</strong><br>
     PhD student<br>
 <a href="mailto:g.cuomo3@campus.unimib.it">g.cuomo3@campus.unimib.it</a><br>
-    <em>Universe investigator, black-hole labeler. Often busy exploring the depths of the Ocean in her diving gear, running long distances, engaging in her next artistic project, or blasting prog metal in her headphones.</em>
+    <em>Black-hole labeler, galaxy correlator. Often busy exploring the depths of the Ocean in her diving gear, running long distances, engaging in her next artistic project, or blasting prog metal in her headphones.</em>
   </div>
 </div>
 <div class="person">
@@ -71,7 +71,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Matilde Garcia</strong><br>
     PhD student<br>
 <a href="mailto:m.garcia5@campus.unimib.it">m.garcia5@campus.unimib.it</a><br>
-    <em>Black holes and gravitational waves enthusiast. Testing gravity on ski slopes and volleyball courts, sticking to GR predictions at work.</em>
+    <em>Waveform player, binary lenser, frankesteiner. Testing gravity on ski slopes and volleyball courts, sticking to GR predictions at work.</em>
   </div>
 </div>
 <div class="person">
@@ -242,4 +242,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-10-26 18:30:50 UTC*
+*Last updated: 2026-10-26 18:49:34 UTC*
