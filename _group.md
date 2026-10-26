@@ -21,12 +21,39 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
+  <img src="{{ '/images/sara-gliorio.jpg' | relative_url }}" alt="Sara Gliorio" class="person-photo">
+  <div class="person-text">
+    <strong>Sara Gliorio</strong><br>
+    Postdoc<br>
+<a href="mailto:sara.gliorio@unimib.it">sara.gliorio@unimib.it</a><br>
+    <em>Extreme mass-ratio inspiraler, scalar fielder, searching for the perfect pizza dough. Inspiralling orbits at work and volleyball saves on the court: different trajectories, same gravity. Harry Potter addict still waiting for a letter from Hogwarts. Until then, studying black holes is as close to magic as it gets.</em>
+  </div>
+</div>
+<div class="person">
   <img src="{{ '/images/tristan-bruel.jpg' | relative_url }}" alt="Tristan Bruel" class="person-photo">
   <div class="person-text">
     <strong>Tristan Bruel</strong><br>
     Postdoc<br>
 <a href="mailto:tristan.bruel@unimib.it">tristan.bruel@unimib.it</a><br>
     <em>Binary black holes enjoyer, population synthesizer, star cluster simulator. Dream of identifying the host galaxies of black hole mergers. Addicted to endurance sports and eager to bring a French touch to local Italian rugby.</em>
+  </div>
+</div>
+<div class="person">
+  <img src="{{ '/images/alessia-corelli.jpg' | relative_url }}" alt="Alessia Corelli" class="person-photo">
+  <div class="person-text">
+    <strong>Alessia Corelli</strong><br>
+    PhD student<br>
+<a href="mailto:a.corelli1@campus.unimib.it">a.corelli1@campus.unimib.it</a><br>
+    <em> </em>
+  </div>
+</div>
+<div class="person">
+  <img src="{{ '/images/lisa-merlo.jpg' | relative_url }}" alt="Lisa Merlo" class="person-photo">
+  <div class="person-text">
+    <strong>Lisa Merlo</strong><br>
+    PhD student<br>
+<a href="mailto:l.merlo10@campus.unimib.it">l.merlo10@campus.unimib.it</a><br>
+    <em> </em>
   </div>
 </div>
 <div class="person">
@@ -82,6 +109,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Emma Balzanelli**, MSc thesis, Milano-Bicocca, 2027.
 - **Martina Berva**, MSc thesis, Milano-Bicocca and Aix-Marseille, 2027.
 - **Rocco Giugni**, MSc thesis, Milano-Bicocca and Roma-Sapienza, 2026.
+- **Luca Zanzi**, BSc thesis, Milano-Bicocca, 2026.
 - **Nicolo Negro Pet**, BSc thesis, Milano-Bicocca, 2026.
 - **Diego Noseda**, BSc thesis, Milano-Bicocca, 2026.
 - **Laura Canova**, BSc thesis, Milano-Bicocca, 2026.
@@ -214,4 +242,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-10-26 06:27:59 UTC*
+*Last updated: 2026-10-26 18:30:50 UTC*
