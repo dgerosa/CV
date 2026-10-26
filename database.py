@@ -3255,7 +3255,17 @@ if postdocs:
     group['postdocs']['labelshort'] = 'Postdocs (hired)'
     group['postdocs']['labellong'] = 'Hired postdocs'
     group['postdocs']['data'] = []
-    
+
+    group['postdocs']['data'].append({
+        "name":     "Sara Gliorio",
+        "where":    "Milano-Bicocca",
+        "start":    "2026",
+        "end":      "current",
+        "bio":      "Extreme mass-ratio inspiraler, scalar fielder, searching for the perfect pizza dough. Inspiralling orbits at work and volleyball saves on the court: different trajectories, same gravity. Harry Potter addict still waiting for a letter from Hogwarts. Until then, studying black holes is as close to magic as it gets."
+        "email":    "sara.gliorio@unimib.it",
+        "current":  True
+        })
+
     group['postdocs']['data'].append({
         "name":     "Tristan Bruel",
         "where":    "Milano-Bicocca",
@@ -3380,6 +3390,26 @@ if phd:
     group['phd']['labelshort'] = 'PhD students'
     group['phd']['labellong'] = 'PhD student supervisor'
     group['phd']['data'] = []
+
+    group['phd']['data'].append({
+        "name":     "Alessia Corelli",
+        "where":    "Milano-Bicocca",
+        "start":    "2026",
+        "end":      "current",
+        "bio":      " ",
+        "email":    "a.corelli1@campus.unimib.it",
+        "current":  True
+        })
+
+    group['phd']['data'].append({
+        "name":     "Lisa Merlo",
+        "where":    "Milano-Bicocca",
+        "start":    "2026",
+        "end":      "current",
+        "bio":      " ",
+        "email":    "l.merlo10@campus.unimib.it",
+        "current":  True
+        })
 
     group['phd']['data'].append({
         "name":     "Giulia Cuomo",
