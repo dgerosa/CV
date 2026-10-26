@@ -3261,7 +3261,7 @@ if postdocs:
         "where":    "Milano-Bicocca",
         "start":    "2026",
         "end":      "current",
-        "bio":      "Extreme mass-ratio inspiraler, scalar fielder, searching for the perfect pizza dough. Inspiralling orbits at work and volleyball saves on the court: different trajectories, same gravity. Harry Potter addict still waiting for a letter from Hogwarts. Until then, studying black holes is as close to magic as it gets.",
+        "bio":      "Extreme mass-ratio inspiraler, scalar fielder, searching for the perfect pizza dough. Inspirals at work and saves on the volleyball court: different trajectories, same gravity. Harry Potter addict still waiting for a letter from Hogwarts. Until then, studying black holes is as close to magic as it gets.",
         "email":    "sara.gliorio@unimib.it",
         "current":  True
         })
