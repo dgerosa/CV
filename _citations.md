@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 10923
-- **Total INSPIRE citations**: 12362
-- **Total MAX citations**: 12481
+- **Total INSPIRE citations**: 12366
+- **Total MAX citations**: 12485
 - **h-index**: 51
 
 ## Paper list sorted by citation count
@@ -36,7 +36,7 @@
 | **25** | Baibhav | 2020 | The mass gap, the spin gap, and the origin of merging binary black holes | 91 | 109 | 109 |
 | **26** | Vitale | 2017 | Impact of Bayesian priors on the characterization of binary black hole coalescences | 92 | 108 | 108 |
 | **27** | Taylor | 2018 | Mining gravitational-wave catalogs to understand binary stellar evolution: a new hierarchical bayesian framework | 99 | 107 | 107 |
-| **28** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 92 | 103 | 103 |
+| **28** | Moore | 2019 | Are stellar-mass black-hole binaries too quiet for LISA? | 92 | 104 | 104 |
 | **29** | O'Shaughnessy | 2017 | Inferences about supernova physics from gravitational-wave measurements: GW151226 spin misalignment as an indicator of strong black-hole natal kicks | 82 | 93 | 93 |
 | **30** | Gerosa | 2021 | A generalized precession parameter $$\chi_\mathrm{p}$$ to interpret gravitational-wave data | 73 | 91 | 91 |
 | **31** | Korol | 2020 | Populations of double white dwarfs in Milky Way satellites and their detectability with LISA | 85 | 88 | 88 |
@@ -57,7 +57,7 @@
 | **46** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 53 | 58 | 58 |
 | **47** | Moore | 2021 | Testing general relativity with gravitational-wave catalogs: the insidious nature of waveform systematics | 46 | 57 | 57 |
 | **48** | Sperhake | 2017 | Long-lived inverse chirp signals from core collapse in massive scalar-tensor gravity | 48 | 55 | 55 |
-| **49** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 47 | 53 | 53 |
+| **49** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 47 | 54 | 54 |
 | **50** | Santini | 2023 | Black-hole mergers in disk-like environments could explain the observed $$q-\chi_\mathrm{eff}$$ correlation | 45 | 51 | 51 |
 | **51** | Gerosa | 2020 | Gravitational-wave selection effects using neural-network classifiers | 42 | 51 | 51 |
 | **52** | Gerosa | 2015 | Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature | 44 | 49 | 49 |
@@ -123,17 +123,17 @@
 | **112** | Corelli | 2026 | Variance of gravitational-wave populations | 5 | 8 | 8 |
 | **113** | Tenorio | 2026 | Exceptionality of exceptional gravitational-wave events | 8 | 8 | 8 |
 | **114** | Steinle | 2024 | Probing AGN jet precession with LISA | 7 | 4 | 7 |
-| **115** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 6 | 6 |
-| **116** | Giarda | 2025 | Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background | 6 | 5 | 6 |
-| **117** | Boschini | 2024 | Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186 | 6 | 4 | 6 |
-| **118** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 6 | 6 | 6 |
-| **119** | Dabrowny | 2021 | Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness | 5 | 6 | 6 |
-| **120** | Varma | 2019 | The binary black hole explorer: on-the-fly visualizations of precessing binary black holes | 4 | 6 | 6 |
-| **121** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 4 | 5 | 5 |
+| **115** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 4 | 6 | 6 |
+| **116** | Chiaberge | 2025 | A recoiling supermassive black hole in a powerful quasar | 5 | 6 | 6 |
+| **117** | Giarda | 2025 | Accelerated inference of binary black-hole populations from the stochastic gravitational-wave background | 6 | 5 | 6 |
+| **118** | Boschini | 2024 | Astrophysical and relativistic modeling of the recoiling black-hole candidate in quasar 3C 186 | 6 | 4 | 6 |
+| **119** | Gerosa | 2022 | The irreducible mass and the horizon area of LIGO's black holes | 6 | 6 | 6 |
+| **120** | Dabrowny | 2021 | Modeling the outcome of supernova explosions in binary population synthesis using the stellar compactness | 5 | 6 | 6 |
+| **121** | Varma | 2019 | The binary black hole explorer: on-the-fly visualizations of precessing binary black holes | 4 | 6 | 6 |
 | **122** | Boschini | 2025 | “LHS in LHS”: a new expansion strategy for Latin hypercube sampling in simulation design | 5 | 2 | 5 |
 | **123** | Gerosa | 2018 | Surprises from the spins: astrophysics and relativity with detections of spinning black-hole mergers | 4 | 5 | 5 |
-| **124** | Gerosa | 2023 | QLUSTER: quick clusters of merging binary black holes | 4 | 0 | 4 |
-| **125** | De Santi | 2026 | Inferring the population properties of galactic binaries from LISA's stochastic foreground | 2 | 3 | 3 |
+| **124** | De Santi | 2026 | Inferring the population properties of galactic binaries from LISA's stochastic foreground | 2 | 4 | 4 |
+| **125** | Gerosa | 2023 | QLUSTER: quick clusters of merging binary black holes | 4 | 0 | 4 |
 | **126** | Borhanian | 2026 | Impact of facility timing and coordination for next-generation gravitational-wave detectors | 0 | 2 | 2 |
 | **127** | Gerosa | 2018 | Reanalysis of LIGO black-hole coalescences with alternative prior assumptions | 2 | 2 | 2 |
 | **128** | Dossena | 2026 | Not all spins of black-hole binaries formed in clusters are isotropic and not all spins of black-hole binaries formed in isolation are aligned | 0 | 1 | 1 |
@@ -211,4 +211,4 @@
 
 
 <br><br>
-*Last updated: 2026-10-26 06:27:59 UTC*
+*Last updated: 2026-10-26 18:30:50 UTC*
