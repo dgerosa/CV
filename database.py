@@ -3416,7 +3416,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2025",
         "end":      "current",
-        "bio":      "Universe investigator, black-hole labeler. Often busy exploring the depths of the Ocean in her diving gear, running long distances, engaging in her next artistic project, or blasting prog metal in her headphones.",
+        "bio":      "Black-hole labeler, galaxy correlator. Often busy exploring the depths of the Ocean in her diving gear, running long distances, engaging in her next artistic project, or blasting prog metal in her headphones.",
         "email":    "g.cuomo3@campus.unimib.it",
         "current":  True
         })
@@ -3426,7 +3426,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2025",
         "end":      "current",
-        "bio":      "Black holes and gravitational waves enthusiast. Testing gravity on ski slopes and volleyball courts, sticking to GR predictions at work.",
+        "bio":      "Waveform player, binary lenser, frankesteiner. Testing gravity on ski slopes and volleyball courts, sticking to GR predictions at work.",
         "email":    "m.garcia5@campus.unimib.it",
         "current":  True
         })
