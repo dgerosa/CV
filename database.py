@@ -3396,7 +3396,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2026",
         "end":      "current",
-        "bio":      " ",
+        "bio":      "Coming soon!",
         "email":    "a.corelli1@campus.unimib.it",
         "current":  True
         })
@@ -3406,7 +3406,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2026",
         "end":      "current",
-        "bio":      " ",
+        "bio":      "Coming soon!",
         "email":    "l.merlo10@campus.unimib.it",
         "current":  True
         })
