@@ -2415,6 +2415,15 @@ if seminars:
     talks['seminars']['data'] = []
 
     talks['seminars']['data'].append({
+        "title":    "Gravitational-wave events that are too good to be true",
+        "what":     "Strong Observation Group, Simons Collaboration on Black Holes and Strong Gravity",
+        "where":    "(online)",
+        "when":     "Nov 2026",
+        "invited":  True,
+        "more":     ""
+        })
+
+    talks['seminars']['data'].append({
         "title":    "Challenges, limits, and opportunities in gravitational-wave population inference",
         "what":     "AEI seminars, Albert Einstein Institute",
         "where":    "Potsdam, Germany",
