@@ -2,7 +2,7 @@ Invited talks marked with ✦.
 
 ## Summary
 **90** (**41**✦) [Talks at conferences](#talks-at-conferences) \
-**49** (**49**✦) [Talks at department seminars](#talks-at-department-seminars) \
+**50** (**50**✦) [Talks at department seminars](#talks-at-department-seminars) \
 **9** (**8**✦) [Lectures at PhD schools](#lectures-at-phd-schools) \
 **8** (**4**✦) [Posters at conferences](#posters-at-conferences) \
 **18** (**18**✦) [Outreach talks](#outreach-talks)
@@ -304,6 +304,9 @@ BritGrav 14, Cambridge, UK, Mar 2014.
 
 ## Talks at department seminars
 
+**50.** ✦ *Gravitational-wave events that are too good to be true*  \\
+Strong Observation Group, Simons Collaboration on Black Holes and Strong Gravity, (online), Nov 2026.
+
 **49.** ✦ *Challenges, limits, and opportunities in gravitational-wave population inference*  \\
 AEI seminars, Albert Einstein Institute, Potsdam, Germany, Jun 2026.
 
@@ -585,4 +588,4 @@ Liceo Candia and Liceo Frassati, Seregno, Italy, Jan 2018.
 
 
 <br><br>
-*Last updated: 2026-11-02 07:48:47 UTC*
+*Last updated: 2026-11-02 17:43:02 UTC*
