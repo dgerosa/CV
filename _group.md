@@ -53,7 +53,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Lisa Merlo</strong><br>
     PhD student<br>
 <a href="mailto:l.merlo10@campus.unimib.it">l.merlo10@campus.unimib.it</a><br>
-    <em>Coming soon!</em>
+    <em>Disk warper, boundary value problemer, GPUs are fun. In her free time she’s usually lost in videogames, learning languages or busy crocheting yet another stuffed animal.</em>
   </div>
 </div>
 <div class="person">
@@ -242,4 +242,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-11-03 08:02:59 UTC*
+*Last updated: 2026-11-03 09:07:45 UTC*
