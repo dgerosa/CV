@@ -1,17 +1,17 @@
 ## Citation Summary
 
 - **Total ADS citations**: 11558
-- **Total INSPIRE citations**: 12419
-- **Total MAX citations**: 12604
+- **Total INSPIRE citations**: 12427
+- **Total MAX citations**: 12610
 - **h-index**: 51
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1593 | 1775 | 1775 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 953 | 1038 | 1038 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 986 | 857 | 986 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1593 | 1778 | 1778 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 953 | 1039 | 1039 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 986 | 858 | 986 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 541 | 552 | 552 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 500 | 531 | 531 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 446 | 503 | 503 |
@@ -22,7 +22,7 @@
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 226 | 245 | 245 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 158 | 181 | 181 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 146 | 174 | 174 |
-| **14** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 161 | 170 | 170 |
+| **14** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 161 | 171 | 171 |
 | **15** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 151 | 167 | 167 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 145 | 155 | 155 |
 | **17** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 127 | 142 | 142 |
@@ -94,8 +94,8 @@
 | **83** | Mould | 2020 | Endpoint of the up-down instability in precessing binary black holes | 19 | 23 | 23 |
 | **84** | Gerosa | 2017 | On the equal-mass limit of precessing black-hole binaries | 19 | 23 | 23 |
 | **85** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 22 | 22 | 22 |
-| **86** | Gerosa | 2024 | Quick recipes for gravitational-wave selection effects | 22 | 22 | 22 |
-| **87** | Tenorio | 2025 | Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms | 20 | 21 | 21 |
+| **86** | Tenorio | 2025 | Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms | 20 | 22 | 22 |
+| **87** | Gerosa | 2024 | Quick recipes for gravitational-wave selection effects | 22 | 22 | 22 |
 | **88** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 18 | 21 | 21 |
 | **89** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 20 | 20 | 20 |
 | **90** | Cole | 2026 | Sequential simulation-based inference for extreme mass ratio inspirals | 19 | 18 | 19 |
@@ -106,7 +106,7 @@
 | **95** | Mould | 2024 | Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs | 17 | 17 | 17 |
 | **96** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 16 | 14 | 16 |
 | **97** | Gerosa | 2017 | filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography | 13 | 16 | 16 |
-| **98** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 15 | 14 | 15 |
+| **98** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 15 | 15 | 15 |
 | **99** | Steinle | 2023 | The Bardeen-Petterson effect, disk breaking, and the spin orientations of supermassive black-hole binaries | 13 | 15 | 15 |
 | **100** | De Renzis | 2025 | Forecasting the population properties of merging black holes | 14 | 13 | 14 |
 | **101** | Gangardt | 2022 | Constraining black-hole binary spin precession and nutation with sequential prior conditioning | 13 | 14 | 14 |
@@ -211,4 +211,4 @@
 
 
 <br><br>
-*Last updated: 2026-11-02 17:43:02 UTC*
+*Last updated: 2026-11-03 08:02:59 UTC*
