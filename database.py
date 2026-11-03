@@ -3415,7 +3415,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2026",
         "end":      "current",
-        "bio":      "Coming soon!",
+        "bio":      "Disk warper, boundary value problemer, GPUs are fun. In her free time she’s usually lost in videogames, learning languages or busy crocheting yet another stuffed animal.",
         "email":    "l.merlo10@campus.unimib.it",
         "current":  True
         })
