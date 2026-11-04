@@ -44,7 +44,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Alessia Corelli</strong><br>
     PhD student<br>
 <a href="mailto:a.corelli1@campus.unimib.it">a.corelli1@campus.unimib.it</a><br>
-    <em>Gravitational-wave populationar, astrophysical (mis)modeler, stats all year round.  When not exploring the universe, she is exploring the world. Loves chasing sunsets, photographing everything, trying to capture the perfect shot. Theater enthusiast, often lost in books and TV series.</em>
+    <em>Gravitational-wave populationer, astro (mis)modeler, stats all year round.  When not exploring the universe, she is exploring the world. Loves chasing sunsets, photographing everything, trying to capture the perfect shot. Theater enthusiast, often lost in books and TV series.</em>
   </div>
 </div>
 <div class="person">
@@ -242,4 +242,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-11-04 08:32:56 UTC*
+*Last updated: 2026-11-04 08:42:02 UTC*
