@@ -3439,6 +3439,16 @@ if phd:
         "email":    "m.garcia5@campus.unimib.it",
         "current":  True
         })
+
+    group['phd']['data'].append({
+        "name":     "Federico De Santi",
+        "where":    "Milano-Bicocca",
+        "start":    "2024",
+        "end":      "current",
+        "bio":      "Simulation based infererer, precursor hunter, sys admin geek, astrophotographer. Machine learning keeps him busy, Gravitational waves keep him curious. When not dealing with the universe he’s lost in movies, games, or the keys of a piano.",
+        "email":    "f.desanti@campus.unimib.it",
+        "current":  True
+        })
     
     group['phd']['data'].append({
         "name":     "Chiara Anselmo",
@@ -3448,16 +3458,6 @@ if phd:
         "bio":      "Ringdowner, higher-mode finder, eccentritizer. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.",
         "email":    "c.anselmo@campus.unimib.it",
         "note":     "Supported by the Cariplo Foundation.",
-        "current":  True
-        })
-    
-    group['phd']['data'].append({
-        "name":     "Federico De Santi",
-        "where":    "Milano-Bicocca",
-        "start":    "2024",
-        "end":      "current",
-        "bio":      "Simulation based infererer, precursor hunter, sys admin geek, astrophotographer. Machine learning keeps him busy, Gravitational waves keep him curious. When not dealing with the universe he’s lost in movies, games, or the keys of a piano.",
-        "email":    "f.desanti@campus.unimib.it",
         "current":  True
         })
     
