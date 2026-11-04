@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 11572
-- **Total INSPIRE citations**: 12444
-- **Total MAX citations**: 12629
+- **Total INSPIRE citations**: 12446
+- **Total MAX citations**: 12631
 - **h-index**: 51
 
 ## Paper list sorted by citation count
@@ -18,11 +18,11 @@
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 384 | 440 | 440 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 367 | 398 | 398 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 343 | 369 | 369 |
-| **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 239 | 272 | 272 |
+| **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 239 | 273 | 273 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 226 | 248 | 248 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 159 | 182 | 182 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 146 | 174 | 174 |
-| **14** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 161 | 172 | 172 |
+| **14** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 161 | 173 | 173 |
 | **15** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 151 | 167 | 167 |
 | **16** | Islam | 2021 | Eccentric binary black hole surrogate models for the gravitational waveform and remnant properties: comparable mass, nonspinning case | 145 | 155 | 155 |
 | **17** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 127 | 142 | 142 |
@@ -211,4 +211,4 @@
 
 
 <br><br>
-*Last updated: 2026-11-04 07:36:51 UTC*
+*Last updated: 2026-11-04 08:32:56 UTC*
