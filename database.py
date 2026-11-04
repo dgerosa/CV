@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Latin hypercube sampling to reduce the variance in Monte Carlo integration: a practical guide and an application to gravitational-wave astronomy",
+        "author":   "M. Boschini, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2611.04045 [astro-ph.IM]",
+        "ads":      "2026arXiv261104045B",
+        "inspire":  "Boschini:2026foa",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Spinformation: do gravitational-wave events carry information beyond effective spins?",
         "author":   "C. Plunkett, J. Heinzel, N. E. Wolfe, D. Gerosa, S. Vitale",
         "journal":  "",
