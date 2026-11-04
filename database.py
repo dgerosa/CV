@@ -3405,7 +3405,7 @@ if phd:
         "where":    "Milano-Bicocca",
         "start":    "2026",
         "end":      "current",
-        "bio":      "Gravitational-wave populationar, astrophysical (mis)modeler, stats all year round.  When not exploring the universe, she is exploring the world. Loves chasing sunsets, photographing everything, trying to capture the perfect shot. Theater enthusiast, often lost in books and TV series.",
+        "bio":      "Gravitational-wave populationer, astro (mis)modeler, stats all year round.  When not exploring the universe, she is exploring the world. Loves chasing sunsets, photographing everything, trying to capture the perfect shot. Theater enthusiast, often lost in books and TV series.",
         "email":    "a.corelli1@campus.unimib.it",
         "current":  True
         })
