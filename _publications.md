@@ -1,5 +1,5 @@
 ## Summary
-**4** [Submitted papers](#submitted-papers)\
+**5** [Submitted papers](#submitted-papers)\
 **119** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**5.**
+*Latin hypercube sampling to reduce the variance in Monte Carlo integration: a practical guide and an application to gravitational-wave astronomy.*\
+M. Boschini, **D. Gerosa**.\
+<a href="https://arxiv.org/abs/2611.04045" style="color: inherit; text-decoration: none;">arXiv:2611.04045 [astro-ph.IM]</a>.
+ 
 **4.**
 *Spinformation: do gravitational-wave events carry information beyond effective spins?*\
 C. Plunkett, J. Heinzel, N. E. Wolfe, **D. Gerosa**, S. Vitale.\
@@ -730,4 +735,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-11-04 08:42:02 UTC*
+*Last updated: 2026-11-04 16:28:38 UTC*
