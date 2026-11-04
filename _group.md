@@ -44,7 +44,7 @@ Here are the amazing people in my group. Come visit and chat science with us! If
     <strong>Alessia Corelli</strong><br>
     PhD student<br>
 <a href="mailto:a.corelli1@campus.unimib.it">a.corelli1@campus.unimib.it</a><br>
-    <em>Coming soon!</em>
+    <em>Gravitational-wave populationar, astrophysical (mis)modeler, stats all year round.  When not exploring the universe, she is exploring the world. Loves chasing sunsets, photographing everything, trying to capture the perfect shot. Theater enthusiast, often lost in books and TV series.</em>
   </div>
 </div>
 <div class="person">
@@ -75,21 +75,21 @@ Here are the amazing people in my group. Come visit and chat science with us! If
   </div>
 </div>
 <div class="person">
-  <img src="{{ '/images/chiara-anselmo.jpg' | relative_url }}" alt="Chiara Anselmo" class="person-photo">
-  <div class="person-text">
-    <strong>Chiara Anselmo</strong><br>
-    PhD student<br>
-<a href="mailto:c.anselmo@campus.unimib.it">c.anselmo@campus.unimib.it</a><br>
-    <em>Ringdowner, higher-mode finder, eccentritizer. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.</em>
-  </div>
-</div>
-<div class="person">
   <img src="{{ '/images/federico-de-santi.jpg' | relative_url }}" alt="Federico De Santi" class="person-photo">
   <div class="person-text">
     <strong>Federico De Santi</strong><br>
     PhD student<br>
 <a href="mailto:f.desanti@campus.unimib.it">f.desanti@campus.unimib.it</a><br>
     <em>Simulation based infererer, precursor hunter, sys admin geek, astrophotographer. Machine learning keeps him busy, Gravitational waves keep him curious. When not dealing with the universe he’s lost in movies, games, or the keys of a piano.</em>
+  </div>
+</div>
+<div class="person">
+  <img src="{{ '/images/chiara-anselmo.jpg' | relative_url }}" alt="Chiara Anselmo" class="person-photo">
+  <div class="person-text">
+    <strong>Chiara Anselmo</strong><br>
+    PhD student<br>
+<a href="mailto:c.anselmo@campus.unimib.it">c.anselmo@campus.unimib.it</a><br>
+    <em>Ringdowner, higher-mode finder, eccentritizer. Outside of research, you’ll find her perfecting recipes in the kitchen, lost in books, immersed in anime, working out, or curating the perfect playlist.</em>
   </div>
 </div>
 <div class="person">
@@ -242,4 +242,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-11-04 07:36:51 UTC*
+*Last updated: 2026-11-04 08:32:56 UTC*
