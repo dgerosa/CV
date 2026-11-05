@@ -96,7 +96,7 @@ if published:
         "journal":  "\prd 114 (2026) 083041",
         "link":     "https://journals.aps.org/prd/abstract/10.1103/nhtw-rdxf",
         "arxiv":    "arXiv:2606.21076 [gr-qc]",
-        "ads":      "2026arXiv260621076O",
+        "ads":      "2026PhRvD.114h3041O",
         "inspire":  "Owen:2026hst",
         "more":     ""
         })
@@ -107,7 +107,7 @@ if published:
         "journal":  "\\aap 714 (2026) A341",
         "link":     "https://www.aanda.org/10.1051/0004-6361/202661246",
         "arxiv":    "arXiv:2606.03776 [astro-ph.HE]",
-        "ads":      "2026arXiv260603776L",
+        "ads":      "2026A&A...714A.341L",
         "inspire":  "diPriolo:2026ayj",
         "more":     ""
         })
