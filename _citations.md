@@ -1,8 +1,8 @@
 ## Citation Summary
 
-- **Total ADS citations**: 11449
-- **Total INSPIRE citations**: 12474
-- **Total MAX citations**: 12623
+- **Total ADS citations**: 11448
+- **Total INSPIRE citations**: 12477
+- **Total MAX citations**: 12625
 - **h-index**: 51
 
 ## Paper list sorted by citation count
@@ -11,8 +11,8 @@
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1583 | 1784 | 1784 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 948 | 1041 | 1041 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 971 | 864 | 971 |
-| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 532 | 556 | 556 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 970 | 864 | 970 |
+| **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 532 | 557 | 557 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 499 | 531 | 531 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 443 | 505 | 505 |
 | **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 379 | 442 | 442 |
@@ -20,7 +20,7 @@
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 340 | 369 | 369 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 238 | 273 | 273 |
 | **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 220 | 250 | 250 |
-| **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 156 | 182 | 182 |
+| **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 156 | 183 | 183 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 146 | 174 | 174 |
 | **14** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 157 | 173 | 173 |
 | **15** | Gerosa | 2013 | Resonant-plane locking and spin alignment in stellar-mass black-hole binaries: a diagnostic of compact-binary formation | 150 | 167 | 167 |
@@ -97,9 +97,9 @@
 | **86** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 22 | 22 | 22 |
 | **87** | Tenorio | 2025 | Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms | 20 | 22 | 22 |
 | **88** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 18 | 21 | 21 |
-| **89** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 20 | 20 | 20 |
-| **90** | Pacilio | 2024 | Catalog variance of testing general relativity with gravitational-wave data | 17 | 19 | 19 |
-| **91** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 18 | 19 | 19 |
+| **89** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 18 | 20 | 20 |
+| **90** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 20 | 20 | 20 |
+| **91** | Pacilio | 2024 | Catalog variance of testing general relativity with gravitational-wave data | 17 | 19 | 19 |
 | **92** | Cole | 2026 | Sequential simulation-based inference for extreme mass ratio inspirals | 18 | 18 | 18 |
 | **93** | Stegmann | 2025 | Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements | 18 | 18 | 18 |
 | **94** | Mould | 2024 | Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs | 17 | 18 | 18 |
@@ -212,4 +212,4 @@
 
 
 <br><br>
-*Last updated: 2026-11-07 07:19:23 UTC*
+*Last updated: 2026-11-08 07:31:16 UTC*
