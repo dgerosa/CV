@@ -1,5 +1,5 @@
 ## Summary
-**5** [Submitted papers](#submitted-papers)\
+**6** [Submitted papers](#submitted-papers)\
 **119** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**6.**
+*Scalable early warning for binary neutron-star mergers in third-generation gravitational-wave detectors.*\
+M. Gerini, R. Tenorio, **D. Gerosa**.\
+<a href="https://arxiv.org/abs/2611.10133" style="color: inherit; text-decoration: none;">arXiv:2611.10133 [gr-qc]</a>.
+ 
 **5.**
 *Latin hypercube sampling to reduce the variance in Monte Carlo integration: a practical guide and an application to gravitational-wave astronomy.*\
 M. Boschini, **D. Gerosa**.\
@@ -735,4 +740,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-11-10 08:31:25 UTC*
+*Last updated: 2026-11-10 08:48:15 UTC*
