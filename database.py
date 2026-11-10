@@ -35,7 +35,7 @@ if submitted:
         "journal":  "",
         "link":     "",
         "arxiv":    "arXiv:2611.10133 [gr-qc]",
-        "ads":      "",
+        "ads":      "2026arXiv261110133G",
         "inspire":  "",
         "more":     ""
         })
