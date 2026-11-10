@@ -36,7 +36,7 @@ if submitted:
         "link":     "",
         "arxiv":    "arXiv:2611.10133 [gr-qc]",
         "ads":      "2026arXiv261110133G",
-        "inspire":  "",
+        "inspire":  "Gerini:2026ymm",
         "more":     ""
         })
 
