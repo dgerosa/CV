@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Scalable early warning for binary neutron-star mergers in third-generation gravitational-wave detectors",
+        "author":   "M. Gerini, R. Tenorio, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2611.10133 [gr-qc]",
+        "ads":      "",
+        "inspire":  "",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Latin hypercube sampling to reduce the variance in Monte Carlo integration: a practical guide and an application to gravitational-wave astronomy",
         "author":   "M. Boschini, D. Gerosa",
         "journal":  "",
