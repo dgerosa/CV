@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 11468
-- **Total INSPIRE citations**: 12504
-- **Total MAX citations**: 12655
+- **Total INSPIRE citations**: 12506
+- **Total MAX citations**: 12656
 - **h-index**: 51
 
 ## Paper list sorted by citation count
@@ -60,8 +60,8 @@
 | **49** | Roebber | 2020 | Milky Way satellites shining bright in gravitational waves | 47 | 54 | 54 |
 | **50** | Gerosa | 2020 | Gravitational-wave selection effects using neural-network classifiers | 46 | 53 | 53 |
 | **51** | Santini | 2023 | Black-hole mergers in disk-like environments could explain the observed $$q-\chi_\mathrm{eff}$$ correlation | 49 | 52 | 52 |
-| **52** | Gerosa | 2015 | Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature | 46 | 50 | 50 |
-| **53** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 47 | 45 | 47 |
+| **52** | Gerosa | 2015 | Missing black holes in brightest cluster galaxies as evidence for the occurrence of superkicks in nature | 46 | 51 | 51 |
+| **53** | Romero-Shaw | 2025 | GW200208_222617 as an eccentric black-hole binary merger: properties and astrophysical implications | 47 | 46 | 47 |
 | **54** | Tso | 2019 | Optimizing LIGO with LISA forewarnings to improve black-hole spectroscopy | 38 | 44 | 44 |
 | **55** | Croon | 2026 | Can GW231123 have a stellar origin? | 43 | 42 | 43 |
 | **56** | Trifirò | 2016 | Distinguishing black-hole spin-orbit resonances by their gravitational wave signatures. II: Full parameter estimation | 35 | 43 | 43 |
@@ -213,4 +213,4 @@
 
 
 <br><br>
-*Last updated: 2026-11-10 15:50:12 UTC*
+*Last updated: 2026-11-11 07:53:35 UTC*
