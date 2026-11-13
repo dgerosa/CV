@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Population inference of eccentric binary black holes using asymptotic constants of motion",
+        "author":   "C. Anselmo, G. Fumagalli, D. Gerosa",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2611.15738 [gr-qc]",
+        "ads":      "2026arXiv261115738A",
+        "inspire":  "",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Scalable early warning for binary neutron-star mergers in third-generation gravitational-wave detectors",
         "author":   "M. Gerini, R. Tenorio, D. Gerosa",
         "journal":  "",
@@ -3920,14 +3931,6 @@ if bsc:
         })
 
     group['bsc']['data'].append({
-        "name":     "Diego Noseda",
-        "where":    "Milano-Bicocca",
-        "what":     "BSc thesis",
-        "year":     "2026",
-        "current":  True
-        })
-        
-    group['bsc']['data'].append({
         "name":     "Laura Canova",
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
@@ -3942,7 +3945,15 @@ if bsc:
         "year":     "2026",
         "current":  True
         })
-
+    
+    group['bsc']['data'].append({
+        "name":     "Diego Noseda",
+        "where":    "Milano-Bicocca",
+        "what":     "BSc thesis",
+        "year":     "2026",
+        "current":  True
+        })
+        
     group['bsc']['data'].append({
         "name":     "Nicola Toselli",
         "where":    "Milano-Bicocca",
@@ -3959,13 +3970,13 @@ if bsc:
     #     "current":  True
     #     })
 
-    group['bsc']['data'].append({
-       "name":     "Pablo Basta",
-       "where":    "Milano-Bicocca",
-       "what":     "BSc thesis",
-       "year":     "2026",
-       "current":  True
-       })
+    # group['bsc']['data'].append({
+    #    "name":     "Pablo Basta",
+    #    "where":    "Milano-Bicocca",
+    #    "what":     "BSc thesis",
+    #    "year":     "2026",
+    #    "current":  True
+    #    })
     
     group['bsc']['data'].append({
         "name":     "Andrea La Canna",
