@@ -111,11 +111,10 @@ Here are the amazing students who are currently completing research projects wit
 - **Rocco Giugni**, MSc thesis, Milano-Bicocca and Roma-Sapienza, 2026.
 - **Luca Zanzi**, BSc thesis, Milano-Bicocca, 2026.
 - **Nicolo Negro Pet**, BSc thesis, Milano-Bicocca, 2026.
-- **Diego Noseda**, BSc thesis, Milano-Bicocca, 2026.
 - **Laura Canova**, BSc thesis, Milano-Bicocca, 2026.
 - **Federico Massacesi**, BSc thesis, Milano-Bicocca, 2026.
+- **Diego Noseda**, BSc thesis, Milano-Bicocca, 2026.
 - **Nicola Toselli**, BSc thesis, Milano-Bicocca, 2026.
-- **Pablo Basta**, BSc thesis, Milano-Bicocca, 2026.
 
 <br>
 
@@ -242,4 +241,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-11-13 08:10:48 UTC*
+*Last updated: 2026-11-13 08:44:55 UTC*

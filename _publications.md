@@ -1,5 +1,5 @@
 ## Summary
-**6** [Submitted papers](#submitted-papers)\
+**7** [Submitted papers](#submitted-papers)\
 **119** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**7.**
+*Population inference of eccentric binary black holes using asymptotic constants of motion.*\
+C. Anselmo, G. Fumagalli, **D. Gerosa**.\
+<a href="https://arxiv.org/abs/2611.15738" style="color: inherit; text-decoration: none;">arXiv:2611.15738 [gr-qc]</a>.
+ 
 **6.**
 *Scalable early warning for binary neutron-star mergers in third-generation gravitational-wave detectors.*\
 M. Gerini, R. Tenorio, **D. Gerosa**.\
@@ -740,4 +745,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-11-13 08:10:48 UTC*
+*Last updated: 2026-11-13 08:44:55 UTC*
