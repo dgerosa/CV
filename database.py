@@ -30,6 +30,17 @@ if submitted:
     papers['submitted']['data'] = []
 
     papers['submitted']['data'].append({
+        "title":    "Gravitational-wave hierarchical inference from population samples",
+        "author":   "F. De Santi, D. Gerosa, M. Mould",
+        "journal":  "",
+        "link":     "",
+        "arxiv":    "arXiv:2611.17428 [[astro-ph.HE]]",
+        "ads":      "2026arXiv261117428D",
+        "inspire":  "DeSanti:2026gdv",
+        "more":     ""
+        })
+
+    papers['submitted']['data'].append({
         "title":    "Population inference of eccentric binary black holes using asymptotic constants of motion",
         "author":   "C. Anselmo, G. Fumagalli, D. Gerosa",
         "journal":  "",
