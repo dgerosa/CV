@@ -3273,7 +3273,7 @@ if fellowships:
         "where":        "Milano-Bicocca",
         "fellowship":   "ERC Marie Skłodowska-Curie Fellow",
         "start":        "2024",
-        "end":          "current",
+        "end":          "2026",
         "bio":          None,
         "email":        "zacharias.roupas@unimib.it",
         "current":      False,
