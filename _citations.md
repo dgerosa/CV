@@ -142,21 +142,22 @@
 | **131** | Loutrel | 2026 | Probing modified gravitational-wave dispersion with bursts from eccentric black-hole binaries | 1 | 1 | 1 |
 | **132** | Fumagalli | 2026 | PRECESSION 2.1: black-hole binary spin precession on eccentric orbits | 1 | 1 | 1 |
 | **133** | Gerosa | 2015 | Rival families: waveforms from resonant black-hole binaries as probes of their astrophysical formation history | 0 | 1 | 1 |
-| **134** | Anselmo | 2026 | Population inference of eccentric binary black holes using asymptotic constants of motion | 0 | 0 | 0 |
-| **135** | Gerini | 2026 | Scalable early warning for binary neutron-star mergers in third-generation gravitational-wave detectors | 0 | 0 | 0 |
-| **136** | Boschini | 2026 | Latin hypercube sampling to reduce the variance in Monte Carlo integration: a practical guide and an application to gravitational-wave astronomy | 0 | 0 | 0 |
-| **137** | Plunkett | 2026 | Spinformation: do gravitational-wave events carry information beyond effective spins? | 0 | 0 | 0 |
-| **138** | Owen | 2026 | Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy | 0 | 0 | 0 |
-| **139** | Leto di Priolo | 2026 | Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors | 0 | 0 | 0 |
-| **140** | Gerosa | 2025 | Coincident morphological transitions in precessing black-hole binaries | 0 | 0 | 0 |
-| **141** | Gerosa | 2016 | Source modelling at the dawn of gravitational-wave astronomy | 0 | 0 | 0 |
-| **142** | Gerosa | 2014 | Spin alignment effects in black hole binaries | 0 | 0 | 0 |
+| **134** | De Santi | 2026 | Gravitational-wave hierarchical inference from population samples | 0 | 0 | 0 |
+| **135** | Anselmo | 2026 | Population inference of eccentric binary black holes using asymptotic constants of motion | 0 | 0 | 0 |
+| **136** | Gerini | 2026 | Scalable early warning for binary neutron-star mergers in third-generation gravitational-wave detectors | 0 | 0 | 0 |
+| **137** | Boschini | 2026 | Latin hypercube sampling to reduce the variance in Monte Carlo integration: a practical guide and an application to gravitational-wave astronomy | 0 | 0 | 0 |
+| **138** | Plunkett | 2026 | Spinformation: do gravitational-wave events carry information beyond effective spins? | 0 | 0 | 0 |
+| **139** | Owen | 2026 | Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy | 0 | 0 | 0 |
+| **140** | Leto di Priolo | 2026 | Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors | 0 | 0 | 0 |
+| **141** | Gerosa | 2025 | Coincident morphological transitions in precessing black-hole binaries | 0 | 0 | 0 |
+| **142** | Gerosa | 2016 | Source modelling at the dawn of gravitational-wave astronomy | 0 | 0 | 0 |
+| **143** | Gerosa | 2014 | Spin alignment effects in black hole binaries | 0 | 0 | 0 |
 
 ## Papers per year
 
 | Year | Paper count |
 |------|--------------|
-| 2026 | 21 |
+| 2026 | 22 |
 | 2025 | 19 |
 | 2024 | 10 |
 | 2023 | 11 |
@@ -178,8 +179,8 @@
 | Physical Review D | 66 |
 | Classical and Quantum Gravity | 13 |
 | Monthly Notices of the Royal Astronomical Society | 13 |
+| arXiv | 9 |
 | Physical Review Letters | 9 |
-| arXiv | 8 |
 | Astronomy & Astrophysics | 7 |
 | Astrophysical Journal | 5 |
 | Living Reviews in Relativity | 3 |
@@ -210,8 +211,9 @@
 | astro-ph.GA | 9 |
 | astro-ph.CO | 2 |
 | astro-ph.IM | 2 |
+|  | 1 |
 | stat.ME | 1 |
 
 
 <br><br>
-*Last updated: 2026-11-16 08:07:51 UTC*
+*Last updated: 2026-11-16 08:54:17 UTC*
