@@ -1,21 +1,21 @@
 ## Citation Summary
 
 - **Total ADS citations**: 11487
-- **Total INSPIRE citations**: 12567
-- **Total MAX citations**: 12716
+- **Total INSPIRE citations**: 12572
+- **Total MAX citations**: 12721
 - **h-index**: 51
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1587 | 1791 | 1791 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 949 | 1045 | 1045 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1587 | 1792 | 1792 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 949 | 1046 | 1046 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 979 | 869 | 979 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 532 | 562 | 562 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 502 | 533 | 533 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 445 | 509 | 509 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 382 | 446 | 446 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 382 | 447 | 447 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 367 | 400 | 400 |
 | **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 341 | 373 | 373 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 239 | 273 | 273 |
@@ -49,7 +49,7 @@
 | **38** | Gerosa | 2018 | Black-hole kicks from numerical-relativity surrogate models | 61 | 69 | 69 |
 | **39** | Mould | 2022 | Which black hole formed first? Mass-ratio reversal in massive binary stars from gravitational-wave data | 58 | 67 | 67 |
 | **40** | Gupta | 2020 | Black holes in the low mass gap: Implications for gravitational wave observations | 62 | 67 | 67 |
-| **41** | Gerosa | 2016 | Numerical simulations of stellar collapse in scalar-tensor theories of gravity | 54 | 64 | 64 |
+| **41** | Gerosa | 2016 | Numerical simulations of stellar collapse in scalar-tensor theories of gravity | 54 | 65 | 65 |
 | **42** | Gerosa | 2015 | Precessional instability in binary black holes with aligned spins | 57 | 64 | 64 |
 | **43** | Gangardt | 2024 | pAGN: the one-stop solution for AGN disc modeling | 63 | 59 | 63 |
 | **44** | Gerosa | 2020 | Astrophysical implications of GW190412 as a remnant of a previous black-hole merger | 58 | 63 | 63 |
@@ -70,8 +70,8 @@
 | **59** | Spadaro | 2023 | Glitch systematics on the observation of massive black-hole binaries with LISA | 35 | 39 | 39 |
 | **60** | Gerosa | 2023 | Efficient multi-timescale dynamics of precessing black-hole binaries | 35 | 39 | 39 |
 | **61** | Gerosa | 2021 | High mass but low spin: an exclusion region to rule out hierarchical black-hole mergers as a mechanism to populate the pair-instability mass gap | 35 | 39 | 39 |
-| **62** | Sayeb | 2021 | Massive black hole binary inspiral and spin evolution in a cosmological framework | 38 | 35 | 38 |
-| **63** | Rosca-Mead | 2020 | Core collapse in massive scalar-tensor gravity | 32 | 38 | 38 |
+| **62** | Rosca-Mead | 2020 | Core collapse in massive scalar-tensor gravity | 32 | 39 | 39 |
+| **63** | Sayeb | 2021 | Massive black hole binary inspiral and spin evolution in a cosmological framework | 38 | 35 | 38 |
 | **64** | Pacilio | 2024 | Flexible mapping of ringdown amplitudes for nonprecessing binary black holes | 30 | 36 | 36 |
 | **65** | Baibhav | 2021 | Looking for the parents of LIGO's black holes | 33 | 35 | 35 |
 | **66** | Fumagalli | 2024 | Residual eccentricity as a systematic uncertainty on the formation channels of binary black holes | 33 | 34 | 34 |
@@ -216,4 +216,4 @@
 
 
 <br><br>
-*Last updated: 2026-11-16 09:25:05 UTC*
+*Last updated: 2026-11-16 14:45:23 UTC*
