@@ -3576,6 +3576,15 @@ if msc:
     group['msc']['labelshort'] = 'MSc students'
     group['msc']['labellong'] = 'MSc student mentoring'
     group['msc']['data'] = []
+    
+    group['msc']['data'].append({
+        "name":     "Mattia Zorloni",
+        "where":    "Milano-Bicocca and Nice",
+        "what":     "MSc thesis",
+        "year":     "2027",
+        "note":     "",
+        "current":  True
+        })
 
     group['msc']['data'].append({
         "name":     "Giovanni Matteotti",
