@@ -1,5 +1,5 @@
 ## Summary
-**7** [Submitted papers](#submitted-papers)\
+**8** [Submitted papers](#submitted-papers)\
 **119** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
@@ -8,6 +8,11 @@
 
 ## Submitted papers
 
+**8.**
+*Gravitational-wave hierarchical inference from population samples.*\
+F. De Santi, **D. Gerosa**, M. Mould.\
+<a href="https://arxiv.org/abs/2611.17428" style="color: inherit; text-decoration: none;">arXiv:2611.17428 [[astro-ph.HE]]</a>.
+ 
 **7.**
 *Population inference of eccentric binary black holes using asymptotic constants of motion.*\
 C. Anselmo, G. Fumagalli, **D. Gerosa**.\
@@ -745,4 +750,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-11-16 08:07:51 UTC*
+*Last updated: 2026-11-16 08:54:17 UTC*
