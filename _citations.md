@@ -9,7 +9,7 @@
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1587 | 1792 | 1792 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1587 | 1791 | 1791 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 949 | 1046 | 1046 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 979 | 869 | 979 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 532 | 562 | 562 |
@@ -82,9 +82,9 @@
 | **71** | Rosca-Mead | 2020 | Structure of neutron stars in massive scalar-tensor gravity | 28 | 32 | 32 |
 | **72** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 31 | 30 | 31 |
 | **73** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 25 | 29 | 29 |
-| **74** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 27 | 28 | 28 |
-| **75** | Pedrotti | 2026 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 27 | 27 | 27 |
-| **76** | Buscicchio | 2025 | Test for LISA foreground Gaussianity and stationarity: galactic white-dwarf binaries | 25 | 27 | 27 |
+| **74** | Buscicchio | 2025 | Test for LISA foreground Gaussianity and stationarity: galactic white-dwarf binaries | 25 | 28 | 28 |
+| **75** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 27 | 28 | 28 |
+| **76** | Pedrotti | 2026 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 27 | 27 | 27 |
 | **77** | Tenorio | 2025 | Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms | 21 | 27 | 27 |
 | **78** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 25 | 27 | 27 |
 | **79** | Gangardt | 2021 | A taxonomy of black-hole binary spin precession and nutation | 21 | 26 | 26 |
@@ -216,4 +216,4 @@
 
 
 <br><br>
-*Last updated: 2026-11-16 14:45:23 UTC*
+*Last updated: 2026-11-17 09:25:40 UTC*
