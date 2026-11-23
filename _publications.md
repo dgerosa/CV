@@ -1,6 +1,6 @@
 ## Summary
-**8** [Submitted papers](#submitted-papers)\
-**119** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
+**7** [Submitted papers](#submitted-papers)\
+**120** [Papers published in major peer-reviewed journals](#papers-published-in-major-peer-reviewed-journals)\
 **15** [Other publications (white papers, proceedings, etc.)](#other-publications-white-papers-proceedings-etc)
 
 
@@ -8,35 +8,30 @@
 
 ## Submitted papers
 
-**8.**
+**7.**
 *Gravitational-wave hierarchical inference from population samples.*\
 F. De Santi, **D. Gerosa**, M. Mould.\
 <a href="https://arxiv.org/abs/2611.17428" style="color: inherit; text-decoration: none;">arXiv:2611.17428 [[astro-ph.HE]]</a>.
  
-**7.**
+**6.**
 *Population inference of eccentric binary black holes using asymptotic constants of motion.*\
 C. Anselmo, G. Fumagalli, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2611.15738" style="color: inherit; text-decoration: none;">arXiv:2611.15738 [gr-qc]</a>.
  
-**6.**
+**5.**
 *Scalable early warning for binary neutron-star mergers in third-generation gravitational-wave detectors.*\
 M. Gerini, R. Tenorio, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2611.10133" style="color: inherit; text-decoration: none;">arXiv:2611.10133 [gr-qc]</a>.
  
-**5.**
+**4.**
 *Latin hypercube sampling to reduce the variance in Monte Carlo integration: a practical guide and an application to gravitational-wave astronomy.*\
 M. Boschini, **D. Gerosa**.\
 <a href="https://arxiv.org/abs/2611.04045" style="color: inherit; text-decoration: none;">arXiv:2611.04045 [astro-ph.IM]</a>.
  
-**4.**
+**3.**
 *Spinformation: do gravitational-wave events carry information beyond effective spins?*\
 C. Plunkett, J. Heinzel, N. E. Wolfe, **D. Gerosa**, S. Vitale.\
 <a href="https://arxiv.org/abs/2610.18973" style="color: inherit; text-decoration: none;">arXiv:2610.18973 [gr-qc]</a>.
- 
-**3.**
-*Not all spins of black-hole binaries formed in clusters are isotropic and not all spins of black-hole binaries formed in isolation are aligned.*\
-S. Dossena, **D. Gerosa**, T. Bruel.\
-<a href="https://arxiv.org/abs/2609.31879" style="color: inherit; text-decoration: none;">arXiv:2609.31879 [astro-ph.HE]</a>.
  
 **2.**
 *Variance of gravitational-wave populations.*\
@@ -53,6 +48,11 @@ M. Chiaberge, T. Morishita, M. Boschini, S. Bianchi, A. Capetti, G. Castignani, 
 
 ## Papers published in major peer-reviewed journals
 
+**120.**
+*Not all spins of black-hole binaries formed in clusters are isotropic and not all spins of black-hole binaries formed in isolation are aligned.*\
+S. Dossena, **D. Gerosa**, T. Bruel.\
+Physical Review D in press. <a href="https://arxiv.org/abs/2609.31879" style="color: inherit; text-decoration: none;">arXiv:2609.31879 [astro-ph.HE]</a>.
+ 
 **119.**
 *Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy.*\
 C. B. Owen, A. Toubiana, **D. Gerosa**.\
@@ -750,4 +750,4 @@ E. Berti, et al. (53 authors incl. **D. Gerosa**).\
 
 
 <br><br>
-*Last updated: 2026-11-23 09:22:28 UTC*
+*Last updated: 2026-11-23 16:38:58 UTC*
