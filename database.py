@@ -85,17 +85,6 @@ if submitted:
         })
 
     papers['submitted']['data'].append({
-        "title":    "Not all spins of black-hole binaries formed in clusters are isotropic and not all spins of black-hole binaries formed in isolation are aligned",
-        "author":   "S. Dossena, D. Gerosa, T. Bruel",
-        "journal":  "",
-        "link":     "",
-        "arxiv":    "arXiv:2609.31879 [astro-ph.HE]",
-        "ads":      "2026arXiv260931879D",
-        "inspire":  "Dossena:2026cwf",
-        "more":     ""
-        })
-
-    papers['submitted']['data'].append({
         "title":    "Variance of gravitational-wave populations",
         "author":   "A. Corelli, D. Gerosa, M. Mould, C. M. Fabbri",
         "journal":  "",
@@ -122,6 +111,17 @@ if published:
     papers['published'] = {}
     papers['published']['label'] = 'Papers published in major peer-reviewed journals'
     papers['published']['data'] = []
+
+    papers['published']['data'].append({
+        "title":    "Not all spins of black-hole binaries formed in clusters are isotropic and not all spins of black-hole binaries formed in isolation are aligned",
+        "author":   "S. Dossena, D. Gerosa, T. Bruel",
+        "journal":  "\prd in press.",
+        "link":     "",
+        "arxiv":    "arXiv:2609.31879 [astro-ph.HE]",
+        "ads":      "2026arXiv260931879D",
+        "inspire":  "Dossena:2026cwf",
+        "more":     ""
+        })
 
     papers['published']['data'].append({
         "title":    "Population-level correlations in Bayesian statistics: an illustrative model for gravitational-wave astronomy",
@@ -3681,7 +3681,7 @@ if msc:
         "where":    "Milano-Bicocca and Aix-Marseille",
         "what":     "MSc thesis",
         "year":     "2026",
-        "note":     "",
+        "note":     "Then digital equipment engineer at Thales Alenia Space (Italy).", 
         "current":  False
         })
 
