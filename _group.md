@@ -156,7 +156,7 @@ Here are the amazing students who are currently completing research projects wit
 - **Sofia Dossena**. Milano-Bicocca, 2026. Then PhD student at SISSA (Trieste, Italy). Resulting publication: [arXiv:2609.31879](https://arxiv.org/abs/2609.31879).
 - **Marco Bianchi**. Milano-Bicocca, 2026. Then PhD student at GSSI (L'Aquila, Italy).
 - **Giorgio Monti**. Milano-Bicocca and GSSI L'Aquila, 2026.
-- **Pietro Zeduri**. Milano-Bicocca and Aix-Marseille, 2026.
+- **Pietro Zeduri**. Milano-Bicocca and Aix-Marseille, 2026. Then digital equipment engineer at Thales Alenia Space (Italy).
 - **Alessia Corelli**. Milano-Bicocca and Nottingham, 2026. Then PhD student in my group, joint with Aix-Marseille University. Resulting publication: [arXiv:2603.00239](https://arxiv.org/abs/2603.00239).
 - **Federico Leto di Priolo**. Milano-Bicocca and ESO Garching, 2026. Resulting publication: [arXiv:2606.03776](https://arxiv.org/abs/2606.03776).
 - **Oliver Rossi**. Milano-Bicocca, 2026. The software engineer at Netcom Engineering (Italy).
@@ -243,4 +243,4 @@ Here are the amazing students who are currently completing research projects wit
 
 
 <br><br>
-*Last updated: 2026-11-23 09:22:28 UTC*
+*Last updated: 2026-11-24 11:08:24 UTC*
