@@ -3979,7 +3979,7 @@ if bsc:
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2026",
-        "current":  True
+        "current":  False
         })
         
     group['bsc']['data'].append({
@@ -3987,7 +3987,7 @@ if bsc:
         "where":    "Milano-Bicocca",
         "what":     "BSc thesis",
         "year":     "2026",
-        "current":  True
+        "current":  False
         })
     
     # group['bsc']['data'].append({
