@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 11624
-- **Total INSPIRE citations**: 12620
-- **Total MAX citations**: 12778
+- **Total INSPIRE citations**: 12628
+- **Total MAX citations**: 12784
 - **h-index**: 51
 
 ## Paper list sorted by citation count
@@ -10,16 +10,16 @@
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1598 | 1794 | 1794 |
-| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 955 | 1049 | 1049 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 993 | 877 | 993 |
+| **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 955 | 1050 | 1050 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 993 | 879 | 993 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 537 | 563 | 563 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 503 | 533 | 533 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 451 | 511 | 511 |
-| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 391 | 451 | 451 |
+| **7** | Arun | 2022 | New horizons for fundamental physics with LISA | 391 | 452 | 452 |
 | **8** | Gerosa | 2017 | Are merging black holes born from stellar collapse or previous mergers? | 369 | 400 | 400 |
-| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 347 | 374 | 374 |
+| **9** | Gerosa | 2021 | Hierarchical mergers of stellar-mass black holes and their gravitational-wave signatures | 347 | 375 | 375 |
 | **10** | Gerosa | 2018 | Spin orientations of merging black holes formed from the evolution of stellar binaries | 240 | 273 | 273 |
-| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 232 | 255 | 255 |
+| **11** | Afshordi | 2025 | Waveform modelling for the Laser Interferometer Space Antenna | 232 | 257 | 257 |
 | **12** | Varma | 2019 | High-accuracy mass, spin, and recoil predictions of generic black-hole merger remnants | 157 | 184 | 184 |
 | **13** | Gerosa | 2015 | Multi-timescale analysis of phase transitions in precessing black-hole binaries | 149 | 177 | 177 |
 | **14** | Vitale | 2020 | Inferring the properties of a population of compact binaries in presence of selection effects | 161 | 175 | 175 |
@@ -28,8 +28,8 @@
 | **17** | Ng | 2018 | Gravitational-wave astrophysics with effective-spin measurements: asymmetries and selection biases | 126 | 142 | 142 |
 | **18** | Kesden | 2015 | Effective potentials and morphological transitions for binary black-hole spin precession | 117 | 141 | 141 |
 | **19** | Baibhav | 2019 | Gravitational-wave detection rates for compact binaries formed in isolation: LIGO/Virgo O3 and beyond | 115 | 134 | 134 |
-| **20** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 117 | 131 | 131 |
-| **21** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 119 | 130 | 130 |
+| **20** | Gerosa | 2019 | Escape speed of stellar clusters from multiple-generation black-hole mergers in the upper mass gap | 119 | 131 | 131 |
+| **21** | Gerosa | 2019 | Multiband gravitational-wave event rates and stellar physics | 117 | 131 | 131 |
 | **22** | Romero-Shaw | 2023 | Eccentricity or spin precession? Distinguishing subdominant effects in gravitational-wave data | 110 | 122 | 122 |
 | **23** | Wysocki | 2018 | Explaining LIGO's observations via isolated binary evolution with natal kicks | 107 | 116 | 116 |
 | **24** | Gerosa | 2016 | PRECESSION: Dynamics of spinning black-hole binaries with python | 100 | 114 | 114 |
@@ -216,4 +216,4 @@
 
 
 <br><br>
-*Last updated: 2026-11-23 16:38:58 UTC*
+*Last updated: 2026-11-24 11:08:24 UTC*
