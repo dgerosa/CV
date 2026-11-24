@@ -1,8 +1,8 @@
 ## Citation Summary
 
 - **Total ADS citations**: 11624
-- **Total INSPIRE citations**: 12628
-- **Total MAX citations**: 12784
+- **Total INSPIRE citations**: 12630
+- **Total MAX citations**: 12785
 - **h-index**: 51
 
 ## Paper list sorted by citation count
@@ -11,7 +11,7 @@
 |---|--------|------|-------|-----|---------|-----|
 | **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1598 | 1794 | 1794 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 955 | 1050 | 1050 |
-| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 993 | 879 | 993 |
+| **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 993 | 880 | 993 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 537 | 563 | 563 |
 | **5** | Belczynski | 2020 | Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes | 503 | 533 | 533 |
 | **6** | Barausse | 2020 | Prospects for fundamental physics with LISA | 451 | 511 | 511 |
@@ -83,8 +83,8 @@
 | **72** | Moore | 2021 | Population-informed priors in gravitational-wave astronomy | 31 | 30 | 31 |
 | **73** | Buscicchio | 2025 | Test for LISA foreground Gaussianity and stationarity: galactic white-dwarf binaries | 28 | 29 | 29 |
 | **74** | Boschini | 2025 | Orbital eccentricity in general relativity from catastrophe theory | 26 | 29 | 29 |
-| **75** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 27 | 28 | 28 |
-| **76** | Pedrotti | 2026 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 27 | 27 | 27 |
+| **75** | Pedrotti | 2026 | Cosmology with the angular cross-correlation of gravitational-wave and galaxy catalogs: forecasts for next-generation interferometers and the Euclid survey | 27 | 28 | 28 |
+| **76** | Sperhake | 2020 | Amplification of superkicks in black-hole binaries through orbital eccentricity | 27 | 28 | 28 |
 | **77** | Tenorio | 2025 | Scalable data-analysis framework for long-duration gravitational waves from compact binaries using short Fourier transforms | 24 | 27 | 27 |
 | **78** | Zhao | 2017 | Nutational resonances, transitional precession, and precession-averaged evolution in binary black-hole systems | 25 | 27 | 27 |
 | **79** | Nealon | 2022 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: disc breaking and critical obliquity | 26 | 19 | 26 |
@@ -216,4 +216,4 @@
 
 
 <br><br>
-*Last updated: 2026-11-24 11:08:24 UTC*
+*Last updated: 2026-11-24 21:03:46 UTC*
