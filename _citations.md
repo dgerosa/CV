@@ -1,15 +1,15 @@
 ## Citation Summary
 
-- **Total ADS citations**: 11624
-- **Total INSPIRE citations**: 12661
-- **Total MAX citations**: 12812
+- **Total ADS citations**: 11631
+- **Total INSPIRE citations**: 12662
+- **Total MAX citations**: 12815
 - **h-index**: 51
 
 ## Paper list sorted by citation count
 
 | # | Author | Year | Title | ADS | INSPIRE | MAX |
 |---|--------|------|-------|-----|---------|-----|
-| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1598 | 1798 | 1798 |
+| **1** | Berti | 2015 | Testing general relativity with present and future astrophysical observations | 1598 | 1799 | 1799 |
 | **2** | Barack | 2019 | Black holes, gravitational waves and fundamental physics: a roadmap | 955 | 1052 | 1052 |
 | **3** | Amaro-Seoane | 2022 | Astrophysics with the Laser Interferometer Space Antenna | 993 | 884 | 993 |
 | **4** | Varma | 2019 | Surrogate models for precessing binary black hole simulations with unequal masses | 537 | 563 | 563 |
@@ -95,15 +95,15 @@
 | **84** | Mould | 2020 | Endpoint of the up-down instability in precessing binary black holes | 19 | 24 | 24 |
 | **85** | Varma | 2021 | Up-down instability of binary black holes in numerical relativity | 18 | 23 | 23 |
 | **86** | Gerosa | 2017 | On the equal-mass limit of precessing black-hole binaries | 19 | 23 | 23 |
-| **87** | Cole | 2026 | Sequential simulation-based inference for extreme mass ratio inspirals | 18 | 22 | 22 |
+| **87** | Cole | 2026 | Sequential simulation-based inference for extreme mass ratio inspirals | 20 | 22 | 22 |
 | **88** | Nobili | 2025 | Ringdown mode amplitudes of precessing binary black holes | 22 | 22 | 22 |
 | **89** | Boschini | 2023 | Extending black-hole remnant surrogate models to extreme mass ratios | 18 | 22 | 22 |
 | **90** | Mould | 2023 | One to many: comparing single gravitational-wave events to astrophysical populations | 19 | 21 | 21 |
-| **91** | Pacilio | 2024 | Catalog variance of testing general relativity with gravitational-wave data | 18 | 20 | 20 |
-| **92** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 20 | 20 | 20 |
-| **93** | Fumagalli | 2025 | Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory | 17 | 19 | 19 |
-| **94** | Mould | 2024 | Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs | 18 | 19 | 19 |
-| **95** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 18 | 18 | 18 |
+| **91** | Speri | 2026 | Single-harmonic search for extreme mass-ratio inspirals | 20 | 18 | 20 |
+| **92** | Pacilio | 2024 | Catalog variance of testing general relativity with gravitational-wave data | 18 | 20 | 20 |
+| **93** | Gerosa | 2020 | The Bardeen-Petterson effect in accreting supermassive black-hole binaries: a systematic approach | 20 | 20 | 20 |
+| **94** | Fumagalli | 2025 | Non-adiabatic dynamics of eccentric black-hole binaries in post-Newtonian theory | 17 | 19 | 19 |
+| **95** | Mould | 2024 | Calibrating signal-to-noise ratio detection thresholds using gravitational-wave catalogs | 18 | 19 | 19 |
 | **96** | Stegmann | 2025 | Distinguishing the origin of eccentric black-hole mergers with gravitational-wave spin measurements | 18 | 18 | 18 |
 | **97** | Tenorio | 2025 | Where did heavy binaries go? Gravitational-wave populations using Delaunay triangulation with optimized complexity | 16 | 16 | 16 |
 | **98** | Gerosa | 2017 | filltex: Automatic queries to ADS and INSPIRE databases to fill LaTex bibliography | 13 | 16 | 16 |
@@ -117,7 +117,7 @@
 | **106** | Spadaro | 2025 | Stars or gas? Constraining the hardening processes of massive black-hole binaries with LISA | 11 | 12 | 12 |
 | **107** | Kritos | 2024 | Minimum gas mass accreted by spinning intermediate-mass black holes in stellar clusters | 9 | 12 | 12 |
 | **108** | De Renzis | 2022 | Characterization of merging black holes with two precessing spins | 9 | 12 | 12 |
-| **109** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 7 | 11 | 11 |
+| **109** | Spadaro | 2026 | Accurate and efficient simulation-based inference for massive black-hole binaries with LISA | 10 | 11 | 11 |
 | **110** | Gerosa | 2025 | Which is which? Identification of the two compact objects in gravitational-wave binaries | 10 | 11 | 11 |
 | **111** | Tenorio | 2026 | Exceptionality of exceptional gravitational-wave events | 9 | 8 | 9 |
 | **112** | Mould | 2026 | Gravitational-wave astronomy requires population-informed parameter estimation | 9 | 9 | 9 |
@@ -216,4 +216,4 @@
 
 
 <br><br>
-*Last updated: 2026-11-26 09:42:40 UTC*
+*Last updated: 2026-11-27 09:49:01 UTC*
